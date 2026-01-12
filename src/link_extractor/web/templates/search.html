@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% if query %}: {{ query }}{% endif %} - Links Browser{% endblock %}
+
+{% block content %}
+<h1>Search</h1>
+
+<form action="{{ url_for('main.search') }}" method="get" class="search-box">
+    <input type="text" name="q" value="{{ query }}" placeholder="Search titles, descriptions, summaries..." autofocus>
+    <button type="submit">Search</button>
+</form>
+
+{% if query %}
+<p class="results-count">Found {{ total }} result{% if total != 1 %}s{% endif %} for "{{ query }}"</p>
+
+{% for link in results %}
+<div class="link-card">
+    <div class="link-header">
+        <a href="{{ link.url }}" target="_blank" class="link-title">
+            {{ link.page_title or link.title or link.description or link.url }}
+        </a>
+        <span class="link-domain">{{ link.domain | domain_display }}</span>
+    </div>
+    {% if link.description %}
+    <p class="link-description">{{ link.description | truncate_smart(200) }}</p>
+    {% endif %}
+    {% if link.summary %}
+    <p class="link-summary">{{ link.summary | truncate_smart(200) }}</p>
+    {% endif %}
+    <div class="link-meta">
+        <span class="link-date">{{ link.source_date }}</span>
+        {% if link_tags.get(link.id) %}
+        <span class="link-tags">
+            {% for tag_name, tag_category, _ in link_tags[link.id][:5] %}
+            <a href="{{ url_for('main.browse', tag=tag_name) }}" class="tag tag-{{ tag_category | replace('_', '-') }} tag-small">{{ tag_name }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
+        <a href="{{ url_for('main.link_detail', link_id=link.id) }}" class="link-detail-link">Details</a>
+    </div>
+</div>
+{% else %}
+<p class="empty-state">No results found for "{{ query }}".</p>
+{% endfor %}
+
+{% if total_pages > 1 %}
+<div class="pagination">
+    {% if page > 1 %}
+    <a href="{{ url_for('main.search', q=query, page=page-1) }}" class="btn">&laquo; Previous</a>
+    {% endif %}
+    <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
+    {% if page < total_pages %}
+    <a href="{{ url_for('main.search', q=query, page=page+1) }}" class="btn">Next &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
+
+{% endif %}
+{% endblock %}

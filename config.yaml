@@ -1,0 +1,8 @@
+# Set DAILY_NOTES_PATH in .env file or environment
+# daily_notes_path: /path/to/daily/notes
+database_path: ./links.db
+rate_limit_per_second: 1.0
+fetch_timeout_seconds: 30
+bedrock_model: us.anthropic.claude-3-5-sonnet-20241022-v2:0
+bedrock_region: us-east-1
+batch_size: 50

@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block title %}Browse Links - Links Browser{% endblock %}
+
+{% block content %}
+<h1>Browse Links</h1>
+
+<div class="browse-layout">
+    <aside class="filters">
+        <h3>Filters</h3>
+        <form action="{{ url_for('main.browse') }}" method="get" class="filter-form" id="filter-form">
+            <div class="filter-group">
+                <label for="sort">Sort by</label>
+                <select name="sort" id="sort" onchange="this.form.submit()">
+                    <option value="date_desc" {% if sort == 'date_desc' %}selected{% endif %}>Date (newest)</option>
+                    <option value="date_asc" {% if sort == 'date_asc' %}selected{% endif %}>Date (oldest)</option>
+                    <option value="title" {% if sort == 'title' %}selected{% endif %}>Title</option>
+                    <option value="domain" {% if sort == 'domain' %}selected{% endif %}>Domain</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Tags {% if selected_tags %}({{ selected_tags | length }} selected){% endif %}</label>
+                {% if selected_tags %}
+                <div class="selected-tags">
+                    {% for tag_name in selected_tags %}
+                    <span class="tag tag-small selected-tag">{{ tag_name }}</span>
+                    {% endfor %}
+                    <button type="button" class="btn-clear-tags" onclick="clearTags()">Clear</button>
+                </div>
+                {% endif %}
+                <div class="tag-checkboxes">
+                    {% for name, category, count in all_tags %}
+                    <label class="tag-checkbox">
+                        <input type="checkbox" name="tag" value="{{ name }}"
+                               {% if name in selected_tags %}checked{% endif %}
+                               onchange="this.form.submit()">
+                        <span class="tag tag-{{ category | replace('_', '-') }} tag-small">{{ name }} ({{ count }})</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label for="domain">Domain</label>
+                <select name="domain" id="domain" onchange="this.form.submit()">
+                    <option value="">All domains</option>
+                    {% for name, count in all_domains %}
+                    <option value="{{ name }}" {% if domain == name %}selected{% endif %}>{{ name | domain_display }} ({{ count }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="date_from">From date</label>
+                <input type="date" name="date_from" id="date_from" value="{{ date_from or '' }}">
+            </div>
+
+            <div class="filter-group">
+                <label for="date_to">To date</label>
+                <input type="date" name="date_to" id="date_to" value="{{ date_to or '' }}">
+            </div>
+
+            <button type="submit" class="btn">Apply</button>
+            {% if selected_tags or domain or date_from or date_to %}
+            <a href="{{ url_for('main.browse', sort=sort) }}" class="btn btn-secondary">Clear all</a>
+            {% endif %}
+        </form>
+    </aside>
+
+    <div class="results">
+        <p class="results-count">
+            {{ total }} link{% if total != 1 %}s{% endif %}
+            {% if selected_tags %} with tags: {{ selected_tags | join(', ') }}{% endif %}
+            {% if domain %} from {{ domain }}{% endif %}
+        </p>
+
+        {% for link in links %}
+        <div class="link-card">
+            <div class="link-header">
+                <a href="{{ link.url }}" target="_blank" class="link-title">
+                    {{ link.page_title or link.title or link.description or link.url }}
+                </a>
+                <span class="link-domain">{{ link.domain | domain_display }}</span>
+            </div>
+            {% if link.description %}
+            <p class="link-description">{{ link.description | truncate_smart(200) }}</p>
+            {% endif %}
+            {% if link.summary %}
+            <p class="link-summary">{{ link.summary | truncate_smart(200) }}</p>
+            {% endif %}
+            <div class="link-meta">
+                <span class="link-date">{{ link.source_date }}</span>
+                {% if link_tags.get(link.id) %}
+                <span class="link-tags">
+                    {% for tag_name, tag_category, _ in link_tags[link.id][:5] %}
+                    <a href="{{ url_for('main.browse', tag=tag_name, sort=sort) }}" class="tag tag-{{ tag_category | replace('_', '-') }} tag-small">{{ tag_name }}</a>
+                    {% endfor %}
+                </span>
+                {% endif %}
+                <a href="{{ url_for('main.link_detail', link_id=link.id) }}" class="link-detail-link">Details</a>
+            </div>
+        </div>
+        {% else %}
+        <p class="empty-state">No links match your filters.</p>
+        {% endfor %}
+
+        {% if total_pages > 1 %}
+        <div class="pagination">
+            {% if page > 1 %}
+            <a href="{{ url_for('main.browse', page=page-1, sort=sort, domain=domain, date_from=date_from, date_to=date_to) }}{% for t in selected_tags %}&tag={{ t }}{% endfor %}" class="btn">&laquo; Previous</a>
+            {% endif %}
+            <span class="page-info">Page {{ page }} of {{ total_pages }}</span>
+            {% if page < total_pages %}
+            <a href="{{ url_for('main.browse', page=page+1, sort=sort, domain=domain, date_from=date_from, date_to=date_to) }}{% for t in selected_tags %}&tag={{ t }}{% endfor %}" class="btn">Next &raquo;</a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+function clearTags() {
+    document.querySelectorAll('input[name="tag"]').forEach(el => {
+        if (el.type === 'checkbox') el.checked = false;
+        if (el.type === 'hidden') el.remove();
+    });
+    document.getElementById('filter-form').submit();
+}
+</script>
+{% endblock %}
