@@ -1,6 +1,36 @@
 {
-  "exported_at": "2026-01-12T19:36:06.713100",
+  "exported_at": "2026-01-12T21:37:41.369465",
   "links": [
+    {
+      "id": 703,
+      "url": "https://github.com/haykgrigo3/TimeCapsuleLLM",
+      "title": null,
+      "description": "An LLM trained only on data from certain time periods to reduce modern bias",
+      "summary": "# Summary\n\n**TimeCapsuleLLM** is a GitHub project that trains language models from scratch exclusively on historical data from specific time periods and locations to eliminate modern bias and authentically capture the language, vocabulary, and worldview of that era. The project has released multiple versions (v0-v2) with progressively improving results, currently trained on 90GB of 1800-1875 London texts, demonstrating capabilities like recalling historical events and generating era-appropriate writing styles. The methodology, called Selective Temporal Training (STT), differs from fine-tuning approaches because it trains from scratch rather than building on pre-trained models, ensuring the AI genuinely reflects historical perspectives rather than merely mimicking them.",
+      "domain": "github.com",
+      "source_date": "2026-01-12",
+      "page_title": "GitHub - haykgrigo3/TimeCapsuleLLM: A LLM trained only on data from certain time periods to reduce modern bias",
+      "tags": [
+        "github-repo",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 702,
+      "url": "https://claude.com/blog/cowork-research-preview",
+      "title": null,
+      "description": "Cowork - Claude Code for the rest of your work",
+      "summary": "# Summary\n\nAnthropic has introduced **Cowork**, a new feature that extends Claude's capabilities beyond coding to help anyone automate everyday tasks like file organization, data compilation, and document creation. Available as a research preview for Claude Max subscribers on macOS, Cowork gives Claude access to designated folders on your computer, allowing it to autonomously complete work while keeping users informed and in control. The tool emphasizes safety through permission controls and user oversight, though users should be aware of potential risks like prompt injections and accidental file deletion.",
+      "domain": "claude.com",
+      "source_date": "2026-01-12",
+      "page_title": "Introducing Cowork | Claude",
+      "tags": [
+        "ai",
+        "cli-tool",
+        "security"
+      ]
+    },
     {
       "id": 4,
       "url": "https://www.npr.org/2023/06/14/1181870708/book-review-sarah-viren-to-name-the-bigger-lie-an-investigation-of-truth",
@@ -6463,7 +6493,9 @@
       "domain": "archive.is",
       "source_date": "2025-05-21",
       "page_title": "Overview of the Ada Computer Language Competition",
-      "tags": []
+      "tags": [
+        "academic-paper"
+      ]
     },
     {
       "id": 459,
@@ -9762,12 +9794,12 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 131
+      "count": 133
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 124
+      "count": 125
     },
     {
       "name": "music",
@@ -9777,12 +9809,12 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 103
+      "count": 104
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 102
+      "count": 103
     },
     {
       "name": "web-dev",
@@ -9797,7 +9829,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 93
+      "count": 94
     },
     {
       "name": "python",
@@ -9832,7 +9864,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 28
+      "count": 29
     },
     {
       "name": "javascript",
@@ -9957,7 +9989,7 @@
     },
     {
       "domain": "github.com",
-      "count": 63
+      "count": 64
     },
     {
       "domain": "www.nytimes.com",
@@ -10345,6 +10377,10 @@
     },
     {
       "domain": "citeseerx.ist.psu.edu",
+      "count": 1
+    },
+    {
+      "domain": "claude.com",
       "count": 1
     },
     {

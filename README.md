@@ -108,6 +108,16 @@ uv run link-extractor web              # Start at http://127.0.0.1:5000
 uv run link-extractor web --port 8080  # Custom port
 ```
 
+### Export to JSON
+
+```bash
+# Export all links to JSON for static site
+uv run link-extractor export-json
+
+# Custom output path
+uv run link-extractor export-json --output ./build/data.json
+```
+
 ## Project Structure
 
 ```
