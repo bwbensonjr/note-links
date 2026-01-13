@@ -324,7 +324,7 @@ def stats(config: str) -> None:
 @cli.command()
 @click.option("--config", "-c", default="config.yaml", help="Config file path")
 @click.option("--host", default="127.0.0.1", help="Host to bind")
-@click.option("--port", "-p", default=5000, type=int, help="Port to bind")
+@click.option("--port", "-p", default=5001, type=int, help="Port to bind")
 @click.option("--debug/--no-debug", default=False, help="Enable debug mode")
 def web(config: str, host: str, port: int, debug: bool) -> None:
     """Start the web interface."""
