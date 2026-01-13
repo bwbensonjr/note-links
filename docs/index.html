@@ -317,8 +317,10 @@
             if (!response.ok) throw new Error("Failed to load data.json");
             const data = await response.json();
             links.value = data.links || [];
-            allTags.value = data.all_tags || [];
-            allDomains.value = data.all_domains || [];
+            // Sort tags alphabetically
+            allTags.value = (data.all_tags || []).sort((a, b) => a.name.localeCompare(b.name));
+            // Only include domains with more than one link
+            allDomains.value = (data.all_domains || []).filter(d => d.count > 1);
             exportedAt.value = data.exported_at;
           } catch (e) {
             error.value = e.message;
