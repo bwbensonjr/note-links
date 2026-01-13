@@ -11,6 +11,9 @@ note-links/
 ├── config.yaml                 # Runtime configuration (rate limits, Bedrock settings)
 ├── pyproject.toml              # Dependencies and CLI entry point
 ├── links.db                    # SQLite3 database (created on first run)
+├── docs/
+│   ├── index.html              # Static site (Vue.js SPA for GitHub Pages)
+│   └── data.json               # Exported link data for static site
 ├── src/link_extractor/
 │   ├── main.py                 # CLI and pipeline orchestration
 │   ├── config.py               # Configuration loading (.env + YAML)
@@ -26,13 +29,9 @@ note-links/
 │   │   └── bedrock.py          # AWS Bedrock Claude implementation
 │   ├── tagging/
 │   │   └── llm_tagger.py       # LLM-based auto-tagging via Bedrock
-│   ├── storage/
-│   │   ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
-│   │   └── database.py         # SQLite operations with FTS5
-│   └── web/
-│       ├── app.py              # Flask app factory
-│       ├── routes.py           # Web routes
-│       └── templates/          # HTML templates
+│   └── storage/
+│       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
+│       └── database.py         # SQLite operations with FTS5
 └── tests/
 ```
 
@@ -174,8 +173,8 @@ uv run link-extractor by-tag TAG_NAME    # List links by tag
 uv run link-extractor tags               # List all tags with counts
 uv run link-extractor stats              # Show database statistics
 
-# Web interface
-uv run link-extractor web [--port 5000]
+# Export for static site
+uv run link-extractor export-json        # Export to docs/data.json
 ```
 
 ## Extending

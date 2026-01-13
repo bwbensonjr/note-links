@@ -12,7 +12,7 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 - **Auto-Tagging**: LLM-based categorization (programming languages, technical topics, culture)
 - **Full-Text Search**: SQLite FTS5 for fast searching across titles, descriptions, content, and summaries
 - **Incremental Processing**: Only processes new/pending items on each run
-- **Web Interface**: Browse and search links in a web UI
+- **Static Web Interface**: Browse and search links via a static site (Vue.js SPA hosted on GitHub Pages)
 
 ## Installation
 
@@ -101,22 +101,17 @@ uv run link-extractor tags
 uv run link-extractor stats
 ```
 
-### Web interface
+### Export to JSON (for static site)
 
 ```bash
-uv run link-extractor web              # Start at http://127.0.0.1:5000
-uv run link-extractor web --port 8080  # Custom port
-```
-
-### Export to JSON
-
-```bash
-# Export all links to JSON for static site
+# Export all links to JSON for the static site
 uv run link-extractor export-json
 
 # Custom output path
 uv run link-extractor export-json --output ./build/data.json
 ```
+
+The static site is located in `docs/` and reads from `docs/data.json`. After exporting, commit and push to update the GitHub Pages site.
 
 ## Project Structure
 
@@ -127,6 +122,9 @@ note-links/
 ├── config.yaml                 # Runtime configuration
 ├── pyproject.toml              # Dependencies and CLI entry point
 ├── links.db                    # SQLite database (created on first run)
+├── docs/
+│   ├── index.html              # Static site (Vue.js SPA)
+│   └── data.json               # Exported link data for static site
 ├── src/link_extractor/
 │   ├── main.py                 # CLI and pipeline orchestration
 │   ├── config.py               # Configuration loading (.env + YAML)
@@ -142,13 +140,9 @@ note-links/
 │   │   └── bedrock.py          # AWS Bedrock Claude implementation
 │   ├── tagging/
 │   │   └── llm_tagger.py       # LLM-based auto-tagging via Bedrock
-│   ├── storage/
-│   │   ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
-│   │   └── database.py         # SQLite operations with FTS5
-│   └── web/
-│       ├── app.py              # Flask app factory
-│       ├── routes.py           # Web routes
-│       └── templates/          # HTML templates
+│   └── storage/
+│       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
+│       └── database.py         # SQLite operations with FTS5
 └── tests/
 ```
 
