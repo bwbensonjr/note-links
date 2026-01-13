@@ -2,7 +2,9 @@
 
 import asyncio
 import hashlib
+import json
 import logging
+from datetime import datetime
 from pathlib import Path
 
 import click
@@ -407,6 +409,61 @@ def refetch(config: str, limit: int | None, dry_run: bool) -> None:
         db.reset_fetch_status(link.id)  # type: ignore
 
     click.echo(f"Reset {len(links)} links. Run 'extract' to refetch them.")
+
+
+@cli.command("export-json")
+@click.option("--config", "-c", default="config.yaml", help="Config file path")
+@click.option("--output", "-o", default="docs/data.json", help="Output JSON file path")
+def export_json(config: str, output: str) -> None:
+    """Export links to JSON for static site."""
+    cfg = Config.from_yaml(config)
+    db = Database(cfg.database_path)
+
+    # Get all links with content
+    links = db.get_all_links_with_content(limit=None)
+    click.echo(f"Exporting {len(links)} links...")
+
+    # Build export data
+    export_links = []
+    for link in links:
+        tags = db.get_tags_for_link(link.id)  # type: ignore
+        tag_names = [name for name, category, confidence in tags]
+
+        export_links.append({
+            "id": link.id,
+            "url": link.url,
+            "title": link.title,
+            "description": link.description,
+            "summary": link.summary,
+            "domain": link.domain,
+            "source_date": str(link.source_date) if link.source_date else None,
+            "page_title": link.page_title,
+            "tags": tag_names,
+        })
+
+    # Get all tags and domains for filters
+    all_tags = db.get_all_tags()
+    all_domains = db.get_all_domains()
+
+    export_data = {
+        "exported_at": datetime.now().isoformat(),
+        "links": export_links,
+        "all_tags": [{"name": name, "category": cat, "count": count} for name, cat, count in all_tags],
+        "all_domains": [{"domain": domain, "count": count} for domain, count in all_domains],
+    }
+
+    # Ensure output directory exists
+    output_path = Path(output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Write JSON
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(export_data, f, indent=2, ensure_ascii=False)
+
+    click.echo(f"Exported to {output_path}")
+    click.echo(f"  Links: {len(export_links)}")
+    click.echo(f"  Tags: {len(all_tags)}")
+    click.echo(f"  Domains: {len(all_domains)}")
 
 
 if __name__ == "__main__":
