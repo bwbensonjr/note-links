@@ -1,6 +1,7 @@
 """AWS Bedrock Claude summarizer."""
 
 import json
+import re
 from typing import Any
 
 import boto3
@@ -36,6 +37,14 @@ class BedrockSummarizer(BaseSummarizer):
     def model_name(self) -> str:
         return self.model_id
 
+    def _clean_summary(self, text: str) -> str:
+        """Remove common header prefixes from summary text."""
+        # Remove markdown headers like "# Summary", "# WikiData Summary", etc.
+        text = re.sub(r"^#{1,3}\s+.*?Summary\s*\n+", "", text, flags=re.IGNORECASE)
+        # Remove "Summary:" or "WikiData Summary:" style prefixes (no markdown)
+        text = re.sub(r"^.*?Summary:\s*", "", text, flags=re.IGNORECASE)
+        return text.strip()
+
     async def summarize(
         self,
         content: str,
@@ -50,6 +59,7 @@ class BedrockSummarizer(BaseSummarizer):
             content = content[:max_content] + "..."
 
         prompt = f"""Summarize this web page in 2-3 sentences. Focus on the main topic and key takeaways.
+Do not include any headers, titles, or prefixes like "Summary:" in your response - just provide the summary text directly.
 
 Title: {title or 'Unknown'}
 URL: {url or 'Unknown'}
@@ -84,4 +94,5 @@ Summary:"""
         )
 
         response_body = json.loads(response["body"].read())
-        return response_body["content"][0]["text"].strip()
+        raw_text = response_body["content"][0]["text"].strip()
+        return self._clean_summary(raw_text)

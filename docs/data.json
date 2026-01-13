@@ -1,6 +1,50 @@
 {
-  "exported_at": "2026-01-13T07:43:24.207767",
+  "exported_at": "2026-01-13T09:26:38.090924",
   "links": [
+    {
+      "id": 706,
+      "url": "https://www.nature.com/articles/d41586-025-04150-w",
+      "title": null,
+      "description": "‘I rarely get outside’: scientists ditch fieldwork in the age of AI",
+      "summary": "Scientists increasingly rely on AI, digitized specimens, sensors, and remote data analysis rather than traditional fieldwork to study ecology, enabling unprecedented monitoring of biodiversity at scales previously impossible. While this technological revolution offers significant potential for understanding ecological crises and global patterns, some ecologists worry that the shift away from hands-on fieldwork risks losing intimate knowledge of nature, introducing bias and oversimplification, and reducing engagement with local communities essential for conservation. The debate reflects a fundamental tension between the efficiency and scale of data-driven science and the irreplaceable insights gained from direct experience with the natural world.",
+      "domain": "www.nature.com",
+      "source_date": "2026-01-13",
+      "page_title": "‘I rarely get outside’: scientists ditch fieldwork in the age of AI",
+      "tags": [
+        "ai",
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 705,
+      "url": "https://s3data.computerhistory.org/brochures/cray.cray1.1977.102638650.pdf",
+      "title": null,
+      "description": "The Cray-1 Computer System",
+      "summary": "The Cray-1 Computer System, introduced in 1977 by Cray Research, Inc., is a large-scale general-purpose supercomputer featuring both vector and scalar processing capabilities with a 12.5 nanosecond clock period and the ability to execute over 80 million floating-point operations per second. Designed primarily for the scientific community, it excels at solving complex computational problems in fields such as weather forecasting, aircraft design, nuclear research, and seismic analysis that require extensive data analysis and physical simulations. The system's configuration includes a central processor unit with 72-bit word memory (up to 1 million words arranged in 16 banks), twelve functional units, twenty-four input/output channels, and innovative error-correction technology, making it capable of performing computations previously infeasible for researchers.",
+      "domain": "s3data.computerhistory.org",
+      "source_date": "2026-01-13",
+      "page_title": "The Cray-1 Computer System, 1977",
+      "tags": [
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 704,
+      "url": "https://cray.modularcircuits.com/",
+      "title": null,
+      "description": "Login to an emulated Cray computer via SSH",
+      "summary": "This website provides access to an emulated Cray computer that users can log into via SSH or an in-browser client using the credentials crayusr/seymour. The simulator supports both command-line and graphical applications through X-forwarding, file transfers via SCP, and includes links to project documentation, source code on GitHub, and archived OS images for replication.",
+      "domain": "cray.modularcircuits.com",
+      "source_date": "2026-01-13",
+      "page_title": "Cray simulator",
+      "tags": [
+        "emulator",
+        "cli-tool",
+        "github-repo"
+      ]
+    },
     {
       "id": 703,
       "url": "https://github.com/haykgrigo3/TimeCapsuleLLM",
@@ -1843,7 +1887,10 @@
       "domain": "gwern.net",
       "source_date": "2025-11-29",
       "page_title": "Language is primarily a tool for communication rather than thought",
-      "tags": []
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
     },
     {
       "id": 126,
@@ -4840,7 +4887,9 @@
       "domain": "www.amazon.com",
       "source_date": "2025-07-18",
       "page_title": "Amazon.com: Elgato Thunderbolt 3 Dock - With 50 cm Thunderbolt cable, 40Gb/s, dual 4K support, 2x Thunderbolt 3 (USB-C), 3x USB 3.0, Audio Input and Output, Gigabit Ethernet, Aluminum Chassis : Electronics",
-      "tags": []
+      "tags": [
+        "devops"
+      ]
     },
     {
       "id": 338,
@@ -9794,12 +9843,12 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 133
+      "count": 134
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 125
+      "count": 128
     },
     {
       "name": "music",
@@ -9809,12 +9858,12 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 104
+      "count": 105
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 103
+      "count": 104
     },
     {
       "name": "web-dev",
@@ -9839,22 +9888,22 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 77
+      "count": 78
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 60
+      "count": 61
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 58
+      "count": 59
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "database",
@@ -9902,14 +9951,14 @@
       "count": 10
     },
     {
-      "name": "politics",
-      "category": "culture",
+      "name": "emulator",
+      "category": "technical_topic",
       "count": 10
     },
     {
-      "name": "emulator",
-      "category": "technical_topic",
-      "count": 9
+      "name": "politics",
+      "category": "culture",
+      "count": 10
     },
     {
       "name": "typescript",
@@ -10137,6 +10186,10 @@
     },
     {
       "domain": "www.instagram.com",
+      "count": 2
+    },
+    {
+      "domain": "www.nature.com",
       "count": 2
     },
     {
@@ -10413,6 +10466,10 @@
     },
     {
       "domain": "cprimozic.net",
+      "count": 1
+    },
+    {
+      "domain": "cray.modularcircuits.com",
       "count": 1
     },
     {
@@ -11048,6 +11105,10 @@
       "count": 1
     },
     {
+      "domain": "s3data.computerhistory.org",
+      "count": 1
+    },
+    {
       "domain": "sandbox.bio",
       "count": 1
     },
@@ -11457,10 +11518,6 @@
     },
     {
       "domain": "www.minesnewsroom.com",
-      "count": 1
-    },
-    {
-      "domain": "www.nature.com",
       "count": 1
     },
     {
