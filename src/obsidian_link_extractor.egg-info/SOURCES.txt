@@ -18,9 +18,6 @@ src/link_extractor/summarization/base.py
 src/link_extractor/summarization/bedrock.py
 src/link_extractor/tagging/__init__.py
 src/link_extractor/tagging/llm_tagger.py
-src/link_extractor/web/__init__.py
-src/link_extractor/web/app.py
-src/link_extractor/web/routes.py
 src/obsidian_link_extractor.egg-info/PKG-INFO
 src/obsidian_link_extractor.egg-info/SOURCES.txt
 src/obsidian_link_extractor.egg-info/dependency_links.txt

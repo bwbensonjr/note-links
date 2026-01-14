@@ -9,7 +9,6 @@ Requires-Dist: beautifulsoup4>=4.12.0
 Requires-Dist: pymupdf>=1.24.0
 Requires-Dist: click>=8.1.0
 Requires-Dist: pyyaml>=6.0
-Requires-Dist: flask>=3.0.0
 Requires-Dist: python-dotenv>=1.0.0
 Provides-Extra: dev
 Requires-Dist: pytest>=7.4.0; extra == "dev"
