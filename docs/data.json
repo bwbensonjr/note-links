@@ -1,6 +1,115 @@
 {
-  "exported_at": "2026-01-14T07:16:45.730626",
+  "exported_at": "2026-01-15T06:57:32.209071",
   "links": [
+    {
+      "id": 715,
+      "url": "https://craftinginterpreters.com/",
+      "title": null,
+      "description": "Crafting Interpreters",
+      "summary": "Crafting Interpreters is a comprehensive book that teaches readers how to design and build their own programming language from scratch, covering both high-level concepts like parsing and semantics as well as low-level implementation details such as bytecode and garbage collection. The book guides you through creating a full-featured scripting language with features including dynamic typing, lexical scope, first-class functions, classes, and inheritance, resulting in clean and efficient code you fully understand. Available in multiple formats including print, eBook, Kindle, and free online, the book was written by Robert Nystrom, who works on the Dart language at Google.",
+      "domain": "craftinginterpreters.com",
+      "source_date": "2026-01-15",
+      "page_title": "Crafting Interpreters",
+      "tags": [
+        "compilers",
+        "tutorial",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 714,
+      "url": "https://cursor.com/blog/scaling-agents",
+      "title": null,
+      "description": "Scaling long-running autonomous coding",
+      "summary": "Cursor experimented with running hundreds of autonomous coding agents in parallel for weeks-long projects, discovering that a hierarchical system with specialized \"planner\" and \"worker\" roles significantly outperformed flat coordination structures. Their key findings showed that model selection matters greatly for long-running tasks, simpler systems often work better than complex ones, and prompt engineering is critical to coordinating multi-agent work effectively. The agents successfully completed ambitious projects like building a web browser from scratch (1M+ lines of code) and migrating large codebases, demonstrating that scaling autonomous coding through multi-agent systems is more feasible than initially expected.",
+      "domain": "cursor.com",
+      "source_date": "2026-01-15",
+      "page_title": "Scaling long-running autonomous coding · Cursor",
+      "tags": [
+        "ai",
+        "llm",
+        "distributed-systems",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 713,
+      "url": "https://github.com/cjpais/Handy",
+      "title": null,
+      "description": "Open source, privacy-oriented speech-to-text",
+      "summary": "Handy is a free, open-source, offline speech-to-text application that prioritizes privacy by processing audio locally on your computer using configurable keyboard shortcuts. Built with Tauri (Rust and React), it supports multiple transcription models including Whisper and Parakeet, works across Windows, macOS, and Linux, and is designed to be extensible and community-driven rather than feature-complete. The project is actively developed with known limitations on certain system configurations, particularly with Whisper model crashes on Windows/Linux and limited Wayland support on Linux.",
+      "domain": "github.com",
+      "source_date": "2026-01-15",
+      "page_title": "GitHub - cjpais/Handy: A free, open source, and extensible speech-to-text application that works completely offline.",
+      "tags": [
+        "github-repo",
+        "rust",
+        "cli-tool",
+        "typescript",
+        "security"
+      ]
+    },
+    {
+      "id": 712,
+      "url": "https://news.ycombinator.com/item?id=46618714",
+      "title": null,
+      "description": "Personal websites",
+      "summary": "A Hacker News user is building a community-maintained directory of personal websites and is crowdsourcing submissions from the community. The thread features numerous examples of personal websites shared by users, ranging from blogs and portfolios to specialized projects like garden design tools and thesaurus sites, with discussions about design choices and features. The project aims to grow beyond its current small collection by accepting quality personal websites that have been well-received in past HN discussions.",
+      "domain": "news.ycombinator.com",
+      "source_date": "2026-01-15",
+      "page_title": "Ask HN: Share your personal website | Hacker News",
+      "tags": [
+        "social-media",
+        "web-dev",
+        "video"
+      ]
+    },
+    {
+      "id": 711,
+      "url": "https://carefulwords.com",
+      "title": null,
+      "description": "Careful Words - A little more than a thesaurus",
+      "summary": "Careful Words is an interactive word exploration tool created by Simon Sarris that goes beyond a traditional thesaurus by helping users discover nuanced connections between words and concepts. The platform allows users to explore semantically related terms and their deeper meanings through an intuitive interface, making it useful for writers, thinkers, and anyone interested in language and its subtleties.",
+      "domain": "carefulwords.com",
+      "source_date": "2026-01-15",
+      "page_title": "Careful Words",
+      "tags": [
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 718,
+      "url": "https://github.com/cosinusalpha/webctl",
+      "title": null,
+      "description": "webctl - A CLI for browser automation",
+      "summary": "webctl is a command-line tool for browser automation designed for both AI agents and humans, built on Playwright and Chromium. Unlike MCP-based alternatives, webctl gives users control over what information enters their context by allowing filtering and piping of output through Unix tools before processing, avoiding context bloat. The tool provides semantic element targeting using ARIA roles, session persistence, and straightforward commands for navigation, observation, interaction, and waiting, making it suitable for scripting, debugging, or integrating with AI agents like Claude.",
+      "domain": "github.com",
+      "source_date": "2026-01-14",
+      "page_title": "GitHub - cosinusalpha/webctl: Browser automation via CLI — for humans and agents",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "web-dev",
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": 717,
+      "url": "https://www.chroma-explorer.com/",
+      "title": "https://www.chroma-explorer.com",
+      "description": "Chroma Explorer",
+      "summary": "Chroma Explorer is a modern native desktop client for ChromaDB that enables users to browse collections, perform semantic searches, and manage vector embeddings through an intuitive macOS interface. Key features include support for multiple database connection profiles, collection management with custom embedding functions, semantic search capabilities, integration with 13+ embedding providers, and document operations like batch management. The application is available for download on macOS 11.0 or later and provides a native user experience with modern design aesthetics.",
+      "domain": "www.chroma-explorer.com",
+      "source_date": "2026-01-14",
+      "page_title": "Chroma Explorer - Modern ChromaDB Desktop Client",
+      "tags": [
+        "database",
+        "llm",
+        "cli-tool"
+      ]
+    },
     {
       "id": 707,
       "url": "https://gleam.run/",
@@ -9876,17 +9985,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 238
+      "count": 240
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 173
+      "count": 174
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 134
+      "count": 136
     },
     {
       "name": "academic-paper",
@@ -9896,6 +10005,16 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
+      "count": 108
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 108
+    },
+    {
+      "name": "web-dev",
+      "category": "technical_topic",
       "count": 106
     },
     {
@@ -9904,34 +10023,24 @@
       "count": 106
     },
     {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 105
-    },
-    {
-      "name": "web-dev",
-      "category": "technical_topic",
-      "count": 102
-    },
-    {
       "name": "social-media",
       "category": "culture",
-      "count": 99
+      "count": 100
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 94
+      "count": 96
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 81
+      "count": 82
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 78
+      "count": 79
     },
     {
       "name": "news",
@@ -9946,22 +10055,22 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 48
+      "count": 49
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 29
+      "count": 30
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 29
+      "count": 30
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 18
+      "count": 19
     },
     {
       "name": "javascript",
@@ -9969,14 +10078,14 @@
       "count": 18
     },
     {
-      "name": "lisp",
+      "name": "rust",
       "category": "programming_language",
       "count": 17
     },
     {
-      "name": "rust",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 16
+      "count": 17
     },
     {
       "name": "c",
@@ -10006,7 +10115,7 @@
     {
       "name": "typescript",
       "category": "programming_language",
-      "count": 8
+      "count": 9
     },
     {
       "name": "scheme",
@@ -10081,11 +10190,11 @@
     },
     {
       "domain": "github.com",
-      "count": 64
+      "count": 66
     },
     {
       "domain": "www.nytimes.com",
-      "count": 20
+      "count": 21
     },
     {
       "domain": "www.youtube.com",
@@ -10104,15 +10213,15 @@
       "count": 11
     },
     {
+      "domain": "news.ycombinator.com",
+      "count": 9
+    },
+    {
       "domain": "arxiv.org",
       "count": 8
     },
     {
       "domain": "bsky.app",
-      "count": 8
-    },
-    {
-      "domain": "news.ycombinator.com",
       "count": 8
     },
     {
@@ -10448,6 +10557,10 @@
       "count": 1
     },
     {
+      "domain": "carefulwords.com",
+      "count": 1
+    },
+    {
       "domain": "carette.xyz",
       "count": 1
     },
@@ -10512,6 +10625,10 @@
       "count": 1
     },
     {
+      "domain": "craftinginterpreters.com",
+      "count": 1
+    },
+    {
       "domain": "cray.modularcircuits.com",
       "count": 1
     },
@@ -10525,6 +10642,10 @@
     },
     {
       "domain": "cs3110.github.io",
+      "count": 1
+    },
+    {
+      "domain": "cursor.com",
       "count": 1
     },
     {
@@ -11416,6 +11537,10 @@
       "count": 1
     },
     {
+      "domain": "www.chroma-explorer.com",
+      "count": 1
+    },
+    {
       "domain": "www.claude.com",
       "count": 1
     },
@@ -11677,6 +11802,10 @@
     },
     {
       "domain": "www.wallpaper.com",
+      "count": 1
+    },
+    {
+      "domain": "www.washingtonpost.com",
       "count": 1
     },
     {
