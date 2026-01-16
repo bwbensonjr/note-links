@@ -313,7 +313,7 @@
         // Load data
         onMounted(async () => {
           try {
-            const response = await fetch("data.json");
+            const response = await fetch("data.json", { cache: "no-store" });
             if (!response.ok) throw new Error("Failed to load data.json");
             const data = await response.json();
             links.value = data.links || [];
