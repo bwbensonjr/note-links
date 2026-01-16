@@ -1,6 +1,51 @@
 {
-  "exported_at": "2026-01-15T06:57:32.209071",
+  "exported_at": "2026-01-16T08:42:47.475900",
   "links": [
+    {
+      "id": 720,
+      "url": "https://github.com/different-ai/openwork",
+      "title": null,
+      "description": "openwork - An open-source alternative to Claude Cowork",
+      "summary": "OpenWork is an open-source desktop application that provides a user-friendly alternative to Claude Cowork, designed for knowledge workers to perform complex tasks without needing command-line expertise. It runs OpenCode under the hood while presenting a guided workflow interface with features like session management, real-time progress tracking, permission controls, and reusable templates. The tool is extensible through plugins and skills, works both locally and remotely, and is available as a native desktop app or web UI.",
+      "domain": "github.com",
+      "source_date": "2026-01-16",
+      "page_title": "GitHub - different-ai/openwork: An open-source alternative to Claude Cowork, powered by OpenCode",
+      "tags": [
+        "github-repo",
+        "ai",
+        "cli-tool",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 719,
+      "url": "https://frontierai.substack.com/p/data-is-your-only-moat",
+      "title": null,
+      "description": "Data is your only moat - How different adoption models drive better applications",
+      "summary": "The article argues that data collection through adoption is the primary competitive advantage in AI applications, illustrated through a 2x2 framework of adoption difficulty versus problem complexity. While easy-to-adopt, easy-to-solve problems like consumer search face fierce competition from well-resourced model providers, hard-to-adopt solutions like enterprise support agents build sustainable moats by embedding themselves deeply into customer systems and accumulating proprietary data about how those organizations work. Coding tools like Cursor succeeded by combining ease of adoption with hard technical problems, enabling rapid data collection through frequent user feedback that drove continuous improvement.",
+      "domain": "frontierai.substack.com",
+      "source_date": "2026-01-16",
+      "page_title": "Data is your only moat",
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": 721,
+      "url": "https://github.com/oaustegard/claude-skills/tree/main/charting-vega-lite",
+      "title": null,
+      "description": "Vega Lite Charting skill for Claude Code",
+      "summary": "This GitHub repository contains a Vega-Lite charting skill designed for Claude Code, enabling users to create visualizations programmatically. The project is part of a larger \"claude-skills\" collection that extends Claude's capabilities with specialized tools and features. The repository has gained 29 stars and 2 forks, indicating community interest in this charting functionality for Claude.",
+      "domain": "github.com",
+      "source_date": "2026-01-15",
+      "page_title": "claude-skills/charting-vega-lite at main · oaustegard/claude-skills · GitHub",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "cli-tool"
+      ]
+    },
     {
       "id": 715,
       "url": "https://craftinginterpreters.com/",
@@ -9995,7 +10040,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 136
+      "count": 138
     },
     {
       "name": "academic-paper",
@@ -10005,17 +10050,17 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 108
+      "count": 110
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 108
+      "count": 110
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 106
+      "count": 108
     },
     {
       "name": "music",
@@ -10030,7 +10075,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 96
+      "count": 97
     },
     {
       "name": "python",
@@ -10190,7 +10235,7 @@
     },
     {
       "domain": "github.com",
-      "count": 66
+      "count": 68
     },
     {
       "domain": "www.nytimes.com",
@@ -10778,6 +10823,10 @@
     },
     {
       "domain": "foundersatwork.posthaven.com",
+      "count": 1
+    },
+    {
+      "domain": "frontierai.substack.com",
       "count": 1
     },
     {
