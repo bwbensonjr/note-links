@@ -1,6 +1,116 @@
 {
-  "exported_at": "2026-01-16T08:42:47.475900",
+  "exported_at": "2026-01-17T19:27:52.730055",
   "links": [
+    {
+      "id": 726,
+      "url": "https://github.com/originalankur/maptoposter",
+      "title": null,
+      "description": "Map to poster",
+      "summary": "MapToPoster is a Python tool that generates beautiful, minimalist map posters for any city worldwide by fetching OpenStreetMap data and rendering it with customizable themes. The project offers 17 pre-built visual themes (ranging from noir to neon cyberpunk to japanese ink) and allows users to control map radius, styling, and create custom themes via JSON configuration. It's designed for easy command-line usage and includes detailed documentation for developers looking to extend functionality with new map layers or themes.",
+      "domain": "github.com",
+      "source_date": "2026-01-17",
+      "page_title": "GitHub - originalankur/maptoposter: Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
+      "tags": [
+        "github-repo",
+        "python",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 725,
+      "url": "https://docker.how/",
+      "title": null,
+      "description": "Docker cheat sheet",
+      "summary": "This resource provides a comprehensive Docker command-line interface (CLI) reference guide organized into eight main categories: Containers, Images, Dockerfile, Volumes, Networks, Compose, and System. It serves as a quick-access cheat sheet for developers to find and copy Docker commands efficiently, with keyboard shortcuts for easy navigation and search functionality. The guide is designed to help users quickly locate the specific Docker commands they need across all major Docker operational areas.",
+      "domain": "docker.how",
+      "source_date": "2026-01-17",
+      "page_title": "Docker Cheat Sheet — The Ultimate CLI Reference",
+      "tags": [
+        "cli-tool",
+        "devops",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 724,
+      "url": "https://www.mintlify.com/blog/install-md-standard-for-llm-executable-installation",
+      "title": null,
+      "description": "install.md - A standard for describing software installs to be performed by an AI agent",
+      "summary": "install.md is a new standard format for writing software installation instructions that AI agents can execute autonomously, addressing the gap between human-readable documentation and agent-executable tasks. The structured markdown file includes clear objectives, verification criteria, and step-by-step instructions that allow LLMs to adapt installation processes to different environments and architectures without the security risks of piping executable scripts. Mintlify has already integrated auto-generation of install.md files across its documentation platform, and developers can also manually create and host these files to enable one-command software installation via LLMs.",
+      "domain": "www.mintlify.com",
+      "source_date": "2026-01-17",
+      "page_title": "install.md: A Standard for LLM-Executable Installation",
+      "tags": [
+        "llm",
+        "ai",
+        "devops",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 723,
+      "url": "https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless",
+      "title": null,
+      "description": "Lies, damned lies, and proofs",
+      "summary": "The article challenges the assumption that formal methods guarantee error-free code, arguing that formal proofs can still be sloppy and fail to prove what they're intended to. The authors highlight key problems: formal models may not be written in ways that theorem provers can easily verify, translations between code and formal systems can introduce semantic gaps, and proofs might accidentally prove trivial or incorrect statements rather than catching real bugs. They conclude that while formal verification is valuable for AI safety, it requires careful attention to these pitfalls rather than serving as an automatic safeguard against mistakes.",
+      "domain": "www.lesswrong.com",
+      "source_date": "2026-01-17",
+      "page_title": "Lies, Damned Lies, and Proofs: Formal Methods are not Slopless — LessWrong",
+      "tags": [
+        "academic-paper",
+        "security",
+        "ai",
+        "compilers"
+      ]
+    },
+    {
+      "id": 722,
+      "url": "https://embedding-shapes.github.io/cursor-implied-success-without-evidence/",
+      "title": null,
+      "description": "A critique of Cursor’s long-running agent claims",
+      "summary": "This critique examines Cursor's January 2026 blog post claiming success with autonomous coding agents that allegedly built a web browser from scratch over a week, generating over 1 million lines of code. However, the author demonstrates that the project never actually compiles—finding dozens of compiler errors, failed GitHub Actions builds, and no working commits in the repository's history—exposing the codebase as non-functional \"AI slop\" rather than engineered code. The post argues that while Cursor never explicitly claims the browser works, they deliberately create an impression of success through vague language and screenshots without providing any reproducible evidence, working build instructions, or even a basic demonstration that the code compiles.",
+      "domain": "embedding-shapes.github.io",
+      "source_date": "2026-01-17",
+      "page_title": "Cursor&apos;s latest &quot;browser experiment&quot; implied success without evidence",
+      "tags": [
+        "github-repo",
+        "compilers",
+        "ai",
+        "news"
+      ]
+    },
+    {
+      "id": 728,
+      "url": "https://nanonets.com/cookbooks/structured-llm-outputs/",
+      "title": null,
+      "description": "Structured LLM outputs",
+      "summary": "While LLMs can generally produce syntactically valid structured outputs like JSON and XML, their probabilistic nature occasionally causes failures that create problems for developers using them programmatically for tasks like data extraction and code generation. This handbook provides a comprehensive guide to ensuring deterministic structured LLM outputs, covering underlying mechanisms, best tools and techniques, deployment strategies, and optimization approaches for latency, cost, and quality. The resource addresses the rapidly evolving field of structured generation by consolidating information from academic papers, blogs, and repositories into a continuously updated living document.",
+      "domain": "nanonets.com",
+      "source_date": "2026-01-16",
+      "page_title": "Structured LLM outputs",
+      "tags": [
+        "llm",
+        "tutorial",
+        "ai"
+      ]
+    },
+    {
+      "id": 727,
+      "url": "https://gwern.net",
+      "title": null,
+      "description": "Gwern's knowledge garden",
+      "summary": "Gwern.net is a comprehensive knowledge garden and essay collection authored by Gwern Branwen, featuring original research and writing on topics spanning AI, psychology, statistics, cryptography, generative models, and numerous other fields. The site is organized by category with popular pieces including work on AI scaling, neural networks for poetry and anime generation, darknet markets, and quantified self-experiments like spaced repetition and cognitive enhancement. The website also provides detailed navigation features, dark mode options, and extensive documentation across scientific, technical, philosophical, and practical domains.",
+      "domain": "gwern.net",
+      "source_date": "2026-01-16",
+      "page_title": "Essays · Gwern.net",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper",
+        "security"
+      ]
+    },
     {
       "id": 720,
       "url": "https://github.com/different-ai/openwork",
@@ -10030,7 +10140,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 240
+      "count": 243
     },
     {
       "name": "video",
@@ -10040,22 +10150,22 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 138
+      "count": 143
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 128
-    },
-    {
-      "name": "github-repo",
-      "category": "technical_topic",
-      "count": 110
+      "count": 130
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 110
+      "count": 113
+    },
+    {
+      "name": "github-repo",
+      "category": "technical_topic",
+      "count": 112
     },
     {
       "name": "web-dev",
@@ -10068,19 +10178,19 @@
       "count": 106
     },
     {
+      "name": "llm",
+      "category": "technical_topic",
+      "count": 100
+    },
+    {
       "name": "social-media",
       "category": "culture",
       "count": 100
     },
     {
-      "name": "llm",
-      "category": "technical_topic",
-      "count": 97
-    },
-    {
       "name": "python",
       "category": "programming_language",
-      "count": 82
+      "count": 83
     },
     {
       "name": "nonfiction-book",
@@ -10090,25 +10200,25 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 63
+      "count": 64
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 59
+      "count": 61
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 49
-    },
-    {
-      "name": "database",
-      "category": "technical_topic",
-      "count": 30
+      "count": 51
     },
     {
       "name": "security",
+      "category": "technical_topic",
+      "count": 32
+    },
+    {
+      "name": "database",
       "category": "technical_topic",
       "count": 30
     },
@@ -10235,7 +10345,7 @@
     },
     {
       "domain": "github.com",
-      "count": 68
+      "count": 69
     },
     {
       "domain": "www.nytimes.com",
@@ -10286,6 +10396,10 @@
       "count": 4
     },
     {
+      "domain": "gwern.net",
+      "count": 3
+    },
+    {
       "domain": "www.dbreunig.com",
       "count": 3
     },
@@ -10331,10 +10445,6 @@
     },
     {
       "domain": "graydon2.dreamwidth.org",
-      "count": 2
-    },
-    {
-      "domain": "gwern.net",
       "count": 2
     },
     {
@@ -10758,6 +10868,10 @@
       "count": 1
     },
     {
+      "domain": "docker.how",
+      "count": 1
+    },
+    {
       "domain": "docs.astral.sh",
       "count": 1
     },
@@ -10771,6 +10885,10 @@
     },
     {
       "domain": "eavan.blog",
+      "count": 1
+    },
+    {
+      "domain": "embedding-shapes.github.io",
       "count": 1
     },
     {
@@ -11119,6 +11237,10 @@
     },
     {
       "domain": "nanohub.org",
+      "count": 1
+    },
+    {
+      "domain": "nanonets.com",
       "count": 1
     },
     {
@@ -11726,6 +11848,10 @@
       "count": 1
     },
     {
+      "domain": "www.lesswrong.com",
+      "count": 1
+    },
+    {
       "domain": "www.makingsoftware.com",
       "count": 1
     },
@@ -11739,6 +11865,10 @@
     },
     {
       "domain": "www.minesnewsroom.com",
+      "count": 1
+    },
+    {
+      "domain": "www.mintlify.com",
       "count": 1
     },
     {
