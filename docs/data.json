@@ -1,6 +1,130 @@
 {
-  "exported_at": "2026-01-17T19:27:52.730055",
+  "exported_at": "2026-01-20T06:17:14.043212",
   "links": [
+    {
+      "id": 733,
+      "url": "https://blog.gitbutler.com/automate-your-ai-workflows-with-claude-code-hooks",
+      "title": null,
+      "description": "An overview of Claude Code Hooks for automating AI workflows",
+      "summary": "Claude Code Hooks enable automation of AI workflows by providing a way to integrate AI capabilities into development processes. The article contrasts two different approaches for giving AI systems context: RAG (Retrieval-Augmented Generation) and MCP (Model Context Protocol), which despite appearing similar, solve different problems and result in distinct system architectures. Understanding these differences is key to choosing the right approach for automating AI-powered development tasks.",
+      "domain": "blog.gitbutler.com",
+      "source_date": "2026-01-20",
+      "page_title": "Automate Your AI Workflows with Claude Code Hooks | Butler&#x27;s Log",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial",
+        "devops"
+      ]
+    },
+    {
+      "id": 732,
+      "url": "https://github.com/agentset-ai/awesome-rerankers",
+      "title": null,
+      "description": "A curated list of reranking models and resources",
+      "summary": "This GitHub repository is a comprehensive curated collection of reranking models, libraries, and resources designed to improve Retrieval-Augmented Generation (RAG) applications. Rerankers refine search results by using cross-encoders to jointly encode query-document pairs, which is slower than vector search but significantly more accurate, typically refining 50-100 initial candidates down to the top 3-5 results. The repository includes comparisons of top models (both open-source like BGE-Reranker and commercial APIs like Cohere Rerank), integration guides for popular frameworks like LangChain and LlamaIndex, benchmarks, evaluation metrics, and practical quick-start code examples.",
+      "domain": "github.com",
+      "source_date": "2026-01-20",
+      "page_title": "GitHub - agentset-ai/awesome-rerankers: A curated list of reranking models, libraries, and resources for building high-quality Retrieval-Augmented Generation (RAG) applications.",
+      "tags": [
+        "github-repo",
+        "llm",
+        "ai",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 731,
+      "url": "https://read.isabelunraveled.com/p/manifest-rationally",
+      "title": null,
+      "description": "A rationalist’s guide to manifestation",
+      "summary": "The article presents manifestation as a logical, rational process rather than mystical thinking—by clearly identifying what you want, visualizing yourself already having it, and openly receiving opportunities that align with this desire, you naturally attract those things into your life. The author argues that manifestation works because when you commit to a desire internally and exude that energy externally, others notice and offer you aligned opportunities, creating what feels like serendipitous magic but is actually the predictable result of mindset, action, and receptiveness. The key steps involve defining your desire, updating your self-image accordingly, and crucially, saying yes to unexpected offers rather than resisting or overthinking them.",
+      "domain": "read.isabelunraveled.com",
+      "source_date": "2026-01-20",
+      "page_title": "A rationalist’s guide to manifestation. - Isabel Unraveled",
+      "tags": [
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 730,
+      "url": "https://github.com/vincentchan/AI-Content-Engine",
+      "title": null,
+      "description": "AI powered content engine based on Dan Kohl’s content framework",
+      "summary": "This GitHub repository features an AI-powered content creation engine inspired by Dan Koe's content framework, built using Claude Code with slash commands and subagents to automate research, ideation, and drafting. The tool includes four main commands: a swipe file generator that analyzes high-performing content, a content ideas generator that creates post outlines, a content draft generator that produces multiple variations, and a YouTube title generator that suggests 30 title options. Users can clone the repository and follow a guided workflow to build reference libraries, generate social media content, or create full drafts with structured outputs organized in dedicated folders.",
+      "domain": "github.com",
+      "source_date": "2026-01-20",
+      "page_title": "GitHub - vincentchan/AI-Content-Engine: AI-powered content engine for research, ideation, and drafting. Based on Dan Koe&#39;s content framework.",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 729,
+      "url": "https://www.reportburster.com/",
+      "title": null,
+      "description": "ReportBurster - Open source BI platform",
+      "summary": "ReportBurster is an open-source business intelligence platform that serves as an alternative to Crystal Reports, offering report generation, automated distribution, and self-service analytics capabilities. The platform leverages AI to help users connect to databases, design reports, and automate workflows like payroll and invoicing, with support for multiple export formats and distribution channels including email, cloud storage, and messaging apps. It features embeddable analytics components, secure web portals for 24/7 access, and can be self-hosted for free as an open-source solution with optional paid support plans.",
+      "domain": "www.reportburster.com",
+      "source_date": "2026-01-20",
+      "page_title": "ReportBurster – A Complete Open‑Source BI Platform Inspired by Real‑World Reporting Workflows",
+      "tags": [
+        "database",
+        "github-repo",
+        "ai",
+        "web-dev",
+        "devops"
+      ]
+    },
+    {
+      "id": 735,
+      "url": "https://beats.lasagna.pizza/",
+      "title": null,
+      "description": "Beats - a web-based drum machine",
+      "summary": "Beats is a web-based drum machine inspired by Teenage Engineering Pocket Operators, allowing users to create and share drum patterns directly in their browser. Built with Tone.js and Stimulus.js, the tool features a simple interface with controls for tempo adjustment, beat creation, saving, and sharing capabilities through shareable URLs.",
+      "domain": "beats.lasagna.pizza",
+      "source_date": "2026-01-19",
+      "page_title": "beats",
+      "tags": [
+        "web-dev",
+        "javascript",
+        "music",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 734,
+      "url": "https://cua.ai/docs/lume/guide/getting-started/introduction",
+      "title": null,
+      "description": "Lume 0.2 - Build and run MacOS VMs",
+      "summary": "Lume is an open-source macOS VM runtime built on Apple's Virtualization Framework that enables users to create and run macOS and Linux virtual machines at near-native speed on Apple Silicon. It can be used via CLI or HTTP API for various purposes including testing across macOS versions, automating tasks, running CI/CD pipelines, sandboxing risky operations, and powering AI agents. The tool requires Apple Silicon and offers features like efficient storage, Rosetta 2 support, and automated VM configuration.",
+      "domain": "cua.ai",
+      "source_date": "2026-01-19",
+      "page_title": "What is Lume? | Cua",
+      "tags": [
+        "cli-tool",
+        "devops",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 736,
+      "url": "https://polysoftit.co.uk/irisc-web/",
+      "title": null,
+      "description": "IRISC - An ARMv7 assembly interpreter and architecture simulator",
+      "summary": "iRISC - IRISC - An ARMv7 assembly interpreter and architecture simulator",
+      "domain": "polysoftit.co.uk",
+      "source_date": "2026-01-17",
+      "page_title": "iRISC",
+      "tags": [
+        "emulator",
+        "cli-tool",
+        "c"
+      ]
+    },
     {
       "id": 726,
       "url": "https://github.com/originalankur/maptoposter",
@@ -10140,7 +10264,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 243
+      "count": 245
     },
     {
       "name": "video",
@@ -10150,7 +10274,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 143
+      "count": 147
     },
     {
       "name": "academic-paper",
@@ -10160,27 +10284,27 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 113
+      "count": 117
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 112
+      "count": 115
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 108
+      "count": 110
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 106
+      "count": 107
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 100
+      "count": 103
     },
     {
       "name": "social-media",
@@ -10195,7 +10319,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 79
+      "count": 80
     },
     {
       "name": "news",
@@ -10205,7 +10329,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 61
+      "count": 64
     },
     {
       "name": "compilers",
@@ -10220,17 +10344,17 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 30
+      "count": 31
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 19
+      "count": 20
     },
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 18
+      "count": 19
     },
     {
       "name": "rust",
@@ -10245,7 +10369,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 14
+      "count": 15
     },
     {
       "name": "gaming",
@@ -10253,13 +10377,13 @@
       "count": 13
     },
     {
-      "name": "podcast",
-      "category": "culture",
-      "count": 10
-    },
-    {
       "name": "emulator",
       "category": "technical_topic",
+      "count": 11
+    },
+    {
+      "name": "podcast",
+      "category": "culture",
       "count": 10
     },
     {
@@ -10345,7 +10469,7 @@
     },
     {
       "domain": "github.com",
-      "count": 69
+      "count": 71
     },
     {
       "domain": "www.nytimes.com",
@@ -10616,6 +10740,10 @@
       "count": 1
     },
     {
+      "domain": "beats.lasagna.pizza",
+      "count": 1
+    },
+    {
       "domain": "beej.us",
       "count": 1
     },
@@ -10669,6 +10797,10 @@
     },
     {
       "domain": "blog.fogus.me",
+      "count": 1
+    },
+    {
+      "domain": "blog.gitbutler.com",
       "count": 1
     },
     {
@@ -10797,6 +10929,10 @@
     },
     {
       "domain": "cs3110.github.io",
+      "count": 1
+    },
+    {
+      "domain": "cua.ai",
       "count": 1
     },
     {
@@ -11384,6 +11520,10 @@
       "count": 1
     },
     {
+      "domain": "polysoftit.co.uk",
+      "count": 1
+    },
+    {
       "domain": "posthog.com",
       "count": 1
     },
@@ -11425,6 +11565,10 @@
     },
     {
       "domain": "reactormag.com",
+      "count": 1
+    },
+    {
+      "domain": "read.isabelunraveled.com",
       "count": 1
     },
     {
@@ -11901,6 +12045,10 @@
     },
     {
       "domain": "www.raptitude.com",
+      "count": 1
+    },
+    {
+      "domain": "www.reportburster.com",
       "count": 1
     },
     {
