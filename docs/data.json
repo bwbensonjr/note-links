@@ -1,6 +1,51 @@
 {
-  "exported_at": "2026-01-20T06:17:14.043212",
+  "exported_at": "2026-01-21T07:36:17.928224",
   "links": [
+    {
+      "id": 738,
+      "url": "https://atlas9.dev/blog/soft-delete.html",
+      "title": null,
+      "description": "The challenges of soft delete",
+      "summary": "Soft delete implementations using archived_at columns or deleted flags are widely used for data recovery and compliance, but introduce significant complexity and operational challenges. The approach leads to accumulating \"dead data\" in production tables, complicates queries and migrations, and creates risks of accidentally exposing archived records. The author recommends alternative strategies such as application-level event-driven archiving to S3, database triggers that store deleted records in a separate archive table, or WAL-based change data capture tools like Debezium, all of which keep live data clean while preserving deleted records separately for recovery and audit purposes.",
+      "domain": "atlas9.dev",
+      "source_date": "2026-01-21",
+      "page_title": "The challenges of soft delete | atlas9",
+      "tags": [
+        "database",
+        "tutorial",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 737,
+      "url": "https://github.com/anthropics/original_performance_takehome",
+      "title": null,
+      "description": "Anthropic performance take-home",
+      "summary": "Anthropic has released their original performance take-home challenge, a coding optimization task where participants attempt to achieve better performance (measured in simulated machine cycles) than Claude Opus 4.5's best result of 1487 cycles. The challenge showcases how various Claude models perform on the task, with scores ranging from 2164 cycles (Claude Opus 4) to 1363 cycles (Claude Opus 4.5 with improved test-time compute), and anyone beating the 1487-cycle threshold is encouraged to contact Anthropic about potential interview opportunities.",
+      "domain": "github.com",
+      "source_date": "2026-01-21",
+      "page_title": "GitHub - anthropics/original_performance_takehome: Anthropic&#39;s original performance take-home, now open for you to try!",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": 739,
+      "url": "https://www.scratchtrackaudio.com/",
+      "title": null,
+      "description": "MacOS DAW with GIT-like branching",
+      "summary": "ScratchTrack is a macOS digital audio workstation that applies Git-style version control to audio production, enabling users to create branches for experimentation, merge changes, and maintain a complete history of all recordings and edits. The software emphasizes simplicity and focused functionality—capturing multi-track recordings and organizing them efficiently—while supporting asynchronous collaboration with conflict-free merging. It offers a free tier for solo projects with unlimited local recording, and a $10/month Pro plan that adds cloud sync and collaboration features.",
+      "domain": "www.scratchtrackaudio.com",
+      "source_date": "2026-01-20",
+      "page_title": "ScratchTrack — Version Control for Audio",
+      "tags": [
+        "music",
+        "devops",
+        "distributed-systems"
+      ]
+    },
     {
       "id": 733,
       "url": "https://blog.gitbutler.com/automate-your-ai-workflows-with-claude-code-hooks",
@@ -10264,7 +10309,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 245
+      "count": 246
     },
     {
       "name": "video",
@@ -10274,7 +10319,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 147
+      "count": 148
     },
     {
       "name": "academic-paper",
@@ -10289,7 +10334,7 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 115
+      "count": 116
     },
     {
       "name": "web-dev",
@@ -10299,12 +10344,12 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 107
+      "count": 108
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 103
+      "count": 104
     },
     {
       "name": "social-media",
@@ -10322,13 +10367,13 @@
       "count": 80
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 64
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
+      "count": 65
+    },
+    {
+      "name": "news",
+      "category": "culture",
       "count": 64
     },
     {
@@ -10337,19 +10382,19 @@
       "count": 51
     },
     {
+      "name": "database",
+      "category": "technical_topic",
+      "count": 32
+    },
+    {
       "name": "security",
       "category": "technical_topic",
       "count": 32
     },
     {
-      "name": "database",
-      "category": "technical_topic",
-      "count": 31
-    },
-    {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 20
+      "count": 22
     },
     {
       "name": "javascript",
@@ -10469,7 +10514,7 @@
     },
     {
       "domain": "github.com",
-      "count": 71
+      "count": 72
     },
     {
       "domain": "www.nytimes.com",
@@ -10713,6 +10758,10 @@
     },
     {
       "domain": "astral.sh",
+      "count": 1
+    },
+    {
+      "domain": "atlas9.dev",
       "count": 1
     },
     {
@@ -12065,6 +12114,10 @@
     },
     {
       "domain": "www.sciencedaily.com",
+      "count": 1
+    },
+    {
+      "domain": "www.scratchtrackaudio.com",
       "count": 1
     },
     {
