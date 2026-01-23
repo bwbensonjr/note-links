@@ -18,6 +18,7 @@ from .fetching.pdf import PDFExtractor
 from .storage.database import Database
 from .storage.models import FetchStatus
 from .summarization.bedrock import BedrockSummarizer
+from .export.rss import generate_rss
 from .tagging.llm_tagger import LLMTagger
 
 logging.basicConfig(
@@ -450,6 +451,63 @@ def export_json(config: str, output: str) -> None:
     click.echo(f"  Links: {len(export_links)}")
     click.echo(f"  Tags: {len(all_tags)}")
     click.echo(f"  Domains: {len(all_domains)}")
+
+
+@cli.command("export-rss")
+@click.option("--config", "-c", default="config.yaml", help="Config file path")
+@click.option("--output", "-o", default="docs/feed.xml", help="Output RSS file path")
+@click.option("--title", help="Override feed title from config")
+@click.option("--description", help="Override feed description from config")
+@click.option("--limit", "-n", default=None, type=int, help="Max items to include")
+def export_rss(
+    config: str,
+    output: str,
+    title: str | None,
+    description: str | None,
+    limit: int | None,
+) -> None:
+    """Export links to RSS 2.0 feed."""
+    cfg = Config.from_yaml(config)
+    db = Database(cfg.database_path)
+
+    # Get all links with content
+    links = db.get_all_links_with_content(limit=None)
+    click.echo(f"Processing {len(links)} links...")
+
+    # Build tags lookup by link ID
+    tags_by_link: dict[int, list[str]] = {}
+    for link in links:
+        if link.id is not None:
+            tags = db.get_tags_for_link(link.id)
+            tags_by_link[link.id] = [name for name, category, confidence in tags]
+
+    # Use config values with CLI overrides
+    feed_title = title or cfg.rss_title
+    feed_description = description or cfg.rss_description
+    feed_site_url = cfg.rss_site_url
+
+    # Generate RSS
+    rss_xml = generate_rss(
+        links=links,
+        tags_by_link=tags_by_link,
+        title=feed_title,
+        description=feed_description,
+        site_url=feed_site_url,
+        limit=limit,
+    )
+
+    # Ensure output directory exists
+    output_path = Path(output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Write RSS file
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(rss_xml)
+
+    item_count = len(links) if limit is None else min(len(links), limit)
+    click.echo(f"Exported RSS feed to {output_path}")
+    click.echo(f"  Items: {item_count}")
+    click.echo(f"  Title: {feed_title}")
 
 
 if __name__ == "__main__":

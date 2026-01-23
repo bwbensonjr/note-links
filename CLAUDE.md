@@ -13,7 +13,8 @@ note-links/
 ├── links.db                    # SQLite3 database (created on first run)
 ├── docs/
 │   ├── index.html              # Static site (Vue.js SPA for GitHub Pages)
-│   └── data.json               # Exported link data for static site
+│   ├── data.json               # Exported link data for static site
+│   └── feed.xml                # RSS 2.0 feed for static site
 ├── src/link_extractor/
 │   ├── main.py                 # CLI and pipeline orchestration
 │   ├── config.py               # Configuration loading (.env + YAML)
@@ -29,6 +30,8 @@ note-links/
 │   │   └── bedrock.py          # AWS Bedrock Claude implementation
 │   ├── tagging/
 │   │   └── llm_tagger.py       # LLM-based auto-tagging via Bedrock
+│   ├── export/
+│   │   └── rss.py              # RSS 2.0 feed generation
 │   └── storage/
 │       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
 │       └── database.py         # SQLite operations with FTS5
@@ -175,6 +178,10 @@ uv run link-extractor stats              # Show database statistics
 
 # Export for static site
 uv run link-extractor export-json        # Export to docs/data.json
+uv run link-extractor export-rss         # Export to docs/feed.xml
+  --title TEXT       Override feed title from config
+  --description TEXT Override feed description from config
+  --limit N          Max items to include
 ```
 
 ## Extending

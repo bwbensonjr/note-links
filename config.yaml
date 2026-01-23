@@ -6,3 +6,9 @@ fetch_timeout_seconds: 30
 bedrock_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 bedrock_region: us-east-1
 batch_size: 250
+
+# RSS feed settings
+rss:
+  site_url: "https://bwbensonjr.github.io/note-links"
+  title: "Note Links"
+  description: "Links extracted from daily notes"

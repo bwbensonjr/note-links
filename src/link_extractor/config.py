@@ -25,6 +25,11 @@ class Config:
     skip_existing: bool = True
     batch_size: int = 50
 
+    # RSS settings
+    rss_site_url: str = "https://example.com"
+    rss_title: str = "Note Links"
+    rss_description: str = "Links extracted from daily notes"
+
     @classmethod
     def from_yaml(cls, path: str | Path) -> "Config":
         """Load configuration from YAML file.
@@ -46,6 +51,9 @@ class Config:
                 "or in config.yaml"
             )
 
+        # RSS config section
+        rss_config = data.get("rss", {})
+
         return cls(
             daily_notes_path=Path(daily_notes_path).expanduser(),
             database_path=Path(database_path).expanduser(),
@@ -58,4 +66,7 @@ class Config:
             bedrock_region=data.get("bedrock_region", "us-east-1"),
             skip_existing=data.get("skip_existing", True),
             batch_size=data.get("batch_size", 50),
+            rss_site_url=rss_config.get("site_url", "https://example.com"),
+            rss_title=rss_config.get("title", "Note Links"),
+            rss_description=rss_config.get("description", "Links extracted from daily notes"),
         )
