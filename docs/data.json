@@ -1,6 +1,21 @@
 {
-  "exported_at": "2026-01-23T08:23:58.089579",
+  "exported_at": "2026-01-23T10:39:11.116629",
   "links": [
+    {
+      "id": 753,
+      "url": "https://bwbensonjr.github.io/building-calcs/",
+      "title": null,
+      "description": "My vibe-coded building calculation app",
+      "summary": "This is a vibe-coded building calculation app that provides practical tools for construction work, including a length converter that translates between feet-inches-fractions and decimal inches, and a triangle calculator that computes missing sides and angles when given any three values. The tools are designed to simplify common mathematical conversions and calculations needed in building and construction projects.",
+      "domain": "bwbensonjr.github.io",
+      "source_date": "2026-01-23",
+      "page_title": "Building Calculations",
+      "tags": [
+        "web-dev",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
     {
       "id": 744,
       "url": "https://www.theatlantic.com/national/2010/05/askers-vs-guessers/340891/",
@@ -10489,7 +10504,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 251
+      "count": 252
     },
     {
       "name": "video",
@@ -10514,12 +10529,12 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 118
+      "count": 119
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 115
+      "count": 116
     },
     {
       "name": "music",
@@ -11074,6 +11089,10 @@
     },
     {
       "domain": "brooker.co.za",
+      "count": 1
+    },
+    {
+      "domain": "bwbensonjr.github.io",
       "count": 1
     },
     {
