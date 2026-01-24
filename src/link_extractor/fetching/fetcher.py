@@ -1,6 +1,7 @@
 """Async web fetcher with rate limiting."""
 
 import asyncio
+import html
 import re
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -121,7 +122,10 @@ class RateLimitedFetcher:
                 await asyncio.sleep(wait_time)
             self._domain_last_request[domain] = asyncio.get_event_loop().time()
 
-    def _extract_title(self, html: str) -> str | None:
+    def _extract_title(self, html_content: str) -> str | None:
         """Extract title from HTML."""
-        match = re.search(r"<title[^>]*>([^<]+)</title>", html, re.IGNORECASE)
-        return match.group(1).strip() if match else None
+        match = re.search(r"<title[^>]*>([^<]+)</title>", html_content, re.IGNORECASE)
+        if match:
+            raw_title = match.group(1).strip()
+            return html.unescape(raw_title)
+        return None

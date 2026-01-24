@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-01-23T10:39:11.116629",
+  "exported_at": "2026-01-23T21:16:41.332114",
   "links": [
     {
       "id": 753,
@@ -24,7 +24,7 @@
       "summary": "The article explores the distinction between \"Askers\" and \"Guessers\"—two personality types that reflect different communication and etiquette styles. Askers feel comfortable making direct requests and accepting rejection, while Guessers prefer indirect communication and avoid asking unless confident of a positive response. The piece illustrates how clashes between these types can create social awkwardness, though commentators debate whether one approach is superior or whether people should adapt their style based on context and relationships.",
       "domain": "www.theatlantic.com",
       "source_date": "2026-01-23",
-      "page_title": "&#x27;Askers&#x27; vs. &#x27;Guessers&#x27; - The Atlantic",
+      "page_title": "'Askers' vs. 'Guessers' - The Atlantic",
       "tags": [
         "news",
         "nonfiction-book"
@@ -128,7 +128,7 @@
       "summary": "On this day in 1976, Dolenz, Jones, Boyce &amp; Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”. - Monkees hit medley",
       "domain": "www.threads.com",
       "source_date": "2026-01-22",
-      "page_title": "On this day in 1976, Dolenz, Jones, Boyce &amp; Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”.",
+      "page_title": "On this day in 1976, Dolenz, Jones, Boyce & Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”.",
       "tags": [
         "music",
         "tv",
@@ -219,7 +219,7 @@
       "summary": "Anthropic has released their original performance take-home challenge, a coding optimization task where participants attempt to achieve better performance (measured in simulated machine cycles) than Claude Opus 4.5's best result of 1487 cycles. The challenge showcases how various Claude models perform on the task, with scores ranging from 2164 cycles (Claude Opus 4) to 1363 cycles (Claude Opus 4.5 with improved test-time compute), and anyone beating the 1487-cycle threshold is encouraged to contact Anthropic about potential interview opportunities.",
       "domain": "github.com",
       "source_date": "2026-01-21",
-      "page_title": "GitHub - anthropics/original_performance_takehome: Anthropic&#39;s original performance take-home, now open for you to try!",
+      "page_title": "GitHub - anthropics/original_performance_takehome: Anthropic's original performance take-home, now open for you to try!",
       "tags": [
         "github-repo",
         "ai",
@@ -249,7 +249,7 @@
       "summary": "Claude Code Hooks enable automation of AI workflows by providing a way to integrate AI capabilities into development processes. The article contrasts two different approaches for giving AI systems context: RAG (Retrieval-Augmented Generation) and MCP (Model Context Protocol), which despite appearing similar, solve different problems and result in distinct system architectures. Understanding these differences is key to choosing the right approach for automating AI-powered development tasks.",
       "domain": "blog.gitbutler.com",
       "source_date": "2026-01-20",
-      "page_title": "Automate Your AI Workflows with Claude Code Hooks | Butler&#x27;s Log",
+      "page_title": "Automate Your AI Workflows with Claude Code Hooks | Butler's Log",
       "tags": [
         "ai",
         "llm",
@@ -294,7 +294,7 @@
       "summary": "This GitHub repository features an AI-powered content creation engine inspired by Dan Koe's content framework, built using Claude Code with slash commands and subagents to automate research, ideation, and drafting. The tool includes four main commands: a swipe file generator that analyzes high-performing content, a content ideas generator that creates post outlines, a content draft generator that produces multiple variations, and a YouTube title generator that suggests 30 title options. Users can clone the repository and follow a guided workflow to build reference libraries, generate social media content, or create full drafts with structured outputs organized in dedicated folders.",
       "domain": "github.com",
       "source_date": "2026-01-20",
-      "page_title": "GitHub - vincentchan/AI-Content-Engine: AI-powered content engine for research, ideation, and drafting. Based on Dan Koe&#39;s content framework.",
+      "page_title": "GitHub - vincentchan/AI-Content-Engine: AI-powered content engine for research, ideation, and drafting. Based on Dan Koe's content framework.",
       "tags": [
         "github-repo",
         "ai",
@@ -436,7 +436,7 @@
       "summary": "This critique examines Cursor's January 2026 blog post claiming success with autonomous coding agents that allegedly built a web browser from scratch over a week, generating over 1 million lines of code. However, the author demonstrates that the project never actually compiles—finding dozens of compiler errors, failed GitHub Actions builds, and no working commits in the repository's history—exposing the codebase as non-functional \"AI slop\" rather than engineered code. The post argues that while Cursor never explicitly claims the browser works, they deliberately create an impression of success through vague language and screenshots without providing any reproducible evidence, working build instructions, or even a basic demonstration that the code compiles.",
       "domain": "embedding-shapes.github.io",
       "source_date": "2026-01-17",
-      "page_title": "Cursor&apos;s latest &quot;browser experiment&quot; implied success without evidence",
+      "page_title": "Cursor's latest \"browser experiment\" implied success without evidence",
       "tags": [
         "github-repo",
         "compilers",
@@ -934,7 +934,7 @@
       "summary": "This paper presents active inference as a first-principles framework for autonomous agent decision-making and compares it directly with reinforcement learning. The key distinction is that active inference minimizes expected free energy using a belief-based Bayesian approach, whereas reinforcement learning explicitly maximizes reward signals—enabling active inference agents to exhibit natural behaviors like epistemic exploration and uncertainty quantification without explicit reward engineering. The authors demonstrate these differences empirically on OpenAI Gym environments, showing that active inference can solve tasks without reward signals through preference learning over observations.",
       "domain": "activeinference.github.io",
       "source_date": "2026-01-10",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "ai",
@@ -949,7 +949,7 @@
       "summary": "This paper presents an incremental approach to teaching compiler construction by building a working Scheme compiler that generates Intel x86 assembly code. Rather than presenting compiler theory in abstract terms or jumping between simplified toy examples and complex industrial compilers, the author breaks compiler development into small, manageable steps where each iteration produces a fully functional compiler for an expanding subset of Scheme. The key takeaway is that compiler construction can be made accessible to novices by using a concrete, practical methodology with immediate, executable results at each stage.",
       "domain": "scheme2006.cs.uchicago.edu",
       "source_date": "2026-01-10",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "compilers",
         "scheme",
@@ -1085,7 +1085,7 @@
       "summary": "Model Context Protocol (MCP) has gained popularity as a standardized platform for AI integrations, but the author argues this popularity will be short-lived due to fundamental architectural flaws. While MCP aims to solve the \"NxM problem\" of connecting multiple agents to multiple toolsets, the author contends that existing frameworks already address this and that MCP's benefits come with significant costs: isolated tool instructions create incoherent toolboxes that confuse agents, separate processes introduce resource management and runtime dependency issues, and the lack of security standards has led to numerous CVEs and supply-chain vulnerabilities. The piece argues that MCP sacrifices the control and infrastructure that modern applications need for proper tool orchestration, logging, and security.",
       "domain": "tombedor.dev",
       "source_date": "2026-01-09",
-      "page_title": "MCP is a fad | Tom Bedor&#x27;s Blog",
+      "page_title": "MCP is a fad | Tom Bedor's Blog",
       "tags": [
         "ai",
         "llm",
@@ -1100,7 +1100,7 @@
       "summary": "This is MIT's \"Mathematics for Computer Science\" textbook (2018), authored by Lehman, Leighton, and Meyer, covering fundamental mathematical concepts essential for computer scientists. The comprehensive text is organized into five main parts: Proofs (covering logical reasoning, induction, and recursion), Structures (number theory, graphs, and networks), Counting (combinatorics and generating functions), Probability (random variables and distributions), and Recurrences (solving recurrence relations). The authors emphasize that proofs are central to both genuine mathematical understanding and computer science applications like software verification.",
       "domain": "courses.csail.mit.edu",
       "source_date": "2026-01-09",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "tutorial"
@@ -1173,7 +1173,7 @@
       "summary": "This Hacker News comment discusses the debate between composition and inheritance in object-oriented programming. The author advocates for composition (defining objects by their behaviors/capabilities) over inheritance hierarchies, while acknowledging that inheritance still has value for APIs requiring strict subtyping rules and variance handling (covariance/invariance/contravariance).",
       "domain": "news.ycombinator.com",
       "source_date": "2026-01-07",
-      "page_title": "Yes I agree with you. The pattern is &quot;composition&quot; vs &quot;inheritance&quot;. Defining a ... | Hacker News",
+      "page_title": "Yes I agree with you. The pattern is \"composition\" vs \"inheritance\". Defining a ... | Hacker News",
       "tags": [
         "social-media",
         "web-dev",
@@ -1291,7 +1291,7 @@
       "summary": "NeXTSTEP 3.3 (1994) was NeXT's Unix-based operating system featuring a Mach microkernel and advanced GUI that was ported to support several 32-bit HP 9000 PA-RISC workstations, marking NeXT's effort to expand beyond proprietary hardware after initial success on Motorola 68000 and Intel x86 platforms. The PA-RISC port supported specific models including the 712, 715, 725, 735, and 755 workstations with good onboard hardware compatibility, though limited third-party software availability restricted the port to version 3.3 only. While NeXTSTEP itself had limited commercial success, its innovative technologies and design philosophy influenced later systems like macOS.",
       "domain": "www.openpa.net",
       "source_date": "2026-01-05",
-      "page_title": "NeXTSTEP on HP 9000 PA-RISC Computers &ndash; OpenPA.net",
+      "page_title": "NeXTSTEP on HP 9000 PA-RISC Computers – OpenPA.net",
       "tags": [
         "emulator",
         "devops",
@@ -1460,7 +1460,7 @@
       "summary": "I&#039;m Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don&#039;t customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes. - Claude Code setup by creator",
       "domain": "www.threads.com",
       "source_date": "2026-01-03",
-      "page_title": "I&#039;m Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don&#039;t customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes.",
+      "page_title": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes.",
       "tags": [
         "social-media",
         "video",
@@ -1579,7 +1579,7 @@
       "summary": "\"Understanding How We Learn: A Visual Guide\" by Yana Weinstein and Megan Sumeracki is a practical resource that bridges the gap between cognitive science research and classroom practice. The book challenges educators' reliance on intuition and provides evidence-based strategies for effective learning, covering topics such as attention, memory, and cognitive processes. Through real-life examples, illustrations, and actionable tips for teachers, students, and parents, it offers accessible guidance on how to apply scientific findings about learning directly to educational settings.",
       "domain": "www.learningscientists.org",
       "source_date": "2025-12-31",
-      "page_title": "Understanding How We Learn: A Visual Guide &mdash; The Learning Scientists",
+      "page_title": "Understanding How We Learn: A Visual Guide — The Learning Scientists",
       "tags": [
         "nonfiction-book",
         "academic-paper",
@@ -1609,7 +1609,7 @@
       "summary": "\"The ABCs of How We Learn\" is an educational guide by Schwartz, Tsang, and Blair that uses an alphabetical framework to present evidence-based learning principles and strategies. While the ABC organizational structure is somewhat gimmicky, it effectively constrains the content and delivers high-quality, expert advice on how people learn. The book provides practical, research-backed guidance for improving learning outcomes despite its somewhat formulaic presentation.",
       "domain": "wwnorton.com",
       "source_date": "2025-12-31",
-      "page_title": "The ABCs of How We Learn | Daniel L Schwartz, Jessica M Tsang, Kristen P Blair | W. W. Norton &amp; Company",
+      "page_title": "The ABCs of How We Learn | Daniel L Schwartz, Jessica M Tsang, Kristen P Blair | W. W. Norton & Company",
       "tags": [
         "nonfiction-book",
         "tutorial"
@@ -1846,7 +1846,7 @@
       "summary": "ACME Labs provides hands-on Python programming exercises designed to accompany the Foundations of Applied Mathematics textbook series, teaching core technical skills like NumPy, SciPy, and numerical algorithms through real-world applications. Students learn key concepts including data visualization, machine learning, image processing, and optimization techniques by solving practical problems such as tsunami prediction, facial recognition, and recommendation systems. The labs are structured to bridge theory and implementation, with each self-contained module offering learning objectives, theoretical background, exercises, and opportunities for personal projects that extend beyond basic coursework.",
       "domain": "labs.acme.byu.edu",
       "source_date": "2025-12-25",
-      "page_title": "Introduction to ACME Labs &#8212; ACME Labs",
+      "page_title": "Introduction to ACME Labs — ACME Labs",
       "tags": [
         "python",
         "tutorial",
@@ -1862,7 +1862,7 @@
       "summary": "I don't have access to the actual content of that YouTube video—only the page footer information is visible. Based on the title and your note, the video appears to be an analysis of Radiohead's use of electronic beats and drum machines, likely featuring a demonstration of drum machine techniques used in their music. To provide an accurate summary of the key takeaways, I would need to watch the video or see the actual description and content.",
       "domain": "www.youtube.com",
       "source_date": "2025-12-24",
-      "page_title": "Analyzing RADIOHEAD&#39;s Rhythms - A Deep Dive into their Electronic Beats - YouTube",
+      "page_title": "Analyzing RADIOHEAD's Rhythms - A Deep Dive into their Electronic Beats - YouTube",
       "tags": [
         "music",
         "video",
@@ -1997,7 +1997,7 @@
       "summary": "OpenSCAD is a code-based CAD tool that the author found surprisingly effective for designing simple 3D-printable objects. By reimplementing a parameterized battery holder originally created in Fusion 360, the author discovered that OpenSCAD can produce equivalent results without requiring expensive software, making it ideal for straightforward geometric designs like spacers and organizers. The approach uses simple variables and loops to generate customizable models that can be directly sent to a 3D printer.",
       "domain": "nuxx.net",
       "source_date": "2025-12-20",
-      "page_title": "OpenSCAD Is Kinda Neat &#8211; nuxx.net",
+      "page_title": "OpenSCAD Is Kinda Neat – nuxx.net",
       "tags": [
         "cli-tool",
         "tutorial",
@@ -2381,7 +2381,7 @@
       "summary": "Albert Michelson's Harmonic Analyzer is a nineteenth-century mechanical machine that performs Fourier analysis and synthesis—decomposing complex periodic functions into their constituent sinusoids or combining sinusoids to create intricate patterns. Michelson invented the machine to automate the tedious hand calculations required for analyzing light frequencies from flames, improving upon earlier designs by using springs and levers instead of error-prone rope-and-pulley systems. The 80-element analyzer represents an elegant mechanical solution to a fundamental mathematical problem with applications spanning from image processing to data compression.",
       "domain": "engineerguy.com",
       "source_date": "2025-12-06",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "tutorial"
@@ -2423,7 +2423,7 @@
       "summary": "The author built a remotely-controlled RC car using a Raspberry Pi Zero 2 W to monitor their home while away, addressing concerns about forgotten tasks like leaving the iron plugged in or the cat escaping. The project combines affordable hardware (2WD car kit, USB camera, motor driver) with a software stack including a Python motor control server, video streaming via mjpg-streamer, and an Nginx reverse proxy to unify services under one URL. To enable global access without exposing their home network, they implemented a Cloudflare Tunnel, creating a complete remote monitoring solution that demonstrates the surprising power and flexibility of running a full Linux computer on an affordable, palm-sized device.",
       "domain": "airoboticist.blog",
       "source_date": "2025-12-05",
-      "page_title": "I was reintroduced to computers: Raspberry Pi &#8211; Physical AI is no longer science fiction.",
+      "page_title": "I was reintroduced to computers: Raspberry Pi – Physical AI is no longer science fiction.",
       "tags": [
         "python",
         "tutorial",
@@ -2672,7 +2672,7 @@
       "summary": "The **Shallow Water** is a K-Field Modulator pedal by Fairfield Circuitry priced at $425 CAD that creates unique, non-cyclical modulation effects through randomly modulated time delays. The pedal produces unpredictable pitch shifts and vibrato/chorus/flanger-like sounds with a vintage tape character by simulating a theoretical \"k-field\" where past and future forces interact irregularly. It's designed for musicians seeking unconventional, non-repeating modulation textures rather than traditional effects.",
       "domain": "fairfieldcircuitry.com",
       "source_date": "2025-11-22",
-      "page_title": "Shallow Water\n &ndash; Fairfield Circuitry",
+      "page_title": "Shallow Water\n – Fairfield Circuitry",
       "tags": [
         "music",
         "gaming"
@@ -2916,7 +2916,7 @@
       "summary": "I don't have access to the actual video content from this YouTube link—I can only see the page's header and footer information. To provide you with an accurate summary of Dr. Stanford's video about the Romero Family and how family and culture impact weight, I would need you to share the video's description, transcript, or your notes about the key points discussed.\n\nIf you can provide those details, I'd be happy to summarize the main topic and key takeaways for you.",
       "domain": "www.youtube.com",
       "source_date": "2025-11-11",
-      "page_title": "Soul*Food | Romero Family - The Impact of Family &amp; Culture on Weight - YouTube",
+      "page_title": "Soul*Food | Romero Family - The Impact of Family & Culture on Weight - YouTube",
       "tags": [
         "video",
         "nonfiction-book"
@@ -2930,7 +2930,7 @@
       "summary": "Netflix provides guidance for production partners on responsibly using generative AI tools in content creation, emphasizing transparency and adherence to key principles. The guidance establishes that low-risk GenAI uses—such as temporary creative aids that don't replicate copyrighted material, replace talent, or compromise data security—may not require formal approval, but any use involving final deliverables, talent likenesses, personal data, or third-party intellectual property requires written approval. Netflix expects all partners to report their intended GenAI use and follow strict protocols around data protection, ethical representation, and respecting performer consent and union requirements.",
       "domain": "partnerhelp.netflixstudios.com",
       "source_date": "2025-11-11",
-      "page_title": "Using Generative AI in Content Production &ndash; Netflix | Partner Help Center",
+      "page_title": "Using Generative AI in Content Production – Netflix | Partner Help Center",
       "tags": [
         "ai",
         "movie",
@@ -3021,7 +3021,7 @@
       "summary": "A researcher trained small neural networks (with as few as 422 parameters) to perform 8-bit binary addition and reverse-engineered how they solved the problem. Rather than learning traditional circuit-like logic gates as expected, the networks developed a novel and surprisingly elegant solution that efficiently handled binary addition with overflow wrapping. By systematically reducing network size and rounding weights to interpretable values, the author was able to visualize and understand the internal mechanisms the network discovered—demonstrating that even tiny neural networks can learn complex logical tasks through creative, non-obvious approaches.",
       "domain": "cprimozic.net",
       "source_date": "2025-11-08",
-      "page_title": "Reverse Engineering a Neural Network&#x27;s Clever Solution to Binary Addition - Casey Primozic&#x27;s Homepage",
+      "page_title": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition - Casey Primozic's Homepage",
       "tags": [
         "ai",
         "academic-paper"
@@ -3189,7 +3189,7 @@
       "summary": "This Hacker News discussion addresses how newcomers to Emacs can get started with modern tools and configurations, with a Neovim user seeking guidance on best practices and plugin ecosystems. The community recommends several resources including **Bedrock** (a minimal starter kit with curated modern packages like Vertico and Consult), **SystemCrafters** (a comprehensive learning resource), and aggregated resources like Emacs News and the Emacs subreddit, while emphasizing that unlike Neovim, Emacs lacks a single authoritative figure but has an active community sharing evolving best practices.",
       "domain": "news.ycombinator.com",
       "source_date": "2025-11-01",
-      "page_title": "Ask HN: Where to begin with &quot;modern&quot; Emacs? | Hacker News",
+      "page_title": "Ask HN: Where to begin with \"modern\" Emacs? | Hacker News",
       "tags": [
         "social-media",
         "tutorial",
@@ -3357,7 +3357,7 @@
       "summary": "This humorous essay by James Mickens critiques the security research community's approach to cybersecurity priorities and threat modeling. Mickens argues that security researchers focus on obscure, impractical threats (like using Pringles cans to hack pacemakers) while neglecting real-world user needs like password management. He proposes a simplified threat model: either your adversary is \"Mossad\" (unstoppable), in which case elaborate security measures are pointless, or it's \"not-Mossad\" (manageable with basic precautions)—suggesting the security community should align their research with practical, everyday concerns rather than elaborate, unlikely scenarios.",
       "domain": "www.usenix.org",
       "source_date": "2025-10-27",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "security",
         "academic-paper"
@@ -3484,7 +3484,7 @@
       "summary": "This Spotify page features \"It's Always You - Vocal Version\" by legendary jazz musician Chet Baker from his 1956 album \"Chet Baker Sings.\" The track has garnered nearly 79 million streams and showcases Baker's smooth vocal style on a classic jazz standard. The page provides access to the full track, recommended similar songs, and Baker's extensive discography spanning multiple decades.",
       "domain": "open.spotify.com",
       "source_date": "2025-10-24",
-      "page_title": "It&#x27;s Always You - Vocal Version - song and lyrics by Chet Baker | Spotify",
+      "page_title": "It's Always You - Vocal Version - song and lyrics by Chet Baker | Spotify",
       "tags": [
         "music",
         "video"
@@ -3569,7 +3569,7 @@
       "summary": "This GitHub repository contains digitized transcriptions of code from MIT's 1986 SICP video lectures taught by Gerald Sussman and Harold Abelson. The project aims to make the lectures' content readable and accessible in digital format, since the original video quality (240p-360p) makes it difficult to view the code on slides. The code files are annotated with timestamps, comments, and notes to aid comprehension, though they represent literal transcriptions and may not compile in standard Scheme interpreters.",
       "domain": "github.com",
       "source_date": "2025-10-20",
-      "page_title": "GitHub - felipap/sicp-code: Digitized code from MIT&#39;s 1986 SICP video lectures.",
+      "page_title": "GitHub - felipap/sicp-code: Digitized code from MIT's 1986 SICP video lectures.",
       "tags": [
         "github-repo",
         "scheme",
@@ -3749,7 +3749,7 @@
       "summary": "Anthropic's Interactive Prompt Engineering Tutorial is a comprehensive, hands-on course designed to teach users how to write effective prompts for Claude AI models. The course is structured across 9 progressive chapters—from beginner basics like prompt structure and clarity to advanced topics like avoiding hallucinations and building complex industry-specific prompts—with practical exercises and an interactive playground for experimentation. Upon completion, users will master prompt optimization techniques, understand Claude's capabilities and limitations, and be able to build strong prompts from scratch for real-world applications.",
       "domain": "github.com",
       "source_date": "2025-10-12",
-      "page_title": "GitHub - anthropics/prompt-eng-interactive-tutorial: Anthropic&#39;s Interactive Prompt Engineering Tutorial",
+      "page_title": "GitHub - anthropics/prompt-eng-interactive-tutorial: Anthropic's Interactive Prompt Engineering Tutorial",
       "tags": [
         "github-repo",
         "tutorial",
@@ -3884,7 +3884,7 @@
       "summary": "Flightcontrol is a Platform-as-a-Service (PaaS) that simplifies AWS deployment by automating infrastructure management, CI/CD pipelines, and DevOps tasks without requiring specialized expertise. It allows developers to deploy servers, databases, APIs, and other services directly to their AWS account through an intuitive dashboard and git-based workflows, eliminating the need to hire expensive DevOps engineers while maintaining full control and AWS's scalability benefits. The platform includes features like preview environments, 24/7 support with 6-minute response times, and supports companies managing over $3 million in AWS resources.",
       "domain": "www.flightcontrol.dev",
       "source_date": "2025-10-06",
-      "page_title": "Flightcontrol – The AWS experience that didn&#x27;t seem possible",
+      "page_title": "Flightcontrol – The AWS experience that didn't seem possible",
       "tags": [
         "devops",
         "web-dev",
@@ -4036,7 +4036,7 @@
       "summary": "This is the third edition of \"Bayesian Data Analysis,\" a comprehensive textbook by Andrew Gelman and colleagues that covers both foundational and advanced topics in Bayesian statistics. The book is organized into four main parts: fundamentals of Bayesian inference (probability, single and multiparameter models), practical Bayesian data analysis (model checking and evaluation), advanced computational methods (Markov chain simulation and approximations), and regression models (hierarchical, generalized linear, and robust models). It serves as a complete reference for understanding Bayesian methodology from theory to real-world application with computational implementation.",
       "domain": "sites.stat.columbia.edu",
       "source_date": "2025-09-28",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "nonfiction-book",
@@ -4095,7 +4095,7 @@
       "summary": "Doctors have announced the first successful treatment for Huntington's disease, a devastating genetic disorder that causes progressive brain cell death. The gene therapy, delivered through brain surgery, slowed disease progression by 75%—meaning what would normally take one year to develop now takes four years—potentially giving patients decades of good quality life. While the treatment is groundbreaking and shows promise for prevention trials in the future, it will be expensive and limited to those able to undergo the complex neurosurgery required.",
       "domain": "www.bbc.com",
       "source_date": "2025-09-25",
-      "page_title": "Huntington&#x27;s disease successfully treated for first time",
+      "page_title": "Huntington's disease successfully treated for first time",
       "tags": [
         "news"
       ]
@@ -4256,7 +4256,7 @@
       "summary": "Stephen Wolfram explores the computational theory and behavior of lambda functions—abstract computational constructs originating from Alonzo Church's work in the 1930s. The article examines how lambdas operate through beta reduction (substituting arguments into function bodies), discusses notation systems like de Bruijn indices to avoid variable naming issues, and reveals that despite their simplicity, lambdas exhibit rich and complex computational behavior. Wolfram emphasizes that lambdas have significant applications in practical computing while also presenting interesting mathematical properties, including the Church-Rosser property that guarantees unique evaluation results.",
       "domain": "writings.stephenwolfram.com",
       "source_date": "2025-09-19",
-      "page_title": "The Ruliology of Lambdas&mdash;Stephen Wolfram Writings",
+      "page_title": "The Ruliology of Lambdas—Stephen Wolfram Writings",
       "tags": [
         "academic-paper",
         "compilers",
@@ -4271,7 +4271,7 @@
       "summary": "A new Colorado School of Mines study published in *Science* reveals that the U.S. already produces all the critical minerals it needs domestically, but they are being discarded as mining waste rather than recovered. Researchers found that of 70 analyzed elements, recovering even small percentages (often less than 1-10%) of byproducts from existing U.S. mines could eliminate the need to import most critical minerals like cobalt, lithium, and rare earth elements, while also reducing environmental waste. The main challenge is making mineral recovery economically feasible, which requires additional research, technological development, and supportive government policies to incentivize mining operators to invest in recovery infrastructure.",
       "domain": "www.minesnewsroom.com",
       "source_date": "2025-09-19",
-      "page_title": "U.S. already has the critical minerals it needs – but they&#039;re being thrown away, new analysis shows | Colorado School of Mines | Newsroom",
+      "page_title": "U.S. already has the critical minerals it needs – but they're being thrown away, new analysis shows | Colorado School of Mines | Newsroom",
       "tags": [
         "news",
         "academic-paper"
@@ -4285,7 +4285,7 @@
       "summary": "\"Gemini and Mercury Remastered\" is a visually stunning book by Andy Saunders that showcases restored photographs from the early Mercury and Gemini space missions of the 1960s, revealing previously unseen details of these pivotal moments in human space exploration. The book serves as a prequel to \"Apollo Remastered\" and tells the dramatic stories of astronauts who conducted critical experiments and took iconic images of Earth while testing the feasibility of long-duration spaceflight. Featuring endorsements from notable figures like Tom Hanks, Jim Lovell, and Gene Kranz, the book celebrates the visionary achievements and challenges of the pioneers who laid the groundwork for the Apollo Moon landings.",
       "domain": "www.apolloremastered.com",
       "source_date": "2025-09-16",
-      "page_title": "About The Book &mdash; APOLLO REMASTERED",
+      "page_title": "About The Book — APOLLO REMASTERED",
       "tags": [
         "nonfiction-book",
         "video"
@@ -4387,7 +4387,7 @@
       "summary": "Dmitry Brant successfully modernized a 25-year-old Linux kernel driver (ftape) for reading legacy QIC-80 tape cartridges by collaborating with Claude Code AI, completing the upgrade from kernel version 2.4 to version 6.8 over two evenings. While Claude efficiently identified and replaced deprecated kernel functions, created a standalone build system, and debugged hardware communication issues through iterative analysis of system logs, the author emphasizes that success required prior kernel development knowledge and active human oversight rather than fully autonomous AI work. The experience demonstrates the value of treating AI coding assistants as collaborative junior engineers that require clear guidance, domain-specific prompts, and human judgment to deliver working results.",
       "domain": "dmitrybrant.com",
       "source_date": "2025-09-07",
-      "page_title": "Using Claude Code to modernize a 25-year-old kernel driver &#8211; Dmitry Brant",
+      "page_title": "Using Claude Code to modernize a 25-year-old kernel driver – Dmitry Brant",
       "tags": [
         "ai",
         "c",
@@ -4675,7 +4675,7 @@
       "summary": "I cannot provide an accurate summary of this document. The PDF appears to be severely corrupted or improperly converted to text, resulting in garbled characters, encoding errors, and unreadable content throughout. While the title suggests the document discusses \"Markov chain tricks\" for problem-solving (as noted in the user's observation), the actual content is not legible enough to extract meaningful information or key takeaways.\n\nTo properly summarize this resource, you would need a clean, readable version of the PDF file.",
       "domain": "math.uchicago.edu",
       "source_date": "2025-08-22",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "tutorial"
@@ -4772,7 +4772,7 @@
       "summary": "This article announces **Lappverk**, a new tool for maintaining patches on Git that solves the problem of managing long-lived, custom modifications to other people's software. The author argues that while Git excels at forward-moving history, it struggles with the needs of maintaining isolated patches that must be rebased and tracked over years—a challenge that existing tools like Quilt handle awkwardly. Lappverk proposes using Git's native `format-patch` and `am` commands to import and export patches, giving developers a familiar Git workflow while keeping patches as versionable text files.",
       "domain": "natkr.com",
       "source_date": "2025-08-18",
-      "page_title": "Modifying Other People&#x27;s Software | natkr&#x27;s ramblings",
+      "page_title": "Modifying Other People's Software | natkr's ramblings",
       "tags": [
         "cli-tool",
         "devops",
@@ -4851,7 +4851,7 @@
       "summary": "This article explains the hierarchical relationship between four fundamental calculus concepts used in optimization and computer graphics. **Derivatives** measure how functions change and are used in optimization methods like gradient descent; **gradients** extend this to multivariable functions as vectors of partial derivatives that point in the steepest direction; **Jacobian matrices** combine multiple gradients to describe how multidimensional spaces are warped; and **Hessian matrices** contain second-order partial derivatives to reveal function curvature, enabling more efficient optimization. Each concept builds upon the previous one, with practical applications ranging from finding function minima to rendering and machine learning.",
       "domain": "blog.demofox.org",
       "source_date": "2025-08-17",
-      "page_title": "Derivatives, Gradients, Jacobians and Hessians &#8211; Oh My! &laquo; The blog at the bottom of the sea",
+      "page_title": "Derivatives, Gradients, Jacobians and Hessians – Oh My! « The blog at the bottom of the sea",
       "tags": [
         "tutorial",
         "academic-paper",
@@ -4924,7 +4924,7 @@
       "summary": "This is a comprehensive textbook on OCaml programming that teaches functional programming and data structures with emphasis on correctness, efficiency, and code quality. The book, used for Cornell University's CS 3110 course, includes over 200 embedded YouTube videos and was developed by leading computer scientists over more than 20 years. It is freely available under a Creative Commons license and serves as both a textbook and independent learning resource for functional programming concepts.",
       "domain": "cs3110.github.io",
       "source_date": "2025-08-13",
-      "page_title": "OCaml Programming: Correct + Efficient + Beautiful &#8212; OCaml Programming: Correct + Efficient + Beautiful",
+      "page_title": "OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming: Correct + Efficient + Beautiful",
       "tags": [
         "tutorial",
         "academic-paper",
@@ -4952,7 +4952,7 @@
       "summary": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World&#039;s Oldest Clock Maker. 😂😂😂 - Tim Conway - World’s oldest clock maker",
       "domain": "www.threads.com",
       "source_date": "2025-08-11",
-      "page_title": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World&#039;s Oldest Clock Maker. 😂😂😂",
+      "page_title": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World's Oldest Clock Maker. 😂😂😂",
       "tags": [
         "social-media",
         "video"
@@ -5085,7 +5085,7 @@
       "summary": "ya&#039;ll. i just launched the coolest fuckin&#039; thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts &amp; names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle&#039;s saloons were in 1895? Now you can\n\nWhy? I don&#039;t know. But it&#039;s hella cool and you should try it right now. - Historic maps",
       "domain": "www.threads.com",
       "source_date": "2025-08-05",
-      "page_title": "ya&#039;ll. i just launched the coolest fuckin&#039; thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts &amp; names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle&#039;s saloons were in 1895? Now you can\n\nWhy? I don&#039;t know. But it&#039;s hella cool and you should try it right now.",
+      "page_title": "ya'll. i just launched the coolest fuckin' thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts & names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle's saloons were in 1895? Now you can\n\nWhy? I don't know. But it's hella cool and you should try it right now.",
       "tags": [
         "social-media",
         "web-dev",
@@ -5145,7 +5145,7 @@
       "summary": "Steph Ango recommends creating individual \"ramblings\" channels for remote team members as a way to share thoughts and ideas without cluttering main chat channels. These personal channels function like lightweight journals where team members post updates 1-3 times weekly about projects, ideas, and musings, with others able to reply but not start new conversations. At Obsidian, ramblings have proven effective for maintaining social cohesion and generating creative solutions while minimizing interruptions and preserving deep focus time.",
       "domain": "stephango.com",
       "source_date": "2025-08-03",
-      "page_title": "If you're remote, ramble &mdash; Steph Ango",
+      "page_title": "If you're remote, ramble — Steph Ango",
       "tags": [
         "tutorial",
         "video"
@@ -5246,7 +5246,7 @@
       "summary": "Terence Tao: &quot;In the field of cybersecurity, a distinction is m…&quot; - Mathstodon - AI as a red team member for code reviews",
       "domain": "mathstodon.xyz",
       "source_date": "2025-07-28",
-      "page_title": "Terence Tao: &quot;In the field of cybersecurity, a distinction is m…&quot; - Mathstodon",
+      "page_title": "Terence Tao: \"In the field of cybersecurity, a distinction is m…\" - Mathstodon",
       "tags": [
         "security",
         "ai",
@@ -5276,7 +5276,7 @@
       "summary": "Video posted by Sean Bresnan (&#064;seanasheffski66) - REM on Letterman",
       "domain": "www.threads.com",
       "source_date": "2025-07-26",
-      "page_title": "Video posted by Sean Bresnan (&#064;seanasheffski66)",
+      "page_title": "Video posted by Sean Bresnan (@seanasheffski66)",
       "tags": [
         "video",
         "music"
@@ -5290,7 +5290,7 @@
       "summary": "Don&#039;t care what anyone says. &quot;Feels So Good&quot; by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The &quot;Feels So Good&quot; and &quot;Children of Sanchez&quot; albums are perfect &quot;Dollar Bin&quot; records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione - Feels so Good",
       "domain": "www.threads.com",
       "source_date": "2025-07-26",
-      "page_title": "Don&#039;t care what anyone says. &quot;Feels So Good&quot; by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The &quot;Feels So Good&quot; and &quot;Children of Sanchez&quot; albums are perfect &quot;Dollar Bin&quot; records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione",
+      "page_title": "Don't care what anyone says. \"Feels So Good\" by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The \"Feels So Good\" and \"Children of Sanchez\" albums are perfect \"Dollar Bin\" records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione",
       "tags": [
         "music",
         "social-media"
@@ -5331,7 +5331,7 @@
       "summary": "ImageToDrawio.com is an AI-powered online tool that converts images of diagrams (screenshots, photos, hand-drawn sketches) into editable Draw.io format files. The service operates on a simple pay-per-conversion model, offering 3 free trials without login, and ensures user privacy by deleting uploaded images after processing. Key use cases include recovering lost diagram source files, digitizing whiteboard sketches, customizing diagrams found online, and modernizing legacy documentation.",
       "domain": "imagetodrawio.com",
       "source_date": "2025-07-26",
-      "page_title": "#1 Image to Draw.io Converter - Transform Screenshots &amp; Diagrams in 1 minute",
+      "page_title": "#1 Image to Draw.io Converter - Transform Screenshots & Diagrams in 1 minute",
       "tags": [
         "ai",
         "web-dev",
@@ -5645,7 +5645,7 @@
       "summary": "This blog post teaches readers how to manually create Git repositories from scratch by understanding Git's internal architecture, rather than using standard commands like `git init`. The author emphasizes Git's elegant design, particularly its use of Content Addressable Storage (CAS), where objects are stored and identified by SHA-1 hashes of their contents rather than filenames. By building a repository by hand—creating the `.git` directory structure, configuration files, and manually crafting commit objects—readers gain deeper insight into how Git works under the hood.",
       "domain": "drew.silcock.dev",
       "source_date": "2025-07-17",
-      "page_title": "Artisanal Handcrafted Git Repositories | drew&#39;s dev blog",
+      "page_title": "Artisanal Handcrafted Git Repositories | drew's dev blog",
       "tags": [
         "tutorial",
         "cli-tool",
@@ -5766,7 +5766,7 @@
       "summary": "Trump's trade threats through tariffs are largely failing to achieve meaningful concessions from other countries, despite the US consumer market's enormous economic power. The article identifies three key reasons: (1) trading partners lack confidence that tariff removals are permanent, since the administration can simply reimpose them arbitrarily without legal constraints; (2) newly invented tariffs lack negotiating value compared to long-established trade policies, as they're painless for the US to remove; and (3) Trump's confrontational rhetoric has undermined the political space foreign leaders need to make unpopular trade deals domestically. While Trump successfully raised tariffs and got countries to the negotiating table, actual policy changes have been minimal and largely superficial.",
       "domain": "www.explaintrade.com",
       "source_date": "2025-07-12",
-      "page_title": "Trump’s Trade Threats: Why Isn&#x27;t This Working? | ExplainTrade",
+      "page_title": "Trump’s Trade Threats: Why Isn't This Working? | ExplainTrade",
       "tags": [
         "politics",
         "news"
@@ -5856,7 +5856,7 @@
       "summary": "Xenharmlib is a generalized Python music theory library designed for exploring harmonic systems beyond the traditional 12-tone equal-tempered scale, supporting xenharmonic tunings, microtonal scales, posttonal set theory, and non-standard notations. The library provides tools for analyzing intervals, scales, and their relationships through both Western and alternative notation systems, with a focus on scientific exploration rather than score composition. It is built on functional programming principles, offering features like modulation suggestions, group theoretical analysis, and pattern matching for both traditional and unconventional musical systems.",
       "domain": "xenharmlib.readthedocs.io",
       "source_date": "2025-07-09",
-      "page_title": "Welcome to xenharmlib’s documentation! &#8212; xenharmlib  documentation",
+      "page_title": "Welcome to xenharmlib’s documentation! — xenharmlib  documentation",
       "tags": [
         "python",
         "music",
@@ -6060,7 +6060,7 @@
       "summary": "The article argues that **context engineering**—not prompt engineering—is becoming the critical skill for building effective AI agents. Context engineering involves strategically providing all necessary information, tools, and structured data (including instructions, conversation history, retrieved knowledge, and available functions) to enable an LLM to successfully complete tasks. The key insight is that most agent failures stem from poor context rather than model limitations, and the difference between a basic demo and a \"magical\" product lies in the quality and relevance of the context provided before the LLM generates a response.",
       "domain": "www.philschmid.de",
       "source_date": "2025-06-30",
-      "page_title": "The New Skill in AI is Not Prompting, It&#x27;s Context Engineering",
+      "page_title": "The New Skill in AI is Not Prompting, It's Context Engineering",
       "tags": [
         "llm",
         "ai",
@@ -6214,7 +6214,7 @@
       "summary": "I don't have access to the actual video content from this YouTube link, only the page header and footer information. Based on the title alone, this appears to be a comedy sketch from \"Late Night with Conan O'Brien\" featuring Amy Poehler playing Andy Richter's sister. To provide an accurate summary of the main topic and key takeaways, I would need access to the video itself or a detailed description of its content.",
       "domain": "www.youtube.com",
       "source_date": "2025-06-22",
-      "page_title": "Andy&#39;s Little Sister Featuring Amy Poehler &amp; Andy Daly | Late Night with Conan O’Brien - YouTube",
+      "page_title": "Andy's Little Sister Featuring Amy Poehler & Andy Daly | Late Night with Conan O’Brien - YouTube",
       "tags": [
         "video",
         "tv"
@@ -6380,7 +6380,7 @@
       "summary": "Frequent reauthentication is counterproductive for security, as it frustrates users, increases vulnerability to phishing and MFA fatigue attacks, and doesn't actually address real remote attack vectors. Instead, organizations should implement continuous, real-time security verification through device posture checks and automatic policy updates that work silently in the background. The key to effective security is checking device possession only when needed for sensitive actions and using OS-level protections like screen locks, rather than relying on arbitrary login prompts.",
       "domain": "tailscale.com",
       "source_date": "2025-06-13",
-      "page_title": "Frequent reauth doesn&#x27;t make you more secure",
+      "page_title": "Frequent reauth doesn't make you more secure",
       "tags": [
         "security",
         "devops"
@@ -6546,7 +6546,7 @@
       "summary": "Ipyleaflet is a Jupyter widget that enables interactive map visualization using Leaflet.js directly within Jupyter notebooks, with all objects (maps, layers, controls) being fully interactive and updatable from Python or the browser. The documentation covers installation, usage of various map components including basemaps, layers, controls, and provides an API reference with examples that can be tried online through JupyterLite or RetroLite. Key features include support for multiple layer types (tile layers, GeoJSON, heatmaps), drawing controls, and various map controls for zoom, measurement, and search functionality.",
       "domain": "ipyleaflet.readthedocs.io",
       "source_date": "2025-06-06",
-      "page_title": "Introduction to ipyleaflet &#8212; ipyleaflet  documentation",
+      "page_title": "Introduction to ipyleaflet — ipyleaflet  documentation",
       "tags": [
         "python",
         "tutorial",
@@ -6578,7 +6578,7 @@
       "summary": "Folium is a Python library that combines Python's data manipulation capabilities with Leaflet.js mapping functionality to create interactive web maps. It allows users to process data in Python and visualize it on interactive maps with features like choropleth visualizations, custom markers, multiple tileset options, and support for various overlay formats (GeoJSON, TopoJSON, images, and videos).",
       "domain": "python-visualization.github.io",
       "source_date": "2025-06-06",
-      "page_title": "Folium &#8212; Folium 0.20.0 documentation",
+      "page_title": "Folium — Folium 0.20.0 documentation",
       "tags": [
         "python",
         "web-dev",
@@ -6654,7 +6654,7 @@
       "summary": "The Rough-Skinned Newt of the Pacific Northwest is the world's most toxic newt, capable of killing several humans with its poison—a toxicity driven by an evolutionary arms race with garter snakes. The snakes have evolved resistance to the newt's tetrodotoxin and deliberately eat the newts to sequester their poison as defense against their own predators, forcing the newts into an impossible predicament: they must continuously evolve greater toxicity to deter predation, bear the metabolic cost of producing that toxin, and yet cannot evolve warning colors because that would make them easy prey for the snakes. This creates a deadlock where neither species can escape the cycle, leaving researchers still uncovering mysteries about regional variations in this fascinating evolutionary conflict.",
       "domain": "crookedtimber.org",
       "source_date": "2025-06-06",
-      "page_title": "Occasional paper: The impossible predicament of the death newts &#8212; Crooked Timber",
+      "page_title": "Occasional paper: The impossible predicament of the death newts — Crooked Timber",
       "tags": [
         "academic-paper",
         "nonfiction-book"
@@ -6682,7 +6682,7 @@
       "summary": "This essay explores Alan Kay's famous comparison of Lisp to Maxwell's equations of physics, explaining how a half-page of Lisp code represents the fundamental essence of programming. The author teaches basic Lisp fundamentals and guides readers through building a functioning Lisp interpreter in Python, enabling them to understand and execute the elegant, foundational code from the original LISP 1.5 manual. By making these abstract concepts concrete and executable, the essay demonstrates why Lisp is considered a uniquely elegant and powerful expression of computational principles.",
       "domain": "michaelnielsen.org",
       "source_date": "2025-06-02",
-      "page_title": "Lisp as the Maxwell&#8217;s equations of software &#8211; DDI",
+      "page_title": "Lisp as the Maxwell’s equations of software – DDI",
       "tags": [
         "lisp",
         "python",
@@ -6922,7 +6922,7 @@
       "summary": "You&#39;ll Hear It - YouTube - You'll Hear It",
       "domain": "www.youtube.com",
       "source_date": "2025-05-25",
-      "page_title": "You&#39;ll Hear It - YouTube",
+      "page_title": "You'll Hear It - YouTube",
       "tags": [
         "video",
         "music"
@@ -6936,7 +6936,7 @@
       "summary": "I don't have access to the actual video content from YouTube, only the page footer information you've provided. To give you an accurate summary of Jay Fenichel's groove breakdown of \"What Is Hip?\" by Tower of Power, I would need the video's description, transcript, or actual content details. If you can share more information about what's discussed in the video, I'd be happy to summarize it for you.",
       "domain": "www.youtube.com",
       "source_date": "2025-05-25",
-      "page_title": "Groove Breakdown with Jay Fenichel: &quot;What is Hip?&quot; by Tower of Power - YouTube",
+      "page_title": "Groove Breakdown with Jay Fenichel: \"What is Hip?\" by Tower of Power - YouTube",
       "tags": [
         "video",
         "music"
@@ -7022,7 +7022,7 @@
       "summary": "I apologize, but I cannot provide an accurate summary of this web page based on the content provided. The page appears to be from Simon Willison's blog and mentions a \"System Card: Claude Opus 4 & Claude Sonnet 4,\" but the actual content shown only displays recent article headlines rather than the main article text. To give you a meaningful 2-3 sentence summary focusing on the main topic and key takeaways, I would need access to the full article content about the Claude model system cards.",
       "domain": "simonwillison.net",
       "source_date": "2025-05-25",
-      "page_title": "System Card: Claude Opus 4 &amp; Claude Sonnet 4",
+      "page_title": "System Card: Claude Opus 4 & Claude Sonnet 4",
       "tags": [
         "llm",
         "ai"
@@ -7108,7 +7108,7 @@
       "summary": "KumoRFM is a foundation model designed specifically for enterprise relational data that enables accurate predictions across any database and task without requiring task-specific training or manual model development. The model extends in-context learning principles to multi-table relational databases using a table-agnostic encoding scheme and Relational Graph Transformer, delivering predictions in under one second while providing explainability and evaluation capabilities. Unlike conventional machine learning approaches that require months of development, KumoRFM can handle diverse predictive tasks—such as fraud detection, customer churn, and forecasting—across different industries and database schemas without retraining.",
       "domain": "kumo.ai",
       "source_date": "2025-05-23",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "ai",
         "academic-paper",
@@ -7329,7 +7329,7 @@
       "summary": "Dataview is a powerful Obsidian plugin that automates vault management by querying and displaying note metadata in various formats (tables, lists, tasks, calendars). The guide covers fundamental concepts including how to limit queries using folders and tags, work with built-in and custom metadata, and filter/sort results to accomplish tasks like creating dynamic MOCs, listing upcoming events, and tracking goals. It's designed as a beginner-friendly introduction with practical \"recipes\" for common use cases.",
       "domain": "obsidian.rocks",
       "source_date": "2025-05-18",
-      "page_title": "Dataview in Obsidian: A Beginner&#039;s Guide - Obsidian Rocks",
+      "page_title": "Dataview in Obsidian: A Beginner's Guide - Obsidian Rocks",
       "tags": [
         "tutorial",
         "cli-tool"
@@ -7591,7 +7591,7 @@
       "summary": "Oberon Pi is a user-friendly port of Niklaus Wirth's classic Oberon operating system to the Raspberry Pi, designed by Richard Gleaves to make this historically important system more accessible to new users. The project preserves Oberon's unique design principles while modernizing its interface and includes comprehensive documentation, user guides, and the original system's source code. It runs as an application on Raspberry Pi OS and is available as open-source software on GitHub.",
       "domain": "pascal.hansotten.com",
       "source_date": "2025-05-05",
-      "page_title": "Oberon Pi &#8211; Pascal for small machines",
+      "page_title": "Oberon Pi – Pascal for small machines",
       "tags": [
         "github-repo",
         "tutorial",
@@ -7694,7 +7694,7 @@
       "summary": "This Spotify page features \"I'll Remember April,\" a classic jazz track performed by Miles Davis and an all-star ensemble including Dave Schildkraut, Horace Silver, Percy Heath, and Kenny Clarke. The 7:51 song is part of the 2009 \"Walkin' With the Miles Davis All Stars (Bonus Track Version)\" compilation. The page also displays Miles Davis's popular discography, recommended similar artists like John Coltrane and Duke Ellington, and related tracks from the same album.",
       "domain": "open.spotify.com",
       "source_date": "2025-05-02",
-      "page_title": "I’ll Remember April (feat. Dave Schildkraut, Horace Silver, Percy Heath &amp; Kenny Clarke) - song and lyrics by Miles Davis, Dave schildkraut, Horace Silver, Percy Heath, Kenny Clarke | Spotify",
+      "page_title": "I’ll Remember April (feat. Dave Schildkraut, Horace Silver, Percy Heath & Kenny Clarke) - song and lyrics by Miles Davis, Dave schildkraut, Horace Silver, Percy Heath, Kenny Clarke | Spotify",
       "tags": [
         "music"
       ]
@@ -7839,7 +7839,7 @@
       "summary": "&#064;JensenMcRae performs Massachusetts! - Jensen McCrae - Massachusetts",
       "domain": "www.threads.net",
       "source_date": "2025-04-24",
-      "page_title": "&#064;JensenMcRae performs Massachusetts!",
+      "page_title": "@JensenMcRae performs Massachusetts!",
       "tags": [
         "music",
         "social-media",
@@ -7956,7 +7956,7 @@
       "summary": "This paper describes SBCL (Steel Bank Common Lisp), a Common Lisp implementation designed with a unique \"sanely-bootstrappable\" approach that can be built from multiple other Common Lisp implementations rather than solely from itself or another language. The key innovation addresses the traditional problem where Lisp implementations rely on incremental image-based mutations of earlier versions, which can create hidden dependencies and make clean rebuilds difficult. SBCL manages its build process to ensure that the outcome depends only on source code, not the state of the host compiler, making development more maintainable and accessible to contributors.",
       "domain": "research.gold.ac.uk",
       "source_date": "2025-04-04",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "common-lisp",
         "academic-paper",
@@ -8000,7 +8000,7 @@
       "summary": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. &#064;rolandglobal &#064;rolandcanada &#064;jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome - Boss Dr Beat",
       "domain": "www.threads.net",
       "source_date": "2025-03-28",
-      "page_title": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. &#064;rolandglobal &#064;rolandcanada &#064;jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome",
+      "page_title": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. @rolandglobal @rolandcanada @jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome",
       "tags": [
         "social-media",
         "video",
@@ -8015,7 +8015,7 @@
       "summary": "&#064;teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight - Ed Sheeran looping",
       "domain": "www.threads.net",
       "source_date": "2025-03-28",
-      "page_title": "&#064;teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight",
+      "page_title": "@teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight",
       "tags": [
         "video",
         "music",
@@ -8189,7 +8189,7 @@
       "summary": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ &#064;karsonwithak karsonwithak #edsheeran #stpatricksday - Ed Sheerin, Boston",
       "domain": "www.threads.net",
       "source_date": "2025-03-18",
-      "page_title": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ &#064;karsonwithak karsonwithak #edsheeran #stpatricksday",
+      "page_title": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ @karsonwithak karsonwithak #edsheeran #stpatricksday",
       "tags": [
         "music",
         "social-media",
@@ -8263,7 +8263,7 @@
       "summary": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as &quot;highly valuable.&quot; \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business: - Re-imagining meetings",
       "domain": "www.threads.net",
       "source_date": "2025-03-12",
-      "page_title": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as &quot;highly valuable.&quot; \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business:",
+      "page_title": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as \"highly valuable.\" \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business:",
       "tags": [
         "social-media",
         "video"
@@ -8277,7 +8277,7 @@
       "summary": "Mathematicians have made a major breakthrough by solving the Kakeya conjecture, a decades-old problem about the minimum area needed for a spinning needle to rotate through all directions. This achievement, previously considered \"impossible,\" is being recognized as one of the most significant recent mathematical discoveries and is expected to unlock solutions to numerous other previously intractable problems in mathematics.",
       "domain": "www.newscientist.com",
       "source_date": "2025-03-11",
-      "page_title": "Kakeya conjecture: &#039;Amazing&#039; spinning needle proof unlocks a whole new world of maths | New Scientist",
+      "page_title": "Kakeya conjecture: 'Amazing' spinning needle proof unlocks a whole new world of maths | New Scientist",
       "tags": [
         "news",
         "academic-paper"
@@ -8437,7 +8437,7 @@
       "summary": "Frank Herbert's *Dune* drew significant inspiration from T.E. Lawrence's account in *Seven Pillars of Wisdom*, with both featuring Western protagonists who immerse themselves in desert cultures to rally local forces against oppressors. However, while the 1962 film *Lawrence of Arabia* promoted a \"white savior\" narrative that was popular during Cold War tensions, Herbert deliberately adapted and modified these elements to create a more complex exploration of messianism, cultural manipulation, and the problematic nature of outsider intervention. The article examines both the striking parallels and critical contrasts between Lawrence and Paul Atreides to demonstrate how Herbert transformed his source material into something both familiar and distinctly new.",
       "domain": "reactormag.com",
       "source_date": "2025-03-04",
-      "page_title": "Lawrence of Arabia, Paul Atreides, and the Roots of Frank Herbert&#039;s Dune - Reactor",
+      "page_title": "Lawrence of Arabia, Paul Atreides, and the Roots of Frank Herbert's Dune - Reactor",
       "tags": [
         "fiction-book",
         "movie",
@@ -8497,7 +8497,7 @@
       "summary": "Obsidian Web Clipper is an open-source browser extension that saves web articles and pages as Markdown files directly into Obsidian, available for Chrome, Firefox, and Safari. The tool includes customizable templates for extracting metadata from various websites like IMDb, Goodreads, and YouTube, making it easy to clip content in organized formats. A legacy bookmarklet version from 2021 is also available for users who prefer not to install browser extensions, though the modern extension offers better functionality and fewer limitations.",
       "domain": "stephango.com",
       "source_date": "2025-03-01",
-      "page_title": "Obsidian Web Clipper &mdash; Steph Ango",
+      "page_title": "Obsidian Web Clipper — Steph Ango",
       "tags": [
         "cli-tool",
         "web-dev",
@@ -8614,7 +8614,7 @@
       "summary": "Vince Gill, Keb Mo, Albert Lee, James Burton, &amp; Earl Klugh Perform &quot;Mystery Train&quot; Live Crossroads 2010 - Mystery Train Tele masters",
       "domain": "www.threads.net",
       "source_date": "2025-02-24",
-      "page_title": "Vince Gill, Keb Mo, Albert Lee, James Burton, &amp; Earl Klugh Perform &quot;Mystery Train&quot; Live Crossroads 2010",
+      "page_title": "Vince Gill, Keb Mo, Albert Lee, James Burton, & Earl Klugh Perform \"Mystery Train\" Live Crossroads 2010",
       "tags": [
         "music",
         "video"
@@ -8655,7 +8655,7 @@
       "summary": "\"Great Founders Write\" is a book and online course by Ben Putano that teaches entrepreneurs how to develop clear writing and communication skills as essential tools for startup success. The resource emphasizes that writing is fundamental for thinking clearly, leading teams, building influence, and competing in today's knowledge-driven economy, providing practical frameworks, exercises, and templates organized around four principles: writing with purpose, empathy, clarity, and courage. For $49, readers gain lifetime access to the 140-page interactive book, an 8-part video course, and supplemental templates—with testimonials from successful founders crediting the material with improving both their business communication and personal growth.",
       "domain": "www.holloway.com",
       "source_date": "2025-02-23",
-      "page_title": "Great Founders Write: Principles for Clear Thinking, Confident Writing, and Startup Success &mdash; Holloway",
+      "page_title": "Great Founders Write: Principles for Clear Thinking, Confident Writing, and Startup Success — Holloway",
       "tags": [
         "nonfiction-book",
         "tutorial"
@@ -8775,7 +8775,7 @@
       "summary": "Researchers in South America have discovered massive ancient tunnels carved into sandstone, known as \"palaeoburrows,\" with the largest reaching over 1,500 meters in combined length. Scientists now believe these structures were excavated by extinct megafauna, particularly giant ground sloths and armadillos that lived until 10,000+ years ago, based on claw markings matching these animals' anatomy. However, the exact purpose of these burrows—whether for shelter, protection from predators, or other reasons—remains debated among paleontologists studying what may be the world's largest known ichnofossils (traces of ancient organisms).",
       "domain": "www.clp.unesp.br",
       "source_date": "2025-02-18",
-      "page_title": "",
+      "page_title": null,
       "tags": [
         "academic-paper",
         "nonfiction-book"
@@ -8819,7 +8819,7 @@
       "summary": "The ten-to-one slot on &#064;nbcsnl is supposedly for the &quot;weird&quot; stuff, but sometimes it&#039;s insanely, magically weird. It&#039;s never fair to compare SNL casts but I do think the mid/late 00&#039;s group had the largest collection of creative geniuses. Two of them, &#064;willforte &amp; &#064;jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend &#064;tarabdonnelly. I could talk all day about this one but just watch it. - RS - SNL potato chip",
       "domain": "www.threads.net",
       "source_date": "2025-02-15",
-      "page_title": "The ten-to-one slot on &#064;nbcsnl is supposedly for the &quot;weird&quot; stuff, but sometimes it&#039;s insanely, magically weird. It&#039;s never fair to compare SNL casts but I do think the mid/late 00&#039;s group had the largest collection of creative geniuses. Two of them, &#064;willforte &amp; &#064;jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend &#064;tarabdonnelly. I could talk all day about this one but just watch it. - RS",
+      "page_title": "The ten-to-one slot on @nbcsnl is supposedly for the \"weird\" stuff, but sometimes it's insanely, magically weird. It's never fair to compare SNL casts but I do think the mid/late 00's group had the largest collection of creative geniuses. Two of them, @willforte & @jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend @tarabdonnelly. I could talk all day about this one but just watch it. - RS",
       "tags": [
         "tv",
         "video",
@@ -8877,7 +8877,7 @@
       "summary": "En Vogue performed &quot;Free Your Mind&quot; on Saturday Night Live on March 21, 1992. One word: WOW!🤩 - Free your mind",
       "domain": "www.threads.net",
       "source_date": "2025-02-13",
-      "page_title": "En Vogue performed &quot;Free Your Mind&quot; on Saturday Night Live on March 21, 1992. One word: WOW!🤩",
+      "page_title": "En Vogue performed \"Free Your Mind\" on Saturday Night Live on March 21, 1992. One word: WOW!🤩",
       "tags": [
         "music",
         "video",
@@ -8907,7 +8907,7 @@
       "summary": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard&#039;s reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy - Waiting for Guffman scene",
       "domain": "www.threads.net",
       "source_date": "2025-02-12",
-      "page_title": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard&#039;s reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy",
+      "page_title": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard's reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy",
       "tags": [
         "movie",
         "video",
@@ -8951,7 +8951,7 @@
       "summary": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of &#039;Without You&#039;, he recorded his vocal in one take, pretty incredible when you listen to it. I&#039;m my opinion \n\nHarry&#039;s version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it&#039;s just awful 😖 - Harry Nilsson - Without You",
       "domain": "www.threads.net",
       "source_date": "2025-02-08",
-      "page_title": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of &#039;Without You&#039;, he recorded his vocal in one take, pretty incredible when you listen to it. I&#039;m my opinion \n\nHarry&#039;s version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it&#039;s just awful 😖",
+      "page_title": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of 'Without You', he recorded his vocal in one take, pretty incredible when you listen to it. I'm my opinion \n\nHarry's version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it's just awful 😖",
       "tags": [
         "music",
         "social-media"
@@ -8965,7 +8965,7 @@
       "summary": "Chad Smith performing the drums on Dua Lipa&#039;s &#039;Break My Heart&#039; is pure joy - Chad Smith plays Dua Lipa",
       "domain": "www.threads.net",
       "source_date": "2025-02-08",
-      "page_title": "Chad Smith performing the drums on Dua Lipa&#039;s &#039;Break My Heart&#039; is pure joy",
+      "page_title": "Chad Smith performing the drums on Dua Lipa's 'Break My Heart' is pure joy",
       "tags": [
         "music",
         "video",
@@ -9009,7 +9009,7 @@
       "summary": "The article explores how visual explanations can make mathematics more accessible and understandable, using Oliver Byrne's beautifully illustrated version of Euclid's Elements as a prime example. It showcases various approaches to annotating and explaining equations—including color-coding, direct labeling, pictograms, and code—while highlighting the limitations of traditional symbolic representation. The author argues that while we currently lack a unified tool that seamlessly combines symbolic equations, visual annotations, and executable code, the future of mathematical communication lies in integrating these multiple forms of expression.",
       "domain": "agilescientific.com",
       "source_date": "2025-02-08",
-      "page_title": "Visual explanations of mathematics &mdash; Agile",
+      "page_title": "Visual explanations of mathematics — Agile",
       "tags": [
         "tutorial",
         "academic-paper"
@@ -9069,7 +9069,7 @@
       "summary": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model&#039;s context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced &quot;multi-query&quot; option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it&#039;s built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc - SiteRAG Chrome extension",
       "domain": "www.threads.net",
       "source_date": "2025-02-06",
-      "page_title": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model&#039;s context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced &quot;multi-query&quot; option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it&#039;s built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc",
+      "page_title": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model's context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced \"multi-query\" option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it's built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc",
       "tags": [
         "llm",
         "ai",
@@ -9130,7 +9130,7 @@
       "summary": "&#064;MyMorningJacket performs Time Waited… - My Morning Jacket - Time Waited",
       "domain": "www.threads.net",
       "source_date": "2025-02-04",
-      "page_title": "&#064;MyMorningJacket performs Time Waited…",
+      "page_title": "@MyMorningJacket performs Time Waited…",
       "tags": [
         "music",
         "video",
@@ -9177,7 +9177,7 @@
       "summary": "I'm unable to provide a meaningful summary of this page because the content shown only contains YouTube's standard footer information (copyright, links, etc.) rather than actual details about the video itself.\n\nTo summarize the video properly, I would need access to the video description, comments, or other contextual information about \"Eggs Don't Ride Bikes\" and their performance at Arlene's Grocery. If you could share the video description or additional details, I'd be happy to create a summary for you.",
       "domain": "youtu.be",
       "source_date": "2025-02-01",
-      "page_title": "Eggs Don&#39;t Ride Bikes - Live @ Arlenes Grocery - YouTube",
+      "page_title": "Eggs Don't Ride Bikes - Live @ Arlenes Grocery - YouTube",
       "tags": [
         "video",
         "music"
@@ -9191,7 +9191,7 @@
       "summary": "**Severance** Season 2 expands beyond corporate satire to explore broader themes of social control, drawing significant inspiration from cult documentaries. The show intentionally weaves cult dynamics into its storytelling—examining how charismatic leadership and information control manipulate individuals and groups—while maintaining its unique sci-fi premise of severed work and personal identities. The series blends influences from films like *The Truman Show*, *The Matrix*, and *Brazil* to create a prestige drama that uses its longform format to gradually explore the psychological and philosophical consequences of memory division and systemic manipulation.",
       "domain": "arstechnica.com",
       "source_date": "2025-02-01",
-      "page_title": "The Severance writer and cast on corporate cults, sci&#x2d;fi, and more &#x2d; Ars Technica",
+      "page_title": "The Severance writer and cast on corporate cults, sci-fi, and more - Ars Technica",
       "tags": [
         "tv",
         "video"
@@ -9265,7 +9265,7 @@
       "summary": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing &quot;Breed&quot; at the FireAid benefit concert in Los Angeles - Nirvana w St Vincent",
       "domain": "www.threads.net",
       "source_date": "2025-01-31",
-      "page_title": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing &quot;Breed&quot; at the FireAid benefit concert in Los Angeles",
+      "page_title": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing \"Breed\" at the FireAid benefit concert in Los Angeles",
       "tags": [
         "music",
         "video"
@@ -9293,7 +9293,7 @@
       "summary": "Martin Kleppmann's talk challenges the traditional database model—which treats databases as mutable, shared global state since the 1960s—by proposing an alternative \"inside-out\" architecture based on immutable facts and stream processing. Using Apache Samza (a distributed stream processing framework built on Apache Kafka), this approach processes incoming data streams in real-time functionally rather than imperatively, offering benefits like simpler code, better scalability, improved robustness, lower latency, and greater flexibility. The talk presents a fundamentally different way to think about application architecture that moves away from conventional database design.",
       "domain": "martin.kleppmann.com",
       "source_date": "2025-01-28",
-      "page_title": "Turning the database inside-out &mdash; Martin Kleppmann&rsquo;s talks",
+      "page_title": "Turning the database inside-out — Martin Kleppmann’s talks",
       "tags": [
         "database",
         "distributed-systems",
@@ -9323,7 +9323,7 @@
       "summary": "I&#039;m 46 and I&#039;ve been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you&#039;re not using it in your journaling, you&#039;re missing out on profound personal insights \n\nHere&#039;s why (and how to use it): - Journalling technique - have a dialogue with an inner voice",
       "domain": "www.threads.net",
       "source_date": "2025-01-28",
-      "page_title": "I&#039;m 46 and I&#039;ve been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you&#039;re not using it in your journaling, you&#039;re missing out on profound personal insights \n\nHere&#039;s why (and how to use it):",
+      "page_title": "I'm 46 and I've been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you're not using it in your journaling, you're missing out on profound personal insights \n\nHere's why (and how to use it):",
       "tags": [
         "social-media",
         "video"
@@ -9337,7 +9337,7 @@
       "summary": "This should win an Emmy for editing. From the upcoming SNL Music special produced by &#064;questlove - Trailer for SNL music doc",
       "domain": "www.threads.net",
       "source_date": "2025-01-26",
-      "page_title": "This should win an Emmy for editing. From the upcoming SNL Music special produced by &#064;questlove",
+      "page_title": "This should win an Emmy for editing. From the upcoming SNL Music special produced by @questlove",
       "tags": [
         "tv",
         "video",
@@ -9457,7 +9457,7 @@
       "summary": "HEART!! Nancy playing that guitar!  Ann&#039;s beautiful vocals! - Heart - Crazy on You",
       "domain": "www.threads.net",
       "source_date": "2025-01-21",
-      "page_title": "HEART!! Nancy playing that guitar!  Ann&#039;s beautiful vocals!",
+      "page_title": "HEART!! Nancy playing that guitar!  Ann's beautiful vocals!",
       "tags": [
         "music",
         "social-media",
@@ -9517,7 +9517,7 @@
       "summary": "&#064;PeteYorn performs The Hard Way… - Pete Yorn - The Hard Way",
       "domain": "www.threads.net",
       "source_date": "2025-01-21",
-      "page_title": "&#064;PeteYorn performs The Hard Way…",
+      "page_title": "@PeteYorn performs The Hard Way…",
       "tags": [
         "music",
         "video",
@@ -9546,7 +9546,7 @@
       "summary": "Sneakin&#039; Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito - Robert Palmer, The Meters",
       "domain": "www.threads.net",
       "source_date": "2025-01-20",
-      "page_title": "Sneakin&#039; Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito",
+      "page_title": "Sneakin' Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito",
       "tags": [
         "music",
         "social-media"
@@ -9589,7 +9589,7 @@
       "summary": "📥 Agent Inbox UI\n\nToday, we&#039;re releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵 - LangGraph agent in the box",
       "domain": "www.threads.net",
       "source_date": "2025-01-17",
-      "page_title": "📥 Agent Inbox UI\n\nToday, we&#039;re releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵",
+      "page_title": "📥 Agent Inbox UI\n\nToday, we're releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵",
       "tags": [
         "social-media",
         "llm",
@@ -9662,7 +9662,7 @@
       "summary": "Join Josh as he watches what he considers a turning point for electric guitar as &#064;johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE - John Mayer on Austin City Limits",
       "domain": "www.threads.net",
       "source_date": "2025-01-16",
-      "page_title": "Join Josh as he watches what he considers a turning point for electric guitar as &#064;johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE",
+      "page_title": "Join Josh as he watches what he considers a turning point for electric guitar as @johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE",
       "tags": [
         "video",
         "music"
@@ -9734,7 +9734,7 @@
       "summary": "📩Email assistant agent\n\nToday we&#039;re releasing an open source email assistant agent that we&#039;ve been using internally for the past six months\n\nWe&#039;re also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we&#039;re calling &quot;ambient agents&quot;\n\n🧵 - LangChain email assist agent",
       "domain": "www.threads.net",
       "source_date": "2025-01-14",
-      "page_title": "📩Email assistant agent\n\nToday we&#039;re releasing an open source email assistant agent that we&#039;ve been using internally for the past six months\n\nWe&#039;re also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we&#039;re calling &quot;ambient agents&quot;\n\n🧵",
+      "page_title": "📩Email assistant agent\n\nToday we're releasing an open source email assistant agent that we've been using internally for the past six months\n\nWe're also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we're calling \"ambient agents\"\n\n🧵",
       "tags": [
         "ai",
         "github-repo",
@@ -9793,7 +9793,7 @@
       "summary": "Programming languages with small, elegant specifications—like Shen, Scheme, BF, and Forth—often attract developers who find them fun to implement rather than actually use, resulting in numerous implementations but few practical applications. The author argues that while clean design is valuable, languages need sufficient complexity and features to encourage users to write code in them rather than build alternative implementations. Languages like Clojure and Racket have achieved a better balance by being large enough to attract a user community before spawning multiple implementations.",
       "domain": "www.wilfred.me.uk",
       "source_date": "2025-01-13",
-      "page_title": "The Siren Song of Little Languages &#8211; Wilfred Hughes::Blog",
+      "page_title": "The Siren Song of Little Languages – Wilfred Hughes::Blog",
       "tags": [
         "compilers",
         "scheme",
@@ -9839,7 +9839,7 @@
       "summary": "After seven years with Clojure, Dan switched to Common Lisp primarily because Clojure lacked fast-starting standalone executables for CLI applications. He evaluated his language requirements—including executable performance, cross-platform support, multithreading capabilities, and a strong ecosystem—and found that Common Lisp met all his criteria through implementations like SBCL, along with robust libraries for JSON parsing, SQLite, and HTTP requests. He wrote this post to help newcomers understand his journey and address common questions about adopting Common Lisp as a hobby language.",
       "domain": "blog.djhaskin.com",
       "source_date": "2025-01-12",
-      "page_title": "Why I Chose Common Lisp — Dan&#x27;s Musings",
+      "page_title": "Why I Chose Common Lisp — Dan's Musings",
       "tags": [
         "common-lisp",
         "clojure",
@@ -9855,7 +9855,7 @@
       "summary": "This guide provides a streamlined procedure for deploying a Common Lisp application and setting up a development environment within an hour, with a focus on cross-platform compatibility (Linux, Mac, and Windows). It walks developers through installing essential tools like Roswell, SBCL, Qlot, and Rove, then explains how to structure a new Common Lisp project with proper testing and packaging conventions. The guide emphasizes practical, opinionated recommendations to maximize setup speed and deployment success for programmers new to Common Lisp.",
       "domain": "blog.djhaskin.com",
       "source_date": "2025-01-12",
-      "page_title": "Release Common Lisp on Your First Day — Dan&#x27;s Musings",
+      "page_title": "Release Common Lisp on Your First Day — Dan's Musings",
       "tags": [
         "common-lisp",
         "tutorial",
@@ -9976,7 +9976,7 @@
       "summary": "&#064;drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston - A Boston street that doesn’t exist",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
-      "page_title": "&#064;drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston",
+      "page_title": "@drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston",
       "tags": [
         "social-media",
         "video"
@@ -9990,7 +9990,7 @@
       "summary": "&#064;TheLindaLindas perform All In My Head! - The Linda Lindas- All in my Head",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
-      "page_title": "&#064;TheLindaLindas perform All In My Head!",
+      "page_title": "@TheLindaLindas perform All In My Head!",
       "tags": [
         "music",
         "video"
@@ -10004,7 +10004,7 @@
       "summary": "Photo posted by They Might Be Giants (&#064;tmbgofficial) - Say Im the only bee in your bonnet",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
-      "page_title": "Photo posted by They Might Be Giants (&#064;tmbgofficial)",
+      "page_title": "Photo posted by They Might Be Giants (@tmbgofficial)",
       "tags": [
         "social-media",
         "music"
@@ -10018,7 +10018,7 @@
       "summary": "Photo posted by Scot Chisholm (&#064;scotchisholm) - Career advice",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
-      "page_title": "Photo posted by Scot Chisholm (&#064;scotchisholm)",
+      "page_title": "Photo posted by Scot Chisholm (@scotchisholm)",
       "tags": [
         "social-media",
         "video"
@@ -10232,7 +10232,7 @@
       "summary": "One of the best math books I&#039;ve ever read:\n\nMIT&#039;s &quot;Mathematics for Computer Science&quot;\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf - Mathematics for Computer Science",
       "domain": "www.threads.net",
       "source_date": "2025-01-02",
-      "page_title": "One of the best math books I&#039;ve ever read:\n\nMIT&#039;s &quot;Mathematics for Computer Science&quot;\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "page_title": "One of the best math books I've ever read:\n\nMIT's \"Mathematics for Computer Science\"\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
       "tags": [
         "academic-paper",
         "tutorial"
@@ -10337,7 +10337,7 @@
       "summary": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you&#039;re playing the wrong game 🧵 - Documenting and promoting your work",
       "domain": "www.threads.net",
       "source_date": "2024-12-26",
-      "page_title": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you&#039;re playing the wrong game 🧵",
+      "page_title": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you're playing the wrong game 🧵",
       "tags": [
         "social-media",
         "video",
@@ -10366,7 +10366,7 @@
       "summary": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere&#039;s a list of my 27 best picks:⤵️ - 27 great websites (AI focused)",
       "domain": "www.threads.net",
       "source_date": "2024-12-26",
-      "page_title": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere&#039;s a list of my 27 best picks:⤵️",
+      "page_title": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere's a list of my 27 best picks:⤵️",
       "tags": [
         "social-media",
         "ai"
@@ -10437,7 +10437,7 @@
       "summary": "Brad Mehldau &amp; Eden Mehldau \nThe Christmas Song - Brad and Eden Meldauh - The Christmas Song",
       "domain": "www.threads.net",
       "source_date": "2024-12-24",
-      "page_title": "Brad Mehldau &amp; Eden Mehldau \nThe Christmas Song",
+      "page_title": "Brad Mehldau & Eden Mehldau \nThe Christmas Song",
       "tags": [
         "music",
         "video",

@@ -2,6 +2,7 @@
 
 import asyncio
 import hashlib
+import html
 import json
 import logging
 from datetime import datetime
@@ -424,7 +425,7 @@ def export_json(config: str, output: str) -> None:
             "summary": link.summary,
             "domain": link.domain,
             "source_date": str(link.source_date) if link.source_date else None,
-            "page_title": link.page_title,
+            "page_title": html.unescape(link.page_title) if link.page_title else None,
             "tags": tag_names,
         })
 
