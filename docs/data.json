@@ -1,6 +1,20 @@
 {
-  "exported_at": "2026-01-23T21:18:52.648661",
+  "exported_at": "2026-01-24T07:50:05.730610",
   "links": [
+    {
+      "id": 754,
+      "url": "https://www.korg.com/us/products/dj/phase8/",
+      "title": null,
+      "description": "Korg phase8 acoustic synthesizer",
+      "summary": "The phase8 is Korg's eight-voice acoustic synthesizer that combines physically vibrating steel resonators with electronic synthesis controls, featuring swappable tunable resonators, a polymetric sequencer, and multiple modulation modes. The instrument produces organic, responsive sound through haptic generation while allowing real-time physical interaction via touch and tactile manipulation, with full MIDI/USB connectivity for integration into larger setups. The presale package includes three limited-edition percussive resonators alongside the standard chromatic set for expanded sonic possibilities.",
+      "domain": "www.korg.com",
+      "source_date": "2026-01-24",
+      "page_title": "phase8 - ACOUSTIC SYNTHESIZER | KORG (USA)",
+      "tags": [
+        "music",
+        "video"
+      ]
+    },
     {
       "id": 753,
       "url": "https://bwbensonjr.github.io/building-calcs/",
@@ -10509,7 +10523,7 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 176
+      "count": 177
     },
     {
       "name": "ai",
@@ -10539,7 +10553,7 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 109
+      "count": 110
     },
     {
       "name": "llm",
@@ -10713,7 +10727,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 21
+      "count": 22
     },
     {
       "domain": "www.youtube.com",
@@ -11461,6 +11475,10 @@
     },
     {
       "domain": "jakub.kr",
+      "count": 1
+    },
+    {
+      "domain": "jasonwillems.com",
       "count": 1
     },
     {
@@ -12253,6 +12271,10 @@
     },
     {
       "domain": "www.knitted-anatomy.at",
+      "count": 1
+    },
+    {
+      "domain": "www.korg.com",
       "count": 1
     },
     {
