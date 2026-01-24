@@ -1,5 +1,6 @@
 """RSS 2.0 feed generation."""
 
+import html
 from datetime import date, datetime
 from email.utils import format_datetime
 from typing import Optional
@@ -63,8 +64,9 @@ def generate_rss(
         item = SubElement(channel, "item")
 
         # Title: prefer page_title, fall back to title/description/url
+        # Decode HTML entities that may be stored in older database records
         item_title = link.page_title or link.title or link.description or link.url
-        SubElement(item, "title").text = item_title
+        SubElement(item, "title").text = html.unescape(item_title) if item_title else None
 
         # Link
         SubElement(item, "link").text = link.url
