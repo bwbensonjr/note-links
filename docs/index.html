@@ -206,7 +206,7 @@
               rel="noopener noreferrer"
               class="text-lg font-medium text-blue-600 hover:text-blue-800 hover:underline flex-1"
             >
-              {{ link.page_title || link.title || link.description || link.url }}
+              {{ link.page_title?.trim() || link.title?.trim() || link.description?.trim() || link.url }}
             </a>
             <span class="text-sm text-gray-500 whitespace-nowrap">{{ link.domain }}</span>
           </div>
