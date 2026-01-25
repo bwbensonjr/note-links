@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-01-25T08:28:18.459889",
+  "exported_at": "2026-01-25T16:45:06.819095",
   "links": [
     {
       "id": 758,
@@ -41,6 +41,34 @@
       "tags": [
         "nonfiction-book",
         "academic-paper"
+      ]
+    },
+    {
+      "id": 756,
+      "url": "https://www.nytimes.com/2025/12/30/arts/design/helene-schjerfbeck-met-museum.html?smid=nytcore-ios-share",
+      "title": null,
+      "description": "Beloved in Finland, Helene Schjerfbeck is just becoming hot in Manhattan, where a show of paintings at the Met Museum is likely to leave you awe-struck",
+      "summary": "Beloved in Finland, Helene Schjerfbeck is just becoming hot in Manhattan, where a show of paintings at the Met Museum is likely to leave you awe-struck",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-01-24",
+      "page_title": null,
+      "tags": [
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 755,
+      "url": "https://jasonwillems.com/technology/2025/12/17/Tech-Is-Fun-Again/",
+      "title": null,
+      "description": "The Tech monoculture is finally breaking",
+      "summary": "The Tech monoculture is finally breaking",
+      "domain": "jasonwillems.com",
+      "source_date": "2026-01-24",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
       ]
     },
     {
@@ -234,6 +262,20 @@
       "tags": [
         "academic-paper",
         "tutorial"
+      ]
+    },
+    {
+      "id": 745,
+      "url": "https://steve-yegge.medium.com/steveys-birthday-blog-34f437139cb5",
+      "title": null,
+      "description": "Steve Yegge’s birthday blog",
+      "summary": "Steve Yegge’s birthday blog",
+      "domain": "steve-yegge.medium.com",
+      "source_date": "2026-01-22",
+      "page_title": null,
+      "tags": [
+        "video",
+        "nonfiction-book"
       ]
     },
     {
@@ -577,6 +619,20 @@
       ]
     },
     {
+      "id": 716,
+      "url": "https://www.nytimes.com/2026/01/13/us/politics/congress-house-republicans-majority.html?smid=nytcore-ios-share",
+      "title": null,
+      "description": "House Republican advantage is down to almost nothing",
+      "summary": "House Republican advantage is down to almost nothing",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-01-15",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
       "id": 715,
       "url": "https://craftinginterpreters.com/",
       "title": null,
@@ -651,6 +707,20 @@
       "tags": [
         "web-dev",
         "tutorial"
+      ]
+    },
+    {
+      "id": 710,
+      "url": "https://www.washingtonpost.com/entertainment/art/interactive/2026/jackson-pollock-theft-isaacs-family/",
+      "title": null,
+      "description": "The hunt for stolen Jackson Pollock paintings - Riverview apartments, Cambridge, MA",
+      "summary": "The hunt for stolen Jackson Pollock paintings - Riverview apartments, Cambridge, MA",
+      "domain": "www.washingtonpost.com",
+      "source_date": "2026-01-15",
+      "page_title": null,
+      "tags": [
+        "news",
+        "video"
       ]
     },
     {
@@ -995,6 +1065,20 @@
         "academic-paper",
         "ai",
         "python"
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind",
+      "title": null,
+      "description": "**Active Inference** - the process theory (or agent architecture) derived from the FEP that explains how organisms act on their environment to make their predicted observations come true. This framework unifies perception, planning, and action under a single imperative: to minimize free energy, which is an upper bound on the log-evidence of the agent's model of the world.",
+      "summary": "**Active Inference** - the process theory (or agent architecture) derived from the FEP that explains how organisms act on their environment to make their predicted observations come true. This framework unifies perception, planning, and action under a single imperative: to minimize free energy, which is an upper bound on the log-evidence of the agent's model of the world.",
+      "domain": "direct.mit.edu",
+      "source_date": "2026-01-10",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "ai"
       ]
     },
     {
@@ -2545,6 +2629,20 @@
       ]
     },
     {
+      "id": 118,
+      "url": "https://www.nytimes.com/2025/12/02/books/review/best-books-2025.html?smid=nytcore-ios-share",
+      "title": null,
+      "description": "10 best books of 2025",
+      "summary": "10 best books of 2025",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-12-03",
+      "page_title": null,
+      "tags": [
+        "nonfiction-book",
+        "news"
+      ]
+    },
+    {
       "id": 121,
       "url": "https://arxiv.org/abs/2211.12588",
       "title": null,
@@ -2828,6 +2926,20 @@
       ]
     },
     {
+      "id": 138,
+      "url": "https://nof1.ai/blog/TechPost1",
+      "title": null,
+      "description": "LLMs as quant traders",
+      "summary": "LLMs as quant traders",
+      "domain": "nof1.ai",
+      "source_date": "2025-11-19",
+      "page_title": null,
+      "tags": [
+        "llm",
+        "ai"
+      ]
+    },
+    {
       "id": 140,
       "url": "https://blog.google/technology/google-deepmind/weathernext-2/",
       "title": null,
@@ -2843,6 +2955,20 @@
       ]
     },
     {
+      "id": 141,
+      "url": "https://en.wikipedia.org/wiki/ICAD_(software",
+      "title": null,
+      "description": "ICAD Software",
+      "summary": "ICAD Software",
+      "domain": "en.wikipedia.org",
+      "source_date": "2025-11-17",
+      "page_title": null,
+      "tags": [
+        "compilers",
+        "academic-paper"
+      ]
+    },
+    {
       "id": 145,
       "url": "https://generativehistory.substack.com/p/has-google-quietly-solved-two-of",
       "title": null,
@@ -2855,6 +2981,20 @@
         "ai",
         "news",
         "llm"
+      ]
+    },
+    {
+      "id": 144,
+      "url": "https://www.nytimes.com/2025/11/15/us/politics/latino-voters-new-jersey.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "NJ Gov - Hispanic voters shift back towards Democrats",
+      "summary": "NJ Gov - Hispanic voters shift back towards Democrats",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-11-15",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
       ]
     },
     {
@@ -3238,6 +3378,21 @@
       ]
     },
     {
+      "id": 166,
+      "url": "https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b",
+      "title": null,
+      "description": "Why it’s important to understand back propagation - karpathy",
+      "summary": "Why it’s important to understand back propagation - karpathy",
+      "domain": "karpathy.medium.com",
+      "source_date": "2025-11-02",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
       "id": 170,
       "url": "https://news.ycombinator.com/item?id=45783376",
       "title": null,
@@ -3296,6 +3451,20 @@
       "tags": [
         "web-dev",
         "ai"
+      ]
+    },
+    {
+      "id": 173,
+      "url": "https://arxiv.org/abs/2510.1",
+      "title": null,
+      "description": "Language models are infective and therefore invertible",
+      "summary": "Language models are infective and therefore invertible",
+      "domain": "arxiv.org",
+      "source_date": "2025-10-30",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "llm"
       ]
     },
     {
@@ -3691,6 +3860,32 @@
       ]
     },
     {
+      "id": 201,
+      "url": "https://content.civicplus.com/api/assets/87bc6907-f432-4015-8846-441824d3392c?cache=1800",
+      "title": null,
+      "description": "Specimen ballot",
+      "summary": "Specimen ballot",
+      "domain": "content.civicplus.com",
+      "source_date": "2025-10-17",
+      "page_title": null,
+      "tags": [
+        "politics"
+      ]
+    },
+    {
+      "id": 203,
+      "url": "https://www.nytimes.com/2025/10/16/opinion/ai-specialized-potential.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Chatbots are a waste of AI’s true potential",
+      "summary": "Chatbots are a waste of AI’s true potential",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-10-16",
+      "page_title": null,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
       "id": 204,
       "url": "https://www.gilesthomas.com/2025/10/llm-from-scratch-22-finally-training-our-llm",
       "title": null,
@@ -3900,6 +4095,19 @@
         "github-repo",
         "tutorial",
         "devops"
+      ]
+    },
+    {
+      "id": 221,
+      "url": "https://chatgpt.com/share/e/68e3c16a-2de0-800c-8465-26a552ffefa1",
+      "title": null,
+      "description": null,
+      "summary": null,
+      "domain": "chatgpt.com",
+      "source_date": "2025-10-06",
+      "page_title": null,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -4376,6 +4584,20 @@
       ]
     },
     {
+      "id": 250,
+      "url": "https://www.nytimes.com/2025/09/11/arts/music/classical-music-albums-september.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "classical music to listen to",
+      "summary": "classical music to listen to",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-09-13",
+      "page_title": null,
+      "tags": [
+        "music",
+        "video"
+      ]
+    },
+    {
       "id": 254,
       "url": "https://www.hudsong.dev/digital-darwin",
       "title": null,
@@ -4557,6 +4779,21 @@
         "devops",
         "distributed-systems",
         "web-dev"
+      ]
+    },
+    {
+      "id": 264,
+      "url": "https://`youtu`.be/GfH4QL4VqJ0?si=PeJm2pOaoKEnPALj",
+      "title": null,
+      "description": "Python - The Documentary",
+      "summary": "Python - The Documentary",
+      "domain": "`youtu`.be",
+      "source_date": "2025-08-29",
+      "page_title": null,
+      "tags": [
+        "video",
+        "python",
+        "tutorial"
       ]
     },
     {
@@ -5815,6 +6052,35 @@
       ]
     },
     {
+      "id": 349,
+      "url": "https://www.nytimes.com/2025/07/12/style/algospeak-etymology-nerd-adam-aleksic-slang.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Internet language analyzed on TikTok and in new book",
+      "summary": "Internet language analyzed on TikTok and in new book",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-07-14",
+      "page_title": null,
+      "tags": [
+        "news",
+        "social-media",
+        "video"
+      ]
+    },
+    {
+      "id": 348,
+      "url": "https://www.nytimes.com/2025/07/14/business/undersea-power-cables-electricity.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Underwater power cables by Prysmian",
+      "summary": "Underwater power cables by Prysmian",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-07-14",
+      "page_title": null,
+      "tags": [
+        "news",
+        "devops"
+      ]
+    },
+    {
       "id": 352,
       "url": "https://www.explaintrade.com/resources/trumps-trade-threats",
       "title": null,
@@ -6007,6 +6273,20 @@
       ]
     },
     {
+      "id": 366,
+      "url": "https://www.crystalballroomboston.com/events/global-arts-live-presents-amythyst-kiah-2/",
+      "title": null,
+      "description": "Hannah's birthday show",
+      "summary": "Hannah's birthday show",
+      "domain": "www.crystalballroomboston.com",
+      "source_date": "2025-07-05",
+      "page_title": null,
+      "tags": [
+        "music",
+        "video"
+      ]
+    },
+    {
       "id": 365,
       "url": "https://maalvika.substack.com/p/being-too-ambitious-is-a-clever-form",
       "title": null,
@@ -6165,6 +6445,34 @@
       ]
     },
     {
+      "id": 375,
+      "url": "https://www.nytimes.com/2025/06/27/travel/american-airlines-outage-delays.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "American Airlines computer glitch on Friday",
+      "summary": "American Airlines computer glitch on Friday",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-06-29",
+      "page_title": null,
+      "tags": [
+        "news",
+        "devops"
+      ]
+    },
+    {
+      "id": 374,
+      "url": "https://www.nytimes.com/2025/06/29/nyregion/zohran-mamdani-voters-strategy.html",
+      "title": null,
+      "description": "How Mamdani expanded the electorate",
+      "summary": "How Mamdani expanded the electorate",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-06-29",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
       "id": 380,
       "url": "https://github.com/pacocoursey/xslt",
       "title": null,
@@ -6177,6 +6485,20 @@
         "github-repo",
         "web-dev",
         "cli-tool"
+      ]
+    },
+    {
+      "id": 379,
+      "url": "https://www.taunton-ma.gov/DocumentCenter/View/5693/Taunton-notice-to-3rd-Bristol-candidates-of-recount-date-62425",
+      "title": null,
+      "description": "Taunton recount",
+      "summary": "Taunton recount",
+      "domain": "www.taunton-ma.gov",
+      "source_date": "2025-06-27",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
       ]
     },
     {
@@ -6657,6 +6979,21 @@
       ]
     },
     {
+      "id": 411,
+      "url": "https://medium.com/@alexroz/6-python-libraries-to-make-beautiful-maps-9fb9edb28b27",
+      "title": null,
+      "description": "Python libraries for making beautiful maps",
+      "summary": "Python libraries for making beautiful maps",
+      "domain": "medium.com",
+      "source_date": "2025-06-06",
+      "page_title": null,
+      "tags": [
+        "python",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
       "id": 410,
       "url": "https://deck.gl/",
       "title": null,
@@ -6760,6 +7097,20 @@
         "lisp",
         "compilers",
         "tutorial"
+      ]
+    },
+    {
+      "id": 421,
+      "url": "https://queue.acm.org/detail.cfm?id=1039523",
+      "title": "Stuart Feldman \"A Conversation with Alan Kay\"",
+      "description": null,
+      "summary": "Stuart Feldman \"A Conversation with Alan Kay\"",
+      "domain": "queue.acm.org",
+      "source_date": "2025-06-02",
+      "page_title": null,
+      "tags": [
+        "video",
+        "academic-paper"
       ]
     },
     {
@@ -7189,6 +7540,22 @@
       ]
     },
     {
+      "id": 445,
+      "url": "https://twitter.com/ID_AA_Carmack/status/1925710474366034326",
+      "title": null,
+      "description": "Training robots to play Atari games",
+      "summary": "Training robots to play Atari games",
+      "domain": "twitter.com",
+      "source_date": "2025-05-23",
+      "page_title": null,
+      "tags": [
+        "social-media",
+        "ai",
+        "video",
+        "gaming"
+      ]
+    },
+    {
       "id": 456,
       "url": "https://lcamtuf.substack.com/p/decibels-are-ridiculous",
       "title": null,
@@ -7215,6 +7582,17 @@
         "nonfiction-book",
         "music"
       ]
+    },
+    {
+      "id": 454,
+      "url": "https://iment.com/maida/computer/redref/",
+      "title": null,
+      "description": "Overview of the Ada computer language competition",
+      "summary": "Overview of the Ada computer language competition",
+      "domain": "iment.com",
+      "source_date": "2025-05-22",
+      "page_title": null,
+      "tags": []
     },
     {
       "id": 453,
@@ -7769,6 +8147,20 @@
       ]
     },
     {
+      "id": 492,
+      "url": "https://www.nytimes.com/2025/04/29/realestate/architecture-design-modern-sweden.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Cube house by the lake",
+      "summary": "Cube house by the lake",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-05-01",
+      "page_title": null,
+      "tags": [
+        "news",
+        "video"
+      ]
+    },
+    {
       "id": 494,
       "url": "https://github.com/PhialsBasement/Chain-of-Recursive-Thoughts",
       "title": null,
@@ -7812,6 +8204,20 @@
         "web-dev",
         "typescript",
         "cli-tool"
+      ]
+    },
+    {
+      "id": 495,
+      "url": "https://www.screenrecorder.me/",
+      "title": null,
+      "description": "Screen recorder app",
+      "summary": "Screen recorder app",
+      "domain": "www.screenrecorder.me",
+      "source_date": "2025-04-28",
+      "page_title": null,
+      "tags": [
+        "cli-tool",
+        "web-dev"
       ]
     },
     {
@@ -7961,6 +8367,20 @@
       ]
     },
     {
+      "id": 507,
+      "url": "https://www.makingsoftware.com/",
+      "title": "https://www.makingsoftware.com",
+      "description": "How things work book",
+      "summary": "How things work book - https://www.makingsoftware.com",
+      "domain": "www.makingsoftware.com",
+      "source_date": "2025-04-18",
+      "page_title": null,
+      "tags": [
+        "nonfiction-book",
+        "tutorial"
+      ]
+    },
+    {
       "id": 509,
       "url": "https://peps.python.org/pep-0750/",
       "title": null,
@@ -8002,6 +8422,34 @@
       "tags": [
         "tutorial",
         "github-repo"
+      ]
+    },
+    {
+      "id": 512,
+      "url": "https://www.researchgate.net/publication/26467883_NEW_THEORETICAL_RESEARCH_TRENDS_IN_CARTOGRAPHY",
+      "title": null,
+      "description": "new theoretical trends in cartography",
+      "summary": "new theoretical trends in cartography",
+      "domain": "www.researchgate.net",
+      "source_date": "2025-04-06",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 514,
+      "url": "https://dl.acm.org/doi/10.1145/319838.319851",
+      "title": null,
+      "description": "Lisp implementation paper",
+      "summary": "Lisp implementation paper",
+      "domain": "dl.acm.org",
+      "source_date": "2025-04-04",
+      "page_title": null,
+      "tags": [
+        "lisp",
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -8384,6 +8832,20 @@
       ]
     },
     {
+      "id": 542,
+      "url": "https://www.science.org/content/article/how-often-are-children-genetically-unrelated-their-presumed-fathers",
+      "title": null,
+      "description": "Rate of mis-identified fathers is 1% in Europe",
+      "summary": "Rate of mis-identified fathers is 1% in Europe",
+      "domain": "www.science.org",
+      "source_date": "2025-03-07",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
       "id": 541,
       "url": "https://cyd.social/migrate-your-tweets-to-bluesky-with-the-latest-version-of-cyd/",
       "title": null,
@@ -8572,6 +9034,34 @@
       "tags": [
         "ai",
         "academic-paper"
+      ]
+    },
+    {
+      "id": 553,
+      "url": "https://www.nytimes.com/2025/03/01/magazine/maura-healey-interview.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Maura Healey",
+      "summary": "Maura Healey",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-03-01",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
+      "id": 552,
+      "url": "https://www.nytimes.com/2025/03/01/us/politics/democrats-voter-data.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "NGP/VAN",
+      "summary": "NGP/VAN",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-03-01",
+      "page_title": null,
+      "tags": [
+        "politics",
+        "news"
       ]
     },
     {
@@ -8809,6 +9299,20 @@
       ]
     },
     {
+      "id": 573,
+      "url": "https://www.nytimes.com/2025/02/17/science/airborne-louis-pasteur-germs.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Germs in the air",
+      "summary": "Germs in the air",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-02-18",
+      "page_title": null,
+      "tags": [
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
       "id": 572,
       "url": "https://www.smithsonianmag.com/history/canyon-of-the-ancestors-180985955/",
       "title": null,
@@ -8912,6 +9416,21 @@
       ]
     },
     {
+      "id": 582,
+      "url": "https://www.researchgate.net/publication/388955884_JesseSort",
+      "title": null,
+      "description": "Implement JesseSort in Scheme and Common Lisp",
+      "summary": "Implement JesseSort in Scheme and Common Lisp",
+      "domain": "www.researchgate.net",
+      "source_date": "2025-02-13",
+      "page_title": null,
+      "tags": [
+        "scheme",
+        "common-lisp",
+        "academic-paper"
+      ]
+    },
+    {
       "id": 581,
       "url": "https://www.youtube.com/watch?v=KIZp0qK1Pjo",
       "title": null,
@@ -8997,6 +9516,35 @@
         "academic-paper",
         "llm",
         "ai"
+      ]
+    },
+    {
+      "id": 586,
+      "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bee2a90e39bc709835ae184e286a20afb02a0792",
+      "title": null,
+      "description": "The Development of Chez Scheme - Dybvig",
+      "summary": "The Development of Chez Scheme - Dybvig",
+      "domain": "citeseerx.ist.psu.edu",
+      "source_date": "2025-02-09",
+      "page_title": null,
+      "tags": [
+        "scheme",
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 593,
+      "url": "https://www.nytimes.com/2025/01/26/books/review/good-dirt-charmaine-wilkerson.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Book - **GOOD DIRT**, by Charmaine Wilkerson",
+      "summary": "Book - **GOOD DIRT**, by Charmaine Wilkerson",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-02-08",
+      "page_title": null,
+      "tags": [
+        "fiction-book",
+        "news"
       ]
     },
     {
@@ -9226,6 +9774,20 @@
       ]
     },
     {
+      "id": 604,
+      "url": "https://medium.com/@mne/the-magic-of-llm-structured-output-1e4edfaaa9cd",
+      "title": null,
+      "description": "The magic of structured output",
+      "summary": "The magic of structured output",
+      "domain": "medium.com",
+      "source_date": "2025-02-02",
+      "page_title": null,
+      "tags": [
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
       "id": 606,
       "url": "https://youtu.be/GbjrLmZ4j-8?si=DjS8szcjT-URCrIr",
       "title": null,
@@ -9386,6 +9948,20 @@
       ]
     },
     {
+      "id": 616,
+      "url": "https://www.nytimes.com/2025/01/27/arts/television/tv-this-week-mo-maine-cabin-masters.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "TV ideas",
+      "summary": "TV ideas",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-01-27",
+      "page_title": null,
+      "tags": [
+        "tv",
+        "video"
+      ]
+    },
+    {
       "id": 618,
       "url": "https://www.threads.net/@michelinemaynard/post/DFRn6G8Oz76?xmt=AQGzaBcfebE6e5EPucMGrqu3l2p7p-9H0UkjjRk6BUZ3RA",
       "title": null,
@@ -9398,6 +9974,20 @@
         "tv",
         "video",
         "music"
+      ]
+    },
+    {
+      "id": 617,
+      "url": "https://www.nytimes.com/article/best-movies-amazon-prime.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Movies to watch on Prime",
+      "summary": "Movies to watch on Prime",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-01-26",
+      "page_title": null,
+      "tags": [
+        "movie",
+        "video"
       ]
     },
     {
@@ -9489,6 +10079,20 @@
         "social-media",
         "tutorial",
         "nonfiction-book"
+      ]
+    },
+    {
+      "id": 624,
+      "url": "https://www.nytimes.com/2025/01/21/arts/music/garth-hudson-songs.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Essential Garth Hudson tracks",
+      "summary": "Essential Garth Hudson tracks",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-01-23",
+      "page_title": null,
+      "tags": [
+        "music",
+        "video"
       ]
     },
     {
@@ -9606,6 +10210,20 @@
       "tags": [
         "music",
         "social-media"
+      ]
+    },
+    {
+      "id": 634,
+      "url": "https://www.nytimes.com/2025/01/10/books/review/kate-winkler-dawson-the-sinners-all-bow-.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Scarlet Letter book - The Sinner’s Bow",
+      "summary": "Scarlet Letter book - The Sinner’s Bow",
+      "domain": "www.nytimes.com",
+      "source_date": "2025-01-19",
+      "page_title": null,
+      "tags": [
+        "news",
+        "nonfiction-book"
       ]
     },
     {
@@ -9948,6 +10566,21 @@
         "social-media",
         "nonfiction-book",
         "video"
+      ]
+    },
+    {
+      "id": 658,
+      "url": "https://www.threads.nfet/@sambushband/post/DEk46YgJPyD?xmt=AQGz_4IxnMq1-GV3buiOPz9djpk0U_FrSHNgMkoPxl-kvw",
+      "title": null,
+      "description": "Solo mandolin picking",
+      "summary": "Solo mandolin picking",
+      "domain": "www.threads.nfet",
+      "source_date": "2025-01-09",
+      "page_title": null,
+      "tags": [
+        "music",
+        "video",
+        "social-media"
       ]
     },
     {
@@ -10386,6 +11019,21 @@
       ]
     },
     {
+      "id": 689,
+      "url": "https://www.nytimes.com/2024/12/27/opinion/college-education-tuition-egalitarian.html?smid=nytcore-ios-share&referringSource=articleShare",
+      "title": null,
+      "description": "Anti-elitism without being anti-education",
+      "summary": "Anti-elitism without being anti-education",
+      "domain": "www.nytimes.com",
+      "source_date": "2024-12-28",
+      "page_title": null,
+      "tags": [
+        "news",
+        "politics",
+        "nonfiction-book"
+      ]
+    },
+    {
       "id": 695,
       "url": "https://www.threads.net/@andrewsponsler/post/DEDeyeoyyf4?xmt=AQGzVExLC8HFjhNCqUTLyRAO477YPcEl9vWY0xC6OkLwaA",
       "title": null,
@@ -10560,22 +11208,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 253
+      "count": 258
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 178
+      "count": 192
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 151
+      "count": 157
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 132
+      "count": 143
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 120
     },
     {
       "name": "github-repo",
@@ -10583,54 +11236,49 @@
       "count": 119
     },
     {
-      "name": "cli-tool",
+      "name": "web-dev",
       "category": "technical_topic",
       "count": 119
     },
     {
-      "name": "web-dev",
-      "category": "technical_topic",
-      "count": 117
-    },
-    {
       "name": "music",
       "category": "culture",
-      "count": 110
+      "count": 114
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 105
+      "count": 108
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 100
-    },
-    {
-      "name": "python",
-      "category": "programming_language",
-      "count": 85
+      "count": 103
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 84
+      "count": 90
+    },
+    {
+      "name": "python",
+      "category": "programming_language",
+      "count": 87
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 66
+      "count": 84
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 65
+      "count": 67
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 54
+      "count": 57
     },
     {
       "name": "security",
@@ -10648,14 +11296,19 @@
       "count": 22
     },
     {
-      "name": "javascript",
-      "category": "programming_language",
+      "name": "politics",
+      "category": "culture",
       "count": 19
     },
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 19
     },
     {
       "name": "rust",
@@ -10670,7 +11323,12 @@
     {
       "name": "gaming",
       "category": "culture",
-      "count": 13
+      "count": 14
+    },
+    {
+      "name": "scheme",
+      "category": "programming_language",
+      "count": 12
     },
     {
       "name": "emulator",
@@ -10683,16 +11341,6 @@
       "count": 10
     },
     {
-      "name": "scheme",
-      "category": "programming_language",
-      "count": 10
-    },
-    {
-      "name": "politics",
-      "category": "culture",
-      "count": 10
-    },
-    {
       "name": "typescript",
       "category": "programming_language",
       "count": 9
@@ -10700,15 +11348,20 @@
     {
       "name": "tv",
       "category": "culture",
-      "count": 8
+      "count": 9
     },
     {
       "name": "common-lisp",
       "category": "programming_language",
-      "count": 6
+      "count": 7
     },
     {
       "name": "movie",
+      "category": "culture",
+      "count": 6
+    },
+    {
+      "name": "fiction-book",
       "category": "culture",
       "count": 5
     },
@@ -10720,11 +11373,6 @@
     {
       "name": "clojure",
       "category": "programming_language",
-      "count": 4
-    },
-    {
-      "name": "fiction-book",
-      "category": "culture",
       "count": 4
     },
     {

@@ -220,30 +220,30 @@ class Database:
             conn.execute("DELETE FROM link_tags")
 
     def get_all_links_with_content(self, limit: int | None = None) -> list[LinkRecord]:
-        """Get all links that have content or summaries for tagging."""
+        """Get all links that have been processed (fetched, failed, or skipped)."""
         with self._connection() as conn:
             query = """
                 SELECT * FROM links
-                WHERE page_content IS NOT NULL OR summary IS NOT NULL
+                WHERE fetch_status != ?
                 ORDER BY source_date DESC
             """
             if limit:
                 query += f" LIMIT {limit}"
-            rows = conn.execute(query).fetchall()
+            rows = conn.execute(query, (FetchStatus.NOT_FETCHED.value,)).fetchall()
             return [self._row_to_link(row) for row in rows]
 
     def get_untagged_links(self, limit: int | None = None) -> list[LinkRecord]:
-        """Get links that have content but no tags yet."""
+        """Get processed links that have no tags yet."""
         with self._connection() as conn:
             query = """
                 SELECT * FROM links
-                WHERE (page_content IS NOT NULL OR summary IS NOT NULL)
+                WHERE fetch_status != ?
                   AND id NOT IN (SELECT DISTINCT link_id FROM link_tags)
                 ORDER BY source_date DESC
             """
             if limit:
                 query += f" LIMIT {limit}"
-            rows = conn.execute(query).fetchall()
+            rows = conn.execute(query, (FetchStatus.NOT_FETCHED.value,)).fetchall()
             return [self._row_to_link(row) for row in rows]
 
     def get_link_by_id(self, link_id: int) -> LinkRecord | None:
@@ -297,16 +297,16 @@ class Database:
             )
 
     def get_unsummarized_links(self, limit: int = 100) -> list[LinkRecord]:
-        """Get links that have been fetched but not summarized."""
+        """Get links that have been fetched (any status) but not summarized."""
         with self._connection() as conn:
             rows = conn.execute(
                 """
                 SELECT * FROM links
-                WHERE fetch_status = ? AND summary IS NULL
+                WHERE fetch_status != ? AND summary IS NULL
                 ORDER BY source_date DESC
                 LIMIT ?
                 """,
-                (FetchStatus.SUCCESS.value, limit),
+                (FetchStatus.NOT_FETCHED.value, limit),
             ).fetchall()
             return [self._row_to_link(row) for row in rows]
 
