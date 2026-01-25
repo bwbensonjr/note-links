@@ -1,6 +1,48 @@
 {
-  "exported_at": "2026-01-24T07:50:05.730610",
+  "exported_at": "2026-01-25T08:28:18.459889",
   "links": [
+    {
+      "id": 758,
+      "url": "https://simonwillison.net/2026/Jan/24/dont-trust-the-process/",
+      "title": null,
+      "description": "(Don't) trust the process - Better to focus on prototypes, rather than personas for UI and app design",
+      "summary": "The article discusses the limitations of blindly following established design processes, advocating instead for a prototype-focused approach rather than relying on personas for UI and app design. By emphasizing practical prototyping over theoretical user personas, designers can more effectively validate and iterate on their work. This methodology prioritizes tangible artifacts and real-world testing as more reliable guides than abstract process frameworks.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-01-25",
+      "page_title": "Don't \"Trust the Process\"",
+      "tags": [
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 757,
+      "url": "https://www.nytimes.com/athletic/6990248/2026/01/23/the-point-guard-mentality-didnt-just-make-sam-darnold-better-its-a-useful-mental-trick/?source=athletic_user_shared_article_copylink&smid=url-share-ta",
+      "title": null,
+      "description": "The point guard mentality changed Sam Darnold’s career and is a useful mindset for everyone",
+      "summary": "Sam Darnold's career transformation came through adopting a \"point-guard mentality\"—a mental framework where quarterbacks focus on facilitating for their teammates rather than trying to be the hero, advice he received from backup-turned-starter Brock Purdy. This simple reframing acts as a cognitive shortcut that reduces mental strain during complex decision-making, allowing Darnold to avoid turnovers, trust his system, and ultimately lead the Seahawks to a successful 14-win season and NFC Championship game. The principle extends beyond football: research suggests that when people shift from seeing themselves as the central protagonist to focusing on enabling others' success, they perform better and experience improved mental well-being.",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-01-25",
+      "page_title": "The point-guard mentality didn’t just make Sam Darnold better. It’s a useful mental trick - The Athletic",
+      "tags": [
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 759,
+      "url": "https://engineering.nyu.edu/sites/default/files/2021-10/How_I_Became_a_Quant%20%281%29.pdf",
+      "title": null,
+      "description": "How I became a quant",
+      "summary": "\"How I Became a Quant\" is a book featuring interviews and insights from 25 elite quantitative analysts on Wall Street, documenting their diverse career paths into financial engineering and mathematical finance. The collection showcases how these professionals applied expertise in physics, mathematics, computer science, and other fields to develop trading strategies, risk management models, and financial innovations. Through their personal stories, the book provides aspiring quants with practical guidance on the skills, education, and career strategies needed to succeed in quantitative finance.",
+      "domain": "engineering.nyu.edu",
+      "source_date": "2026-01-24",
+      "page_title": " ",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
     {
       "id": 754,
       "url": "https://www.korg.com/us/products/dj/phase8/",
@@ -10518,12 +10560,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 252
+      "count": 253
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 177
+      "count": 178
     },
     {
       "name": "ai",
@@ -10533,7 +10575,7 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 131
+      "count": 132
     },
     {
       "name": "github-repo",
@@ -10548,7 +10590,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 116
+      "count": 117
     },
     {
       "name": "music",
@@ -10573,12 +10615,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 83
+      "count": 84
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 65
+      "count": 66
     },
     {
       "name": "devops",
@@ -10727,7 +10769,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 22
+      "count": 23
     },
     {
       "domain": "www.youtube.com",
@@ -10735,7 +10777,7 @@
     },
     {
       "domain": "simonwillison.net",
-      "count": 16
+      "count": 17
     },
     {
       "domain": "open.spotify.com",
@@ -11315,6 +11357,10 @@
     },
     {
       "domain": "engineerguy.com",
+      "count": 1
+    },
+    {
+      "domain": "engineering.nyu.edu",
       "count": 1
     },
     {
