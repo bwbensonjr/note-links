@@ -1,6 +1,67 @@
 {
-  "exported_at": "2026-01-25T16:45:06.819095",
+  "exported_at": "2026-01-26T12:17:55.738062",
   "links": [
+    {
+      "id": 763,
+      "url": "https://www.threads.com/@jjackyliang/post/DT87MnvASOh?xmt=AQF0GD9lxUg77IZpZ_FAGVmAaIcvFIL0rYJn5Tplb46qfqovCANHDD7uPEqwH83vGhpfWaYM&slof=1",
+      "title": null,
+      "description": "Use of an ARCHITECTURE.md file to control context window use",
+      "summary": "My prod revenue-generating coding setup\n\n- Run Claude Code in Cursor so I can see the code \n- Use Claude.MD a LOT i.e. tell C to always use subagents for tasks, to use Tasks tool, write tests, use migrations (Alembic) \n- Use a central ARCHITECTURE.md file to keep track of global project status, nothing stays in context\n- Use WisprFlow to talk to CC \n- Minimal MCP use (i.e. MCP of DB services I use, Claude in Chrome)\n\nExample of global task list in .md below: - Use of an ARCHITECTURE.md file to control context window use",
+      "domain": "www.threads.com",
+      "source_date": "2026-01-26",
+      "page_title": "My prod revenue-generating coding setup\n\n- Run Claude Code in Cursor so I can see the code \n- Use Claude.MD a LOT i.e. tell C to always use subagents for tasks, to use Tasks tool, write tests, use migrations (Alembic) \n- Use a central ARCHITECTURE.md file to keep track of global project status, nothing stays in context\n- Use WisprFlow to talk to CC \n- Minimal MCP use (i.e. MCP of DB services I use, Claude in Chrome)\n\nExample of global task list in .md below:",
+      "tags": [
+        "web-dev",
+        "devops",
+        "python",
+        "database"
+      ]
+    },
+    {
+      "id": 762,
+      "url": "https://www.threads.com/@boris_cherny/post/DT8obEVkiRI?xmt=AQF0Ewqt9TW8EHZKbPx13v9Hl_iLHQdBmVhF0zJlqk9hAgmLCBnCCUc1JSRvrUTFI89oNPQ&slof=1",
+      "title": null,
+      "description": "Claude Code hooks can now be async and run the background",
+      "summary": "Hooks can now run in the background without blocking Claude Code's execution. Just add async: true to your hook config.\n\nGreat for logging, notifications, or any side-effect that shouldn't slow things down. - Claude Code hooks can now be async and run the background",
+      "domain": "www.threads.com",
+      "source_date": "2026-01-26",
+      "page_title": "Hooks can now run in the background without blocking Claude Code's execution. Just add async: true to your hook config.\n\nGreat for logging, notifications, or any side-effect that shouldn't slow things down.",
+      "tags": [
+        "social-media",
+        "web-dev",
+        "javascript"
+      ]
+    },
+    {
+      "id": 761,
+      "url": "https://maplibre.org/news/2026-01-23-mlt-release/",
+      "title": null,
+      "description": "MapLibre Tile: a modern and efficient vector tile format",
+      "summary": "MapLibre has announced MapLibre Tile (MLT), a new vector tile format designed as a modern successor to Mapbox Vector Tile that addresses challenges with growing geospatial data volumes and next-generation source formats. MLT offers significant improvements including up to 6x better compression ratios, faster decoding performance through lightweight encodings, and support for 3D coordinates and complex data types, while maintaining feature parity with MVT 1. The format is available now for use in MapLibre GL JS and MapLibre Native, with demo tiles and conversion tools available for experimentation, and Planetiler supporting MLT generation for production use.",
+      "domain": "maplibre.org",
+      "source_date": "2026-01-26",
+      "page_title": "Announcing MapLibre Tile: a modern and efficient vector tile format | MapLibre",
+      "tags": [
+        "web-dev",
+        "database",
+        "devops"
+      ]
+    },
+    {
+      "id": 760,
+      "url": "https://simonwillison.net/2026/Jan/25/the-browser-is-the-sandbox/",
+      "title": null,
+      "description": "The browser is the sandbox",
+      "summary": "This page appears to be a blog post index or archive page from Simon Willison's website featuring recent articles about AI agents and browser technology. The featured articles discuss topics including FastRender (a browser built by parallel agents), Claude Cowork (Anthropic's general agent), and LLM-based open source code porting, all published in January 2026. The page's title \"the browser is the sandbox\" suggests a focus on how browsers are being used as controlled environments for AI agent experimentation and execution.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-01-26",
+      "page_title": "the browser is the sandbox",
+      "tags": [
+        "ai",
+        "llm",
+        "web-dev"
+      ]
+    },
     {
       "id": 758,
       "url": "https://simonwillison.net/2026/Jan/24/dont-trust-the-process/",
@@ -7592,7 +7653,9 @@
       "domain": "iment.com",
       "source_date": "2025-05-22",
       "page_title": null,
-      "tags": []
+      "tags": [
+        "academic-paper"
+      ]
     },
     {
       "id": 453,
@@ -11218,12 +11281,17 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 157
+      "count": 158
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 143
+      "count": 144
+    },
+    {
+      "name": "web-dev",
+      "category": "technical_topic",
+      "count": 123
     },
     {
       "name": "cli-tool",
@@ -11236,11 +11304,6 @@
       "count": 119
     },
     {
-      "name": "web-dev",
-      "category": "technical_topic",
-      "count": 119
-    },
-    {
       "name": "music",
       "category": "culture",
       "count": 114
@@ -11248,12 +11311,12 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 108
+      "count": 109
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 103
+      "count": 104
     },
     {
       "name": "nonfiction-book",
@@ -11263,7 +11326,7 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 87
+      "count": 88
     },
     {
       "name": "news",
@@ -11273,7 +11336,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 67
+      "count": 69
     },
     {
       "name": "compilers",
@@ -11281,19 +11344,24 @@
       "count": 57
     },
     {
+      "name": "database",
+      "category": "technical_topic",
+      "count": 34
+    },
+    {
       "name": "security",
       "category": "technical_topic",
       "count": 33
     },
     {
-      "name": "database",
-      "category": "technical_topic",
-      "count": 32
-    },
-    {
       "name": "distributed-systems",
       "category": "technical_topic",
       "count": 22
+    },
+    {
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 20
     },
     {
       "name": "politics",
@@ -11302,11 +11370,6 @@
     },
     {
       "name": "lisp",
-      "category": "programming_language",
-      "count": 19
-    },
-    {
-      "name": "javascript",
       "category": "programming_language",
       "count": 19
     },
@@ -11425,15 +11488,15 @@
     },
     {
       "domain": "simonwillison.net",
-      "count": 17
+      "count": 18
+    },
+    {
+      "domain": "www.threads.com",
+      "count": 14
     },
     {
       "domain": "open.spotify.com",
       "count": 13
-    },
-    {
-      "domain": "www.threads.com",
-      "count": 12
     },
     {
       "domain": "news.ycombinator.com",
@@ -12281,6 +12344,10 @@
     },
     {
       "domain": "makerfairerome.eu",
+      "count": 1
+    },
+    {
+      "domain": "maplibre.org",
       "count": 1
     },
     {
