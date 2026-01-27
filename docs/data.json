@@ -1,6 +1,82 @@
 {
-  "exported_at": "2026-01-26T12:17:55.738062",
+  "exported_at": "2026-01-27T16:21:24.969467",
   "links": [
+    {
+      "id": 767,
+      "url": "https://openai.com/index/introducing-prism/",
+      "title": null,
+      "description": "Introducing Prism - OpenAI's LaTeX editor/scientific collaboration tool",
+      "summary": "Introducing Prism - OpenAI's LaTeX editor/scientific collaboration tool",
+      "domain": "openai.com",
+      "source_date": "2026-01-27",
+      "page_title": null,
+      "tags": [
+        "web-dev",
+        "ai",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 766,
+      "url": "https://tailscale.com/blog/aperture-private-alpha",
+      "title": null,
+      "description": "Aperture by Tailscale",
+      "summary": "Tailscale has launched Aperture, an AI gateway in private alpha that provides organizations with visibility and control over coding agent usage without restricting developer access. Built on Tailscale's identity infrastructure, Aperture eliminates the need for API keys, supports all major LLM providers, and enables IT leaders to monitor AI adoption, costs, and usage patterns while maintaining security. The tool is extensible and designed to eventually support broader agentic AI workloads beyond coding agents.",
+      "domain": "tailscale.com",
+      "source_date": "2026-01-27",
+      "page_title": "Aperture by Tailscale, an AI usage and access tool, now in alpha",
+      "tags": [
+        "ai",
+        "llm",
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "id": 765,
+      "url": "https://x.com/karpathy/status/2015883857489522876",
+      "title": null,
+      "description": "Karpathy's latest notes on AI coding",
+      "summary": "Karpathy's latest notes on AI coding",
+      "domain": "x.com",
+      "source_date": "2026-01-27",
+      "page_title": null,
+      "tags": [
+        "social-media",
+        "ai"
+      ]
+    },
+    {
+      "id": 764,
+      "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+      "title": null,
+      "description": "Kimi K2.5 - A powerful open source model with strong visual and coding capabilities",
+      "summary": "Kimi K2.5 is a powerful new open-source multimodal model that combines advanced visual and coding capabilities with a novel \"agent swarm\" system that can orchestrate up to 100 sub-agents working in parallel to complete complex tasks up to 4.5x faster than single-agent approaches. The model excels in three key areas: front-end development and visual debugging through image-to-code generation, autonomous task execution through self-directed agent coordination, and office productivity tasks like document creation and data analysis, showing significant improvements over its predecessor Kimi K2.",
+      "domain": "www.kimi.com",
+      "source_date": "2026-01-27",
+      "page_title": "Kimi K2.5: Visual Agentic Intelligence | Technical Report",
+      "tags": [
+        "llm",
+        "ai",
+        "academic-paper",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 768,
+      "url": "https://diamondgeezer.blogspot.com/2026/01/tv100.html",
+      "title": null,
+      "description": "Television is 100 years old today",
+      "summary": "Television celebrated its 100th anniversary on January 26, 2026, marking a century since John Logie Baird's first public demonstration of the technology to journalists at his workshop on Frith Street in Soho, London. Baird, a Scottish engineer, developed his electro-mechanical television system using improvised materials and successfully transmitted the first human image with William Taynton in 1925, before proving the concept to the press and Royal Institution members in 1926. Though Baird continued innovating with color TV and 3D television, his mechanical system was ultimately eclipsed by EMI's superior electronic technology when the BBC began broadcasting in 1936, and he died in 1946 shortly after television broadcasting resumed following World War II.",
+      "domain": "diamondgeezer.blogspot.com",
+      "source_date": "2026-01-26",
+      "page_title": "diamond geezer",
+      "tags": [
+        "tv",
+        "nonfiction-book",
+        "news"
+      ]
+    },
     {
       "id": 763,
       "url": "https://www.threads.com/@jjackyliang/post/DT87MnvASOh?xmt=AQF0GD9lxUg77IZpZ_FAGVmAaIcvFIL0rYJn5Tplb46qfqovCANHDD7uPEqwH83vGhpfWaYM&slof=1",
@@ -11271,7 +11347,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 258
+      "count": 259
     },
     {
       "name": "video",
@@ -11281,17 +11357,17 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 158
+      "count": 162
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 144
+      "count": 145
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 123
+      "count": 125
     },
     {
       "name": "cli-tool",
@@ -11311,17 +11387,17 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 109
+      "count": 111
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 104
+      "count": 105
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 90
+      "count": 91
     },
     {
       "name": "python",
@@ -11331,12 +11407,12 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 84
+      "count": 85
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 69
+      "count": 70
     },
     {
       "name": "compilers",
@@ -11351,7 +11427,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 33
+      "count": 34
     },
     {
       "name": "distributed-systems",
@@ -11404,13 +11480,13 @@
       "count": 10
     },
     {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 9
-    },
-    {
       "name": "tv",
       "category": "culture",
+      "count": 10
+    },
+    {
+      "name": "typescript",
+      "category": "programming_language",
       "count": 9
     },
     {
@@ -11608,6 +11684,10 @@
     },
     {
       "domain": "stephango.com",
+      "count": 2
+    },
+    {
+      "domain": "tailscale.com",
       "count": 2
     },
     {
@@ -12012,6 +12092,10 @@
     },
     {
       "domain": "developers.openai.com",
+      "count": 1
+    },
+    {
+      "domain": "diamondgeezer.blogspot.com",
       "count": 1
     },
     {
@@ -12491,6 +12575,10 @@
       "count": 1
     },
     {
+      "domain": "openai.com",
+      "count": 1
+    },
+    {
       "domain": "opendaw.studio",
       "count": 1
     },
@@ -12744,10 +12832,6 @@
     },
     {
       "domain": "t0mpr1c3.github.io",
-      "count": 1
-    },
-    {
-      "domain": "tailscale.com",
       "count": 1
     },
     {
@@ -13031,6 +13115,10 @@
       "count": 1
     },
     {
+      "domain": "www.kimi.com",
+      "count": 1
+    },
+    {
       "domain": "www.knitted-anatomy.at",
       "count": 1
     },
@@ -13220,6 +13308,10 @@
     },
     {
       "domain": "www.wired.com",
+      "count": 1
+    },
+    {
+      "domain": "x.com",
       "count": 1
     },
     {
