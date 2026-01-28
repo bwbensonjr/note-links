@@ -1,6 +1,81 @@
 {
-  "exported_at": "2026-01-27T16:21:24.969467",
+  "exported_at": "2026-01-28T17:54:28.386179",
   "links": [
+    {
+      "id": 772,
+      "url": "https://matklad.github.io/2026/01/27/make-ts.html",
+      "title": null,
+      "description": "make.ts - Building up an interactive script in the shell",
+      "summary": "The article presents a workflow pattern called \"make.ts\" where developers write interactive, ad-hoc commands into a persistent file (typically named make.ts) and execute it, rather than typing commands repeatedly into the terminal or relying on shell history. This approach provides significant benefits for complex tasks, especially with multi-process applications: it allows for easier editing using a real text editor, enables running multiple commands with a single keystroke, encourages incremental improvement of commands, and simplifies process management through declarative concurrency. The author demonstrates the pattern with a concrete example of setting up and testing a distributed database cluster, showing how the workflow naturally evolves from simple sequential commands to more complex scripts with parallel execution and error handling.",
+      "domain": "matklad.github.io",
+      "source_date": "2026-01-28",
+      "page_title": "make.ts",
+      "tags": [
+        "typescript",
+        "cli-tool",
+        "tutorial",
+        "devops"
+      ]
+    },
+    {
+      "id": 771,
+      "url": "https://geometrycode.com/free/how-to-graphically-derive-the-golden-ratio-using-an-equilateral-triangle-inscribed-in-a-circle/",
+      "title": null,
+      "description": "How to graphically derive the Golden Ratio using an equilateral triangle inscribed in a circle",
+      "summary": "This page demonstrates a geometric method for deriving the Golden Ratio by using an equilateral triangle inscribed in a circle and a chord that passes through the midpoints of the triangle's sides. The technique combines principles of sacred geometry to visually construct this mathematically significant ratio through compass and straightedge construction.",
+      "domain": "geometrycode.com",
+      "source_date": "2026-01-28",
+      "page_title": "Sacred Geometry:Golden Ratio:Equil.Triangle in circle:GeometryCode.com",
+      "tags": [
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 770,
+      "url": "https://pandas.pydata.org/community/blog/pandas-3.0.html",
+      "title": null,
+      "description": "pandas 3.0 released",
+      "summary": "pandas 3.0 has been released with major improvements including a dedicated string data type that replaces the object dtype, Copy-on-Write mode for more predictable and consistent behavior, and a new default datetime resolution of microseconds instead of nanoseconds. The release includes some breaking changes that may require code updates, particularly around string type inference and chained assignment patterns, so users are advised to first upgrade to pandas 2.3 and ensure their code works without warnings before migrating to 3.0.",
+      "domain": "pandas.pydata.org",
+      "source_date": "2026-01-28",
+      "page_title": "pandas - Python Data Analysis Library",
+      "tags": [
+        "python",
+        "database",
+        "news"
+      ]
+    },
+    {
+      "id": 769,
+      "url": "https://yqnn.github.io/svg-path-editor/",
+      "title": null,
+      "description": "SVG path editor",
+      "summary": "SvgPathEditor - SVG path editor",
+      "domain": "yqnn.github.io",
+      "source_date": "2026-01-28",
+      "page_title": "SvgPathEditor",
+      "tags": [
+        "web-dev",
+        "cli-tool",
+        "javascript"
+      ]
+    },
+    {
+      "id": 773,
+      "url": "https://campedersen.com/vcad",
+      "title": null,
+      "description": "vcad - Parametric CAD in Rust",
+      "summary": "vcad is a parametric CAD library written in Rust that lets engineers design physical parts using code instead of clicking through GUI programs. Users create geometry by composing primitives (cubes, cylinders, etc.) with boolean operations, then export to STL or glTF formats—allowing rapid iteration by simply changing parameters and recompiling. The tool is designed for AI agents to generate parts automatically, with strong type safety and testing capabilities that traditional CAD files lack.",
+      "domain": "campedersen.com",
+      "source_date": "2026-01-27",
+      "page_title": "Parametric CAD in Rust - Cam Pedersen",
+      "tags": [
+        "rust",
+        "cli-tool",
+        "ai"
+      ]
+    },
     {
       "id": 767,
       "url": "https://openai.com/index/introducing-prism/",
@@ -11347,7 +11422,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 259
+      "count": 261
     },
     {
       "name": "video",
@@ -11357,22 +11432,22 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 162
+      "count": 163
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 145
+      "count": 146
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 125
+      "count": 126
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 120
+      "count": 123
     },
     {
       "name": "github-repo",
@@ -11402,17 +11477,17 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 88
+      "count": 89
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 85
+      "count": 86
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 70
+      "count": 71
     },
     {
       "name": "compilers",
@@ -11422,7 +11497,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 34
+      "count": 35
     },
     {
       "name": "security",
@@ -11437,7 +11512,7 @@
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 20
+      "count": 21
     },
     {
       "name": "politics",
@@ -11452,7 +11527,7 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 17
+      "count": 18
     },
     {
       "name": "c",
@@ -11480,14 +11555,14 @@
       "count": 10
     },
     {
-      "name": "tv",
-      "category": "culture",
+      "name": "typescript",
+      "category": "programming_language",
       "count": 10
     },
     {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 9
+      "name": "tv",
+      "category": "culture",
+      "count": 10
     },
     {
       "name": "common-lisp",
@@ -11668,6 +11743,10 @@
     },
     {
       "domain": "lwn.net",
+      "count": 2
+    },
+    {
+      "domain": "matklad.github.io",
       "count": 2
     },
     {
@@ -11951,6 +12030,10 @@
       "count": 1
     },
     {
+      "domain": "campedersen.com",
+      "count": 1
+    },
+    {
       "domain": "cannoneyed.com",
       "count": 1
     },
@@ -12223,6 +12306,10 @@
       "count": 1
     },
     {
+      "domain": "geometrycode.com",
+      "count": 1
+    },
+    {
       "domain": "getaurora.dev",
       "count": 1
     },
@@ -12459,10 +12546,6 @@
       "count": 1
     },
     {
-      "domain": "matklad.github.io",
-      "count": 1
-    },
-    {
       "domain": "mcp-b.ai",
       "count": 1
     },
@@ -12592,6 +12675,10 @@
     },
     {
       "domain": "paddedinputs.substack.com",
+      "count": 1
+    },
+    {
+      "domain": "pandas.pydata.org",
       "count": 1
     },
     {
@@ -13340,6 +13427,10 @@
     },
     {
       "domain": "youtube.com",
+      "count": 1
+    },
+    {
+      "domain": "yqnn.github.io",
       "count": 1
     }
   ]
