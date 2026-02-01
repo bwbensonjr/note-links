@@ -1,6 +1,144 @@
 {
-  "exported_at": "2026-01-28T17:54:28.386179",
+  "exported_at": "2026-02-01T18:25:39.098616",
   "links": [
+    {
+      "id": 778,
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "title": null,
+      "description": "What I learned building an opinionated and minimal coding agent",
+      "summary": "The author built a minimal, opinionated coding agent called pi-coding-agent after becoming frustrated with Claude Code's increasing complexity and lack of transparency. The project comprises four core components (pi-ai, pi-agent-core, pi-tui, and pi-coding-agent) designed around the philosophy of excluding unnecessary features, with a focus on precise context control, full interaction transparency, and support for multiple LLM providers with seamless model switching capabilities. Key technical challenges addressed include normalizing APIs across different providers, managing provider-specific quirks in tool calling and reasoning traces, and implementing reliable token/cost tracking across diverse LLM services.",
+      "domain": "mariozechner.at",
+      "source_date": "2026-02-01",
+      "page_title": "What I learned building an opinionated and minimal coding agent",
+      "tags": [
+        "llm",
+        "ai",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 777,
+      "url": "https://www.gelliottmorris.com/p/blue-wave-watch-democrat-flips-trump",
+      "title": null,
+      "description": "Blue wave watch: Democrat flips Trump +17 Texas Senate seat in 32-point swing",
+      "summary": "A Democrat won a special election for a Texas State Senate seat that Trump had carried by 17 points in 2024, flipping it with a 32-point swing—the largest Democratic overperformance in a competitive special election since Trump took office. The Democratic gains were uniform across urban and suburban precincts, driven by a combination of voter persuasion against Republicans and Republican voter dropoff. The analysis suggests this signals a significant Democratic wave building for the 2026 midterms, with projected gains that could give Democrats a D+7 advantage in the generic House vote if turnout patterns hold in a higher-turnout general election.",
+      "domain": "www.gelliottmorris.com",
+      "source_date": "2026-02-01",
+      "page_title": "Blue wave watch: Democrat flips Trump +17 Texas Senate seat in 32-point swing",
+      "tags": [
+        "politics",
+        "news"
+      ]
+    },
+    {
+      "id": 776,
+      "url": "https://www.gelliottmorris.com/p/democrats-hit-historic-high-in-fox",
+      "title": null,
+      "description": "Democrats hit historic high in Fox News Poll as GOP loses ground on key issues",
+      "summary": "A new Fox News Poll shows Democrats reaching their highest generic ballot support in the survey's history at 52%, with Republicans at 46%, positioning Democrats for a potential wave election in 2026. The survey reveals significant shifts in issue ownership, with Democrats gaining ground on affordability, healthcare, and middle-class concerns, while Republicans' traditional advantages on taxes, foreign policy, and the deficit have eroded. Additionally, Trump's approval among independents has hit a record low of -40, reflecting broader deterioration in his standing as the midterm elections approach.",
+      "domain": "www.gelliottmorris.com",
+      "source_date": "2026-02-01",
+      "page_title": "Democrats hit historic high in Fox News Poll as GOP loses ground on key issues",
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
+      "id": 775,
+      "url": "https://www.threads.com/@boris_cherny/post/DUMZr4VElyb?xmt=AQF0WlWmpsZK2wku7FFr7S6vX5GroJiBF839KtKKzW9PucGjnWRZ51lyWEGZavkP7fZ2vgc&slof=1",
+      "title": null,
+      "description": "Boris Cherny with more Claude Code tips and advice",
+      "summary": "I'm Boris and I created Claude Code. I wanted to quickly share a few tips for using Claude Code, sourced directly from the Claude Code team. The way the team uses Claude is different than how I use it. Remember: there is no one right way to use Claude Code -- everyones' setup is different. You should experiment to see what works for you! - Boris Cherny with more Claude Code tips and advice",
+      "domain": "www.threads.com",
+      "source_date": "2026-02-01",
+      "page_title": "I'm Boris and I created Claude Code. I wanted to quickly share a few tips for using Claude Code, sourced directly from the Claude Code team. The way the team uses Claude is different than how I use it. Remember: there is no one right way to use Claude Code -- everyones' setup is different. You should experiment to see what works for you!",
+      "tags": [
+        "social-media",
+        "ai",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 774,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "title": null,
+      "description": "Claude Code Templates",
+      "summary": "Claude Code Templates is a CLI tool that provides ready-to-use configurations and components for Anthropic's Claude Code, including AI agents, custom commands, MCPs (external integrations), settings, hooks, and project templates to enhance development workflows. The tool offers over 100+ pre-built components accessible through an interactive web interface or command line, plus additional features like analytics, conversation monitoring, and health checks to optimize your AI-powered development environment. It's open-source, MIT-licensed, and welcomes community contributions from developers looking to expand its template library.",
+      "domain": "github.com",
+      "source_date": "2026-02-01",
+      "page_title": "GitHub - davila7/claude-code-templates: CLI tool for configuring and monitoring Claude Code",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": 779,
+      "url": "https://github.com/amlalabs/amla-sandbox",
+      "title": "Amla Sandbox – WASM bash shell sandbox for AI agents",
+      "description": null,
+      "summary": "amla-sandbox is a security-focused sandboxing solution that allows AI agents to execute generated code safely using WebAssembly with capability enforcement, addressing the arbitrary code execution vulnerabilities in popular frameworks like LangChain and AutoGen. It enables more efficient agent workflows by allowing agents to write single scripts instead of multiple tool calls, while maintaining strict isolation through memory bounds-checking, virtual filesystem restrictions, and explicit capability-based access controls. The solution requires no Docker or VM infrastructure and integrates seamlessly with LangGraph, making it ideal for production deployments where agents need to run code with controlled tool access.",
+      "domain": "github.com",
+      "source_date": "2026-01-30",
+      "page_title": "GitHub - amlalabs/amla-sandbox",
+      "tags": [
+        "github-repo",
+        "security",
+        "ai",
+        "llm",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 781,
+      "url": "https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals",
+      "title": null,
+      "description": "`AGENTS.md` outperforms skills in our agent evals",
+      "summary": "Vercel tested two approaches for giving AI coding agents access to updated framework documentation: a \"skills\" system and an AGENTS.md markdown file with embedded docs. While skills seemed like the better design choice, they failed to deliver—agents ignored them 56% of the time and only achieved 79% accuracy even with explicit instructions. In contrast, a compressed 8KB docs index embedded directly in AGENTS.md achieved a perfect 100% pass rate, suggesting that passive context availability outperforms active retrieval systems for coding agents.",
+      "domain": "vercel.com",
+      "source_date": "2026-01-29",
+      "page_title": "AGENTS.md outperforms skills in our agent evals - Vercel",
+      "tags": [
+        "ai",
+        "llm",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 780,
+      "url": "https://mecha.so/comet#overview",
+      "title": null,
+      "description": "Mecha Comet - Open source and modular hand-held computer",
+      "summary": "The Mecha Comet is an open-source, modular Linux handheld computer currently on Kickstarter, featuring a 3.92\" AMOLED display, ARM64 processor, and customizable extensions like keyboards, modems, and AI accelerators. Designed for developers, tinkerers, and enthusiasts, it runs Mechanix OS (based on Linux 6.12) and supports 67,000+ ARM packages, enabling diverse use cases from retro gaming and productivity to robotics, networking, and DIY projects. The device emphasizes repairability, modularity, and open-source software with a 7-year support promise.",
+      "domain": "mecha.so",
+      "source_date": "2026-01-29",
+      "page_title": "Mecha Comet - Modular Linux Handheld Computer | Mecha",
+      "tags": [
+        "devops",
+        "cli-tool",
+        "gaming"
+      ]
+    },
+    {
+      "id": 782,
+      "url": "https://github.com/lukilabs/beautiful-mermaid",
+      "title": null,
+      "description": "beautiful-mermaid - Figure drawing optimized for LLMs",
+      "summary": "Beautiful-mermaid is a TypeScript library that renders Mermaid diagrams as beautiful SVGs or ASCII art, optimized for AI-assisted programming and terminal environments. It features ultra-fast rendering, zero DOM dependencies, 15 built-in themes, and a simple two-color theming system that automatically derives a complete color palette, with support for 5 diagram types including flowcharts, state diagrams, and sequence diagrams. The library addresses limitations of the default Mermaid renderer by offering superior aesthetics, easy customization, terminal output capabilities, and compatibility with VS Code themes via Shiki integration.",
+      "domain": "github.com",
+      "source_date": "2026-01-28",
+      "page_title": "GitHub - lukilabs/beautiful-mermaid",
+      "tags": [
+        "github-repo",
+        "typescript",
+        "llm",
+        "web-dev"
+      ]
+    },
     {
       "id": 772,
       "url": "https://matklad.github.io/2026/01/27/make-ts.html",
@@ -11422,7 +11560,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 261
+      "count": 263
     },
     {
       "name": "video",
@@ -11432,7 +11570,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 163
+      "count": 167
     },
     {
       "name": "academic-paper",
@@ -11442,17 +11580,22 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 126
+      "count": 128
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 123
+      "count": 127
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 119
+      "count": 122
+    },
+    {
+      "name": "llm",
+      "category": "technical_topic",
+      "count": 116
     },
     {
       "name": "music",
@@ -11460,14 +11603,9 @@
       "count": 114
     },
     {
-      "name": "llm",
-      "category": "technical_topic",
-      "count": 111
-    },
-    {
       "name": "social-media",
       "category": "culture",
-      "count": 105
+      "count": 106
     },
     {
       "name": "nonfiction-book",
@@ -11477,17 +11615,17 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 89
+      "count": 90
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 86
+      "count": 88
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 71
+      "count": 72
     },
     {
       "name": "compilers",
@@ -11502,7 +11640,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 34
+      "count": 35
     },
     {
       "name": "distributed-systems",
@@ -11510,14 +11648,14 @@
       "count": 22
     },
     {
-      "name": "javascript",
-      "category": "programming_language",
+      "name": "politics",
+      "category": "culture",
       "count": 21
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 19
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 21
     },
     {
       "name": "lisp",
@@ -11530,19 +11668,24 @@
       "count": 18
     },
     {
+      "name": "gaming",
+      "category": "culture",
+      "count": 15
+    },
+    {
       "name": "c",
       "category": "programming_language",
       "count": 15
     },
     {
-      "name": "gaming",
-      "category": "culture",
-      "count": 14
-    },
-    {
       "name": "scheme",
       "category": "programming_language",
       "count": 12
+    },
+    {
+      "name": "typescript",
+      "category": "programming_language",
+      "count": 11
     },
     {
       "name": "emulator",
@@ -11552,11 +11695,6 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 10
-    },
-    {
-      "name": "typescript",
-      "category": "programming_language",
       "count": 10
     },
     {
@@ -11627,7 +11765,7 @@
     },
     {
       "domain": "github.com",
-      "count": 74
+      "count": 77
     },
     {
       "domain": "www.nytimes.com",
@@ -11643,7 +11781,7 @@
     },
     {
       "domain": "www.threads.com",
-      "count": 14
+      "count": 15
     },
     {
       "domain": "open.spotify.com",
@@ -11775,6 +11913,10 @@
     },
     {
       "domain": "www.anthropic.com",
+      "count": 2
+    },
+    {
+      "domain": "www.gelliottmorris.com",
       "count": 2
     },
     {
@@ -12522,6 +12664,10 @@
       "count": 1
     },
     {
+      "domain": "mariozechner.at",
+      "count": 1
+    },
+    {
       "domain": "marmelab.com",
       "count": 1
     },
@@ -12547,6 +12693,10 @@
     },
     {
       "domain": "mcp-b.ai",
+      "count": 1
+    },
+    {
+      "domain": "mecha.so",
       "count": 1
     },
     {
@@ -12967,6 +13117,10 @@
     },
     {
       "domain": "users.rcn.com",
+      "count": 1
+    },
+    {
+      "domain": "vercel.com",
       "count": 1
     },
     {
