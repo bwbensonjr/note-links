@@ -1,6 +1,35 @@
 {
-  "exported_at": "2026-02-01T18:25:39.098616",
+  "exported_at": "2026-02-02T08:05:58.511123",
   "links": [
+    {
+      "id": 784,
+      "url": "https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/",
+      "title": null,
+      "description": "Two kinds of AI users are emerging",
+      "summary": "There is a stark divide emerging between AI users: \"power users\" who actively adopt advanced tools like Claude Code for diverse tasks across departments, and casual users limited to basic chatbots like ChatGPT. Enterprise organizations face a critical disadvantage due to restrictive IT policies, outdated legacy systems, and poor AI tools like Microsoft Copilot, while smaller companies with better APIs and flexibility are gaining unprecedented competitive advantages, creating a situation where tiny teams can now outperform much larger enterprises.",
+      "domain": "martinalderson.com",
+      "source_date": "2026-02-02",
+      "page_title": "Two kinds of AI users are emerging. The gap between them is astonishing. - Martin Alderson",
+      "tags": [
+        "ai",
+        "llm",
+        "news"
+      ]
+    },
+    {
+      "id": 783,
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA157917.pdf",
+      "title": null,
+      "description": "The Actors model of concurrent computation",
+      "summary": "The Actors model of concurrent computation",
+      "domain": "apps.dtic.mil",
+      "source_date": "2026-02-02",
+      "page_title": null,
+      "tags": [
+        "distributed-systems",
+        "academic-paper"
+      ]
+    },
     {
       "id": 778,
       "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
@@ -11570,12 +11599,12 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 167
+      "count": 168
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 146
+      "count": 147
     },
     {
       "name": "web-dev",
@@ -11595,7 +11624,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 116
+      "count": 117
     },
     {
       "name": "music",
@@ -11620,7 +11649,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 88
+      "count": 89
     },
     {
       "name": "devops",
@@ -11645,7 +11674,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 22
+      "count": 23
     },
     {
       "name": "politics",
@@ -12009,6 +12038,10 @@
     },
     {
       "domain": "andywoodruff.com",
+      "count": 1
+    },
+    {
+      "domain": "apps.dtic.mil",
       "count": 1
     },
     {
@@ -12677,6 +12710,10 @@
     },
     {
       "domain": "martin.kleppmann.com",
+      "count": 1
+    },
+    {
+      "domain": "martinalderson.com",
       "count": 1
     },
     {
