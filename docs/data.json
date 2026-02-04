@@ -1,6 +1,129 @@
 {
-  "exported_at": "2026-02-02T08:05:58.511123",
+  "exported_at": "2026-02-04T08:26:07.791063",
   "links": [
+    {
+      "id": 790,
+      "url": "https://agentskills.io/home",
+      "title": null,
+      "description": "Agent Skills",
+      "summary": "Agent Skills are packages of instructions, scripts, and resources that enable AI agents to work more accurately and efficiently by providing them with procedural knowledge and contextual information they can access on demand. The platform allows skill authors to build capabilities once and deploy them across multiple agent products, while enabling teams and enterprises to capture organizational knowledge in portable, version-controlled packages that support domain expertise, new capabilities, and repeatable workflows. Agent Skills is an open standard originally developed by Anthropic that is supported by leading AI development tools and remains open for contributions from the broader ecosystem.",
+      "domain": "agentskills.io",
+      "source_date": "2026-02-04",
+      "page_title": "Overview - Agent Skills",
+      "tags": [
+        "ai",
+        "llm",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 789,
+      "url": "https://deno.com/blog/introducing-deno-sandbox",
+      "title": null,
+      "description": "Deno Sandbox for AI-assisted coding with security, egress control, etc.",
+      "summary": "Deno Sandbox is a new security-focused platform that enables safe execution of LLM-generated code by providing lightweight Linux microVMs with built-in protections against data exfiltration and unauthorized network access. The service features secret management that prevents API key theft by showing only placeholders to the code while materializing real credentials only during approved outbound requests, plus network egress controls that restrict which hosts sandboxed code can communicate with. Once code is tested and ready, it can be deployed directly to Deno Deploy with a single command, offering a seamless workflow from development sandbox to production serverless deployment.",
+      "domain": "deno.com",
+      "source_date": "2026-02-04",
+      "page_title": "Introducing Deno Sandbox | Deno",
+      "tags": [
+        "ai",
+        "llm",
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "id": 788,
+      "url": "https://math.ucr.edu/home/baez/tuning_talk/",
+      "title": null,
+      "description": "The mathematics of tuning systems",
+      "summary": "John Baez explores how mathematical principles underlie musical tuning systems, explaining that different scales (5-note, 7-note, and 12-note) have evolved to best approximate simple frequency ratios, particularly the \"fifth\" at 3/2. While Pythagorean tuning sought pure rational number ratios, modern 12-tone equal temperament divides each octave into 12 equal parts, making it the dominant tuning system since around 1850 despite being mathematically simpler than its historical predecessors. The presentation demonstrates how mathematical innovations in tuning systems have driven the development of new musical styles throughout Western music history.",
+      "domain": "math.ucr.edu",
+      "source_date": "2026-02-04",
+      "page_title": "The Mathematics of Tuning Systems",
+      "tags": [
+        "music",
+        "academic-paper",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 787,
+      "url": "https://github.com/puemos/craftplan/blob/main/CLAUDE.md",
+      "title": null,
+      "description": "Craftplan - Craftplan is an ERP for small-scale manufacturers built on **Ash Framework + Phoenix LiveView + PostgreSQL**",
+      "summary": "Craftplan is an open-source ERP (Enterprise Resource Planning) system designed specifically for small-scale manufacturers, built using modern web technologies including the Ash Framework, Phoenix LiveView, and PostgreSQL. The project has gained significant community interest with 562 stars and 16 forks on GitHub, indicating active development and adoption. It provides integrated tools for managing manufacturing operations, inventory, and business processes tailored to the needs of small manufacturing businesses.",
+      "domain": "github.com",
+      "source_date": "2026-02-04",
+      "page_title": "craftplan/CLAUDE.md at main · puemos/craftplan · GitHub",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "elixir",
+        "database"
+      ]
+    },
+    {
+      "id": 786,
+      "url": "https://elixir-lang.org/",
+      "title": null,
+      "description": "Elixir",
+      "summary": "Elixir is a dynamic, functional programming language that runs on the Erlang VM to build scalable and maintainable applications with low-latency and fault-tolerant capabilities. It enables developers to work productively across multiple domains including web development, embedded software, machine learning, and data pipelines. The language combines Erlang's distributed systems strengths with modern tooling and syntax to support diverse industry use cases.",
+      "domain": "elixir-lang.org",
+      "source_date": "2026-02-04",
+      "page_title": "The Elixir programming language",
+      "tags": [
+        "elixir",
+        "distributed-systems",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 785,
+      "url": "https://github.com/ash-project/ash/blob/main/documentation/topics/about_ash/what-is-ash.md",
+      "title": null,
+      "description": "Ash - Ash is an opinionated, declarative application framework that brings the batteries-included experience to Elixir",
+      "summary": "Ash is an opinionated, declarative application framework for Elixir that provides a batteries-included development experience by offering built-in tools and conventions to streamline application development. The framework emphasizes declarative programming patterns, allowing developers to define application behavior through configuration rather than imperative code, while reducing boilerplate and providing comprehensive functionality out of the box.",
+      "domain": "github.com",
+      "source_date": "2026-02-04",
+      "page_title": "ash/documentation/topics/about_ash/what-is-ash.md at main · ash-project/ash · GitHub",
+      "tags": [
+        "github-repo",
+        "elixir",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 792,
+      "url": "https://www.threads.com/@aromanarguello/post/DUQrJMHCaFe?xmt=AQF0VzR8ac5NXtqLC-JmoXZ3kVKkq9cmcjHDUFS9YEuHFkYaDEeIDhpqWtLThLfnBulJbTI&slof=1",
+      "title": null,
+      "description": "Claude Code playground plugin - Build HTML to visualize anything",
+      "summary": "Claude Code just became a learning machine 🧠\n\nThe Playground plugin is now in the official marketplace.\n\nAsk it to visualize anything. Diagrams. Architecture. Protocols.\n\nIt builds interactive HTML right in your terminal.\n\nThis is how I'm learning now. - Claude Code playground plugin - Build HTML to visualize anything",
+      "domain": "www.threads.com",
+      "source_date": "2026-02-02",
+      "page_title": "Claude Code just became a learning machine 🧠\n\nThe Playground plugin is now in the official marketplace.\n\nAsk it to visualize anything. Diagrams. Architecture. Protocols.\n\nIt builds interactive HTML right in your terminal.\n\nThis is how I'm learning now.",
+      "tags": [
+        "social-media",
+        "cli-tool",
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 791,
+      "url": "https://www.nytimes.com/interactive/2026/02/02/opinion/ai-future-leading-thinkers-survey.html",
+      "title": null,
+      "description": "Where is AI taking us - Eight leading thinkers share their visions",
+      "summary": "Eight leading AI experts share their predictions for the next five years, with views ranging from cautiously optimistic to skeptical about transformative breakthroughs. While AI is expected to substantially impact programming, transportation, and scientific research, experts warn that the technology won't imminently solve major challenges like cancer or achieve artificial general intelligence, and that thoughtful governance will be crucial to maximizing benefits while mitigating risks. The consensus suggests AI will become increasingly integrated into everyday tools and work, but its most significant impacts will depend on how society chooses to deploy and regulate it rather than on the technology itself.",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-02-02",
+      "page_title": "Opinion | Where Is A.I. Taking Us? Eight Leading Thinkers Share Their Visions. - The New York Times",
+      "tags": [
+        "ai",
+        "news",
+        "video"
+      ]
+    },
     {
       "id": 784,
       "url": "https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/",
@@ -11589,52 +11712,52 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 263
+      "count": 265
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 192
+      "count": 193
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 168
+      "count": 171
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 147
+      "count": 148
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 128
+      "count": 132
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 127
+      "count": 129
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 122
+      "count": 124
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 117
+      "count": 119
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 114
+      "count": 115
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 106
+      "count": 107
     },
     {
       "name": "nonfiction-book",
@@ -11642,19 +11765,19 @@
       "count": 91
     },
     {
+      "name": "news",
+      "category": "culture",
+      "count": 90
+    },
+    {
       "name": "python",
       "category": "programming_language",
       "count": 90
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 89
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
-      "count": 72
+      "count": 73
     },
     {
       "name": "compilers",
@@ -11664,17 +11787,17 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 35
+      "count": 36
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 35
+      "count": 36
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 23
+      "count": 24
     },
     {
       "name": "politics",
@@ -11762,6 +11885,11 @@
       "count": 3
     },
     {
+      "name": "elixir",
+      "category": "programming_language",
+      "count": 3
+    },
+    {
       "name": "haskell",
       "category": "programming_language",
       "count": 2
@@ -11794,11 +11922,11 @@
     },
     {
       "domain": "github.com",
-      "count": 77
+      "count": 79
     },
     {
       "domain": "www.nytimes.com",
-      "count": 23
+      "count": 24
     },
     {
       "domain": "www.youtube.com",
@@ -11810,7 +11938,7 @@
     },
     {
       "domain": "www.threads.com",
-      "count": 15
+      "count": 16
     },
     {
       "domain": "open.spotify.com",
@@ -12010,6 +12138,10 @@
     },
     {
       "domain": "aelerinya.substack.com",
+      "count": 1
+    },
+    {
+      "domain": "agentskills.io",
       "count": 1
     },
     {
@@ -12333,6 +12465,10 @@
       "count": 1
     },
     {
+      "domain": "deno.com",
+      "count": 1
+    },
+    {
       "domain": "dev.to",
       "count": 1
     },
@@ -12394,6 +12530,10 @@
     },
     {
       "domain": "eavan.blog",
+      "count": 1
+    },
+    {
+      "domain": "elixir-lang.org",
       "count": 1
     },
     {
@@ -12718,6 +12858,10 @@
     },
     {
       "domain": "math.uchicago.edu",
+      "count": 1
+    },
+    {
+      "domain": "math.ucr.edu",
       "count": 1
     },
     {
