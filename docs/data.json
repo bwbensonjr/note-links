@@ -1,6 +1,38 @@
 {
-  "exported_at": "2026-02-04T08:26:07.791063",
+  "exported_at": "2026-02-05T15:48:43.066417",
   "links": [
+    {
+      "id": 794,
+      "url": "https://github.com/strands-agents/agent-sop",
+      "title": null,
+      "description": "Strands Agent SOP",
+      "summary": "Agent SOP is a framework that provides markdown-based instruction sets enabling AI agents to execute complex, multi-step tasks consistently and reliably across different AI systems. The SOPs define clear objectives, parameterized inputs, step-by-step instructions with constraints, and examples in a standardized format that can be distributed as MCP tools, Anthropic Skills, or Python modules. The project includes pre-built SOPs for common development workflows like codebase analysis, prompt-driven development, task generation, and test-driven code implementation, with support for integration into various AI tools including Strands Agents, Claude Code, Cursor IDE, and custom MCP-compatible assistants.",
+      "domain": "github.com",
+      "source_date": "2026-02-05",
+      "page_title": "GitHub - strands-agents/agent-sop: Natural language workflows that enable AI agents to perform complex, multi-step tasks with consistency and reliability.",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "python",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 793,
+      "url": "https://www.fluid.sh/",
+      "title": null,
+      "description": "Claude Code for infrastructure",
+      "summary": "Fluid.sh is an infrastructure tool that lets you safely test and experiment with system changes in isolated sandbox environments before deploying to production. It automatically explores your system configuration, logs every command and change for auditing purposes, and can generate reproducible Ansible playbooks from your sandbox work to streamline infrastructure deployment across multiple servers.",
+      "domain": "www.fluid.sh",
+      "source_date": "2026-02-05",
+      "page_title": "fluid.sh",
+      "tags": [
+        "devops",
+        "cli-tool",
+        "security"
+      ]
+    },
     {
       "id": 790,
       "url": "https://agentskills.io/home",
@@ -11722,7 +11754,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 171
+      "count": 172
     },
     {
       "name": "academic-paper",
@@ -11737,17 +11769,17 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 129
+      "count": 131
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 124
+      "count": 125
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 119
+      "count": 120
     },
     {
       "name": "music",
@@ -11765,19 +11797,19 @@
       "count": 91
     },
     {
+      "name": "python",
+      "category": "programming_language",
+      "count": 91
+    },
+    {
       "name": "news",
       "category": "culture",
       "count": 90
     },
     {
-      "name": "python",
-      "category": "programming_language",
-      "count": 90
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
-      "count": 73
+      "count": 74
     },
     {
       "name": "compilers",
@@ -11785,12 +11817,12 @@
       "count": 57
     },
     {
-      "name": "database",
+      "name": "security",
       "category": "technical_topic",
-      "count": 36
+      "count": 37
     },
     {
-      "name": "security",
+      "name": "database",
       "category": "technical_topic",
       "count": 36
     },
@@ -11922,7 +11954,7 @@
     },
     {
       "domain": "github.com",
-      "count": 79
+      "count": 80
     },
     {
       "domain": "www.nytimes.com",
@@ -13466,6 +13498,10 @@
     },
     {
       "domain": "www.flightcontrol.dev",
+      "count": 1
+    },
+    {
+      "domain": "www.fluid.sh",
       "count": 1
     },
     {
