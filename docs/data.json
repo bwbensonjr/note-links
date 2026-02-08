@@ -1,6 +1,80 @@
 {
-  "exported_at": "2026-02-05T15:48:43.066417",
+  "exported_at": "2026-02-08T16:45:34.970548",
   "links": [
+    {
+      "id": 798,
+      "url": "https://openlibrary.org/collections/nancy-drew",
+      "title": null,
+      "description": "A community curated collection of Nancy Drew books",
+      "summary": "This Open Library collection curates Nancy Drew books across multiple series and reading levels, spanning from the original 1930s mysteries to modern reimaginings published through the 2020s. The collection organizes titles by era and age group—including the classic Mystery Stories, young adult series like Nancy Drew Girl Detective and Nancy Drew On Campus, and early reader versions like Nancy Drew Notebooks and the Clue Book—making it easy for both new and returning readers to find appropriate starting points. Users can read, borrow, or preview available editions directly through the platform, with alternative copies often accessible if the primary listing is checked out.",
+      "domain": "openlibrary.org",
+      "source_date": "2026-02-08",
+      "page_title": "Nancy Drew Collection | Open Library",
+      "tags": [
+        "fiction-book",
+        "video"
+      ]
+    },
+    {
+      "id": 797,
+      "url": "https://github.github.io/gh-aw/",
+      "title": null,
+      "description": "GitHub Agentic Workflows",
+      "summary": "GitHub Agentic Workflows is a system that enables repository automation by running AI coding agents (Copilot, Claude, or Codex) directly in GitHub Actions with built-in security guardrails. Users can define automation tasks using simple markdown files instead of complex YAML, allowing AI agents to automatically handle tasks like issue triage, documentation maintenance, test coverage improvement, and compliance monitoring. The system prioritizes safety through read-only default permissions, explicit write operation approval, sandboxed execution, and tool allowlisting to ensure AI agents operate within controlled boundaries.",
+      "domain": "github.github.io",
+      "source_date": "2026-02-08",
+      "page_title": "GitHub Agentic Workflows | GitHub Agentic Workflows",
+      "tags": [
+        "github-repo",
+        "ai",
+        "devops",
+        "security",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 796,
+      "url": "https://dl.acm.org/doi/epdf/10.1145/234286.1057810",
+      "title": null,
+      "description": "A History of Algol 68",
+      "summary": "A History of Algol 68",
+      "domain": "dl.acm.org",
+      "source_date": "2026-02-08",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 795,
+      "url": "https://gcc.gnu.org/wiki/Algol68FrontEnd",
+      "title": null,
+      "description": "The GCC Algol 68 front end",
+      "summary": "This wiki page documents the GNU Algol 68 front end for GCC, a compiler project that adds support for the Algol 68 programming language to the GCC compiler infrastructure. The page serves as a central resource hub containing information about project milestones, bug reporting, development resources, compiler modules, language features, and related documentation including testing procedures, runtime support, and editor modes for Algol 68 development.",
+      "domain": "gcc.gnu.org",
+      "source_date": "2026-02-08",
+      "page_title": "Algol68FrontEnd - GCC Wiki",
+      "tags": [
+        "compilers",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 799,
+      "url": "https://fosdem.org/2026/schedule/event/PEXRTN-ga68-intro/",
+      "title": null,
+      "description": "ga68 - The Algol 68 compiler - FOSDEM 2026",
+      "summary": "This presentation introduces ga68, a newly developed GNU Algol 68 compiler that serves as a GCC front-end, presented by Jose E. Marchesi at FOSDEM 2026. The talk provides a quick overview of this recent addition to the GNU toolchain during a 25-minute session in the GCC track. Video recordings and chat discussions are available for those interested in learning more about this compiler development.",
+      "domain": "fosdem.org",
+      "source_date": "2026-02-07",
+      "page_title": "FOSDEM 2026 - ga68, the GNU Algol 68 Compiler",
+      "tags": [
+        "compilers",
+        "c",
+        "tutorial",
+        "video"
+      ]
+    },
     {
       "id": 794,
       "url": "https://github.com/strands-agents/agent-sop",
@@ -11744,22 +11818,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 265
+      "count": 266
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 193
+      "count": 195
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 172
+      "count": 173
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 148
+      "count": 149
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 132
     },
     {
       "name": "web-dev",
@@ -11767,14 +11846,9 @@
       "count": 132
     },
     {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 131
-    },
-    {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 125
+      "count": 127
     },
     {
       "name": "llm",
@@ -11809,17 +11883,17 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 74
+      "count": 75
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 57
+      "count": 59
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 37
+      "count": 38
     },
     {
       "name": "database",
@@ -11852,13 +11926,13 @@
       "count": 18
     },
     {
-      "name": "gaming",
-      "category": "culture",
-      "count": 15
-    },
-    {
       "name": "c",
       "category": "programming_language",
+      "count": 16
+    },
+    {
+      "name": "gaming",
+      "category": "culture",
       "count": 15
     },
     {
@@ -11892,14 +11966,14 @@
       "count": 7
     },
     {
-      "name": "movie",
+      "name": "fiction-book",
       "category": "culture",
       "count": 6
     },
     {
-      "name": "fiction-book",
+      "name": "movie",
       "category": "culture",
-      "count": 5
+      "count": 6
     },
     {
       "name": "go",
@@ -12050,6 +12124,10 @@
     },
     {
       "domain": "deepwiki.com",
+      "count": 2
+    },
+    {
+      "domain": "dl.acm.org",
       "count": 2
     },
     {
@@ -12537,10 +12615,6 @@
       "count": 1
     },
     {
-      "domain": "dl.acm.org",
-      "count": 1
-    },
-    {
       "domain": "dmitrybrant.com",
       "count": 1
     },
@@ -12625,6 +12699,10 @@
       "count": 1
     },
     {
+      "domain": "fosdem.org",
+      "count": 1
+    },
+    {
       "domain": "foundersatwork.posthaven.com",
       "count": 1
     },
@@ -12645,6 +12723,10 @@
       "count": 1
     },
     {
+      "domain": "gcc.gnu.org",
+      "count": 1
+    },
+    {
       "domain": "geemap.org",
       "count": 1
     },
@@ -12662,6 +12744,10 @@
     },
     {
       "domain": "ghostty.org",
+      "count": 1
+    },
+    {
+      "domain": "github.github.io",
       "count": 1
     },
     {
@@ -13026,6 +13112,10 @@
     },
     {
       "domain": "opendaw.studio",
+      "count": 1
+    },
+    {
+      "domain": "openlibrary.org",
       "count": 1
     },
     {
