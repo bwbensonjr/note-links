@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-02-09T08:17:54.271071",
+  "exported_at": "2026-02-09T09:49:39.455468",
   "links": [
     {
       "id": 807,
@@ -118,6 +118,21 @@
       "tags": [
         "fiction-book",
         "nonfiction-book"
+      ]
+    },
+    {
+      "id": 808,
+      "url": "https://users.soe.ucsc.edu/~sbrandt/221/Papers/Dist/pike-ukuug90.pdf",
+      "title": null,
+      "description": "Plan 9 from Bell Labs",
+      "summary": "Plan 9 is a distributed computing environment developed at Bell Labs that uses specialized components—CPU servers for computation, file servers for storage, and terminals for user interfaces—connected through a single file-oriented protocol to create an efficient and manageable system. Rather than using general-purpose workstations, Plan 9 achieves better security, reliability, and cost-effectiveness by centralizing services and using a unified file-based approach for all system resources, allowing a large organization to operate as a cohesive computing community with simplified administration. The system was designed to overcome limitations of traditional networked workstations by concentrating computing power, centralizing storage, and providing each user with a customized view of available services through a local file name space.",
+      "domain": "users.soe.ucsc.edu",
+      "source_date": "2026-02-08",
+      "page_title": "untitled",
+      "tags": [
+        "distributed-systems",
+        "academic-paper",
+        "c"
       ]
     },
     {
@@ -11952,7 +11967,7 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 151
+      "count": 152
     },
     {
       "name": "cli-tool",
@@ -12022,7 +12037,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 24
+      "count": 25
     },
     {
       "name": "politics",
@@ -12047,7 +12062,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 16
+      "count": 17
     },
     {
       "name": "gaming",
@@ -13551,6 +13566,10 @@
     },
     {
       "domain": "users.rcn.com",
+      "count": 1
+    },
+    {
+      "domain": "users.soe.ucsc.edu",
       "count": 1
     },
     {
