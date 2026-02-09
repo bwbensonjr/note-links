@@ -1,6 +1,125 @@
 {
-  "exported_at": "2026-02-08T16:45:34.970548",
+  "exported_at": "2026-02-09T08:17:54.271071",
   "links": [
+    {
+      "id": 807,
+      "url": "https://github.com/stablyai/agent-slack",
+      "title": null,
+      "description": "Slack CLI for Agents",
+      "summary": "agent-slack is a TypeScript-based CLI tool that enables AI agents to automate Slack interactions with token-efficient JSON output designed for LLM consumption. It provides commands for reading messages and threads, searching content, managing reactions, listing users, and fetching Slack canvases as Markdown, with zero-config authentication that automatically works with Slack Desktop. The tool is available as both a standalone CLI and as an agent skill compatible with Claude, Codex, and other AI platforms.",
+      "domain": "github.com",
+      "source_date": "2026-02-09",
+      "page_title": "GitHub - stablyai/agent-slack: Slack automation CLI for AI agents",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "typescript",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": 806,
+      "url": "https://www.pa3fwm.nl/technotes/tn13a.html",
+      "title": null,
+      "description": "Quartz crystals",
+      "summary": "Quartz crystals",
+      "domain": "www.pa3fwm.nl",
+      "source_date": "2026-02-09",
+      "page_title": "Quartz crystals",
+      "tags": [
+        "tutorial",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 805,
+      "url": "https://sciencevsmagic.net/tes/#0.5.0.1.aatitAlAb",
+      "title": null,
+      "description": "Tesselation kit",
+      "summary": "I apologize, but I'm unable to access external websites or view their content. To provide you with an accurate summary of the tessellation kit page, I would need you to either paste the main text content from the page or provide more details about what information it contains.\n\nIf you share the page content with me, I'd be happy to summarize it in 2-3 sentences focusing on the key takeaways.",
+      "domain": "sciencevsmagic.net",
+      "source_date": "2026-02-09",
+      "page_title": "TESSELLATION KIT",
+      "tags": [
+        "video",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 804,
+      "url": "https://www.paulgraham.com/rootsoflisp.html",
+      "title": null,
+      "description": "The roots of Lisp - Paul Graham",
+      "summary": "The roots of Lisp - Paul Graham",
+      "domain": "www.paulgraham.com",
+      "source_date": "2026-02-09",
+      "page_title": null,
+      "tags": [
+        "lisp",
+        "academic-paper",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 803,
+      "url": "https://github.com/naver/lispe",
+      "title": null,
+      "description": "LispE - Lisp Elèmentaire",
+      "summary": "LispE (Lisp Elémentaire) is a compact, multi-platform Lisp dialect that combines functional programming, array language features, and object-oriented capabilities in a single language. It includes traditional Lisp operators, pattern matching, data structures, classes, threading support, and array operators—enabling complex tasks like Conway's Game of Life to be solved in minimal code. The project is open-source under the BSD 3-Clause License and provides precompiled binaries for Windows and macOS, along with documentation and interactive examples to help users explore its features.",
+      "domain": "github.com",
+      "source_date": "2026-02-09",
+      "page_title": "GitHub - naver/lispe: An implementation of a full fledged Lisp interpreter with Data Structure, Pattern Programming and High level Functions with Lazy Evaluation à la Haskell.",
+      "tags": [
+        "github-repo",
+        "lisp",
+        "compilers",
+        "haskell"
+      ]
+    },
+    {
+      "id": 802,
+      "url": "https://ploum.net/2026-02-09-offpunk3.html",
+      "title": null,
+      "description": "Offpunk 3.0 - A command line web browser",
+      "summary": "Offpunk 3.0, a command-line browser for offline web browsing across Web, Gemini, and Gopher protocols, has been released as a community-driven project with significant contributions from volunteers beyond the original developer. Key improvements include multi-language support, better content extraction from websites, image display enhancements, RSS feed discovery, cookie-based login capability, and new social sharing features. The release marks a milestone where Offpunk has evolved from a solo project into a genuine cooperative effort with an active community contributing translations, tools, and packaging support.",
+      "domain": "ploum.net",
+      "source_date": "2026-02-09",
+      "page_title": "Offpunk 3.0 \"A Community is Born\" Release",
+      "tags": [
+        "cli-tool",
+        "python",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 801,
+      "url": "https://www.goodreads.com/book/show/61089520-the-man-from-the-future",
+      "title": null,
+      "description": "The Man From the Future",
+      "summary": "I don't have access to the actual content of the Goodreads page you're referencing, so I can't provide an accurate summary of \"The Man from the Future\" by Ananyo Bhattacharya. To give you a proper 2-3 sentence summary, I would need you to share the book's description or content from the page. If you can paste the book's synopsis or key details, I'd be happy to summarize it for you.",
+      "domain": "www.goodreads.com",
+      "source_date": "2026-02-09",
+      "page_title": "The Man from the Future: The Visionary Ideas of John von Neumann by Ananyo Bhattacharya | Goodreads",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 800,
+      "url": "https://odd-lots-books.netlify.app/",
+      "title": null,
+      "description": "Odd Lots recommended books",
+      "summary": "Walker Percy's National Book Award-winning novel *The Moviegoer* follows Binx Bolling, a disillusioned New Orleans stockbroker approaching thirty who seeks meaning and escape through cinema and the chaos of Mardi Gras. Alongside his cousin Kate, Binx embarks on a transformative week-long journey that critiques modern materialism while exploring deeper questions of purpose and authenticity. The novel is a poignant examination of alienation and self-discovery set against the vibrant backdrop of carnival season.",
+      "domain": "odd-lots-books.netlify.app",
+      "source_date": "2026-02-09",
+      "page_title": "Odd Lots Books",
+      "tags": [
+        "fiction-book",
+        "nonfiction-book"
+      ]
+    },
     {
       "id": 798,
       "url": "https://openlibrary.org/collections/nancy-drew",
@@ -11818,42 +11937,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 266
+      "count": 269
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 195
+      "count": 196
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 173
+      "count": 174
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 149
+      "count": 151
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 132
+      "count": 135
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 132
+      "count": 133
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 127
+      "count": 129
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 120
+      "count": 121
     },
     {
       "name": "music",
@@ -11868,12 +11987,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 91
+      "count": 93
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 91
+      "count": 92
     },
     {
       "name": "news",
@@ -11888,7 +12007,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 59
+      "count": 60
     },
     {
       "name": "security",
@@ -11911,14 +12030,14 @@
       "count": 21
     },
     {
-      "name": "javascript",
+      "name": "lisp",
       "category": "programming_language",
       "count": 21
     },
     {
-      "name": "lisp",
+      "name": "javascript",
       "category": "programming_language",
-      "count": 19
+      "count": 21
     },
     {
       "name": "rust",
@@ -11936,14 +12055,14 @@
       "count": 15
     },
     {
-      "name": "scheme",
+      "name": "typescript",
       "category": "programming_language",
       "count": 12
     },
     {
-      "name": "typescript",
+      "name": "scheme",
       "category": "programming_language",
-      "count": 11
+      "count": 12
     },
     {
       "name": "emulator",
@@ -11968,7 +12087,7 @@
     {
       "name": "fiction-book",
       "category": "culture",
-      "count": 6
+      "count": 7
     },
     {
       "name": "movie",
@@ -11986,6 +12105,11 @@
       "count": 4
     },
     {
+      "name": "haskell",
+      "category": "programming_language",
+      "count": 3
+    },
+    {
       "name": "cpp",
       "category": "programming_language",
       "count": 3
@@ -11994,11 +12118,6 @@
       "name": "elixir",
       "category": "programming_language",
       "count": 3
-    },
-    {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 2
     },
     {
       "name": "swift",
@@ -12028,7 +12147,7 @@
     },
     {
       "domain": "github.com",
-      "count": 80
+      "count": 82
     },
     {
       "domain": "www.nytimes.com",
@@ -13095,6 +13214,10 @@
       "count": 1
     },
     {
+      "domain": "odd-lots-books.netlify.app",
+      "count": 1
+    },
+    {
       "domain": "onthegomap.com",
       "count": 1
     },
@@ -13184,6 +13307,10 @@
     },
     {
       "domain": "plotly.com",
+      "count": 1
+    },
+    {
+      "domain": "ploum.net",
       "count": 1
     },
     {
@@ -13284,6 +13411,10 @@
     },
     {
       "domain": "science.nasa.gov",
+      "count": 1
+    },
+    {
+      "domain": "sciencevsmagic.net",
       "count": 1
     },
     {
@@ -13619,6 +13750,10 @@
       "count": 1
     },
     {
+      "domain": "www.goodreads.com",
+      "count": 1
+    },
+    {
       "domain": "www.hacktivate.app",
       "count": 1
     },
@@ -13720,6 +13855,14 @@
     },
     {
       "domain": "www.opensourceecology.org",
+      "count": 1
+    },
+    {
+      "domain": "www.pa3fwm.nl",
+      "count": 1
+    },
+    {
+      "domain": "www.paulgraham.com",
       "count": 1
     },
     {
