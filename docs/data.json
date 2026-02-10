@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-02-10T07:53:48.136784",
+  "exported_at": "2026-02-10T08:44:43.173967",
   "links": [
     {
       "id": 811,
@@ -39,12 +39,13 @@
       "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
       "title": null,
       "description": "Game Theory Patterns at Work",
-      "summary": "I don't have access to the actual web page content at that URL. While you've provided the title and URL, the content section appears to be empty or cut off, showing only \"Career\" as a category label.\n\nTo provide an accurate 2-3 sentence summary, I would need you to either:\n- Paste the full article text\n- Provide the complete page content\n- Share the main points you'd like summarized\n\nCould you please share the article content so I can create a summary for you?",
+      "summary": "Game theory provides a framework for understanding organizational behavior by recognizing that outcomes depend on interconnected decisions and incentives rather than individual intentions. The article illustrates how organizations often struggle because well-intentioned people make locally rational decisions within poorly designed systems—such as promotion structures that reward visibility over impact, firing policies that encourage peer sabotage, or hiring processes that favor referrals over merit. Skilled leaders avoid these \"traps\" by designing transparent mechanisms and clear incentives that naturally drive desired outcomes, rather than hoping culture and values will guide behavior.",
       "domain": "daeus.blog",
       "source_date": "2026-02-10",
       "page_title": "Game Theory Patterns at Work – Daeus Jorento",
       "tags": [
-        "nonfiction-book"
+        "nonfiction-book",
+        "tutorial"
       ]
     },
     {
@@ -83,7 +84,7 @@
       "url": "https://sciencevsmagic.net/tes/#0.5.0.1.aatitAlAb",
       "title": null,
       "description": "Tesselation kit",
-      "summary": "I apologize, but I'm unable to access external websites or view their content. To provide you with an accurate summary of the tessellation kit page, I would need you to either paste the main text content from the page or provide more details about what information it contains.\n\nIf you share the page content with me, I'd be happy to summarize it in 2-3 sentences focusing on the key takeaways.",
+      "summary": "TESSELLATION KIT - Tesselation kit",
       "domain": "sciencevsmagic.net",
       "source_date": "2026-02-09",
       "page_title": "TESSELLATION KIT",
@@ -143,7 +144,7 @@
       "url": "https://www.goodreads.com/book/show/61089520-the-man-from-the-future",
       "title": null,
       "description": "The Man From the Future",
-      "summary": "I don't have access to the actual content of the Goodreads page you're referencing, so I can't provide an accurate summary of \"The Man from the Future\" by Ananyo Bhattacharya. To give you a proper 2-3 sentence summary, I would need you to share the book's description or content from the page. If you can paste the book's synopsis or key details, I'd be happy to summarize it for you.",
+      "summary": "\"The Man from the Future\" is a biography of John von Neumann by Ananyo Bhattacharya that explores the life and contributions of one of history's most influential but underappreciated scientists. Von Neumann, a Hungarian-born child prodigy, made groundbreaking contributions across multiple fields including quantum mechanics, computer science, game theory, nuclear weapons design, and economics, fundamentally shaping the modern world. The book chronicles how his exceptional intellect and the unique historical circumstances of the 20th century allowed him to revolutionize diverse scientific disciplines and leave an indelible mark on contemporary civilization.",
       "domain": "www.goodreads.com",
       "source_date": "2026-02-09",
       "page_title": "The Man from the Future: The Visionary Ideas of John von Neumann by Ananyo Bhattacharya | Goodreads",
@@ -390,6 +391,7 @@
       "page_title": "Claude Code just became a learning machine 🧠\n\nThe Playground plugin is now in the official marketplace.\n\nAsk it to visualize anything. Diagrams. Architecture. Protocols.\n\nIt builds interactive HTML right in your terminal.\n\nThis is how I'm learning now.",
       "tags": [
         "social-media",
+        "ai",
         "cli-tool",
         "web-dev",
         "tutorial"
@@ -633,8 +635,7 @@
       "page_title": "SvgPathEditor",
       "tags": [
         "web-dev",
-        "cli-tool",
-        "javascript"
+        "cli-tool"
       ]
     },
     {
@@ -741,7 +742,7 @@
         "web-dev",
         "devops",
         "python",
-        "database"
+        "cli-tool"
       ]
     },
     {
@@ -756,7 +757,7 @@
       "tags": [
         "social-media",
         "web-dev",
-        "javascript"
+        "ai"
       ]
     },
     {
@@ -997,14 +998,14 @@
       "url": "https://www.threads.com/@dolenzarchive/post/DTxfrrsjgyI?xmt=AQF09MpV3nGhw318EAi5yNJwKXgx0lAOGkhkL7WP0KfCGuXaP_txxTZostICDynYswGqwHvh&slof=1",
       "title": null,
       "description": "Monkees hit medley",
-      "summary": "On this day in 1976, Dolenz, Jones, Boyce &amp; Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”. - Monkees hit medley",
+      "summary": "On this day in 1976, Dolenz, Jones, Boyce & Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”. - Monkees hit medley",
       "domain": "www.threads.com",
       "source_date": "2026-01-22",
       "page_title": "On this day in 1976, Dolenz, Jones, Boyce & Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”.",
       "tags": [
         "music",
-        "tv",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -1247,7 +1248,7 @@
       "page_title": "iRISC",
       "tags": [
         "emulator",
-        "cli-tool",
+        "compilers",
         "c"
       ]
     },
@@ -1920,7 +1921,7 @@
       "url": "https://kk.org/thetechnium/how-will-the-miracle-happen-today/",
       "title": null,
       "description": "How will the miracle happen today",
-      "summary": "I don't have access to browse external websites or URLs, so I'm unable to read the specific content of that Technium article. To help you effectively, could you either:\n\n1. **Copy and paste the article text** directly into our conversation, or\n2. **Share the main points** you'd like summarized\n\nOnce you provide the content, I'll be happy to create a 2-3 sentence summary focusing on the main topic and key takeaways.",
+      "summary": "Through personal anecdotes of hitchhiking and traveling across Asia and America, the author explores how everyday miracles of human kindness occur when we approach life with openness and vulnerability. He argues that receiving generosity is an art form requiring a specific mindset of humility and trust, and that both the giver and receiver benefit through an exchange of gratitude and shared experience. The author suggests that by starting each day asking \"how will the miracle happen today?\" we position ourselves to recognize and accept the consistent kindness of strangers that surrounds us.",
       "domain": "kk.org",
       "source_date": "2026-01-09",
       "page_title": "The Technium: How Will the Miracle Happen Today?",
@@ -2292,14 +2293,14 @@
       "url": "https://huggingface.co/spaces/ludocomito/anatomy-of-boltzgen",
       "title": null,
       "description": "Anatomy of BoltzGen",
-      "summary": "I don't have access to browse external web pages or URLs. To help you summarize the content about \"Anatomy of BoltzGen,\" I would need you to either:\n\n1. **Copy and paste the main text content** from the Hugging Face Space page\n2. **Share the key information** you see on the page\n3. **Describe what the page displays**\n\nOnce you provide the actual content, I'd be happy to create a 2-3 sentence summary focusing on the main topic and key takeaways.",
+      "summary": "I don't have access to the actual content of that Hugging Face Space page. To provide an accurate summary, I would need you to share the full text content from the page. Could you please paste the main body text or description from the \"Anatomy of BoltzGen\" Space so I can create a 2-3 sentence summary focusing on the key topics and takeaways?",
       "domain": "huggingface.co",
       "source_date": "2026-01-04",
       "page_title": "Anatomy of BoltzGen - a Hugging Face Space by ludocomito",
       "tags": [
         "ai",
-        "github-repo",
-        "tutorial"
+        "llm",
+        "github-repo"
       ]
     },
     {
@@ -2385,7 +2386,7 @@
       "url": "https://www.threads.com/@boris_cherny/post/DTBVlMIkpcm?xmt=AQF0K8JAzIrOkl-8giZdzBV6_S0rF73GkSj38EkQgOFUgm7DR-VPUqYBe8D48km75rqD0jmL&slof=1",
       "title": null,
       "description": "Claude Code setup by creator",
-      "summary": "I&#039;m Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don&#039;t customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes. - Claude Code setup by creator",
+      "summary": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes. - Claude Code setup by creator",
       "domain": "www.threads.com",
       "source_date": "2026-01-03",
       "page_title": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes.",
@@ -2496,7 +2497,7 @@
       "page_title": "Opal [Experiment]",
       "tags": [
         "web-dev",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -2534,7 +2535,7 @@
       "url": "https://wwnorton.com/books/The-ABCs-of-How-We-Learn/",
       "title": "The ABCs of How We Learn",
       "description": " by Daniel L. Schwartz, Jessica M. Tsang, Kristen P. Blair. The “ABC” is a gimmick and wears thin in predictable ways, but it also forces the authors to limit how many entries to have. Don’t let this get in the way of high-quality advice from experts.",
-      "summary": "\"The ABCs of How We Learn\" is an educational guide by Schwartz, Tsang, and Blair that uses an alphabetical framework to present evidence-based learning principles and strategies. While the ABC organizational structure is somewhat gimmicky, it effectively constrains the content and delivers high-quality, expert advice on how people learn. The book provides practical, research-backed guidance for improving learning outcomes despite its somewhat formulaic presentation.",
+      "summary": "The ABCs of How We Learn | Daniel L Schwartz, Jessica M Tsang, Kristen P Blair | W. W. Norton & Company -  by Daniel L. Schwartz, Jessica M. Tsang, Kristen P. Blair. The “ABC” is a gimmick and wears thin in predictable ways, but it also forces the authors to limit how many entries to have. Don’t let this get in the way of high-quality advice from experts. - The ABCs of How We Learn",
       "domain": "wwnorton.com",
       "source_date": "2025-12-31",
       "page_title": "The ABCs of How We Learn | Daniel L Schwartz, Jessica M Tsang, Kristen P Blair | W. W. Norton & Company",
@@ -3413,7 +3414,8 @@
       "page_title": "loopmaster - Live Audio Programming",
       "tags": [
         "tutorial",
-        "music"
+        "music",
+        "cli-tool"
       ]
     },
     {
@@ -3551,15 +3553,15 @@
       "url": "https://pocketbase.io/",
       "title": null,
       "description": "pocketbase - single file database",
-      "summary": "# PocketBase Summary\n\nPocketBase is an open-source backend solution that runs as a single executable file, making it easy to deploy and manage. It provides database functionality, authentication, and backend services without requiring complex infrastructure setup. Key takeaway: it's designed for developers who want a lightweight, self-contained backend alternative to traditional database and server configurations.",
+      "summary": "PocketBase is an open-source backend solution that runs as a single file, offering a complete database system with built-in authentication, file storage, admin dashboard, and real-time capabilities. It comes ready to use out of the box and provides SDKs for multiple languages including JavaScript and Dart, making it easy to integrate with various frontend frameworks. The platform supports standard database operations like querying, filtering, creating, and subscribing to real-time record changes.",
       "domain": "pocketbase.io",
       "source_date": "2025-11-28",
       "page_title": "PocketBase - Open Source backend in 1 file",
       "tags": [
         "database",
         "web-dev",
-        "devops",
-        "cli-tool"
+        "cli-tool",
+        "javascript"
       ]
     },
     {
@@ -4708,15 +4710,14 @@
       "url": "https://strudel.cc/",
       "title": null,
       "description": "Strudel music REPL",
-      "summary": "# Strudel REPL Summary\n\nStrudel is a music REPL (Read-Eval-Print Loop) platform that allows users to create and perform music through code in a browser-based environment. It enables live coding of music by writing and executing code in real-time, making it accessible for both musicians and programmers interested in algorithmic music composition. The platform combines creative music-making with programming functionality in an interactive, community-driven interface.",
+      "summary": "Strudel REPL - Strudel music REPL",
       "domain": "strudel.cc",
       "source_date": "2025-10-13",
       "page_title": "Strudel REPL",
       "tags": [
         "music",
-        "web-dev",
-        "tutorial",
-        "python"
+        "cli-tool",
+        "javascript"
       ]
     },
     {
@@ -4829,14 +4830,14 @@
       "url": "https://sandbox.bio/concepts/bwt",
       "title": null,
       "description": "The Burrows-Wheeler Transform",
-      "summary": "I don't have access to browse the URL you provided, so I can't read the specific content of that interactive article about the Burrows-Wheeler Transform on sandbox.bio.\n\nHowever, I can tell you that the **Burrows-Wheeler Transform (BWT)** is a data transformation algorithm that rearranges characters in a string to group similar characters together, making the data more compressible. It's widely used in bioinformatics for DNA sequence analysis and compression, as well as in general data compression algorithms like bzip2. The BWT is particularly valuable for genomic applications because it improves the efficiency of string searching and pattern matching on large biological datasets.\n\nIf you'd like a summary of that specific article, please share the content or key points from the page, and I'd be happy to summarize it for you!",
+      "summary": "The Burrows-Wheeler Transform (BWT) is a data transformation algorithm that works by generating all rotations of a string, sorting them lexicographically, and extracting the last column of the sorted matrix. This technique is particularly useful for data compression and DNA sequence analysis because it rearranges characters in a way that groups similar characters together, making the data more compressible. The interactive example demonstrates how \"banana$\" is transformed through rotation and sorting to produce the BWT output.",
       "domain": "sandbox.bio",
       "source_date": "2025-10-10",
       "page_title": "Burrows-Wheeler Transform (BWT) - Interactive article - sandbox.bio",
       "tags": [
         "tutorial",
-        "compilers",
-        "academic-paper"
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -5129,14 +5130,14 @@
       "url": "https://platform.leolabs.space/visualization",
       "title": null,
       "description": "Low-earth orbit visualization",
-      "summary": "LeoLabs provides an interactive visualization tool that displays real-time data about objects and satellites in Low Earth Orbit (LEO). The platform allows users to monitor and track the thousands of satellites and debris currently orbiting in the LEO region, providing visibility into the crowded space environment. This visualization is useful for space situational awareness, satellite operations, and understanding the growing congestion in near-Earth space.",
+      "summary": "LeoLabs provides a comprehensive Low Earth Orbit (LEO) visualization platform that tracks and monitors satellite activity in orbit. The platform offers tools for conjunction analysis, fleet management, orbit analytics, and safety monitoring, along with documentation and API access for users. This system enables operators to manage satellite operations, assess collision risks, and maintain situational awareness of LEO space activities.",
       "domain": "platform.leolabs.space",
       "source_date": "2025-09-25",
       "page_title": "Low Earth Orbit Visualization | LeoLabs",
       "tags": [
-        "web-dev",
         "devops",
-        "video"
+        "distributed-systems",
+        "database"
       ]
     },
     {
@@ -5230,7 +5231,7 @@
       "url": "https://www.galois.com/articles/claude-can-sometimes-prove-it",
       "title": null,
       "description": "Using Claude Code for interactive theorem proving",
-      "summary": "I don't have the ability to access external websites or URLs, so I cannot read the content of the Galois article you've linked. \n\nTo help you, you could:\n1. **Copy and paste the article text** directly into our chat\n2. **Share the key points** you'd like summarized\n3. **Describe the content** and I can help organize it\n\nAlternatively, if you provide the article content, I'd be happy to create a 2-3 sentence summary focusing on how Claude is being used for interactive theorem proving.",
+      "summary": "I appreciate your request, but the content you've provided appears to be metadata and navigation elements from a Galois webpage rather than the actual article text. The snippet shows only the article title, author byline, related tags, and links to other blog posts, but doesn't include the main article content needed to summarize the key points about Claude's theorem-proving capabilities or the use of Claude Code for interactive theorem proving as mentioned in your note.\n\nTo provide an accurate 2-3 sentence summary focusing on the main topic and key takeaways, I would need access to the full article text.",
       "domain": "www.galois.com",
       "source_date": "2025-09-20",
       "page_title": "Galois - Claude Can (Sometimes) Prove It",
@@ -5362,7 +5363,7 @@
       "url": "https://clavier36.com/p/LtZDdcRP3haTWHErgvdM",
       "title": null,
       "description": "Clavier-36 - a generative system for music",
-      "summary": "I apologize, but I'm unable to access the web page at the URL you provided. The content shown in your message appears to be incomplete - it only displays the title \"CLAVIER-36\" and a note indicating it's a generative system for music, but the actual page content isn't included.\n\nTo provide an accurate 2-3 sentence summary, I would need you to either:\n1. Share the full text content from the page, or\n2. Provide more details about what Clavier-36 does and its key features\n\nIf you can paste the article content, I'd be happy to summarize it for you!",
+      "summary": "CLAVIER-36 - Clavier-36 - a generative system for music",
       "domain": "clavier36.com",
       "source_date": "2025-09-13",
       "page_title": "CLAVIER-36",
@@ -5420,7 +5421,7 @@
       "url": "https://gitlab.com/ryanprior/emacs-org-data-starter/-/blob/master/README.org?ref_type=heads",
       "title": null,
       "description": "Using Emacs org mode with databases",
-      "summary": "I'm unable to access the specific content of that GitLab page, as it appears the page content didn't load in your request. To provide you with an accurate 2-3 sentence summary focusing on the main topic and key takeaways, I would need either:\n\n1. The actual text content from the README.org file, or\n2. A description of what the page discusses\n\nIf you can share the content or copy-paste the relevant text, I'd be happy to summarize it for you. Alternatively, you might try reloading the GitLab page directly to ensure it loads properly.",
+      "summary": "README.org · master · Ryan Prior / Emacs Org Data Starter · GitLab - Using Emacs org mode with databases",
       "domain": "gitlab.com",
       "source_date": "2025-09-12",
       "page_title": "README.org · master · Ryan Prior / Emacs Org Data Starter · GitLab",
@@ -5619,7 +5620,7 @@
       "url": "https://byte.tsundoku.io/",
       "title": null,
       "description": "A zoomable view of BYTE magazine",
-      "summary": "I don't have access to browse external websites or URLs, so I'm unable to view the content at https://byte.tsundoku.io/. To provide you with an accurate 2-3 sentence summary, I would need you to either:\n\n1. Copy and paste the main content from the page, or\n2. Share the key information you'd like summarized\n\nBased on your note, it appears to be a zoomable digital archive of BYTE magazine, but I'd need the actual page content to give you a proper summary of its main topics and key takeaways.",
+      "summary": "Byte - a visual archive - A zoomable view of BYTE magazine",
       "domain": "byte.tsundoku.io",
       "source_date": "2025-08-26",
       "page_title": "Byte - a visual archive",
@@ -5753,7 +5754,7 @@
       "url": "https://math.uchicago.edu/~shmuel/Network-course-readings/Markov_chain_tricks.pdf",
       "title": null,
       "description": "Problem solving is often a matter of cooking up an appropriate Markov chain",
-      "summary": "I cannot provide an accurate summary of this document. The PDF appears to be severely corrupted or improperly converted to text, resulting in garbled characters, encoding errors, and unreadable content throughout. While the title suggests the document discusses \"Markov chain tricks\" for problem-solving (as noted in the user's observation), the actual content is not legible enough to extract meaningful information or key takeaways.\n\nTo properly summarize this resource, you would need a clean, readable version of the PDF file.",
+      "summary": "The document discusses Markov chain techniques as practical problem-solving tools in mathematics. It presents various applications and theoretical foundations of Markov chains, demonstrating how constructing an appropriate Markov chain can simplify complex problems across different mathematical domains. The content emphasizes strategic approaches to modeling situations using Markov chain methods to achieve more efficient solutions.",
       "domain": "math.uchicago.edu",
       "source_date": "2025-08-22",
       "page_title": null,
@@ -5822,7 +5823,7 @@
       "url": "https://susam.net/primegrid.html#150001-100-100",
       "title": null,
       "description": "Prime grid",
-      "summary": "I don't have access to external websites or the ability to browse URLs. To help you summarize the content from that page, could you please:\n\n1. Copy and paste the main text content from the page, or\n2. Describe what information is displayed on the page\n\nOnce you provide the actual content, I'll be happy to create a 2-3 sentence summary focusing on the main topic and key takeaways.",
+      "summary": "Prime Number Grid Explorer - Prime grid",
       "domain": "susam.net",
       "source_date": "2025-08-19",
       "page_title": "Prime Number Grid Explorer",
@@ -5944,7 +5945,7 @@
       "url": "https://www.instagram.com/reel/DMO4aeGA7lW/?igsh=MWttbjdrbGs1dHYzeQ==",
       "title": null,
       "description": "Fame drum cover",
-      "summary": "I don't have the ability to access external websites or URLs, so I can't view the specific Instagram reel you've linked. However, based on your note that it's a \"Fame drum cover,\" I can tell you that the post likely features someone performing a drum cover of David Bowie's \"Fame\" or another song with that title. To get an accurate summary, you could share the post's caption, description, or other details from the page directly.",
+      "summary": "Instagram - Fame drum cover",
       "domain": "www.instagram.com",
       "source_date": "2025-08-15",
       "page_title": "Instagram",
@@ -6017,7 +6018,7 @@
       "url": "https://www.gnome-look.org/p/2176652",
       "title": null,
       "description": "GNOME Orchis theme",
-      "summary": "I'm unable to access the actual content of that web page to provide an accurate summary. However, based on the title and URL, this appears to be about the **GNOME Orchis Theme**, a customization option for Ubuntu 24.04's GNOME desktop environment available on Gnome-look.org.\n\nTo give you an accurate 2-3 sentence summary, I would need you to either:\n- Share the page's main content text\n- Describe what the theme includes (colors, styling, features, etc.)\n- Share your notes about what was most important\n\nWould you be able to provide any of this information?",
+      "summary": "Ubuntu 24.04 Customization 02 - GNOME Orchis Theme - Gnome-look.org - GNOME Orchis theme",
       "domain": "www.gnome-look.org",
       "source_date": "2025-08-12",
       "page_title": "Ubuntu 24.04 Customization 02 - GNOME Orchis Theme - Gnome-look.org",
@@ -6030,7 +6031,7 @@
       "url": "https://www.threads.com/@dannyderaney/post/DNL2mRLSTHU?xmt=AQF0ClX-lMGsF_CTviPiN86i3ydh7cgW-aMIRJSSUZl0Wg",
       "title": null,
       "description": "Tim Conway - World’s oldest clock maker",
-      "summary": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World&#039;s Oldest Clock Maker. 😂😂😂 - Tim Conway - World’s oldest clock maker",
+      "summary": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World's Oldest Clock Maker. 😂😂😂 - Tim Conway - World’s oldest clock maker",
       "domain": "www.threads.com",
       "source_date": "2025-08-11",
       "page_title": "When Tim Conway goes rogue, you are always in for something special. \n\nThe World's Oldest Clock Maker. 😂😂😂",
@@ -6117,14 +6118,13 @@
       "url": "https://www.instagram.com/reel/DMaxGRIg6ci/?igsh=YXZudnJkdG9wNTh5",
       "title": null,
       "description": "Rockford Files drum cover",
-      "summary": "I'm unable to access or view the content of that Instagram link. To help you, I would need you to either:\n\n1. **Copy and paste the text/description** from the Instagram post\n2. **Describe what's shown** in the reel\n3. **Share the caption** that accompanies the video\n\nOnce you provide that information, I'd be happy to summarize it in 2-3 sentences focusing on the main topic (the Rockford Files drum cover) and key takeaways.",
+      "summary": "Instagram - Rockford Files drum cover",
       "domain": "www.instagram.com",
       "source_date": "2025-08-07",
       "page_title": "Instagram",
       "tags": [
         "video",
-        "music",
-        "social-media"
+        "music"
       ]
     },
     {
@@ -6163,7 +6163,7 @@
       "url": "https://www.threads.com/@that.map.guy.craig/post/DM_WbK4hoBb?xmt=AQF0xI96OFQY9MhlNKmy7TZhxNZIKj6A97Blm-6kzSNspA",
       "title": null,
       "description": "Historic maps",
-      "summary": "ya&#039;ll. i just launched the coolest fuckin&#039; thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts &amp; names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle&#039;s saloons were in 1895? Now you can\n\nWhy? I don&#039;t know. But it&#039;s hella cool and you should try it right now. - Historic maps",
+      "summary": "ya'll. i just launched the coolest fuckin' thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts & names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle's saloons were in 1895? Now you can\n\nWhy? I don't know. But it's hella cool and you should try it right now. - Historic maps",
       "domain": "www.threads.com",
       "source_date": "2025-08-05",
       "page_title": "ya'll. i just launched the coolest fuckin' thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts & names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle's saloons were in 1895? Now you can\n\nWhy? I don't know. But it's hella cool and you should try it right now.",
@@ -6324,7 +6324,7 @@
       "url": "https://mathstodon.xyz/@tao/114915604830689046",
       "title": null,
       "description": "AI as a red team member for code reviews",
-      "summary": "Terence Tao: &quot;In the field of cybersecurity, a distinction is m…&quot; - Mathstodon - AI as a red team member for code reviews",
+      "summary": "Terence Tao: \"In the field of cybersecurity, a distinction is m…\" - Mathstodon - AI as a red team member for code reviews",
       "domain": "mathstodon.xyz",
       "source_date": "2025-07-28",
       "page_title": "Terence Tao: \"In the field of cybersecurity, a distinction is m…\" - Mathstodon",
@@ -6345,8 +6345,7 @@
       "page_title": "this song is about my landlord",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "social-media"
       ]
     },
     {
@@ -6354,7 +6353,7 @@
       "url": "https://www.threads.com/@seanbresnan1966/post/DMjGy_mskyF?xmt=AQF0x5M6QGIZUmYE0E6H5FAfsuZ-fuNMT45h8rjH80hhtg",
       "title": null,
       "description": "REM on Letterman",
-      "summary": "Video posted by Sean Bresnan (&#064;seanasheffski66) - REM on Letterman",
+      "summary": "Video posted by Sean Bresnan (@seanasheffski66) - REM on Letterman",
       "domain": "www.threads.com",
       "source_date": "2025-07-26",
       "page_title": "Video posted by Sean Bresnan (@seanasheffski66)",
@@ -6368,7 +6367,7 @@
       "url": "https://www.threads.com/@michael_costello_nj/post/DMgIV0RSErs?xmt=AQF03VwOk7MkAp9gmA59o1eF-CkygMaUfD6EBhSCrIlEyg",
       "title": null,
       "description": "Feels so Good",
-      "summary": "Don&#039;t care what anyone says. &quot;Feels So Good&quot; by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The &quot;Feels So Good&quot; and &quot;Children of Sanchez&quot; albums are perfect &quot;Dollar Bin&quot; records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione - Feels so Good",
+      "summary": "Don't care what anyone says. \"Feels So Good\" by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The \"Feels So Good\" and \"Children of Sanchez\" albums are perfect \"Dollar Bin\" records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione - Feels so Good",
       "domain": "www.threads.com",
       "source_date": "2025-07-26",
       "page_title": "Don't care what anyone says. \"Feels So Good\" by Chuck Mangione is a Perfect Song. It hits every pocket and you never want it to end. The \"Feels So Good\" and \"Children of Sanchez\" albums are perfect \"Dollar Bin\" records that could make people want to listen to more Jazz / Jazz Fusion / Yacht Rock and make you want to get a better stereo setup so you can fully experience how great it is. RIP #ChuckMangione",
@@ -6702,7 +6701,7 @@
       "tags": [
         "rust",
         "social-media",
-        "ai"
+        "llm"
       ]
     },
     {
@@ -7308,13 +7307,14 @@
       "url": "https://sqrtminusone.xyz/packages/eshell-atuin/",
       "title": null,
       "description": "Atuin Emacs support",
-      "summary": "I don't have the ability to access external web pages or URLs. However, based on the title and your note, I can infer that **eshell-atuin** is an Emacs package that integrates Atuin (a shell history manager) with Eshell (Emacs's shell environment). This integration likely allows Emacs users to access and search their shell command history more effectively within Eshell using Atuin's functionality.\n\nTo provide a more accurate summary, could you share the main content from the page?",
+      "summary": "eshell-atuin is an Emacs package that integrates the eshell with Atuin, a database-backed shell history manager that syncs command history across multiple shells and machines. The package allows users to store and browse eshell commands within Atuin while offering customizable search filters by time, duration, command, and other fields. Installation is available through MELPA, and users can configure search options, history formatting, and filter modes to optimize performance and suit their workflow preferences.",
       "domain": "sqrtminusone.xyz",
       "source_date": "2025-06-24",
       "page_title": "eshell-atuin",
       "tags": [
         "cli-tool",
-        "github-repo"
+        "database",
+        "devops"
       ]
     },
     {
@@ -7356,7 +7356,7 @@
       "source_date": "2025-06-23",
       "page_title": null,
       "tags": [
-        "social-media"
+        "video"
       ]
     },
     {
@@ -7369,7 +7369,8 @@
       "source_date": "2025-06-23",
       "page_title": null,
       "tags": [
-        "video"
+        "video",
+        "news"
       ]
     },
     {
@@ -7756,13 +7757,13 @@
       "url": "https://scitools.org.uk/cartopy/docs/latest/",
       "title": null,
       "description": "Cartopy",
-      "summary": "I don't have access to browse web pages or their content directly. However, based on the URL and your note that it's about Cartopy, I can tell you that this appears to be a documentation page that has been moved.\n\nTo provide an accurate summary, could you please:\n1. Share the actual content from the page, or\n2. Visit the page yourself and copy the text you'd like summarized?\n\nIf you're looking for information about Cartopy specifically, I can tell you that **Cartopy is a Python library for geospatial data visualization and analysis** that handles map projections, coastlines, and geographic data display. If you'd like a summary of current Cartopy documentation, please share the content and I'll be happy to help.",
+      "summary": "Cartopy",
       "domain": "scitools.org.uk",
       "source_date": "2025-06-06",
       "page_title": null,
       "tags": [
-        "python",
         "tutorial",
+        "python",
         "web-dev"
       ]
     },
@@ -8114,7 +8115,7 @@
       "url": "https://www.youtube.com/@YoullHearIt",
       "title": null,
       "description": "You'll Hear It",
-      "summary": "You&#39;ll Hear It - YouTube - You'll Hear It",
+      "summary": "You'll Hear It - YouTube - You'll Hear It",
       "domain": "www.youtube.com",
       "source_date": "2025-05-25",
       "page_title": "You'll Hear It - YouTube",
@@ -8564,7 +8565,7 @@
       "url": "https://directus.io/",
       "title": null,
       "description": "Directus data platform",
-      "summary": "I don't have the ability to access external websites or URLs, so I cannot view the content of https://directus.io/ to provide an accurate summary.\n\nHowever, based on the title and your note, **Directus appears to be a headless CMS and backend platform** designed for custom builds and data management. To give you an accurate 2-3 sentence summary, I would need you to either:\n\n- Copy and paste the main content from the page, or\n- Share the key details you'd like summarized\n\nWould you like to provide the page content so I can create a proper summary for you?",
+      "summary": "Directus is a headless CMS and backend platform designed to streamline custom development projects by eliminating the need to build infrastructure from scratch. The platform has demonstrated significant value for organizations like Rescue.org, reducing development time by months and cutting technical support needs by three times compared to traditional systems. By providing pre-built backend functionality, Directus allows teams to focus on innovation and new features rather than maintaining core systems.",
       "domain": "directus.io",
       "source_date": "2025-05-18",
       "page_title": "The Headless CMS + Backend for Every Custom Build",
@@ -9088,14 +9089,14 @@
       "url": "https://www.threads.net/@jimmykimmellive/post/DI0JeUYxOIO?xmt=AQGzs4qEk3qzg9eaJuq5zmRjWrGzSBrmjygqJ4h0MbGPgQ",
       "title": null,
       "description": "Jensen McCrae - Massachusetts",
-      "summary": "&#064;JensenMcRae performs Massachusetts! - Jensen McCrae - Massachusetts",
+      "summary": "@JensenMcRae performs Massachusetts! - Jensen McCrae - Massachusetts",
       "domain": "www.threads.net",
       "source_date": "2025-04-24",
       "page_title": "@JensenMcRae performs Massachusetts!",
       "tags": [
-        "music",
         "social-media",
-        "video"
+        "video",
+        "music"
       ]
     },
     {
@@ -9103,14 +9104,14 @@
       "url": "https://open-map-maker.vercel.app/map",
       "title": null,
       "description": "Map path maker",
-      "summary": "I don't have access to browse the actual web page at that URL, so I cannot provide an accurate summary of its specific content. However, based on the title \"Open Map Maker\" and your note that it's a \"map path maker,\" it appears to be a web application for creating and designing map paths or routes. To give you a proper 2-3 sentence summary, I would need you to share the page's actual content or description.",
+      "summary": "Open Map Maker - Map path maker",
       "domain": "open-map-maker.vercel.app",
       "source_date": "2025-04-22",
       "page_title": "Open Map Maker",
       "tags": [
         "web-dev",
         "typescript",
-        "javascript"
+        "cli-tool"
       ]
     },
     {
@@ -9268,8 +9269,7 @@
       "page_title": "Gorgeous.",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "social-media"
       ]
     },
     {
@@ -9282,8 +9282,8 @@
       "source_date": "2025-03-28",
       "page_title": "Them: I don’t see a Black artist making it in Rock Music \nMe:",
       "tags": [
-        "music",
-        "social-media"
+        "social-media",
+        "music"
       ]
     },
     {
@@ -9291,14 +9291,14 @@
       "url": "https://www.threads.net/@johnnyrabb/post/DHtWWCMx0mj?xmt=AQGzAQNxthSHAfdDoy4VfCmxlI9fP2GvcW_JmP3FhzljBw",
       "title": null,
       "description": "Boss Dr Beat",
-      "summary": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. &#064;rolandglobal &#064;rolandcanada &#064;jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome - Boss Dr Beat",
+      "summary": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. @rolandglobal @rolandcanada @jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome - Boss Dr Beat",
       "domain": "www.threads.net",
       "source_date": "2025-03-28",
       "page_title": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. @rolandglobal @rolandcanada @jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome",
       "tags": [
+        "music",
         "social-media",
-        "video",
-        "music"
+        "video"
       ]
     },
     {
@@ -9306,13 +9306,13 @@
       "url": "https://www.threads.net/@fallontonight/post/DHtY4bDuY7E?xmt=AQGz_TFwkPSdHI49c8QC4hTwW7neuqy3eF3shLM2GfWzzA",
       "title": null,
       "description": "Ed Sheeran looping",
-      "summary": "&#064;teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight - Ed Sheeran looping",
+      "summary": "@teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight - Ed Sheeran looping",
       "domain": "www.threads.net",
       "source_date": "2025-03-28",
       "page_title": "@teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight",
       "tags": [
-        "video",
         "music",
+        "video",
         "social-media"
       ]
     },
@@ -9480,7 +9480,7 @@
       "url": "https://www.threads.net/@mix1041/post/DHUXFvlOn5h?xmt=AQGzCt4_lkM9Y51QEDb2FmgDHUNfg1ndeW8yTP_XNYn3bQ",
       "title": null,
       "description": "Ed Sheerin, Boston",
-      "summary": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ &#064;karsonwithak karsonwithak #edsheeran #stpatricksday - Ed Sheerin, Boston",
+      "summary": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ @karsonwithak karsonwithak #edsheeran #stpatricksday - Ed Sheerin, Boston",
       "domain": "www.threads.net",
       "source_date": "2025-03-18",
       "page_title": "No big deal, j Ed Sheeran hopping on stage at The Dubliner in downtown Boston on St. Patrick’s Day 2025’ @karsonwithak karsonwithak #edsheeran #stpatricksday",
@@ -9554,7 +9554,7 @@
       "url": "https://www.threads.net/@thatnatejackson/post/DHHJxkbyQWn?xmt=AQGzyxMNlJAlLPk1grPFsR_Eu71hyxGemWeJTkxtoTxjOA",
       "title": null,
       "description": "Re-imagining meetings",
-      "summary": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as &quot;highly valuable.&quot; \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business: - Re-imagining meetings",
+      "summary": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as \"highly valuable.\" \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business: - Re-imagining meetings",
       "domain": "www.threads.net",
       "source_date": "2025-03-12",
       "page_title": "The average leader spends 23 hours weekly in meetings, yet only 20% rate them as \"highly valuable.\" \n\nOne company tested a radical approach: they banned all recurring meetings for 30 days. \n\nThe framework they discovered transformed their business:",
@@ -9689,8 +9689,8 @@
       "page_title": "I love this Elliott Smith performance, especially the last 10 seconds. \nHe was such a talented artist, who believed he was the wrong kind of person to be really big and famous. \nHow wrong he was 🤍\nIt’s a shame so few of his live performances are left…\nMarzec Live Music",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "social-media",
+        "video"
       ]
     },
     {
@@ -9763,7 +9763,8 @@
       "page_title": "@langchain.bsky.social on Bluesky",
       "tags": [
         "social-media",
-        "llm"
+        "llm",
+        "python"
       ]
     },
     {
@@ -9947,7 +9948,7 @@
       "url": "https://www.threads.net/@ernes_ac/post/DGann-wNfat?xmt=AQGzrnJCNsW1mV8L3roHfq6316ERzbvnSRbfPDpAGIfTLA",
       "title": null,
       "description": "Mystery Train Tele masters",
-      "summary": "Vince Gill, Keb Mo, Albert Lee, James Burton, &amp; Earl Klugh Perform &quot;Mystery Train&quot; Live Crossroads 2010 - Mystery Train Tele masters",
+      "summary": "Vince Gill, Keb Mo, Albert Lee, James Burton, & Earl Klugh Perform \"Mystery Train\" Live Crossroads 2010 - Mystery Train Tele masters",
       "domain": "www.threads.net",
       "source_date": "2025-02-24",
       "page_title": "Vince Gill, Keb Mo, Albert Lee, James Burton, & Earl Klugh Perform \"Mystery Train\" Live Crossroads 2010",
@@ -10166,7 +10167,7 @@
       "url": "https://www.threads.net/@triumphicdhq/post/DGGmcX0S360?xmt=AQGz6ELQBo3flnTK_mKftbEa6w5-B6qfQU87tr6iHxON-w",
       "title": null,
       "description": "SNL potato chip",
-      "summary": "The ten-to-one slot on &#064;nbcsnl is supposedly for the &quot;weird&quot; stuff, but sometimes it&#039;s insanely, magically weird. It&#039;s never fair to compare SNL casts but I do think the mid/late 00&#039;s group had the largest collection of creative geniuses. Two of them, &#064;willforte &amp; &#064;jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend &#064;tarabdonnelly. I could talk all day about this one but just watch it. - RS - SNL potato chip",
+      "summary": "The ten-to-one slot on @nbcsnl is supposedly for the \"weird\" stuff, but sometimes it's insanely, magically weird. It's never fair to compare SNL casts but I do think the mid/late 00's group had the largest collection of creative geniuses. Two of them, @willforte & @jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend @tarabdonnelly. I could talk all day about this one but just watch it. - RS - SNL potato chip",
       "domain": "www.threads.net",
       "source_date": "2025-02-15",
       "page_title": "The ten-to-one slot on @nbcsnl is supposedly for the \"weird\" stuff, but sometimes it's insanely, magically weird. It's never fair to compare SNL casts but I do think the mid/late 00's group had the largest collection of creative geniuses. Two of them, @willforte & @jasonsudeikis, star in Potato Chip, co-written with John Solomon, a sketch so special it was commemorated with a mock Playbill created by graphic arts legend @tarabdonnelly. I could talk all day about this one but just watch it. - RS",
@@ -10239,7 +10240,7 @@
       "url": "https://www.threads.net/@mrchrissapphire/post/DGAihqIuQV1?xmt=AQGzMw_JcIJqigJ7g-HNDLhcXOwodTkkb3V5cbPBDcbw_A",
       "title": null,
       "description": "Free your mind",
-      "summary": "En Vogue performed &quot;Free Your Mind&quot; on Saturday Night Live on March 21, 1992. One word: WOW!🤩 - Free your mind",
+      "summary": "En Vogue performed \"Free Your Mind\" on Saturday Night Live on March 21, 1992. One word: WOW!🤩 - Free your mind",
       "domain": "www.threads.net",
       "source_date": "2025-02-13",
       "page_title": "En Vogue performed \"Free Your Mind\" on Saturday Night Live on March 21, 1992. One word: WOW!🤩",
@@ -10269,7 +10270,7 @@
       "url": "https://www.threads.net/@dannyderaney/post/DF-_rJPSwBq?xmt=AQGzasxqcQaKcoUPR-rghXJieYS8BSA7NJDnOHSOq-4iUg",
       "title": null,
       "description": "Waiting for Guffman scene",
-      "summary": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard&#039;s reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy - Waiting for Guffman scene",
+      "summary": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard's reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy - Waiting for Guffman scene",
       "domain": "www.threads.net",
       "source_date": "2025-02-12",
       "page_title": "This deleted scene from Waiting for Guffman is one of my favorites, Bulging River.  Fred Willard's reaction to Christopher Guest at the end is everything.\n\nThis was supposed to be the finale to the film and how I wish they kept it in. The full clip is on YouTube and is worth every second. The song was written by mjmckean. \n\n#funny #funnyvideos #movie #comedy",
@@ -10342,7 +10343,7 @@
       "url": "https://www.threads.net/@southy_17/post/DFyZ2C1PQYt?xmt=AQGzC60Y5R8p5ig3rTMeYZJgAEOOF8CCp5lhxyoD9gYKBg",
       "title": null,
       "description": "Harry Nilsson - Without You",
-      "summary": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of &#039;Without You&#039;, he recorded his vocal in one take, pretty incredible when you listen to it. I&#039;m my opinion \n\nHarry&#039;s version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it&#039;s just awful 😖 - Harry Nilsson - Without You",
+      "summary": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of 'Without You', he recorded his vocal in one take, pretty incredible when you listen to it. I'm my opinion \n\nHarry's version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it's just awful 😖 - Harry Nilsson - Without You",
       "domain": "www.threads.net",
       "source_date": "2025-02-08",
       "page_title": "I have always adored Harry Nilsson, I thought if I had been a Rock-Star, I would have been Harry. I love his version of 'Without You', he recorded his vocal in one take, pretty incredible when you listen to it. I'm my opinion \n\nHarry's version is the best recording of this iconic song, and at the other end is the John Farnham cover which is an abomination, with his over singing and vocal gymnastics, it's just awful 😖",
@@ -10356,7 +10357,7 @@
       "url": "https://www.threads.net/@amyvangar/post/DFybRiDMPqZ?xmt=AQGzkgqIV-afvHl2pqtUeR0kwdV_DP46iEFDPRIvzKx-Yw",
       "title": null,
       "description": "Chad Smith plays Dua Lipa",
-      "summary": "Chad Smith performing the drums on Dua Lipa&#039;s &#039;Break My Heart&#039; is pure joy - Chad Smith plays Dua Lipa",
+      "summary": "Chad Smith performing the drums on Dua Lipa's 'Break My Heart' is pure joy - Chad Smith plays Dua Lipa",
       "domain": "www.threads.net",
       "source_date": "2025-02-08",
       "page_title": "Chad Smith performing the drums on Dua Lipa's 'Break My Heart' is pure joy",
@@ -10460,14 +10461,14 @@
       "url": "https://www.threads.net/@langchain.ai/post/DFuKEbtv3HQ?xmt=AQGz5GNM_7k425ATb08R9JR5H_yWP1auH2yUPY-a0sxFwg",
       "title": null,
       "description": "SiteRAG Chrome extension",
-      "summary": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model&#039;s context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced &quot;multi-query&quot; option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it&#039;s built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc - SiteRAG Chrome extension",
+      "summary": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model's context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced \"multi-query\" option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it's built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc - SiteRAG Chrome extension",
       "domain": "www.threads.net",
       "source_date": "2025-02-06",
       "page_title": "SiteRAG has two main functions:\n\n1) One-off chats where the content is stuffed into the model's context\n2) RAG over pages/sites, where the page contents are chunked, embedded and stored for semantic search. This mode also has an advanced \"multi-query\" option where it will generate multiple queries from your initial input, then preform semantic search over them all.\n\nSince it's built with LangChainAI, it supports multiple LLM providers: OpenAI, Anthropic, DeepSeek, Gemini, etc",
       "tags": [
         "llm",
         "ai",
-        "social-media",
+        "web-dev",
         "cli-tool"
       ]
     },
@@ -10491,13 +10492,12 @@
       "url": "https://learngitbranching.js.org/",
       "title": null,
       "description": "Learn git branching",
-      "summary": "I don't have the ability to access external websites or URLs, including https://learngitbranching.js.org/. However, based on the title and your note, I can tell you that **Learn Git Branching** is an interactive web-based tutorial designed to teach users how to work with Git branches through hands-on practice in a visual terminal environment. The platform likely uses interactive exercises and visualizations to help learners understand Git branching concepts and workflows in a practical, engaging way.\n\nIf you'd like a summary of the actual content, please copy and paste the page text, and I'll be happy to summarize it for you.",
+      "summary": "Learn Git Branching - Learn git branching",
       "domain": "learngitbranching.js.org",
       "source_date": "2025-02-05",
       "page_title": "Learn Git Branching",
       "tags": [
         "tutorial",
-        "web-dev",
         "cli-tool",
         "javascript"
       ]
@@ -10507,7 +10507,7 @@
       "url": "https://beej.us/guide/bggit/html/split/",
       "title": null,
       "description": "Beej's Guide to Git",
-      "summary": "I appreciate you sharing this, but I'm unable to access external web pages or URLs. However, based on the title \"Beej's Guide to Git,\" I can tell you that it's likely a comprehensive tutorial about Git (the version control system).\n\nIf you could paste the actual content from the page, I'd be happy to summarize it for you in 2-3 sentences focusing on the main topic and key takeaways. Alternatively, you could share the specific section you'd like summarized.",
+      "summary": "Beej's Guide to Git",
       "domain": "beej.us",
       "source_date": "2025-02-05",
       "page_title": "Beej's Guide to Git",
@@ -10521,14 +10521,13 @@
       "url": "https://www.threads.net/@jimmykimmellive/post/DFo_Sc0xwd3?xmt=AQGzshDVQhkc-q4UReJPprh8QdBgJViJ6YEygEhkcOrKsQ",
       "title": null,
       "description": "My Morning Jacket - Time Waited",
-      "summary": "&#064;MyMorningJacket performs Time Waited… - My Morning Jacket - Time Waited",
+      "summary": "@MyMorningJacket performs Time Waited… - My Morning Jacket - Time Waited",
       "domain": "www.threads.net",
       "source_date": "2025-02-04",
       "page_title": "@MyMorningJacket performs Time Waited…",
       "tags": [
-        "music",
         "video",
-        "social-media"
+        "music"
       ]
     },
     {
@@ -10670,13 +10669,14 @@
       "url": "https://www.threads.net/@bsidestv/post/DFevea3RldL?xmt=AQGzg24yFd73nVU-R8FMS8De4qCG-XpNQRP1pNYGoEcAbA",
       "title": null,
       "description": "Nirvana w St Vincent",
-      "summary": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing &quot;Breed&quot; at the FireAid benefit concert in Los Angeles - Nirvana w St Vincent",
+      "summary": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing \"Breed\" at the FireAid benefit concert in Los Angeles - Nirvana w St Vincent",
       "domain": "www.threads.net",
       "source_date": "2025-01-31",
       "page_title": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing \"Breed\" at the FireAid benefit concert in Los Angeles",
       "tags": [
         "music",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -10728,7 +10728,7 @@
       "url": "https://www.threads.net/@ommmann/post/DFWFVp9Pmsw?xmt=AQGzyj-B_aNv9-0fW5zAw3jFnGVSB7Qmlz8CLECsrOYqKA",
       "title": null,
       "description": "Journalling technique - have a dialogue with an inner voice",
-      "summary": "I&#039;m 46 and I&#039;ve been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you&#039;re not using it in your journaling, you&#039;re missing out on profound personal insights \n\nHere&#039;s why (and how to use it): - Journalling technique - have a dialogue with an inner voice",
+      "summary": "I'm 46 and I've been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you're not using it in your journaling, you're missing out on profound personal insights \n\nHere's why (and how to use it): - Journalling technique - have a dialogue with an inner voice",
       "domain": "www.threads.net",
       "source_date": "2025-01-28",
       "page_title": "I'm 46 and I've been journaling for 30 years.\n\nWhen I discovered this one technique, taught by Jung, Johnson and Progoff, everything changed. \n\nIf you're not using it in your journaling, you're missing out on profound personal insights \n\nHere's why (and how to use it):",
@@ -10756,7 +10756,7 @@
       "url": "https://www.threads.net/@michelinemaynard/post/DFRn6G8Oz76?xmt=AQGzaBcfebE6e5EPucMGrqu3l2p7p-9H0UkjjRk6BUZ3RA",
       "title": null,
       "description": "Trailer for SNL music doc",
-      "summary": "This should win an Emmy for editing. From the upcoming SNL Music special produced by &#064;questlove - Trailer for SNL music doc",
+      "summary": "This should win an Emmy for editing. From the upcoming SNL Music special produced by @questlove - Trailer for SNL music doc",
       "domain": "www.threads.net",
       "source_date": "2025-01-26",
       "page_title": "This should win an Emmy for editing. From the upcoming SNL Music special produced by @questlove",
@@ -10791,8 +10791,8 @@
       "page_title": "Wes, the master of mixing octaves and chords in his solos! Wes creates the sound of a little big band on the guitar with his comping hits! 🤯 This is from his solo on Yesterdays #somuchguitar #wesmontgomery\n\nP.S. More Wes info and transcriptions via my book! Link in my bio! 🙌",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -10820,9 +10820,9 @@
       "source_date": "2025-01-24",
       "page_title": "part 2 of the “word ladder” technique with my own variation. i think it ends up a little bit more “usable” right away, let me know what you think! #songwriter #songwritingtips #songwriting #lyricist #songwritersofinstagram #wilco #jefftweedy",
       "tags": [
-        "music",
         "social-media",
-        "tutorial"
+        "music",
+        "video"
       ]
     },
     {
@@ -10836,8 +10836,8 @@
       "page_title": "One of the greatest moments in music.",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "social-media",
+        "video"
       ]
     },
     {
@@ -10866,7 +10866,6 @@
       "page_title": "a fun quick lyric writing exercise to get you to start playing with words/language for words/language sake and get you out of your usual patterns. #songwriter #songwritingtips #songwriting #lyricist #wilco #jefftweedy",
       "tags": [
         "music",
-        "social-media",
         "tutorial",
         "nonfiction-book"
       ]
@@ -10904,14 +10903,14 @@
       "url": "https://www.threads.net/@nancyjuliedemello/post/DFGtYudJCPC?xmt=AQGzIjDO6WpXzAF-2cXJBdUpXAumXiuBPTtWDmrM6kVYpg",
       "title": null,
       "description": "Heart - Crazy on You",
-      "summary": "HEART!! Nancy playing that guitar!  Ann&#039;s beautiful vocals! - Heart - Crazy on You",
+      "summary": "HEART!! Nancy playing that guitar!  Ann's beautiful vocals! - Heart - Crazy on You",
       "domain": "www.threads.net",
       "source_date": "2025-01-21",
       "page_title": "HEART!! Nancy playing that guitar!  Ann's beautiful vocals!",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -10964,7 +10963,7 @@
       "url": "https://www.threads.net/@jimmykimmellive/post/DFE6U_TRD7L?xmt=AQGzPgmztnB1wuVz7fexzZHSJ-sdTVfS5mo5cCi4QQBuMg",
       "title": null,
       "description": "Pete Yorn - The Hard Way",
-      "summary": "&#064;PeteYorn performs The Hard Way… - Pete Yorn - The Hard Way",
+      "summary": "@PeteYorn performs The Hard Way… - Pete Yorn - The Hard Way",
       "domain": "www.threads.net",
       "source_date": "2025-01-21",
       "page_title": "@PeteYorn performs The Hard Way…",
@@ -10993,7 +10992,7 @@
       "url": "https://www.threads.net/@flyingmojitobros/post/DFAZBYAM4r0?xmt=AQGzkHe824leySOYi6iMwMBbqkR2VUC9bbXeanMNnFCf4g",
       "title": null,
       "description": "Robert Palmer, The Meters",
-      "summary": "Sneakin&#039; Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito - Robert Palmer, The Meters",
+      "summary": "Sneakin' Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito - Robert Palmer, The Meters",
       "domain": "www.threads.net",
       "source_date": "2025-01-20",
       "page_title": "Sneakin' Sally (Flying Mojito Bros Refrito) — out now. \n\nRobert Palmer, Lowell George, The Meters and FMB confidently cruising in a slow-lane chuggernaut. Oosh!\n\nhttps://flyingmojitobros.bandcamp.com/track/sneakin-sally-through-the-alley-flying-mojito-bros-refrito",
@@ -11050,7 +11049,7 @@
       "url": "https://www.threads.net/@langchain.ai/post/DE76XU5THLW?xmt=AQGz9qvAWNaOwlN1tJbAoYNS4yOwhf2V4cfgLoAuR1aQUg",
       "title": null,
       "description": "LangGraph agent in the box",
-      "summary": "📥 Agent Inbox UI\n\nToday, we&#039;re releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵 - LangGraph agent in the box",
+      "summary": "📥 Agent Inbox UI\n\nToday, we're releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵 - LangGraph agent in the box",
       "domain": "www.threads.net",
       "source_date": "2025-01-17",
       "page_title": "📥 Agent Inbox UI\n\nToday, we're releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵",
@@ -11115,7 +11114,7 @@
       "tags": [
         "music",
         "social-media",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -11123,13 +11122,14 @@
       "url": "https://www.threads.net/@jhspedals/post/DE3A5eroO-Z?xmt=AQGzeMvTiNw9jlfdyQ5xkvBxFAs51D1V7-1s7ivB6mJMxQ",
       "title": null,
       "description": "John Mayer on Austin City Limits",
-      "summary": "Join Josh as he watches what he considers a turning point for electric guitar as &#064;johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE - John Mayer on Austin City Limits",
+      "summary": "Join Josh as he watches what he considers a turning point for electric guitar as @johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE - John Mayer on Austin City Limits",
       "domain": "www.threads.net",
       "source_date": "2025-01-16",
       "page_title": "Join Josh as he watches what he considers a turning point for electric guitar as @johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE",
       "tags": [
         "video",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -11195,15 +11195,14 @@
       "url": "https://www.threads.net/@langchain.ai/post/DE0UqhazbQg?xmt=AQGzfuJyC7IHyoXkFZfqV4MbbeW9ns7CxJNYuSLml0sKUw",
       "title": null,
       "description": "LangChain email assist agent",
-      "summary": "📩Email assistant agent\n\nToday we&#039;re releasing an open source email assistant agent that we&#039;ve been using internally for the past six months\n\nWe&#039;re also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we&#039;re calling &quot;ambient agents&quot;\n\n🧵 - LangChain email assist agent",
+      "summary": "📩Email assistant agent\n\nToday we're releasing an open source email assistant agent that we've been using internally for the past six months\n\nWe're also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we're calling \"ambient agents\"\n\n🧵 - LangChain email assist agent",
       "domain": "www.threads.net",
       "source_date": "2025-01-14",
       "page_title": "📩Email assistant agent\n\nToday we're releasing an open source email assistant agent that we've been using internally for the past six months\n\nWe're also releasing a free to use hosted version\n\nThis is the first agent in a new UX paradigm we're calling \"ambient agents\"\n\n🧵",
       "tags": [
         "ai",
-        "github-repo",
-        "llm",
-        "python"
+        "social-media",
+        "github-repo"
       ]
     },
     {
@@ -11246,7 +11245,8 @@
       "page_title": "A special version of “Time Spent in Los Angeles” by Altadena’s own Dawes!",
       "tags": [
         "music",
-        "social-media"
+        "social-media",
+        "video"
       ]
     },
     {
@@ -11337,9 +11337,9 @@
       "source_date": "2025-01-11",
       "page_title": "Lazydocker is a simple terminal UI for both docker and docker-compose, written in Go with the gocui library\n\nWhen you are working with multiple containers as devops, what if you had all the information you needed about them in one terminal window with every common Docker command living one keypress away (and the ability to add custom commands as well)? That’s where lazydocker comes in 😎👇\n\nhttps://github.com/jesseduffield/lazydocker",
       "tags": [
-        "cli-tool",
-        "go",
         "devops",
+        "go",
+        "cli-tool",
         "github-repo"
       ]
     },
@@ -11385,7 +11385,8 @@
       "tags": [
         "python",
         "ai",
-        "github-repo"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -11398,9 +11399,9 @@
       "source_date": "2025-01-08",
       "page_title": "- The challenges of evaluating agents and practical approaches to overcome them\n- How to create a golden dataset to evaluate against\n- Evaluation strategies to assess agent performance\n\n➡️Dive into the video: https://www.youtube.com/watch?v=_QozKR9eQE8",
       "tags": [
-        "ai",
         "video",
         "llm",
+        "ai",
         "tutorial"
       ]
     },
@@ -11415,7 +11416,8 @@
       "page_title": "Book yourself 2-3 hours to watch this.\n\nThank me later.",
       "tags": [
         "llm",
-        "video"
+        "video",
+        "tutorial"
       ]
     },
     {
@@ -11452,7 +11454,7 @@
       "url": "https://www.threads.net/@christanakawbz/post/DEf1UV-h96_?xmt=AQGzXJaGjeFiLO4ApsRJwv-1QRbxWQWoVZuBUjzlP5azFQ",
       "title": null,
       "description": "A Boston street that doesn’t exist",
-      "summary": "&#064;drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston - A Boston street that doesn’t exist",
+      "summary": "@drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston - A Boston street that doesn’t exist",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
       "page_title": "@drewbarrymore , Harriet Tubman and a street that doesn’t exist.\nNo, really.\n#WalkingBoston\n#Boston",
@@ -11466,13 +11468,14 @@
       "url": "https://www.threads.net/@jimmykimmellive/post/DEg41OWR-m5?xmt=AQGzcZMEyhp4YZfD_KeUW-GTaXdTQX254YnPrJ1so6DATw",
       "title": null,
       "description": "The Linda Lindas- All in my Head",
-      "summary": "&#064;TheLindaLindas perform All In My Head! - The Linda Lindas- All in my Head",
+      "summary": "@TheLindaLindas perform All In My Head! - The Linda Lindas- All in my Head",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
       "page_title": "@TheLindaLindas perform All In My Head!",
       "tags": [
         "music",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -11480,13 +11483,13 @@
       "url": "https://www.threads.net/@tmbgofficial/post/DEgqEOGNkRX?xmt=AQGzXdzDDORJTZnwGBq2rZpISPakWXi6wzr3iXD5tMBY5Q",
       "title": null,
       "description": "Say Im the only bee in your bonnet",
-      "summary": "Photo posted by They Might Be Giants (&#064;tmbgofficial) - Say Im the only bee in your bonnet",
+      "summary": "Photo posted by They Might Be Giants (@tmbgofficial) - Say Im the only bee in your bonnet",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
       "page_title": "Photo posted by They Might Be Giants (@tmbgofficial)",
       "tags": [
-        "social-media",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -11494,7 +11497,7 @@
       "url": "https://www.threads.net/@scotchisholm/post/DEfKOSquSMq?xmt=AQGzNnHkUykn7g1fAfA9NURzmBPO20afqac8SJF7vAt4GA",
       "title": null,
       "description": "Career advice",
-      "summary": "Photo posted by Scot Chisholm (&#064;scotchisholm) - Career advice",
+      "summary": "Photo posted by Scot Chisholm (@scotchisholm) - Career advice",
       "domain": "www.threads.net",
       "source_date": "2025-01-07",
       "page_title": "Photo posted by Scot Chisholm (@scotchisholm)",
@@ -11527,9 +11530,10 @@
       "source_date": "2025-01-07",
       "page_title": "Here is how I turned my old tv into a digital dashboard, and honestly, it’s been a game-changer! Now, I can see my goals, schedule, and even the weather all in one place. No more sticky notes everywhere or forgetting what’s next on my to-do list.\n\n#techdiy #rasperrypi #diy #digitalcalendar #howto #dakboard #homedecor",
       "tags": [
+        "tv",
+        "social-media",
         "tutorial",
-        "video",
-        "devops"
+        "cli-tool"
       ]
     },
     {
@@ -11567,8 +11571,8 @@
       "page_title": "52 years ago today, School House Rock made its debut on ABC. \n\nHave you ever wondered who the voice was behind your favorite School House Rock songs?\n\nMeet Jack Sheldon performing a live rendition of Conjunction Junction. Funny Threads",
       "tags": [
         "video",
-        "social-media",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -11582,7 +11586,7 @@
       "page_title": "Ben Hogan breaks it down and makes it so easy to swinf and just a 40 second demonstration. Have you ever seen golf so simplified please share, comment, like and follow.",
       "tags": [
         "video",
-        "gaming"
+        "social-media"
       ]
     },
     {
@@ -11597,7 +11601,7 @@
       "tags": [
         "social-media",
         "video",
-        "tutorial"
+        "python"
       ]
     },
     {
@@ -11611,7 +11615,8 @@
       "page_title": "The 5 Second Rule. Love my Mel Robbins❤️ completely changed my way of thinking.",
       "tags": [
         "social-media",
-        "video"
+        "video",
+        "nonfiction-book"
       ]
     },
     {
@@ -11683,9 +11688,9 @@
       "page_title": "1. Upload your book\n\nOpen Gemini and upload your book in PDF format.\n\nYou can also use Google AI Studio by selecting the 1.5 Pro model.",
       "tags": [
         "ai",
-        "social-media",
         "llm",
-        "tutorial"
+        "tutorial",
+        "social-media"
       ]
     },
     {
@@ -11708,12 +11713,13 @@
       "url": "https://www.threads.net/@datasciencereality/post/DEU_PvFzUAJ?xmt=AQGzH04eVb84iq0VRvN97RoH5gH9hSdoNyMJzG-ML3m0zw",
       "title": null,
       "description": "Mathematics for Computer Science",
-      "summary": "One of the best math books I&#039;ve ever read:\n\nMIT&#039;s &quot;Mathematics for Computer Science&quot;\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf - Mathematics for Computer Science",
+      "summary": "One of the best math books I've ever read:\n\nMIT's \"Mathematics for Computer Science\"\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf - Mathematics for Computer Science",
       "domain": "www.threads.net",
       "source_date": "2025-01-02",
       "page_title": "One of the best math books I've ever read:\n\nMIT's \"Mathematics for Computer Science\"\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
       "tags": [
         "academic-paper",
+        "nonfiction-book",
         "tutorial"
       ]
     },
@@ -11758,9 +11764,8 @@
       "page_title": "Gemini in Chrome is unbeatable for learning new things\n\nYou can turn a YouTube video into a full tutorial and ask follow-up questions.\n\n- Copy the video URL\n- Type “(at)Gemini” in the URL bar and your prompt\n- Paste the video URL at the end\n\nThe full tutorial is created in 2 sec!",
       "tags": [
         "tutorial",
-        "llm",
-        "video",
-        "social-media"
+        "ai",
+        "video"
       ]
     },
     {
@@ -11789,7 +11794,6 @@
       "page_title": "Python has crazy forecasting libraries. \n\nLet me introduce you to Kats, by Meta (Facebook)",
       "tags": [
         "python",
-        "social-media",
         "tutorial",
         "github-repo"
       ]
@@ -11828,14 +11832,14 @@
       "url": "https://www.threads.net/@andrewsponsler/post/DEDeyeoyyf4?xmt=AQGzVExLC8HFjhNCqUTLyRAO477YPcEl9vWY0xC6OkLwaA",
       "title": null,
       "description": "Documenting and promoting your work",
-      "summary": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you&#039;re playing the wrong game 🧵 - Documenting and promoting your work",
+      "summary": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you're playing the wrong game 🧵 - Documenting and promoting your work",
       "domain": "www.threads.net",
       "source_date": "2024-12-26",
       "page_title": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you're playing the wrong game 🧵",
       "tags": [
         "social-media",
-        "video",
-        "news"
+        "politics",
+        "nonfiction-book"
       ]
     },
     {
@@ -11848,8 +11852,8 @@
       "source_date": "2024-12-26",
       "page_title": "I asked 195,000 people for the best book they read in 2024.\n\nThese 14 turned up the most (so they will make for great reading over the holidays):🧵",
       "tags": [
-        "social-media",
-        "nonfiction-book"
+        "nonfiction-book",
+        "social-media"
       ]
     },
     {
@@ -11857,7 +11861,7 @@
       "url": "https://www.threads.net/@ankitsuthar05/post/DEB6kPgo9E4?xmt=AQGzTg9jQSz3LCfnmYYgu1mgxdnJACWoVKu51npfqdaC0A",
       "title": null,
       "description": "27 great websites (AI focused)",
-      "summary": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere&#039;s a list of my 27 best picks:⤵️ - 27 great websites (AI focused)",
+      "summary": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere's a list of my 27 best picks:⤵️ - 27 great websites (AI focused)",
       "domain": "www.threads.net",
       "source_date": "2024-12-26",
       "page_title": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere's a list of my 27 best picks:⤵️",
@@ -11928,14 +11932,13 @@
       "url": "https://www.threads.net/@wikijazzed/post/DD66bpkMhQF?xmt=AQGz3ky5bqWHRATqKb0quSt9kg5QwrpHzlLQWYFaVNcLUg",
       "title": null,
       "description": "Brad and Eden Meldauh - The Christmas Song",
-      "summary": "Brad Mehldau &amp; Eden Mehldau \nThe Christmas Song - Brad and Eden Meldauh - The Christmas Song",
+      "summary": "Brad Mehldau & Eden Mehldau \nThe Christmas Song - Brad and Eden Meldauh - The Christmas Song",
       "domain": "www.threads.net",
       "source_date": "2024-12-24",
       "page_title": "Brad Mehldau & Eden Mehldau \nThe Christmas Song",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "video"
       ]
     },
     {
@@ -11975,8 +11978,8 @@
       "source_date": "2024-12-23",
       "page_title": "If (like me) you’re a dog lover or (like me) a James Stewart fan or (like me) a bit of a softy - you won’t fail to be moved by Jimmy’s poem for his much loved dog ‘Beau’, which he read out on The Tonight Show in 1981 to a visibly moved Johnny Carson. \n\nJust beautiful.🐾",
       "tags": [
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -11989,8 +11992,8 @@
       "source_date": "2024-12-23",
       "page_title": "Tinned fish is having a moment, but we say seafood in a can never went out of style. We tasted over 100 tins to find the really special ones worthy of gifting or serving at a party. See all the tinned fish we recommend here: nyti.ms/3VONXZ2",
       "tags": [
-        "social-media",
-        "video"
+        "video",
+        "news"
       ]
     }
   ],
@@ -11998,17 +12001,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 269
+      "count": 268
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 197
+      "count": 194
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 176
+      "count": 178
     },
     {
       "name": "academic-paper",
@@ -12018,17 +12021,17 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 135
+      "count": 140
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 133
+      "count": 131
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 129
+      "count": 128
     },
     {
       "name": "llm",
@@ -12043,12 +12046,12 @@
     {
       "name": "social-media",
       "category": "culture",
-      "count": 107
+      "count": 105
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 94
+      "count": 97
     },
     {
       "name": "python",
@@ -12058,17 +12061,17 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 90
+      "count": 91
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 77
+      "count": 76
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 60
+      "count": 61
     },
     {
       "name": "security",
@@ -12078,17 +12081,17 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 36
+      "count": 37
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 25
+      "count": 26
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 21
+      "count": 22
     },
     {
       "name": "lisp",
@@ -12098,7 +12101,7 @@
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 21
+      "count": 20
     },
     {
       "name": "rust",
@@ -12113,7 +12116,7 @@
     {
       "name": "gaming",
       "category": "culture",
-      "count": 15
+      "count": 14
     },
     {
       "name": "typescript",

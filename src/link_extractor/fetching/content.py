@@ -4,6 +4,8 @@ import re
 
 from bs4 import BeautifulSoup
 
+MIN_CONTENT_LENGTH = 50
+
 
 class ContentExtractor:
     """Extract main text content from HTML."""
@@ -19,23 +21,26 @@ class ContentExtractor:
             for element in soup.find_all(tag):
                 element.decompose()
 
-        # Try to find main content area, with fallback if empty
+        # Try to find main content area, with fallback if empty.
+        # Use find_all for divs so all matching divs are tried, not just the first.
         candidates = [
             soup.find("article"),
             soup.find("main"),
-            soup.find("div", class_=re.compile(r"content|article|post", re.I)),
+            *soup.find_all("div", class_=re.compile(r"content|article|post", re.I)),
             soup.body,
         ]
 
         text = ""
         for candidate in candidates:
             if candidate:
-                text = candidate.get_text(separator=" ", strip=True)
-                if text:  # Use first non-empty match
-                    break
+                raw = candidate.get_text(separator=" ", strip=True)
+                if raw:
+                    normalized = re.sub(r"\s+", " ", raw)
+                    if len(normalized) >= MIN_CONTENT_LENGTH:
+                        text = normalized
+                        break
 
         if not text:
             return ""
-        text = re.sub(r"\s+", " ", text)  # Normalize whitespace
 
         return text[:max_length]

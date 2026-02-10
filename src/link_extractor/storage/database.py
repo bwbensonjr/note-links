@@ -268,18 +268,18 @@ class Database:
             ).fetchall()
             return [self._row_to_link(row) for row in rows]
 
-    def get_empty_content_links(self, limit: int = 100) -> list[LinkRecord]:
-        """Get links that were fetched successfully but have empty content."""
+    def get_empty_content_links(self, limit: int = 100, min_length: int = 50) -> list[LinkRecord]:
+        """Get links that were fetched successfully but have empty or too-short content."""
         with self._connection() as conn:
             rows = conn.execute(
                 """
                 SELECT * FROM links
                 WHERE fetch_status = ?
-                  AND (page_content IS NULL OR page_content = '')
+                  AND (page_content IS NULL OR page_content = '' OR LENGTH(page_content) < ?)
                 ORDER BY source_date DESC
                 LIMIT ?
                 """,
-                (FetchStatus.SUCCESS.value, limit),
+                (FetchStatus.SUCCESS.value, min_length, limit),
             ).fetchall()
             return [self._row_to_link(row) for row in rows]
 
@@ -294,6 +294,19 @@ class Database:
                 WHERE id = ?
                 """,
                 (FetchStatus.NOT_FETCHED.value, link_id),
+            )
+
+    def reset_summary(self, link_id: int) -> None:
+        """Clear summary data for a link so it can be re-summarized."""
+        with self._connection() as conn:
+            conn.execute(
+                """
+                UPDATE links
+                SET summary = NULL, summarizer_model = NULL,
+                    summarized_at = NULL, updated_at = datetime('now')
+                WHERE id = ?
+                """,
+                (link_id,),
             )
 
     def get_unsummarized_links(self, limit: int = 100) -> list[LinkRecord]:

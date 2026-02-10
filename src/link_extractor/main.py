@@ -13,7 +13,7 @@ import click
 from .config import Config
 from .extraction.parser import MarkdownLinkParser
 from .extraction.scanner import DailyNotesScanner
-from .fetching.content import ContentExtractor
+from .fetching.content import ContentExtractor, MIN_CONTENT_LENGTH
 from .fetching.fetcher import RateLimitedFetcher
 from .fetching.pdf import PDFExtractor
 from .storage.database import Database
@@ -150,8 +150,8 @@ class LinkExtractorPipeline:
         logger.info(f"Summarizing {len(links)} links...")
 
         for link in links:
-            # If no page content, create summary from available metadata
-            if not link.page_content:
+            # If no page content or content too short, create summary from metadata
+            if not link.page_content or len(link.page_content) < MIN_CONTENT_LENGTH:
                 summary = self._create_metadata_summary(link)
                 if summary:
                     self.db.update_summary(link.id, summary, "metadata")  # type: ignore
@@ -391,10 +391,12 @@ def refetch(config: str, limit: int | None, dry_run: bool) -> None:
             click.echo(f"  ... and {len(links) - 20} more")
         return
 
-    # Reset fetch status for these links
-    click.echo("Resetting fetch status...")
+    # Reset fetch status, summaries, and tags for these links
+    click.echo("Resetting fetch status, summaries, and tags...")
     for link in links:
         db.reset_fetch_status(link.id)  # type: ignore
+        db.reset_summary(link.id)  # type: ignore
+        db.clear_tags_for_link(link.id)  # type: ignore
 
     click.echo(f"Reset {len(links)} links. Run 'extract' to refetch them.")
 
