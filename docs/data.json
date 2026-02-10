@@ -1,6 +1,52 @@
 {
-  "exported_at": "2026-02-09T09:49:39.455468",
+  "exported_at": "2026-02-10T07:53:48.136784",
   "links": [
+    {
+      "id": 811,
+      "url": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/",
+      "title": null,
+      "description": "Structured context engineering for file-native agentic systems",
+      "summary": "This page appears to be from Simon Willison's blog discussing recent developments in AI and software engineering, including articles about StrongDM's AI team building software without direct code review, running Pydantic's sandboxed Python subset in WebAssembly, and distributing Go binaries through PyPI. The focus seems to be on emerging techniques and tools for building AI-powered systems and managing code distribution in modern development workflows.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-02-10",
+      "page_title": "Structured Context Engineering for File-Native Agentic Systems",
+      "tags": [
+        "ai",
+        "llm",
+        "python",
+        "go",
+        "devops"
+      ]
+    },
+    {
+      "id": 810,
+      "url": "https://crawshaw.io/blog/eight-more-months-of-agents",
+      "title": null,
+      "description": "Eight more months of agents",
+      "summary": "The author reflects on how AI agents and coding models have dramatically evolved over the past year, with the latest frontier models now capable of writing 90% of their code compared to 25% a year ago. IDEs have become obsolete as agents provide superior tools, and using anything less than frontier models like Claude Opus actively hampers learning. The author emphasizes that most software architecture needs to be fundamentally redesigned for the agent-native world, and they're building exe.dev to create the ideal cloud infrastructure for agents without constraints.",
+      "domain": "crawshaw.io",
+      "source_date": "2026-02-10",
+      "page_title": "crawshaw - 2026-02-08",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "video"
+      ]
+    },
+    {
+      "id": 809,
+      "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
+      "title": null,
+      "description": "Game Theory Patterns at Work",
+      "summary": "I don't have access to the actual web page content at that URL. While you've provided the title and URL, the content section appears to be empty or cut off, showing only \"Career\" as a category label.\n\nTo provide an accurate 2-3 sentence summary, I would need you to either:\n- Paste the full article text\n- Provide the complete page content\n- Share the main points you'd like summarized\n\nCould you please share the article content so I can create a summary for you?",
+      "domain": "daeus.blog",
+      "source_date": "2026-02-10",
+      "page_title": "Game Theory Patterns at Work – Daeus Jorento",
+      "tags": [
+        "nonfiction-book"
+      ]
+    },
     {
       "id": 807,
       "url": "https://github.com/stablyai/agent-slack",
@@ -11957,12 +12003,12 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 196
+      "count": 197
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 174
+      "count": 176
     },
     {
       "name": "academic-paper",
@@ -11987,7 +12033,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 121
+      "count": 123
     },
     {
       "name": "music",
@@ -12002,12 +12048,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 93
+      "count": 94
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 92
+      "count": 93
     },
     {
       "name": "news",
@@ -12017,7 +12063,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 75
+      "count": 77
     },
     {
       "name": "compilers",
@@ -12112,7 +12158,7 @@
     {
       "name": "go",
       "category": "programming_language",
-      "count": 4
+      "count": 5
     },
     {
       "name": "clojure",
@@ -12169,12 +12215,12 @@
       "count": 24
     },
     {
-      "domain": "www.youtube.com",
+      "domain": "simonwillison.net",
       "count": 19
     },
     {
-      "domain": "simonwillison.net",
-      "count": 18
+      "domain": "www.youtube.com",
+      "count": 19
     },
     {
       "domain": "www.threads.com",
@@ -12661,6 +12707,10 @@
       "count": 1
     },
     {
+      "domain": "crawshaw.io",
+      "count": 1
+    },
+    {
       "domain": "cray.modularcircuits.com",
       "count": 1
     },
@@ -12690,6 +12740,10 @@
     },
     {
       "domain": "d2lang.com",
+      "count": 1
+    },
+    {
+      "domain": "daeus.blog",
       "count": 1
     },
     {
