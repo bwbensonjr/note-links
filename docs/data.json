@@ -1,6 +1,80 @@
 {
-  "exported_at": "2026-02-10T08:44:43.173967",
+  "exported_at": "2026-02-11T07:56:30.367642",
   "links": [
+    {
+      "id": 813,
+      "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "title": null,
+      "description": "Exploring a Modern SMTPE 2110 Broadcast Truck With My Dad",
+      "summary": "Jeff Geerling toured a modern SMPTE 2110 broadcast truck at St. Louis Blues hockey games to explore the digital infrastructure and timing systems that power live sports broadcasts. The truck relies on precision timing protocol (PTP) and Evertz grandmaster clocks to synchronize video, audio, and metadata across the network, with engineers manually setting time using atomic clock apps since GPS is unreliable in mobile venues. Beyond the technology, Geerling was most impressed by the skilled broadcast professionals and their coordinated teamwork to deliver high-quality productions, operating the complex equipment seamlessly behind the scenes.",
+      "domain": "www.jeffgeerling.com",
+      "source_date": "2026-02-11",
+      "page_title": "Exploring a Modern SMTPE 2110 Broadcast Truck With My Dad - Jeff Geerling",
+      "tags": [
+        "video",
+        "devops",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 812,
+      "url": "https://codemic.io/#hn",
+      "title": null,
+      "description": "CodeMic - Record and share coding sessions",
+      "summary": "CodeMic - CodeMic - Record and share coding sessions",
+      "domain": "codemic.io",
+      "source_date": "2026-02-11",
+      "page_title": "CodeMic",
+      "tags": [
+        "video",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 816,
+      "url": "https://entire.io/blog/hello-entire-world/",
+      "title": null,
+      "description": "Announcing Entire coding agent",
+      "summary": "Hello Entire World · Entire - Announcing Entire coding agent",
+      "domain": "entire.io",
+      "source_date": "2026-02-10",
+      "page_title": "Hello Entire World · Entire",
+      "tags": [
+        "ai",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 815,
+      "url": "https://mitpress.mit.edu/9780262546379/the-little-learner/",
+      "title": null,
+      "description": "The Little Learner - A straight line to Deep Learning",
+      "summary": "The Little Learner - A straight line to Deep Learning",
+      "domain": "mitpress.mit.edu",
+      "source_date": "2026-02-10",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "nonfiction-book",
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 814,
+      "url": "https://www.feynmanlectures.caltech.edu/",
+      "title": null,
+      "description": "The Feynman Lectures on Physics",
+      "summary": "The Feynman Lectures on Physics",
+      "domain": "www.feynmanlectures.caltech.edu",
+      "source_date": "2026-02-10",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "tutorial"
+      ]
+    },
     {
       "id": 811,
       "url": "https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/",
@@ -12001,27 +12075,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 268
+      "count": 271
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 194
+      "count": 196
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 178
+      "count": 180
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 152
+      "count": 153
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 140
+      "count": 142
     },
     {
       "name": "web-dev",
@@ -12036,7 +12110,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 123
+      "count": 124
     },
     {
       "name": "music",
@@ -12051,7 +12125,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 97
+      "count": 98
     },
     {
       "name": "python",
@@ -12066,7 +12140,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 76
+      "count": 77
     },
     {
       "name": "compilers",
@@ -12086,7 +12160,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 26
+      "count": 27
     },
     {
       "name": "politics",
@@ -12339,6 +12413,10 @@
     },
     {
       "domain": "medium.com",
+      "count": 2
+    },
+    {
+      "domain": "mitpress.mit.edu",
       "count": 2
     },
     {
@@ -12682,6 +12760,10 @@
       "count": 1
     },
     {
+      "domain": "codemic.io",
+      "count": 1
+    },
+    {
       "domain": "codex-atlanticus.ambrosiana.it",
       "count": 1
     },
@@ -12851,6 +12933,10 @@
     },
     {
       "domain": "engineering.nyu.edu",
+      "count": 1
+    },
+    {
+      "domain": "entire.io",
       "count": 1
     },
     {
@@ -13211,10 +13297,6 @@
     },
     {
       "domain": "minusx.ai",
-      "count": 1
-    },
-    {
-      "domain": "mitpress.mit.edu",
       "count": 1
     },
     {
@@ -13794,6 +13876,10 @@
       "count": 1
     },
     {
+      "domain": "www.feynmanlectures.caltech.edu",
+      "count": 1
+    },
+    {
       "domain": "www.flightcontrol.dev",
       "count": 1
     },
@@ -13859,6 +13945,10 @@
     },
     {
       "domain": "www.improvingagents.com",
+      "count": 1
+    },
+    {
+      "domain": "www.jeffgeerling.com",
       "count": 1
     },
     {
