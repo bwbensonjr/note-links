@@ -1,6 +1,120 @@
 {
-  "exported_at": "2026-02-11T07:56:30.367642",
+  "exported_at": "2026-02-12T09:17:48.648155",
   "links": [
+    {
+      "id": 822,
+      "url": "https://essays.fnnch.com/make-a-living",
+      "title": null,
+      "description": "How to make a living as an artist",
+      "summary": "Making a living as an artist requires recognizing your creative practice as a business rather than just a hobby, accepting that you'll need to handle administrative tasks alongside your art-making. The author emphasizes there are multiple viable paths to earning as an artist—from selling affordable editions through email lists to teaching, commissions, and grants—and success comes from experimenting, learning from mistakes, and gradually improving your sales skills rather than waiting for traditional gatekeepers like galleries to discover you. The key is to view the transition as strengthening a muscle over time, starting small and adjusting your approach based on what actually works for your specific art form and market.",
+      "domain": "essays.fnnch.com",
+      "source_date": "2026-02-12",
+      "page_title": "How to Make a Living as an Artist",
+      "tags": [
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 821,
+      "url": "https://www.library.hbs.edu/working-knowledge/clay-christensens-milkshake-marketing",
+      "title": null,
+      "description": "Clay Christensen’s Milkshake Marketing",
+      "summary": "Clayton Christensen argues that companies fail to market new products effectively because they segment markets by demographics or product categories rather than understanding the actual \"job\" customers are trying to accomplish. Using the example of a fast-food chain's milkshake sales, he demonstrates how researchers discovered that morning commuters \"hired\" milkshakes to combat boredom and hunger during their commute, not because they fit a demographic profile—leading to successful product redesign. Companies like FedEx, Disney, and IKEA have thrived by building their brands around the specific jobs their products perform, making this jobs-to-be-done approach more difficult for competitors to replicate.",
+      "domain": "www.library.hbs.edu",
+      "source_date": "2026-02-12",
+      "page_title": "Clay Christensen’s Milkshake Marketing | Working Knowledge",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 820,
+      "url": "https://github.com/simplex-micro/riscv-vector-primer/blob/main/index.md",
+      "title": null,
+      "description": "RISC-V vector primer",
+      "summary": "I don't have access to browse the actual content of that GitHub page, so I cannot provide an accurate summary of the specific material covered in the RISC-V vector primer. To give you an accurate 2-3 sentence summary, I would need you to either share the actual text content from that page or provide more details about what the document discusses.",
+      "domain": "github.com",
+      "source_date": "2026-02-12",
+      "page_title": "riscv-vector-primer/index.md at main · simplex-micro/riscv-vector-primer · GitHub",
+      "tags": [
+        "github-repo",
+        "tutorial",
+        "c"
+      ]
+    },
+    {
+      "id": 819,
+      "url": "https://www.heywhatsthat.com/faq.html",
+      "title": null,
+      "description": "heywhatsthat",
+      "summary": "HeyWhatsThat is a web tool that identifies mountains and landscape features visible from any location on Earth by generating 360° panoramic sketches labeled with peak names. The site offers additional features including visibility maps (viewsheds) showing all areas visible from a location, elevation profiles, and astronomy tools for eclipse simulations and night sky viewing. Users can generate their own panoramas by selecting a location on the map or entering coordinates, and explore various visualizations like contour lines and sight lines to distant peaks.",
+      "domain": "www.heywhatsthat.com",
+      "source_date": "2026-02-12",
+      "page_title": "HeyWhatsThat Sitemap/FAQ",
+      "tags": [
+        "web-dev",
+        "tutorial",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 818,
+      "url": "https://lucumr.pocoo.org/2024/11/18/threads-beat-async-await/",
+      "title": null,
+      "description": "Threads beat async/await",
+      "summary": "Armin Ronacher argues that threads are a superior concurrency model compared to async/await for most languages, contending that async/await creates problematic \"colored functions\" that are only compatible in one direction and complicate code without providing real benefits over simpler threading models. He illustrates how children learning programming through Scratch naturally understand concurrent actor-based systems without needing to comprehend complex abstractions like monads or async/await, suggesting that imperative languages with threading are not inferior to functional approaches. The key takeaway is that we should reconsider our preference for async/await abstractions and instead embrace simpler threading models that allow more natural expression of concurrent programs.",
+      "domain": "lucumr.pocoo.org",
+      "source_date": "2026-02-12",
+      "page_title": "Playground Wisdom: Threads Beat Async/Await | Armin Ronacher's Thoughts and Writings",
+      "tags": [
+        "distributed-systems",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 817,
+      "url": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
+      "title": null,
+      "description": "A Language for Agents",
+      "summary": "Armin Ronacher discusses why new programming languages are likely to emerge in the era of AI agents, arguing that the reduced cost of code production and agents' performance variations across languages make this feasible. He outlines key features new languages should prioritize for agent compatibility, including explicit type information to reduce ambiguity, delimiter-based syntax instead of whitespace indentation, and built-in support for flow context—all of which would improve both agent and human understanding of code while reducing iteration cycles.",
+      "domain": "lucumr.pocoo.org",
+      "source_date": "2026-02-12",
+      "page_title": "A Language For Agents | Armin Ronacher's Thoughts and Writings",
+      "tags": [
+        "ai",
+        "compilers"
+      ]
+    },
+    {
+      "id": 824,
+      "url": "https://mitpress.mit.edu/9780262049818/fundamentals-of-probability-and-statistics-for-machine-learning/",
+      "title": null,
+      "description": "Fundamentals of Probably and Statistics for Machine Learning",
+      "summary": "Fundamentals of Probably and Statistics for Machine Learning",
+      "domain": "mitpress.mit.edu",
+      "source_date": "2026-02-11",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "nonfiction-book",
+        "ai"
+      ]
+    },
+    {
+      "id": 823,
+      "url": "https://mitpress.mit.edu/9780262050951/fundamentals-of-active-inference/",
+      "title": null,
+      "description": "Fundamentals of Active Inference",
+      "summary": "Fundamentals of Active Inference",
+      "domain": "mitpress.mit.edu",
+      "source_date": "2026-02-11",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "ai"
+      ]
+    },
     {
       "id": 813,
       "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
@@ -12075,7 +12189,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 271
+      "count": 274
     },
     {
       "name": "video",
@@ -12085,27 +12199,27 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 180
+      "count": 183
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 153
+      "count": 156
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 142
+      "count": 143
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 131
+      "count": 132
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 128
+      "count": 129
     },
     {
       "name": "llm",
@@ -12125,7 +12239,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 98
+      "count": 101
     },
     {
       "name": "python",
@@ -12145,7 +12259,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 61
+      "count": 62
     },
     {
       "name": "security",
@@ -12160,7 +12274,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 27
+      "count": 28
     },
     {
       "name": "politics",
@@ -12185,7 +12299,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 17
+      "count": 18
     },
     {
       "name": "gaming",
@@ -12285,7 +12399,7 @@
     },
     {
       "domain": "github.com",
-      "count": 82
+      "count": 83
     },
     {
       "domain": "www.nytimes.com",
@@ -12322,6 +12436,10 @@
     {
       "domain": "eli.thegreenplace.net",
       "count": 5
+    },
+    {
+      "domain": "mitpress.mit.edu",
+      "count": 4
     },
     {
       "domain": "www.bbc.com",
@@ -12404,6 +12522,10 @@
       "count": 2
     },
     {
+      "domain": "lucumr.pocoo.org",
+      "count": 2
+    },
+    {
       "domain": "lwn.net",
       "count": 2
     },
@@ -12413,10 +12535,6 @@
     },
     {
       "domain": "medium.com",
-      "count": 2
-    },
-    {
-      "domain": "mitpress.mit.edu",
       "count": 2
     },
     {
@@ -12945,6 +13063,10 @@
     },
     {
       "domain": "eo4society.esa.int",
+      "count": 1
+    },
+    {
+      "domain": "essays.fnnch.com",
       "count": 1
     },
     {
@@ -13924,6 +14046,10 @@
       "count": 1
     },
     {
+      "domain": "www.heywhatsthat.com",
+      "count": 1
+    },
+    {
       "domain": "www.hirox-europe.com",
       "count": 1
     },
@@ -13989,6 +14115,10 @@
     },
     {
       "domain": "www.lesswrong.com",
+      "count": 1
+    },
+    {
+      "domain": "www.library.hbs.edu",
       "count": 1
     },
     {
