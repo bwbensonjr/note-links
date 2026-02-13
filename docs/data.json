@@ -1,6 +1,64 @@
 {
-  "exported_at": "2026-02-12T09:17:48.648155",
+  "exported_at": "2026-02-13T07:23:48.727789",
   "links": [
+    {
+      "id": 828,
+      "url": "https://www.youtube.com/watch?v=Rn1w4MRHIhc",
+      "title": null,
+      "description": "How to have a bad career",
+      "summary": "I don't have access to the actual video content from this YouTube link. The page content provided only shows YouTube's standard footer information and copyright details, not the actual talk by David Patterson. To provide an accurate summary of \"How to Have a Bad Career,\" I would need access to the video transcript or a description of the talk's main points.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-02-13",
+      "page_title": "How to Have a Bad Career | David Patterson | Talks at Google - YouTube",
+      "tags": [
+        "video",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 827,
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "title": null,
+      "description": "Introducing GPT-5.3-Codex-Spark",
+      "summary": "Introducing GPT-5.3-Codex-Spark",
+      "domain": "openai.com",
+      "source_date": "2026-02-13",
+      "page_title": null,
+      "tags": [
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 826,
+      "url": "https://www.bostonglobe.com/2026/02/13/opinion/ai-claude-shannon/?s_campaign=sharetool_copypaste_view",
+      "title": null,
+      "description": "Claude Shannon’s interesting toys",
+      "summary": "The article celebrates Claude Shannon, the MIT mathematician and computer scientist after whom Anthropic's popular AI assistant Claude is named. Shannon, known as \"the Father of the Information Age,\" was a brilliant and eccentric inventor who filled his Winchester home with creative contraptions, from maze-solving mice to roulette-prediction devices, while also pursuing quirky hobbies like juggling and building machines with unusual purposes. The author contrasts Shannon's genuine innovative spirit with Anthropic's AI Claude, which allegedly trained on 500,000 copyrighted books without permission, suggesting the AI company's practices fall short of the ethical ingenuity embodied by their namesake.",
+      "domain": "www.bostonglobe.com",
+      "source_date": "2026-02-13",
+      "page_title": "Opinion | AI's Claude is ubiquitous. Check out its brilliant namesake..",
+      "tags": [
+        "news",
+        "ai",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 825,
+      "url": "https://pol.is/home2",
+      "title": null,
+      "description": "Polis - A system for public deliberation and consensus building",
+      "summary": "Polis - Polis - A system for public deliberation and consensus building",
+      "domain": "pol.is",
+      "source_date": "2026-02-13",
+      "page_title": "Polis",
+      "tags": [
+        "web-dev",
+        "social-media",
+        "politics"
+      ]
+    },
     {
       "id": 822,
       "url": "https://essays.fnnch.com/make-a-living",
@@ -12194,17 +12252,17 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 196
+      "count": 197
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 183
+      "count": 185
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 156
+      "count": 157
     },
     {
       "name": "cli-tool",
@@ -12214,7 +12272,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 132
+      "count": 133
     },
     {
       "name": "github-repo",
@@ -12224,7 +12282,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 124
+      "count": 125
     },
     {
       "name": "music",
@@ -12234,12 +12292,12 @@
     {
       "name": "social-media",
       "category": "culture",
-      "count": 105
+      "count": 106
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 101
+      "count": 102
     },
     {
       "name": "python",
@@ -12249,7 +12307,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 91
+      "count": 92
     },
     {
       "name": "devops",
@@ -12279,7 +12337,7 @@
     {
       "name": "politics",
       "category": "culture",
-      "count": 22
+      "count": 23
     },
     {
       "name": "lisp",
@@ -12406,11 +12464,11 @@
       "count": 24
     },
     {
-      "domain": "simonwillison.net",
-      "count": 19
+      "domain": "www.youtube.com",
+      "count": 20
     },
     {
-      "domain": "www.youtube.com",
+      "domain": "simonwillison.net",
       "count": 19
     },
     {
@@ -12438,15 +12496,15 @@
       "count": 5
     },
     {
+      "domain": "www.bostonglobe.com",
+      "count": 5
+    },
+    {
       "domain": "mitpress.mit.edu",
       "count": 4
     },
     {
       "domain": "www.bbc.com",
-      "count": 4
-    },
-    {
-      "domain": "www.bostonglobe.com",
       "count": 4
     },
     {
@@ -12539,6 +12597,10 @@
     },
     {
       "domain": "norvig.com",
+      "count": 2
+    },
+    {
+      "domain": "openai.com",
       "count": 2
     },
     {
@@ -13506,10 +13568,6 @@
       "count": 1
     },
     {
-      "domain": "openai.com",
-      "count": 1
-    },
-    {
       "domain": "opendaw.studio",
       "count": 1
     },
@@ -13595,6 +13653,10 @@
     },
     {
       "domain": "pocketbase.io",
+      "count": 1
+    },
+    {
+      "domain": "pol.is",
       "count": 1
     },
     {
