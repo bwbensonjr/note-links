@@ -1,6 +1,242 @@
 {
-  "exported_at": "2026-02-13T07:23:48.727789",
+  "exported_at": "2026-02-16T08:12:57.448058",
   "links": [
+    {
+      "id": 835,
+      "url": "https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter",
+      "title": null,
+      "description": "Claude draws a self-portrait with a pen plotter",
+      "summary": "The author gave Claude AI access to a pen plotter through an iterative creative process, where Claude generated SVG drawings that were physically plotted and then photographed back to Claude for feedback and refinement. Claude created a self-portrait consisting of a central spiral with branching organic forms representing its computational nature, then refined the design in a second pass after seeing the physical result and learning about the limitations of pen plotters versus digital rendering. The project showcases an interesting human-AI collaboration where the AI reflected on its own nature and adapted its creative output based on real-world constraints and visual feedback.",
+      "domain": "harmonique.one",
+      "source_date": "2026-02-16",
+      "page_title": "I Gave Claude Access To My Pen Plotter | Harmonique",
+      "tags": [
+        "ai",
+        "llm",
+        "video"
+      ]
+    },
+    {
+      "id": 834,
+      "url": "https://github.com/antirez/picol",
+      "title": null,
+      "description": "Picol - A Tcl interpreter in 500 lines",
+      "summary": "Picol is a minimal Tcl interpreter implemented in just 500 lines of C code, designed to be both a functional programming tool and an educational resource for learning interpreter design. The project demonstrates a hand-written parser that supports key Tcl features including variable interpolation, procedures with recursion, control flow statements, and basic arithmetic operations, all while maintaining readable, well-commented code. Created by antirez and released in 2007, Picol can execute non-trivial programs like recursive Fibonacci calculations and includes an interactive shell for experimentation.",
+      "domain": "github.com",
+      "source_date": "2026-02-16",
+      "page_title": "GitHub - antirez/picol: A Tcl interpreter in 500 lines of code",
+      "tags": [
+        "github-repo",
+        "c",
+        "compilers",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 833,
+      "url": "https://github.com/bwbensonjr/grid-drum",
+      "title": null,
+      "description": "My GridDrum project",
+      "summary": "GridDrum is a web-based drum machine that uses a grid interface to create drum patterns with customizable beats and subdivisions. The application offers features like adjustable tempo, sample management with individual volume and mute controls, and the ability to save and load patterns either through built-in save/load functionality or by bookmarking URLs. Users can control playback with buttons or the spacebar and easily add or remove samples to create their desired rhythmic patterns.",
+      "domain": "github.com",
+      "source_date": "2026-02-16",
+      "page_title": "GitHub - bwbensonjr/grid-drum: A grid-based drum machine",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "music",
+        "javascript"
+      ]
+    },
+    {
+      "id": 832,
+      "url": "https://huggingface.co/blog/continuous_batching",
+      "title": null,
+      "description": "Continuous batching - A detailed explanation of LLM attention, padding, and branching",
+      "summary": "Continuous batching is an optimization technique that maximizes LLM serving throughput by processing multiple conversations in parallel and swapping them when complete. The blog post explains how this technique works by building from fundamental concepts like attention mechanisms and KV caching, showing how attention allows tokens to interact through query, key, and value projections, and demonstrating why continuous batching is essential for efficiently serving multiple users simultaneously. By understanding attention masks and how tokens are processed sequentially during generation, developers can optimize LLM inference to reduce latency and increase overall system performance in high-load scenarios.",
+      "domain": "huggingface.co",
+      "source_date": "2026-02-16",
+      "page_title": "Continuous batching from first principles",
+      "tags": [
+        "llm",
+        "tutorial",
+        "ai",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 831,
+      "url": "https://gwern.net/gwtar",
+      "title": null,
+      "description": "Gwtar: a static efficient single-file HTML format",
+      "summary": "Gwtar is a new HTML archival format that solves the traditional trade-off between being static (self-contained), single-file, and efficient by combining a JavaScript header with a compressed tarball of assets, allowing browsers to lazy-load only necessary content while maintaining full portability and no external dependencies. This approach enables large web pages—even those hundreds of megabytes in size—to be archived as single files that can be efficiently viewed without downloading all assets upfront, addressing the linkrot problem on long-term websites like Gwern.net.",
+      "domain": "gwern.net",
+      "source_date": "2026-02-16",
+      "page_title": "Gwtar: a static efficient single-file HTML format · Gwern.net",
+      "tags": [
+        "web-dev",
+        "cli-tool",
+        "compilers"
+      ]
+    },
+    {
+      "id": 830,
+      "url": "https://arxiv.org/abs/2602.10177",
+      "title": null,
+      "description": "Towards autonomous mathematics research",
+      "summary": "Researchers have developed Aletheia, an AI mathematics research agent that extends beyond competition-level problem-solving to tackle professional research questions by iteratively generating, verifying, and revising solutions using advanced reasoning capabilities and tool integration. The system demonstrates significant autonomy in mathematical research, including generating an original research paper on arithmetic geometry without human intervention, collaborating with humans on particle system proofs, and autonomously solving four previously open problems from a database of 700 mathematical questions. The authors propose standardized metrics for measuring autonomy and novelty in AI-assisted mathematics to provide transparency about human-AI collaboration in research.",
+      "domain": "arxiv.org",
+      "source_date": "2026-02-16",
+      "page_title": "[2602.10177] Towards Autonomous Mathematics Research",
+      "tags": [
+        "ai",
+        "academic-paper",
+        "llm"
+      ]
+    },
+    {
+      "id": 829,
+      "url": "https://www.lrb.co.uk/the-paper/v48/n02/christian-lorentzen/i-m-always-in-the-club",
+      "title": null,
+      "description": "I’m always in the club",
+      "summary": "Peter Matthiessen, a young writer recruited into the CIA in 1950, was connected to a Yale literary circle that included intelligence officer James Jesus Angleton and professor Norman Holmes Pearson, who served as a talent-spotter for the agency. Matthiessen's cover as a novelist proved convenient since he had just published his first short story and sailed to Paris in 1951 with his new wife Patsy Southgate, while simultaneously pursuing a secret intelligence career and engaging in personal relationships that reflected his lifelong struggle to reconcile his multiple identities. The biography traces how Matthiessen's experience in this world of literature, espionage, and self-discovery shaped his literary career and spiritual pursuits.",
+      "domain": "www.lrb.co.uk",
+      "source_date": "2026-02-16",
+      "page_title": "Christian Lorentzen · I’m always in the club: Peter Matthiessen in Paris",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 837,
+      "url": "https://steipete.me/posts/2026/openclaw",
+      "title": null,
+      "description": "Peter Steinberger of OpenClaw is joining OpenAI",
+      "summary": "Peter Steinberger, creator of the OpenClaw project, is joining OpenAI to focus on developing AI agents accessible to everyone, while OpenClaw will transition to an independent foundation to remain open source. Steinberger chose OpenAI over commercializing OpenClaw into a company because he prioritizes building transformative technology over growing a large business, and he believes OpenAI's resources and research access provide the fastest path to bringing agents to mainstream users. OpenClaw's community and open-source nature will be preserved, with OpenAI already committing to sponsor the project and support Steinberger's continued involvement with it.",
+      "domain": "steipete.me",
+      "source_date": "2026-02-15",
+      "page_title": "OpenClaw, OpenAI and the future | Peter Steinberger",
+      "tags": [
+        "ai",
+        "llm",
+        "news",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 836,
+      "url": "https://stargazingbuddy.com/",
+      "title": null,
+      "description": "Stargazing Buddy",
+      "summary": "Stargazing Buddy is a practical observing guide designed to help both beginners and experienced observers decide what to observe in the night sky based on their equipment and local conditions, eliminating the overwhelming abundance of choices. The site provides monthly observing guides, planning tools, and realistic expectations for what can be seen with naked eyes, binoculars, or telescopes, along with calculators that explain the reasoning behind visibility and detectability. Rather than serving as a general astronomy reference or planetarium app, it functions as a field guide focused on building observing skills and helping observers explore the sky with intention and meaningful results.",
+      "domain": "stargazingbuddy.com",
+      "source_date": "2026-02-15",
+      "page_title": "Stargazing Buddy — Practical Night Sky Observing Guide",
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "id": 841,
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1471082X251400474",
+      "title": null,
+      "description": "Paired comparison models with strength-dependent ties and order effects",
+      "summary": "Paired comparison models with strength-dependent ties and order effects",
+      "domain": "journals.sagepub.com",
+      "source_date": "2026-02-14",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 840,
+      "url": "https://jds-online.org/journal/JDS/article/1455/info",
+      "title": null,
+      "description": "Rating Competitors in Games with Strength-Dependent Tie Probabilities",
+      "summary": "This article introduces a new rating system for head-to-head games that accounts for the fact that tie probabilities increase with player strength, a phenomenon particularly evident in chess where stronger players draw more frequently than weaker ones. The researchers develop a Bayesian dynamic modeling framework that explicitly models strength-dependent ties rather than treating them as half-wins and half-losses, and demonstrate the approach on International Correspondence Chess Federation tournament data. The method uses efficient closed-form posterior updates with a single Newton-Raphson iteration, offering more reliable strength estimates than traditional rating systems that ignore the relationship between player strength and tie probability.",
+      "domain": "jds-online.org",
+      "source_date": "2026-02-14",
+      "page_title": "Rating Competitors in Games with Strength-Dependent Tie Probabilities",
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 839,
+      "url": "https://news.harvard.edu/gazette/story/2026/02/breaking-chesss-rating-stalemate/",
+      "title": null,
+      "description": "A bayesian version of chess Elo ratings",
+      "summary": "Harvard statistician Mark Glickman has developed a breakthrough ranking system for chess that addresses a fundamental flaw in existing ratings: they fail to account for the high probability of draws among elite players, where over 70% of games end without a winner. His new Bayesian model replaces fixed tie parameters with strength-dependent ones, allowing for more accurate predictions of wins, losses, and draws based on player skill levels. The International Correspondence Chess Federation adopted his system in 2023, and Glickman suggests the framework could also improve rankings in other sports like soccer, boxing, and cricket.",
+      "domain": "news.harvard.edu",
+      "source_date": "2026-02-14",
+      "page_title": "Breaking chess’s rating stalemate — Harvard Gazette",
+      "tags": [
+        "news",
+        "academic-paper",
+        "gaming"
+      ]
+    },
+    {
+      "id": 838,
+      "url": "https://www.wallstreetraider.com/story.html",
+      "title": null,
+      "description": "The story of *Wall Street Raider*",
+      "summary": "Wall Street Raider is a groundbreaking financial simulator created by Michael Jenkins over four decades, beginning as a notebook idea at Harvard Law School in 1967 and finally launching on a Kaypro computer in 1983. After nearly four decades of failed attempts by professional developers and studios to understand or improve the game's complex 115,000 lines of primitive BASIC code, a 29-year-old developer named Ben Ward succeeded in 2024 where others had given up, leading to a remake that bridged a 50-year age gap between the two programmers. The story illustrates Jenkins' obsessive dedication to creating the most comprehensive financial simulator ever made, with code that even its creator didn't fully understand but feared altering.",
+      "domain": "www.wallstreetraider.com",
+      "source_date": "2026-02-14",
+      "page_title": "The Story of Wall Street Raider - A 40-Year Odyssey from Harvard Law to Steam",
+      "tags": [
+        "gaming",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 844,
+      "url": "https://opusmodus.com/",
+      "title": null,
+      "description": "OpusModus music software",
+      "summary": "Opusmodus is a comprehensive computer-aided composition software designed for composers across all genres, offering an integrated workspace that guides users from initial musical ideas to finished scores. The platform features algorithmic composition tools (including the no-code NCODE interface), MusicXML import/export capabilities, spectral analysis for audio processing, and OMN—a scripting language for transforming and organizing musical events through algorithms. It provides advanced compositional functions for chord progressions, counterpoint, microtonality, and other techniques, making it accessible to both traditional and experimental composers.",
+      "domain": "opusmodus.com",
+      "source_date": "2026-02-13",
+      "page_title": "Opusmodus",
+      "tags": [
+        "music",
+        "ai"
+      ]
+    },
+    {
+      "id": 843,
+      "url": "https://www.lisp-screenshots.org/",
+      "title": null,
+      "description": "Common Lisp screen shots",
+      "summary": "Common Lisp Screenshots - Common Lisp screen shots",
+      "domain": "www.lisp-screenshots.org",
+      "source_date": "2026-02-13",
+      "page_title": "Common Lisp Screenshots",
+      "tags": [
+        "common-lisp",
+        "video"
+      ]
+    },
+    {
+      "id": 842,
+      "url": "https://openclaw.ai/",
+      "title": null,
+      "description": "OpenClaw",
+      "summary": "OpenClaw is a personal AI assistant platform that enables users to build autonomous AI agents capable of managing tasks, integrating with multiple services, and operating continuously on personal devices or cloud infrastructure. The key innovation is that it runs locally or on-premise rather than in walled gardens, offers open-source customization, features persistent memory across conversations, and can autonomously handle background tasks like scheduling, email management, and code generation through natural language interaction. Users consistently highlight its transformative potential, describing it as a fundamental shift in how AI is deployed—functioning as a true digital teammate rather than just a tool, with capabilities ranging from personal assistance to business automation.",
+      "domain": "openclaw.ai",
+      "source_date": "2026-02-13",
+      "page_title": "OpenClaw — Personal AI Assistant",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "distributed-systems"
+      ]
+    },
     {
       "id": 828,
       "url": "https://www.youtube.com/watch?v=Rn1w4MRHIhc",
@@ -12247,47 +12483,47 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 274
+      "count": 277
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 197
+      "count": 200
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 185
+      "count": 191
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 157
+      "count": 162
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 143
+      "count": 144
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 133
+      "count": 135
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 129
+      "count": 132
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 125
+      "count": 130
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 115
+      "count": 117
     },
     {
       "name": "social-media",
@@ -12297,7 +12533,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 102
+      "count": 104
+    },
+    {
+      "name": "news",
+      "category": "culture",
+      "count": 94
     },
     {
       "name": "python",
@@ -12305,19 +12546,14 @@
       "count": 93
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 92
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
-      "count": 77
+      "count": 78
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 62
+      "count": 64
     },
     {
       "name": "security",
@@ -12332,7 +12568,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 28
+      "count": 30
     },
     {
       "name": "politics",
@@ -12347,7 +12583,12 @@
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 20
+      "count": 21
+    },
+    {
+      "name": "c",
+      "category": "programming_language",
+      "count": 19
     },
     {
       "name": "rust",
@@ -12355,14 +12596,9 @@
       "count": 18
     },
     {
-      "name": "c",
-      "category": "programming_language",
-      "count": 18
-    },
-    {
       "name": "gaming",
       "category": "culture",
-      "count": 14
+      "count": 16
     },
     {
       "name": "typescript",
@@ -12392,7 +12628,7 @@
     {
       "name": "common-lisp",
       "category": "programming_language",
-      "count": 7
+      "count": 8
     },
     {
       "name": "fiction-book",
@@ -12457,7 +12693,7 @@
     },
     {
       "domain": "github.com",
-      "count": 83
+      "count": 85
     },
     {
       "domain": "www.nytimes.com",
@@ -12480,12 +12716,12 @@
       "count": 13
     },
     {
-      "domain": "news.ycombinator.com",
+      "domain": "arxiv.org",
       "count": 9
     },
     {
-      "domain": "arxiv.org",
-      "count": 8
+      "domain": "news.ycombinator.com",
+      "count": 9
     },
     {
       "domain": "bsky.app",
@@ -12500,6 +12736,10 @@
       "count": 5
     },
     {
+      "domain": "gwern.net",
+      "count": 4
+    },
+    {
       "domain": "mitpress.mit.edu",
       "count": 4
     },
@@ -12510,10 +12750,6 @@
     {
       "domain": "www.newyorker.com",
       "count": 4
-    },
-    {
-      "domain": "gwern.net",
-      "count": 3
     },
     {
       "domain": "susam.net",
@@ -12569,6 +12805,10 @@
     },
     {
       "domain": "graydon2.dreamwidth.org",
+      "count": 2
+    },
+    {
+      "domain": "huggingface.co",
       "count": 2
     },
     {
@@ -13228,6 +13468,10 @@
       "count": 1
     },
     {
+      "domain": "harmonique.one",
+      "count": 1
+    },
+    {
       "domain": "harper.blog",
       "count": 1
     },
@@ -13261,10 +13505,6 @@
     },
     {
       "domain": "html2png.dev",
-      "count": 1
-    },
-    {
-      "domain": "huggingface.co",
       "count": 1
     },
     {
@@ -13304,11 +13544,19 @@
       "count": 1
     },
     {
+      "domain": "jds-online.org",
+      "count": 1
+    },
+    {
       "domain": "jhurliman.org",
       "count": 1
     },
     {
       "domain": "joshblais.com",
+      "count": 1
+    },
+    {
+      "domain": "journals.sagepub.com",
       "count": 1
     },
     {
@@ -13516,6 +13764,10 @@
       "count": 1
     },
     {
+      "domain": "news.harvard.edu",
+      "count": 1
+    },
+    {
       "domain": "nof1.ai",
       "count": 1
     },
@@ -13568,11 +13820,19 @@
       "count": 1
     },
     {
+      "domain": "openclaw.ai",
+      "count": 1
+    },
+    {
       "domain": "opendaw.studio",
       "count": 1
     },
     {
       "domain": "openlibrary.org",
+      "count": 1
+    },
+    {
+      "domain": "opusmodus.com",
       "count": 1
     },
     {
@@ -13813,6 +14073,14 @@
     },
     {
       "domain": "squoze.net",
+      "count": 1
+    },
+    {
+      "domain": "stargazingbuddy.com",
+      "count": 1
+    },
+    {
+      "domain": "steipete.me",
       "count": 1
     },
     {
@@ -14184,6 +14452,14 @@
       "count": 1
     },
     {
+      "domain": "www.lisp-screenshots.org",
+      "count": 1
+    },
+    {
+      "domain": "www.lrb.co.uk",
+      "count": 1
+    },
+    {
       "domain": "www.makingsoftware.com",
       "count": 1
     },
@@ -14325,6 +14601,10 @@
     },
     {
       "domain": "www.wallpaper.com",
+      "count": 1
+    },
+    {
+      "domain": "www.wallstreetraider.com",
       "count": 1
     },
     {
