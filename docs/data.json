@@ -1,6 +1,22 @@
 {
-  "exported_at": "2026-02-16T08:12:57.448058",
+  "exported_at": "2026-02-16T11:49:10.604474",
   "links": [
+    {
+      "id": 845,
+      "url": "https://brentwbenson.org/posts/custom-app-enablement/",
+      "title": null,
+      "description": "A custom app creation renaissance",
+      "summary": "AI coding assistants are enabling experienced programmers to venture into unfamiliar domains like UI development, as demonstrated by the author's rapid creation of a grid-based drum machine web application in just a few hours. Using Claude Code, the author transformed a hand-drawn sketch and detailed specification into a functional application hosted on GitHub Pages, complete with features like pattern saving, URL sharing, and audio playback controls. This case study illustrates how AI tools can lower barriers to custom application development, allowing skilled developers to tackle new types of projects they might otherwise avoid.",
+      "domain": "brentwbenson.org",
+      "source_date": "2026-02-16",
+      "page_title": "Brent Benson - A custom app creation renaissance",
+      "tags": [
+        "ai",
+        "web-dev",
+        "llm",
+        "github-repo"
+      ]
+    },
     {
       "id": 835,
       "url": "https://harmonique.one/posts/i-gave-claude-access-to-my-pen-plotter",
@@ -12493,7 +12509,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 191
+      "count": 192
     },
     {
       "name": "academic-paper",
@@ -12508,17 +12524,17 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 135
+      "count": 136
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 132
+      "count": 133
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 130
+      "count": 131
     },
     {
       "name": "music",
@@ -13109,6 +13125,10 @@
     },
     {
       "domain": "bpl.org",
+      "count": 1
+    },
+    {
+      "domain": "brentwbenson.org",
       "count": 1
     },
     {
