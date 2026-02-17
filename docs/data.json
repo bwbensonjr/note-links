@@ -1,6 +1,21 @@
 {
-  "exported_at": "2026-02-16T11:49:10.604474",
+  "exported_at": "2026-02-17T07:26:41.760578",
   "links": [
+    {
+      "id": 846,
+      "url": "https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either",
+      "title": null,
+      "description": "I, Claudius - What Is Claude? Anthropic Doesn’t Know, Either - New Yorker",
+      "summary": "The article explores the nature of large language models, particularly Anthropic's Claude, and the emerging field of interpretability that seeks to understand how AI systems work. While scientists and the public remain divided on whether language models represent genuine intelligence or merely sophisticated pattern-matching, researchers like those at Anthropic are conducting creative experiments—from playing Pokémon to running virtual vending machines—to probe what these systems actually are and what they're capable of. The piece suggests that AI's emergence has forced us to confront fundamental uncertainties not only about machine intelligence but about human intelligence and consciousness itself.",
+      "domain": "www.newyorker.com",
+      "source_date": "2026-02-17",
+      "page_title": "What Is Claude? Anthropic Doesn’t Know, Either | The New Yorker",
+      "tags": [
+        "ai",
+        "llm",
+        "nonfiction-book"
+      ]
+    },
     {
       "id": 845,
       "url": "https://brentwbenson.org/posts/custom-app-enablement/",
@@ -12509,7 +12524,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 192
+      "count": 193
     },
     {
       "name": "academic-paper",
@@ -12534,7 +12549,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 131
+      "count": 132
     },
     {
       "name": "music",
@@ -12549,7 +12564,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 104
+      "count": 105
     },
     {
       "name": "news",
@@ -12752,6 +12767,10 @@
       "count": 5
     },
     {
+      "domain": "www.newyorker.com",
+      "count": 5
+    },
+    {
       "domain": "gwern.net",
       "count": 4
     },
@@ -12761,10 +12780,6 @@
     },
     {
       "domain": "www.bbc.com",
-      "count": 4
-    },
-    {
-      "domain": "www.newyorker.com",
       "count": 4
     },
     {
