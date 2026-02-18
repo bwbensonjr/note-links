@@ -1,6 +1,37 @@
 {
-  "exported_at": "2026-02-17T07:26:41.760578",
+  "exported_at": "2026-02-18T11:35:52.623506",
   "links": [
+    {
+      "id": 847,
+      "url": "https://github.com/taleshape-com/shaper",
+      "title": null,
+      "description": "shaper - Open Source dashboards",
+      "summary": "Shaper is an open-source, SQL-powered dashboard tool built on DuckDB that allows users to create analytics dashboards by writing SQL queries with special visualization syntax. It offers features including self-hosted deployment, multi-data source querying, automated reporting, embedded analytics, and JWT-based security, with a free open-source version and optional managed hosting available. Users can quickly get started using Docker or explore comprehensive documentation for production deployments and advanced customization options.",
+      "domain": "github.com",
+      "source_date": "2026-02-18",
+      "page_title": "GitHub - taleshape-com/shaper: Visualize and share your data. All in SQL. Powered by DuckDB.",
+      "tags": [
+        "github-repo",
+        "sql",
+        "database",
+        "web-dev",
+        "devops"
+      ]
+    },
+    {
+      "id": 848,
+      "url": "https://stephango.com/vault",
+      "title": null,
+      "description": "How I use Obsidian",
+      "summary": "Steph Ango uses Obsidian as a personal knowledge management system built on plain text files organized with minimal folders, heavy internal linking, and consistent metadata properties, allowing him to capture thoughts, write essays, and publish content while maintaining long-term control over his digital artifacts. His bottom-up approach embraces structured chaos through fractal journaling (capturing thoughts at multiple time scales), random revisits to old notes, and a consistent personal style guide with rules like pluralizing tags and using a 7-point rating scale. The system prioritizes speed and laziness over rigid organization, relying on backlinks and the quick switcher for navigation rather than folder hierarchies, making connections between ideas emerge naturally over time.",
+      "domain": "stephango.com",
+      "source_date": "2026-02-17",
+      "page_title": "How I use Obsidian — Steph Ango",
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
     {
       "id": 846,
       "url": "https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either",
@@ -12514,12 +12545,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 277
+      "count": 278
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 200
+      "count": 201
     },
     {
       "name": "ai",
@@ -12539,12 +12570,12 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 136
+      "count": 137
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 133
+      "count": 134
     },
     {
       "name": "llm",
@@ -12579,7 +12610,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 78
+      "count": 79
     },
     {
       "name": "compilers",
@@ -12587,14 +12618,14 @@
       "count": 64
     },
     {
-      "name": "security",
+      "name": "database",
       "category": "technical_topic",
       "count": 38
     },
     {
-      "name": "database",
+      "name": "security",
       "category": "technical_topic",
-      "count": 37
+      "count": 38
     },
     {
       "name": "distributed-systems",
@@ -12692,17 +12723,17 @@
       "count": 3
     },
     {
+      "name": "sql",
+      "category": "programming_language",
+      "count": 3
+    },
+    {
       "name": "elixir",
       "category": "programming_language",
       "count": 3
     },
     {
       "name": "swift",
-      "category": "programming_language",
-      "count": 2
-    },
-    {
-      "name": "sql",
       "category": "programming_language",
       "count": 2
     },
@@ -12724,7 +12755,7 @@
     },
     {
       "domain": "github.com",
-      "count": 85
+      "count": 86
     },
     {
       "domain": "www.nytimes.com",
@@ -12781,6 +12812,10 @@
     {
       "domain": "www.bbc.com",
       "count": 4
+    },
+    {
+      "domain": "stephango.com",
+      "count": 3
     },
     {
       "domain": "susam.net",
@@ -12876,10 +12911,6 @@
     },
     {
       "domain": "outingsandinnings.harvard.edu",
-      "count": 2
-    },
-    {
-      "domain": "stephango.com",
       "count": 2
     },
     {
