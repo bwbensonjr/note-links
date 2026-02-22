@@ -1,6 +1,219 @@
 {
-  "exported_at": "2026-02-18T11:35:52.623506",
+  "exported_at": "2026-02-22T14:06:27.330352",
   "links": [
+    {
+      "id": 849,
+      "url": "https://github.com/kurouna/elecxzy",
+      "title": null,
+      "description": "A lightweight Emacs-like editor in Electron",
+      "summary": "Elecxzy is a lightweight, modern text editor built with Electron that recreates the Emacs user experience without requiring Lisp scripting or complex configuration. It features familiar Emacs keybindings, flexible window management, syntax highlighting for multiple programming languages, and real-time previews for Markdown and HTML, all optimized for quick startup and efficiency. Currently in alpha development with Windows binaries available, it prioritizes simplicity and performance while supporting features like incremental search, query-replace, and specialized Japanese IME handling.",
+      "domain": "github.com",
+      "source_date": "2026-02-22",
+      "page_title": "GitHub - kurouna/elecxzy: elecxzy project",
+      "tags": [
+        "github-repo",
+        "typescript",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 853,
+      "url": "https://boristane.com/blog/how-i-use-claude-code/",
+      "title": null,
+      "description": "Separation of planning and execution when using Claude Code",
+      "summary": "Boris Tane describes a disciplined workflow for using Claude Code that prioritizes planning over immediate implementation. The core principle is separating planning and execution into distinct phases: deep research documented in markdown, detailed planning with iterative annotation cycles where the developer adds inline corrections, and only then implementation with a granular todo list. This approach prevents architectural mistakes, keeps developers in control of design decisions, and produces better results with minimal token usage compared to the common practice of jumping straight to code generation.",
+      "domain": "boristane.com",
+      "source_date": "2026-02-21",
+      "page_title": "How I Use Claude Code | Boris Tane",
+      "tags": [
+        "tutorial",
+        "llm",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 852,
+      "url": "https://www.nytimes.com/article/best-tv-shows-netflix.html",
+      "title": null,
+      "description": "The 30 best shows on Netflix",
+      "summary": "The 30 best shows on Netflix",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-02-21",
+      "page_title": null,
+      "tags": [
+        "tv",
+        "video"
+      ]
+    },
+    {
+      "id": 851,
+      "url": "https://acmeweather.com/blog/introducing-acme-weather",
+      "title": null,
+      "description": "Introducing Acme Weather",
+      "summary": "Acme Weather is a new weather app created by the former developers of Dark Sky, designed to address common frustrations with existing weather applications by emphasizing forecast uncertainty through alternate possible outcomes, community reporting, comprehensive maps, and customizable notifications. The app distinguishes itself by showing users multiple plausible weather scenarios rather than a single prediction, helping them better understand forecast reliability and plan accordingly. Available on iOS with Android coming soon, Acme Weather costs $25/year and prioritizes user privacy by refusing to collect unnecessary data or sell information to third parties.",
+      "domain": "acmeweather.com",
+      "source_date": "2026-02-21",
+      "page_title": "Introduction - Acme Weather",
+      "tags": [
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 850,
+      "url": "https://simonwillison.net/2026/Feb/21/claws/",
+      "title": null,
+      "description": "Andrej Karpathy coins the term “Claws” for OpenClaw-like agent systems",
+      "summary": "Andrej Karpathy has introduced the term \"Claws\" to describe OpenClaw-like agent systems, representing a new category or framework for understanding AI agents. The concept appears to be part of recent discussions about evolving AI system architectures, alongside other developments in tools and research being documented in early 2026.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-02-21",
+      "page_title": "Andrej Karpathy talks about \"Claws\"",
+      "tags": [
+        "ai",
+        "llm",
+        "video"
+      ]
+    },
+    {
+      "id": 858,
+      "url": "https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html",
+      "title": null,
+      "description": "git one-liner to delete merged branches",
+      "summary": "The article describes a git one-liner command discovered in CIA developer documentation that efficiently deletes all merged branches from a local repository while protecting the current branch and key branches like main or develop. The command uses `git branch --merged`, `grep`, and `xargs` to automatically clean up stale branches in bulk, saving developers time compared to manual deletion. The author recommends creating a git alias for this command to streamline regular repository maintenance.",
+      "domain": "spencer.wtf",
+      "source_date": "2026-02-20",
+      "page_title": "Cleaning up merged git branches: a one-liner from the CIA's leaked dev docs | spencer.wtf",
+      "tags": [
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 857,
+      "url": "https://pagedout.institute/download/PagedOut_008.pdf",
+      "title": null,
+      "description": "PagedOut - Feb 8",
+      "summary": "Paged Out! #8 is a free, community-driven technical zine that has reached over one million downloads and represents the project's largest issue to date, featuring 90+ articles covering topics ranging from compiler design and cryptography to reverse engineering and cybersecurity. The publication, managed by HexArcana Cybersecurity GmbH, is now implementing structured deadlines for future submissions and introducing a web viewer alongside its PDF format to make content more accessible and shareable. Contributors include security researchers, developers, and artists who cover diverse technical subjects from low-level system programming to practical security tools and emerging technologies.",
+      "domain": "pagedout.institute",
+      "source_date": "2026-02-20",
+      "page_title": "Paged Out! #8",
+      "tags": [
+        "security",
+        "academic-paper",
+        "compilers",
+        "video"
+      ]
+    },
+    {
+      "id": 856,
+      "url": "https://openstates.org",
+      "title": null,
+      "description": "openstates.org",
+      "summary": "OpenStates.org, now maintained by Plural Policy, is a free platform that helps users find their legislators and search legislation across the United States, while also providing open legislative data and APIs for developers. The site is committed to making democracy more transparent and accessible by offering bulk data downloads, a powerful API with various pricing tiers, and an AI-powered legislation tracker with real-time updates and predictive analytics. Users can search for representatives by entering their address or access existing accounts and bill tracking tools through the platform.",
+      "domain": "openstates.org",
+      "source_date": "2026-02-20",
+      "page_title": "Find Your Legislators - Plural Policy",
+      "tags": [
+        "politics",
+        "cli-tool",
+        "database",
+        "ai"
+      ]
+    },
+    {
+      "id": 855,
+      "url": "https://github.com/orgs/openstates/repositories",
+      "title": null,
+      "description": "Open states project",
+      "summary": "Open States is a comprehensive project that provides curated data on U.S. state legislators, governors, and legislative information through multiple repositories and tools. The project includes web scrapers for collecting state government data, an API for accessing this information, mapping tools for legislative districts, and documentation, with the main website and API serving as the primary interfaces for users. The organization maintains both active repositories and archived legacy code, supporting developers who want to access or contribute to state-level political and legislative data.",
+      "domain": "github.com",
+      "source_date": "2026-02-20",
+      "page_title": "openstates repositories · GitHub",
+      "tags": [
+        "github-repo",
+        "politics",
+        "web-dev",
+        "database"
+      ]
+    },
+    {
+      "id": 854,
+      "url": "https://github.com/olvvier/apple-silicon-accelerometer",
+      "title": null,
+      "description": "Access hidden Mac silicon accelerometer",
+      "summary": "This GitHub project enables access to the hidden accelerometer and gyroscope sensors in Apple Silicon MacBooks by interfacing with the undocumented AppleSPUHIDDevice through IOKit HID callbacks. The tool reads raw 3-axis acceleration and gyroscope data at ~100Hz, applies a Mahony AHRS filter to compute orientation, and includes experimental features like keyboard backlight control synchronized with motion and heartbeat detection via ballistocardiography. The project is open-source (MIT license) but requires sudo access and may break on future macOS updates since it accesses undocumented hardware interfaces.",
+      "domain": "github.com",
+      "source_date": "2026-02-20",
+      "page_title": "GitHub - olvvier/apple-silicon-accelerometer: reading the undocumented mems accelerometer + gyroscope on apple silicon macbooks via iokit hid",
+      "tags": [
+        "github-repo",
+        "c",
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "id": 862,
+      "url": "https://cormullion.github.io/Lindenmayer.jl/stable/",
+      "title": null,
+      "description": "Design L-Systems in Julia",
+      "summary": "Lindenmayer.jl is a Julia package that enables users to design and visualize L-Systems (Lindenmayer systems)—recursive rule-based patterns inspired by plant growth—using the Luxor.jl graphics library. The package allows users to define L-Systems with string replacement rules and an initial state, then render them as visual fractals and self-similar patterns by interpreting characters as drawing instructions like forward movement, rotation, and color shifts. It provides extensive customization options for drawing parameters and supports both simple automated rendering and custom integration into broader Luxor workflows.",
+      "domain": "cormullion.github.io",
+      "source_date": "2026-02-19",
+      "page_title": "Lindenmayer.jl · Lindenmayer",
+      "tags": [
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 861,
+      "url": "https://personal.tcu.edu/kylewalker/urbangis/sql-explorer/",
+      "title": null,
+      "description": "Spatial SQL Explorer",
+      "summary": "Spatial SQL Explorer",
+      "domain": "personal.tcu.edu",
+      "source_date": "2026-02-19",
+      "page_title": "Spatial SQL Explorer",
+      "tags": [
+        "sql",
+        "database",
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 860,
+      "url": "https://github.com/brainlid/langchain",
+      "title": null,
+      "description": "Elixir LangChain",
+      "summary": "Elixir LangChain is a framework that enables Elixir applications to integrate with large language models (LLMs) and AI services like OpenAI, Anthropic Claude, Google Gemini, and others, as well as self-hosted models. The library simplifies building AI-powered applications by providing components and pre-built chains that connect LLMs with external data sources and custom functionality, allowing developers to create data-aware and agentic applications. It takes a functional programming approach tailored to Elixir rather than mimicking the object-oriented design of the original JavaScript and Python LangChain libraries.",
+      "domain": "github.com",
+      "source_date": "2026-02-19",
+      "page_title": "GitHub - brainlid/langchain: Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs.",
+      "tags": [
+        "github-repo",
+        "elixir",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 859,
+      "url": "https://georgeguimaraes.com/your-agent-orchestrator-is-just-a-bad-clone-of-elixir/",
+      "title": null,
+      "description": "Your agent framework is just a bad clone of Elixr",
+      "summary": "The article argues that modern AI agent frameworks are essentially reinventing the actor model that Erlang/Elixir's BEAM virtual machine has successfully implemented since 1986. AI agents require handling thousands of long-lived concurrent connections with isolated state and message passing—a problem the BEAM was originally designed to solve for telephone switches—whereas popular Python frameworks like LangGraph, Langroid, and AutoGen are building these abstractions on top of languages that don't natively support them. The author contends that using Elixir and the BEAM for agent orchestration isn't a stylistic choice but an architectural necessity, as the runtime already provides battle-tested solutions for concurrency, fault recovery, process supervision, and distributed communication that Python frameworks are struggling to recreate.",
+      "domain": "georgeguimaraes.com",
+      "source_date": "2026-02-19",
+      "page_title": "Your Agent Framework Is Just a Bad Clone of Elixir: Concurrency Lessons from Telecom to AI",
+      "tags": [
+        "elixir",
+        "distributed-systems",
+        "ai",
+        "python"
+      ]
+    },
     {
       "id": 847,
       "url": "https://github.com/taleshape-com/shaper",
@@ -12545,42 +12758,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 278
+      "count": 282
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 201
+      "count": 205
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 193
+      "count": 197
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 162
+      "count": 163
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 144
+      "count": 147
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 137
+      "count": 141
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 134
+      "count": 138
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 132
+      "count": 135
     },
     {
       "name": "music",
@@ -12600,42 +12813,42 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 94
+      "count": 95
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 93
+      "count": 94
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 79
+      "count": 80
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 64
+      "count": 65
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 38
+      "count": 41
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 38
+      "count": 40
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 30
+      "count": 31
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 23
+      "count": 25
     },
     {
       "name": "lisp",
@@ -12650,7 +12863,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 19
+      "count": 20
     },
     {
       "name": "rust",
@@ -12665,7 +12878,7 @@
     {
       "name": "typescript",
       "category": "programming_language",
-      "count": 12
+      "count": 13
     },
     {
       "name": "scheme",
@@ -12678,12 +12891,12 @@
       "count": 11
     },
     {
-      "name": "podcast",
+      "name": "tv",
       "category": "culture",
-      "count": 10
+      "count": 11
     },
     {
-      "name": "tv",
+      "name": "podcast",
       "category": "culture",
       "count": 10
     },
@@ -12708,7 +12921,17 @@
       "count": 5
     },
     {
+      "name": "elixir",
+      "category": "programming_language",
+      "count": 5
+    },
+    {
       "name": "clojure",
+      "category": "programming_language",
+      "count": 4
+    },
+    {
+      "name": "sql",
       "category": "programming_language",
       "count": 4
     },
@@ -12719,16 +12942,6 @@
     },
     {
       "name": "cpp",
-      "category": "programming_language",
-      "count": 3
-    },
-    {
-      "name": "sql",
-      "category": "programming_language",
-      "count": 3
-    },
-    {
-      "name": "elixir",
       "category": "programming_language",
       "count": 3
     },
@@ -12750,24 +12963,24 @@
   ],
   "all_domains": [
     {
+      "domain": "github.com",
+      "count": 90
+    },
+    {
       "domain": "www.threads.net",
       "count": 89
     },
     {
-      "domain": "github.com",
-      "count": 86
+      "domain": "www.nytimes.com",
+      "count": 25
     },
     {
-      "domain": "www.nytimes.com",
-      "count": 24
+      "domain": "simonwillison.net",
+      "count": 20
     },
     {
       "domain": "www.youtube.com",
       "count": 20
-    },
-    {
-      "domain": "simonwillison.net",
-      "count": 19
     },
     {
       "domain": "www.threads.com",
@@ -12978,6 +13191,10 @@
       "count": 1
     },
     {
+      "domain": "acmeweather.com",
+      "count": 1
+    },
+    {
       "domain": "acrobat.adobe.com",
       "count": 1
     },
@@ -13166,6 +13383,10 @@
       "count": 1
     },
     {
+      "domain": "boristane.com",
+      "count": 1
+    },
+    {
       "domain": "bozmen.io",
       "count": 1
     },
@@ -13263,6 +13484,10 @@
     },
     {
       "domain": "content.civicplus.com",
+      "count": 1
+    },
+    {
+      "domain": "cormullion.github.io",
       "count": 1
     },
     {
@@ -13503,6 +13728,10 @@
     },
     {
       "domain": "geometrycode.com",
+      "count": 1
+    },
+    {
+      "domain": "georgeguimaraes.com",
       "count": 1
     },
     {
@@ -13898,6 +14127,10 @@
       "count": 1
     },
     {
+      "domain": "openstates.org",
+      "count": 1
+    },
+    {
       "domain": "opusmodus.com",
       "count": 1
     },
@@ -13911,6 +14144,10 @@
     },
     {
       "domain": "paddedinputs.substack.com",
+      "count": 1
+    },
+    {
+      "domain": "pagedout.institute",
       "count": 1
     },
     {
@@ -13939,6 +14176,10 @@
     },
     {
       "domain": "peps.python.org",
+      "count": 1
+    },
+    {
+      "domain": "personal.tcu.edu",
       "count": 1
     },
     {
@@ -14123,6 +14364,10 @@
     },
     {
       "domain": "snimu.github.io",
+      "count": 1
+    },
+    {
+      "domain": "spencer.wtf",
       "count": 1
     },
     {
