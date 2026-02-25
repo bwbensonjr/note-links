@@ -1,6 +1,115 @@
 {
-  "exported_at": "2026-02-22T14:06:27.330352",
+  "exported_at": "2026-02-24T19:51:09.302122",
   "links": [
+    {
+      "id": 868,
+      "url": "https://github.com/andrewosh/cellarium",
+      "title": null,
+      "description": "cellarium - A playground for cellular automata",
+      "summary": "Cellarium is a GPU-accelerated Rust framework for simulating cellular automata, where users write cell behavior in a subset of Rust that gets automatically compiled to WGSL shaders running on the GPU via wgpu. The system allows developers to define cell state, update rules, and visualization logic that runs in parallel across millions of cells, with built-in support for neighborhood operations, differential operators, and live parameter tuning through a terminal UI. It includes examples of classic automata like Conway's Game of Life, Gray-Scott reaction-diffusion, and Lenia, making it a practical playground for exploring emergent cellular systems.",
+      "domain": "github.com",
+      "source_date": "2026-02-24",
+      "page_title": "GitHub - andrewosh/cellarium: A playground for cellular automata",
+      "tags": [
+        "github-repo",
+        "rust",
+        "devops",
+        "compilers"
+      ]
+    },
+    {
+      "id": 867,
+      "url": "https://www.cs.cornell.edu/talc/",
+      "title": null,
+      "description": "Typed assembly language",
+      "summary": "Typed Assembly Language (TAL) is an extension of traditional assembly language that incorporates type annotations and memory management to guarantee memory safety, control flow safety, and type safety while remaining flexible for compiler optimizations. TAL can express complex programming features like records, arrays, higher-order functions, exceptions, and modules, making it an ideal target for secure compilers and safe mobile code applications. The researchers have implemented TALx86, a TAL variant for Intel IA32 architecture, and developed a Popcorn compiler that translates safe C-like code into TALx86.",
+      "domain": "www.cs.cornell.edu",
+      "source_date": "2026-02-24",
+      "page_title": "Typed Assembly Language",
+      "tags": [
+        "compilers",
+        "academic-paper",
+        "security",
+        "c"
+      ]
+    },
+    {
+      "id": 866,
+      "url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+      "title": null,
+      "description": "Unsung heroes: Flickr’s URLs scheme",
+      "summary": "Flickr's URL design in the late 2000s was remarkably user-friendly and elegant, featuring clean, readable paths without redundant parameters or cryptic syntax that made URLs easily editable, shareable, and predictable. This thoughtful approach taught valuable lessons about URL structure as a user interface element, allowing users to navigate efficiently through keyboards, guess URLs intuitively, and modify links on the fly without verification. The article celebrates this often-overlooked design choice as an inspiration for good URL design practices that remain relevant today.",
+      "domain": "unsung.aresluna.org",
+      "source_date": "2026-02-24",
+      "page_title": "Unsung heroes: Flickr’s URLs scheme – Unsung",
+      "tags": [
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 865,
+      "url": "https://missing.csail.mit.edu/",
+      "title": null,
+      "description": "The Missing Semester of Your CS Education",
+      "summary": "The Missing Semester of Your CS Education is an MIT course that fills a critical gap in computer science education by teaching practical tool mastery—including command-line proficiency, text editors, version control, and debugging—skills that students use extensively but rarely receive formal instruction on. The course integrates modern AI-enhanced tools and workflows across its curriculum, recognizing them as essential cross-functional technologies for contemporary software engineering. The course materials and lecture videos are freely shared beyond MIT to benefit the broader programming community.",
+      "domain": "missing.csail.mit.edu",
+      "source_date": "2026-02-24",
+      "page_title": "The Missing Semester of Your CS Education",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "devops",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 864,
+      "url": "http://www.lix.polytechnique.fr/Labo/Dale.Miller/lProlog/",
+      "title": null,
+      "description": "λProlog: Logic programming in higher-order logic",
+      "summary": "λProlog is a logic programming language based on higher-order intuitionistic logic that pioneered support for higher-order abstract syntax (HOAS) and provides a strong logical foundation for modular programming, abstract datatypes, and meta-programming. The language has multiple active implementations including ELPI (an embeddable interpreter in OCaml) and Teyjus (a compiler), along with comprehensive documentation through books, tutorials, and video resources. Related tools like Abella, an interactive theorem prover, extend λProlog's capabilities for reasoning about specifications with binding and have been used for formal work such as π-calculus verification.",
+      "domain": "www.lix.polytechnique.fr",
+      "source_date": "2026-02-24",
+      "page_title": "λProlog Home Page",
+      "tags": [
+        "lisp",
+        "compilers",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 863,
+      "url": "https://withdiode.com/",
+      "title": null,
+      "description": "diode - Build hardware devices in the browser",
+      "summary": "Diode is a web-based platform that enables users to build, program, and simulate electronic hardware projects directly in their browser without needing physical components. The platform provides a range of virtual electronic components including resistors, capacitors, transistors, LEDs, timers, and switches that can be assembled and tested in a simulated environment. This allows makers and electronics enthusiasts to prototype and learn hardware design online before building physical devices.",
+      "domain": "withdiode.com",
+      "source_date": "2026-02-24",
+      "page_title": "Diode — Build, program, and simulate hardware",
+      "tags": [
+        "web-dev",
+        "emulator",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 869,
+      "url": "https://shuru.run/",
+      "title": null,
+      "description": "MacOS native Local-first Linux micro-VMs for AI agents",
+      "summary": "Shuru is a local-first microVM sandbox platform for macOS that enables safe, isolated execution of AI agent code using Apple's Virtualization framework without requiring Docker. Key features include ephemeral VMs that start clean on each run, checkpoint/restore functionality for saving and branching environments, and Apple Silicon native performance with configurable resources and optional networking. It's designed for code execution, tool use, evaluations, and development workflows where disposable Linux environments are needed.",
+      "domain": "shuru.run",
+      "source_date": "2026-02-23",
+      "page_title": "shuru - Local-first microVM sandbox for AI agents",
+      "tags": [
+        "ai",
+        "devops",
+        "security",
+        "cli-tool"
+      ]
+    },
     {
       "id": 849,
       "url": "https://github.com/kurouna/elecxzy",
@@ -12758,7 +12867,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 282
+      "count": 286
     },
     {
       "name": "video",
@@ -12768,27 +12877,27 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 197
+      "count": 198
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 163
+      "count": 165
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 147
+      "count": 149
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 141
+      "count": 144
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 138
+      "count": 139
     },
     {
       "name": "llm",
@@ -12823,22 +12932,22 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 80
+      "count": 83
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 65
+      "count": 68
+    },
+    {
+      "name": "security",
+      "category": "technical_topic",
+      "count": 42
     },
     {
       "name": "database",
       "category": "technical_topic",
       "count": 41
-    },
-    {
-      "name": "security",
-      "category": "technical_topic",
-      "count": 40
     },
     {
       "name": "distributed-systems",
@@ -12853,6 +12962,11 @@
     {
       "name": "lisp",
       "category": "programming_language",
+      "count": 22
+    },
+    {
+      "name": "c",
+      "category": "programming_language",
       "count": 21
     },
     {
@@ -12861,14 +12975,9 @@
       "count": 21
     },
     {
-      "name": "c",
-      "category": "programming_language",
-      "count": 20
-    },
-    {
       "name": "rust",
       "category": "programming_language",
-      "count": 18
+      "count": 19
     },
     {
       "name": "gaming",
@@ -12888,7 +12997,7 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 11
+      "count": 12
     },
     {
       "name": "tv",
@@ -12964,7 +13073,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 90
+      "count": 91
     },
     {
       "domain": "www.threads.net",
@@ -14027,6 +14136,10 @@
       "count": 1
     },
     {
+      "domain": "missing.csail.mit.edu",
+      "count": 1
+    },
+    {
       "domain": "modvion.com",
       "count": 1
     },
@@ -14339,6 +14452,10 @@
       "count": 1
     },
     {
+      "domain": "shuru.run",
+      "count": 1
+    },
+    {
       "domain": "simons.berkeley.edu",
       "count": 1
     },
@@ -14463,6 +14580,10 @@
       "count": 1
     },
     {
+      "domain": "unsung.aresluna.org",
+      "count": 1
+    },
+    {
       "domain": "urtext.co",
       "count": 1
     },
@@ -14516,6 +14637,10 @@
     },
     {
       "domain": "wingolog.org",
+      "count": 1
+    },
+    {
+      "domain": "withdiode.com",
       "count": 1
     },
     {
@@ -14616,6 +14741,10 @@
     },
     {
       "domain": "www.cs.cmu.edu",
+      "count": 1
+    },
+    {
+      "domain": "www.cs.cornell.edu",
       "count": 1
     },
     {
@@ -14764,6 +14893,10 @@
     },
     {
       "domain": "www.lisp-screenshots.org",
+      "count": 1
+    },
+    {
+      "domain": "www.lix.polytechnique.fr",
       "count": 1
     },
     {
