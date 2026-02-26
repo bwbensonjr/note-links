@@ -1,6 +1,37 @@
 {
-  "exported_at": "2026-02-24T19:51:09.302122",
+  "exported_at": "2026-02-26T06:57:04.823678",
   "links": [
+    {
+      "id": 870,
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+      "title": null,
+      "description": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+      "summary": "Google historically assured developers that API keys were safe to publicly embed in code since they weren't designed as authentication credentials, but the introduction of Gemini changed this dynamic—now those same public keys can silently access sensitive Gemini endpoints without warning. Researchers discovered nearly 3,000 live Google API keys on public websites that now authenticate to Gemini, allowing attackers to access private files, cached data, and rack up substantial API charges, with the vulnerability stemming from insecure defaults and Google's failure to separate keys by privilege level or notify developers of the retroactive privilege expansion.",
+      "domain": "trufflesecurity.com",
+      "source_date": "2026-02-26",
+      "page_title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. ◆ Truffle Security Co.",
+      "tags": [
+        "security",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 871,
+      "url": "https://github.com/ufo5260987423/scheme-langserver",
+      "title": null,
+      "description": "A Scheme language server",
+      "summary": "Scheme-langserver is a Language Server Protocol implementation for Scheme that provides code completion, definition lookup, and type inference through static code analysis, addressing limitations of existing tools like Geiser that rely on REPL-based approaches and fail to recognize local bindings in incomplete code. The project supports multiple Scheme standards (R6RS, R7RS, S7), integrates with the Akku package manager, and is available for use with VSCode, though the developer notes it contains bugs and is continuously being refined. Key features include document symbol navigation, hover information, cross-file indexing, and a custom type inference system, with the author actively seeking community contributions and funding to expand functionality with data flow analysis and additional language support.",
+      "domain": "github.com",
+      "source_date": "2026-02-25",
+      "page_title": "GitHub - ufo5260987423/scheme-langserver: Scheme language server",
+      "tags": [
+        "github-repo",
+        "scheme",
+        "cli-tool",
+        "compilers"
+      ]
+    },
     {
       "id": 868,
       "url": "https://github.com/andrewosh/cellarium",
@@ -12877,7 +12908,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 198
+      "count": 199
     },
     {
       "name": "academic-paper",
@@ -12887,7 +12918,7 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 149
+      "count": 150
     },
     {
       "name": "web-dev",
@@ -12897,12 +12928,12 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 139
+      "count": 140
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 135
+      "count": 136
     },
     {
       "name": "music",
@@ -12937,12 +12968,12 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 68
+      "count": 69
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 42
+      "count": 43
     },
     {
       "name": "database",
@@ -12992,7 +13023,7 @@
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 12
+      "count": 13
     },
     {
       "name": "emulator",
@@ -13073,7 +13104,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 91
+      "count": 92
     },
     {
       "domain": "www.threads.net",
@@ -14569,6 +14600,10 @@
     },
     {
       "domain": "towardsdatascience.com",
+      "count": 1
+    },
+    {
+      "domain": "trufflesecurity.com",
       "count": 1
     },
     {
