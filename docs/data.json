@@ -1,6 +1,77 @@
 {
-  "exported_at": "2026-02-26T06:57:04.823678",
+  "exported_at": "2026-02-27T14:23:40.140053",
   "links": [
+    {
+      "id": 873,
+      "url": "https://growingswe.com/blog/quadtrees",
+      "title": null,
+      "description": "An interactive intro to quad trees",
+      "summary": "Quadtrees are a spatial data structure that recursively divides two-dimensional space into four quadrants to efficiently organize and search geographic data, solving the problem of slow brute-force searches across millions of points. Rather than checking every point's distance from a query location, quadtrees organize space hierarchically so that entire regions can be pruned during searches, reducing queries for a million points from a million comparisons to roughly ten steps. The structure adapts to data distribution, subdividing dense areas into fine-grained cells while keeping sparse areas as larger nodes, with performance tuned by adjusting the node capacity threshold before splitting.",
+      "domain": "growingswe.com",
+      "source_date": "2026-02-27",
+      "page_title": "An interactive intro to quadtrees | growingSWE",
+      "tags": [
+        "tutorial",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 872,
+      "url": "https://moultano.wordpress.com/2026/02/22/the-hunt-for-dark-breakfast/",
+      "title": null,
+      "description": "The Hunt for Dark Breakfast",
+      "summary": "Ryan Moulton humorously explores breakfast as a mathematical vector space defined by ratios of milk, eggs, and flour, discovering a mysterious gap in the known breakfast landscape that he dubs the \"Dark Breakfast.\" Through meticulous research across global breakfast traditions, he maps three major clusters of breakfast items but finds an empty void where a theoretically possible breakfast should exist, ultimately identifying IHOP's pancake-batter omelettes as evidence that this forbidden combination can occur. The piece playfully treats this culinary gap with pseudo-scientific dread, suggesting the void may be empty for good reason while offering the unexplained recipe for those brave or foolish enough to attempt creating the Dark Breakfast.",
+      "domain": "moultano.wordpress.com",
+      "source_date": "2026-02-27",
+      "page_title": "The Hunt for Dark Breakfast – Ryan Moulton's Articles",
+      "tags": [
+        "fiction-book",
+        "video"
+      ]
+    },
+    {
+      "id": 876,
+      "url": "https://exhibits.stanford.edu/cartosym/browse",
+      "title": null,
+      "description": "Cartographic symbologies",
+      "summary": "I cannot provide a meaningful summary of this content as the page appears to be a CAPTCHA verification screen rather than actual web content. The page displays a human verification challenge with an image-based code prompt, rather than substantive information about cartographic symbologies that the URL suggests should be present.",
+      "domain": "exhibits.stanford.edu",
+      "source_date": "2026-02-26",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 875,
+      "url": "https://www.combinatorprize.org/",
+      "title": null,
+      "description": "The Wolfram S combinator challenge",
+      "summary": "The Wolfram Foundation is offering a $20,000 prize for proving or disproving Stephen Wolfram's 2020 conjecture that the S combinator alone is computation universal, building on Moses Schönfinkel's 1920 discovery that S and K combinators together possess this property. Submissions must be original technical research papers with rigorous proofs, and the prize goes to the first individual or group to provide a satisfactory solution as judged by the prize committee. All eligible participants are invited to compete, with submissions remaining open until a correct solution is achieved.",
+      "domain": "www.combinatorprize.org",
+      "source_date": "2026-02-26",
+      "page_title": "The Wolfram S Combinator Challenge",
+      "tags": [
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 874,
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "title": null,
+      "description": "Nano banana 2",
+      "summary": "Google has launched Nano Banana 2, a new AI image generation model that combines the advanced capabilities of Nano Banana Pro with the speed of Gemini Flash, enabling faster high-quality image creation with features like subject consistency, precise text rendering, and production-ready specifications. The model is now rolling out across Google products including Gemini, Search, Ads, and Google Cloud, making professional-grade image generation accessible to a wider audience. Additionally, Google is enhancing AI content identification through its SynthID technology paired with C2PA Content Credentials to help users verify whether images are AI-generated.",
+      "domain": "blog.google",
+      "source_date": "2026-02-26",
+      "page_title": "Nano Banana 2: Google’s latest AI image generation model",
+      "tags": [
+        "ai",
+        "llm",
+        "news"
+      ]
+    },
     {
       "id": 870,
       "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
@@ -12898,22 +12969,22 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 286
+      "count": 287
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 205
+      "count": 206
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 199
+      "count": 200
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 165
+      "count": 167
     },
     {
       "name": "cli-tool",
@@ -12933,7 +13004,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 136
+      "count": 137
     },
     {
       "name": "music",
@@ -12941,19 +13012,19 @@
       "count": 117
     },
     {
+      "name": "nonfiction-book",
+      "category": "culture",
+      "count": 106
+    },
+    {
       "name": "social-media",
       "category": "culture",
       "count": 106
     },
     {
-      "name": "nonfiction-book",
-      "category": "culture",
-      "count": 105
-    },
-    {
       "name": "news",
       "category": "culture",
-      "count": 95
+      "count": 96
     },
     {
       "name": "python",
@@ -12968,7 +13039,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 69
+      "count": 70
     },
     {
       "name": "security",
@@ -12983,7 +13054,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 31
+      "count": 32
     },
     {
       "name": "politics",
@@ -13048,7 +13119,7 @@
     {
       "name": "fiction-book",
       "category": "culture",
-      "count": 7
+      "count": 8
     },
     {
       "name": "movie",
@@ -13167,6 +13238,10 @@
       "count": 4
     },
     {
+      "domain": "blog.google",
+      "count": 3
+    },
+    {
       "domain": "stephango.com",
       "count": 3
     },
@@ -13196,10 +13271,6 @@
     },
     {
       "domain": "blog.djhaskin.com",
-      "count": 2
-    },
-    {
-      "domain": "blog.google",
       "count": 2
     },
     {
@@ -13807,6 +13878,10 @@
       "count": 1
     },
     {
+      "domain": "exhibits.stanford.edu",
+      "count": 1
+    },
+    {
       "domain": "ezhik.jp",
       "count": 1
     },
@@ -13900,6 +13975,10 @@
     },
     {
       "domain": "grantslatton.com",
+      "count": 1
+    },
+    {
+      "domain": "growingswe.com",
       "count": 1
     },
     {
@@ -14176,6 +14255,10 @@
     },
     {
       "domain": "monaspace.githubnext.com",
+      "count": 1
+    },
+    {
+      "domain": "moultano.wordpress.com",
       "count": 1
     },
     {
@@ -14760,6 +14843,10 @@
     },
     {
       "domain": "www.clp.unesp.br",
+      "count": 1
+    },
+    {
+      "domain": "www.combinatorprize.org",
       "count": 1
     },
     {
