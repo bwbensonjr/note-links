@@ -181,10 +181,17 @@ JSON response:"""
         tags = []
 
         try:
-            # Handle potential markdown code blocks
+            # Handle potential markdown code blocks — extract content
+            # between opening and closing ``` fences only
             if response.startswith("```"):
                 lines = response.split("\n")
-                response = "\n".join(lines[1:-1])
+                # Find the closing fence
+                end = len(lines) - 1
+                for i in range(1, len(lines)):
+                    if lines[i].strip() == "```":
+                        end = i
+                        break
+                response = "\n".join(lines[1:end])
 
             data = json.loads(response)
 
