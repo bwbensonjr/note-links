@@ -1,6 +1,259 @@
 {
-  "exported_at": "2026-02-27T14:23:40.140053",
+  "exported_at": "2026-03-02T07:15:27.404517",
   "links": [
+    {
+      "id": 878,
+      "url": "https://mobileapp.bostonglobe.com/03022026_9d26705a-1573-11f1-8a08-0f07aea460e0/content.html",
+      "title": null,
+      "description": "Ben Downing appointed to head MassCEC",
+      "summary": "Ben Downing, former state senator and executive at Cambridge startup incubator The Engine, has been appointed as the new chief executive of the Massachusetts Clean Energy Center, taking over in April at a time when the clean-tech sector faces reduced federal funding and challenges in offshore wind development. Downing brings extensive experience in clean energy policy from his legislative work on the 2016 clean-energy bill and his recent efforts fostering clean-tech startups including Form Energy and VEIR. The appointment comes as MassCEC, with a $40 million operating budget and $141 million in annual grants, seeks leadership during a critical period for Massachusetts' clean energy transition.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-03-02",
+      "page_title": "TALKING POINTS",
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
+      "id": 877,
+      "url": "https://ellanew.com/2026/03/02/ptpl-197-record-retrieve-from-a-personal-knowledgebase",
+      "title": null,
+      "description": "Recording how-to processes for later retrieval",
+      "summary": "This article explains how to build and maintain a personal knowledge base for recording multi-step processes you've had to look up multiple times. The author recommends documenting procedures immediately using written notes or audio recordings, then storing them in a searchable, centralized location (like Markdown files or note apps) with clear naming conventions and identifiers like #howto tags to make future retrieval easy. The key takeaway is that capturing these hard-won processes prevents frustration from having to relearn them, but requires intentional effort and habit-building to make it a regular practice.",
+      "domain": "ellanew.com",
+      "source_date": "2026-03-02",
+      "page_title": "PTPL 197 · How to Record and Retrieve Anything You’ve Ever Had to Look Up Twice - Ellane W",
+      "tags": [
+        "tutorial",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 886,
+      "url": "https://github.com/shiehn/sas-audio-processor",
+      "title": null,
+      "description": "A suite of 2audio processing tools",
+      "summary": "SAS Audio Processor is a suite of 25 audio processing tools designed as a component of the Signals & Sorcery music production application, exposing capabilities like trimming, normalization, compression, EQ, reverb, pitch-shifting, key detection, and MIDI extraction through MCP (Model Context Protocol) tools. It integrates with Claude Code and other AI coding editors via DeclarAgent, allowing users to perform complex audio workflows directly from Claude by chaining multiple tools together. The tools accept WAV files as input and output structured JSON, with installation available via source code or pre-built macOS binaries, though it's currently limited to macOS and WAV format support.",
+      "domain": "github.com",
+      "source_date": "2026-03-01",
+      "page_title": "GitHub - shiehn/sas-audio-processor: sas-audio-processor",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "ai",
+        "music"
+      ]
+    },
+    {
+      "id": 885,
+      "url": "https://glthr.com/XML-fundamental-to-Claude",
+      "title": null,
+      "description": "XML tags are important in Claude prompts because of their ability to quote",
+      "summary": "XML tags are important in Claude prompts because of their ability to quote",
+      "domain": "glthr.com",
+      "source_date": "2026-03-01",
+      "page_title": null,
+      "tags": [
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 884,
+      "url": "https://mlu-explain.github.io/decision-tree/",
+      "title": null,
+      "description": "Decision Trees classify based on change in entropy",
+      "summary": "Decision Trees are machine learning models that classify data by recursively splitting it into regions based on feature values. The algorithm creates nested decision rules by partitioning data to separate different classes, but must balance accuracy with generalization by avoiding overfitting through excessive splitting. Once trained, a Decision Tree can quickly classify new data points by passing them through the learned sequence of decisions.",
+      "domain": "mlu-explain.github.io",
+      "source_date": "2026-03-01",
+      "page_title": "Decision Trees",
+      "tags": [
+        "ai",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 883,
+      "url": "https://growingswe.com/blog/microgpt",
+      "title": null,
+      "description": "MicroGPT explained interactively",
+      "summary": "This interactive guide breaks down MicroGPT, a 200-line Python implementation of a GPT model that learns to generate names by understanding statistical patterns in text. The tutorial walks through the core concepts including tokenization (converting characters to numbers), next-token prediction (the fundamental training task), softmax (converting scores to probabilities), cross-entropy loss (measuring prediction accuracy), and backpropagation (the algorithm that updates model parameters to improve performance). By using visual demonstrations and code examples, the article makes these foundational machine learning concepts accessible to beginners.",
+      "domain": "growingswe.com",
+      "source_date": "2026-03-01",
+      "page_title": "MicroGPT explained interactively | growingSWE",
+      "tags": [
+        "python",
+        "llm",
+        "tutorial",
+        "ai"
+      ]
+    },
+    {
+      "id": 882,
+      "url": "https://github.com/kossisoroyce/timber",
+      "title": null,
+      "description": "Ollama for classical ML models",
+      "summary": "Timber is an AOT compiler that converts classical machine learning models (XGBoost, LightGBM, scikit-learn, CatBoost, ONNX) into optimized native C99 code for inference, achieving 336x faster performance than Python. It provides a simple two-command workflow to load and serve models over HTTP API, making it ideal for low-latency applications in fraud detection, edge computing, and regulated industries that require deterministic, portable inference without Python runtime overhead.",
+      "domain": "github.com",
+      "source_date": "2026-03-01",
+      "page_title": "GitHub - kossisoroyce/timber: Ollama for classical ML models. AOT compiler that turns XGBoost, LightGBM, scikit-learn, CatBoost & ONNX models into native C99 inference code. One command to load, one command to serve. 336x faster than Python inference.",
+      "tags": [
+        "github-repo",
+        "compilers",
+        "c",
+        "python",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 881,
+      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
+      "title": null,
+      "description": "MCP is dead. long live the CLI",
+      "summary": "The author argues that the Model Context Protocol (MCP) is fundamentally flawed and that command-line interfaces (CLIs) are superior for enabling LLMs to interact with tools and services. CLIs offer better debuggability, composability, reusable authentication systems, and reliability compared to MCP's added complexity, initialization issues, and all-or-nothing permissions. The author recommends that companies focus on building robust APIs and CLIs rather than investing in MCP servers, as LLMs are already well-trained to work with traditional command-line tools.",
+      "domain": "ejholmes.github.io",
+      "source_date": "2026-03-01",
+      "page_title": "MCP is dead. Long live the CLI",
+      "tags": [
+        "cli-tool",
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 880,
+      "url": "https://developer.chrome.com/blog/webmcp-epp",
+      "title": null,
+      "description": "WebMCP is available for preview",
+      "summary": "WebMCP is a new standard being introduced by Chrome that enables websites to define structured tools and interactions for AI agents, allowing them to perform actions on sites more reliably and efficiently. The platform offers two APIs—a Declarative API for standard HTML form actions and an Imperative API for complex JavaScript-based interactions—making websites \"agent-ready\" for tasks like customer support, e-commerce transactions, and travel bookings. Chrome is now accepting early preview program participants to help prototype and test the technology.",
+      "domain": "developer.chrome.com",
+      "source_date": "2026-03-01",
+      "page_title": "WebMCP is available for early preview  |  Blog  |  Chrome for Developers",
+      "tags": [
+        "web-dev",
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "id": 879,
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "title": null,
+      "description": "microgpt - blog post",
+      "summary": "Andrej Karpinski presents microgpt, a minimalist 200-line Python implementation of a GPT model with no external dependencies that demonstrates the core algorithmic components needed to train and run a language model: a dataset, tokenizer, autograd engine, neural network architecture, optimizer, and training/inference loops. The project represents a decade-long effort to distill large language models to their bare essentials, using a simple dataset of 32,000 names to show how the model learns statistical patterns and can generate new plausible names. The guide walks through each component from the dataset and tokenization through backpropagation and neural network architecture to explain how modern language models fundamentally work at their core.",
+      "domain": "karpathy.github.io",
+      "source_date": "2026-03-01",
+      "page_title": "microgpt",
+      "tags": [
+        "python",
+        "llm",
+        "tutorial",
+        "ai"
+      ]
+    },
+    {
+      "id": 889,
+      "url": "https://www.threads.com/@billcampa/post/DVRDHkRl22E?xmt=AQF02WV_Y6_JBuAr-RyAxAaIDSLVYhPNViA5Z-2ZmJSJ0LT54cQS9C_f-ZzPmXQmzCLrwBRw&slof=1",
+      "title": null,
+      "description": "Voice recognition elevators in Scotland",
+      "summary": "When they install a voice-recognition elevator in a Scottish building. - Voice recognition elevators in Scotland",
+      "domain": "www.threads.com",
+      "source_date": "2026-02-28",
+      "page_title": "When they install a voice-recognition elevator in a Scottish building.",
+      "tags": [
+        "social-media",
+        "video"
+      ]
+    },
+    {
+      "id": 888,
+      "url": "https://www.howardism.org/Technical/Emacs/eshell-fun.html",
+      "title": null,
+      "description": "Emacs eshell overview",
+      "summary": "The author explains why they switched from traditional shells like Zshell and Bash to Emacs Eshell, highlighting that it integrates seamlessly with their editor-first workflow and offers unique advantages like built-in paging through Emacs and access to Emacs Lisp functions. Eshell combines shell and Lisp REPL capabilities, allowing users to write commands in a simplified syntax while leveraging Emacs features, and it includes powerful file selection through filters and modifiers inherited from Zshell. The article provides practical examples and customization tips to help users better understand and utilize Eshell's features, which are otherwise hampered by poor documentation.",
+      "domain": "www.howardism.org",
+      "source_date": "2026-02-28",
+      "page_title": "Eschewing Zshell for Emacs Shell",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "lisp"
+      ]
+    },
+    {
+      "id": 887,
+      "url": "https://people.csail.mit.edu/saltzer/Multics/Multics-Documents/MDN/MDN-4.pdf",
+      "title": null,
+      "description": "The SHELL: a global tool for calling and chaining procedures",
+      "summary": "This document describes the SHELL, a global interface tool designed for the Multics operating system that enables users to call and chain procedures from a console. The SHELL acts as a unified medium allowing any subroutine to be invoked directly from the console or from within programs, eliminating the need for separate command implementations and enabling more efficient testing and debugging. Key features include stack-based argument passing for recursive calls, automatic argument conversion from console input, and comprehensive error handling to support both interactive and automatic program execution.",
+      "domain": "people.csail.mit.edu",
+      "source_date": "2026-02-28",
+      "page_title": "OneTouch 4.0 Sanned Documents",
+      "tags": [
+        "academic-paper",
+        "cli-tool",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 893,
+      "url": "https://antirez.com/news/160",
+      "title": null,
+      "description": "Building a clean room Z80 emulator with Claude Code",
+      "summary": "The author used Claude Code to build a clean room Z80 emulator and ZX Spectrum implementation from scratch, demonstrating how AI assistance can help recreate complex retro computing systems without referencing existing source code. The project showcases Claude's ability to understand architectural specifications and generate functional emulation code through interactive development, highlighting the potential of AI-assisted programming for reverse engineering and reimplementing legacy systems. This approach validates the viability of using large language models to tackle intricate technical challenges that would traditionally require deep domain expertise and manual implementation.",
+      "domain": "antirez.com",
+      "source_date": "2026-02-27",
+      "page_title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code - <antirez>",
+      "tags": [
+        "emulator",
+        "llm",
+        "tutorial",
+        "c"
+      ]
+    },
+    {
+      "id": 892,
+      "url": "https://cooking.nytimes.com/recipes/761249285-one-pan-chicken-with-golden-potatoes",
+      "title": null,
+      "description": "One-pan chicken with golden potatoes",
+      "summary": "This one-pan recipe features chicken thighs marinated in spiced yogurt and then roasted with potatoes, onions, and broth in a covered skillet until the vegetables soften and the chicken skin becomes crisp and golden. The dish is pantry-friendly and largely hands-off, requiring minimal preparation beyond marinating the chicken for at least 45 minutes before roasting for about 1 hour 25 minutes total. The recipe serves four and pairs well with a simple side salad or steamed greens, with optional yogurt served alongside.",
+      "domain": "cooking.nytimes.com",
+      "source_date": "2026-02-27",
+      "page_title": "One-Pan Chicken With Golden Potatoes Recipe",
+      "tags": []
+    },
+    {
+      "id": 891,
+      "url": "https://help.obsidian.md/cli",
+      "title": null,
+      "description": "Obsidian CLI",
+      "summary": "Obsidian CLI - Obsidian Help - Obsidian CLI",
+      "domain": "help.obsidian.md",
+      "source_date": "2026-02-27",
+      "page_title": "Obsidian CLI - Obsidian Help",
+      "tags": [
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 890,
+      "url": "https://clojure.stream/",
+      "title": null,
+      "description": "A self-hosted course platform in Clojure",
+      "summary": "ClojureStream is a comprehensive learning platform dedicated to Clojure, ClojureScript, and Datalog, offering structured courses, live workshops, podcasts, and other educational resources all in one community-built space. The platform provides a centralized hub for developers looking to deepen their knowledge of these technologies through various learning formats tailored to different preferences and skill levels.",
+      "domain": "clojure.stream",
+      "source_date": "2026-02-27",
+      "page_title": "ClojureStream - Learn Clojure with Real-World Projects",
+      "tags": [
+        "clojure",
+        "tutorial",
+        "web-dev",
+        "podcast"
+      ]
+    },
     {
       "id": 873,
       "url": "https://growingswe.com/blog/quadtrees",
@@ -12969,47 +13222,52 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 287
+      "count": 297
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 206
+      "count": 207
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 200
+      "count": 205
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 167
+      "count": 169
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 150
+      "count": 157
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 144
-    },
-    {
-      "name": "github-repo",
-      "category": "technical_topic",
-      "count": 140
+      "count": 146
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 137
+      "count": 142
+    },
+    {
+      "name": "github-repo",
+      "category": "technical_topic",
+      "count": 142
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 117
+      "count": 118
+    },
+    {
+      "name": "social-media",
+      "category": "culture",
+      "count": 107
     },
     {
       "name": "nonfiction-book",
@@ -13017,19 +13275,14 @@
       "count": 106
     },
     {
-      "name": "social-media",
-      "category": "culture",
-      "count": 106
-    },
-    {
       "name": "news",
       "category": "culture",
-      "count": 96
+      "count": 97
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 94
+      "count": 97
     },
     {
       "name": "devops",
@@ -13039,7 +13292,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 70
+      "count": 71
     },
     {
       "name": "security",
@@ -13054,27 +13307,27 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 32
+      "count": 33
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 25
-    },
-    {
-      "name": "lisp",
-      "category": "programming_language",
-      "count": 22
+      "count": 26
     },
     {
       "name": "c",
       "category": "programming_language",
-      "count": 21
+      "count": 23
+    },
+    {
+      "name": "lisp",
+      "category": "programming_language",
+      "count": 23
     },
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 21
+      "count": 22
     },
     {
       "name": "rust",
@@ -13099,17 +13352,17 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 12
+      "count": 13
+    },
+    {
+      "name": "podcast",
+      "category": "culture",
+      "count": 11
     },
     {
       "name": "tv",
       "category": "culture",
       "count": 11
-    },
-    {
-      "name": "podcast",
-      "category": "culture",
-      "count": 10
     },
     {
       "name": "common-lisp",
@@ -13132,14 +13385,14 @@
       "count": 5
     },
     {
-      "name": "elixir",
+      "name": "clojure",
       "category": "programming_language",
       "count": 5
     },
     {
-      "name": "clojure",
+      "name": "elixir",
       "category": "programming_language",
-      "count": 4
+      "count": 5
     },
     {
       "name": "sql",
@@ -13175,7 +13428,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 92
+      "count": 94
     },
     {
       "domain": "www.threads.net",
@@ -13195,7 +13448,7 @@
     },
     {
       "domain": "www.threads.com",
-      "count": 16
+      "count": 17
     },
     {
       "domain": "open.spotify.com",
@@ -13242,6 +13495,10 @@
       "count": 3
     },
     {
+      "domain": "cooking.nytimes.com",
+      "count": 3
+    },
+    {
       "domain": "stephango.com",
       "count": 3
     },
@@ -13278,10 +13535,6 @@
       "count": 2
     },
     {
-      "domain": "cooking.nytimes.com",
-      "count": 2
-    },
-    {
       "domain": "deepwiki.com",
       "count": 2
     },
@@ -13295,6 +13548,14 @@
     },
     {
       "domain": "graydon2.dreamwidth.org",
+      "count": 2
+    },
+    {
+      "domain": "growingswe.com",
+      "count": 2
+    },
+    {
+      "domain": "help.obsidian.md",
       "count": 2
     },
     {
@@ -13451,6 +13712,10 @@
     },
     {
       "domain": "andywoodruff.com",
+      "count": 1
+    },
+    {
+      "domain": "antirez.com",
       "count": 1
     },
     {
@@ -13678,6 +13943,10 @@
       "count": 1
     },
     {
+      "domain": "clojure.stream",
+      "count": 1
+    },
+    {
       "domain": "codemic.io",
       "count": 1
     },
@@ -13782,6 +14051,10 @@
       "count": 1
     },
     {
+      "domain": "developer.chrome.com",
+      "count": 1
+    },
+    {
       "domain": "developers.cloudflare.com",
       "count": 1
     },
@@ -13834,7 +14107,15 @@
       "count": 1
     },
     {
+      "domain": "ejholmes.github.io",
+      "count": 1
+    },
+    {
       "domain": "elixir-lang.org",
+      "count": 1
+    },
+    {
+      "domain": "ellanew.com",
       "count": 1
     },
     {
@@ -13970,6 +14251,10 @@
       "count": 1
     },
     {
+      "domain": "glthr.com",
+      "count": 1
+    },
+    {
       "domain": "granda.org",
       "count": 1
     },
@@ -13978,19 +14263,11 @@
       "count": 1
     },
     {
-      "domain": "growingswe.com",
-      "count": 1
-    },
-    {
       "domain": "harmonique.one",
       "count": 1
     },
     {
       "domain": "harper.blog",
-      "count": 1
-    },
-    {
-      "domain": "help.obsidian.md",
       "count": 1
     },
     {
@@ -14083,6 +14360,10 @@
     },
     {
       "domain": "karpathy.ai",
+      "count": 1
+    },
+    {
+      "domain": "karpathy.github.io",
       "count": 1
     },
     {
@@ -14250,6 +14531,14 @@
       "count": 1
     },
     {
+      "domain": "mlu-explain.github.io",
+      "count": 1
+    },
+    {
+      "domain": "mobileapp.bostonglobe.com",
+      "count": 1
+    },
+    {
       "domain": "modvion.com",
       "count": 1
     },
@@ -14395,6 +14684,10 @@
     },
     {
       "domain": "paulgraham.com",
+      "count": 1
+    },
+    {
+      "domain": "people.csail.mit.edu",
       "count": 1
     },
     {
@@ -14947,6 +15240,10 @@
     },
     {
       "domain": "www.holloway.com",
+      "count": 1
+    },
+    {
+      "domain": "www.howardism.org",
       "count": 1
     },
     {
