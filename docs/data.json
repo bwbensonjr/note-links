@@ -1,6 +1,94 @@
 {
-  "exported_at": "2026-03-02T07:15:27.404517",
+  "exported_at": "2026-03-04T11:59:19.256351",
   "links": [
+    {
+      "id": 897,
+      "url": "https://www.usgs.gov/observatories/yvo/news/echinus-geyser-back-action-now",
+      "title": null,
+      "description": "The largest acidic geyser has been putting on quite a show",
+      "summary": "Echinus Geyser, the world's largest acidic geyser located in Yellowstone's Norris Geyser Basin, has resumed erupting after being largely dormant since 2020, with regular eruptions occurring every 2-5 hours starting in mid-February 2026. The geyser's activity is highly variable, having been a consistent performer in the 1970s-1990s before declining activity in the early 2000s, and scientists are monitoring whether this current resurgence will continue through the summer or if the geyser will return to dormancy as it typically does. Its unique acidic chemistry, combined with rare eruption patterns reaching 6-10 meters in height, makes Echinus a distinctive thermal feature in one of Yellowstone's most dynamic geothermal areas.",
+      "domain": "www.usgs.gov",
+      "source_date": "2026-03-04",
+      "page_title": "Echinus Geyser is back in action! For now… | U.S. Geological Survey",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": 896,
+      "url": "https://web.cs.ucdavis.edu/~su/teaching/ecs240-w17/readings/PLHistoryGoodDesign.PDF",
+      "title": null,
+      "description": "On the design of programming languages",
+      "summary": "On the design of programming languages",
+      "domain": "web.cs.ucdavis.edu",
+      "source_date": "2026-03-04",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 895,
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/",
+      "title": null,
+      "description": "Agentic engineering patterns",
+      "summary": "Simon Willison's guide on agentic engineering patterns provides best practices for working effectively with AI coding agents like Claude Code and OpenAI Codex. The guide emphasizes key principles including treating code as inexpensive to generate, documenting known solutions, implementing rigorous testing with TDD approaches, and using clear explanations and annotated prompts to achieve better results. It offers practical patterns for understanding, testing, and iterating on agent-generated code through interactive and linear walkthroughs.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-03-04",
+      "page_title": "Agentic Engineering Patterns - Simon Willison's Weblog",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 894,
+      "url": "https://mobileapp.bostonglobe.com/03042026_361b5a18-1719-11f1-8b49-e47fc0429fbb/content.html",
+      "title": null,
+      "description": "Thomas Adès with BSO",
+      "summary": "Composer-conductor-pianist Thomas Adès led the Boston Symphony Orchestra in a program featuring two of his own orchestral works alongside Beethoven's Symphony No. 6, demonstrating his rare ability to perform multiple roles at the highest level. The reviewer argues that Adès is uniquely suited to conduct his own complex, dimensionally layered compositions, as his clear artistic vision is essential to conveying their monumental scope, and highlights standout performances including violinist Augustin Hadelich in the premiere of Adès's violin concerto \"Concentric Paths.\" The concert showcased how Adès's skills as composer, conductor, and performer are deeply interconnected, with his conducting of Beethoven also marked by precision and vitality that brought fresh energy to the familiar work.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-03-04",
+      "page_title": "Triple threat Thomas Adès illuminates his own music with BSO",
+      "tags": [
+        "music",
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 898,
+      "url": "https://bsky.app/profile/ryancbriggs.net/post/3mg6z5mfcs224",
+      "title": null,
+      "description": "Opus 4.6 solves a problem Donald Knuth was working on for weeks",
+      "summary": "@ryancbriggs.net on Bluesky - Opus 4.6 solves a problem Donald Knuth was working on for weeks",
+      "domain": "bsky.app",
+      "source_date": "2026-03-03",
+      "page_title": "@ryancbriggs.net on Bluesky",
+      "tags": [
+        "ai",
+        "llm",
+        "social-media"
+      ]
+    },
+    {
+      "id": 899,
+      "url": "https://www.quantamagazine.org/are-the-mysteries-of-quantum-mechanics-beginning-to-dissolve-20260213/",
+      "title": null,
+      "description": "Explaining quantum mechanics with decoherence",
+      "summary": "Physicist Wojciech Zurek's recent book on decoherence offers a potential resolution to century-old mysteries in quantum mechanics by explaining how quantum rules transition to classical physics at larger scales. Rather than relying on speculative interpretations like many-worlds theory or spontaneous wave function collapse, Zurek's decoherence framework provides a unified explanation for how observable reality emerges from quantum theory without invoking new assumptions. The approach suggests that long-standing paradoxes in quantum mechanics may finally be dissolving through a comprehensive understanding of how quantum systems interact with their environment.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-03-02",
+      "page_title": "Are the Mysteries of Quantum Mechanics Beginning To Dissolve? | Quanta Magazine",
+      "tags": [
+        "academic-paper",
+        "news",
+        "ai"
+      ]
+    },
     {
       "id": 878,
       "url": "https://mobileapp.bostonglobe.com/03022026_9d26705a-1573-11f1-8a08-0f07aea460e0/content.html",
@@ -13222,22 +13310,22 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 297
-    },
-    {
-      "name": "video",
-      "category": "culture",
-      "count": 207
+      "count": 298
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 205
+      "count": 208
+    },
+    {
+      "name": "video",
+      "category": "culture",
+      "count": 208
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 169
+      "count": 171
     },
     {
       "name": "cli-tool",
@@ -13247,12 +13335,12 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 146
+      "count": 147
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 142
+      "count": 144
     },
     {
       "name": "github-repo",
@@ -13262,12 +13350,12 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 118
+      "count": 119
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 107
+      "count": 108
     },
     {
       "name": "nonfiction-book",
@@ -13277,7 +13365,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 97
+      "count": 100
     },
     {
       "name": "python",
@@ -13292,7 +13380,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 71
+      "count": 72
     },
     {
       "name": "security",
@@ -13440,7 +13528,7 @@
     },
     {
       "domain": "simonwillison.net",
-      "count": 20
+      "count": 21
     },
     {
       "domain": "www.youtube.com",
@@ -13459,12 +13547,12 @@
       "count": 9
     },
     {
-      "domain": "news.ycombinator.com",
+      "domain": "bsky.app",
       "count": 9
     },
     {
-      "domain": "bsky.app",
-      "count": 8
+      "domain": "news.ycombinator.com",
+      "count": 9
     },
     {
       "domain": "eli.thegreenplace.net",
@@ -13491,6 +13579,10 @@
       "count": 4
     },
     {
+      "domain": "www.quantamagazine.org",
+      "count": 4
+    },
+    {
       "domain": "blog.google",
       "count": 3
     },
@@ -13508,10 +13600,6 @@
     },
     {
       "domain": "www.dbreunig.com",
-      "count": 3
-    },
-    {
-      "domain": "www.quantamagazine.org",
       "count": 3
     },
     {
@@ -13584,6 +13672,10 @@
     },
     {
       "domain": "medium.com",
+      "count": 2
+    },
+    {
+      "domain": "mobileapp.bostonglobe.com",
       "count": 2
     },
     {
@@ -14535,10 +14627,6 @@
       "count": 1
     },
     {
-      "domain": "mobileapp.bostonglobe.com",
-      "count": 1
-    },
-    {
       "domain": "modvion.com",
       "count": 1
     },
@@ -15031,6 +15119,10 @@
       "count": 1
     },
     {
+      "domain": "web.cs.ucdavis.edu",
+      "count": 1
+    },
+    {
       "domain": "web.evanchen.cc",
       "count": 1
     },
@@ -15452,6 +15544,10 @@
     },
     {
       "domain": "www.usenix.org",
+      "count": 1
+    },
+    {
+      "domain": "www.usgs.gov",
       "count": 1
     },
     {
