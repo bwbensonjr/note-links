@@ -84,6 +84,24 @@ uv run link-extractor refetch            # Reset links, then run extract
 uv run link-extractor retag --clear-existing
 ```
 
+### Tag vocabulary management
+
+```bash
+# Audit tags: analyze corpus and write suggestions into TAGS.md
+uv run link-extractor tag-audit
+
+# Stats only (no LLM call, just show rejected/unused/low-use tags)
+uv run link-extractor tag-audit --skip-llm
+
+# After editing TAGS.md, sync accepted changes to code
+uv run link-extractor sync-tags
+
+# Sync and re-tag all links with the updated vocabulary
+uv run link-extractor sync-tags --retag
+```
+
+The workflow is: `tag-audit` adds `### Suggested Additions` and `### Suggested Removals` subsections to each category in `TAGS.md`. Edit the file to accept suggestions (move them into the main list) or reject them (delete them). Then run `sync-tags` to update the code.
+
 ### Search and query
 
 ```bash
@@ -139,7 +157,9 @@ note-links/
 │   │   ├── base.py             # Abstract summarizer interface
 │   │   └── bedrock.py          # AWS Bedrock Claude implementation
 │   ├── tagging/
-│   │   └── llm_tagger.py       # LLM-based auto-tagging via Bedrock
+│   │   ├── llm_tagger.py       # LLM-based auto-tagging via Bedrock
+│   │   ├── audit.py            # Tag vocabulary audit and suggestions
+│   │   └── sync.py             # Sync TAGS.md to code
 │   └── storage/
 │       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
 │       └── database.py         # SQLite operations with FTS5
@@ -148,7 +168,7 @@ note-links/
 
 ## Tag Categories
 
-Tags are auto-assigned by the LLM based on page content:
+Tags are auto-assigned by the LLM based on page content. The tag vocabulary is defined in [`TAGS.md`](TAGS.md), which is the source of truth. Use `tag-audit` and `sync-tags` to evolve the vocabulary over time.
 
 - **Programming Languages**: python, rust, typescript, javascript, go, etc.
 - **Technical Topics**: compilers, ai, llm, databases, web-development, etc.
@@ -172,6 +192,7 @@ Links are stored in SQLite with FTS5 full-text search. The database file (`links
 - `links` - Main table with URL, title, description, content, summary
 - `tags` - Tag definitions with categories
 - `link_tags` - Link-tag associations with confidence scores
+- `rejected_tags` - Tags the LLM suggested but weren't in the vocabulary (used by `tag-audit`)
 - `links_fts` - Full-text search index
 
 Query the database directly:

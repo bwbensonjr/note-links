@@ -8,6 +8,9 @@ import boto3
 
 from ..storage.models import LinkRecord, Tag, TagCategory
 
+# Represents a tag the LLM suggested but wasn't in the vocabulary
+RejectedTag = tuple[str, str | None]  # (name, category_or_none)
+
 logger = logging.getLogger(__name__)
 
 # Complete tag vocabulary organized by category
@@ -106,11 +109,16 @@ class LLMTagger:
             )
         return self._client
 
-    async def tag(self, link: LinkRecord) -> list[tuple[Tag, float]]:
+    async def tag(
+        self, link: LinkRecord
+    ) -> tuple[list[tuple[Tag, float]], list[RejectedTag]]:
         """
         Generate tags for a link using LLM analysis.
 
-        Returns list of (Tag, confidence) tuples.
+        Returns (accepted_tags, rejected_tags) where accepted_tags is a list
+        of (Tag, confidence) tuples and rejected_tags is a list of
+        (name, category) tuples for tags the LLM suggested but aren't in
+        the vocabulary.
         """
         prompt = self._build_prompt(link)
 
@@ -122,7 +130,7 @@ class LLMTagger:
             return self._parse_response(response)
         except Exception as e:
             logger.error(f"LLM tagging failed for {link.url}: {e}")
-            return []
+            return [], []
 
     def _build_prompt(self, link: LinkRecord) -> str:
         """Build the tagging prompt for a link."""
@@ -176,9 +184,12 @@ JSON response:"""
         response_body = json.loads(response["body"].read())
         return response_body["content"][0]["text"].strip()
 
-    def _parse_response(self, response: str) -> list[tuple[Tag, float]]:
-        """Parse the LLM response into Tag objects."""
+    def _parse_response(
+        self, response: str
+    ) -> tuple[list[tuple[Tag, float]], list[RejectedTag]]:
+        """Parse the LLM response into Tag objects and rejected tags."""
         tags = []
+        rejected = []
 
         try:
             # Handle potential markdown code blocks — extract content
@@ -203,10 +214,12 @@ JSON response:"""
                 # Validate tag exists in our vocabulary
                 if category_str not in AVAILABLE_TAGS:
                     logger.warning(f"Unknown category: {category_str}")
+                    rejected.append((name, category_str if category_str else None))
                     continue
 
                 if name not in AVAILABLE_TAGS[category_str]:
                     logger.warning(f"Unknown tag: {name} in {category_str}")
+                    rejected.append((name, category_str))
                     continue
 
                 category = CATEGORY_MAP[category_str]
@@ -218,4 +231,4 @@ JSON response:"""
         except (KeyError, ValueError) as e:
             logger.error(f"Invalid tag data in response: {e}")
 
-        return tags
+        return tags, rejected

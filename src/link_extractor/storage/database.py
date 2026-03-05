@@ -60,6 +60,17 @@ CREATE TABLE IF NOT EXISTS processing_log (
     processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Rejected tags (LLM suggested but not in vocabulary)
+CREATE TABLE IF NOT EXISTS rejected_tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    link_id INTEGER REFERENCES links(id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    category TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_rejected_tags_name ON rejected_tags(name);
+
 -- Indexes
 CREATE INDEX IF NOT EXISTS idx_links_source_date ON links(source_date);
 CREATE INDEX IF NOT EXISTS idx_links_domain ON links(domain);
@@ -208,6 +219,63 @@ class Database:
                 """,
                 (link_id, tag_id, confidence, source),
             )
+
+    def add_rejected_tag(
+        self, link_id: int, name: str, category: str | None = None
+    ) -> None:
+        """Record a tag the LLM suggested but wasn't in the vocabulary."""
+        with self._connection() as conn:
+            conn.execute(
+                "INSERT INTO rejected_tags (link_id, name, category) VALUES (?, ?, ?)",
+                (link_id, name, category),
+            )
+
+    def get_rejected_tag_counts(self, min_count: int = 1) -> list[tuple[str, str | None, int]]:
+        """Get rejected tags with their frequency. Returns [(name, category, count), ...]."""
+        with self._connection() as conn:
+            rows = conn.execute(
+                """
+                SELECT name, category, COUNT(*) as count
+                FROM rejected_tags
+                GROUP BY name, category
+                HAVING count >= ?
+                ORDER BY count DESC
+                """,
+                (min_count,),
+            ).fetchall()
+            return [(r["name"], r["category"], r["count"]) for r in rows]
+
+    def clear_rejected_tags(self) -> None:
+        """Remove all rejected tag records."""
+        with self._connection() as conn:
+            conn.execute("DELETE FROM rejected_tags")
+
+    def get_untagged_link_count(self) -> int:
+        """Count links that have been fetched but received zero tags."""
+        with self._connection() as conn:
+            row = conn.execute(
+                """
+                SELECT COUNT(*) FROM links
+                WHERE fetch_status != ?
+                  AND id NOT IN (SELECT DISTINCT link_id FROM link_tags)
+                """,
+                (FetchStatus.NOT_FETCHED.value,),
+            ).fetchone()
+            return row[0]
+
+    def get_tag_distribution(self) -> list[tuple[str, str, int]]:
+        """Get tag usage counts. Returns [(name, category, count), ...]."""
+        with self._connection() as conn:
+            rows = conn.execute(
+                """
+                SELECT t.name, t.category, COUNT(lt.link_id) as count
+                FROM tags t
+                LEFT JOIN link_tags lt ON t.id = lt.tag_id
+                GROUP BY t.id
+                ORDER BY count DESC
+                """
+            ).fetchall()
+            return [(r["name"], r["category"], r["count"]) for r in rows]
 
     def clear_tags_for_link(self, link_id: int) -> None:
         """Remove all tags for a specific link."""
