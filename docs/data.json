@@ -1,6 +1,63 @@
 {
-  "exported_at": "2026-03-05T11:43:07.519784",
+  "exported_at": "2026-03-06T19:21:34.018222",
   "links": [
+    {
+      "id": 907,
+      "url": "https://www.nybooks.com/articles/2026/03/26/tick-tick-boom-1929-andrew-ross-sorkin/",
+      "title": null,
+      "description": "Tik, tik,..,boom - Jacob Weinberg",
+      "summary": "Andrew Ross Sorkin's new book \"1929\" examines the stock market crash through dramatic narrative, drawing parallels to modern financial bubbles like the current AI boom. The article argues that today's AI investment differs from previous bubbles in that participants openly acknowledge it as speculative, yet raises concerns that—unlike past productive bubbles that left valuable infrastructure—the AI boom may be creating obsolete hardware, resembling the destructive 2008 financial crisis rather than the transformative dot-com crash. Understanding historical bubbles has become urgent as we face the possibility of a pure financial bubble with no lasting benefits rather than creative destruction.",
+      "domain": "www.nybooks.com",
+      "source_date": "2026-03-06",
+      "page_title": "Tick, Tick...Boom! | Jacob Weisberg | The New York Review of Books",
+      "tags": [
+        "nonfiction-book",
+        "news",
+        "ai"
+      ]
+    },
+    {
+      "id": 906,
+      "url": "https://cup.columbia.edu/book/intertwined-creatures/9780231538800/",
+      "title": null,
+      "description": "Intertwined Creatures - The Embodied Cognitive Science of Self and Other - Anthony Chemero",
+      "summary": "Anthony Chemero challenges the traditional view of the mind as isolated and immaterial by arguing that the self is fundamentally \"intertwined\" with the body, environment, and other people, integrating philosophical insights with empirical cognitive science research. The book draws on embodied cognitive science, phenomenology, and pragmatism to demonstrate that minds are social and interdependent rather than individual and separate, with significant implications for ethics and political theory in the age of AI. Chemero combines cutting-edge neuroscience with philosophical analysis to reorient how we understand human identity and relationships away from computational models of mind toward a more integrated, relational conception of selfhood.",
+      "domain": "cup.columbia.edu",
+      "source_date": "2026-03-06",
+      "page_title": "Intertwined Creatures | Columbia University Press",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper",
+        "ai"
+      ]
+    },
+    {
+      "id": 905,
+      "url": "https://tantaman.com/2026-03-02-data-doesnt-speak.html",
+      "title": null,
+      "description": "The data doesn’t speak",
+      "summary": "The essay argues that data interpretation is always shaped by the pre-existing philosophical formation and framework of the person analyzing it, rather than speaking for itself. Through examples from fertility research—such as how income-fertility correlations reverse within education levels and how Israeli women's high fertility defies typical patterns—the author demonstrates that researchers only ask questions and notice anomalies their underlying worldview equips them to see. Since all inquiry requires a framework that determines what counts as a problem or explanation, true objectivity is impossible; the belief that one is \"just following the data\" represents the most complete invisibility of one's own formative bias.",
+      "domain": "tantaman.com",
+      "source_date": "2026-03-06",
+      "page_title": "The Data Doesn't Speak - Tantamanlands",
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 904,
+      "url": "https://link.aps.org/doi/10.1103/p19h-9ysx",
+      "title": null,
+      "description": "Screeching sound of peeling tape",
+      "summary": "Screeching sound of peeling tape",
+      "domain": "link.aps.org",
+      "source_date": "2026-03-06",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
     {
       "id": 902,
       "url": "https://www.threads.com/@shery.lcrow325/post/DVfoWF3Arwt?xmt=AQF0UhEGeSkKsLVSr9hhWrI37cOhtmX2UQEX_jtwvFmMiiAgPbhp0K4VxRPCEIrii6k7j1E&slof=1",
@@ -13372,7 +13429,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 209
+      "count": 211
     },
     {
       "name": "video",
@@ -13382,7 +13439,7 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 172
+      "count": 175
     },
     {
       "name": "cli-tool",
@@ -13410,19 +13467,19 @@
       "count": 120
     },
     {
+      "name": "nonfiction-book",
+      "category": "culture",
+      "count": 109
+    },
+    {
       "name": "social-media",
       "category": "culture",
       "count": 109
     },
     {
-      "name": "nonfiction-book",
-      "category": "culture",
-      "count": 106
-    },
-    {
       "name": "news",
       "category": "culture",
-      "count": 100
+      "count": 101
     },
     {
       "name": "python",
@@ -14160,6 +14217,10 @@
       "count": 1
     },
     {
+      "domain": "cup.columbia.edu",
+      "count": 1
+    },
+    {
       "domain": "cursor.com",
       "count": 1
     },
@@ -14573,6 +14634,10 @@
     },
     {
       "domain": "lief.re",
+      "count": 1
+    },
+    {
+      "domain": "link.aps.org",
       "count": 1
     },
     {
@@ -15096,6 +15161,10 @@
       "count": 1
     },
     {
+      "domain": "tantaman.com",
+      "count": 1
+    },
+    {
       "domain": "tgvaughan.github.io",
       "count": 1
     },
@@ -15501,6 +15570,10 @@
     },
     {
       "domain": "www.noemamag.com",
+      "count": 1
+    },
+    {
+      "domain": "www.nybooks.com",
       "count": 1
     },
     {
