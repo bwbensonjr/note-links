@@ -1,6 +1,152 @@
 {
-  "exported_at": "2026-03-08T10:20:07.069858",
+  "exported_at": "2026-03-09T09:19:58.391740",
   "links": [
+    {
+      "id": 915,
+      "url": "https://www.ethanhein.com/wp/2019/why-cant-you-tune-your-guitar/",
+      "title": null,
+      "description": "Why can’t you tune your guitar?",
+      "summary": "Guitars can't be perfectly tuned across all notes because of mathematical relationships between frequencies. The Western tuning system is based on the harmonic series—the natural overtones produced by vibrating strings—which uses ratios of small prime numbers (2, 3, and 5) to generate pleasing note combinations. However, these mathematical ratios don't align perfectly across all twelve notes of the chromatic scale, making it impossible to tune a guitar so that every interval sounds equally consonant.",
+      "domain": "www.ethanhein.com",
+      "source_date": "2026-03-09",
+      "page_title": "Why can’t you tune your guitar? – The Ethan Hein Blog",
+      "tags": [
+        "music",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 914,
+      "url": "https://bryananthonio.com/blog/my-homelab-setup/",
+      "title": null,
+      "description": "My home lab setup",
+      "summary": "The author repurposed an old gaming PC as a home server running TrueNAS to solve data storage and backup challenges for their photography files. The setup includes 16 TB of mirrored storage, several self-hosted applications like Immich for photo management, Mealie for recipes, and Ollama for running AI models locally, with remote access enabled through Tailscale VPN. Future improvements include implementing custom domain names for easier access to the various services.",
+      "domain": "bryananthonio.com",
+      "source_date": "2026-03-09",
+      "page_title": "My Homelab Setup",
+      "tags": [
+        "devops",
+        "database",
+        "distributed-systems",
+        "ai"
+      ]
+    },
+    {
+      "id": 913,
+      "url": "https://www.youtube.com/watch?v=qZuR-772cks",
+      "title": null,
+      "description": "Microscopes can see video on a laserdisc",
+      "summary": "I don't have access to the actual video content from YouTube, only the page metadata and footer information. To provide an accurate summary of what the video demonstrates about the Andonstar AD246S-P microscope viewing video on a LaserDisc, I would need access to the video's description or transcript. Based solely on the title and your note, the video appears to show how a microscope can magnify and display video content stored on a LaserDisc, likely demonstrating the microscopic pit structures that encode the video data.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-03-09",
+      "page_title": "Microscopes can See Video on a LaserDisc - Andonstar AD246S-P - YouTube",
+      "tags": [
+        "video",
+        "gaming"
+      ]
+    },
+    {
+      "id": 912,
+      "url": "https://arcade.pirillo.com/fontcrafter.html",
+      "title": null,
+      "description": "Turn your handwriting into a font for free",
+      "summary": "FontCrafter is a free, browser-based tool that converts your handwritten samples into installable fonts (OTF, TTF, WOFF2, Base64 formats) without requiring account creation or uploading data to servers. The process involves printing a template, filling it with handwriting samples using a felt-tip pen, scanning the page, and uploading it to the app where character detection and font generation occur entirely locally on your device. The tool includes advanced features like automatic ligature generation, contextual alternates, extended character support, and kerning adjustment—all completely free, with commercial use rights retained by the user.",
+      "domain": "arcade.pirillo.com",
+      "source_date": "2026-03-09",
+      "page_title": "FontCrafter: Create Your Handwriting Font for Free",
+      "tags": [
+        "web-dev",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 911,
+      "url": "https://arxiv.org/abs/2603.03823",
+      "title": null,
+      "description": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+      "summary": "SWE-CI is a new benchmark for evaluating LLM-powered agents' ability to maintain codebases over extended periods by simulating real-world continuous integration workflows, rather than assessing one-shot bug fixes. The benchmark contains 100 tasks drawn from real repositories with evolution histories averaging 233 days and 71 commits, requiring agents to perform multiple rounds of analysis and coding to sustain code quality. This shifts the evaluation focus from static functional correctness to dynamic, long-term maintainability, providing insights into how well AI agents handle complex requirement changes and feature iterations in mature software development.",
+      "domain": "arxiv.org",
+      "source_date": "2026-03-09",
+      "page_title": "[2603.03823] SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+      "tags": [
+        "academic-paper",
+        "llm",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "id": 910,
+      "url": "https://about.netflix.com/news/why-interpositive-is-joining-netflix",
+      "title": null,
+      "description": "Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix",
+      "summary": "Netflix has acquired InterPositive, an AI-powered filmmaking technology company founded by Ben Affleck, to advance creator-led innovation that prioritizes artistic vision over automation. InterPositive's tools are specifically designed by and for filmmakers to enhance creative choice while preserving human judgment and cinematic intent, addressing gaps in how AI applications serve the production process. The acquisition reflects Netflix's commitment to pairing technology with artistry, ensuring that emerging tools empower storytellers rather than replace them.",
+      "domain": "about.netflix.com",
+      "source_date": "2026-03-09",
+      "page_title": "Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix -  About Netflix",
+      "tags": [
+        "ai",
+        "movie",
+        "news"
+      ]
+    },
+    {
+      "id": 919,
+      "url": "https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/",
+      "title": null,
+      "description": "File systems are having a moment",
+      "summary": "The AI ecosystem is rediscovering filesystems as a critical infrastructure for agents, not as a replacement for databases but as a solution for persistent context storage and memory. Rather than context windows that constantly reset like an erased whiteboard, filesystems allow agents to write and retain information about projects, preferences, and past decisions—enabling more sophisticated and autonomous AI tools like Claude Code. The key innovation is treating file formats as the API itself, allowing different applications to interoperate through standardized markdown files (like CLAUDE.md and SKILL.md) without requiring centralized coordination or formal standards bodies.",
+      "domain": "madalitso.me",
+      "source_date": "2026-03-08",
+      "page_title": "Filesystems are having a moment",
+      "tags": [
+        "ai",
+        "llm",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 918,
+      "url": "https://vancouversun.com/news/permanent-daylight-time-bc-heres-what-know",
+      "title": null,
+      "description": "Permanent daylight time in British Columbia",
+      "summary": "British Columbia will transition to permanent daylight time on March 8, 2026, eliminating seasonal time changes after years of public support for the move. The decision has prompted Premier David Eby to urge neighboring U.S. states and Alberta to follow suit, though the lack of U.S. federal legislation has prevented broader adoption across the Cascadia region. While health experts generally support the change for its benefits to circadian rhythms, concerns remain about potential business disruptions and logistical complications from being out of sync with neighboring jurisdictions.",
+      "domain": "vancouversun.com",
+      "source_date": "2026-03-08",
+      "page_title": "Permanent daylight time in B.C.: Here's what to know | Vancouver Sun",
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
+      "id": 917,
+      "url": "https://muddy.jprs.me/links/2026-03-06-the-surprising-whimsy-of-the-time-zone-database/",
+      "title": null,
+      "description": "The surprising whimsy of the Time Zone database",
+      "summary": "The IANA Time Zone Database, while primarily serving as a crucial technical resource for handling the notoriously complex task of time zones across software systems, is filled with surprisingly delightful historical anecdotes and commentary. The database documents not just the technical shifts in time zones worldwide, but also includes colorful stories such as Britain's double summer time during WWII, Robertson Davies' spirited critique of daylight saving, and quirky historical moments like Nashville's \"dueling clock faces\" and New York's \"day of two noons.\" Despite being an essential but maddeningly intricate system, the database reveals itself to be a charmingly human collection of time zone history and cultural commentary.",
+      "domain": "muddy.jprs.me",
+      "source_date": "2026-03-08",
+      "page_title": "The surprising whimsy of the Time Zone Database - Big Muddy",
+      "tags": [
+        "database",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 916,
+      "url": "https://curiosity-telescope.vercel.app/",
+      "title": null,
+      "description": "6\" F/6 Newtonian Reflector Telescope",
+      "summary": "Two enthusiasts in Bengaluru, India built a 6-inch Newtonian reflector telescope called \"Curiosity\" using a combination of 3D-printed components, PVC tubing, and commercially available optical parts, documenting their design process, calculations, and observations of celestial objects including the moon, Jupiter, and lunar eclipses. The project details their engineering approach from initial concept through CAD modeling in Fusion 360 to mechanical fabrication, including specific dimensions, material choices, and assembly techniques for constructing a functional amateur telescope with a Dobsonian mount.",
+      "domain": "curiosity-telescope.vercel.app",
+      "source_date": "2026-03-08",
+      "page_title": "∫telescope // Curiosity Telescope Log",
+      "tags": [
+        "tutorial",
+        "cli-tool"
+      ]
+    },
     {
       "id": 909,
       "url": "https://www.nytimes.com/2026/03/07/us/politics/how-talarico-won.html",
@@ -13453,37 +13599,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 299
+      "count": 300
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 211
+      "count": 215
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 208
+      "count": 209
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 175
+      "count": 177
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 159
+      "count": 161
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 148
+      "count": 149
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 144
+      "count": 146
     },
     {
       "name": "github-repo",
@@ -13493,12 +13639,12 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 120
+      "count": 121
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 109
+      "count": 110
     },
     {
       "name": "social-media",
@@ -13508,7 +13654,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 102
+      "count": 104
     },
     {
       "name": "python",
@@ -13518,7 +13664,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 85
+      "count": 87
     },
     {
       "name": "compilers",
@@ -13526,24 +13672,24 @@
       "count": 72
     },
     {
+      "name": "database",
+      "category": "technical_topic",
+      "count": 43
+    },
+    {
       "name": "security",
       "category": "technical_topic",
       "count": 43
     },
     {
-      "name": "database",
-      "category": "technical_topic",
-      "count": 41
-    },
-    {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 33
+      "count": 35
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 27
+      "count": 28
     },
     {
       "name": "c",
@@ -13568,7 +13714,7 @@
     {
       "name": "gaming",
       "category": "culture",
-      "count": 16
+      "count": 17
     },
     {
       "name": "typescript",
@@ -13608,7 +13754,7 @@
     {
       "name": "movie",
       "category": "culture",
-      "count": 6
+      "count": 7
     },
     {
       "name": "go",
@@ -13675,7 +13821,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 20
+      "count": 21
     },
     {
       "domain": "www.threads.com",
@@ -13687,7 +13833,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 9
+      "count": 10
     },
     {
       "domain": "bsky.app",
@@ -13898,6 +14044,10 @@
       "count": 1
     },
     {
+      "domain": "about.netflix.com",
+      "count": 1
+    },
+    {
       "domain": "acmeweather.com",
       "count": 1
     },
@@ -13955,6 +14105,10 @@
     },
     {
       "domain": "apps.dtic.mil",
+      "count": 1
+    },
+    {
+      "domain": "arcade.pirillo.com",
       "count": 1
     },
     {
@@ -14118,6 +14272,10 @@
       "count": 1
     },
     {
+      "domain": "bryananthonio.com",
+      "count": 1
+    },
+    {
       "domain": "bwbensonjr.github.io",
       "count": 1
     },
@@ -14247,6 +14405,10 @@
     },
     {
       "domain": "cup.columbia.edu",
+      "count": 1
+    },
+    {
+      "domain": "curiosity-telescope.vercel.app",
       "count": 1
     },
     {
@@ -14690,6 +14852,10 @@
       "count": 1
     },
     {
+      "domain": "madalitso.me",
+      "count": 1
+    },
+    {
       "domain": "magazine.sebastianraschka.com",
       "count": 1
     },
@@ -14791,6 +14957,10 @@
     },
     {
       "domain": "moultano.wordpress.com",
+      "count": 1
+    },
+    {
+      "domain": "muddy.jprs.me",
       "count": 1
     },
     {
@@ -15258,6 +15428,10 @@
       "count": 1
     },
     {
+      "domain": "vancouversun.com",
+      "count": 1
+    },
+    {
       "domain": "vercel.com",
       "count": 1
     },
@@ -15431,6 +15605,10 @@
     },
     {
       "domain": "www.dzombak.com",
+      "count": 1
+    },
+    {
+      "domain": "www.ethanhein.com",
       "count": 1
     },
     {
