@@ -1,6 +1,67 @@
 {
-  "exported_at": "2026-03-09T09:19:58.391740",
+  "exported_at": "2026-03-11T07:22:06.461244",
   "links": [
+    {
+      "id": 920,
+      "url": "https://github.com/gcv/julia-snail",
+      "title": null,
+      "description": "Julia Snail - An Emacs development environment for Julia",
+      "summary": "Julia Snail is an Emacs development environment for Julia programming that provides REPL-driven development similar to Common Lisp's SLIME and Clojure's CIDER. It features high-performance terminal emulation using libvterm or Eat, remote REPL support via SSH, multimedia/plotting capabilities, code cross-referencing, and completion integration with Emacs' built-in systems. The package requires Emacs 26.2+ (or 28.1+ for Eat), Julia 1.6.0+, and Unix-like systems or Windows with WSL, and can be installed via MELPA with straightforward configuration using use-package.",
+      "domain": "github.com",
+      "source_date": "2026-03-11",
+      "page_title": "GitHub - gcv/julia-snail: An Emacs development environment for Julia · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 921,
+      "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
+      "title": null,
+      "description": "Turing Award winner and quicksort inventor Tony Hoare passed away last Thursday at the age of 92",
+      "summary": "Tony Hoare, the renowned Turing Award-winning computer scientist and inventor of quicksort, passed away on March 5, 2026, at age 92. Beyond his famous sorting algorithm, Hoare made significant contributions to computer science including work on ALGOL and Hoare logic, and was known for his sharp intellect, humility, and wit throughout his life. A colleague shares personal reflections from meetings with Hoare in Cambridge, recounting anecdotes about his career, his enjoyment of cinema, and his enigmatic observations about the state of computing technology.",
+      "domain": "blog.computationalcomplexity.org",
+      "source_date": "2026-03-10",
+      "page_title": "Computational Complexity: Tony Hoare (1934-2026)",
+      "tags": [
+        "news",
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 923,
+      "url": "https://moglang.org/#fft-on-tensors",
+      "title": null,
+      "description": "The Mog programming language",
+      "summary": "Mog is a programming language designed specifically for AI agents, featuring a comprehensive guide that covers fundamentals like variables, types, and control flow through advanced topics including async programming, error handling, and tensor operations. The language emphasizes safety through its capability system for controlled I/O access and supports embedding in host applications with clear resource limits and sandboxing. Key features include support for higher-order functions, structs, collections, and N-dimensional arrays, making it suitable for building secure, embeddable AI agent scripts.",
+      "domain": "moglang.org",
+      "source_date": "2026-03-09",
+      "page_title": "The Mog Language Guide | Mog",
+      "tags": [
+        "ai",
+        "tutorial",
+        "compilers",
+        "python"
+      ]
+    },
+    {
+      "id": 922,
+      "url": "https://www.rahuljuliato.com/posts/emacs-solo-two-years",
+      "title": null,
+      "description": "Two years of Emacs Solo",
+      "summary": "Rahul has maintained Emacs Solo for two years as a daily-driver Emacs configuration built entirely from built-in Emacs features and custom Elisp modules, with zero external package dependencies. The project recently underwent a major refactor that separated the configuration into two layers: a core init.el file that configures only built-in Emacs features, and a lisp/ directory containing 35 self-contained custom modules, making the codebase more maintainable, understandable, and shareable. This approach prioritizes understanding Emacs out of the box, avoiding upstream package management headaches, and maintaining full control over every feature while keeping everything transparent and easy to debug.",
+      "domain": "www.rahuljuliato.com",
+      "source_date": "2026-03-09",
+      "page_title": "Two Years of Emacs Solo: 35 Modules, Zero External Packages, and a Full Refactor | Rahul's Blog",
+      "tags": [
+        "lisp",
+        "tutorial",
+        "github-repo"
+      ]
+    },
     {
       "id": 915,
       "url": "https://www.ethanhein.com/wp/2019/why-cant-you-tune-your-guitar/",
@@ -13599,12 +13660,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 300
+      "count": 303
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 215
+      "count": 216
     },
     {
       "name": "video",
@@ -13614,12 +13675,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 177
+      "count": 178
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 161
+      "count": 162
     },
     {
       "name": "web-dev",
@@ -13634,7 +13695,7 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 144
+      "count": 146
     },
     {
       "name": "music",
@@ -13644,7 +13705,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 110
+      "count": 111
     },
     {
       "name": "social-media",
@@ -13654,12 +13715,12 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 104
+      "count": 105
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 97
+      "count": 98
     },
     {
       "name": "devops",
@@ -13669,7 +13730,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 72
+      "count": 73
     },
     {
       "name": "database",
@@ -13692,12 +13753,12 @@
       "count": 28
     },
     {
-      "name": "c",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 23
+      "count": 24
     },
     {
-      "name": "lisp",
+      "name": "c",
       "category": "programming_language",
       "count": 23
     },
@@ -13805,7 +13866,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 95
+      "count": 96
     },
     {
       "domain": "www.threads.net",
@@ -14209,6 +14270,10 @@
     },
     {
       "domain": "blog.canoozie.net",
+      "count": 1
+    },
+    {
+      "domain": "blog.computationalcomplexity.org",
       "count": 1
     },
     {
@@ -14949,6 +15014,10 @@
     },
     {
       "domain": "modvion.com",
+      "count": 1
+    },
+    {
+      "domain": "moglang.org",
       "count": 1
     },
     {
@@ -15817,6 +15886,10 @@
     },
     {
       "domain": "www.pianorollmusic.org",
+      "count": 1
+    },
+    {
+      "domain": "www.rahuljuliato.com",
       "count": 1
     },
     {
