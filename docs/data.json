@@ -1,6 +1,107 @@
 {
-  "exported_at": "2026-03-11T07:22:06.461244",
+  "exported_at": "2026-03-13T06:57:55.669422",
   "links": [
+    {
+      "id": 929,
+      "url": "https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2",
+      "title": null,
+      "description": "Celebrating Flickr’s URLs, tagging, API design, etc.",
+      "summary": "Celebrating Flickr’s URLs, tagging, API design, etc.",
+      "domain": "medium.com",
+      "source_date": "2026-03-13",
+      "page_title": null,
+      "tags": [
+        "web-dev"
+      ]
+    },
+    {
+      "id": 928,
+      "url": "https://ben-mini.com/2024/img-0416",
+      "title": null,
+      "description": "IMG_0416",
+      "summary": "Between 2009 and 2012, Apple's \"Send to YouTube\" feature allowed iPhone users to upload videos directly to YouTube, but videos defaulted to generic \"IMG_XXXX\" filenames, creating millions of unedited, intimate recordings that still exist on YouTube today. Searching for these IMG_XXXX videos reveals an authentic, unfiltered social feed of candid moments from strangers' lives—from a woman unboxing her published book to friends joking around—offering a unique glimpse into everyday moments never intended for mass audiences. The author explores how this accidental archive represents the most genuine user-generated content on the internet, capturing real human experiences that are both unpolished and deeply personal.",
+      "domain": "ben-mini.com",
+      "source_date": "2026-03-13",
+      "page_title": "IMG_0416 - ben-mini",
+      "tags": [
+        "social-media",
+        "video",
+        "news"
+      ]
+    },
+    {
+      "id": 927,
+      "url": "https://parametricavocado.itch.io/amen-sorting",
+      "title": null,
+      "description": "Bubble sorted Amen Break",
+      "summary": "This interactive project visualizes the \"Amen Break\" drum sample being sorted using the bubble sort algorithm, creating a musical and visual representation of a classic computer science concept. Users appreciate the creative combination of music and computer science, with requests for additional features like playable sorted samples and access to the source code.",
+      "domain": "parametricavocado.itch.io",
+      "source_date": "2026-03-13",
+      "page_title": "Bubble Sorted Amen Break by Vee 🥑",
+      "tags": [
+        "music",
+        "video",
+        "compilers"
+      ]
+    },
+    {
+      "id": 926,
+      "url": "https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda",
+      "title": null,
+      "description": "Hyperlinks in terminal emulators",
+      "summary": "Terminal emulators now support hyperlinks using the OSC 8 escape sequence, allowing arbitrary text to link to URLs similar to HTML anchors on webpages. The feature enables practical applications like making commit IDs clickable in git log output, auto-detecting URIs in file viewers, and adding file:// links to command-line utilities. The implementation uses escape sequences with optional parameters (including an id parameter for connecting non-contiguous text) and supports various URI schemes including http://, https://, ftp://, file://, and mailto:.",
+      "domain": "gist.github.com",
+      "source_date": "2026-03-13",
+      "page_title": "Hyperlinks in Terminal Emulators · GitHub",
+      "tags": [
+        "cli-tool",
+        "github-repo",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 925,
+      "url": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/",
+      "title": null,
+      "description": "Your machine’s limits are the map of a territory for exploration",
+      "summary": "The article argues that the MacBook Neo, despite critical reviews dismissing it as inadequate for serious creative work, is actually an ideal machine for curious young people to explore computing and develop their skills. Rather than being a limitation, the device's constrained resources force users to learn how computing actually works—teaching fundamental lessons that more powerful machines or restrictive platforms like Chromebooks cannot provide. The author reflects on his own formative experience pushing a decade-old iMac to its limits as a child, suggesting that the real value of the Neo lies not in what it can do today, but in who you might become by wrestling with its constraints.",
+      "domain": "samhenri.gold",
+      "source_date": "2026-03-13",
+      "page_title": "“This Is Not The Computer For You” · Sam Henri Gold",
+      "tags": [
+        "nonfiction-book",
+        "video"
+      ]
+    },
+    {
+      "id": 924,
+      "url": "https://sharif.io/looking-stupid",
+      "title": null,
+      "description": "Looking foolish is underrated",
+      "summary": "The author argues that willingness to look stupid is essential for creative work and good ideas. As people become more successful and established, they often become paralyzed by fear of failure and the pressure to maintain their reputation, causing them to stop producing anything at all—a phenomenon Richard Hamming observed in Nobel Prize winners. Drawing parallels to evolution's need to produce countless failed mutations to achieve success, the author contends that all genuinely good ideas initially sound foolish, and the only path to innovation is embracing the production of bad work. The solution is to shift from perfectionism toward consistent output, prioritizing sharing something over sharing something perfect.",
+      "domain": "sharif.io",
+      "source_date": "2026-03-13",
+      "page_title": "Willingness to look stupid is a genuine moat in creative work",
+      "tags": [
+        "nonfiction-book",
+        "video"
+      ]
+    },
+    {
+      "id": 930,
+      "url": "https://sitespy.app/",
+      "title": null,
+      "description": "Track website changes automatically",
+      "summary": "Site Spy is a website monitoring tool that automatically tracks webpages for content changes and notifies users instantly when updates occur, with visual diff highlighting showing exactly what was added or removed. The platform offers a free plan for tracking up to 5 websites hourly, paid tiers starting at €4/month for more watches and faster check intervals, and features including a web dashboard, browser extensions, element-specific tracking, and integration with AI assistants like Claude. Users can set up monitoring in under 30 seconds by creating an account, adding URLs, and receiving notifications through multiple channels including push notifications, email, and Telegram.",
+      "domain": "sitespy.app",
+      "source_date": "2026-03-11",
+      "page_title": "Site Spy - Website Change Tracker | Monitor Any Webpage",
+      "tags": [
+        "cli-tool",
+        "devops",
+        "web-dev"
+      ]
+    },
     {
       "id": 920,
       "url": "https://github.com/gcv/julia-snail",
@@ -13660,7 +13761,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 303
+      "count": 304
     },
     {
       "name": "ai",
@@ -13670,7 +13771,7 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 209
+      "count": 213
     },
     {
       "name": "academic-paper",
@@ -13680,12 +13781,17 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 162
+      "count": 164
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 149
+      "count": 151
+    },
+    {
+      "name": "github-repo",
+      "category": "technical_topic",
+      "count": 147
     },
     {
       "name": "llm",
@@ -13693,29 +13799,24 @@
       "count": 146
     },
     {
-      "name": "github-repo",
-      "category": "technical_topic",
-      "count": 146
-    },
-    {
       "name": "music",
       "category": "culture",
-      "count": 121
+      "count": 122
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 111
+      "count": 113
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 109
+      "count": 110
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 105
+      "count": 106
     },
     {
       "name": "python",
@@ -13725,12 +13826,12 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 87
+      "count": 88
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 73
+      "count": 74
     },
     {
       "name": "database",
@@ -13941,6 +14042,10 @@
       "count": 3
     },
     {
+      "domain": "medium.com",
+      "count": 3
+    },
+    {
       "domain": "stephango.com",
       "count": 3
     },
@@ -13963,6 +14068,10 @@
     {
       "domain": "youtu.be",
       "count": 3
+    },
+    {
+      "domain": "ben-mini.com",
+      "count": 2
     },
     {
       "domain": "blog.djhaskin.com",
@@ -14018,10 +14127,6 @@
     },
     {
       "domain": "matklad.github.io",
-      "count": 2
-    },
-    {
-      "domain": "medium.com",
       "count": 2
     },
     {
@@ -14230,10 +14335,6 @@
     },
     {
       "domain": "beej.us",
-      "count": 1
-    },
-    {
-      "domain": "ben-mini.com",
       "count": 1
     },
     {
@@ -14709,6 +14810,10 @@
       "count": 1
     },
     {
+      "domain": "gist.github.com",
+      "count": 1
+    },
+    {
       "domain": "github.github.io",
       "count": 1
     },
@@ -15153,6 +15258,10 @@
       "count": 1
     },
     {
+      "domain": "parametricavocado.itch.io",
+      "count": 1
+    },
+    {
       "domain": "parentheticallyspeaking.org",
       "count": 1
     },
@@ -15309,6 +15418,10 @@
       "count": 1
     },
     {
+      "domain": "samhenri.gold",
+      "count": 1
+    },
+    {
       "domain": "sandbox.bio",
       "count": 1
     },
@@ -15337,6 +15450,10 @@
       "count": 1
     },
     {
+      "domain": "sharif.io",
+      "count": 1
+    },
+    {
       "domain": "shenlanguage.org",
       "count": 1
     },
@@ -15358,6 +15475,10 @@
     },
     {
       "domain": "sites.stat.columbia.edu",
+      "count": 1
+    },
+    {
+      "domain": "sitespy.app",
       "count": 1
     },
     {
