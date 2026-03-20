@@ -1,6 +1,164 @@
 {
-  "exported_at": "2026-03-13T06:57:55.669422",
+  "exported_at": "2026-03-20T08:17:21.785126",
   "links": [
+    {
+      "id": 939,
+      "url": "https://aicode.swerdlow.dev/",
+      "title": null,
+      "description": "A programming manifesto for AI agents (and humans)",
+      "summary": "This manifesto provides guidelines for writing maintainable code when working with AI coding agents, emphasizing intentional code design through semantic functions (self-contained, minimal building blocks), pragmatic functions (complex wrappers for production logic), and well-designed data models that make invalid states impossible. The core principle is that code should be self-documenting through clear naming, proper function decomposition, and type safety, with additional practices like brand types and avoiding optional fields to prevent bugs from surfacing deep in the codebase rather than at construction.",
+      "domain": "aicode.swerdlow.dev",
+      "source_date": "2026-03-20",
+      "page_title": "AI Code",
+      "tags": [
+        "ai",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 938,
+      "url": "https://ayosec.github.io/ffmpeg-drawvg/",
+      "title": null,
+      "description": "drawvg filter for FFmpeg",
+      "summary": "The drawvg filter for FFmpeg (available since version 8.1) allows users to render vector graphics on top of video frames using a custom scripting language called VGS (Vector Graphics Script). VGS is designed to be concise and easy to use, with syntax inspired by PostScript, SVG, and other languages, and supports dynamic graphics through FFmpeg expressions for computing coordinates, accessing frame metadata, and reading pixel colors. The page provides practical examples demonstrating how to use drawvg for creating progress indicators, transitions, pixelization effects, and wave distortions by combining it with other FFmpeg filters.",
+      "domain": "ayosec.github.io",
+      "source_date": "2026-03-20",
+      "page_title": "FFmpeg - drawvg - FFmpeg - drawvg",
+      "tags": [
+        "cli-tool",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 937,
+      "url": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
+      "title": null,
+      "description": "arXiv spins off from Cornell as independent nonprofit",
+      "summary": "arXiv spins off from Cornell as independent nonprofit",
+      "domain": "www.science.org",
+      "source_date": "2026-03-20",
+      "page_title": null,
+      "tags": [
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 941,
+      "url": "https://terathon.com/blog/decade-slug.html",
+      "title": null,
+      "description": "Slug algorithm put into the public domain",
+      "summary": "Eric Lengyel reflects on the ten-year history of the Slug Algorithm, a GPU-based font rendering technique that directly renders text and vector graphics from Bézier curves without texture maps, which has become widely adopted across major video game studios and various industries. Since its 2017 publication and commercial release, the algorithm has undergone several refinements including the removal of band split optimization and supersampling for code simplification, and most significantly, the addition of dynamic dilation—a technique that automatically optimizes bounding polygon expansion to eliminate aliasing artifacts while minimizing wasted GPU resources. The post concludes with an announcement that the Slug algorithm has been placed into the public domain, allowing others to implement it for their own projects.",
+      "domain": "terathon.com",
+      "source_date": "2026-03-17",
+      "page_title": "A Decade of Slug - Eric Lengyel",
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 940,
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "title": null,
+      "description": "The American healthcare conundrum",
+      "summary": "This GitHub project investigates fixable waste in US healthcare by analyzing federal datasets to quantify unnecessary spending. So far, the analysis has identified $98.6 billion in annual savings across three issues: Medicare overpaying for over-the-counter drugs ($0.6B), US drug prices vastly exceeding peer nations' prices ($25B), and commercial insurers paying 254% of Medicare rates for identical procedures ($73B). All analyses use open-source code and primary federal data, with specific policy recommendations provided for each identified problem.",
+      "domain": "github.com",
+      "source_date": "2026-03-17",
+      "page_title": "GitHub - rexrodeo/american-healthcare-conundrum: Investigative data journalism: quantifying fixable waste in US healthcare, one issue at a time. Open-source analysis of CMS, OECD, and federal datasets. $98.6B in savings identified so far. · GitHub",
+      "tags": [
+        "github-repo",
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 932,
+      "url": "https://google.github.io/styleguide/lispguide.xml",
+      "title": null,
+      "description": "Google Common Lisp Style Guide",
+      "summary": "Google Common Lisp Style Guide",
+      "domain": "google.github.io",
+      "source_date": "2026-03-15",
+      "page_title": null,
+      "tags": [
+        "common-lisp",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 931,
+      "url": "https://atgreen.github.io/repl-yell/posts/sbcl-fibers/",
+      "title": null,
+      "description": "SBCL Fibers - Lightweight cooperative threads",
+      "summary": "SBCL Fibers is a work-in-progress implementation of lightweight cooperative threads for the SBCL Lisp compiler that enables efficient handling of concurrent I/O-bound workloads without the overhead of OS threads. The system allows thousands of fibers to share a small pool of carrier threads, with each fiber maintaining its own control stack (256 KB instead of 8 MB) and preserving sequential programming semantics while achieving event-driven efficiency. The implementation carefully handles Common Lisp's complex per-thread state, including dynamic bindings, non-local exits, and garbage collection integration, with features like fiber-aware blocking primitives, work-stealing schedulers, and platform-specific optimizations.",
+      "domain": "atgreen.github.io",
+      "source_date": "2026-03-15",
+      "page_title": "SBCL Fibers: Lightweight Cooperative Threads | REPL Yell!",
+      "tags": [
+        "common-lisp",
+        "distributed-systems",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 936,
+      "url": "https://lcamtuf.substack.com/p/you-gotta-think-outside-the-hypercube",
+      "title": null,
+      "description": "Thinking outside the hypercube",
+      "summary": "This article explains how to mathematically model and visualize a tesseract (four-dimensional hypercube) by building up from basic principles starting with a 2D square, then extending to a 3D cube, and finally to the 4D tesseract using constraint-based coordinate equations. The author then demonstrates how to rotate 4D objects and project them onto a 2D computer screen using various projection methods like cavalier and cabinet projection, each with different visual trade-offs. The piece provides a comprehensive technical guide to understanding what tesseract visualizations mean and how they're actually generated.",
+      "domain": "lcamtuf.substack.com",
+      "source_date": "2026-03-14",
+      "page_title": "You gotta think outside the hypercube - lcamtuf’s thing",
+      "tags": [
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 935,
+      "url": "https://batsov.com/articles/2026/03/09/emacs-and-vim-in-the-age-of-ai/",
+      "title": null,
+      "description": "Emacs and Vim in the age of AI",
+      "summary": "The article examines how AI tools are reshaping the future of traditional code editors like Emacs and Vim. While these editors face significant challenges from AI-integrated IDEs like VS Code and purpose-built AI editors like Cursor, they also have notable advantages: AI can dramatically flatten their steep learning curves by helping users troubleshoot errors, and it makes customization trivial by allowing developers to generate complex configurations and extensions in plain English rather than obscure languages like Elisp or VimScript. Despite being repeatedly written off over the decades, Emacs and Vim have proven remarkably resilient, and the author suggests their fate in the AI age is more nuanced than simple obsolescence or survival.",
+      "domain": "batsov.com",
+      "source_date": "2026-03-14",
+      "page_title": "Emacs and Vim in the Age of AI | (think)",
+      "tags": [
+        "ai",
+        "video"
+      ]
+    },
+    {
+      "id": 934,
+      "url": "http://karpathy.github.io/2016/09/07/phd/",
+      "title": null,
+      "description": "Andrej Karpathy - A PhD survival guide (2016)",
+      "summary": "Andrej Karpathy's PhD survival guide discusses whether pursuing a doctorate is worth considering, highlighting key advantages like freedom, ownership of research, personal growth, and the opportunity to become a leading expert in your field, while also warning of significant downsides including intense work pressure, isolation, failed experiments, and identity crises. He emphasizes that strong reference letters from professors are far more important than grades when applying to PhD programs, and advises gaining research experience as an undergraduate to determine if the demanding, unstructured environment is right for you before committing to a doctorate.",
+      "domain": "karpathy.github.io",
+      "source_date": "2026-03-14",
+      "page_title": "A Survival Guide to a PhD",
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 933,
+      "url": "https://github.com/Hammerspoon/hammerspoon?tab=readme-ov-file",
+      "title": null,
+      "description": "MacOS desktop automations with Lua",
+      "summary": "Hammerspoon is a macOS desktop automation tool that bridges the operating system with a Lua scripting engine, allowing users to control various aspects of their OS X environment through custom scripts. The tool is installed either manually or via Homebrew and requires users to create and configure a Lua initialization file to enable automation functionality. The project aims to provide broader system API coverage, better extension integration, and an improved user experience for desktop automation tasks.",
+      "domain": "github.com",
+      "source_date": "2026-03-14",
+      "page_title": "GitHub - Hammerspoon/hammerspoon: Staggeringly powerful macOS desktop automation with Lua · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "devops"
+      ]
+    },
     {
       "id": 929,
       "url": "https://medium.com/@brightcarvings/celebrating-flickr-technology-3c93c8ddecc2",
@@ -13761,37 +13919,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 304
+      "count": 309
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 216
+      "count": 218
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 213
+      "count": 214
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 178
+      "count": 183
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 164
+      "count": 166
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 151
+      "count": 153
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 147
+      "count": 149
     },
     {
       "name": "llm",
@@ -13806,7 +13964,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 113
+      "count": 114
     },
     {
       "name": "social-media",
@@ -13816,7 +13974,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 106
+      "count": 108
     },
     {
       "name": "python",
@@ -13826,7 +13984,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 88
+      "count": 89
     },
     {
       "name": "compilers",
@@ -13846,7 +14004,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 35
+      "count": 36
     },
     {
       "name": "politics",
@@ -13906,7 +14064,7 @@
     {
       "name": "common-lisp",
       "category": "programming_language",
-      "count": 8
+      "count": 10
     },
     {
       "name": "fiction-book",
@@ -13967,7 +14125,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 96
+      "count": 98
     },
     {
       "domain": "www.threads.net",
@@ -14042,6 +14200,10 @@
       "count": 3
     },
     {
+      "domain": "lcamtuf.substack.com",
+      "count": 3
+    },
+    {
       "domain": "medium.com",
       "count": 3
     },
@@ -14110,11 +14272,11 @@
       "count": 2
     },
     {
-      "domain": "kumo.ai",
+      "domain": "karpathy.github.io",
       "count": 2
     },
     {
-      "domain": "lcamtuf.substack.com",
+      "domain": "kumo.ai",
       "count": 2
     },
     {
@@ -14194,6 +14356,10 @@
       "count": 2
     },
     {
+      "domain": "www.science.org",
+      "count": 2
+    },
+    {
       "domain": "www.theatlantic.com",
       "count": 2
     },
@@ -14239,6 +14405,10 @@
     },
     {
       "domain": "agilescientific.com",
+      "count": 1
+    },
+    {
+      "domain": "aicode.swerdlow.dev",
       "count": 1
     },
     {
@@ -14302,6 +14472,10 @@
       "count": 1
     },
     {
+      "domain": "atgreen.github.io",
+      "count": 1
+    },
+    {
       "domain": "atlas9.dev",
       "count": 1
     },
@@ -14318,6 +14492,10 @@
       "count": 1
     },
     {
+      "domain": "ayosec.github.io",
+      "count": 1
+    },
+    {
       "domain": "babbagefiles.xyz",
       "count": 1
     },
@@ -14327,6 +14505,10 @@
     },
     {
       "domain": "backinbrooklynfeaturingjohnpatitucci.vhx.tv",
+      "count": 1
+    },
+    {
+      "domain": "batsov.com",
       "count": 1
     },
     {
@@ -14830,6 +15012,10 @@
       "count": 1
     },
     {
+      "domain": "google.github.io",
+      "count": 1
+    },
+    {
       "domain": "granda.org",
       "count": 1
     },
@@ -14935,10 +15121,6 @@
     },
     {
       "domain": "karpathy.ai",
-      "count": 1
-    },
-    {
-      "domain": "karpathy.github.io",
       "count": 1
     },
     {
@@ -15558,6 +15740,10 @@
       "count": 1
     },
     {
+      "domain": "terathon.com",
+      "count": 1
+    },
+    {
       "domain": "tgvaughan.github.io",
       "count": 1
     },
@@ -16027,10 +16213,6 @@
     },
     {
       "domain": "www.rtl-sdr.com",
-      "count": 1
-    },
-    {
-      "domain": "www.science.org",
       "count": 1
     },
     {
