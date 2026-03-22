@@ -1,6 +1,76 @@
 {
-  "exported_at": "2026-03-20T08:17:21.785126",
+  "exported_at": "2026-03-22T08:05:21.468345",
   "links": [
+    {
+      "id": 943,
+      "url": "https://www.royalbhati.com/hoptab",
+      "title": null,
+      "description": "HopTab - The workspace manager macOS should've shipped with",
+      "summary": "HopTab - The workspace manager macOS should've shipped with",
+      "domain": "www.royalbhati.com",
+      "source_date": "2026-03-22",
+      "page_title": null,
+      "tags": [
+        "cli-tool",
+        "devops"
+      ]
+    },
+    {
+      "id": 942,
+      "url": "https://grafeo.dev/",
+      "title": null,
+      "description": "A fast, lean, embeddable graph database built in Rust",
+      "summary": "Grafeo is a high-performance graph database written in Rust that supports both Labeled Property Graphs and RDF data models, offering the fastest performance on industry benchmarks with minimal memory footprint. It provides flexibility through support for multiple query languages (GQL, Cypher, Gremlin, GraphQL, SPARQL, and SQL), can be embedded directly into applications or run as a standalone server, and includes features like vector search, ACID transactions, and bindings for multiple programming languages. The database is designed for production workloads with memory-safe Rust code, full concurrency support, and an ecosystem that integrates with AI tools like LangChain and LlamaIndex.",
+      "domain": "grafeo.dev",
+      "source_date": "2026-03-22",
+      "page_title": "Grafeo - High-Performance Graph Database - Grafeo",
+      "tags": [
+        "database",
+        "rust",
+        "ai"
+      ]
+    },
+    {
+      "id": 946,
+      "url": "https://www.theboomloom.com/",
+      "title": null,
+      "description": "The bloom loom",
+      "summary": "The Boom Loom is an intuitive, compact weaving tool designed for people of all skill levels that eliminates the complexity of traditional looms by using simple bar turns to create various weave patterns and designs. Its user-friendly design requires no experience or technical knowledge, making it accessible for beginners while also serving as a practical tool for experienced weavers to sample and experiment with ideas. The lightweight, two-piece loom is backed by a 60-day satisfaction guarantee and comes with a supportive community for learning and creative exploration.",
+      "domain": "www.theboomloom.com",
+      "source_date": "2026-03-21",
+      "page_title": "boomloom",
+      "tags": []
+    },
+    {
+      "id": 945,
+      "url": "https://eric.mann.blog/why-one-key-shouldnt-rule-them-all-threshold-signatures-for-the-rest-of-us/",
+      "title": null,
+      "description": "Threshold signatures to make key-based encryption safer",
+      "summary": "Threshold signatures eliminate the single point of failure inherent in traditional private key systems by splitting a cryptographic key across multiple parties, requiring a minimum number to cooperate to create a valid signature. The DKLS23 protocol represents a significant advancement over earlier approaches like GG18 and GG20, using oblivious transfer instead of expensive homomorphic encryption to reduce communication rounds from six to three, making it practical for real-world applications including mobile devices. Developers managing private keys can benefit from this approach because compromised servers or stolen devices no longer grant attackers signing authority, with minimal performance overhead and seamless integration into existing cryptographic ecosystems.",
+      "domain": "eric.mann.blog",
+      "source_date": "2026-03-21",
+      "page_title": "Why One Key Shouldn’t Rule Them All: Threshold Signatures for the Rest of Us – Eric Mann's Blog",
+      "tags": [
+        "security",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 944,
+      "url": "https://zserge.com/posts/visicalc/",
+      "title": null,
+      "description": "VisiCalc in 500 lines of C",
+      "summary": "The article describes reconstructing VisiCalc, the pioneering 1979 spreadsheet software, as a minimal 500-line C implementation that captures the core functionality of spreadsheets through three main components: a data model for storing cell values and formulas, a recursive descent parser for evaluating mathematical expressions with cell references, and an automatic recalculation system. The author demonstrates how VisiCalc's elegant design—originally fitting in 16K of RAM—achieved its remarkable user experience by using simple techniques like full spreadsheet re-evaluation rather than complex dependency tracking, proving that efficient spreadsheets don't require sophisticated engineering.",
+      "domain": "zserge.com",
+      "source_date": "2026-03-21",
+      "page_title": "VisiCalc reconstructed",
+      "tags": [
+        "c",
+        "tutorial",
+        "compilers",
+        "academic-paper"
+      ]
+    },
     {
       "id": 939,
       "url": "https://aicode.swerdlow.dev/",
@@ -13919,12 +13989,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 309
+      "count": 310
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 218
+      "count": 219
     },
     {
       "name": "video",
@@ -13934,12 +14004,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 183
+      "count": 184
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 166
+      "count": 167
     },
     {
       "name": "web-dev",
@@ -13984,27 +14054,27 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 89
+      "count": 90
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 74
+      "count": 75
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 43
+      "count": 44
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 43
+      "count": 44
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 36
+      "count": 37
     },
     {
       "name": "politics",
@@ -14012,14 +14082,14 @@
       "count": 28
     },
     {
-      "name": "lisp",
+      "name": "c",
       "category": "programming_language",
       "count": 24
     },
     {
-      "name": "c",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 23
+      "count": 24
     },
     {
       "name": "javascript",
@@ -14029,7 +14099,7 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 19
+      "count": 20
     },
     {
       "name": "gaming",
@@ -14904,6 +14974,10 @@
       "count": 1
     },
     {
+      "domain": "eric.mann.blog",
+      "count": 1
+    },
+    {
       "domain": "essays.fnnch.com",
       "count": 1
     },
@@ -15013,6 +15087,10 @@
     },
     {
       "domain": "google.github.io",
+      "count": 1
+    },
+    {
+      "domain": "grafeo.dev",
       "count": 1
     },
     {
@@ -16212,6 +16290,10 @@
       "count": 1
     },
     {
+      "domain": "www.royalbhati.com",
+      "count": 1
+    },
+    {
       "domain": "www.rtl-sdr.com",
       "count": 1
     },
@@ -16253,6 +16335,10 @@
     },
     {
       "domain": "www.tfeb.org",
+      "count": 1
+    },
+    {
+      "domain": "www.theboomloom.com",
       "count": 1
     },
     {
@@ -16357,6 +16443,10 @@
     },
     {
       "domain": "yqnn.github.io",
+      "count": 1
+    },
+    {
+      "domain": "zserge.com",
       "count": 1
     }
   ]
