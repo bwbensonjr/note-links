@@ -1,6 +1,95 @@
 {
-  "exported_at": "2026-03-22T08:05:21.468345",
+  "exported_at": "2026-03-23T07:08:41.907038",
   "links": [
+    {
+      "id": 951,
+      "url": "https://github.com/oguzbilgic/agent-kernel",
+      "title": null,
+      "description": "Add statefullness to your coding agent",
+      "summary": "Agent Kernel is a lightweight tool that adds memory and statefulness to AI coding agents by using three markdown files and a git repository, eliminating the need for databases or frameworks. The system maintains two types of memory—knowledge files for current facts and notes for session narratives—which agents access through standard project instruction files they already read. Users can quickly set up a stateful agent by cloning the repository and pointing any AI coding agent (Claude, Cursor, etc.) to it, and can create multiple specialized agents by running the same kernel with different identities.",
+      "domain": "github.com",
+      "source_date": "2026-03-23",
+      "page_title": "GitHub - oguzbilgic/agent-kernel: Minimal kernel to make any AI coding agent stateful. Clone, point your agent, go. · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 950,
+      "url": "https://gzw1987-bit.github.io/iching-math/paper-en.html",
+      "title": null,
+      "description": "Cycle Decomposition of the King Wen Permutation",
+      "summary": "This paper analyzes the mathematical relationship between two orderings of the 64 I Ching hexagrams by treating the King Wen sequence as a permutation of the binary natural order and studying its cycle decomposition structure. Rather than debating historical causality, the authors frame the problem as a pure mathematical question about the structural distance between two independent orderings, using group theory to understand how the King Wen arrangement reorganizes the systematically ordered binary natural sequence. The analysis reveals previously unexplained organizational patterns in the ancient Chinese text through modern mathematical methods.",
+      "domain": "gzw1987-bit.github.io",
+      "source_date": "2026-03-23",
+      "page_title": "Cycle Decomposition [52, 10, 2] — Binary Natural Order → King Wen Sequence",
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 949,
+      "url": "https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/",
+      "title": null,
+      "description": "A guide to better architecture diagrams",
+      "summary": "System architecture diagrams are critical for documenting complex systems, but common mistakes can create confusion and misinterpretation. Key issues to avoid include failing to label resources by name, leaving resources unconnected, attempting to show everything in a single \"master\" diagram, oversimplifying behavioral diagrams into unrealistic linear flows, using distracting animations, losing relationship information through intermediate resources (fan traps), and relying on AI-generated diagrams from source code. The solution involves breaking complex systems into multiple focused perspectives, using appropriate diagram types like sequence diagrams for interactions, and maintaining clear labeling and connections throughout.",
+      "domain": "www.ilograph.com",
+      "source_date": "2026-03-23",
+      "page_title": "7 More Common Mistakes in Architecture Diagrams | Ilograph Blog",
+      "tags": [
+        "tutorial",
+        "devops",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 948,
+      "url": "https://armaansood.com/posts/systems-reading-group/",
+      "title": null,
+      "description": "Lessons from five years running a systems reading groups at Microsoft",
+      "summary": "The author describes their five-year experience running a systems reading group at Microsoft, which evolved from focusing on database internals to covering broader systems topics like datacenters and distributed systems. Key lessons include maintaining consistency over ambition, allowing the group's scope to grow organically, using guided series instead of one-off papers, embracing collaborative learning, and making attendance accessible for those unprepared. Beyond technical knowledge, the author found value in building connections across the company with like-minded engineers and researchers interested in systems topics.",
+      "domain": "armaansood.com",
+      "source_date": "2026-03-23",
+      "page_title": "Five Years of Running a Systems Reading Group at Microsoft",
+      "tags": [
+        "distributed-systems",
+        "database",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 947,
+      "url": "https://indieweb.org/POSSE",
+      "title": null,
+      "description": "The benefits of POSSE",
+      "summary": "POSSE (Publish On your own Site, Syndicate Elsewhere) is an IndieWeb practice where users post content on their own website first, then share copies or links to social media platforms while maintaining a link back to the original. This approach prioritizes content ownership, reduces dependency on third-party services, and ensures canonical URLs remain on the user's domain while allowing friends to engage through their preferred platforms. POSSE offers practical benefits like better search visibility, protection against content theft, and the ability to use social platforms' features while maintaining full control over original content.",
+      "domain": "indieweb.org",
+      "source_date": "2026-03-23",
+      "page_title": "POSSE - IndieWeb",
+      "tags": [
+        "web-dev",
+        "social-media"
+      ]
+    },
+    {
+      "id": 952,
+      "url": "https://github.com/GrafeoDB/grafeo-langchain",
+      "title": null,
+      "description": "grafeo-langchain - LangChain integration with Grafeo",
+      "summary": "Grafeo-langchain is a LangChain integration for GrafeoDB, an embedded graph database with native vector search capabilities that requires no server setup or configuration. It provides two main components: GrafeoGraphStore for storing and querying LLM-extracted knowledge graphs using GQL/Cypher, and GrafeoGraphVectorStore for hybrid retrieval combining vector similarity search with graph traversal for Graph RAG applications. Unlike Neo4j, Grafeo operates as a lightweight, serverless solution deployable as a single .db file with built-in graph algorithms and support for offline/edge use cases.",
+      "domain": "github.com",
+      "source_date": "2026-03-22",
+      "page_title": "GitHub - GrafeoDB/grafeo-langchain: LangChain integration for the Grafeo graph/vector database.  Provides GrafeoGraphStore and GrafeoGraphVectorStore for knowledge-graph storage and hybrid graph+vector retrieval inside LangChain pipelines. · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "database",
+        "python"
+      ]
+    },
     {
       "id": 943,
       "url": "https://www.royalbhati.com/hoptab",
@@ -39,7 +128,9 @@
       "domain": "www.theboomloom.com",
       "source_date": "2026-03-21",
       "page_title": "boomloom",
-      "tags": []
+      "tags": [
+        "video"
+      ]
     },
     {
       "id": 945,
@@ -13989,42 +14080,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 310
+      "count": 311
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 219
+      "count": 220
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 214
+      "count": 215
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 184
+      "count": 186
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 167
+      "count": 168
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 153
+      "count": 154
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 149
+      "count": 151
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 146
+      "count": 148
     },
     {
       "name": "music",
@@ -14039,7 +14130,7 @@
     {
       "name": "social-media",
       "category": "culture",
-      "count": 110
+      "count": 111
     },
     {
       "name": "news",
@@ -14049,12 +14140,12 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 98
+      "count": 99
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 90
+      "count": 91
     },
     {
       "name": "compilers",
@@ -14064,7 +14155,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 44
+      "count": 46
     },
     {
       "name": "security",
@@ -14074,7 +14165,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 37
+      "count": 39
     },
     {
       "name": "politics",
@@ -14195,7 +14286,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 98
+      "count": 100
     },
     {
       "domain": "www.threads.net",
@@ -14527,6 +14618,10 @@
     },
     {
       "domain": "archives.loomcom.com",
+      "count": 1
+    },
+    {
+      "domain": "armaansood.com",
       "count": 1
     },
     {
@@ -15102,6 +15197,10 @@
       "count": 1
     },
     {
+      "domain": "gzw1987-bit.github.io",
+      "count": 1
+    },
+    {
       "domain": "harmonique.one",
       "count": 1
     },
@@ -15151,6 +15250,10 @@
     },
     {
       "domain": "iment.com",
+      "count": 1
+    },
+    {
+      "domain": "indieweb.org",
       "count": 1
     },
     {
@@ -16143,6 +16246,10 @@
     },
     {
       "domain": "www.huygens-fokker.org",
+      "count": 1
+    },
+    {
+      "domain": "www.ilograph.com",
       "count": 1
     },
     {
