@@ -1,6 +1,158 @@
 {
-  "exported_at": "2026-03-24T06:57:57.757064",
+  "exported_at": "2026-03-27T07:20:42.104826",
   "links": [
+    {
+      "id": 965,
+      "url": "https://www.nybooks.com/articles/2026/04/09/in-defense-of-algebra-paul-lockhart/",
+      "title": null,
+      "description": "In defense of algebra",
+      "summary": "Dan Rockmore reviews Paul Lockhart's books defending algebra and mathematics education, arguing that mathematics is an art form rather than merely a tool for science. Lockhart critiques the standard K-12 mathematics curriculum for reducing math to sterile memorization and procedures, instead advocating for an approach centered on curiosity, play, and direct engagement with mathematical ideas. Through his series of books, Lockhart attempts to repair the emotional and intellectual damage caused by traditional math education and help readers discover the beauty and creativity inherent in mathematics.",
+      "domain": "www.nybooks.com",
+      "source_date": "2026-03-27",
+      "page_title": "In Defense of Algebra | Dan Rockmore | The New York Review of Books",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 964,
+      "url": "https://code.claude.com/docs/en/web-scheduled-tasks",
+      "title": null,
+      "description": "Scheduling tasks on the web",
+      "summary": "Claude Code allows users to schedule recurring tasks on the web that run automatically on Anthropic's cloud infrastructure, even when your computer is off. You can create scheduled tasks to automate work like reviewing pull requests, analyzing CI failures, or running dependency audits at frequencies ranging from hourly to weekly. Tasks are configured through a web form, CLI, or desktop app where you specify the prompt, GitHub repositories, environment variables, MCP connectors, and schedule timing.",
+      "domain": "code.claude.com",
+      "source_date": "2026-03-27",
+      "page_title": "Schedule tasks on the web - Claude Code Docs",
+      "tags": [
+        "cli-tool",
+        "devops",
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 963,
+      "url": "https://github.com/alefore/mini_svg/?tab=readme-ov-file",
+      "title": null,
+      "description": "mini_svg - Simple py logic to generate SVG visualizations of scientific data",
+      "summary": "mini_svg is a Python library that generates SVG visualizations for scientific data, supporting plot types including box plots, scatterplots, histograms, and line plots. It offers two main interfaces: a command-line tool that accepts JSON parameters and a Python API for in-process usage. The library is designed to be lightweight and simple for creating scientific data visualizations.",
+      "domain": "github.com",
+      "source_date": "2026-03-27",
+      "page_title": "GitHub - alefore/mini_svg: Py library to generate SVG visualizations of scientific data · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "cli-tool",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 962,
+      "url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
+      "title": null,
+      "description": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "summary": "The page describes how Reco used AI to rewrite JSONata in a single day, achieving significant cost savings of $500K annually. While the full details of the rewrite aren't provided in the visible content, the page showcases Reco's broader work in AI-driven security solutions, including automating insider threat investigations and providing visibility into AI agents operating in SaaS environments. The company focuses on leveraging AI and automation to improve security efficiency and reduce manual investigation time across enterprise systems.",
+      "domain": "www.reco.ai",
+      "source_date": "2026-03-27",
+      "page_title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year | Reco",
+      "tags": [
+        "ai",
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "id": 961,
+      "url": "https://dobase.co/",
+      "title": null,
+      "description": "Dobase - Open source productivity suite",
+      "summary": "Dobase is an open-source, self-hosted productivity suite that consolidates eight tools—including email, kanban boards, documents, chat, tasks, file storage, calendar, and video conferencing—into a single unified workspace. It prioritizes user privacy and control by running entirely on your own server with no tracking or third-party data sharing, while offering features like real-time collaboration, keyboard shortcuts, and two-factor authentication. The platform is free to use, easy to deploy with Docker, and allows you to install only the tools you need while maintaining complete ownership of your data.",
+      "domain": "dobase.co",
+      "source_date": "2026-03-27",
+      "page_title": "Dobase — Your workspace, your server",
+      "tags": [
+        "github-repo",
+        "devops",
+        "web-dev",
+        "database"
+      ]
+    },
+    {
+      "id": 960,
+      "url": "https://en.wikipedia.org/wiki/Bitstream_Charter",
+      "title": null,
+      "description": "Bitstream Charter typeface",
+      "summary": "Bitstream Charter is a serif typeface designed by Matthew Carter in 1987 that was originally optimized for low-resolution laser printers but remains highly legible on modern devices due to its simplified, economical design based on 18th-century characters by Pierre-Simon Fournier. In 1992, Bitstream donated the font to the X Consortium under an open-source license, resulting in derivatives like Charis SIL and making it one of the most respected free fonts available. The typeface influenced Carter's later design of Georgia for Microsoft and continues to be widely used as a system font on various operating systems.",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-03-27",
+      "page_title": "Bitstream Charter - Wikipedia",
+      "tags": [
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 959,
+      "url": "https://library.oapen.org/bitstream/handle/20.500.12657/53344/978-3-030-90984-0.pdf?sequence=1&isAllowed=y",
+      "title": null,
+      "description": "The legibility of Sans Serif and Serif typefaces",
+      "summary": "This academic brief by John T. E. Richardson examines the legibility of serif and sans serif typefaces across both printed paper and digital screens, presenting research findings on how different typeface characteristics affect reading performance and comprehension. The work systematically reviews both objective measurement methods (such as reading speed and accuracy) and subjective assessments of typeface legibility, while exploring historical typographic conventions and contemporary design practices. The research addresses longstanding debates in typography about whether serifs genuinely enhance readability or are merely decorative elements, providing evidence-based insights relevant to educational materials and digital content design.",
+      "domain": "library.oapen.org",
+      "source_date": "2026-03-27",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 958,
+      "url": "https://micahkepe.com/blog/jsongrep/",
+      "title": null,
+      "description": "jsongrep - Fast, DFA-based JSON search",
+      "summary": "jsongrep is a fast JSON search tool that uses a DFA (deterministic finite automaton) based query engine to outperform competitors like jq, jmespath, and jsonpath-rust. Unlike traditional JSON query tools that interpret queries recursively, jsongrep compiles queries into a DFA at compile time and then walks the JSON document tree exactly once with O(1) state transitions per edge, eliminating backtracking and enabling single-pass searching. The tool treats JSON documents as trees where keys and indices are edges, allowing queries to be expressed as regular expressions over these paths.",
+      "domain": "micahkepe.com",
+      "source_date": "2026-03-27",
+      "page_title": "jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}",
+      "tags": [
+        "cli-tool",
+        "rust",
+        "compilers",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 966,
+      "url": "https://whoami.wiki/blog/personal-encyclopedias",
+      "title": null,
+      "description": "Personal Encyclopedias",
+      "summary": "The author created a personal Wikipedia-style encyclopedia documenting family history by organizing physical photographs with his grandmother's oral accounts, then expanded the project to digitize and catalog personal memories from photos, videos, and data exports using AI language models. By leveraging MediaWiki's powerful architecture and Claude's ability to cross-reference multiple data sources—from location history to bank transactions to message archives—he discovered forgotten details and connections across decades of personal history. What began as preserving family wedding photos evolved into a comprehensive personal knowledge system that surfaces meaningful patterns and stories from one's own life that would otherwise remain fragmented across different platforms and forgotten over time.",
+      "domain": "whoami.wiki",
+      "source_date": "2026-03-26",
+      "page_title": "Personal Encyclopedias — whoami.wiki",
+      "tags": [
+        "ai",
+        "llm",
+        "database",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 967,
+      "url": "https://codewithkira.com/2024-07-18-tablecloth-dplyr-pandas-polars.html",
+      "title": null,
+      "description": "Data Manipulation in Clojure Compared to R and Python",
+      "summary": "This article compares data manipulation libraries across Clojure, R (tidyverse/dplyr), Python (Pandas), and Polars using the Palmer Penguin dataset as an example. It provides side-by-side code comparisons for common data science tasks like reading data, exploring datasets, filtering rows, and selecting columns, highlighting how tablecloth (Clojure's primary data manipulation library) approaches these operations differently from other ecosystems. The comparison is designed to help developers transitioning from R or Python understand Clojure's functional programming paradigm and how its libraries handle data manipulation.",
+      "domain": "codewithkira.com",
+      "source_date": "2026-03-24",
+      "page_title": "Data Manipulation in Clojure Compared to R and Python",
+      "tags": [
+        "clojure",
+        "python",
+        "tutorial",
+        "database"
+      ]
+    },
     {
       "id": 954,
       "url": "https://proofshot.argil.io/",
@@ -14156,12 +14308,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 313
+      "count": 317
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 223
+      "count": 225
     },
     {
       "name": "video",
@@ -14171,27 +14323,27 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 186
+      "count": 188
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 173
+      "count": 176
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 155
+      "count": 159
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 152
+      "count": 154
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 148
+      "count": 149
     },
     {
       "name": "music",
@@ -14201,7 +14353,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 115
+      "count": 117
     },
     {
       "name": "social-media",
@@ -14216,27 +14368,27 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 99
+      "count": 101
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 94
+      "count": 97
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 75
+      "count": 76
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 46
+      "count": 49
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 44
+      "count": 45
     },
     {
       "name": "distributed-systems",
@@ -14266,7 +14418,7 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 20
+      "count": 21
     },
     {
       "name": "gaming",
@@ -14314,12 +14466,12 @@
       "count": 7
     },
     {
-      "name": "go",
+      "name": "clojure",
       "category": "programming_language",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "clojure",
+      "name": "go",
       "category": "programming_language",
       "count": 5
     },
@@ -14362,7 +14514,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 101
+      "count": 102
     },
     {
       "domain": "www.threads.net",
@@ -14437,6 +14589,10 @@
       "count": 3
     },
     {
+      "domain": "en.wikipedia.org",
+      "count": 3
+    },
+    {
       "domain": "lcamtuf.substack.com",
       "count": 3
     },
@@ -14486,10 +14642,6 @@
     },
     {
       "domain": "dl.acm.org",
-      "count": 2
-    },
-    {
-      "domain": "en.wikipedia.org",
       "count": 2
     },
     {
@@ -14582,6 +14734,10 @@
     },
     {
       "domain": "www.npr.org",
+      "count": 2
+    },
+    {
+      "domain": "www.nybooks.com",
       "count": 2
     },
     {
@@ -14937,7 +15093,15 @@
       "count": 1
     },
     {
+      "domain": "code.claude.com",
+      "count": 1
+    },
+    {
       "domain": "codemic.io",
+      "count": 1
+    },
+    {
+      "domain": "codewithkira.com",
       "count": 1
     },
     {
@@ -15082,6 +15246,10 @@
     },
     {
       "domain": "dmitrybrant.com",
+      "count": 1
+    },
+    {
+      "domain": "dobase.co",
       "count": 1
     },
     {
@@ -15437,6 +15605,10 @@
       "count": 1
     },
     {
+      "domain": "library.oapen.org",
+      "count": 1
+    },
+    {
       "domain": "lief.re",
       "count": 1
     },
@@ -15534,6 +15706,10 @@
     },
     {
       "domain": "meodai.github.io",
+      "count": 1
+    },
+    {
+      "domain": "micahkepe.com",
       "count": 1
     },
     {
@@ -16117,6 +16293,10 @@
       "count": 1
     },
     {
+      "domain": "whoami.wiki",
+      "count": 1
+    },
+    {
       "domain": "wiki.openstreetmap.org",
       "count": 1
     },
@@ -16437,10 +16617,6 @@
       "count": 1
     },
     {
-      "domain": "www.nybooks.com",
-      "count": 1
-    },
-    {
       "domain": "www.openpa.net",
       "count": 1
     },
@@ -16478,6 +16654,10 @@
     },
     {
       "domain": "www.raptitude.com",
+      "count": 1
+    },
+    {
+      "domain": "www.reco.ai",
       "count": 1
     },
     {
