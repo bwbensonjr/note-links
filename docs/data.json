@@ -1,6 +1,98 @@
 {
-  "exported_at": "2026-03-27T07:20:42.104826",
+  "exported_at": "2026-03-30T06:59:23.207100",
   "links": [
+    {
+      "id": 970,
+      "url": "https://github.com/white-flame/am",
+      "title": null,
+      "description": "Douglas Lenat's Automated Mathematician Source Code",
+      "summary": "This GitHub repository contains the restored source code for Douglas Lenat's AM (Automated Mathematician), a landmark AI system from 1977 originally developed on a PDP-10 computer using Interlisp. The code has been extracted from the SAILDART archive and includes the original execution environment details, documentation, and notes on loading the various component files, with the software being in the public domain as it was government-funded through ARPA.",
+      "domain": "github.com",
+      "source_date": "2026-03-30",
+      "page_title": "GitHub - white-flame/am: Douglas Lenat's AM (Automated Mathematician) from SAIL archives circa 1977 · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "lisp",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 969,
+      "url": "https://dani2442.github.io/posts/continuous-rl/",
+      "title": null,
+      "description": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
+      "summary": "The blog post explores the mathematical foundations connecting the Hamilton-Jacobi-Bellman (HJB) equation—a principle from optimal control theory dating back to Richard Bellman's 1952 work on dynamic programming—to modern applications in continuous-time reinforcement learning and diffusion models. The author derives the HJB equation for both deterministic and stochastic controlled systems, showing how it generalizes the discrete-time Bellman equation to continuous settings with noise, and demonstrates how this framework naturally unifies several machine learning topics including stochastic optimal control and generative model training. The post emphasizes that this classical mathematical structure provides a principled foundation for understanding and solving modern reinforcement learning problems through policy iteration and other optimization techniques.",
+      "domain": "dani2442.github.io",
+      "source_date": "2026-03-30",
+      "page_title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models | dani2442's Blog",
+      "tags": [
+        "ai",
+        "academic-paper",
+        "tutorial",
+        "llm"
+      ]
+    },
+    {
+      "id": 968,
+      "url": "https://blog.lysk.tech/excalidraw-frame-export/",
+      "title": null,
+      "description": "Using excalidraw to manage blog images",
+      "summary": "Martin Lysk automated his blog image management by creating a custom Excalidraw VSCode extension that automatically exports frames as SVGs in both light and dark modes whenever he makes edits. After initially using a GitHub Action workflow that was slow and required pushing changes to see results, he developed a more efficient local solution where he simply wraps design elements in frames with an \"export_\" prefix, and the extension instantly generates the corresponding SVG files for use in his blog posts.",
+      "domain": "blog.lysk.tech",
+      "source_date": "2026-03-30",
+      "page_title": "How I manage Images for my Blog | Martin Lysk",
+      "tags": [
+        "web-dev",
+        "devops",
+        "cli-tool",
+        "typescript"
+      ]
+    },
+    {
+      "id": 971,
+      "url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+      "title": null,
+      "description": "What if AI doesn’t need more RAM but better math?",
+      "summary": "Google's TurboQuant algorithm addresses AI's memory bottleneck through mathematical compression rather than hardware expansion, achieving 6x reduction in KV cache memory with no accuracy loss. The two-stage algorithm converts vector representations from Cartesian to polar coordinates for efficient compression, then applies error correction to maintain precision without additional memory overhead. This breakthrough could significantly impact the AI infrastructure landscape by enabling longer context windows and more efficient inference without requiring larger GPU memory or additional hardware investment.",
+      "domain": "adlrocha.substack.com",
+      "source_date": "2026-03-29",
+      "page_title": "@adlrocha - What if AI doesn’t need more RAM but better math?",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 972,
+      "url": "https://jai.scs.stanford.edu/",
+      "title": null,
+      "description": "jai - File system containment for AI agents",
+      "summary": "jai is a lightweight Linux tool that provides effortless containment for AI agents by creating a sandboxed environment with minimal setup, addressing real incidents where AI tools have accidentally deleted files and corrupted user systems. It works by prefixing commands with \"jai\" to give agents access only to the working directory while protecting the rest of the home directory through copy-on-write overlays or complete isolation, depending on the selected mode. The tool fills the gap between trusting AI agents with full system access and the overhead of setting up containers or VMs, making safe AI agent usage practical for everyday workflows.",
+      "domain": "jai.scs.stanford.edu",
+      "source_date": "2026-03-28",
+      "page_title": "jai - easy containment for AI agents",
+      "tags": [
+        "ai",
+        "security",
+        "cli-tool",
+        "devops"
+      ]
+    },
+    {
+      "id": 973,
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2847011",
+      "title": null,
+      "description": "Embracing Bayesian methods in clinical trials",
+      "summary": "Embracing Bayesian methods in clinical trials",
+      "domain": "jamanetwork.com",
+      "source_date": "2026-03-27",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
     {
       "id": 965,
       "url": "https://www.nybooks.com/articles/2026/04/09/in-defense-of-algebra-paul-lockhart/",
@@ -14308,12 +14400,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 317
+      "count": 318
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 225
+      "count": 229
     },
     {
       "name": "video",
@@ -14323,27 +14415,27 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 188
+      "count": 192
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 176
+      "count": 178
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 159
+      "count": 160
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 154
+      "count": 155
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 149
+      "count": 151
     },
     {
       "name": "music",
@@ -14373,7 +14465,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 97
+      "count": 99
     },
     {
       "name": "compilers",
@@ -14388,7 +14480,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 45
+      "count": 46
     },
     {
       "name": "distributed-systems",
@@ -14401,12 +14493,12 @@
       "count": 28
     },
     {
-      "name": "c",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 24
+      "count": 25
     },
     {
-      "name": "lisp",
+      "name": "c",
       "category": "programming_language",
       "count": 24
     },
@@ -14428,7 +14520,7 @@
     {
       "name": "typescript",
       "category": "programming_language",
-      "count": 13
+      "count": 14
     },
     {
       "name": "scheme",
@@ -14514,7 +14606,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 102
+      "count": 103
     },
     {
       "domain": "www.threads.net",
@@ -14789,6 +14881,10 @@
       "count": 1
     },
     {
+      "domain": "adlrocha.substack.com",
+      "count": 1
+    },
+    {
       "domain": "aelerinya.substack.com",
       "count": 1
     },
@@ -14974,6 +15070,10 @@
     },
     {
       "domain": "blog.lorenzano.eu",
+      "count": 1
+    },
+    {
+      "domain": "blog.lysk.tech",
       "count": 1
     },
     {
@@ -15182,6 +15282,10 @@
     },
     {
       "domain": "daeus.blog",
+      "count": 1
+    },
+    {
+      "domain": "dani2442.github.io",
       "count": 1
     },
     {
@@ -15513,11 +15617,19 @@
       "count": 1
     },
     {
+      "domain": "jai.scs.stanford.edu",
+      "count": 1
+    },
+    {
       "domain": "jakobemmerling.de",
       "count": 1
     },
     {
       "domain": "jakub.kr",
+      "count": 1
+    },
+    {
+      "domain": "jamanetwork.com",
       "count": 1
     },
     {
