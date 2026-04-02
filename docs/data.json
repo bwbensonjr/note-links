@@ -1,6 +1,80 @@
 {
-  "exported_at": "2026-03-30T06:59:23.207100",
+  "exported_at": "2026-04-02T07:13:29.136671",
   "links": [
+    {
+      "id": 974,
+      "url": "https://blogit.michelin.io/clojure-programming/",
+      "title": null,
+      "description": "Bringing Clojure programming to the enterprise",
+      "summary": "The author describes implementing Clojure, a functional Lisp-based language running on the JVM, for building a reference data system in a manufacturing enterprise despite initial skepticism. Key advantages that drove the decision include Clojure's \"code-as-data\" semantics enabling easy creation of Domain Specific Languages for business logic, its REPL environment facilitating rapid interactive development and prototyping, and seamless Java interoperability for integration with existing Spring Boot infrastructure. The author recommends a gradual adoption approach, starting with prototyping to manage team skill development while leveraging Clojure's powerful data manipulation capabilities.",
+      "domain": "blogit.michelin.io",
+      "source_date": "2026-04-02",
+      "page_title": "Bringing Clojure programming to Enterprise",
+      "tags": [
+        "clojure",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 975,
+      "url": "https://github.com/yannick-cw/korb",
+      "title": null,
+      "description": "REWE delivery CLI",
+      "summary": "Korb is a CLI tool written in Haskell that enables programmatic interaction with REWE's grocery delivery APIs to create and order shopping baskets for pickup at local markets. The tool outputs all results in JSON format and is designed to be used by AI agents to automate grocery shopping workflows, supporting features like product search, basket management, timeslot selection, and order history tracking. Installation is straightforward via pre-built binaries for macOS and Linux, and the project includes formal verification of its suggestion engine using Lean 4 proofs.",
+      "domain": "github.com",
+      "source_date": "2026-04-01",
+      "page_title": "GitHub - yannick-cw/korb: REWE delivery CLI · GitHub",
+      "tags": [
+        "cli-tool",
+        "haskell",
+        "github-repo",
+        "ai"
+      ]
+    },
+    {
+      "id": 978,
+      "url": "https://solvespace.com/webver.pl",
+      "title": null,
+      "description": "Solvespace parametric 3D CAD in the browser",
+      "summary": "SolveSpace is a parametric 2D/3D CAD software that has been experimentally ported to run in web browsers using emscripten, allowing users to work with smaller models directly in their browser without network dependencies. While the web version experiences some performance degradation and contains bugs compared to the desktop version, it remains functional for many use cases and can be self-hosted as static web content. The experimental nature of this release means users may encounter issues specific to the browser version, though bug reports are welcomed.",
+      "domain": "solvespace.com",
+      "source_date": "2026-03-31",
+      "page_title": "SolveSpace - Experimental Web Version",
+      "tags": [
+        "emulator",
+        "web-dev",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 977,
+      "url": "https://www.pbs.org/show/henry-david-thoreau/",
+      "title": null,
+      "description": "PBS Thoreau documentary",
+      "summary": "This PBS documentary examines Henry David Thoreau's profound influence on modern environmentalism and nonviolent resistance, moving beyond popular myths to reveal the complex, flawed human behind iconic works like *Walden* and *Civil Disobedience*. The film explores how Thoreau's ideas about justice, planetary health, and meaningful living remain urgently relevant today, while also addressing the complexities of his views on race, gender, and marginalized peoples. Directed by Erik Ewers and Christopher Loren Ewers and executive produced by Ken Burns, the series demonstrates how Thoreau's philosophy connects the fight for social justice with humanity's relationship to nature.",
+      "domain": "www.pbs.org",
+      "source_date": "2026-03-31",
+      "page_title": "Henry David Thoreau | PBS",
+      "tags": [
+        "video",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 976,
+      "url": "https://www.youtube.com/watch?v=JJEyffSdBsk",
+      "title": null,
+      "description": "Clojure: The Movie (trailer)",
+      "summary": "I don't have access to the actual video content or detailed description from this YouTube page. Based on the title alone, this appears to be an official trailer for a documentary about Clojure (a programming language) that was set to release on April 16th. To provide an accurate summary of the main topics and key takeaways, I would need access to the video itself or a full description of its contents.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-03-31",
+      "page_title": "Clojure: The Documentary [OFFICIAL TRAILER] | Coming April 16th! 🚨 - YouTube",
+      "tags": [
+        "clojure",
+        "video"
+      ]
+    },
     {
       "id": 970,
       "url": "https://github.com/white-flame/am",
@@ -14400,17 +14474,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 318
+      "count": 319
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 229
+      "count": 230
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 215
+      "count": 217
     },
     {
       "name": "academic-paper",
@@ -14420,17 +14494,17 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 178
+      "count": 180
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 160
+      "count": 162
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 155
+      "count": 156
     },
     {
       "name": "llm",
@@ -14445,7 +14519,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 117
+      "count": 118
     },
     {
       "name": "social-media",
@@ -14523,13 +14597,13 @@
       "count": 14
     },
     {
-      "name": "scheme",
-      "category": "programming_language",
-      "count": 13
-    },
-    {
       "name": "emulator",
       "category": "technical_topic",
+      "count": 14
+    },
+    {
+      "name": "scheme",
+      "category": "programming_language",
       "count": 13
     },
     {
@@ -14548,6 +14622,11 @@
       "count": 10
     },
     {
+      "name": "clojure",
+      "category": "programming_language",
+      "count": 8
+    },
+    {
       "name": "fiction-book",
       "category": "culture",
       "count": 8
@@ -14556,11 +14635,6 @@
       "name": "movie",
       "category": "culture",
       "count": 7
-    },
-    {
-      "name": "clojure",
-      "category": "programming_language",
-      "count": 6
     },
     {
       "name": "go",
@@ -14573,14 +14647,14 @@
       "count": 5
     },
     {
-      "name": "sql",
+      "name": "haskell",
       "category": "programming_language",
       "count": 4
     },
     {
-      "name": "haskell",
+      "name": "sql",
       "category": "programming_language",
-      "count": 3
+      "count": 4
     },
     {
       "name": "cpp",
@@ -14606,7 +14680,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 103
+      "count": 104
     },
     {
       "domain": "www.threads.net",
@@ -14617,11 +14691,11 @@
       "count": 26
     },
     {
-      "domain": "simonwillison.net",
-      "count": 21
+      "domain": "www.youtube.com",
+      "count": 22
     },
     {
-      "domain": "www.youtube.com",
+      "domain": "simonwillison.net",
       "count": 21
     },
     {
@@ -15090,6 +15164,10 @@
     },
     {
       "domain": "blog.swgillespie.me",
+      "count": 1
+    },
+    {
+      "domain": "blogit.michelin.io",
       "count": 1
     },
     {
@@ -16241,6 +16319,10 @@
       "count": 1
     },
     {
+      "domain": "solvespace.com",
+      "count": 1
+    },
+    {
       "domain": "spencer.wtf",
       "count": 1
     },
@@ -16742,6 +16824,10 @@
     },
     {
       "domain": "www.paulgraham.com",
+      "count": 1
+    },
+    {
+      "domain": "www.pbs.org",
       "count": 1
     },
     {
