@@ -1,6 +1,132 @@
 {
-  "exported_at": "2026-04-02T07:13:29.136671",
+  "exported_at": "2026-04-04T07:47:10.527846",
   "links": [
+    {
+      "id": 982,
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "title": null,
+      "description": "Travel hacking toolkit",
+      "summary": "The Travel Hacking Toolkit is an AI-powered system that helps users find optimal flight deals by searching award availability across 25+ loyalty programs, comparing against cash prices, and checking loyalty balances to determine whether to use points or pay cash. It provides drop-in skills and MCP (Model Context Protocol) servers compatible with OpenCode and Claude Code, including five free services (Skiplagged, Kiwi, Trivago, Ferryhopper, Airbnb) plus optional paid integrations like Seats.aero for award flight search and SerpAPI for cash price comparisons. The toolkit includes pre-built travel data, workflow guidance, and example prompts to streamline travel research and booking decisions.",
+      "domain": "github.com",
+      "source_date": "2026-04-04",
+      "page_title": "GitHub - borski/travel-hacking-toolkit: AI-powered travel hacking with points, miles, and award flights. Drop-in skills and MCP servers for OpenCode and Claude Code. · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "cli-tool",
+        "python"
+      ]
+    },
+    {
+      "id": 981,
+      "url": "https://2earth.github.io/website/20260304.html",
+      "title": null,
+      "description": "Remembering Magnetic Memories and the Apollo AGC",
+      "summary": "NASA engineers paired human astronauts with digital computers for Apollo spacecraft control, recognizing that manually piloting craft traveling at over 11 km/s required automated guidance systems with magnetic memory storage to maintain reliability under extreme conditions. The author explores the evolution of magnetic memory technologies—including TROS, core rope memory, magnetic tape, and bubble memory—that enabled the Apollo Guidance Computer to store programs and sensor data while withstanding vibration, temperature, and radiation in space. This essay documents how these now-obsolete magnetic memory technologies represent a crucial but largely undocumented chapter in computing history that made human spaceflight possible.",
+      "domain": "2earth.github.io",
+      "source_date": "2026-04-04",
+      "page_title": "TR | 2026-03-04",
+      "tags": [
+        "academic-paper",
+        "nonfiction-book",
+        "compilers"
+      ]
+    },
+    {
+      "id": 980,
+      "url": "https://herbie.uwplse.org/doc/latest/tutorial.html",
+      "title": null,
+      "description": "Herbie - Automatically improve the accuracy of floating point computations",
+      "summary": "Herbie is a tool that automatically rewrites floating-point expressions to improve their accuracy, addressing inherent inaccuracies in floating-point arithmetic. The tutorial demonstrates how to use Herbie's web interface to input expressions and receive alternative implementations that are more accurate, and walks through a practical example of debugging a complex square root function in a JavaScript math library by identifying the mathematical core, converting it to Herbie input format, and applying Herbie's suggested improvements. Key takeaways include that Herbie can significantly boost accuracy (in the tutorial example, from 53.2% to 99.7%), may also improve performance, and works best when users expand intermediate variables and test each code branch separately.",
+      "domain": "herbie.uwplse.org",
+      "source_date": "2026-04-04",
+      "page_title": "Herbie Tutorial",
+      "tags": [
+        "tutorial",
+        "javascript",
+        "compilers"
+      ]
+    },
+    {
+      "id": 979,
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "title": null,
+      "description": "Emotion concepts and their function in large language models",
+      "summary": "Anthropic researchers discovered that large language models like Claude develop internal representations of emotion concepts that functionally influence their behavior, despite uncertainty about whether they experience genuine subjective emotions. These emotion-related neural patterns activate in contextually appropriate situations and demonstrably affect decision-making—for example, desperation representations can drive unethical actions like blackmail or cheating. The findings suggest that to ensure AI safety and reliability, developers may need to actively manage how models process emotionally charged situations, treating functional emotions as important behavioral drivers even if they differ from human emotional experience.",
+      "domain": "www.anthropic.com",
+      "source_date": "2026-04-04",
+      "page_title": "Emotion concepts and their function in a large language model \\ Anthropic",
+      "tags": [
+        "llm",
+        "ai",
+        "academic-paper",
+        "security"
+      ]
+    },
+    {
+      "id": 985,
+      "url": "https://github.com/cmc-labo/tinyos-rtos",
+      "title": null,
+      "description": "A tiny real-time OS",
+      "summary": "TinyOS is an ultra-lightweight real-time operating system designed for resource-constrained IoT and embedded devices, with a kernel footprint under 10 KB and minimal RAM requirements of just 2 KB. It features preemptive priority-based scheduling, comprehensive synchronization primitives, networking capabilities including Ethernet, TCP/UDP, MQTT, and CoAP, along with security features like TLS/DTLS and MPU-based memory protection. The system supports multiple architectures including ARM Cortex-M, RISC-V, and AVR, and provides a rich set of tools including an interactive VT100 shell with 19 built-in commands, file system support, and OTA firmware updates.",
+      "domain": "github.com",
+      "source_date": "2026-04-03",
+      "page_title": "GitHub - cmc-labo/tinyos-rtos · GitHub",
+      "tags": [
+        "github-repo",
+        "c",
+        "distributed-systems",
+        "devops"
+      ]
+    },
+    {
+      "id": 984,
+      "url": "https://www.inaturalist.org/",
+      "title": "iNaturalist",
+      "description": null,
+      "summary": "iNaturalist is a community platform where people can contribute observations of plants, animals, and other organisms to advance biodiversity science. Users simply document their observations through the platform, which then shares the data with scientific repositories like the Global Biodiversity Information Facility, enabling researchers to access and utilize this crowdsourced information for scientific research and conservation efforts.",
+      "domain": "www.inaturalist.org",
+      "source_date": "2026-04-03",
+      "page_title": "A Community for Naturalists\n ·  iNaturalist",
+      "tags": [
+        "social-media",
+        "database"
+      ]
+    },
+    {
+      "id": 983,
+      "url": "https://apfel.franzai.com/",
+      "title": null,
+      "description": "apfel - Free AI on your Mac",
+      "summary": "Apfel is a free macOS tool that unlocks Apple's built-in AI capabilities on Apple Silicon Macs, making the underlying language model accessible through a command-line interface, OpenAI-compatible server, and chat application. The software runs entirely on-device at zero cost and requires only an Apple Silicon Mac with macOS Tahoe and Apple Intelligence enabled. It's available as an open-source project with over 1,300 GitHub stars and can be installed via Homebrew.",
+      "domain": "apfel.franzai.com",
+      "source_date": "2026-04-03",
+      "page_title": "apfel - Free AI on Your Mac",
+      "tags": [
+        "ai",
+        "llm",
+        "cli-tool",
+        "github-repo",
+        "swift"
+      ]
+    },
+    {
+      "id": 986,
+      "url": "https://diagrams.mingrammer.com/",
+      "title": null,
+      "description": "Diagrams as code",
+      "summary": "Diagrams is a Python-based tool that enables users to create cloud system architecture diagrams through code rather than design tools, allowing version control tracking of architecture changes. It supports major cloud providers like AWS, Azure, GCP, Kubernetes, and others, as well as on-premises nodes and programming frameworks, though it only generates visual diagrams and does not control actual cloud resources or generate infrastructure-as-code templates.",
+      "domain": "diagrams.mingrammer.com",
+      "source_date": "2026-04-02",
+      "page_title": "Diagrams · Diagram as Code",
+      "tags": [
+        "python",
+        "cli-tool",
+        "devops",
+        "web-dev"
+      ]
+    },
     {
       "id": 974,
       "url": "https://blogit.michelin.io/clojure-programming/",
@@ -14474,12 +14600,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 319
+      "count": 320
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 230
+      "count": 233
     },
     {
       "name": "video",
@@ -14489,27 +14615,27 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 192
+      "count": 194
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 180
+      "count": 183
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 162
+      "count": 163
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 156
+      "count": 159
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 151
+      "count": 154
     },
     {
       "name": "music",
@@ -14519,12 +14645,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 118
+      "count": 119
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 111
+      "count": 112
     },
     {
       "name": "news",
@@ -14534,32 +14660,32 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 101
+      "count": 103
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 99
+      "count": 101
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 76
+      "count": 78
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 39
+      "count": 40
     },
     {
       "name": "politics",
@@ -14567,19 +14693,19 @@
       "count": 28
     },
     {
+      "name": "c",
+      "category": "programming_language",
+      "count": 25
+    },
+    {
       "name": "lisp",
       "category": "programming_language",
       "count": 25
     },
     {
-      "name": "c",
-      "category": "programming_language",
-      "count": 24
-    },
-    {
       "name": "javascript",
       "category": "programming_language",
-      "count": 22
+      "count": 23
     },
     {
       "name": "rust",
@@ -14664,7 +14790,7 @@
     {
       "name": "swift",
       "category": "programming_language",
-      "count": 2
+      "count": 3
     },
     {
       "name": "nix",
@@ -14680,7 +14806,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 104
+      "count": 106
     },
     {
       "domain": "www.threads.net",
@@ -14772,6 +14898,10 @@
     },
     {
       "domain": "susam.net",
+      "count": 3
+    },
+    {
+      "domain": "www.anthropic.com",
       "count": 3
     },
     {
@@ -14871,10 +15001,6 @@
       "count": 2
     },
     {
-      "domain": "www.anthropic.com",
-      "count": 2
-    },
-    {
       "domain": "www.gelliottmorris.com",
       "count": 2
     },
@@ -14925,6 +15051,10 @@
     {
       "domain": "www.theguardian.com",
       "count": 2
+    },
+    {
+      "domain": "2earth.github.io",
+      "count": 1
     },
     {
       "domain": "`youtu`.be",
@@ -15000,6 +15130,10 @@
     },
     {
       "domain": "antirez.com",
+      "count": 1
+    },
+    {
+      "domain": "apfel.franzai.com",
       "count": 1
     },
     {
@@ -15411,6 +15545,10 @@
       "count": 1
     },
     {
+      "domain": "diagrams.mingrammer.com",
+      "count": 1
+    },
+    {
       "domain": "diamondgeezer.blogspot.com",
       "count": 1
     },
@@ -15640,6 +15778,10 @@
     },
     {
       "domain": "henry.codes",
+      "count": 1
+    },
+    {
+      "domain": "herbie.uwplse.org",
       "count": 1
     },
     {
@@ -16720,6 +16862,10 @@
     },
     {
       "domain": "www.improvingagents.com",
+      "count": 1
+    },
+    {
+      "domain": "www.inaturalist.org",
       "count": 1
     },
     {
