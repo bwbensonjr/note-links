@@ -1,6 +1,84 @@
 {
-  "exported_at": "2026-04-04T07:47:10.527846",
+  "exported_at": "2026-04-05T15:17:07.550965",
   "links": [
+    {
+      "id": 987,
+      "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
+      "title": null,
+      "description": "Introduction to Computer Music - Nick Collin’s",
+      "summary": "Nick Collins' \"Introduction to Computer Music\" is a comprehensive free textbook covering the fundamentals and applications of computer music, including sound synthesis, digital audio, recording techniques, signal analysis, and audio processing. The book progresses from foundational concepts like sound waves and the frequency domain to advanced topics such as Fourier analysis, machine listening, and spatial audio, while incorporating historical context and practical examples throughout. It serves as both a theoretical guide and practical resource for students and practitioners seeking to understand how computers are used to create, analyze, and manipulate music.",
+      "domain": "composerprogrammer.com",
+      "source_date": "2026-04-05",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "music",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 991,
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "title": null,
+      "description": "Components of a coding agent",
+      "summary": "Coding agents are specialized systems that enhance LLM capabilities for software development by wrapping models in an \"agent harness\"—a software layer managing tools, memory, repository context, and iterative problem-solving loops. The distinction between the underlying model, reasoning capabilities, and the surrounding system is crucial, as much of the practical performance gains come from effective context management, tool use, and prompt engineering rather than the model itself. Six core components—live repository context, prompt optimization, structured tools, context reduction, memory management, and delegation—work together to make systems like Claude Code and Codex significantly more capable than standalone LLMs in chat interfaces.",
+      "domain": "magazine.sebastianraschka.com",
+      "source_date": "2026-04-04",
+      "page_title": "Components of A Coding Agent - by Sebastian Raschka, PhD",
+      "tags": [
+        "llm",
+        "ai",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 990,
+      "url": "https://ruckus.defn.io/",
+      "title": null,
+      "description": "Ruckus - Racket for iOS",
+      "summary": "Ruckus is an iOS app that enables users to write, run, and explore Racket programming language on iPhones and iPads. The app features local script execution, rainbow parentheses for visual code organization, smart indentation tailored to Racket syntax, multiple color themes, find and replace functionality, and integration with iOS shortcuts and widgets for automation. All code execution happens directly on the device without requiring external resources.",
+      "domain": "ruckus.defn.io",
+      "source_date": "2026-04-04",
+      "page_title": "Ruckus: Racket for iOS",
+      "tags": [
+        "lisp",
+        "cli-tool",
+        "swift"
+      ]
+    },
+    {
+      "id": 989,
+      "url": "https://contrapunk.com/",
+      "title": null,
+      "description": "CONTRAPUNK - Real-time MIDI harmony generator andguitar-to-MIDI converter",
+      "summary": "Contrapunk is a real-time MIDI harmony generator and guitar-to-MIDI converter built in Rust that applies classical counterpoint rules to generate harmonies with sub-10ms latency for live performance. It offers eight harmony modes based on different musical traditions (Palestrina, Bach, Jazz, etc.), supports guitar input with real-time pitch detection, and is available as a free browser tool, Mac application, or open-source software. The tool enables musicians to play together with AI-generated accompaniment that follows centuries of voice-leading principles while maintaining the low latency needed for interactive music-making.",
+      "domain": "contrapunk.com",
+      "source_date": "2026-04-04",
+      "page_title": "Contrapunk",
+      "tags": [
+        "rust",
+        "music",
+        "ai",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 988,
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "title": null,
+      "description": "A pattern for building personal knowledge bases using LLMs",
+      "summary": "This document presents \"LLM Wiki,\" a pattern for building personal knowledge bases where LLMs incrementally maintain a structured, interconnected markdown wiki rather than just retrieving from raw documents each time. Unlike traditional RAG systems that rediscover information from scratch on every query, the LLM reads new sources, extracts key information, and integrates it into the existing wiki by updating entity pages, cross-references, and summaries—creating a persistent, compounding artifact. The approach involves three layers (raw sources, wiki, and schema), key operations like ingesting sources and querying the wiki, and can be applied to personal research, reading, business teams, and other knowledge-accumulation contexts where an organized, interconnected knowledge base provides more value than scattered information.",
+      "domain": "gist.github.com",
+      "source_date": "2026-04-04",
+      "page_title": "llm-wiki · GitHub",
+      "tags": [
+        "llm",
+        "github-repo",
+        "ai",
+        "tutorial"
+      ]
+    },
     {
       "id": 982,
       "url": "https://github.com/borski/travel-hacking-toolkit",
@@ -14600,12 +14678,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 320
+      "count": 323
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 233
+      "count": 236
     },
     {
       "name": "video",
@@ -14615,12 +14693,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 194
+      "count": 196
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 183
+      "count": 185
     },
     {
       "name": "web-dev",
@@ -14630,17 +14708,17 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 159
+      "count": 160
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 154
+      "count": 156
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 122
+      "count": 124
     },
     {
       "name": "nonfiction-book",
@@ -14693,12 +14771,12 @@
       "count": 28
     },
     {
-      "name": "c",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 25
+      "count": 26
     },
     {
-      "name": "lisp",
+      "name": "c",
       "category": "programming_language",
       "count": 25
     },
@@ -14710,7 +14788,7 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 21
+      "count": 22
     },
     {
       "name": "gaming",
@@ -14778,17 +14856,17 @@
       "count": 4
     },
     {
+      "name": "swift",
+      "category": "programming_language",
+      "count": 4
+    },
+    {
       "name": "sql",
       "category": "programming_language",
       "count": 4
     },
     {
       "name": "cpp",
-      "category": "programming_language",
-      "count": 3
-    },
-    {
-      "name": "swift",
       "category": "programming_language",
       "count": 3
     },
@@ -14941,6 +15019,10 @@
       "count": 2
     },
     {
+      "domain": "gist.github.com",
+      "count": 2
+    },
+    {
       "domain": "graydon2.dreamwidth.org",
       "count": 2
     },
@@ -14970,6 +15052,10 @@
     },
     {
       "domain": "lwn.net",
+      "count": 2
+    },
+    {
+      "domain": "magazine.sebastianraschka.com",
       "count": 2
     },
     {
@@ -15425,11 +15511,19 @@
       "count": 1
     },
     {
+      "domain": "composerprogrammer.com",
+      "count": 1
+    },
+    {
       "domain": "conductor.build",
       "count": 1
     },
     {
       "domain": "content.civicplus.com",
+      "count": 1
+    },
+    {
+      "domain": "contrapunk.com",
       "count": 1
     },
     {
@@ -15729,10 +15823,6 @@
       "count": 1
     },
     {
-      "domain": "gist.github.com",
-      "count": 1
-    },
-    {
       "domain": "github.github.io",
       "count": 1
     },
@@ -15974,10 +16064,6 @@
     },
     {
       "domain": "madalitso.me",
-      "count": 1
-    },
-    {
-      "domain": "magazine.sebastianraschka.com",
       "count": 1
     },
     {
@@ -16374,6 +16460,10 @@
     },
     {
       "domain": "rubinobservatory.org",
+      "count": 1
+    },
+    {
+      "domain": "ruckus.defn.io",
       "count": 1
     },
     {
