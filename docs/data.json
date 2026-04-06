@@ -1,6 +1,36 @@
 {
-  "exported_at": "2026-04-05T15:17:07.550965",
+  "exported_at": "2026-04-06T13:44:14.973049",
   "links": [
+    {
+      "id": 993,
+      "url": "https://musicforprogramming.net/latest/",
+      "title": null,
+      "description": "Music for programming",
+      "summary": "Music for Programming is a curated collection of numbered music tracks and artists designed to accompany coding work. The site features 77 episodes showcasing various musicians and artists, including repeated contributors like Datassette, with the latest episode featuring Phonaut. The page provides links to related resources including Mastodon verification, RSS feed, and credits information.",
+      "domain": "musicforprogramming.net",
+      "source_date": "2026-04-05",
+      "page_title": null,
+      "tags": [
+        "music",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 992,
+      "url": "https://www.mattkeeter.com/blog/2026-04-05-tailcall/",
+      "title": null,
+      "description": "A tail-call interpreter in (nightly) Rust",
+      "summary": "Matt Keeter describes implementing a tail-call interpreter in nightly Rust for emulating the Uxn CPU, achieving performance that exceeds both his previous Rust implementation and hand-coded ARM64 assembly. The key innovation uses Rust's `become` keyword to ensure tail calls replace stack frames rather than accumulating them, allowing VM state to be stored in registers while avoiding the unsafe complexity of assembly implementations. This approach demonstrates how tail-call techniques can provide the performance benefits of threaded code interpreters while maintaining the safety and maintainability of Rust.",
+      "domain": "www.mattkeeter.com",
+      "source_date": "2026-04-05",
+      "page_title": "A tail-call interpreter in (nightly) Rust",
+      "tags": [
+        "rust",
+        "compilers",
+        "emulator",
+        "tutorial"
+      ]
+    },
     {
       "id": 987,
       "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
@@ -14678,7 +14708,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 323
+      "count": 324
     },
     {
       "name": "ai",
@@ -14703,7 +14733,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 163
+      "count": 164
     },
     {
       "name": "github-repo",
@@ -14718,7 +14748,7 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 124
+      "count": 125
     },
     {
       "name": "nonfiction-book",
@@ -14748,7 +14778,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 78
+      "count": 79
     },
     {
       "name": "database",
@@ -14781,14 +14811,14 @@
       "count": 25
     },
     {
-      "name": "javascript",
+      "name": "rust",
       "category": "programming_language",
       "count": 23
     },
     {
-      "name": "rust",
+      "name": "javascript",
       "category": "programming_language",
-      "count": 22
+      "count": 23
     },
     {
       "name": "gaming",
@@ -14796,13 +14826,13 @@
       "count": 17
     },
     {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 14
-    },
-    {
       "name": "emulator",
       "category": "technical_topic",
+      "count": 15
+    },
+    {
+      "name": "typescript",
+      "category": "programming_language",
       "count": 14
     },
     {
@@ -16179,6 +16209,10 @@
       "count": 1
     },
     {
+      "domain": "musicforprogramming.net",
+      "count": 1
+    },
+    {
       "domain": "nanohub.org",
       "count": 1
     },
@@ -17024,6 +17058,10 @@
     },
     {
       "domain": "www.marksimonson.com",
+      "count": 1
+    },
+    {
+      "domain": "www.mattkeeter.com",
       "count": 1
     },
     {
