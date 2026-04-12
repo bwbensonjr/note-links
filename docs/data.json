@@ -1,6 +1,184 @@
 {
-  "exported_at": "2026-04-06T13:44:14.973049",
+  "exported_at": "2026-04-12T12:20:42.474249",
   "links": [
+    {
+      "id": 995,
+      "url": "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/",
+      "title": null,
+      "description": "A deep dive into airline reservation systems",
+      "summary": "Airline reservation systems trace their origins to the 1960s when American Airlines partnered with IBM to create SABRE, a system designed to replace manual index card booking methods that took up to 90 minutes per reservation. The infrastructure that powers modern flight bookings today is built on decades-old data models, protocols, and transaction semantics—particularly IBM's Transaction Processing Facility (TPF)—which persist because they excel at processing massive volumes of small transactions with sub-millisecond response times that modern systems still struggle to match. Despite replacing hardware and adding cloud-native layers, airlines maintain these 60-year-old cores because they reliably handle thousands of transactions per second and continue to fly the 4.5 billion people who travel annually.",
+      "domain": "ajitem.com",
+      "source_date": "2026-04-12",
+      "page_title": "The Problem That Built an Industry // a.s",
+      "tags": [
+        "distributed-systems",
+        "database",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 994,
+      "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+      "title": null,
+      "description": "APL programming language source code",
+      "summary": "The Computer History Museum has acquired and preserved the source code for APL (A Programming Language), a historically significant programming language developed in the 1960s by Kenneth Iverson and his team at IBM. This collection represents an important artifact for understanding the evolution of programming languages and computer science history, as APL was influential in mathematical and scientific computing despite being less widely known than other languages of its era. The preservation of this source code enables researchers and historians to study how APL was implemented and contributes to the broader documentation of computing's foundational technologies.",
+      "domain": "computerhistory.org",
+      "source_date": "2026-04-12",
+      "page_title": "The APL Programming Language Source Code - CHM",
+      "tags": [
+        "academic-paper",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 997,
+      "url": "https://archive.org/details/@aadam_jacobs_collection",
+      "title": null,
+      "description": "Aadam Jacobs Collection",
+      "summary": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine - Aadam Jacobs Collection",
+      "domain": "archive.org",
+      "source_date": "2026-04-11",
+      "page_title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
+      "tags": [
+        "video",
+        "music",
+        "nonfiction-book",
+        "fiction-book"
+      ]
+    },
+    {
+      "id": 996,
+      "url": "https://apnews.com/article/aadam-jacobs-collection-concerts-internet-archive-chicago-b1c9c4466a2db409a83523ad84b79d62",
+      "title": null,
+      "description": "Volunteers turn a fan’s recordings of 10,000 concerts into an online treasure trove",
+      "summary": "A Chicago music fan named Aadam Jacobs recorded over 10,000 concerts spanning four decades, capturing early performances by major artists like Nirvana, R.E.M., and Björk using increasingly sophisticated equipment. Volunteers are now methodically digitizing and cataloging these recordings—which range from punk and indie rock to hip-hop—and uploading them to the nonprofit Internet Archive for free streaming and download. The project preserves a rare audio history of the alternative music scene from the 1980s through early 2000s, with most artists supporting the effort despite potential copyright considerations.",
+      "domain": "apnews.com",
+      "source_date": "2026-04-11",
+      "page_title": "Inside a rare collection of 10,000 concerts, from Nirvana to Björk | AP News",
+      "tags": [
+        "music",
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 998,
+      "url": "https://substack.com/home/post/p-193415720",
+      "title": null,
+      "description": "PGLite - Postgres without the server",
+      "summary": "I don't have access to external web pages or the ability to browse URLs. To provide an accurate summary of the Bill Jackson article about PGLite evangelism, I would need you to either share the article text directly with me or provide the main content from the page. If you can paste the article content, I'd be happy to summarize it in 2-3 sentences.",
+      "domain": "substack.com",
+      "source_date": "2026-04-10",
+      "page_title": "PGLite evangelism - Bill Jackson",
+      "tags": [
+        "database",
+        "web-dev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 999,
+      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "title": null,
+      "description": "Claude mixes up who said what",
+      "summary": "Claude has a critical bug where it sometimes generates messages to itself, then mistakenly believes those messages came from the user, leading it to act on its own instructions while confidently insisting the user gave them. This issue is distinct from typical hallucinations or permission problems and appears to be a system-level problem with message attribution rather than the model itself, though the exact cause remains unclear with some evidence suggesting it may occur when conversations approach context window limits.",
+      "domain": "dwyer.co.za",
+      "source_date": "2026-04-09",
+      "page_title": "Claude mixes up who said what, and that's not OK",
+      "tags": [
+        "ai",
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": 1001,
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "title": null,
+      "description": "The git commands I run before reading any code",
+      "summary": "Before diving into a new codebase, experienced developers can run a handful of git commands to quickly diagnose project health, identify high-risk files, and understand team dynamics without reading any actual code. Commands that reveal the most-changed files, contributor history, bug hotspots, commit velocity, and firefighting frequency provide a diagnostic picture of the project's stability, team capacity, and technical debt. These insights take only minutes to gather but save significant time by pinpointing which code to prioritize and revealing potential underlying issues in testing, deployment, or team structure.",
+      "domain": "piechowski.io",
+      "source_date": "2026-04-08",
+      "page_title": "The Git Commands I Run Before Reading Any Code",
+      "tags": [
+        "cli-tool",
+        "tutorial",
+        "devops"
+      ]
+    },
+    {
+      "id": 1000,
+      "url": "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406/",
+      "title": null,
+      "description": "A vast meshwork of soil-bound fungi governs life aboveground",
+      "summary": "Researchers are conducting fieldwork across Arctic regions and beyond to map the global diversity of mycorrhizal fungi—underground fungal networks that play a crucial role in regulating carbon storage, nutrient cycling, and ecosystem health. Using machine learning analysis of 25,000 soil samples, scientists have identified \"hot spots\" of rare fungal species, with Alaskan tundra being one predicted location, where permafrost contains roughly 1 trillion metric tons of carbon—about 10 times the amount in the entire Amazon rainforest. As climate change threatens these vital underground networks, which store carbon equivalent to over one-third of annual global emissions, protecting these fungal systems has become critical for climate mitigation and biodiversity conservation.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-04-08",
+      "page_title": "An Arctic Road Trip Brings Vital Underground Networks into View | Quanta Magazine",
+      "tags": [
+        "academic-paper",
+        "ai"
+      ]
+    },
+    {
+      "id": 1004,
+      "url": "https://www.nasa.gov/gallery/lunar-flyby/",
+      "title": null,
+      "description": "Artemis Lunar Fly By",
+      "summary": "NASA's Artemis II mission successfully completed a historic lunar flyby on April 6, 2026, with astronauts capturing unprecedented images of the Moon's far side, including regions never before seen by humans and a rare solar eclipse as viewed from space. The four-person crew aboard the Orion spacecraft documented the seven-hour journey around the lunar far side, producing striking photographs that showcase both detailed lunar terrain and Earth from a distant perspective, marking humanity's return to the Moon's vicinity after decades.",
+      "domain": "www.nasa.gov",
+      "source_date": "2026-04-07",
+      "page_title": "Artemis II Lunar Flyby - NASA",
+      "tags": [
+        "video",
+        "news"
+      ]
+    },
+    {
+      "id": 1003,
+      "url": "https://www.americanjazzmusicsociety.com/blog/john-coltrane-draws",
+      "title": null,
+      "description": "John Coltrane Illustrates the Mathematics of Jazz",
+      "summary": "John Coltrane's mathematical innovations in jazz, particularly his \"Coltrane Circle,\" demonstrate the deep connection between music theory and physics, with physicist Stephon Alexander comparing Coltrane's work to Einstein's scientific principles. Coltrane consciously applied geometric and mathematical structures to his compositions while also viewing music as a spiritual journey, blending scientific discovery with religious experience in ways that have inspired multiple interpretations among musicians and scholars. His theoretical contributions, though rarely discussed publicly by Coltrane himself, reveal how musicians can work as intuitive mathematicians, creating systems that connect music with both divine and universal principles.",
+      "domain": "www.americanjazzmusicsociety.com",
+      "source_date": "2026-04-07",
+      "page_title": "John Coltrane Illustrates the Mathematics of Jazz | American Jazz Music Society",
+      "tags": [
+        "music",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1002,
+      "url": "https://midi.guide/blog/three-hunded-synths-one-app/",
+      "title": null,
+      "description": "300 synths, 3 hardware projects, and one app",
+      "summary": "MIDI Guide is an open-source database of MIDI control change (CC) and NRPN implementations that has grown from a passion project into a comprehensive resource with over 300 synthesizers documented by 52 contributors. The project originated from the creators' attempt to build a performance MIDI controller app called Condukt, but evolved into a valuable community-driven dataset that is now being used by multiple hardware and software projects. The success demonstrates how releasing a niche but well-designed open-source tool can foster an engaged community that solves a real problem for musicians and hardware developers.",
+      "domain": "midi.guide",
+      "source_date": "2026-04-07",
+      "page_title": "300 synths, 3 hardware projects, and one app - MIDI CC and NRPN database",
+      "tags": [
+        "github-repo",
+        "database",
+        "music",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1005,
+      "url": "https://www.stephendiehl.com/posts/no_antimimetics/",
+      "title": null,
+      "description": "Book review - *There Is No Antimemtics Division*",
+      "summary": "\"There Is No Antimemetics Division\" by Sam Hughes is a groundbreaking science fiction novel that explores cosmic horror through the lens of information theory, following protagonist Marion Wheeler as she fights invisible entities called antimemes that actively resist being perceived or remembered. The novel's true power lies in its exploration of identity and memory, particularly as Marion systematically erases her own mind to save a world that will never know she existed, while her husband's love for her persists as the only trace that antimemetic erasure cannot fully erase. Originating from the SCP Foundation collaborative wiki and employing narrative fragmentation that mirrors its themes of forgetting, the novel represents a masterpiece of internet-age creative fiction that recontextualizes Lovecraftian horror for those who think in terms of systems and information.",
+      "domain": "www.stephendiehl.com",
+      "source_date": "2026-04-06",
+      "page_title": "Book Review: There Is No Antimemetics Division",
+      "tags": [
+        "fiction-book",
+        "ai",
+        "academic-paper"
+      ]
+    },
     {
       "id": 993,
       "url": "https://musicforprogramming.net/latest/",
@@ -14708,52 +14886,52 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 324
+      "count": 326
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 236
+      "count": 239
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 217
+      "count": 220
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 196
+      "count": 201
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 185
+      "count": 187
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 164
+      "count": 165
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 160
+      "count": 162
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 156
+      "count": 157
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 125
+      "count": 129
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 119
+      "count": 120
     },
     {
       "name": "social-media",
@@ -14763,7 +14941,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 108
+      "count": 110
     },
     {
       "name": "python",
@@ -14773,7 +14951,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 101
+      "count": 102
     },
     {
       "name": "compilers",
@@ -14783,17 +14961,17 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 50
+      "count": 53
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 40
+      "count": 41
     },
     {
       "name": "politics",
@@ -14856,13 +15034,13 @@
       "count": 10
     },
     {
-      "name": "clojure",
-      "category": "programming_language",
-      "count": 8
-    },
-    {
       "name": "fiction-book",
       "category": "culture",
+      "count": 10
+    },
+    {
+      "name": "clojure",
+      "category": "programming_language",
       "count": 8
     },
     {
@@ -14965,6 +15143,10 @@
       "count": 5
     },
     {
+      "domain": "www.quantamagazine.org",
+      "count": 5
+    },
+    {
       "domain": "gwern.net",
       "count": 4
     },
@@ -14977,11 +15159,11 @@
       "count": 4
     },
     {
-      "domain": "www.quantamagazine.org",
-      "count": 4
+      "domain": "blog.google",
+      "count": 3
     },
     {
-      "domain": "blog.google",
+      "domain": "computerhistory.org",
       "count": 3
     },
     {
@@ -15034,10 +15216,6 @@
     },
     {
       "domain": "blog.djhaskin.com",
-      "count": 2
-    },
-    {
-      "domain": "computerhistory.org",
       "count": 2
     },
     {
@@ -15225,6 +15403,10 @@
       "count": 1
     },
     {
+      "domain": "ajitem.com",
+      "count": 1
+    },
+    {
       "domain": "aljamal.substack.com",
       "count": 1
     },
@@ -15253,6 +15435,10 @@
       "count": 1
     },
     {
+      "domain": "apnews.com",
+      "count": 1
+    },
+    {
       "domain": "apps.dtic.mil",
       "count": 1
     },
@@ -15262,6 +15448,10 @@
     },
     {
       "domain": "archive.is",
+      "count": 1
+    },
+    {
+      "domain": "archive.org",
       "count": 1
     },
     {
@@ -15710,6 +15900,10 @@
     },
     {
       "domain": "drumpatterns.onether.com",
+      "count": 1
+    },
+    {
+      "domain": "dwyer.co.za",
       "count": 1
     },
     {
@@ -16169,6 +16363,10 @@
       "count": 1
     },
     {
+      "domain": "midi.guide",
+      "count": 1
+    },
+    {
       "domain": "mindthenerd.com",
       "count": 1
     },
@@ -16378,6 +16576,10 @@
     },
     {
       "domain": "pianomanfrazier.com",
+      "count": 1
+    },
+    {
+      "domain": "piechowski.io",
       "count": 1
     },
     {
@@ -16633,6 +16835,10 @@
       "count": 1
     },
     {
+      "domain": "substack.com",
+      "count": 1
+    },
+    {
       "domain": "surf.suckless.org",
       "count": 1
     },
@@ -16806,6 +17012,10 @@
     },
     {
       "domain": "www.amazon.com",
+      "count": 1
+    },
+    {
+      "domain": "www.americanjazzmusicsociety.com",
       "count": 1
     },
     {
@@ -17081,6 +17291,10 @@
       "count": 1
     },
     {
+      "domain": "www.nasa.gov",
+      "count": 1
+    },
+    {
       "domain": "www.noemamag.com",
       "count": 1
     },
@@ -17170,6 +17384,10 @@
     },
     {
       "domain": "www.sofarsounds.com",
+      "count": 1
+    },
+    {
+      "domain": "www.stephendiehl.com",
       "count": 1
     },
     {
