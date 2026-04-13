@@ -1,6 +1,76 @@
 {
-  "exported_at": "2026-04-12T12:20:42.474249",
+  "exported_at": "2026-04-13T07:37:54.983879",
   "links": [
+    {
+      "id": 1010,
+      "url": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century",
+      "title": null,
+      "description": "Zed - A sans for the needs of the 21st century",
+      "summary": "Zed - A sans for the needs of the 21st century",
+      "domain": "www.typotheque.com",
+      "source_date": "2026-04-13",
+      "page_title": null,
+      "tags": [
+        "video"
+      ]
+    },
+    {
+      "id": 1009,
+      "url": "https://blinry.org/oodi/",
+      "title": null,
+      "description": "Oodi - Helsinki’s amazing public library",
+      "summary": "Oodi is an innovative public library in Helsinki that goes far beyond traditional book lending, offering an impressive array of amenities including recording studios, makerspaces with 3D printers and laser cutters, rental kitchens, game rooms with VR gear, group meeting spaces, and professional digital workstations alongside a substantial book collection. The library actively encourages community gathering and leisure activities, creating a vibrant social hub with restaurants, cafes, a cinema, and numerous collaborative spaces designed to be accessible and inviting to all visitors. Its forward-thinking approach combines cultural resources, creative tools, and community spaces in one architecturally thoughtful building that reimagines what a public library can be.",
+      "domain": "blinry.org",
+      "source_date": "2026-04-13",
+      "page_title": "A tour of Oodi",
+      "tags": [
+        "video",
+        "social-media"
+      ]
+    },
+    {
+      "id": 1008,
+      "url": "https://arxiv.org/abs/2604.05537",
+      "title": null,
+      "description": "A canonical generalization of OBDD",
+      "summary": "This paper introduces Tree Decision Diagrams (TDD) as a generalization of Ordered Binary Decision Diagrams (OBDD) for representing Boolean functions, demonstrating that TDDs maintain the same computational tractability as OBDDs for operations like model counting and conditioning while offering greater succinctness. The authors prove that CNF formulas with bounded treewidth can be represented by TDDs with fixed-parameter tractable size—a capability known to be impossible for OBDDs—and analyze the complexity of compiling CNF formulas into deterministic TDDs through bottom-up compilation methods.",
+      "domain": "arxiv.org",
+      "source_date": "2026-04-13",
+      "page_title": "[2604.05537] A canonical generalization of OBDD",
+      "tags": [
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 1007,
+      "url": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+      "title": null,
+      "description": "How the \"AI Loser\" may end up winning - Apple’s accidental moat",
+      "summary": "As AI models become increasingly commoditized with performance gaps narrowing between frontier and open-source alternatives, Apple—long dismissed as the \"AI loser\"—may emerge as the winner due to its massive installed base of devices, years of accumulated user data, and privacy-first infrastructure. While other AI labs burn billions on infrastructure and subsidize user costs unsustainably, Apple has maintained optionality and leverage by avoiding massive AI spending, positioning itself to capitalize on personal context as the new scarce resource rather than raw model capability. Apple's ability to run capable AI models locally on devices while accessing unparalleled user data—health metrics, photos, messages, location history—creates a concrete privacy advantage that could become a formidable competitive moat.",
+      "domain": "adlrocha.substack.com",
+      "source_date": "2026-04-13",
+      "page_title": "@adlrocha - How the \"AI Loser\" may end up winning",
+      "tags": [
+        "ai",
+        "news"
+      ]
+    },
+    {
+      "id": 1006,
+      "url": "https://arxiv.org/abs/2603.21852",
+      "title": null,
+      "description": "All elementary functions from a single binary operator",
+      "summary": "A researcher discovered a single binary operator, eml(x,y) = exp(x) - ln(y), that can generate all elementary mathematical functions—including trigonometric, logarithmic, exponential, and arithmetic operations—comparable to how a single logic gate suffices for all Boolean logic in computers. The operator, found through exhaustive computational search, creates a uniform binary tree structure that enables both the symbolic representation of any scientific calculator function and the recovery of exact closed-form equations from numerical data using gradient-based optimization.",
+      "domain": "arxiv.org",
+      "source_date": "2026-04-13",
+      "page_title": "[2603.21852] All elementary functions from a single binary operator",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "compilers"
+      ]
+    },
     {
       "id": 995,
       "url": "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/",
@@ -14891,17 +14961,17 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 239
+      "count": 241
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 220
+      "count": 222
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 201
+      "count": 203
     },
     {
       "name": "cli-tool",
@@ -14936,12 +15006,12 @@
     {
       "name": "social-media",
       "category": "culture",
-      "count": 112
+      "count": 113
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 110
+      "count": 111
     },
     {
       "name": "python",
@@ -14956,7 +15026,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 79
+      "count": 81
     },
     {
       "name": "database",
@@ -15120,7 +15190,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 10
+      "count": 12
     },
     {
       "domain": "bsky.app",
@@ -15209,6 +15279,10 @@
     {
       "domain": "youtu.be",
       "count": 3
+    },
+    {
+      "domain": "adlrocha.substack.com",
+      "count": 2
     },
     {
       "domain": "ben-mini.com",
@@ -15376,10 +15450,6 @@
     },
     {
       "domain": "ada-lang.io",
-      "count": 1
-    },
-    {
-      "domain": "adlrocha.substack.com",
       "count": 1
     },
     {
@@ -15552,6 +15622,10 @@
     },
     {
       "domain": "bits.logic.inc",
+      "count": 1
+    },
+    {
+      "domain": "blinry.org",
       "count": 1
     },
     {
@@ -17416,6 +17490,10 @@
     },
     {
       "domain": "www.threads.nfet",
+      "count": 1
+    },
+    {
+      "domain": "www.typotheque.com",
       "count": 1
     },
     {
