@@ -1,6 +1,125 @@
 {
-  "exported_at": "2026-04-13T07:37:54.983879",
+  "exported_at": "2026-04-15T09:12:46.848979",
   "links": [
+    {
+      "id": 1014,
+      "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+      "title": null,
+      "description": "Another Aadam Jacobs archive article",
+      "summary": "Chicago music collector Aadam Jacobs has donated over 10,000 concert recordings he accumulated since the 1980s to the Internet Archive, with approximately 2,500 tapes already digitized and made publicly available. The collection includes rare performances from iconic artists like Nirvana (1989), Sonic Youth, R.E.M., and Phish, which volunteers have restored and professionally cleaned up despite the original poor recording quality. This digitization project preserves valuable music history that would otherwise deteriorate on aging cassette tapes.",
+      "domain": "techcrunch.com",
+      "source_date": "2026-04-15",
+      "page_title": "Thousands of rare concert recordings are landing on the Internet Archive -- listen now | TechCrunch",
+      "tags": [
+        "music",
+        "news",
+        "video"
+      ]
+    },
+    {
+      "id": 1013,
+      "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+      "title": null,
+      "description": "My AI-assisted workflow",
+      "summary": "The author describes an AI-assisted development workflow designed to maintain code quality and clarity while leveraging AI's implementation speed. The key insight is that real work happens before coding begins—through structured thinking, writing, and planning—while AI handles implementation and stress-testing ideas. The workflow consists of seven steps: free-form planning, creating a detailed PRD through structured interviews, breaking work into vertical-slice issues, decomposing issues into focused tasks, executing tasks with fresh AI sessions, conducting multi-pass code reviews, and performing final cross-cutting audits.",
+      "domain": "www.maiobarbero.dev",
+      "source_date": "2026-04-15",
+      "page_title": "My AI-Assisted workflow | maiobarbero.dev",
+      "tags": [
+        "ai",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1012,
+      "url": "https://github.com/steipete/wacli",
+      "title": null,
+      "description": "wacli — WhatsApp CLI: sync, search, send",
+      "summary": "wacli is an unofficial WhatsApp command-line tool built on the WhatsApp Web protocol that enables users to sync message history locally, search messages offline, send messages, and manage contacts and groups. The tool can be installed via Homebrew or built locally with Go, and requires QR code authentication on first use followed by continuous syncing capabilities. Key features include best-effort message history synchronization, fast offline search, file and text message sending, and optional history backfilling from your primary WhatsApp device.",
+      "domain": "github.com",
+      "source_date": "2026-04-15",
+      "page_title": "GitHub - steipete/wacli: WhatsApp CLI · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "go"
+      ]
+    },
+    {
+      "id": 1011,
+      "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-2260",
+      "title": null,
+      "description": "Depreciation of Snowflake Dashboards",
+      "summary": "Snowflake is deprecating Legacy Worksheets and Dashboards on June 22, 2026, replacing them with Workspaces for SQL editing and offering migration paths to Streamlit apps or third-party BI tools for dashboards. Users and administrators must migrate their worksheets and dashboards before the deadline, with self-service migration tools becoming available starting April 20, 2026. After June 22, 2026, Legacy Worksheets and Dashboards will be permanently removed from Snowsight and no longer accessible.",
+      "domain": "docs.snowflake.com",
+      "source_date": "2026-04-15",
+      "page_title": "Deprecation of Legacy Worksheets and Dashboards | Snowflake Documentation",
+      "tags": [
+        "database",
+        "devops",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1016,
+      "url": "https://www.youtube.com/watch?v=mWffn2clRGk",
+      "title": null,
+      "description": "The making of Anastasia (1997)",
+      "summary": "I don't have access to the actual content of this YouTube video, only the page metadata and footer information. To provide an accurate summary of \"The Making of Anastasia (1997),\" I would need access to the video's description, transcript, or actual content. If you could share the video's description or key points from the video, I'd be happy to summarize it for you.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-04-14",
+      "page_title": "The Making of Anastasia (1997) - YouTube",
+      "tags": [
+        "movie",
+        "video"
+      ]
+    },
+    {
+      "id": 1015,
+      "url": "https://jointhefreeworld.org/blog/articles/lisps/functional-repository-pattern-in-scheme-with-macros/index.html",
+      "title": null,
+      "description": "Functional repository pattern in Scheme? Decoupling and abstracting the data layer in Lisp",
+      "summary": "The author presents a functional implementation of the Repository Pattern in Scheme using hygienic macros to decouple the data layer from application logic in MVC architecture. Two key macros—`define-record-with-kw` for ergonomic keyword-argument constructors and `define-repo-method` for flexible method definitions—create a clean embedded domain-specific language that abstracts SQLite implementation details away from business logic. This approach enables better separation of concerns, easier testing, and cleaner code organization across the author's Scheme projects.",
+      "domain": "jointhefreeworld.org",
+      "source_date": "2026-04-14",
+      "page_title": "Functional repository pattern in Scheme? Decoupling and abstracting the data layer in Lisp - jointhefreeworld",
+      "tags": [
+        "scheme",
+        "lisp",
+        "tutorial",
+        "database"
+      ]
+    },
+    {
+      "id": 1018,
+      "url": "https://bryanhogan.com/blog/obsidian-introduction",
+      "title": null,
+      "description": "An introduction to Obsidian",
+      "summary": "Obsidian is a powerful note-taking application that stores files locally in markdown format, giving users ownership and flexibility over their data while protecting them from vendor lock-in. The program excels at content creation, knowledge management, and project tracking through features like interlinking notes and customizable plugins, though users are advised to keep their setup simple and avoid overcomplicating their system. The author uses Obsidian for various purposes including blog writing, knowledge collection, and media tracking, syncing files through Google Drive and backing them up to GitHub.",
+      "domain": "bryanhogan.com",
+      "source_date": "2026-04-13",
+      "page_title": "Introduction to Obsidian",
+      "tags": [
+        "tutorial",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1017,
+      "url": "https://github.github.com/gh-stack/",
+      "title": null,
+      "description": "GitHub stacked PRs",
+      "summary": "GitHub Stacked PRs enables developers to organize multiple pull requests in a sequential stack, allowing each PR to be reviewed independently while maintaining logical dependencies between changes. This feature streamlines the development workflow by allowing all PRs in the stack to be merged simultaneously with a single click, rather than managing them individually and waiting for each to complete before moving to the next.",
+      "domain": "github.github.com",
+      "source_date": "2026-04-13",
+      "page_title": "GitHub Stacked PRs | GitHub Stacked PRs",
+      "tags": [
+        "github-repo",
+        "devops",
+        "web-dev"
+      ]
+    },
     {
       "id": 1010,
       "url": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century",
@@ -14956,17 +15075,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 326
+      "count": 329
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 241
+      "count": 242
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 222
+      "count": 224
     },
     {
       "name": "academic-paper",
@@ -14976,17 +15095,17 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 187
+      "count": 189
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 165
+      "count": 168
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 162
+      "count": 164
     },
     {
       "name": "llm",
@@ -14996,7 +15115,7 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 129
+      "count": 130
     },
     {
       "name": "nonfiction-book",
@@ -15011,17 +15130,17 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 111
+      "count": 112
+    },
+    {
+      "name": "devops",
+      "category": "technical_topic",
+      "count": 104
     },
     {
       "name": "python",
       "category": "programming_language",
       "count": 103
-    },
-    {
-      "name": "devops",
-      "category": "technical_topic",
-      "count": 102
     },
     {
       "name": "compilers",
@@ -15031,7 +15150,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 53
+      "count": 55
     },
     {
       "name": "security",
@@ -15051,7 +15170,7 @@
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 26
+      "count": 27
     },
     {
       "name": "c",
@@ -15086,7 +15205,7 @@
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 13
+      "count": 14
     },
     {
       "name": "podcast",
@@ -15116,12 +15235,12 @@
     {
       "name": "movie",
       "category": "culture",
-      "count": 7
+      "count": 8
     },
     {
       "name": "go",
       "category": "programming_language",
-      "count": 5
+      "count": 6
     },
     {
       "name": "elixir",
@@ -15162,7 +15281,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 106
+      "count": 107
     },
     {
       "domain": "www.threads.net",
@@ -15174,7 +15293,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 22
+      "count": 23
     },
     {
       "domain": "simonwillison.net",
@@ -15713,6 +15832,10 @@
       "count": 1
     },
     {
+      "domain": "bryanhogan.com",
+      "count": 1
+    },
+    {
       "domain": "bwbensonjr.github.io",
       "count": 1
     },
@@ -15969,6 +16092,10 @@
       "count": 1
     },
     {
+      "domain": "docs.snowflake.com",
+      "count": 1
+    },
+    {
       "domain": "drew.silcock.dev",
       "count": 1
     },
@@ -16121,6 +16248,10 @@
       "count": 1
     },
     {
+      "domain": "github.github.com",
+      "count": 1
+    },
+    {
       "domain": "github.github.io",
       "count": 1
     },
@@ -16250,6 +16381,10 @@
     },
     {
       "domain": "jhurliman.org",
+      "count": 1
+    },
+    {
+      "domain": "jointhefreeworld.org",
       "count": 1
     },
     {
@@ -16929,6 +17064,10 @@
       "count": 1
     },
     {
+      "domain": "techcrunch.com",
+      "count": 1
+    },
+    {
       "domain": "terathon.com",
       "count": 1
     },
@@ -17334,6 +17473,10 @@
     },
     {
       "domain": "www.lrb.co.uk",
+      "count": 1
+    },
+    {
+      "domain": "www.maiobarbero.dev",
       "count": 1
     },
     {
