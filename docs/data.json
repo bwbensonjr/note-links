@@ -1,6 +1,49 @@
 {
-  "exported_at": "2026-04-15T09:12:46.848979",
+  "exported_at": "2026-04-16T12:08:43.196435",
   "links": [
+    {
+      "id": 1020,
+      "url": "https://www.youtube.com/watch?v=H1KP4ztKK0A",
+      "title": null,
+      "description": "Accent Expert Gives a Tour of U.S. Accents - (Part One) | WIRED ",
+      "summary": "I'm unable to access the video content from the YouTube page you've provided. The information available only shows standard YouTube footer text (copyright, links, etc.) rather than the actual video description or transcript. To provide an accurate summary of the accent expert's tour of U.S. accents, I would need access to the video description, transcript, or a text-based summary of the content.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-04-16",
+      "page_title": "Accent Expert Gives a Tour of U.S. Accents - (Part One) | WIRED - YouTube",
+      "tags": [
+        "video",
+        "podcast"
+      ]
+    },
+    {
+      "id": 1019,
+      "url": "https://aschmann.net/AmEng/",
+      "title": null,
+      "description": "North American English Dialects, Based on Pronunciation Pattern",
+      "summary": "North American English Dialects, Based on Pronunciation Pattern",
+      "domain": "aschmann.net",
+      "source_date": "2026-04-16",
+      "page_title": null,
+      "tags": [
+        "video",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1021,
+      "url": "https://pythonhosted.org/hackernews-cli/commands.html",
+      "title": null,
+      "description": "Hacker News CLI",
+      "summary": "The HackerNews CLI is a command-line tool that allows users to interact with Hacker News directly from the terminal using the `hn` command. It provides several key commands including `stories` to list top stories with sorting and limit options, `go` to navigate to a specific story, `comments` to view story comments, and `comment` to post comments. The tool offers a streamlined interface for hackers to browse and engage with Hacker News content without leaving the command line.",
+      "domain": "pythonhosted.org",
+      "source_date": "2026-04-15",
+      "page_title": "Commands — HackerNews CLI  documentation",
+      "tags": [
+        "python",
+        "cli-tool",
+        "github-repo"
+      ]
+    },
     {
       "id": 1014,
       "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
@@ -15085,17 +15128,17 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 224
+      "count": 226
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 203
+      "count": 204
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 189
+      "count": 190
     },
     {
       "name": "web-dev",
@@ -15105,7 +15148,7 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 164
+      "count": 165
     },
     {
       "name": "llm",
@@ -15133,14 +15176,14 @@
       "count": 112
     },
     {
-      "name": "devops",
-      "category": "technical_topic",
+      "name": "python",
+      "category": "programming_language",
       "count": 104
     },
     {
-      "name": "python",
-      "category": "programming_language",
-      "count": 103
+      "name": "devops",
+      "category": "technical_topic",
+      "count": 104
     },
     {
       "name": "compilers",
@@ -15210,7 +15253,7 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 11
+      "count": 12
     },
     {
       "name": "tv",
@@ -15293,7 +15336,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 23
+      "count": 24
     },
     {
       "domain": "simonwillison.net",
@@ -15661,6 +15704,10 @@
     },
     {
       "domain": "arstechnica.com",
+      "count": 1
+    },
+    {
+      "domain": "aschmann.net",
       "count": 1
     },
     {
@@ -16869,6 +16916,10 @@
     },
     {
       "domain": "python.langchain.com",
+      "count": 1
+    },
+    {
+      "domain": "pythonhosted.org",
       "count": 1
     },
     {
