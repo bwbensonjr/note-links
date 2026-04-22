@@ -1,6 +1,251 @@
 {
-  "exported_at": "2026-04-16T12:08:43.196435",
+  "exported_at": "2026-04-22T07:22:41.119923",
   "links": [
+    {
+      "id": 1028,
+      "url": "https://github.com/justrach/kuri",
+      "title": null,
+      "description": "kuri - Zig-based agent browser",
+      "summary": "Kuri is a lightweight Zig-based browser automation tool designed specifically for AI agents, offering a 464 KB binary with ~3 ms cold start time and 16% lower token costs compared to alternatives like agent-browser. Built without Node.js dependencies, it provides four modes (CDP server, standalone fetcher, terminal browser, and agentic CLI) optimized for reading pages, performing actions, and minimizing model costs through token-efficient accessibility snapshots and flat JSON responses. The tool includes comprehensive HTTP APIs for navigation, content extraction, HAR recording, and authentication profile management, making it ideal for AI-driven web automation workflows.",
+      "domain": "github.com",
+      "source_date": "2026-04-22",
+      "page_title": "GitHub - justrach/kuri: Browser automation and web crawling for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, and a standalone fetcher. · GitHub",
+      "tags": [
+        "github-repo",
+        "zig",
+        "ai",
+        "web-dev",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1027,
+      "url": "https://britannica11.org/",
+      "title": null,
+      "description": "Encyclopedia Britannica 11",
+      "summary": "The Encyclopædia Britannica Eleventh Edition (1910-1911) is a comprehensive reference work from the early 20th century that has been digitized with full search functionality and cross-referencing capabilities. This online version allows users to easily navigate and explore the extensive knowledge base that was compiled during that historical period. The resource serves as both a historical document and a searchable research tool for accessing information as it was understood and presented in the early 1900s.",
+      "domain": "britannica11.org",
+      "source_date": "2026-04-22",
+      "page_title": "Encyclopædia Britannica, 11th Edition",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1026,
+      "url": "https://zknill.io/posts/all-your-agents-are-going-async/",
+      "title": null,
+      "description": "All our agents are async",
+      "summary": "The article discusses how AI agents are transitioning from synchronous chat-based interactions to asynchronous background operations, which creates fundamental problems with HTTP-based transport that was designed for real-time streaming responses. Major platforms like Anthropic, ChatGPT, and Cloudflare are addressing this shift by adding features like scheduled tasks, webhooks, and remote control, but current solutions primarily focus on durable state storage rather than solving the underlying transport problem of reliably delivering agent results across disconnections and multiple users. The author argues that a proper solution requires both durable state management and durable transport mechanisms, similar to how OpenClaw separates agent work from human connection using external chat systems.",
+      "domain": "zknill.io",
+      "source_date": "2026-04-22",
+      "page_title": "All your agents are going async — /dev/knill",
+      "tags": [
+        "ai",
+        "llm",
+        "distributed-systems",
+        "devops"
+      ]
+    },
+    {
+      "id": 1030,
+      "url": "https://github.com/simonw/tools/blob/main/python/openai_image.py",
+      "title": null,
+      "description": "Simon Willison OpenAI image generator",
+      "summary": "This is a Python CLI tool for generating images using OpenAI's image generation API, created by Simon Willison. The script uses Click to build a command-line interface that accepts a prompt and optional parameters like model, size, and output format, automatically deriving command options by introspecting the OpenAI SDK's type hints. It generates images, saves them to a specified file (or a random location in /tmp), and outputs timing and metadata information to stderr.",
+      "domain": "github.com",
+      "source_date": "2026-04-21",
+      "page_title": "tools/python/openai_image.py at main · simonw/tools · GitHub",
+      "tags": [
+        "python",
+        "cli-tool",
+        "github-repo",
+        "ai"
+      ]
+    },
+    {
+      "id": 1029,
+      "url": "https://vidstudio.app/video-editor",
+      "title": null,
+      "description": "Web-based video editor",
+      "summary": "VidStudio is a free, browser-based video editor that offers comprehensive video processing tools including resizing, trimming, compression, audio processing, watermarking, and subtitle editing—all while keeping your files private since processing happens entirely on your device without server uploads. The platform runs on WebAssembly technology for fast performance, requires no installation, and works across all modern browsers, making it accessible for formatting videos for various social media platforms like YouTube, TikTok, and Instagram.",
+      "domain": "vidstudio.app",
+      "source_date": "2026-04-21",
+      "page_title": "VidStudio - Free Online Video Resizer & Editor",
+      "tags": [
+        "web-dev",
+        "video",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1035,
+      "url": "https://theamericanscholar.org/who-is-blake-whiting/",
+      "title": null,
+      "description": "Who is Blake Whiting? - The most astonishingly productive historian in recent times is a pseudonym for AI-produced works",
+      "summary": "Who is Blake Whiting? - The most astonishingly productive historian in recent times is a pseudonym for AI-produced works",
+      "domain": "theamericanscholar.org",
+      "source_date": "2026-04-20",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "nonfiction-book",
+        "news"
+      ]
+    },
+    {
+      "id": 1034,
+      "url": "https://thelibre.news/i-made-the-next-level-camera-and-i-love-it/",
+      "title": null,
+      "description": "Next-level camera",
+      "summary": "The author explores the physics of camera lenses and aperture size to achieve extreme background blur, discovering that larger apertures require longer focal lengths due to physical constraints. After experimenting with various lenses including a massive vintage projector lens with a 125mm aperture, they realize that achieving both extreme blur and a wide field of view would require an impossibly large sensor (42cm x 29cm). The solution lies in using a depth-of-field adapter, a tool originally designed for video cameras, which can bridge the gap between large vintage lenses and standard modern camera sensors.",
+      "domain": "thelibre.news",
+      "source_date": "2026-04-20",
+      "page_title": "I Made the \"Next-Level\" Camera and I love it",
+      "tags": [
+        "video",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1033,
+      "url": "https://stripe.dev/blog/payment-api-design",
+      "title": null,
+      "description": "Stripe's payment APIs: the first ten years",
+      "summary": "This article by Michelle Bu explores the evolution of Stripe's payment APIs over their first decade, examining the design decisions and technical approaches that shaped their platform. The piece provides insights into Stripe's engineering philosophy and infrastructure, with related resources including technical deep-dives into systems like Stripe Credits and Ledger for money movement tracking. The content is aimed at developers seeking to understand payment API design principles and integrate with Stripe's services.",
+      "domain": "stripe.dev",
+      "source_date": "2026-04-20",
+      "page_title": "Stripe’s payments APIs: The first 10 years | Stripe Dot Dev Blog",
+      "tags": [
+        "web-dev",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1032,
+      "url": "https://martinalderson.com/posts/how-to-make-great-looking-consistent-reports-with-claude-code-cowork-codex/",
+      "title": null,
+      "description": "How to make great reports with Claude Code",
+      "summary": "The article outlines a three-step method to generate professional, brand-consistent reports and presentations using Claude AI and a Node.js script. The process involves extracting your organization's design tokens into a reference file, creating HTML templates for reports and slideshows that follow your brand guidelines, and building a markdown-to-PDF converter that automatically formats content while maintaining visual consistency. This approach eliminates the need for manual formatting in word processors and allows teams to produce polished documents quickly by simply asking the AI agent to convert markdown content into reports or slides.",
+      "domain": "martinalderson.com",
+      "source_date": "2026-04-20",
+      "page_title": "How to generate good looking reports with Claude Code, Cowork or Codex - Martin Alderson",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial",
+        "javascript",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1031,
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": null,
+      "description": "Claude Design",
+      "summary": "Anthropic has launched Claude Design, a new tool that enables users to collaborate with Claude to create visual work like designs, prototypes, and presentations through natural conversation and refinement. The tool is powered by Claude Opus 4.7, automatically applies team design systems for consistency, and seamlessly integrates with other tools like Claude Code and Canva for handoff and further editing. It's now available in research preview for Claude Pro, Max, Team, and Enterprise subscribers, allowing designers to explore multiple directions quickly and non-designers to produce polished visual work without design expertise.",
+      "domain": "www.anthropic.com",
+      "source_date": "2026-04-20",
+      "page_title": "Introducing Claude Design by Anthropic Labs \\ Anthropic",
+      "tags": [
+        "llm",
+        "ai",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1037,
+      "url": "https://zef-lang.dev/implementation",
+      "title": null,
+      "description": "How To Make a Fast Dynamic Language Interpreter",
+      "summary": "The author optimized an AST-walking interpreter for the dynamic language Zef from a baseline to achieve 16x speedup, making it competitive with Lua, QuickJS, and CPython despite starting from an intentionally naive implementation. The optimization techniques employed—including improved value representation, inline caching, object model refinements, and watchpoints—required no advanced features like JIT compilation or bytecode, demonstrating that significant performance gains can be achieved through fundamental design choices and careful engineering. The post documents the methodology and incremental improvements across a benchmark suite of classic language benchmarks, showing how even simple interpreters can reach production-quality performance through systematic optimization.",
+      "domain": "zef-lang.dev",
+      "source_date": "2026-04-19",
+      "page_title": "How To Make a Fast Dynamic Language Interpreter",
+      "tags": [
+        "compilers",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1036,
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "title": null,
+      "description": "Change to the Opus system prompt",
+      "summary": "I don't have access to browse web pages or view their content. While you've provided a URL and title about changes to Claude Opus's system prompt between versions 4.6 and 4.7, I can only see the page header and some navigation links, not the actual article content. To provide an accurate summary, I would need you to either share the full text of the article or provide more details about what changes were discussed.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-04-19",
+      "page_title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "tags": [
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 1024,
+      "url": "https://clojure.org/about/documentary",
+      "title": null,
+      "description": "Clojure documentary",
+      "summary": "A full-length documentary traces Clojure's origins from Rich Hickey's sabbatical project to its current role powering major fintech infrastructure, featuring key creators and exploring the language's values-driven community and philosophical approach to software design. The page provides comprehensive resources including foundational research papers, influential books, talks by Rich Hickey on topics like simplicity and immutable values, and information about Clojure's various implementations (ClojureScript, ClojureCLR, Babashka) and modern applications in data science and AI. It also offers getting started guides, a glossary of key terms, and details about the vibrant Clojure ecosystem and community.",
+      "domain": "clojure.org",
+      "source_date": "2026-04-17",
+      "page_title": "Clojure - Documentary",
+      "tags": [
+        "clojure",
+        "video",
+        "academic-paper",
+        "lisp"
+      ]
+    },
+    {
+      "id": 1023,
+      "url": "https://chapel-lang.org/blog/posts/30years/",
+      "title": null,
+      "description": "Reflections on 30 Years of HPC Programming: So many hardware advances, so little adoption of new languages",
+      "summary": "Over the past 30 years, HPC hardware has experienced extraordinary improvements, with core counts increasing by hundreds of thousands and performance gains reaching millions of times, driven by advances in multicore processors, GPUs, and high-speed networks. However, the programming languages and models used in HPC have remained remarkably stagnant, with Fortran, C, and C++ still dominating alongside MPI and OpenMP, while few new programming languages have achieved significant adoption despite numerous attempts to modernize HPC development. This disconnect highlights a critical challenge in the field: despite revolutionary hardware capabilities, the HPC community has largely failed to adopt innovative programming approaches that could improve productivity and ease of use.",
+      "domain": "chapel-lang.org",
+      "source_date": "2026-04-17",
+      "page_title": "Reflections on 30 Years of HPC Programming: So many hardware advances, so little adoption of new languages",
+      "tags": [
+        "c",
+        "cpp",
+        "tutorial",
+        "distributed-systems",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1022,
+      "url": "https://cadquery.github.io/",
+      "title": null,
+      "description": "cq - A Python library for parametric 3D CAD modeling",
+      "summary": "CadQuery is an open-source Python library that enables users to create 3D CAD models programmatically by writing code rather than using traditional graphical interfaces. This approach allows CAD models to be easily versioned, shared, and made parametric, making it ideal for users who prefer code-based design workflows. The library simplifies the process of building complex parts by letting designers describe geometry as Python code.",
+      "domain": "cadquery.github.io",
+      "source_date": "2026-04-17",
+      "page_title": "CadQuery | Create parametric CAD models with Python",
+      "tags": [
+        "python",
+        "github-repo",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1025,
+      "url": "https://www.threads.com/@boris_cherny/post/DXM_ATtjxna?xmt=AQF01j9mzspP3-USIWT6yoqWvHhfmowXEXu9onQ77ZMnzfsfLKQLQ7wfibx-AsgkxArdcv4l&slof=1",
+      "title": null,
+      "description": "Boris Cherney gives updated recommendations on using Claude Code",
+      "summary": "Dogfooding Opus 4.7 the last few weeks, I've been feeling incredibly productive. Sharing a few tips to get more out of 4.7 🧵 - Boris Cherney gives updated recommendations on using Claude Code",
+      "domain": "www.threads.com",
+      "source_date": "2026-04-16",
+      "page_title": "Dogfooding Opus 4.7 the last few weeks, I've been feeling incredibly productive. Sharing a few tips to get more out of 4.7 🧵",
+      "tags": [
+        "llm",
+        "social-media",
+        "tutorial"
+      ]
+    },
     {
       "id": 1020,
       "url": "https://www.youtube.com/watch?v=H1KP4ztKK0A",
@@ -15118,42 +15363,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 329
+      "count": 335
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 242
+      "count": 249
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 226
+      "count": 229
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 204
+      "count": 208
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 190
+      "count": 193
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 168
+      "count": 174
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 165
+      "count": 168
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 157
+      "count": 162
     },
     {
       "name": "music",
@@ -15163,32 +15408,32 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 120
+      "count": 122
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 113
+      "count": 114
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 112
+      "count": 113
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 104
+      "count": 106
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 104
+      "count": 105
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 81
+      "count": 82
     },
     {
       "name": "database",
@@ -15203,7 +15448,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 41
+      "count": 43
     },
     {
       "name": "politics",
@@ -15213,20 +15458,20 @@
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 27
+      "count": 28
     },
     {
       "name": "c",
       "category": "programming_language",
-      "count": 25
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 23
+      "count": 26
     },
     {
       "name": "javascript",
+      "category": "programming_language",
+      "count": 24
+    },
+    {
+      "name": "rust",
       "category": "programming_language",
       "count": 23
     },
@@ -15273,7 +15518,7 @@
     {
       "name": "clojure",
       "category": "programming_language",
-      "count": 8
+      "count": 9
     },
     {
       "name": "movie",
@@ -15296,6 +15541,11 @@
       "count": 4
     },
     {
+      "name": "cpp",
+      "category": "programming_language",
+      "count": 4
+    },
+    {
       "name": "swift",
       "category": "programming_language",
       "count": 4
@@ -15306,11 +15556,6 @@
       "count": 4
     },
     {
-      "name": "cpp",
-      "category": "programming_language",
-      "count": 3
-    },
-    {
       "name": "nix",
       "category": "programming_language",
       "count": 1
@@ -15319,12 +15564,17 @@
       "name": "ruby",
       "category": "programming_language",
       "count": 1
+    },
+    {
+      "name": "zig",
+      "category": "programming_language",
+      "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 107
+      "count": 109
     },
     {
       "domain": "www.threads.net",
@@ -15340,11 +15590,11 @@
     },
     {
       "domain": "simonwillison.net",
-      "count": 21
+      "count": 22
     },
     {
       "domain": "www.threads.com",
-      "count": 18
+      "count": 19
     },
     {
       "domain": "open.spotify.com",
@@ -15387,6 +15637,10 @@
       "count": 4
     },
     {
+      "domain": "www.anthropic.com",
+      "count": 4
+    },
+    {
       "domain": "www.bbc.com",
       "count": 4
     },
@@ -15420,10 +15674,6 @@
     },
     {
       "domain": "susam.net",
-      "count": 3
-    },
-    {
-      "domain": "www.anthropic.com",
       "count": 3
     },
     {
@@ -15500,6 +15750,10 @@
     },
     {
       "domain": "magazine.sebastianraschka.com",
+      "count": 2
+    },
+    {
+      "domain": "martinalderson.com",
       "count": 2
     },
     {
@@ -15871,6 +16125,10 @@
       "count": 1
     },
     {
+      "domain": "britannica11.org",
+      "count": 1
+    },
+    {
       "domain": "brooker.co.za",
       "count": 1
     },
@@ -15892,6 +16150,10 @@
     },
     {
       "domain": "bzolang.blog",
+      "count": 1
+    },
+    {
+      "domain": "cadquery.github.io",
       "count": 1
     },
     {
@@ -15927,6 +16189,10 @@
       "count": 1
     },
     {
+      "domain": "chapel-lang.org",
+      "count": 1
+    },
+    {
       "domain": "chatgpt.com",
       "count": 1
     },
@@ -15948,6 +16214,10 @@
     },
     {
       "domain": "clickhouse.com",
+      "count": 1
+    },
+    {
+      "domain": "clojure.org",
       "count": 1
     },
     {
@@ -16575,10 +16845,6 @@
       "count": 1
     },
     {
-      "domain": "martinalderson.com",
-      "count": 1
-    },
-    {
       "domain": "math.uchicago.edu",
       "count": 1
     },
@@ -17083,6 +17349,10 @@
       "count": 1
     },
     {
+      "domain": "stripe.dev",
+      "count": 1
+    },
+    {
       "domain": "strongsongspodcast.com",
       "count": 1
     },
@@ -17127,7 +17397,15 @@
       "count": 1
     },
     {
+      "domain": "theamericanscholar.org",
+      "count": 1
+    },
+    {
       "domain": "thedyrt.com",
+      "count": 1
+    },
+    {
+      "domain": "thelibre.news",
       "count": 1
     },
     {
@@ -17192,6 +17470,10 @@
     },
     {
       "domain": "verdik.substack.com",
+      "count": 1
+    },
+    {
+      "domain": "vidstudio.app",
       "count": 1
     },
     {
@@ -17784,6 +18066,14 @@
     },
     {
       "domain": "yqnn.github.io",
+      "count": 1
+    },
+    {
+      "domain": "zef-lang.dev",
+      "count": 1
+    },
+    {
+      "domain": "zknill.io",
       "count": 1
     },
     {
