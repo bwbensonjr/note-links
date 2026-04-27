@@ -1,6 +1,79 @@
 {
-  "exported_at": "2026-04-25T08:13:57.617383",
+  "exported_at": "2026-04-27T06:54:15.706088",
   "links": [
+    {
+      "id": 1050,
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "title": null,
+      "description": "3 constraints before I build anything",
+      "summary": "Jordan Lord outlines three key constraints he uses before building anything to maintain simplicity and focus: a one-page document that captures the core vision and prevents scope creep, a separable core technology that compounds value over time independent of product pivots, and a defining constraint that shapes product identity and reduces feature bloat. These constraints function as creativity enablers that collapse the decision space and force builders to think strategically about leverage and originality rather than building complex, unfocused products.",
+      "domain": "jordanlord.co.uk",
+      "source_date": "2026-04-27",
+      "page_title": "3 constraints before I build anything | Jordan Lord",
+      "tags": [
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1052,
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "title": null,
+      "description": "Agentic AI memory with Ebbinghaus forgetting curve decay",
+      "summary": "YourMemory is an AI memory system that implements human-like memory decay using the Ebbinghaus forgetting curve, enabling AI agents to retain persistent context across sessions without restarting from zero. It achieves 59% recall on benchmarks—2× better than competing solutions like Zep Cloud—through a hybrid approach combining vector search, graph-based retrieval, and importance-weighted decay, with easy installation and zero infrastructure requirements. The system integrates with popular AI clients like Claude and Cline via standard MCP servers, offering simple memory management tools (recall, store, update) that automatically integrate into agent workflows.",
+      "domain": "github.com",
+      "source_date": "2026-04-26",
+      "page_title": "GitHub - sachitrafa/YourMemory: Agentic AI memory with Ebbinghaus forgetting curve decay. +16pp better recall than Mem0 on LoCoMo. · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": 1051,
+      "url": "https://www.jsoftware.com/papers/perlis78.htm",
+      "title": null,
+      "description": "APL is more French than English - Alan J. Perlis",
+      "summary": "Alan Perlis describes his revelation upon discovering APL as a programming language that emphasizes elegance, brevity, and artistic expression—qualities he found lacking in ALGOL-style languages like FORTRAN. He argues that APL's appeal lies not in replacing other languages but in offering programmers a rich, expressive tool that attracts diverse communities with varied interests, making it a complete and mature language. Perlis emphasizes that APL's slow evolution and stability are fortunate, as the language's different user groups have minimal overlapping concerns, making its future development inherently challenging.",
+      "domain": "www.jsoftware.com",
+      "source_date": "2026-04-26",
+      "page_title": "APL is more French than English",
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1054,
+      "url": "https://github.com/coalton-lang/coalton",
+      "title": null,
+      "description": "Coalton - A statically typed language embedded in Common Lisp",
+      "summary": "Coalton is a statically typed functional programming language embedded in Common Lisp that enables developers to write type-safe code while maintaining integration with the Lisp ecosystem. It features compile-time type checking, pattern matching, and algebraic data types, and is currently used in production for defense and quantum computing applications. The language is still in pre-1.0 development and is primarily tested on SBCL, Allegro CL, and Clozure CL implementations.",
+      "domain": "github.com",
+      "source_date": "2026-04-25",
+      "page_title": "GitHub - coalton-lang/coalton: Coalton is an efficient, statically typed functional programming language that supercharges Common Lisp. · GitHub",
+      "tags": [
+        "github-repo",
+        "common-lisp",
+        "lisp",
+        "compilers"
+      ]
+    },
+    {
+      "id": 1053,
+      "url": "https://kevinlynagh.com/newsletter/2026_04_overthinking/",
+      "title": null,
+      "description": "Sabotaging projects by overthinking",
+      "summary": "The author explores how overthinking sabotages creative projects by examining two contrasting approaches: acting quickly with clear success criteria (which led to a successful weekend woodworking project) versus endless research and scope expansion (which derailed projects on semantic diffing, programming languages, and CAD tools). He emphasizes the importance of defining minimal success criteria upfront and embracing \"learning by doing\" rather than indefinite planning, while acknowledging that adding powerful libraries or features often introduces unnecessary complexity that must be actively resisted through disciplined scope management.",
+      "domain": "kevinlynagh.com",
+      "source_date": "2026-04-25",
+      "page_title": "On sabotaging projects by overthinking, scope creep, and structural diffing",
+      "tags": [
+        "tutorial",
+        "compilers"
+      ]
+    },
     {
       "id": 1042,
       "url": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
@@ -15546,12 +15619,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 337
+      "count": 339
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 254
+      "count": 255
     },
     {
       "name": "video",
@@ -15561,7 +15634,7 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 211
+      "count": 212
     },
     {
       "name": "cli-tool",
@@ -15571,17 +15644,17 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 175
+      "count": 176
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 172
+      "count": 174
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 166
+      "count": 167
     },
     {
       "name": "music",
@@ -15604,19 +15677,19 @@
       "count": 115
     },
     {
+      "name": "python",
+      "category": "programming_language",
+      "count": 108
+    },
+    {
       "name": "devops",
       "category": "technical_topic",
       "count": 108
     },
     {
-      "name": "python",
-      "category": "programming_language",
-      "count": 107
-    },
-    {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 82
+      "count": 84
     },
     {
       "name": "database",
@@ -15634,13 +15707,13 @@
       "count": 46
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 28
-    },
-    {
       "name": "lisp",
       "category": "programming_language",
+      "count": 29
+    },
+    {
+      "name": "politics",
+      "category": "culture",
       "count": 28
     },
     {
@@ -15684,14 +15757,14 @@
       "count": 12
     },
     {
-      "name": "tv",
-      "category": "culture",
+      "name": "common-lisp",
+      "category": "programming_language",
       "count": 11
     },
     {
-      "name": "common-lisp",
-      "category": "programming_language",
-      "count": 10
+      "name": "tv",
+      "category": "culture",
+      "count": 11
     },
     {
       "name": "fiction-book",
@@ -15757,7 +15830,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 113
+      "count": 115
     },
     {
       "domain": "www.threads.net",
@@ -15865,6 +15938,10 @@
     },
     {
       "domain": "www.dbreunig.com",
+      "count": 3
+    },
+    {
+      "domain": "www.jsoftware.com",
       "count": 3
     },
     {
@@ -15981,10 +16058,6 @@
     },
     {
       "domain": "www.instagram.com",
-      "count": 2
-    },
-    {
-      "domain": "www.jsoftware.com",
       "count": 2
     },
     {
@@ -16892,6 +16965,10 @@
       "count": 1
     },
     {
+      "domain": "jordanlord.co.uk",
+      "count": 1
+    },
+    {
       "domain": "joshblais.com",
       "count": 1
     },
@@ -16921,6 +16998,10 @@
     },
     {
       "domain": "kepler.gl",
+      "count": 1
+    },
+    {
+      "domain": "kevinlynagh.com",
       "count": 1
     },
     {
