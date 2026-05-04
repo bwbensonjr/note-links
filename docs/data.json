@@ -1,6 +1,316 @@
 {
-  "exported_at": "2026-04-27T06:54:15.706088",
+  "exported_at": "2026-05-04T06:25:31.578309",
   "links": [
+    {
+      "id": 1059,
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "title": null,
+      "description": "text-to-cad - An open source harness for generating CAD models",
+      "summary": "Text-to-CAD is an open-source framework that enables AI coding agents like Codex and Claude to generate 3D CAD models from text descriptions. It provides a complete workflow including model generation, export to multiple formats (STEP, STL, 3MF, etc.), inspection through CAD Explorer, and iterative editing capabilities. The project includes bundled skills for CAD design, robot descriptions, and motion planning, with local execution support and no backend requirements.",
+      "domain": "github.com",
+      "source_date": "2026-05-04",
+      "page_title": "GitHub - earthtojake/text-to-cad: An open source harness for generating CAD models · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": 1058,
+      "url": "https://evilgeniuslabs.ca/blog/from-cvs-to-git-thirty-years-of-source-control",
+      "title": null,
+      "description": "From CVS to Git, thirty years of source control, lived from inside",
+      "summary": "The article traces thirty years of source control evolution from primitive methods like dated zip files in the 1990s through Git, which Linus Torvalds created in 2005 and remains the dominant standard today. It chronicles how each major system—from lock-based RCS, through CVS's concurrent editing model, to Microsoft's crash-prone Visual SourceSafe—solved specific problems of its era while introducing new ones. The author, who has used every major version control system since 1990, argues that Git's staying power for over two decades stems from its structural superiority, making it unlikely to be replaced despite being written in just ten days.",
+      "domain": "evilgeniuslabs.ca",
+      "source_date": "2026-05-04",
+      "page_title": "From CVS to Git, thirty years of source control, lived from inside - EvilGeniusLabs.ca",
+      "tags": [
+        "tutorial",
+        "devops",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 1057,
+      "url": "https://github.com/bschoepke/ableton-live-mcp",
+      "title": null,
+      "description": "General purpos MCP bridge for Ableton",
+      "summary": "This GitHub project is an MCP (Model Context Protocol) server that enables voice control of Ableton Live through AI agents like Claude or Copilot by allowing arbitrary Python execution within Ableton's object model. It offers both general-purpose scripting capabilities and pre-built tools for common tasks, optimized for low latency and token efficiency, with the ability to control synthesizers, process audio samples, and create complex music production workflows. The creator demonstrated its capabilities by using voice commands to build a complete EDM track with vocals, drum machines, and dynamic effects adjustments in real-time.",
+      "domain": "github.com",
+      "source_date": "2026-05-04",
+      "page_title": "GitHub - bschoepke/ableton-live-mcp: General-purpose MCP bridge for Ableton Live · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": 1056,
+      "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+      "title": null,
+      "description": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life",
+      "summary": "A newly discovered fossil site in southern China called the Huayuan biota contains over 8,600 remarkably well-preserved Cambrian fossils, more than half of which represent species previously unknown to science. The collection, which dates after the first mass extinction event 513.5 million years ago, reveals that deep-ocean environments served as refuges for life during this extinction and shows similarities to the famous Burgess Shale, suggesting global ocean connectivity in early Earth. These fossils are transforming scientists' understanding of how modern animal phyla evolved and how complex ecosystems developed, while also providing insights into early oceanic carbon cycling and food web distribution.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-05-04",
+      "page_title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life | Quanta Magazine",
+      "tags": [
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1055,
+      "url": "https://www3.nhk.or.jp/nhkworld/en/shows/texico/",
+      "title": null,
+      "description": "Texico - Learn the principles of programming without touching a computer",
+      "summary": "Texico is an educational program that teaches fundamental programming principles through animation and storytelling without requiring a computer. The show uses unique animated characters to introduce five core programming concepts: analysis, combination, generalization, abstraction, and simulation, making complex ideas accessible and engaging for learners.",
+      "domain": "www3.nhk.or.jp",
+      "source_date": "2026-05-04",
+      "page_title": "Texico | NHK WORLD-JAPAN",
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "id": 1067,
+      "url": "https://github.com/darrylmorley/whatcable",
+      "title": null,
+      "description": "WhatCable - MacOS menu bar",
+      "summary": "WhatCable is a macOS menu bar app that identifies what each USB-C cable plugged into your Mac can actually do, displaying information like cable speed, power ratings, charging diagnostics, and connected device details in plain English. The app accesses this data through macOS IOKit services without requiring special permissions or private APIs, and also offers a command-line interface for users who prefer terminal access. It's only available for Apple Silicon Macs running macOS 14 or later, as Intel Macs lack the necessary driver support for exposing USB Power Delivery information.",
+      "domain": "github.com",
+      "source_date": "2026-05-02",
+      "page_title": "GitHub - darrylmorley/whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "swift"
+      ]
+    },
+    {
+      "id": 1066,
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "title": null,
+      "description": "DeepSeek V4—almost on the frontier, a fraction of the price",
+      "summary": "I don't have access to the actual web page content at that URL, so I cannot provide an accurate summary of the article about DeepSeek V4. To summarize the page properly, I would need you to either share the full text content or provide more details about what the article discusses. If you can paste the article content, I'd be happy to create a 2-3 sentence summary focusing on the main topic and key takeaways.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-05-02",
+      "page_title": "DeepSeek V4—almost on the frontier, a fraction of the price",
+      "tags": [
+        "llm",
+        "ai",
+        "news"
+      ]
+    },
+    {
+      "id": 1065,
+      "url": "https://snewpapers.com/",
+      "title": "https://snewpapers.com",
+      "description": "AI Newspaper Archive",
+      "summary": "SNEWPapers is the world's first AI-powered newspaper archive containing over 6 million stories extracted from 250 years of American history across 3,000+ newspaper titles, offering semantic search capabilities and research tools unavailable on conventional search engines or AI platforms. The platform allows users to explore historical content through AI-powered search, build curated collections, use an AI research assistant called \"The Sleuth\" for guided queries, and discover daily historical events based on newspaper archives.",
+      "domain": "snewpapers.com",
+      "source_date": "2026-05-02",
+      "page_title": "SNEWPapers — The World's First AI Newspaper Archive",
+      "tags": [
+        "ai",
+        "news",
+        "database"
+      ]
+    },
+    {
+      "id": 1064,
+      "url": "https://www.economist.com/science-and-technology/2022/10/21/becoming-a-father-shrinks-your-cerebrum",
+      "title": null,
+      "description": "Becoming a father shrinks your cerebrum",
+      "summary": "Becoming a father shrinks your cerebrum",
+      "domain": "www.economist.com",
+      "source_date": "2026-05-02",
+      "page_title": null,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": 1063,
+      "url": "https://danieltan.weblog.lol/2026/05/the-century-long-pause-in-fundamental-physics",
+      "title": null,
+      "description": "The Century-Long Pause in Fundamental Physics",
+      "summary": "The article argues that fundamental physics has been stalled for a century because it has mastered extending mathematical models faster than renewing the underlying physical theories that explain reality. The author distinguishes between quantum mechanics as a mathematical calculus (which explains why interpretations debates remain unresolved) and as a physical theory with genuine ontology, suggesting the field's foundational problems stem from treating computational formalisms as fundamental rather than the physical structures they describe. All major confirmations in the last fifty years have merely reinforced ontological commitments made before 1973, while every beyond-standard-model proposal using mathematical-model methodology has failed to produce confirmed predictions.",
+      "domain": "danieltan.weblog.lol",
+      "source_date": "2026-05-02",
+      "page_title": "Daniel's Blog · The Century-Long Pause in Fundamental Physics",
+      "tags": [
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 1062,
+      "url": "https://simonwillison.net/2026/Apr/29/llm/",
+      "title": null,
+      "description": "llm refactor",
+      "summary": "I don't have access to browse external websites or URLs, so I cannot read the content of the page at https://simonwillison.net/2026/Apr/29/llm/. To provide an accurate summary, I would need you to share the actual text content from that page. If you can paste the article content, I'd be happy to summarize it for you.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-05-02",
+      "page_title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "tags": [
+        "llm",
+        "cli-tool",
+        "python"
+      ]
+    },
+    {
+      "id": 1061,
+      "url": "https://simonwillison.net/tags/inaturalist/",
+      "title": null,
+      "description": "Simon Willison iNaturalist sightings",
+      "summary": "Simon Willison created a tool to view his iNaturalist observations from multiple accounts organized by when they occurred. He built the project entirely on his phone using Claude Code, combining a Python CLI that groups nearby observations together, a Git repository that automatically fetches and stores the data as JSON, and a web app that displays the observations with clickable image thumbnails in a modal. The entire workflow leverages automation and AI-assisted development to create a personalized visualization of his nature sightings.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-05-02",
+      "page_title": "Simon Willison on inaturalist",
+      "tags": [
+        "python",
+        "cli-tool",
+        "web-dev",
+        "llm"
+      ]
+    },
+    {
+      "id": 1060,
+      "url": "https://github.com/dotcl/dotcl",
+      "title": null,
+      "description": "dotcl .NET Common Lisp",
+      "summary": "dotcl is a Common Lisp implementation that compiles to .NET's CIL intermediate language, enabling cross-platform deployment on Windows, macOS, and Linux without per-platform porting. It excels at embedding Lisp in .NET applications, writing .NET code in Lisp via direct type access, and accessing the NuGet ecosystem while maintaining ANSI Common Lisp compatibility. The project includes working samples for MAUI apps, ASP.NET Core, MonoGame, and MCP servers, with setup requiring only .NET SDK 10+ and optional Roswell for initial bootstrap.",
+      "domain": "github.com",
+      "source_date": "2026-05-02",
+      "page_title": "GitHub - dotcl/dotcl · GitHub",
+      "tags": [
+        "github-repo",
+        "common-lisp",
+        "compilers"
+      ]
+    },
+    {
+      "id": 1069,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "title": null,
+      "description": "Understand Anything",
+      "summary": "Understand Anything is a Claude Code plugin that transforms codebases, knowledge bases, and documentation into interactive knowledge graphs, enabling developers to quickly visualize project structure, dependencies, and business logic through an explorable dashboard. The tool features semantic search, guided tours, diff impact analysis, and multi-platform support across Claude Code, Cursor, Copilot, and other AI coding platforms, helping teams onboard faster and understand complex systems without manually reading through code. Key capabilities include a structural graph view for navigating files and functions, a domain view for business processes, and specialized agents that analyze projects in parallel to extract relationships and generate learning materials.",
+      "domain": "github.com",
+      "source_date": "2026-05-01",
+      "page_title": "GitHub - Lum1104/Understand-Anything: Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "web-dev",
+        "python"
+      ]
+    },
+    {
+      "id": 1068,
+      "url": "https://bidprowl.com/",
+      "title": null,
+      "description": "Aggregated US government auction search",
+      "summary": "BidProwl is an aggregated search platform that consolidates US government surplus auctions from 26 different sources including GSA, GovDeals, and Ritchie Bros into one searchable database with over 92,000 active listings across all 50 states. The platform scores each listing on value, eliminates duplicate listings, and updates daily to help buyers find seized vehicles, real estate, equipment, and other government surplus without having to search multiple auction sites individually. Users can browse by category and state, receive deal alerts, and access guides on how to bid in government auctions.",
+      "domain": "bidprowl.com",
+      "source_date": "2026-05-01",
+      "page_title": "BidProwl | Government Surplus Auctions in One Place",
+      "tags": [
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1071,
+      "url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
+      "title": null,
+      "description": null,
+      "summary": "I don't have access to the actual video content from this YouTube page. The text provided only contains YouTube's standard footer information (copyright, links to policies, etc.) and doesn't include the video transcript or description that would allow me to summarize the discussion about \"Vibe Coding to Agentic Engineering\" by Andrej Karpathy.\n\nTo provide an accurate summary, I would need the video transcript or a detailed description of the content covered in the talk.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-04-30",
+      "page_title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering - YouTube",
+      "tags": [
+        "video",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": 1070,
+      "url": "https://share.snipd.com/episode/534644a1-3b52-4b9e-ad6a-cf65fc67de41",
+      "title": null,
+      "description": "Episode from The AI Daily Brief: Artificial Intelligence News and Analysis",
+      "summary": "Nufar Gaspar presents a seven-layer framework for building a personal AI agent operating system that remains consistent across different tools and models. The framework emphasizes starting with an identity file that defines your values and style, then layering in context through small focused files, reusable skills, memory systems, tool connections with guardrails, verification processes, and cautious automation—using her \"Chloe\" chief of staff agent as a practical example. The key takeaway is that as AI agent tools become increasingly similar, the underlying system architecture and personal customization you build is what truly differentiates and maximizes their effectiveness.",
+      "domain": "share.snipd.com",
+      "source_date": "2026-04-30",
+      "page_title": "How To Build a Personal Agentic Operating System",
+      "tags": [
+        "ai",
+        "podcast",
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1073,
+      "url": "https://zed.dev/blog/zed-1-0",
+      "title": null,
+      "description": "Zed 1.0 - An editor built like a video game",
+      "summary": "Zed has reached version 1.0 after being built from the ground up as a GPU-accelerated application rather than a web-based editor, allowing it to achieve superior performance and capabilities unavailable to competitors built on borrowed platforms like Electron. The 1.0 release represents a tipping point where Zed now supports the full range of modern development features across multiple languages and operating systems, with AI deeply integrated as a native capability rather than an afterthought. Looking forward, the team plans to develop DeltaDB, a synchronization engine that will enable seamless collaboration between human developers and AI agents on shared codebases in real-time.",
+      "domain": "zed.dev",
+      "source_date": "2026-04-29",
+      "page_title": "Zed is 1.0 — Zed's Blog",
+      "tags": [
+        "cli-tool",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "id": 1072,
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "title": null,
+      "description": "Introducing talkie: a 13B vintage model trained on pre-1930 text data",
+      "summary": "Talkie is a 13-billion parameter language model trained exclusively on text data from before 1930, designed to capture the linguistic patterns and knowledge of that historical period. The model can answer historical questions from a contemporary perspective circa 1930, though it cannot provide information about events that occurred after its training cutoff date. This vintage language model offers a unique way to explore how AI would respond using only pre-1930 knowledge and language patterns.",
+      "domain": "talkie-lm.com",
+      "source_date": "2026-04-29",
+      "page_title": "Introducing talkie: a 13B vintage language model from 1930",
+      "tags": [
+        "llm",
+        "ai",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 1075,
+      "url": "https://dl.acm.org/doi/epdf/10.1145/2212877.2212896",
+      "title": null,
+      "description": "Larry Tesler - A Personal History of Modeless Text Editing and Cut/Copy-Paste",
+      "summary": "Larry Tesler - A Personal History of Modeless Text Editing and Cut/Copy-Paste",
+      "domain": "dl.acm.org",
+      "source_date": "2026-04-27",
+      "page_title": null,
+      "tags": [
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1074,
+      "url": "https://www.gnu.org/software/stow/",
+      "title": null,
+      "description": "GNU Stow",
+      "summary": "GNU Stow is a free software tool that manages symlink farms, allowing separate software packages stored in different directories to appear as if they're installed in a unified location—making it particularly useful for organizing system-wide and per-user software installations from source code. The tool is implemented as a Perl script with a command-line interface and is licensed under the GNU General Public License, with the latest version (2.4.1) released in September 2024 featuring bug fixes and improvements. Users can access documentation, contribute to development, and report issues through the project's mailing lists and Savannah repository.",
+      "domain": "www.gnu.org",
+      "source_date": "2026-04-27",
+      "page_title": "Stow\n- GNU Project - Free Software Foundation",
+      "tags": [
+        "cli-tool",
+        "devops"
+      ]
+    },
     {
       "id": 1050,
       "url": "https://jordanlord.co.uk/blog/3-constraints/",
@@ -15619,42 +15929,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 339
+      "count": 342
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 255
+      "count": 263
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 230
+      "count": 232
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 212
+      "count": 215
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 195
-    },
-    {
-      "name": "web-dev",
-      "category": "technical_topic",
-      "count": 176
+      "count": 201
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 174
+      "count": 180
+    },
+    {
+      "name": "web-dev",
+      "category": "technical_topic",
+      "count": 178
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 167
+      "count": 176
     },
     {
       "name": "music",
@@ -15664,12 +15974,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 123
+      "count": 125
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 116
+      "count": 120
     },
     {
       "name": "social-media",
@@ -15679,22 +15989,22 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 108
+      "count": 113
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 108
+      "count": 111
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 84
+      "count": 85
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 56
+      "count": 57
     },
     {
       "name": "security",
@@ -15754,12 +16064,12 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 12
+      "count": 13
     },
     {
       "name": "common-lisp",
       "category": "programming_language",
-      "count": 11
+      "count": 12
     },
     {
       "name": "tv",
@@ -15787,6 +16097,11 @@
       "count": 6
     },
     {
+      "name": "swift",
+      "category": "programming_language",
+      "count": 5
+    },
+    {
       "name": "elixir",
       "category": "programming_language",
       "count": 5
@@ -15798,11 +16113,6 @@
     },
     {
       "name": "cpp",
-      "category": "programming_language",
-      "count": 4
-    },
-    {
-      "name": "swift",
       "category": "programming_language",
       "count": 4
     },
@@ -15830,7 +16140,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 115
+      "count": 120
     },
     {
       "domain": "www.threads.net",
@@ -15841,12 +16151,12 @@
       "count": 26
     },
     {
-      "domain": "www.youtube.com",
-      "count": 24
+      "domain": "simonwillison.net",
+      "count": 25
     },
     {
-      "domain": "simonwillison.net",
-      "count": 22
+      "domain": "www.youtube.com",
+      "count": 25
     },
     {
       "domain": "www.threads.com",
@@ -15870,7 +16180,7 @@
     },
     {
       "domain": "www.quantamagazine.org",
-      "count": 6
+      "count": 7
     },
     {
       "domain": "eli.thegreenplace.net",
@@ -15910,6 +16220,10 @@
     },
     {
       "domain": "cooking.nytimes.com",
+      "count": 3
+    },
+    {
+      "domain": "dl.acm.org",
       "count": 3
     },
     {
@@ -15974,10 +16288,6 @@
     },
     {
       "domain": "deepwiki.com",
-      "count": 2
-    },
-    {
-      "domain": "dl.acm.org",
       "count": 2
     },
     {
@@ -16297,6 +16607,10 @@
       "count": 1
     },
     {
+      "domain": "bidprowl.com",
+      "count": 1
+    },
+    {
       "domain": "bigdata.2minutestreaming.com",
       "count": 1
     },
@@ -16589,6 +16903,10 @@
       "count": 1
     },
     {
+      "domain": "danieltan.weblog.lol",
+      "count": 1
+    },
+    {
       "domain": "davidbessis.substack.com",
       "count": 1
     },
@@ -16742,6 +17060,10 @@
     },
     {
       "domain": "every.to",
+      "count": 1
+    },
+    {
+      "domain": "evilgeniuslabs.ca",
       "count": 1
     },
     {
@@ -17541,6 +17863,10 @@
       "count": 1
     },
     {
+      "domain": "share.snipd.com",
+      "count": 1
+    },
+    {
       "domain": "sharif.io",
       "count": 1
     },
@@ -17582,6 +17908,10 @@
     },
     {
       "domain": "small-js.org",
+      "count": 1
+    },
+    {
+      "domain": "snewpapers.com",
       "count": 1
     },
     {
@@ -17654,6 +17984,10 @@
     },
     {
       "domain": "t0mpr1c3.github.io",
+      "count": 1
+    },
+    {
+      "domain": "talkie-lm.com",
       "count": 1
     },
     {
@@ -17933,6 +18267,10 @@
       "count": 1
     },
     {
+      "domain": "www.economist.com",
+      "count": 1
+    },
+    {
       "domain": "www.ethanhein.com",
       "count": 1
     },
@@ -17974,6 +18312,10 @@
     },
     {
       "domain": "www.gnome-look.org",
+      "count": 1
+    },
+    {
+      "domain": "www.gnu.org",
       "count": 1
     },
     {
@@ -18317,6 +18659,10 @@
       "count": 1
     },
     {
+      "domain": "www3.nhk.or.jp",
+      "count": 1
+    },
+    {
       "domain": "xenharmlib.readthedocs.io",
       "count": 1
     },
@@ -18346,6 +18692,10 @@
     },
     {
       "domain": "yqnn.github.io",
+      "count": 1
+    },
+    {
+      "domain": "zed.dev",
       "count": 1
     },
     {
