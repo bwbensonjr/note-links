@@ -1,6 +1,127 @@
 {
-  "exported_at": "2026-05-04T06:25:31.578309",
+  "exported_at": "2026-05-11T06:47:19.790664",
   "links": [
+    {
+      "id": 1076,
+      "url": "https://matt.might.net/articles/implementing-a-programming-language/",
+      "title": null,
+      "description": "7 lines of code, 3 minutes: Implement a programming language from scratch",
+      "summary": "The article demonstrates how to implement a functional, Turing-equivalent programming language in just seven lines of code using the eval/apply design pattern, a process that takes approximately three minutes. It provides three implementations: a minimal 7-line Scheme interpreter, a Racket version, and a more feature-rich 100-line interpreter that supports bindings, recursion, side effects, and higher-order functions. The author argues that building an interpreter is a valuable learning experience that deepens understanding of computation and serves as a scalable foundation for developing more complex languages.",
+      "domain": "matt.might.net",
+      "source_date": "2026-05-11",
+      "page_title": "7 lines of code, 3 minutes: Implement a programming language",
+      "tags": [
+        "scheme",
+        "compilers",
+        "tutorial",
+        "lisp"
+      ]
+    },
+    {
+      "id": 1077,
+      "url": "https://c9x.me/compile/bib/",
+      "title": null,
+      "description": "Resources for compiler writers",
+      "summary": "The Compiler Writer Resource Page - Resources for compiler writers",
+      "domain": "c9x.me",
+      "source_date": "2026-05-09",
+      "page_title": "The Compiler Writer Resource Page",
+      "tags": [
+        "compilers",
+        "tutorial",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1079,
+      "url": "https://cadara.app/",
+      "title": null,
+      "description": "Cadera - Open source, in-browser CAD system",
+      "summary": "CADara - Cadera - Open source, in-browser CAD system",
+      "domain": "cadara.app",
+      "source_date": "2026-05-08",
+      "page_title": "CADara",
+      "tags": [
+        "web-dev",
+        "github-repo",
+        "typescript"
+      ]
+    },
+    {
+      "id": 1078,
+      "url": "https://c9x.me/compile/",
+      "title": null,
+      "description": "QBE - A compiler backend that aims to provide 70% of the performance of industrial optimizing compilers in 10% of the code",
+      "summary": "QBE - Compiler Backend - QBE - A compiler backend that aims to provide 70% of the performance of industrial optimizing compilers in 10% of the code",
+      "domain": "c9x.me",
+      "source_date": "2026-05-08",
+      "page_title": "QBE - Compiler Backend",
+      "tags": [
+        "compilers",
+        "c",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 1080,
+      "url": "https://www.nytimes.com/2026/05/07/travel/henry-knox-trip-revolutionary-war.html",
+      "title": null,
+      "description": "Retracing Henry Knox’s journey",
+      "summary": "Retracing Henry Knox’s journey",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-05-07",
+      "page_title": null,
+      "tags": [
+        "news",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 1081,
+      "url": "https://cardcatalogforlife.substack.com/p/google-has-a-secret-reference-desk",
+      "title": null,
+      "description": "Google search tips",
+      "summary": "Google's search capabilities have become increasingly mediated by algorithms, personalization, and AI summaries that intercept users before they reach original sources, but the search bar contains powerful built-in tools that can restore precision and independence to research. By using advanced operators like `site:`, `filetype:`, quotation marks, verbatim mode, and date filters, users can bypass Google's interpretations and access primary sources, open file directories, and unfiltered results—skills that echo traditional library research but have been hidden several clicks deep. These techniques transform Google from a passive recommendation engine into a precision instrument for finding exactly what you need rather than what algorithms think you want.",
+      "domain": "cardcatalogforlife.substack.com",
+      "source_date": "2026-05-06",
+      "page_title": "Google Has a Secret Reference Desk. Here's How to Use It.",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "security"
+      ]
+    },
+    {
+      "id": 1082,
+      "url": "https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html",
+      "title": null,
+      "description": "10 lessons for agentic coding",
+      "summary": "As AI coding agents become increasingly capable, the author presents ten practical lessons for leveraging them effectively, emphasizing that when code generation is cheap, developers should focus on learning through implementation, maintaining comprehensive tests and documentation, and investing time in solving genuinely difficult problems rather than easy automation. Key takeaways include keeping specifications synchronized with evolving code, developing strong domain expertise to guide agent outputs, and recognizing that while code generation is inexpensive, the maintenance, security, and support burdens remain costly. The fundamental insight is that agentic coding represents a paradigm shift where developers should prioritize frequent rebuilds, end-to-end testing, and capturing intent rather than treating specifications as static artifacts.",
+      "domain": "www.dbreunig.com",
+      "source_date": "2026-05-05",
+      "page_title": "10 Lessons for Agentic Coding",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1083,
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "title": null,
+      "description": "OpenSpec - Spec-driven development (SDD) for AI coding assistants",
+      "summary": "OpenSpec is a lightweight, spec-driven development framework designed to help AI coding assistants and developers align on requirements before writing code. It uses a flexible workflow with artifact-guided commands like `/opsx:propose`, `/opsx:apply`, and `/opsx:archive` to organize changes into proposals, specifications, designs, and implementation tasks, supporting 25+ tools and AI assistants. The framework emphasizes iterative, predictable development without rigid phase gates, making it suitable for projects ranging from personal to enterprise scale.",
+      "domain": "github.com",
+      "source_date": "2026-05-04",
+      "page_title": "GitHub - Fission-AI/OpenSpec: Spec-driven development (SDD) for AI coding assistants. · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "cli-tool",
+        "web-dev"
+      ]
+    },
     {
       "id": 1059,
       "url": "https://github.com/earthtojake/text-to-cad",
@@ -15929,12 +16050,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 342
+      "count": 346
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 263
+      "count": 265
     },
     {
       "name": "video",
@@ -15944,27 +16065,27 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 215
+      "count": 216
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 201
+      "count": 203
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 180
+      "count": 183
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 178
+      "count": 180
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 176
+      "count": 177
     },
     {
       "name": "music",
@@ -15974,12 +16095,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 125
+      "count": 126
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 120
+      "count": 121
     },
     {
       "name": "social-media",
@@ -15999,7 +16120,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 85
+      "count": 88
     },
     {
       "name": "database",
@@ -16009,7 +16130,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "distributed-systems",
@@ -16019,7 +16140,7 @@
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 29
+      "count": 30
     },
     {
       "name": "politics",
@@ -16029,7 +16150,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 26
+      "count": 27
     },
     {
       "name": "rust",
@@ -16042,24 +16163,24 @@
       "count": 24
     },
     {
+      "name": "typescript",
+      "category": "programming_language",
+      "count": 17
+    },
+    {
       "name": "gaming",
       "category": "culture",
       "count": 17
     },
     {
-      "name": "typescript",
+      "name": "scheme",
       "category": "programming_language",
-      "count": 16
+      "count": 15
     },
     {
       "name": "emulator",
       "category": "technical_topic",
       "count": 15
-    },
-    {
-      "name": "scheme",
-      "category": "programming_language",
-      "count": 14
     },
     {
       "name": "podcast",
@@ -16140,7 +16261,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 120
+      "count": 121
     },
     {
       "domain": "www.threads.net",
@@ -16148,7 +16269,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 26
+      "count": 27
     },
     {
       "domain": "simonwillison.net",
@@ -16211,6 +16332,10 @@
       "count": 4
     },
     {
+      "domain": "www.dbreunig.com",
+      "count": 4
+    },
+    {
       "domain": "blog.google",
       "count": 3
     },
@@ -16251,10 +16376,6 @@
       "count": 3
     },
     {
-      "domain": "www.dbreunig.com",
-      "count": 3
-    },
-    {
       "domain": "www.jsoftware.com",
       "count": 3
     },
@@ -16280,6 +16401,10 @@
     },
     {
       "domain": "blog.djhaskin.com",
+      "count": 2
+    },
+    {
+      "domain": "c9x.me",
       "count": 2
     },
     {
@@ -16731,6 +16856,10 @@
       "count": 1
     },
     {
+      "domain": "cadara.app",
+      "count": 1
+    },
+    {
       "domain": "cadquery.github.io",
       "count": 1
     },
@@ -16740,6 +16869,10 @@
     },
     {
       "domain": "cannoneyed.com",
+      "count": 1
+    },
+    {
+      "domain": "cardcatalogforlife.substack.com",
       "count": 1
     },
     {
@@ -17448,6 +17581,10 @@
     },
     {
       "domain": "mathstodon.xyz",
+      "count": 1
+    },
+    {
+      "domain": "matt.might.net",
       "count": 1
     },
     {
