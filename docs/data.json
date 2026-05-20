@@ -1,6 +1,223 @@
 {
-  "exported_at": "2026-05-11T06:47:19.790664",
+  "exported_at": "2026-05-20T06:24:53.961769",
   "links": [
+    {
+      "id": 1084,
+      "url": "https://virtualosmuseum.org/",
+      "title": null,
+      "description": "Virtual OS Museum - Running versions of many, many operating systems",
+      "summary": "The Virtual OS Museum is a comprehensive emulation project featuring over 1,700 pre-configured installations of 570+ operating systems spanning from 1948 to the present day, allowing users to explore historical computing platforms without the typical complexity of setting up emulators and installations. The collection covers mainframes, minicomputers, workstations, home computers, personal computers, and mobile systems—from the Manchester Baby to early Android and iOS—all accessible through a custom launcher that works on Windows, macOS, and Linux. Created over 20 years by a single curator, the project aims to make software preservation genuinely accessible and runnable rather than merely theoretical, with both full offline and lightweight versions available for download.",
+      "domain": "virtualosmuseum.org",
+      "source_date": "2026-05-20",
+      "page_title": "The Virtual OS Museum",
+      "tags": [
+        "emulator",
+        "cli-tool",
+        "video"
+      ]
+    },
+    {
+      "id": 1086,
+      "url": "https://github.com/zakirullin/files.md",
+      "title": null,
+      "description": "Files.md - Open source Obsidian alternative",
+      "summary": "Files.md is an open-source, privacy-focused note-taking app designed as a lightweight alternative to Obsidian, storing all data as plain Markdown files locally on your device with no server uploads. The app emphasizes deep thinking and genuine knowledge growth over complex features, offering simple tools for notes, journals, tasks, checklists, and habits while supporting optional cloud synchronization through existing services or a self-hosted server. It's designed to be minimal, extensible by AI, and encourages intentional knowledge work rather than the false sense of productivity that can come from overly complex personal knowledge management systems.",
+      "domain": "github.com",
+      "source_date": "2026-05-18",
+      "page_title": "GitHub - zakirullin/files.md: 🌱 Private, quiet space for thinking. A simple app for your .md files. · GitHub",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1085,
+      "url": "https://github.com/x-motemen/ghq",
+      "title": null,
+      "description": "ghq - Remote repository management made easy",
+      "summary": "ghq is a command-line tool that organizes and manages cloned remote repositories automatically by placing them in a structured directory hierarchy based on their URL (e.g., ~/ghq/github.com/user/project). It provides commands to clone repositories (ghq get), list local clones (ghq list), remove repositories (ghq rm), and supports various Git options like shallow cloning, bare clones, and partial clones. The tool is highly configurable through git-config variables and can be installed across multiple platforms including macOS, Linux, Windows, and via various package managers.",
+      "domain": "github.com",
+      "source_date": "2026-05-18",
+      "page_title": "GitHub - x-motemen/ghq: Remote repository management made easy · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "go"
+      ]
+    },
+    {
+      "id": 1089,
+      "url": "https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer",
+      "title": null,
+      "description": "Roger Federer’s 2025 Dartmouth commencement speech",
+      "summary": "Tennis legend Roger Federer delivered the 2024 Dartmouth commencement address, emphasizing that \"effortless\" success is a myth and that true achievement requires hard work, self-belief, and grit. He shared lessons from his tennis career, including the importance of confronting your opponents' strengths rather than avoiding them, and the value of winning even when you're not at your best. Federer drew parallels between his transition from professional tennis to his next chapter and the graduates' own transitions, encouraging them to embrace the uncertainty of not knowing their next steps while understanding that meaningful accomplishment comes through dedication rather than talent alone.",
+      "domain": "home.dartmouth.edu",
+      "source_date": "2026-05-17",
+      "page_title": "2024 Commencement Address by Roger Federer | Dartmouth",
+      "tags": [
+        "video",
+        "news"
+      ]
+    },
+    {
+      "id": 1088,
+      "url": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+      "title": null,
+      "description": "A nicer voltmeter clock",
+      "summary": "The author documents the design and construction of an improved voltmeter clock that uses three analog panel meters to display hours, minutes, and seconds with continuous motion. The project showcases meticulous craftsmanship, from custom-printed meter decals and CNC-machined maple enclosure with kerf-bent curved walls to a simple microcontroller circuit that drives the meters using PWM-like digital signals. The result is an elegant timepiece that demonstrates how electronic design often requires as much attention to mechanical and woodworking details as it does to circuitry.",
+      "domain": "lcamtuf.substack.com",
+      "source_date": "2026-05-17",
+      "page_title": "A nicer voltmeter clock - lcamtuf’s thing",
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "id": 1087,
+      "url": "https://mmapped.blog/posts/48-the-third-hard-problem",
+      "title": null,
+      "description": "The third hard problem - mapping webs to trees",
+      "summary": "The article introduces \"tree mapping\" as a third hard problem in computer science: the challenge of embedding complex, interconnected webs of information into hierarchical tree structures that our brains naturally prefer. Through examples from file systems, writing, and architecture, the author demonstrates how this fundamental mismatch between the hierarchical organization we use (trees) and the non-linear nature of ideas and information (webs) creates persistent design challenges across computing and knowledge organization. While trees are efficient organizers that leverage our spatial intuition, they inevitably distort the true structure of complex systems that should exist in multiple places or categories simultaneously.",
+      "domain": "mmapped.blog",
+      "source_date": "2026-05-17",
+      "page_title": "The third hard problem",
+      "tags": [
+        "academic-paper",
+        "compilers"
+      ]
+    },
+    {
+      "id": 1091,
+      "url": "https://dariusforoux.com/i-spent-my-whole-career-building-passive-income-heres-what-i-got-wrong/",
+      "title": null,
+      "description": "I spent my whole career building passive income. Here’s what I got wrong",
+      "summary": "The author spent his career pursuing passive income, believing it would eliminate financial stress and allow him to enjoy life without worry. However, he discovered that achieving financial security didn't resolve underlying anxiety or provide the sense of purpose and fulfillment he expected—revealing that true life satisfaction comes from consistently challenging yourself and pursuing growth, not from escaping the need to strive. While passive income is valuable as a practical foundation, the real goal should be using that freedom to continue engaging in meaningful work and personal development rather than viewing financial independence as the ultimate destination.",
+      "domain": "dariusforoux.com",
+      "source_date": "2026-05-16",
+      "page_title": "I spent my whole career building passive income. Here's what I got wrong. - Darius Foroux",
+      "tags": [
+        "nonfiction-book",
+        "news"
+      ]
+    },
+    {
+      "id": 1090,
+      "url": "https://github.com/AccelerateHS/accelerate",
+      "title": null,
+      "description": "accelerate - An embedded language for high performance array computations in Haskell",
+      "summary": "Accelerate is an embedded language for Haskell that enables high-performance computing on multi-dimensional arrays through online compilation and execution on various architectures including GPUs and multicore CPUs. The library provides a functional programming interface for collective array operations like maps and reductions, with multiple backend options (LLVM, CUDA, PTX) and extensive add-on packages for specialized tasks like FFT, BLAS operations, and image processing. It is well-documented with numerous examples, academic publications, and an active community supporting its development and application to scientific computing problems.",
+      "domain": "github.com",
+      "source_date": "2026-05-16",
+      "page_title": "GitHub - AccelerateHS/accelerate: Embedded language for high-performance array computations · GitHub",
+      "tags": [
+        "github-repo",
+        "haskell",
+        "compilers",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": 1093,
+      "url": "https://cooking.nytimes.com/recipes/1021454-chopped-salad-with-chickpeas-feta-and-avocado",
+      "title": null,
+      "description": "Chickpea and avocado chopped salad",
+      "summary": "This New York Times recipe features a versatile chopped salad that balances lettuce equally with other ingredients, making it ideal for those who don't love leafy greens. The salad combines creamy feta and avocado with briny olives and capers, crunchy cucumbers and romaine, and homemade croutons, with the flexibility to substitute various vegetables and bread types based on what you have available. It serves 4-6 people and takes about 30 minutes to prepare, with highly positive reviews from users who praise its delicious flavor and suggest variations like using lime juice or roasted chickpeas.",
+      "domain": "cooking.nytimes.com",
+      "source_date": "2026-05-15",
+      "page_title": "Chopped Salad With Chickpeas, Feta and Avocado Recipe",
+      "tags": []
+    },
+    {
+      "id": 1092,
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "title": null,
+      "description": "Best practices for using Claude Code with large code bases",
+      "summary": "Claude Code successfully operates in large, complex codebases by navigating them agenetically—like a human engineer would—rather than relying on pre-built indexes, which become outdated quickly at enterprise scale. The quality of Claude Code's performance depends less on the model itself and more on the \"harness\" built around it, which consists of CLAUDE.md files, hooks, skills, plugins, LSP integrations, MCP servers, and subagents that together provide context, enforce best practices, and distribute expertise across teams. Teams that invest in properly setting up these components see significantly better results when deploying Claude Code across thousands of developers and multi-million-line codebases.",
+      "domain": "claude.com",
+      "source_date": "2026-05-15",
+      "page_title": "How Claude Code works in large codebases: Best practices and where to start | Claude",
+      "tags": [
+        "tutorial",
+        "ai",
+        "web-dev",
+        "devops"
+      ]
+    },
+    {
+      "id": 1096,
+      "url": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
+      "title": "Reverting the incremental GC in Python 3.14 and 3.15",
+      "description": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
+      "summary": "Python 3.14's new incremental garbage collector is being reverted in both 3.14 and 3.15 due to significant memory pressure issues reported in production environments, with the system reverting to the generational GC from 3.13. The decision was made by the Python core team and Steering Council, with plans to reintroduce the incremental GC for Python 3.16 through the formal PEP process after more thorough evaluation. Python 3.14.5 will be released early with the old garbage collector, and an additional alpha 9 for 3.15 will be prepared before the first beta release.",
+      "domain": "discuss.python.org",
+      "source_date": "2026-05-14",
+      "page_title": "Reverting the incremental GC in Python 3.14 and 3.15 - Core Development - Discussions on Python.org",
+      "tags": [
+        "python",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1095,
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "title": null,
+      "description": "Learning Opportunities: A Claude Code and Codex Skill for Deliberate Skill Development",
+      "summary": "This GitHub project presents a skill for Claude Code and Codex that integrates evidence-based learning exercises into AI-assisted coding workflows. Rather than simply accepting generated code, it prompts developers to engage in deliberate learning activities like prediction, retrieval practice, and reflection after completing significant architectural work. The tool addresses potential learning risks from AI coding assistance—such as the generation effect and fluency illusion—by reintroducing active participation, spacing, and metacognition to build genuine expertise alongside project completion.",
+      "domain": "github.com",
+      "source_date": "2026-05-14",
+      "page_title": "GitHub - DrCatHicks/learning-opportunities: A Claude or Codex skill for deliberate skill development during AI-assisted coding · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1094,
+      "url": "https://text.marvinborner.de/2026-04-09-17.html",
+      "title": null,
+      "description": "Extraordinary Ordinals",
+      "summary": "This page presents multiple encodings of natural numbers using lambda calculus, organized into three categories based on variable usage patterns: Linear (where variables are used exactly once), Affine (where variables may be unused), and Non-Linear (where variables can be used multiple times). Each category features different classical encodings—including Church, Parigot, Scott, and Mogensen numerals—that can all be used for arithmetic operations, with the encodings represented as lambda terms with specific syntactic structures. The page systematically demonstrates how each encoding scheme encodes small numbers (0-3) and their successor function, illustrating the mathematical elegance of different approaches to representing ordinals in functional programming.",
+      "domain": "text.marvinborner.de",
+      "source_date": "2026-05-14",
+      "page_title": "Extraordinary Ordinals",
+      "tags": [
+        "academic-paper",
+        "haskell",
+        "lisp"
+      ]
+    },
+    {
+      "id": 1097,
+      "url": "https://mobileapp.bostonglobe.com/05132026_5e6dd3c8-4e5b-11f1-8568-854ff663232f/content.html",
+      "title": null,
+      "description": "Possible pancreatic cancer breakthrough",
+      "summary": "Daraxonrasib, a drug nearing FDA approval, represents a major breakthrough in pancreatic cancer treatment by targeting the previously untargetable KRAS protein, substantially extending patient survival from less than seven months to over 13 months. Scientists long considered it \"impossible\" to develop drugs against KRAS due to its smooth, featureless surface, but decades of academic research funded by the NIH and Howard Hughes Medical Institute laid the groundwork, which industry then refined using a novel molecule-gluing approach. The success has opened doors for dozens of similar drugs now being tested for pancreatic, lung, and colon cancers—potentially marking the most significant cancer treatment advance since immunotherapy 15 years ago.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-05-13",
+      "page_title": "Possible pancreatic cancer breakthrough",
+      "tags": [
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1098,
+      "url": "https://blog.coursera.org/coursera-and-udemy-are-now-one-company-creating-the-worlds-most-comprehensive-skills-platform/",
+      "title": null,
+      "description": "Coursera and Udemy are now one company",
+      "summary": "Coursera and Udemy have completed their merger to create a comprehensive skills development platform serving over 290 million learners and 18,000 enterprise customers. The combined company aims to leverage AI and their complementary strengths to help people master emerging skills and connect learning with real-world outcomes across a unified platform. Currently, no immediate changes are being made to user experiences, pricing, or existing agreements, with full platform integration happening gradually over time.",
+      "domain": "blog.coursera.org",
+      "source_date": "2026-05-12",
+      "page_title": "Coursera and Udemy are now one company, creating the world’s most comprehensive skills platform  - Coursera Blog",
+      "tags": [
+        "news",
+        "ai"
+      ]
+    },
     {
       "id": 1076,
       "url": "https://matt.might.net/articles/implementing-a-programming-language/",
@@ -16050,42 +16267,42 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 346
+      "count": 349
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 265
+      "count": 268
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 232
+      "count": 235
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 216
+      "count": 220
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 203
+      "count": 206
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 183
+      "count": 187
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 180
+      "count": 182
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 177
+      "count": 178
     },
     {
       "name": "music",
@@ -16095,12 +16312,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 126
+      "count": 127
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 121
+      "count": 125
     },
     {
       "name": "social-media",
@@ -16110,17 +16327,17 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 113
+      "count": 114
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 111
+      "count": 112
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 88
+      "count": 90
     },
     {
       "name": "database",
@@ -16135,12 +16352,12 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 30
+      "count": 31
     },
     {
       "name": "politics",
@@ -16173,13 +16390,13 @@
       "count": 17
     },
     {
-      "name": "scheme",
-      "category": "programming_language",
-      "count": 15
-    },
-    {
       "name": "emulator",
       "category": "technical_topic",
+      "count": 16
+    },
+    {
+      "name": "scheme",
+      "category": "programming_language",
       "count": 15
     },
     {
@@ -16215,6 +16432,11 @@
     {
       "name": "go",
       "category": "programming_language",
+      "count": 7
+    },
+    {
+      "name": "haskell",
+      "category": "programming_language",
       "count": 6
     },
     {
@@ -16226,11 +16448,6 @@
       "name": "elixir",
       "category": "programming_language",
       "count": 5
-    },
-    {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 4
     },
     {
       "name": "cpp",
@@ -16261,7 +16478,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 121
+      "count": 125
     },
     {
       "domain": "www.threads.net",
@@ -16316,7 +16533,15 @@
       "count": 5
     },
     {
+      "domain": "cooking.nytimes.com",
+      "count": 4
+    },
+    {
       "domain": "gwern.net",
+      "count": 4
+    },
+    {
+      "domain": "lcamtuf.substack.com",
       "count": 4
     },
     {
@@ -16344,10 +16569,6 @@
       "count": 3
     },
     {
-      "domain": "cooking.nytimes.com",
-      "count": 3
-    },
-    {
       "domain": "dl.acm.org",
       "count": 3
     },
@@ -16356,15 +16577,15 @@
       "count": 3
     },
     {
-      "domain": "lcamtuf.substack.com",
-      "count": 3
-    },
-    {
       "domain": "lwn.net",
       "count": 3
     },
     {
       "domain": "medium.com",
+      "count": 3
+    },
+    {
+      "domain": "mobileapp.bostonglobe.com",
       "count": 3
     },
     {
@@ -16405,6 +16626,10 @@
     },
     {
       "domain": "c9x.me",
+      "count": 2
+    },
+    {
+      "domain": "claude.com",
       "count": 2
     },
     {
@@ -16457,10 +16682,6 @@
     },
     {
       "domain": "matklad.github.io",
-      "count": 2
-    },
-    {
-      "domain": "mobileapp.bostonglobe.com",
       "count": 2
     },
     {
@@ -16764,6 +16985,10 @@
       "count": 1
     },
     {
+      "domain": "blog.coursera.org",
+      "count": 1
+    },
+    {
       "domain": "blog.demofox.org",
       "count": 1
     },
@@ -16916,10 +17141,6 @@
       "count": 1
     },
     {
-      "domain": "claude.com",
-      "count": 1
-    },
-    {
       "domain": "clavier36.com",
       "count": 1
     },
@@ -17040,6 +17261,10 @@
       "count": 1
     },
     {
+      "domain": "dariusforoux.com",
+      "count": 1
+    },
+    {
       "domain": "davidbessis.substack.com",
       "count": 1
     },
@@ -17101,6 +17326,10 @@
     },
     {
       "domain": "directus.io",
+      "count": 1
+    },
+    {
+      "domain": "discuss.python.org",
       "count": 1
     },
     {
@@ -17337,6 +17566,10 @@
     },
     {
       "domain": "home.cern",
+      "count": 1
+    },
+    {
+      "domain": "home.dartmouth.edu",
       "count": 1
     },
     {
@@ -17637,6 +17870,10 @@
     },
     {
       "domain": "mlu-explain.github.io",
+      "count": 1
+    },
+    {
+      "domain": "mmapped.blog",
       "count": 1
     },
     {
@@ -18140,6 +18377,10 @@
       "count": 1
     },
     {
+      "domain": "text.marvinborner.de",
+      "count": 1
+    },
+    {
       "domain": "tgvaughan.github.io",
       "count": 1
     },
@@ -18221,6 +18462,10 @@
     },
     {
       "domain": "vidstudio.app",
+      "count": 1
+    },
+    {
+      "domain": "virtualosmuseum.org",
       "count": 1
     },
     {
