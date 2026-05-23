@@ -1,6 +1,106 @@
 {
-  "exported_at": "2026-05-21T19:36:29.263013",
+  "exported_at": "2026-05-23T09:46:49.577963",
   "links": [
+    {
+      "id": 1104,
+      "url": "https://deno.com/blog/v2.8#new-subcommands",
+      "title": null,
+      "description": "Dino 2.8 - An open source JavaScript and Typescript runtime",
+      "summary": "Deno 2.8 introduces several major new subcommands that enhance JavaScript/TypeScript development workflows, including `deno audit fix` for automatically patching vulnerabilities, `deno bump-version` for version management across projects, `deno ci` for reproducible CI installations, `deno pack` for publishing to npm, and `deno transpile` for converting TypeScript to JavaScript. The release also makes npm the default package registry at the CLI, eliminating the need to type the `npm:` prefix, and adds `deno why` to trace package dependencies across both npm and JSR registries.",
+      "domain": "deno.com",
+      "source_date": "2026-05-23",
+      "page_title": "Deno 2.8 | Deno",
+      "tags": [
+        "typescript",
+        "javascript",
+        "cli-tool",
+        "devops"
+      ]
+    },
+    {
+      "id": 1103,
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "title": null,
+      "description": "Project Glasswing: An initial update",
+      "summary": "Anthropic's Project Glasswing has discovered over 10,000 high- or critical-severity vulnerabilities in critical software worldwide within its first month, with AI model Mythos Preview identifying bugs at unprecedented rates—including 2,000 at Cloudflare and 271 in Firefox. The major challenge has shifted from finding vulnerabilities to the human capacity required to verify, disclose, and patch them, with open-source software maintainers becoming capacity-constrained by the volume of discoveries. The initiative demonstrates both the security benefits of AI-assisted vulnerability detection and the urgent need for scalable processes to manage the verification and patching bottleneck.",
+      "domain": "www.anthropic.com",
+      "source_date": "2026-05-23",
+      "page_title": "Project Glasswing: An initial update \\ Anthropic",
+      "tags": [
+        "security",
+        "ai",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1102,
+      "url": "https://fedemagnani.github.io/math/2026/04/08/the-quadratic-sandwich.html",
+      "title": null,
+      "description": "The quadratic sandwich",
+      "summary": "The article explains two fundamental properties in optimization—strong convexity and L-smoothness—that create a \"quadratic sandwich\" of bounds around a function, determining how easily it can be optimized with gradient descent. Strong convexity provides a lower bound ensuring the function curves upward with minimum curvature μ, while L-smoothness provides an upper bound capping maximum curvature at L; the ratio between them (condition number κ = L/μ) determines optimization difficulty, with smaller ratios indicating well-behaved functions and larger ratios causing gradient descent to zigzag inefficiently across directions with varying curvature.",
+      "domain": "fedemagnani.github.io",
+      "source_date": "2026-05-23",
+      "page_title": "The quadratic sandwich",
+      "tags": [
+        "academic-paper",
+        "ai"
+      ]
+    },
+    {
+      "id": 1101,
+      "url": "https://github.com/amatsuda/rubish",
+      "title": null,
+      "description": "Rubish - A bash-compatible shell tightly integrated with and implemented in Ruby",
+      "summary": "Rubish is a Unix shell written in pure Ruby that maintains full bash compatibility while deeply integrating Ruby features, allowing users to seamlessly mix shell commands with Ruby code including blocks, iterators, and libraries. It supports advanced features like Ruby-style conditionals, method chaining, lambda expressions, and can be used as a login shell or embedded in Ruby programs through its public API. The project offers both traditional shell syntax and Ruby enhancements, with installation available via Homebrew or from source, and includes a restricted mode for safely executing untrusted scripts.",
+      "domain": "github.com",
+      "source_date": "2026-05-23",
+      "page_title": "GitHub - amatsuda/rubish · GitHub",
+      "tags": [
+        "github-repo",
+        "ruby",
+        "cli-tool",
+        "devops"
+      ]
+    },
+    {
+      "id": 1107,
+      "url": "https://davidoks.blog/p/why-japanese-companies-do-so-many",
+      "title": null,
+      "description": "Why Japanese companies do so many different things",
+      "summary": "Why Japanese companies do so many different things",
+      "domain": "davidoks.blog",
+      "source_date": "2026-05-22",
+      "page_title": null,
+      "tags": [
+        "nonfiction-book",
+        "news"
+      ]
+    },
+    {
+      "id": 1106,
+      "url": "https://pacifichorticulture.org/articles/mycorrhizal-fungi-natures-key-to-plant-survival-and-success/",
+      "title": null,
+      "description": "Mycorrhizal Fungi, Nature’s Key to Plant Survival and Success",
+      "summary": "I don't have access to browse external websites or view the content at the URL you've provided. To give you an accurate summary, I would need you to either paste the article text directly or provide the content from the webpage. If you can share the article content with me, I'd be happy to summarize it in 2-3 sentences focusing on the main topic and key takeaways.",
+      "domain": "pacifichorticulture.org",
+      "source_date": "2026-05-22",
+      "page_title": "Pacific Horticulture | Mycorrhizal Fungi, Nature's Key to Plant Survival and Success",
+      "tags": []
+    },
+    {
+      "id": 1105,
+      "url": "https://www.mathworks.com/company/newsletters/clevescorner.html",
+      "title": null,
+      "description": "Cleve’s Corner - Posts by MATLAB’s Cleve Moler",
+      "summary": "Cleve’s Corner - Posts by MATLAB’s Cleve Moler",
+      "domain": "www.mathworks.com",
+      "source_date": "2026-05-22",
+      "page_title": null,
+      "tags": [
+        "tutorial",
+        "academic-paper"
+      ]
+    },
     {
       "id": 1099,
       "url": "https://gwern.net/doc/design/typography/1980-knuth.pdf",
@@ -16295,12 +16395,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 350
+      "count": 351
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 268
+      "count": 270
     },
     {
       "name": "video",
@@ -16310,17 +16410,17 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 221
+      "count": 224
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 206
+      "count": 208
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 187
+      "count": 188
     },
     {
       "name": "web-dev",
@@ -16340,12 +16440,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 127
+      "count": 128
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 125
+      "count": 126
     },
     {
       "name": "social-media",
@@ -16360,7 +16460,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 112
+      "count": 114
     },
     {
       "name": "compilers",
@@ -16375,7 +16475,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 50
+      "count": 51
     },
     {
       "name": "distributed-systems",
@@ -16398,19 +16498,19 @@
       "count": 27
     },
     {
-      "name": "rust",
+      "name": "javascript",
       "category": "programming_language",
-      "count": 24
+      "count": 25
     },
     {
-      "name": "javascript",
+      "name": "rust",
       "category": "programming_language",
       "count": 24
     },
     {
       "name": "typescript",
       "category": "programming_language",
-      "count": 17
+      "count": 18
     },
     {
       "name": "gaming",
@@ -16488,12 +16588,12 @@
       "count": 4
     },
     {
-      "name": "nix",
+      "name": "ruby",
       "category": "programming_language",
-      "count": 1
+      "count": 2
     },
     {
-      "name": "ruby",
+      "name": "nix",
       "category": "programming_language",
       "count": 1
     },
@@ -16506,7 +16606,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 125
+      "count": 126
     },
     {
       "domain": "www.threads.net",
@@ -16557,6 +16657,10 @@
       "count": 5
     },
     {
+      "domain": "www.anthropic.com",
+      "count": 5
+    },
+    {
       "domain": "www.bostonglobe.com",
       "count": 5
     },
@@ -16574,10 +16678,6 @@
     },
     {
       "domain": "mitpress.mit.edu",
-      "count": 4
-    },
-    {
-      "domain": "www.anthropic.com",
       "count": 4
     },
     {
@@ -16666,6 +16766,10 @@
     },
     {
       "domain": "deepwiki.com",
+      "count": 2
+    },
+    {
+      "domain": "deno.com",
       "count": 2
     },
     {
@@ -17297,6 +17401,10 @@
       "count": 1
     },
     {
+      "domain": "davidoks.blog",
+      "count": 1
+    },
+    {
       "domain": "db.cs.cmu.edu",
       "count": 1
     },
@@ -17306,10 +17414,6 @@
     },
     {
       "domain": "deck.gl",
-      "count": 1
-    },
-    {
-      "domain": "deno.com",
       "count": 1
     },
     {
@@ -17466,6 +17570,10 @@
     },
     {
       "domain": "fairfieldcircuitry.com",
+      "count": 1
+    },
+    {
+      "domain": "fedemagnani.github.io",
       "count": 1
     },
     {
@@ -18042,6 +18150,10 @@
     },
     {
       "domain": "oxide-and-friends.transistor.fm",
+      "count": 1
+    },
+    {
+      "domain": "pacifichorticulture.org",
       "count": 1
     },
     {
@@ -18854,6 +18966,10 @@
     },
     {
       "domain": "www.marksimonson.com",
+      "count": 1
+    },
+    {
+      "domain": "www.mathworks.com",
       "count": 1
     },
     {
