@@ -14,6 +14,11 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 - **Incremental Processing**: Only processes new/pending items on each run
 - **Static Web Interface**: Browse and search links via a static site (Vue.js SPA hosted on GitHub Pages)
 
+## Adding Topic-Based Browsing 
+
+- Add a topic-based page similar to the Gwern Knowledge Garden page: [`examples/gwern-net.md`](examples/gwern-net.md).
+- It should continue to be provided in a static web interface compatible with the existing page.
+
 ## Installation
 
 Requires Python 3.10+ and [uv](https://github.com/astral-sh/uv).
