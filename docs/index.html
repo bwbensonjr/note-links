@@ -34,8 +34,12 @@
   <div id="app" v-cloak>
     <!-- Header -->
     <header class="bg-white shadow-sm border-b">
-      <div class="max-w-6xl mx-auto px-4 py-4">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <h1 class="text-2xl font-bold text-gray-800">Note Links</h1>
+        <nav class="text-sm space-x-4">
+          <a href="index.html" class="text-blue-600 font-medium" aria-current="page">List</a>
+          <a href="topics.html" class="text-gray-600 hover:text-blue-600">Topics</a>
+        </nav>
       </div>
     </header>
 
@@ -325,6 +329,14 @@
             // Only include domains with more than one link
             allDomains.value = (data.all_domains || []).filter(d => d.count > 1);
             exportedAt.value = data.exported_at;
+
+            const params = new URLSearchParams(window.location.search);
+            const tagParam = params.get("tag");
+            if (tagParam && (data.all_tags || []).some(t => t.name === tagParam)) {
+              selectedTags.value = [tagParam];
+              showFilters.value = true;
+              currentPage.value = 1;
+            }
           } catch (e) {
             error.value = e.message;
           } finally {

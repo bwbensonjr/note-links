@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Links — Topics</title>
+  <link rel="alternate" type="application/rss+xml" title="Note Links RSS" href="feed.xml">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    [v-cloak] { display: none; }
+    html { scroll-behavior: smooth; }
+    .toc {
+      position: sticky;
+      top: 1rem;
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+    }
+    .topic-link:hover { background: #f3f4f6; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div id="app" v-cloak>
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <h1 class="text-2xl font-bold text-gray-800">Note Links</h1>
+        <nav class="text-sm space-x-4">
+          <a href="index.html" class="text-gray-600 hover:text-blue-600">List</a>
+          <a href="topics.html" class="text-blue-600 font-medium" aria-current="page">Topics</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-6">
+      <!-- Loading State -->
+      <div v-if="loading" class="text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-500 border-t-transparent"></div>
+        <p class="mt-2 text-gray-600">Loading links...</p>
+      </div>
+
+      <!-- Error State -->
+      <div v-else-if="error" class="text-center py-12">
+        <p class="text-red-600">{{ error }}</p>
+        <p class="text-gray-500 mt-2">Make sure data.json exists in the same directory.</p>
+      </div>
+
+      <!-- Topic content -->
+      <div v-else class="lg:flex lg:gap-8">
+        <!-- Sticky TOC -->
+        <aside class="lg:w-56 lg:flex-shrink-0 mb-6 lg:mb-0">
+          <nav class="toc bg-white rounded-lg shadow-sm border p-4 text-sm">
+            <div v-for="g in groupedByCategory" :key="g.category" class="mb-4 last:mb-0">
+              <a
+                :href="'#cat-' + g.category"
+                class="block font-semibold text-gray-800 hover:text-blue-600"
+              >
+                {{ g.label }}
+              </a>
+              <ul class="mt-1 ml-2 space-y-0.5">
+                <li v-for="t in g.tags" :key="t.name">
+                  <a
+                    :href="'#tag-' + t.name"
+                    class="text-gray-600 hover:text-blue-600"
+                  >
+                    {{ t.name }}
+                    <span class="text-gray-400">({{ t.count }})</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+
+        <!-- Categories and tag sections -->
+        <div class="flex-1 min-w-0 space-y-10">
+          <section
+            v-for="g in groupedByCategory"
+            :key="g.category"
+            :id="'cat-' + g.category"
+            class="scroll-mt-4"
+          >
+            <h2 class="text-2xl font-bold text-gray-800 border-b pb-2 mb-4">
+              {{ g.label }}
+            </h2>
+
+            <section
+              v-for="t in g.tags"
+              :key="t.name"
+              :id="'tag-' + t.name"
+              class="mb-8 scroll-mt-4"
+            >
+              <h3 class="text-lg font-semibold text-gray-700 mb-2">
+                <a :href="'#tag-' + t.name" class="hover:underline">{{ t.name }}</a>
+                <span class="text-gray-400 font-normal text-sm">
+                  · {{ t.count }} link{{ t.count === 1 ? '' : 's' }}
+                </span>
+              </h3>
+              <ul class="space-y-1">
+                <li
+                  v-for="l in t.shown"
+                  :key="l.id"
+                  class="topic-link px-2 py-0.5 rounded text-sm"
+                >
+                  <a
+                    :href="l.url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    :title="l.summary || l.description || ''"
+                    class="text-blue-600 hover:underline"
+                  >
+                    {{ titleOf(l) }}
+                  </a>
+                  <span class="text-gray-500"> — {{ l.domain }}</span>
+                  <span class="text-gray-400"> · {{ l.source_date }}</span>
+                </li>
+              </ul>
+              <a
+                v-if="t.hasMore"
+                :href="tagHref(t.name)"
+                class="inline-block mt-2 text-sm text-blue-600 hover:underline"
+              >
+                → See all {{ t.count }} in list view
+              </a>
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-12 py-6 border-t bg-white">
+      <div class="max-w-6xl mx-auto px-4 text-center text-gray-500 text-sm">
+        <span v-if="exportedAt">Last updated: {{ formatDate(exportedAt) }}</span>
+        <span v-if="exportedAt" class="mx-2">·</span>
+        <a href="feed.xml" class="hover:text-gray-700">RSS</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const { createApp, ref, computed, onMounted } = Vue;
+
+    const CATEGORY_ORDER = ["programming_language", "technical_topic", "culture"];
+    const CATEGORY_LABELS = {
+      programming_language: "Programming Languages",
+      technical_topic: "Technical Topics",
+      culture: "Culture",
+    };
+    const MAX_PER_TAG = 15;
+
+    createApp({
+      setup() {
+        const links = ref([]);
+        const allTags = ref([]);
+        const exportedAt = ref(null);
+        const loading = ref(true);
+        const error = ref(null);
+
+        onMounted(async () => {
+          try {
+            const response = await fetch("data.json", { cache: "no-store" });
+            if (!response.ok) throw new Error("Failed to load data.json");
+            const data = await response.json();
+            links.value = data.links || [];
+            allTags.value = data.all_tags || [];
+            exportedAt.value = data.exported_at;
+          } catch (e) {
+            error.value = e.message;
+          } finally {
+            loading.value = false;
+          }
+        });
+
+        const linksByTag = computed(() => {
+          const map = new Map();
+          for (const l of links.value) {
+            for (const t of (l.tags || [])) {
+              if (!map.has(t)) map.set(t, []);
+              map.get(t).push(l);
+            }
+          }
+          for (const arr of map.values()) {
+            arr.sort((a, b) =>
+              (b.source_date || "").localeCompare(a.source_date || "")
+            );
+          }
+          return map;
+        });
+
+        const groupedByCategory = computed(() => {
+          return CATEGORY_ORDER.map(cat => {
+            const tags = allTags.value
+              .filter(t => t.category === cat)
+              .sort((a, b) => b.count - a.count)
+              .map(t => {
+                const all = linksByTag.value.get(t.name) || [];
+                return {
+                  name: t.name,
+                  count: t.count,
+                  shown: all.slice(0, MAX_PER_TAG),
+                  hasMore: all.length > MAX_PER_TAG,
+                };
+              })
+              .filter(t => t.shown.length > 0);
+            return { category: cat, label: CATEGORY_LABELS[cat], tags };
+          }).filter(g => g.tags.length > 0);
+        });
+
+        const titleOf = (l) =>
+          l.page_title?.trim() ||
+          l.title?.trim() ||
+          l.description?.trim() ||
+          l.url;
+
+        const tagHref = (tag) => `index.html?tag=${encodeURIComponent(tag)}`;
+
+        const formatDate = (isoString) =>
+          new Date(isoString).toLocaleDateString();
+
+        return {
+          loading,
+          error,
+          exportedAt,
+          groupedByCategory,
+          titleOf,
+          tagHref,
+          formatDate,
+        };
+      },
+    }).mount("#app");
+  </script>
+</body>
+</html>

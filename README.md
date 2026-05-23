@@ -13,11 +13,7 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 - **Full-Text Search**: SQLite FTS5 for fast searching across titles, descriptions, content, and summaries
 - **Incremental Processing**: Only processes new/pending items on each run
 - **Static Web Interface**: Browse and search links via a static site (Vue.js SPA hosted on GitHub Pages)
-
-## Adding Topic-Based Browsing 
-
-- Add a topic-based page similar to the Gwern Knowledge Garden page: [`examples/gwern-net.md`](examples/gwern-net.md).
-- It should continue to be provided in a static web interface compatible with the existing page.
+- **Topic Browser**: A second static page (`docs/topics.html`) groups links by category → tag (Programming Languages, Technical Topics, Culture), with deep-links into the list view for "see all"
 
 ## Installation
 
@@ -146,8 +142,10 @@ note-links/
 ├── pyproject.toml              # Dependencies and CLI entry point
 ├── links.db                    # SQLite database (created on first run)
 ├── docs/
-│   ├── index.html              # Static site (Vue.js SPA)
-│   └── data.json               # Exported link data for static site
+│   ├── index.html              # Static site (Vue.js SPA - list/search view)
+│   ├── topics.html             # Static site (Vue.js SPA - topic browser)
+│   ├── data.json               # Exported link data for static site
+│   └── feed.xml                # RSS 2.0 feed
 ├── src/link_extractor/
 │   ├── main.py                 # CLI and pipeline orchestration
 │   ├── config.py               # Configuration loading (.env + YAML)
