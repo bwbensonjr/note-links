@@ -1,6 +1,179 @@
 {
-  "exported_at": "2026-05-23T09:46:49.577963",
+  "exported_at": "2026-05-27T17:25:08.685979",
   "links": [
+    {
+      "id": 1112,
+      "url": "https://www.whatcable.uk/blog/thunderbolt-vs-usb-c",
+      "title": null,
+      "description": "Thunderbolt vs USB-C: what the connector hides",
+      "summary": "USB-C refers to the physical connector shape, while Thunderbolt is a high-speed protocol that uses that same connector, making them visually identical despite vastly different capabilities. Thunderbolt versions (3, 4, and 5) offer progressively higher data rates (40-80 Gbps), better video support, and mandatory feature guarantees, whereas basic USB-C maxes out at 20 Gbps, and USB4 has optional features. The key distinction lies in the cable quality and the lightning bolt icon next to the port—using a basic USB-C cable in a Thunderbolt port will only deliver USB speeds, and Thunderbolt devices often won't work in standard USB-C ports due to missing handshake protocols.",
+      "domain": "www.whatcable.uk",
+      "source_date": "2026-05-27",
+      "page_title": "WhatCable: Thunderbolt vs USB-C: what the connector hides",
+      "tags": [
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1111,
+      "url": "https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429/5",
+      "title": null,
+      "description": "Obsidian/GitHub integration",
+      "summary": "The post describes a method for setting up Obsidian Git across multiple devices to enable automatic backup of notes to GitHub. The user shares a quick and practical approach for configuring the obsidian-git plugin on mobile and desktop platforms, making it easier for Obsidian users to sync and backup their vault across different devices.",
+      "domain": "forum.obsidian.md",
+      "source_date": "2026-05-27",
+      "page_title": "The Easiest Way to Setup Obsidian Git (to backup notes) - #5 by hayyaun - Share & showcase - Obsidian Forum",
+      "tags": [
+        "devops",
+        "tutorial",
+        "github-repo"
+      ]
+    },
+    {
+      "id": 1110,
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "title": null,
+      "description": "Claude Code - beyond the basics",
+      "summary": "This guide teaches advanced Claude Code users how to move beyond basic prompt-and-response interaction by treating Claude as a programmable agent with memory, custom commands, and verification systems. Key takeaways include: organizing your workflow through the `.claude` directory structure (CLAUDE.md, skills, agents, and rules), keeping configuration files concise while letting Claude iteratively write its own rules based on mistakes, and using techniques like plan mode for complex multi-file changes, exact file references instead of descriptions, and delegating tasks rather than pair-programming. The most impactful practice is continuously updating CLAUDE.md with project-specific gotchas and conventions discovered through usage, which compounds over time to dramatically improve code quality and consistency.",
+      "domain": "arps18.github.io",
+      "source_date": "2026-05-27",
+      "page_title": "Beyond the Prompt: Claude Code | Arpan Patel",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "python"
+      ]
+    },
+    {
+      "id": 1109,
+      "url": "https://miniscript.org/MiniMicro/index.html#about",
+      "title": null,
+      "description": "Mini Micro fantasy computer",
+      "summary": "Mini Micro - Mini Micro fantasy computer",
+      "domain": "miniscript.org",
+      "source_date": "2026-05-27",
+      "page_title": "Mini Micro",
+      "tags": [
+        "emulator",
+        "gaming"
+      ]
+    },
+    {
+      "id": 1108,
+      "url": "https://mobileapp.bostonglobe.com/05272026_07c34e92-5921-11f1-a064-a6a85468d9a8/content.html",
+      "title": null,
+      "description": "America built the world’s greatest research engine. Now it’s shrinking",
+      "summary": "America's research enterprise, which has long been a global leader in scientific innovation, is facing a critical decline due to shrinking federal funding and declining research activity at major institutions like MIT. Despite remarkable recent breakthroughs in medicine, gene therapy, and other fields that resulted from decades of curiosity-driven research, the nation's scientific pipeline is at risk as graduate student enrollment drops and research funding dries up. Without sustained public investment in basic scientific research, the U.S. risks losing its competitive advantage to countries like China and will miss future opportunities for transformative discoveries and innovations.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-05-27",
+      "page_title": "America built the world’s greatest research engine. Now it’s shrinking.",
+      "tags": [
+        "news",
+        "politics"
+      ]
+    },
+    {
+      "id": 1113,
+      "url": "https://www.nps.gov/yose/learn/photosmultimedia/culturaldemos.htm",
+      "title": null,
+      "description": "Indian demonstration video",
+      "summary": "Yosemite National Park offers cultural demonstration videos that showcase Native American heritage and traditions. These educational resources provide visitors with insights into the history and culture of indigenous peoples who have inhabited the Yosemite region. The videos are available through the official National Park Service website as part of their educational programming.",
+      "domain": "www.nps.gov",
+      "source_date": "2026-05-26",
+      "page_title": "Cultural Demonstration Video - Yosemite National Park (U.S. National Park Service)",
+      "tags": [
+        "video",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 1115,
+      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "title": null,
+      "description": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned",
+      "summary": "Researchers at Tohoku University have overturned an 80-year-old aeronautical engineering principle by demonstrating that surfaces with distributed micro-roughness (DMR)—microscopic irregularities invisible to the naked eye—can reduce aerodynamic drag by up to 43.6 percent, contrary to the long-held belief that smooth surfaces are necessary. Using a groundbreaking magnetic levitation wind tunnel system that eliminates measurement interference, the team proved that DMR works by delaying the transition from laminar to turbulent airflow and reducing friction drag itself, rather than suppressing pressure resistance like shark-skin texturing. This discovery could significantly lower fuel consumption and emissions for aircraft, automobiles, and trains while offering advantages over existing drag-reduction technologies due to its random surface pattern that works regardless of flow direction.",
+      "domain": "www.wired.com",
+      "source_date": "2026-05-25",
+      "page_title": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned | WIRED",
+      "tags": [
+        "news",
+        "academic-paper"
+      ]
+    },
+    {
+      "id": 1114,
+      "url": "https://dubroy.com/blog/bytecode-vms-in-surprising-places/",
+      "title": null,
+      "description": "Bytecode VMs in surprising places",
+      "summary": "Bytecode virtual machines, commonly associated with programming languages like Python and JavaScript, appear in many unexpected places across computing systems. The article explores several surprising examples including eBPF (an in-kernel VM in Linux for packet filtering and system monitoring), DWARF expressions (used in debuggers to locate variables in compiled code), GDB agent expressions (for remote debugging), WinRAR (which uses a bytecode VM for data compression), GPU shader systems (which use interpreters to avoid recompilation), and even TrueType fonts and PostScript. Each of these implementations demonstrates how bytecode VMs are a versatile tool for solving specific technical challenges beyond general-purpose programming.",
+      "domain": "dubroy.com",
+      "source_date": "2026-05-25",
+      "page_title": "Bytecode VMs in surprising places",
+      "tags": [
+        "compilers",
+        "academic-paper",
+        "devops"
+      ]
+    },
+    {
+      "id": 1118,
+      "url": "https://ckrapu.github.io/blog/2026/dont-know-where-your-data-is-from/",
+      "title": null,
+      "description": "#Don't know where your data is from? Bayesian modeling for unknown coordinates",
+      "summary": "This article explores Bayesian modeling techniques for spatial data where the exact locations of observations are uncertain or measured with significant noise. Using uranium and vanadium concentration data from Walker Lake, the author demonstrates how to modify Gaussian process models to account for latent (true) coordinates that differ from recorded coordinates, incorporating location error as a normal distribution around observed measurements. The approach leverages Monte Carlo inference methods to estimate reliable parameters even when coordinate precision varies, making it particularly valuable for applications like mineral exploration where drilling locations may be imprecisely recorded.",
+      "domain": "ckrapu.github.io",
+      "source_date": "2026-05-24",
+      "page_title": "Don't know where your data is from? Bayesian modeling for unknown coordinates | Christopher Krapu",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "tutorial",
+        "python"
+      ]
+    },
+    {
+      "id": 1117,
+      "url": "https://audiomass.co/?multitrack=1",
+      "title": null,
+      "description": "audiomass - Open source multitrack audio editor on the web",
+      "summary": "AudioMass - Audio Editor - audiomass - Open source multitrack audio editor on the web",
+      "domain": "audiomass.co",
+      "source_date": "2026-05-24",
+      "page_title": "AudioMass - Audio Editor",
+      "tags": [
+        "web-dev",
+        "javascript",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1116,
+      "url": "https://dougmacdowell.com/50-hours-to-draw-some-lines.html",
+      "title": null,
+      "description": "50 hours to draw some lines",
+      "summary": "Doug MacDowell explores the rewarding practice of hand-drawing data visualizations using traditional tools like rulers, pencils, and ink—a process that can take 50 hours compared to 20 minutes with software. He provides a comprehensive guide covering the necessary materials, step-by-step techniques including grid creation and the circle-stencil method for drawing precise lines, and recommendations for classic reference books on data visualization and technical drawing. Ultimately, MacDowell argues that hand-drawing data viz is less about efficiency and more about the artistic process, mindfulness, and the satisfaction of creating something tangible by hand.",
+      "domain": "dougmacdowell.com",
+      "source_date": "2026-05-24",
+      "page_title": "50 Hours to Draw Some Lines - Doug MacDowell",
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "id": 1119,
+      "url": "https://r7rs.org/large/fascicles/proc/",
+      "title": null,
+      "description": "Revised7 Report on the Algorithmic Language Scheme,Large Edition, Foundations, Fascicle II",
+      "summary": "This document is the Public Draft #1 of The Procedural Fascicle, part of the Revised 7 Report on the Algorithmic Language Scheme Large Edition. It represents a collaborative effort by Working Group 2 and previous Scheme report editors to document procedural aspects of the Scheme programming language, with the text drawing substantially from previous reports. The document is made freely available to the Scheme community for copying, modification, and use as a foundation for implementations and documentation.",
+      "domain": "r7rs.org",
+      "source_date": "2026-05-23",
+      "page_title": "The Procedural Fascicle",
+      "tags": [
+        "scheme",
+        "academic-paper"
+      ]
+    },
     {
       "id": 1104,
       "url": "https://deno.com/blog/v2.8#new-subcommands",
@@ -16395,37 +16568,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 351
+      "count": 355
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 270
+      "count": 271
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 235
+      "count": 237
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 224
+      "count": 228
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 208
+      "count": 211
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 188
+      "count": 189
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 182
+      "count": 183
     },
     {
       "name": "llm",
@@ -16440,12 +16613,22 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 128
+      "count": 129
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 126
+      "count": 128
+    },
+    {
+      "name": "python",
+      "category": "programming_language",
+      "count": 116
+    },
+    {
+      "name": "devops",
+      "category": "technical_topic",
+      "count": 116
     },
     {
       "name": "social-media",
@@ -16453,19 +16636,9 @@
       "count": 115
     },
     {
-      "name": "python",
-      "category": "programming_language",
-      "count": 114
-    },
-    {
-      "name": "devops",
-      "category": "technical_topic",
-      "count": 114
-    },
-    {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 91
+      "count": 92
     },
     {
       "name": "database",
@@ -16490,7 +16663,7 @@
     {
       "name": "politics",
       "category": "culture",
-      "count": 28
+      "count": 29
     },
     {
       "name": "c",
@@ -16500,7 +16673,7 @@
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 25
+      "count": 26
     },
     {
       "name": "rust",
@@ -16515,17 +16688,17 @@
     {
       "name": "gaming",
       "category": "culture",
-      "count": 17
+      "count": 18
     },
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 16
+      "count": 17
     },
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 15
+      "count": 16
     },
     {
       "name": "podcast",
@@ -16681,6 +16854,10 @@
       "count": 4
     },
     {
+      "domain": "mobileapp.bostonglobe.com",
+      "count": 4
+    },
+    {
       "domain": "www.bbc.com",
       "count": 4
     },
@@ -16710,10 +16887,6 @@
     },
     {
       "domain": "medium.com",
-      "count": 3
-    },
-    {
-      "domain": "mobileapp.bostonglobe.com",
       "count": 3
     },
     {
@@ -16885,6 +17058,10 @@
       "count": 2
     },
     {
+      "domain": "www.wired.com",
+      "count": 2
+    },
+    {
       "domain": "x.com",
       "count": 2
     },
@@ -17005,6 +17182,10 @@
       "count": 1
     },
     {
+      "domain": "arps18.github.io",
+      "count": 1
+    },
+    {
       "domain": "arslan.io",
       "count": 1
     },
@@ -17030,6 +17211,10 @@
     },
     {
       "domain": "atuin.sh",
+      "count": 1
+    },
+    {
+      "domain": "audiomass.co",
       "count": 1
     },
     {
@@ -17273,6 +17458,10 @@
       "count": 1
     },
     {
+      "domain": "ckrapu.github.io",
+      "count": 1
+    },
+    {
       "domain": "clavier36.com",
       "count": 1
     },
@@ -17485,11 +17674,19 @@
       "count": 1
     },
     {
+      "domain": "dougmacdowell.com",
+      "count": 1
+    },
+    {
       "domain": "drew.silcock.dev",
       "count": 1
     },
     {
       "domain": "drumpatterns.onether.com",
+      "count": 1
+    },
+    {
+      "domain": "dubroy.com",
       "count": 1
     },
     {
@@ -17590,6 +17787,10 @@
     },
     {
       "domain": "fly.io",
+      "count": 1
+    },
+    {
+      "domain": "forum.obsidian.md",
       "count": 1
     },
     {
@@ -17997,6 +18198,10 @@
       "count": 1
     },
     {
+      "domain": "miniscript.org",
+      "count": 1
+    },
+    {
       "domain": "minusx.ai",
       "count": 1
     },
@@ -18306,6 +18511,10 @@
     },
     {
       "domain": "queue.acm.org",
+      "count": 1
+    },
+    {
+      "domain": "r7rs.org",
       "count": 1
     },
     {
@@ -19005,6 +19214,10 @@
       "count": 1
     },
     {
+      "domain": "www.nps.gov",
+      "count": 1
+    },
+    {
       "domain": "www.openpa.net",
       "count": 1
     },
@@ -19173,6 +19386,10 @@
       "count": 1
     },
     {
+      "domain": "www.whatcable.uk",
+      "count": 1
+    },
+    {
       "domain": "www.wikidata.org",
       "count": 1
     },
@@ -19182,10 +19399,6 @@
     },
     {
       "domain": "www.wilfred.me.uk",
-      "count": 1
-    },
-    {
-      "domain": "www.wired.com",
       "count": 1
     },
     {
