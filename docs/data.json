@@ -1,6 +1,97 @@
 {
-  "exported_at": "2026-05-27T17:25:08.685979",
+  "exported_at": "2026-05-28T08:57:16.565263",
   "links": [
+    {
+      "id": 1123,
+      "url": "https://retrogamecoders.com/zero-lines-maze/",
+      "title": null,
+      "description": "Zero Lines Maze: What the 8-Bit Guy’s One-Liner Can Still Teach Us",
+      "summary": "The article explores the famous C64 BASIC one-liner maze program and the optimizations the 8-Bit Guy created, demonstrating how to run an infinite maze with zero program lines using a FOR loop with STEP 0. It reveals four practical programming techniques including using the SID chip for faster random number generation instead of the RND function, precomputing lookup tables to avoid expensive calculations, decoupling data from logic for code reusability, and identifying true performance bottlenecks before optimizing. These lessons showcase timeless principles of efficient 8-bit programming that remain relevant to modern coding practices.",
+      "domain": "retrogamecoders.com",
+      "source_date": "2026-05-28",
+      "page_title": "Zero Lines Maze: What the 8-Bit Guy's One-Liner Can Still Teach Us - Retro Game Coders",
+      "tags": [
+        "c",
+        "tutorial",
+        "gaming",
+        "video"
+      ]
+    },
+    {
+      "id": 1122,
+      "url": "https://imaginarytext.ca/posts/2025/typst-templates-for-pandoc/",
+      "title": null,
+      "description": "A New Typst Template for Pandoc",
+      "summary": "The author describes rebuilding a Pandoc-to-PDF workflow using Typst after software updates broke their previous templates. Rather than creating a Pandoc-specific template, they developed a new approach that uses Pandoc's default Typst output template combined with a separate Typst template file, which cleanly separates Pandoc's logic from Typst's formatting capabilities. The template includes features like customizable headers/footers, OpenType font options, styled headings, block quotations, code blocks, and metadata display, all invoked through a simple command-line syntax.",
+      "domain": "imaginarytext.ca",
+      "source_date": "2026-05-28",
+      "page_title": "A New Typst Template for Pandoc",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1121,
+      "url": "https://arxiv.org/abs/2510.04950",
+      "title": null,
+      "description": "Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy",
+      "summary": "This research paper investigates how the politeness and tone of prompts affect the accuracy of large language models (LLMs) when answering multiple-choice questions across mathematics, science, and history. Using ChatGPT 4o, researchers tested 250 prompts across five tone variants ranging from very polite to very rude, finding counterintuitively that impolite prompts consistently achieved higher accuracy (84.8% for very rude versus 80.8% for very polite). These findings suggest that newer LLMs may respond differently to tonal variations than previously studied models, highlighting the importance of understanding pragmatic and social dimensions in human-AI interaction through prompting.",
+      "domain": "arxiv.org",
+      "source_date": "2026-05-28",
+      "page_title": "[2510.04950] Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper)",
+      "tags": [
+        "llm",
+        "academic-paper",
+        "ai"
+      ]
+    },
+    {
+      "id": 1120,
+      "url": "https://github.com/BurntSushi/biff",
+      "title": null,
+      "description": "biff - A command line tool for datetime arithmetic, parsing, formatting and more",
+      "summary": "bttf is a command-line tool for datetime arithmetic, parsing, formatting, and manipulation that offers more intuitive functionality than traditional Unix date commands. It supports features like time zone conversion, duration calculations, sequence generation, and the ability to find and reformat timestamps within files or log data. The tool is built on the Jiff datetime library, is dual-licensed under MIT or UNLICENSE, and is available as a precompiled binary or installable via cargo.",
+      "domain": "github.com",
+      "source_date": "2026-05-28",
+      "page_title": "GitHub - BurntSushi/bttf: A command line tool for datetime arithmetic, parsing, formatting and more. · GitHub",
+      "tags": [
+        "cli-tool",
+        "github-repo",
+        "rust"
+      ]
+    },
+    {
+      "id": 1125,
+      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
+      "title": null,
+      "description": "What Apple and Google are doing to your push notifications",
+      "summary": "Apple and Google have transformed push notifications from simple delivery channels into actively managed intermediaries that filter, reorder, and summarize messages before they reach users—mirroring what email platforms did years earlier. Over the past 15 years, both companies have progressively shifted control away from senders through features like notification channels, importance levels, and runtime permissions, driven by the assumption that user attention is a scarce resource the platforms must protect for their own ecosystem health. Marketers now have minimal visibility into how their notifications are being handled and must adapt their strategies to rely on owned channels rather than counting on platform delivery, as the platforms' machine learning models increasingly make opaque decisions about what reaches users.",
+      "domain": "www.jacquescorbytuech.com",
+      "source_date": "2026-05-27",
+      "page_title": "What Apple and Google are doing to your push notifications | Jacques Corby-Tuech",
+      "tags": [
+        "security",
+        "web-dev",
+        "news"
+      ]
+    },
+    {
+      "id": 1124,
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "title": null,
+      "description": "I think Anthropic and OpenAI have found product-market fit",
+      "summary": "I don't have access to browse external websites or URLs, so I cannot read the actual content from that Simon Willison article to provide you with an accurate summary. To help you, I would need you to either paste the article text directly or provide the key points from the content you'd like me to summarize.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-05-27",
+      "page_title": "I think Anthropic and OpenAI have found product-market fit",
+      "tags": [
+        "llm",
+        "ai",
+        "news"
+      ]
+    },
     {
       "id": 1112,
       "url": "https://www.whatcable.uk/blog/thunderbolt-vs-usb-c",
@@ -16568,42 +16659,47 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 355
+      "count": 357
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 271
+      "count": 273
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 237
+      "count": 238
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 228
+      "count": 229
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 211
+      "count": 213
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 189
+      "count": 190
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 183
+      "count": 185
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 178
+      "count": 180
+    },
+    {
+      "name": "news",
+      "category": "culture",
+      "count": 130
     },
     {
       "name": "music",
@@ -16614,11 +16710,6 @@
       "name": "nonfiction-book",
       "category": "culture",
       "count": 129
-    },
-    {
-      "name": "news",
-      "category": "culture",
-      "count": 128
     },
     {
       "name": "python",
@@ -16648,7 +16739,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 51
+      "count": 52
     },
     {
       "name": "distributed-systems",
@@ -16668,7 +16759,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 27
+      "count": 28
     },
     {
       "name": "javascript",
@@ -16678,16 +16769,16 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 24
-    },
-    {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 18
+      "count": 25
     },
     {
       "name": "gaming",
       "category": "culture",
+      "count": 19
+    },
+    {
+      "name": "typescript",
+      "category": "programming_language",
       "count": 18
     },
     {
@@ -16779,7 +16870,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 126
+      "count": 127
     },
     {
       "domain": "www.threads.net",
@@ -16791,7 +16882,7 @@
     },
     {
       "domain": "simonwillison.net",
-      "count": 25
+      "count": 26
     },
     {
       "domain": "www.youtube.com",
@@ -16802,12 +16893,12 @@
       "count": 19
     },
     {
-      "domain": "open.spotify.com",
+      "domain": "arxiv.org",
       "count": 13
     },
     {
-      "domain": "arxiv.org",
-      "count": 12
+      "domain": "open.spotify.com",
+      "count": 13
     },
     {
       "domain": "bsky.app",
@@ -17942,6 +18033,10 @@
       "count": 1
     },
     {
+      "domain": "imaginarytext.ca",
+      "count": 1
+    },
+    {
       "domain": "iment.com",
       "count": 1
     },
@@ -18542,6 +18637,10 @@
       "count": 1
     },
     {
+      "domain": "retrogamecoders.com",
+      "count": 1
+    },
+    {
       "domain": "rselbach.com",
       "count": 1
     },
@@ -19103,6 +19202,10 @@
     },
     {
       "domain": "www.inaturalist.org",
+      "count": 1
+    },
+    {
+      "domain": "www.jacquescorbytuech.com",
       "count": 1
     },
     {
