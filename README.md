@@ -101,14 +101,11 @@ uv run link-extractor tag-audit
 # Stats only (no LLM call, just show rejected/unused/low-use tags)
 uv run link-extractor tag-audit --skip-llm
 
-# After editing TAGS.md, sync accepted changes to code
-uv run link-extractor sync-tags
-
-# Sync and re-tag all links with the updated vocabulary
-uv run link-extractor sync-tags --retag
+# After editing TAGS.md, re-tag all links with the updated vocabulary
+uv run link-extractor retag --clear-existing
 ```
 
-The workflow is: `tag-audit` adds `### Suggested Additions` and `### Suggested Removals` subsections to each category in `TAGS.md`. Edit the file to accept suggestions (move them into the main list) or reject them (delete them). Then run `sync-tags` to update the code.
+The workflow is: `tag-audit` adds `### Suggested Additions` and `### Suggested Removals` subsections to each category in `TAGS.md` (and may propose entirely new `## Category` blocks). Edit the file to accept suggestions (move them into the main list) or reject them (delete them). `TAGS.md` is read at runtime — there is no code-generation step — so a `retag` is all that's needed to apply the new vocabulary.
 
 ### Search and query
 
@@ -169,7 +166,7 @@ note-links/
 │   ├── tagging/
 │   │   ├── llm_tagger.py       # LLM-based auto-tagging via Bedrock
 │   │   ├── audit.py            # Tag vocabulary audit and suggestions
-│   │   └── sync.py             # Sync TAGS.md to code
+│   │   └── vocabulary.py       # Runtime loader for TAGS.md
 │   └── storage/
 │       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
 │       └── database.py         # SQLite operations with FTS5
@@ -178,7 +175,7 @@ note-links/
 
 ## Tag Categories
 
-Tags are auto-assigned by the LLM based on page content. The tag vocabulary is defined in [`TAGS.md`](TAGS.md), which is the source of truth. Use `tag-audit` and `sync-tags` to evolve the vocabulary over time.
+Tags are auto-assigned by the LLM based on page content. The tag vocabulary is defined in [`TAGS.md`](TAGS.md), which is the runtime source of truth. Use `tag-audit` (and edits to `TAGS.md`) to evolve the vocabulary over time.
 
 - **Programming Languages**: python, rust, typescript, javascript, go, etc.
 - **Technical Topics**: compilers, ai, llm, databases, web-development, etc.

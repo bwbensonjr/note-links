@@ -22,7 +22,6 @@ from .summarization.bedrock import BedrockSummarizer
 from .export.rss import generate_rss
 from .tagging.llm_tagger import LLMTagger
 from .tagging.audit import run_audit
-from .tagging.sync import sync_tags_to_code, sync_tags_md_enum
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -586,73 +585,7 @@ def tag_audit(config: str, tags_md: str, skip_llm: bool) -> None:
         click.echo(f"\nSummary: {summary}")
 
     click.echo(f"\nUpdated {tags_md} with suggestions.")
-    click.echo("Edit the file to accept/reject changes, then run 'sync-tags'.")
-
-
-@cli.command("sync-tags")
-@click.option("--config", "-c", default="config.yaml", help="Config file path")
-@click.option("--tags-md", default="TAGS.md", help="Path to TAGS.md")
-@click.option("--retag", is_flag=True, help="Re-tag all links after syncing")
-@click.option("--limit", "-n", default=None, type=int, help="Limit re-tagging to N links")
-def sync_tags(config: str, tags_md: str, retag: bool, limit: int | None) -> None:
-    """Sync TAGS.md to code (AVAILABLE_TAGS) and optionally re-tag."""
-    cfg = Config.from_yaml(config)
-    tags_md_path = Path(tags_md)
-
-    if not tags_md_path.exists():
-        click.echo(f"Error: {tags_md} not found")
-        return
-
-    # Find the llm_tagger.py and models.py paths
-    tagger_path = Path(__file__).parent / "tagging" / "llm_tagger.py"
-    models_path = Path(__file__).parent / "storage" / "models.py"
-
-    click.echo("Syncing TAGS.md -> llm_tagger.py...")
-    result = sync_tags_to_code(tags_md_path, tagger_path)
-    click.echo(f"  {result['categories']} categories, {result['tags']} tags")
-
-    click.echo("Syncing TAGS.md -> models.py (TagCategory enum)...")
-    sync_tags_md_enum(tags_md_path, models_path)
-    click.echo("  Done")
-
-    if retag:
-        click.echo("\nRe-tagging all links with updated vocabulary...")
-        db = Database(cfg.database_path)
-        db.clear_all_tags()
-        db.clear_rejected_tags()
-
-        # Re-import to pick up the new AVAILABLE_TAGS
-        # (sync_tags_to_code wrote the file but the module is already loaded,
-        #  so we reload from the file)
-        import importlib
-        from .tagging import llm_tagger as tagger_module
-        importlib.reload(tagger_module)
-        tagger = tagger_module.LLMTagger(
-            model_id=cfg.bedrock_model, region=cfg.bedrock_region
-        )
-
-        links = db.get_all_links_with_content(limit=limit)
-        click.echo(f"Re-tagging {len(links)} links...")
-
-        async def run_retagging() -> int:
-            tagged_count = 0
-            for i, link in enumerate(links):
-                tags, rejected = await tagger.tag(link)
-                for tag, confidence in tags:
-                    db.add_tag(link.id, tag, confidence, source="llm")  # type: ignore
-                    tagged_count += 1
-                for name, category in rejected:
-                    db.add_rejected_tag(link.id, name, category)  # type: ignore
-
-                if tags:
-                    tag_names = [t.name for t, _ in tags]
-                    click.echo(f"  [{i+1}/{len(links)}] {link.url[:50]}... -> {tag_names}")
-                else:
-                    click.echo(f"  [{i+1}/{len(links)}] {link.url[:50]}... -> no tags")
-            return tagged_count
-
-        tagged_count = asyncio.run(run_retagging())
-        click.echo(f"\nApplied {tagged_count} tags to {len(links)} links")
+    click.echo("Edit the file to accept/reject changes, then run 'retag' to apply.")
 
 
 if __name__ == "__main__":

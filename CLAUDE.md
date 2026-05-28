@@ -31,7 +31,7 @@ note-links/
 │   ├── tagging/
 │   │   ├── llm_tagger.py       # LLM-based auto-tagging via Bedrock
 │   │   ├── audit.py            # Tag vocabulary audit and TAGS.md suggestions
-│   │   └── sync.py             # Sync TAGS.md -> AVAILABLE_TAGS in code
+│   │   └── vocabulary.py       # Runtime loader for TAGS.md (single source of truth)
 │   ├── export/
 │   │   └── rss.py              # RSS 2.0 feed generation
 │   └── storage/
@@ -98,18 +98,18 @@ LLM-based tagging using Bedrock Claude:
 
 ### Tag Vocabulary Management
 
-`TAGS.md` is the source of truth for the tag vocabulary. The code in `llm_tagger.py` (`AVAILABLE_TAGS` dict) and `models.py` (`TagCategory` enum) are generated from it.
+`TAGS.md` is the runtime source of truth for the tag vocabulary. `vocabulary.py` parses it on import; nothing in the Python source caches the tag list. Categories are free-form strings — adding a `## Foo` section in TAGS.md is enough to make `foo` a real category.
 
 **Workflow:**
-1. `tag-audit` — Analyzes the corpus (rejected tag frequency, unused tags, tag distribution, untagged links) and optionally asks the LLM for vocabulary recommendations. Writes `### Suggested Additions` and `### Suggested Removals` subsections into each category in `TAGS.md`.
-2. User edits `TAGS.md` — Accepts suggestions by moving lines from suggested sections into the main tag list. Rejects by deleting them.
-3. `sync-tags` — Parses `TAGS.md` (ignoring `### Suggested` sections) and rewrites `AVAILABLE_TAGS`/`CATEGORY_MAP` in `llm_tagger.py` and the `TagCategory` enum in `models.py`. Optionally re-tags all links with `--retag`.
+1. `tag-audit` — Analyzes the corpus (rejected tag frequency, unused tags, tag distribution, untagged links) and optionally asks the LLM for vocabulary recommendations. Writes `### Suggested Additions`, `### Suggested Removals`, and (when warranted) new `## Category` blocks into `TAGS.md`.
+2. User edits `TAGS.md` — accept suggestions by moving them into the main tag list, reject by deleting, or add categories/tags by hand.
+3. `retag` — Re-tags links so existing content picks up new tags. Use `--clear-existing` if categories were renamed.
 
 **Key design decisions:**
 - Fixed vocabulary (not open-ended) to prevent tag explosion
-- Human-in-the-loop: audit suggests, human approves, sync applies
+- Human-in-the-loop: audit suggests, human edits TAGS.md, retag applies
 - Rejected tags table provides evidence-based signals for what's missing
-- `sync.py` uses regex replacement to rewrite specific blocks in the Python source files, preserving surrounding code
+- TAGS.md is read at runtime so vocabulary changes never require code edits or a sync step
 
 ### Content Extraction
 
@@ -207,10 +207,8 @@ uv run link-extractor tag-audit          # Audit tags and suggest changes in TAG
   --skip-llm         Only show stats, skip LLM review
   --tags-md PATH     Path to TAGS.md (default: TAGS.md)
 
-uv run link-extractor sync-tags          # Sync TAGS.md to code
-  --retag            Re-tag all links after syncing
-  --limit N          Limit re-tagging to N links
-  --tags-md PATH     Path to TAGS.md (default: TAGS.md)
+# After editing TAGS.md, re-tag links to pick up the new vocabulary
+uv run link-extractor retag --clear-existing
 
 # Export for static site
 uv run link-extractor export-json        # Export to docs/data.json

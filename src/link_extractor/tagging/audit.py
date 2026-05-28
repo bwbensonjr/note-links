@@ -9,16 +9,9 @@ from typing import Any
 import boto3
 
 from ..storage.database import Database
-from .llm_tagger import AVAILABLE_TAGS
+from .vocabulary import available_tags, load_vocabulary
 
 logger = logging.getLogger(__name__)
-
-# Section headers in TAGS.md mapped to category keys
-CATEGORY_HEADERS = {
-    "Programming Language": "programming_language",
-    "Technical Topic": "technical_topic",
-    "Culture": "culture",
-}
 
 
 def _build_audit_stats(db: Database) -> dict[str, Any]:
@@ -27,11 +20,14 @@ def _build_audit_stats(db: Database) -> dict[str, Any]:
     tag_dist = db.get_tag_distribution()
     rejected = db.get_rejected_tag_counts(min_count=2)
     untagged_count = db.get_untagged_link_count()
+    # TODO: cap untagged_links once the corpus grows large enough that the full
+    # set won't fit in the audit prompt.
+    untagged_links = db.get_untagged_links()
 
     # Find unused tags (in vocabulary but never applied)
     used_tag_names = {name for name, _, count in tag_dist if count > 0}
     all_vocab_tags = set()
-    for tags in AVAILABLE_TAGS.values():
+    for tags in available_tags().values():
         all_vocab_tags.update(tags)
     unused_tags = all_vocab_tags - used_tag_names
 
@@ -46,6 +42,7 @@ def _build_audit_stats(db: Database) -> dict[str, Any]:
         "rejected_tags": rejected,
         "unused_tags": unused_tags,
         "low_use_tags": low_use,
+        "untagged_links": untagged_links,
     }
 
 
@@ -57,7 +54,7 @@ def _ask_llm_for_suggestions(
     """Ask the LLM to review the tag vocabulary and suggest changes."""
     # Build a summary of the current state
     current_tags = ""
-    for category, tags in AVAILABLE_TAGS.items():
+    for category, tags in available_tags().items():
         current_tags += f"\n{category}: {', '.join(tags)}"
 
     rejected_summary = ""
@@ -79,6 +76,19 @@ def _ask_llm_for_suggestions(
     else:
         low_use_summary = "  (none)"
 
+    untagged_summary = ""
+    if audit_stats["untagged_links"]:
+        lines = []
+        for link in audit_stats["untagged_links"]:
+            blurb = (link.summary or link.page_title or link.title or link.description or "").strip()
+            blurb = " ".join(blurb.split())[:200]
+            title = (link.title or link.page_title or "").strip()
+            label = title or link.url
+            lines.append(f"  [id={link.id}] {link.domain} — {label}\n      {blurb}")
+        untagged_summary = "\n".join(lines)
+    else:
+        untagged_summary = "  (none)"
+
     prompt = f"""You are reviewing a tag vocabulary used to categorize web links saved from daily notes.
 
 CURRENT TAG VOCABULARY:{current_tags}
@@ -97,13 +107,16 @@ UNUSED TAGS (in vocabulary but never applied):
 LOW-USE TAGS (applied to 2 or fewer links):
 {low_use_summary}
 
+UNTAGGED LINKS (the tagger could not classify these — read the content and look for vocabulary gaps):
+{untagged_summary}
+
 INSTRUCTIONS:
 Analyze this data and suggest vocabulary changes. Be conservative — only suggest changes with strong evidence. The goal is a compact, useful vocabulary (roughly 40-60 tags total), not exhaustive coverage.
 
 Consider:
 1. Frequently rejected tags that should be added (suggested 3+ times)
-2. Unused or very low-use tags that could be removed or merged
-3. Whether any new categories are needed
+2. Themes among the UNTAGGED LINKS that the current vocabulary misses — propose new tags or, if a cluster of untagged links shares a theme not covered by the existing top-level categories (Programming Language, Technical Topic, Culture), propose a new top-level category via `new_categories`
+3. Unused or very low-use tags that could be removed or merged
 4. Whether any existing tags are too broad and should be split
 
 Return ONLY valid JSON in this format:
@@ -173,8 +186,9 @@ def update_tags_md(
         cat = removal["category"]
         removals_by_cat.setdefault(cat, []).append(removal)
 
-    # Reverse mapping: category_key -> header
-    key_to_header = {v: k for k, v in CATEGORY_HEADERS.items()}
+    # Reverse mapping: category_key -> header (read from TAGS.md so any
+    # category present there round-trips, including ones added by humans).
+    key_to_header = {c.key: c.header for c in load_vocabulary(tags_md_path)}
 
     # Insert suggestions after each category's tag list
     for cat_key, header in key_to_header.items():

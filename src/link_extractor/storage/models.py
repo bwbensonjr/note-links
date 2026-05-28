@@ -14,12 +14,6 @@ class FetchStatus(Enum):
     SKIPPED = "skipped"
 
 
-class TagCategory(Enum):
-    PROGRAMMING_LANGUAGE = "programming_language"
-    TECHNICAL_TOPIC = "technical_topic"
-    CULTURE = "culture"
-
-
 @dataclass
 class ExtractedLink:
     """Raw link extracted from markdown."""
@@ -38,7 +32,7 @@ class Tag:
     """A categorization tag."""
 
     name: str
-    category: TagCategory
+    category: str
     id: Optional[int] = None
 
 

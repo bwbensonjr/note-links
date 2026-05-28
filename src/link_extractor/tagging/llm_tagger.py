@@ -6,78 +6,19 @@ from typing import Any
 
 import boto3
 
-from ..storage.models import LinkRecord, Tag, TagCategory
+from ..storage.models import LinkRecord, Tag
+from .vocabulary import available_tags
 
 # Represents a tag the LLM suggested but wasn't in the vocabulary
 RejectedTag = tuple[str, str | None]  # (name, category_or_none)
 
 logger = logging.getLogger(__name__)
 
-# Complete tag vocabulary organized by category
-AVAILABLE_TAGS: dict[str, list[str]] = {
-    "programming_language": [
-        "python",
-        "rust",
-        "typescript",
-        "javascript",
-        "lisp",
-        "common-lisp",
-        "clojure",
-        "scheme",
-        "haskell",
-        "go",
-        "c",
-        "cpp",
-        "nix",
-        "sql",
-        "swift",
-        "java",
-        "ruby",
-        "elixir",
-        "zig",
-    ],
-    "technical_topic": [
-        "ai",
-        "llm",
-        "compilers",
-        "github-repo",
-        "database",
-        "devops",
-        "web-dev",
-        "academic-paper",
-        "tutorial",
-        "cli-tool",
-        "distributed-systems",
-        "security",
-        "emulator",
-    ],
-    "culture": [
-        "tv",
-        "movie",
-        "fiction-book",
-        "nonfiction-book",
-        "music",
-        "news",
-        "politics",
-        "podcast",
-        "video",
-        "gaming",
-        "social-media",
-    ],
-}
 
-# Mapping from category string to TagCategory enum
-CATEGORY_MAP = {
-    "programming_language": TagCategory.PROGRAMMING_LANGUAGE,
-    "technical_topic": TagCategory.TECHNICAL_TOPIC,
-    "culture": TagCategory.CULTURE,
-}
-
-
-def _build_tag_list() -> str:
+def _build_tag_list(vocab: dict[str, list[str]]) -> str:
     """Build a formatted list of available tags for the prompt."""
     lines = []
-    for category, tags in AVAILABLE_TAGS.items():
+    for category, tags in vocab.items():
         lines.append(f"\n{category}:")
         for tag in tags:
             lines.append(f"  - {tag}")
@@ -97,7 +38,8 @@ class LLMTagger:
         self.region = region
         self.max_tokens = max_tokens
         self._client: Any = None
-        self._tag_list = _build_tag_list()
+        self._vocab = available_tags()
+        self._tag_list = _build_tag_list(self._vocab)
 
     @property
     def client(self) -> Any:
@@ -157,10 +99,11 @@ INSTRUCTIONS:
 2. Only use tags from the AVAILABLE TAGS list above
 3. Assign a confidence score (0.0-1.0) for each tag
 4. Higher confidence for explicit mentions, lower for inferred topics
-5. Return ONLY valid JSON, no other text
+5. If — and only if — no tag in the vocabulary applies to this content, propose 1-2 hypothetical tag names with a plausible category (existing or new) in a separate `proposed_tags` array. Leave `proposed_tags` empty whenever any vocabulary tag fits.
+6. Return ONLY valid JSON, no other text
 
 Return your response as JSON in this exact format:
-{{"tags": [{{"name": "tag-name", "category": "category_name", "confidence": 0.9}}]}}
+{{"tags": [{{"name": "tag-name", "category": "category_name", "confidence": 0.9}}], "proposed_tags": [{{"name": "hypothetical-tag", "category": "category_name", "confidence": 0.7}}]}}
 
 JSON response:"""
 
@@ -211,19 +154,24 @@ JSON response:"""
                 category_str = tag_data.get("category", "").lower().strip()
                 confidence = float(tag_data.get("confidence", 0.5))
 
-                # Validate tag exists in our vocabulary
-                if category_str not in AVAILABLE_TAGS:
+                if category_str not in self._vocab:
                     logger.warning(f"Unknown category: {category_str}")
                     rejected.append((name, category_str if category_str else None))
                     continue
 
-                if name not in AVAILABLE_TAGS[category_str]:
+                if name not in self._vocab[category_str]:
                     logger.warning(f"Unknown tag: {name} in {category_str}")
                     rejected.append((name, category_str))
                     continue
 
-                category = CATEGORY_MAP[category_str]
-                tags.append((Tag(name=name, category=category), min(confidence, 1.0)))
+                tags.append((Tag(name=name, category=category_str), min(confidence, 1.0)))
+
+            for proposed in data.get("proposed_tags", []):
+                name = proposed.get("name", "").lower().strip()
+                category_str = proposed.get("category", "").lower().strip()
+                if not name:
+                    continue
+                rejected.append((name, category_str if category_str else None))
 
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse LLM response: {e}")

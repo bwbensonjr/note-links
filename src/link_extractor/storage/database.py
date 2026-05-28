@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Generator
 from urllib.parse import urlparse
 
-from .models import ExtractedLink, FetchStatus, LinkRecord, Tag, TagCategory
+from .models import ExtractedLink, FetchStatus, LinkRecord, Tag
 
 SCHEMA_SQL = """
 -- Main links table
@@ -204,7 +204,7 @@ class Database:
             # Ensure tag exists
             conn.execute(
                 "INSERT OR IGNORE INTO tags (name, category) VALUES (?, ?)",
-                (tag.name, tag.category.value),
+                (tag.name, tag.category),
             )
 
             tag_row = conn.execute(
