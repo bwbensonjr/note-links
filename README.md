@@ -15,6 +15,13 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 - **Static Web Interface**: Browse and search links via a static site (Vue.js SPA hosted on GitHub Pages)
 - **Topic Browser**: A second static page (`docs/topics.html`) groups links by category → tag (Programming Languages, Technical Topics, Culture), with deep-links into the list view for "see all"
 
+## Upgrade Tasks 
+
+- [ ] - Allow attaching comments/notes per link 
+- [ ] - Move processing, summarizing, tagging, to GitHub action(s)
+- [ ] - Cache a markdown version of each article in the repository
+- [ ] - Evaluate posts without tags to identify new categories and tags, e.g., "food", "recipe"
+
 ## Installation
 
 Requires Python 3.10+ and [uv](https://github.com/astral-sh/uv).
