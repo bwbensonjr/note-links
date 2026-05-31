@@ -1,0 +1,26 @@
+---
+id: 855
+url: https://github.com/orgs/openstates/repositories
+title: openstates repositories · GitHub
+domain: github.com
+source_date: '2026-02-20'
+tags:
+- github-repo
+- politics
+- web-dev
+- database
+summary: Open States is a comprehensive project that provides curated data on U.S.
+  state legislators, governors, and legislative information through multiple repositories
+  and tools. The project includes web scrapers for collecting state government data,
+  an API for accessing this information, mapping tools for legislative districts,
+  and documentation, with the main website and API serving as the primary interfaces
+  for users. The organization maintains both active repositories and archived legacy
+  code, supporting developers who want to access or contribute to state-level political
+  and legislative data.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# openstates repositories · GitHub
+
+All Change the repository type filter All Search repositories Search Repositories list 28 repositories Last pushed Comfortable display density Compact display density openstates-scrapers Public source for Open States scrapers python government states + 3 united-states scrapers hacktoberfest Python • GNU General Public License v3.0 • 504 • 890 • 3 • 5 • Updated Feb 20, 2026 Feb 20, 2026 people Public Curated information on all state legislators & governors. data hacktoberfest legislators + 1 united-states-data Creative Commons Zero v1.0 Universal • 113 • 141 • 2 • 2 • Updated Feb 19, 2026 Feb 19, 2026 jurisdictions Public Jurisdiction metadata for multiple levels of government Python • Creative Commons Zero v1.0 Universal • 3 • 1 • 0 • 1 • Updated Feb 16, 2026 Feb 16, 2026 openstates-core Public Open States data model and scraper backend Python • MIT License • 39 • 26 • 0 • 2 • Updated Jan 31, 2026 Jan 31, 2026 openstates.org Public OpenStates.org Python • MIT License • 62 • 70 • 0 • 11 • Updated Jan 30, 2026 Jan 30, 2026 openstates-geo Public Source for state legislative district map tiles for openstates.org gis united-states map-tiles + 1 openstates Python • MIT License • 13 • 24 • 2 • 0 • Updated Jan 22, 2026 Jan 22, 2026 api-v3 Public v3 of Open States API Python • MIT License • 16 • 21 • 0 • 0 • Updated Sep 10, 2025 Sep 10, 2025 scraper-audit Public Python • GNU General Public License v3.0 • 0 • 0 • 0 • 0 • Updated May 29, 2025 May 29, 2025 .github Public 0 • 0 • 0 • 0 • Updated May 9, 2025 May 9, 2025 task-definitions Public task definitions for Open States 10 • 7 • 0 • 0 • Updated Mar 20, 2025 Mar 20, 2025 openstates-realtime Public Support for yielding bill data in real time Python • MIT License • 3 • 8 • 0 • 0 • Updated Mar 12, 2025 Mar 12, 2025 scrapy-test Public Proof of concept to test scrapy-based scrapers Python • GNU General Public License v3.0 • 2 • 0 • 0 • 0 • Updated Mar 6, 2025 Mar 6, 2025 documentation Public Open States Documentation documentation Creative Commons Attribution 4.0 International • 36 • 33 • 0 • 0 • Updated Feb 25, 2025 Feb 25, 2025 spatula Public A modern Python library for writing maintainable web scrapers. Python • MIT License • 11 • 0 • 0 • 0 • Updated Nov 29, 2024 Nov 29, 2024 bobsled Public 🛷 cool task runner docker aws aws-lambda + 1 ecs Python • MIT License • 1 • 11 • 8 • 16 • Updated Oct 7, 2024 Oct 7, 2024 enhancement-proposals Public Open States Enhancement Proposals 4 • 1 • 10 • 2 • Updated Jul 31, 2024 Jul 31, 2024 pyopenstates Public A Python module for accessing the Open States API government open-data states + 1 united-states Python • Apache License 2.0 • 12 • 31 • 3 • 0 • Updated Aug 22, 2023 Aug 22, 2023 blog Public blog.openstates.org 1 • 2 • 1 • 0 • Updated Jun 7, 2023 Jun 7, 2023 hackathon-2023 Public Space for the Open States Hackathon 2023 Jupyter Notebook • 0 • 2 • 0 • 0 • Updated Jan 13, 2023 Jan 13, 2023 docs-proxy Public app for making indiana's documents available without needing an api key Python • Other • 3 • 1 • 0 • 0 • Updated Nov 3, 2022 Nov 3, 2022 scraper-artifacts Public automatically generated scraper artifacts 0 • 1 • 0 • 0 • Updated Aug 18, 2021 Aug 18, 2021 issues Public Having trouble? Looking to contribute? Issues live here! 2 • 16 • 85 • 0 • Updated Aug 3, 2021 Aug 3, 2021 maintenance-scripts Public internal-facing scripts for making small tweaks/etc. Python • 1 • 0 • 0 • 0 • Updated May 17, 2021 May 17, 2021 name_tools Public archive DEPRECATED - name_tools for Open States and other projects Python • Other • 5 • 19 • 0 • 0 • Updated Feb 12, 2020 Feb 12, 2020 billy Public archive legacy backend for Open States python scraping legislation Python • BSD 3-Clause "New" or "Revised" License • 47 • 87 • 0 • 0 • Updated Jan 31, 2020 Jan 31, 2020 legacy-openstates.org Public archive pre-2019 OpenStates.org JavaScript • BSD 3-Clause "New" or "Revised" License • 14 • 12 • 0 • 0 • Updated Dec 20, 2018 Dec 20, 2018 legacy-openstates-ios Public archive iOS app for state legislatures Objective-C • 25 • 50 • 29 • 0 • Updated Feb 8, 2017 Feb 8, 2017 navis-openstates Public archive (deprecated) WordPress plugin to embed legislator and bill information from the OpenStates API. php wordpress deprecated + 1 openstates PHP • GNU General Public License v2.0 • 0 • 3 • 0 • 0 • Updated Jun 5, 2013 Jun 5, 2013

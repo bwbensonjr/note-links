@@ -1,0 +1,26 @@
+---
+id: 471
+url: https://arslan.io/2025/05/12/barbican-estate/
+title: The Barbican
+domain: arslan.io
+source_date: '2025-05-13'
+tags:
+- nonfiction-book
+- video
+- tutorial
+summary: The Barbican Estate, a massive residential complex built between 1965-1976
+  in London, is an architectural masterpiece that combines brutalist design with intricate
+  details inspired by Egyptian and medieval influences. The author describes attending
+  a guided tour that revealed the estate's unique features, including its labyrinthine
+  design, integrated amenities for lifelong living, hidden resident-only areas, and
+  layers of Roman and medieval history beneath it. Beyond its architectural significance,
+  the Barbican has become a cultural icon featured in media and TV productions, attracting
+  residents, designers, and architecture enthusiasts who appreciate its bold vision
+  of communal urban living.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# The Barbican
+
+Three years ago, while searching for Vitsoe setups, I stumbled upon Barbican . I delved deeper and discovered a building complex that was beyond my imaginations. Young Fatih would definitely find it ugly; current me finds it beautiful. The estate was built between 1965 and 1976. And, since I first saw it, I started watching and reading everything I could find. There are a few YouTube videos where you can peek into the lives of the residents. And there are a few books as well. Of course, my dream was to visit the actual place. Stay there for a few hours, and discover more about this grandiose place. When I had a chance to visit London a few weeks ago, I planned to visit the estate. I had to. While researching, I discovered that Barbican was far more than I had imagined. The residents offered architecture tours , and I couldn’t resist the opportunity to attend one. I invited two friends along, and we embarked on a 2-hour-long tour. The tour, which took almost two hours, felt like it was just 10 minutes long. Our tour guide informed us with hundreds of small details, a few of which stuck in my mind in no particular order. Here are some of them ( all the photos where shoot with the Leica M11 + 35mm Summilux FLE btw) Someone could start living as a single, marry someone, have kids, the kids could move out, the residents could die all in the same place. It has all the amenities someone would need to live there. It's by design, created like a maze so people get lost. The tour guide even made a joke that there were no thieves in the Barbican, because once in, they don't know how to get out. (nit: our Tour Guide said a few times how he felt like he lives in a Prison where volunteers would pay to live there ) There’s an underground parking garage for the residents, but half of it is empty and filled with 20-30-year-old cars whose owners are no longer known. Buildings are named after famous English people lived in their times (i.e: Shakespeare tower) The architects were inspired by ancient Egyptians and Battalions. A specific Egyptian Cartouche, resembling a rounded rectangle, is almost universally found. The rounded cartouche can be seen almost in every detail if you look carefully. There are places that only residents can enter, some of which are completely hidden from the public. The residents have a key fob that can open doors and hidden gateways, allowing them to enter the Barbican even directly from the underground subway. The Slow Horses laundry scenes were shot in Barbican. The Laundry in the Slow Horses TV Show takes place in the Barbican It was literally built on Roman and the Medieval ruins. A corner of the Roman city Londinium can be found here. The Roman ruins were heavily modified though in the middle age. So the ruins have layers spanning hundreds of years. It contains a A 1000 year old Jewish burial ground as well . Jewish burial ground remains can be seen in the bottom left part. There is central heating only, residents can't turn them off in the winter, leading to weird states where it gets just too hot or too cold sometimes. The residents even have their own online forum sharing news/issues and recommendations between each other: barbicantalk.com Each building has details that are an ode to certain famous architects and designers, such as Le Corbusier. Look carefully and you see various hints It's popular among media, architects and designers. Hence there is always a public photo or video shooting. There is a branch of a Music school inside Barbican, and some parts of the building resembling a tuning fork . Barbican is full of treasures. After reading this you might be interested to learn more. Here are a few Book recommendations: Barbican Residents : The book is mostly an interior design book, but only from people living in the various apartments in the Barbican Estate. Definitely a must buy if you're interested how the residents live there. Barbican Estate : Released in 2019, it's a heavy coffee table book with lots of gorgeous photos about the Barbican Building Utopia: The Barbican Centre : This book was released in 2022, and is currently the most up-to-date book about the Barbican. It is compiled by Nicholas Kenyon, the Barbican Centre's Managing Director 2007–2021, hence contains a lot of unknown information.

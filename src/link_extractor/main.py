@@ -9,7 +9,6 @@ from datetime import datetime
 from pathlib import Path
 
 import click
-from markdownify import markdownify as html_to_markdown
 
 from .config import Config
 from .extraction.parser import MarkdownLinkParser
@@ -140,9 +139,9 @@ class LinkExtractorPipeline:
                 if result.content:
                     content = self.content_extractor.extract(result.content)
                     try:
-                        markdown_body = html_to_markdown(
-                            result.content, strip=["script", "style"]
-                        ).strip()
+                        markdown_body = self.content_extractor.extract_markdown(
+                            result.content
+                        )
                     except Exception as e:
                         logger.warning(f"  markdownify failed for {link.url}: {e}")
 
@@ -245,6 +244,57 @@ class LinkExtractorPipeline:
             if rel:
                 written += 1
         logger.info(f"Wrote {written} markdown files")
+
+    async def _fetch_markdown_content(self, link) -> str | None:
+        """Re-fetch a link and return a true HTML->Markdown body.
+
+        Does NOT touch fetch_status, summary, or tags - only renders the body.
+        Returns None when the page can't be fetched (link rot, paywall, etc.).
+        """
+        if self.fetcher.is_pdf(link.url):
+            result = await self.pdf_extractor.extract(link.url)
+            return result.content
+
+        result = await self.fetcher.fetch(link.url)
+        if result.status != FetchStatus.SUCCESS or not result.content:
+            return None
+        try:
+            return self.content_extractor.extract_markdown(result.content) or None
+        except Exception as e:
+            logger.warning(f"  markdownify failed for {link.url}: {e}")
+            return None
+
+    async def backfill_markdown_content(self, limit: int | None = None) -> None:
+        """Re-fetch links missing markdown_content, render Markdown, rewrite files.
+
+        Summaries and tags are left untouched. Links that fail to fetch keep
+        their existing plain-text fallback body.
+        """
+        links = self.db.get_links_missing_markdown_content(limit=limit)
+        if not links:
+            logger.info("No links missing markdown content")
+            return
+
+        logger.info(f"Backfilling markdown content for {len(links)} links...")
+        repo_root = Path.cwd()
+        rendered = 0
+        for i, link in enumerate(links):
+            body = await self._fetch_markdown_content(link)
+            if body:
+                self.db.update_markdown_content(link.id, body)  # type: ignore
+                link.markdown_content = body
+                rendered += 1
+                status = "rendered"
+            else:
+                status = "fetch failed - kept plain text"
+            # Rewrite the file so it reflects the new (or fallback) body.
+            write_markdown_for_link(self.db, link, repo_root)
+            logger.info(f"  [{i+1}/{len(links)}] [{status}] {link.url[:55]}...")
+
+        logger.info(
+            f"Rendered {rendered}/{len(links)} from HTML; "
+            f"{len(links) - rendered} kept plain-text fallback"
+        )
 
     def _file_hash(self, path: Path) -> str:
         """Calculate MD5 hash of file content."""
@@ -581,6 +631,21 @@ def export_markdown(config: str, limit: int | None, only_missing: bool) -> None:
             written += 1
 
     click.echo(f"Wrote {written} markdown files under docs/")
+
+
+@cli.command("backfill-markdown")
+@click.option("--config", "-c", default="config.yaml", help="Config file path")
+@click.option("--limit", "-n", default=None, type=int, help="Max links to re-fetch")
+def backfill_markdown(config: str, limit: int | None) -> None:
+    """Re-fetch links missing rendered markdown_content and rewrite their files.
+
+    Populates a true HTML->Markdown body for links fetched before the markdown
+    cache existed. Summaries and tags are left untouched. Network-bound and
+    rate-limited; run with --limit to backfill in batches.
+    """
+    cfg = Config.from_yaml(config)
+    pipeline = LinkExtractorPipeline(cfg)
+    asyncio.run(pipeline.backfill_markdown_content(limit=limit))
 
 
 @cli.command("tag-audit")

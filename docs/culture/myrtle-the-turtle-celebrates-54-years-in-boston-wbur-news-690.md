@@ -1,0 +1,25 @@
+---
+id: 690
+url: https://www.wbur.org/news/2024/06/12/green-sea-turtle-new-england-aquarium
+title: Myrtle the Turtle celebrates 54 years in Boston | WBUR News
+domain: www.wbur.org
+source_date: '2024-12-26'
+tags:
+- news
+- biology
+- video
+summary: Myrtle the Turtle, a 54-year-old green sea turtle at the New England Aquarium
+  in Boston, is celebrated as the aquarium's most famous resident and a cultural icon.
+  Now in her 80s or 90s, Myrtle serves as both a beloved attraction drawing millions
+  of visitors and a valuable research subject, with scientists using her health data
+  to better understand sea turtle physiology and develop conservation strategies for
+  the endangered species. Her decades-long presence in the Giant Ocean Tank has made
+  her a steady, familiar touchstone for generations of Bostonians witnessing significant
+  changes to their city.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# Myrtle the Turtle celebrates 54 years in Boston | WBUR News
+
+Support WBUR Myrtle, a green sea turtle, approaches the surface of the Giant Ocean Tank at the New England Aquarium. (Robin Lubbock/WBUR) Twice a day, tourists gather in Boston to watch a turtle eat. Not just any turtle, of course: this is Myrtle the Turtle , the oldest and most famous inhabitant of the New England Aquarium’s 4-story ocean tank. Wednesday marks the 54th anniversary of Myrtle's arrival in Boston, and she still draws a crowd. Billie Chan of Quincy stood at the tank's rim with her 2-year-old grandson, Henry Loeb. His eyes were glued to the sofa-sized Myrtle as she glided by and gobbled down leaves of lettuce. "It's wonderful. He loves to see the turtle," said Chan. Loeb observed, "Turtle eat food." Myrtle surfaces for air by the side of the Giant Ocean Tank. (Robin Lubbock/WBUR) The New England Aquarium opened in 1969, and Myrtle arrived just a year later from the Provincetown Marine Aquarium, which was shutting down. Since then, Myrtle has lived in the New England Aquarium's Giant Ocean Tank . The 200,000 gallon tank is the centerpiece of the aquarium, and Myrtle is the centerpiece of the tank. She's four-and-a-half feet long and weighs about 550 pounds — though, like many of us, her weight fluctuates. She’s now probably somewhere in her 80s, but may be up to 95 years old , according to ocean tank manager Michael O’Neill. He said scientists aren’t exactly sure how long green sea turtles can live, but Myrtle is definitely elderly. And at this age, she knows what she likes: back scratches, Brussels sprouts and her favorite napping places near the top of the tank. "Myrtle is the grand dame of our Giant Ocean Tank," said Vikki Spruill, president and chief executive officer of the New England Aquarium."She's graceful. She's elegant. She knows exactly who she is." Myrtle the Turtle looks through a window of the Giant Ocean Tank. (Robin Lubbock/WBUR) Divers who have worked with Myrtle describe her as curious, playful and bossy. "People like to say she's the queen of the Giant Ocean Tank, but she's more of a princess," said Chris Bauernfeind, a senior aquarist at New England Aquarium. "She gets what she wants, and she goes where she wants." Millions of visitors have seen Myrtle through the years. For most people, it's the closest they'll ever get to a green sea turtle. That makes Myrtle an ambassador of sorts, Spruill said. "She helps us tell the story of what's happening to her species." In the wild, green sea turtles are endangered in most of the world, threatened by overfishing, pollution and habitat loss that's increasing with climate change. Information gained from Myrtle's regular physicals helps scientists understand turtle physiology and aging, which is useful information when rescuing and rehabbing sick or stranded turtles, aquarium staff said. After a regular medical examination, aquarium staff gently attach Myrtle's crate to a winch to lower her back into the tank. (Robin Lubbock/WBUR) Working with Myrtle over the years, scientists have also learned that sea turtles can be trained to respond to underwater sounds. They theorize the knowledge could be used to steer wild turtles away from danger. "She's contributing information over the course of a very long lifetime," said Charles Innis, a veterinarian and director of animal health at the New England Aquarium. "She has already contributed, and I think she'll continue to contribute." Plus, Myrtle is more than a species ambassador or research subject — she’s a cultural touchstone. When she arrived in 1970, Boston was a different city. The harbor was filthy, an elevated highway cut through the center of town and the Red Sox were cursed. Boston has changed a lot in 50-plus years, but Myrtle has not. She's kept gliding around the Giant Ocean Tank, quiet and familiar. As writer Joe Keohane put it , "She is a fixed point in the life of a city." And for generations of visitors, many of whom visited Myrtle as children, then brought their own children to see her, Myrtle remains a steady buoy in a shifting sea. Myrtle swims by an aquarium visitor. (Robin Lubbock/WBUR) This segment aired on June 12, 2024.

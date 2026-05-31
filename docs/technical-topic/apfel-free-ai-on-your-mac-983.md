@@ -1,0 +1,24 @@
+---
+id: 983
+url: https://apfel.franzai.com/
+title: apfel - Free AI on Your Mac
+domain: apfel.franzai.com
+source_date: '2026-04-03'
+tags:
+- llm
+- ai
+- cli-tool
+- github-repo
+summary: Apfel is a free macOS tool that unlocks Apple's built-in AI capabilities
+  on Apple Silicon Macs, making the underlying language model accessible through a
+  command-line interface, OpenAI-compatible server, and chat application. The software
+  runs entirely on-device at zero cost and requires only an Apple Silicon Mac with
+  macOS Tahoe and Apple Intelligence enabled. It's available as an open-source project
+  with over 1,300 GitHub stars and can be installed via Homebrew.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# apfel - Free AI on Your Mac
+
+v0.7.1 · macOS 26+ · MIT apfel The free AI already on your Mac. Every Mac with Apple Silicon has a built-in LLM. Apple locked it behind Siri. apfel sets it free - as a CLI tool, an OpenAI-compatible server, and a chat. 100% On-Device Zero Cost OpenAI Compatible $ brew install Arthur-Ficial/tap/apfel Copy 1.3k+ stars on github.com/Arthur-Ficial/apfel Requires: Apple Silicon · macOS Tahoe · Apple Intelligence enabled

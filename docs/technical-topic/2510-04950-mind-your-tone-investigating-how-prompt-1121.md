@@ -1,0 +1,27 @@
+---
+id: 1121
+url: https://arxiv.org/abs/2510.04950
+title: '[2510.04950] Mind Your Tone: Investigating How Prompt Politeness Affects LLM
+  Accuracy (short paper)'
+domain: arxiv.org
+source_date: '2026-05-28'
+tags:
+- academic-paper
+- llm
+- ai
+summary: This research paper investigates how the politeness and tone of prompts affect
+  the accuracy of large language models (LLMs) when answering multiple-choice questions
+  across mathematics, science, and history. Using ChatGPT 4o, researchers tested 250
+  prompts across five tone variants ranging from very polite to very rude, finding
+  counterintuitively that impolite prompts consistently achieved higher accuracy (84.8%
+  for very rude versus 80.8% for very polite). These findings suggest that newer LLMs
+  may respond differently to tonal variations than previously studied models, highlighting
+  the importance of understanding pragmatic and social dimensions in human-AI interaction
+  through prompting.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# [2510.04950] Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper)
+
+Computer Science > Computation and Language arXiv:2510.04950 (cs) [Submitted on 6 Oct 2025] Title: Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper) Authors: Om Dobariya , Akhil Kumar View a PDF of the paper titled Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper), by Om Dobariya and Akhil Kumar View PDF Abstract: The wording of natural language prompts has been shown to influence the performance of large language models (LLMs), yet the role of politeness and tone remains underexplored. In this study, we investigate how varying levels of prompt politeness affect model accuracy on multiple-choice questions. We created a dataset of 50 base questions spanning mathematics, science, and history, each rewritten into five tone variants: Very Polite, Polite, Neutral, Rude, and Very Rude, yielding 250 unique prompts. Using ChatGPT 4o, we evaluated responses across these conditions and applied paired sample t-tests to assess statistical significance. Contrary to expectations, impolite prompts consistently outperformed polite ones, with accuracy ranging from 80.8% for Very Polite prompts to 84.8% for Very Rude prompts. These findings differ from earlier studies that associated rudeness with poorer outcomes, suggesting that newer LLMs may respond differently to tonal variation. Our results highlight the importance of studying pragmatic aspects of prompting and raise broader questions about the social dimensions of human-AI interaction. Comments: 5 pages, 3 tables; includes Limitations and Ethical Considerations sections; short paper under submission to Findings of ACL 2025 Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Neural and Evolutionary Computing (cs.NE); Methodology (stat.ME) Cite as: arXiv:2510.04950 [cs.CL] (or arXiv:2510.04950v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2510.04950 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Om Dobariya [ view email ] [v1] Mon, 6 Oct 2025 15:50:39 UTC (337 KB) Full-text links: Access Paper: View a PDF of the paper titled Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper), by Om Dobariya and Akhil Kumar View PDF view license Current browse context: cs.CL < prev | next > new | recent | 2025-10 Change to browse by: cs cs.AI cs.LG cs.NE stat stat.ME References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) Links to Code Toggle Papers with Code ( What is Papers with Code? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )

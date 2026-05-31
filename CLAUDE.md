@@ -135,11 +135,19 @@ Each processed link is cached as a Markdown file under a category directory in
 `docs/` (e.g. `docs/programming-language/<slug>-<id>.md`). See
 `src/link_extractor/export/markdown.py`.
 
-- **Body**: a true HTML→Markdown render via `markdownify`, captured at fetch
-  time in `_fetch_links()` (raw HTML only exists there, before `ContentExtractor`
-  reduces it to plain text) and stored in the new `markdown_content` column. PDFs
-  use their extracted text. Legacy links predating this column fall back to
-  `page_content` (plain text) when written.
+- **Body**: a chrome-stripped HTML→Markdown render via
+  `ContentExtractor.extract_markdown()`, captured at fetch time in
+  `_fetch_links()` (raw HTML only exists there) and stored in the new
+  `markdown_content` column. `extract_markdown()` reuses the same boilerplate
+  removal (`REMOVE_TAGS`) and main-content selection (`<article>`/`<main>`/
+  content `<div>`/`<body>`) as `extract()`, but runs `markdownify` on the chosen
+  element instead of flattening it to text — so the body keeps headings, links,
+  lists, and code blocks while dropping nav/footer/CSS chrome. (Rendering the
+  *full* page HTML was rejected: on modern framework sites it leaks large CSS-in-JS
+  blobs and navigation.) PDFs use their extracted text. Legacy links predating
+  this column fall back to `page_content` (plain text) when written. Because the
+  raw HTML is never persisted, the only way to give those legacy links a true
+  Markdown body is to re-fetch them — see `backfill-markdown` below.
 - **Category directory**: the category of the link's highest-confidence tag
   (`get_tags_for_link` is confidence-DESC ordered); links with no tags go in
   `uncategorized/`. The category string is slugified (`programming_language` →
@@ -158,6 +166,12 @@ Each processed link is cached as a Markdown file under a category directory in
   columns are not part of the FTS index, so the FTS triggers are unaffected.
 - **Triggers**: written as pipeline Step 5 (after tagging; `--no-markdown` to
   skip) and by the standalone `export-markdown` command (full backfill).
+- **`backfill-markdown`**: `Pipeline.backfill_markdown_content()` re-fetches
+  links where `markdown_content IS NULL`, renders HTML→Markdown, and rewrites the
+  files. It deliberately leaves `fetch_status`, `summary`, and tags untouched
+  (unlike `refetch`, which resets them). Links that fail to re-fetch keep their
+  plain-text fallback. Network-bound and rate-limited; supports `--limit` for
+  batching.
 
 ## Database Schema
 
@@ -252,6 +266,8 @@ uv run link-extractor export-rss         # Export to docs/feed.xml
 uv run link-extractor export-markdown    # Write docs/<category>/<slug>-<id>.md for all links
   --limit N          Max links to write
   --only-missing     Only write links without a cached file (markdown_path IS NULL)
+uv run link-extractor backfill-markdown  # Re-fetch links missing markdown_content, render HTML->Markdown
+  --limit N          Max links to re-fetch (rate-limited; leaves summaries/tags intact)
 ```
 
 ## Extending

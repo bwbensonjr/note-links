@@ -368,6 +368,26 @@ class Database:
             rows = conn.execute(query, (FetchStatus.NOT_FETCHED.value,)).fetchall()
             return [self._row_to_link(row) for row in rows]
 
+    def get_links_missing_markdown_content(
+        self, limit: int | None = None
+    ) -> list[LinkRecord]:
+        """Get processed links that have no rendered markdown_content yet.
+
+        These are typically links fetched before the markdown cache existed; a
+        true HTML->Markdown body requires re-fetching the page.
+        """
+        with self._connection() as conn:
+            query = """
+                SELECT * FROM links
+                WHERE fetch_status != ?
+                  AND markdown_content IS NULL
+                ORDER BY source_date DESC
+            """
+            if limit:
+                query += f" LIMIT {limit}"
+            rows = conn.execute(query, (FetchStatus.NOT_FETCHED.value,)).fetchall()
+            return [self._row_to_link(row) for row in rows]
+
     def get_link_by_id(self, link_id: int) -> LinkRecord | None:
         """Get a link by ID."""
         with self._connection() as conn:

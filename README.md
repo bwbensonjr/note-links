@@ -158,11 +158,29 @@ uv run link-extractor export-markdown --only-missing --limit 100
 Each article is cached as `docs/<category>/<slug>-<id>.md`, where the category
 comes from the link's highest-confidence tag (links with no tags go in
 `uncategorized/`). Files contain YAML front matter (url, title, tags, summary,
-fetch metadata) followed by an HTML→Markdown render of the article body. The
+fetch metadata) followed by a chrome-stripped HTML→Markdown render of the article
+body (nav, footer, and styling are removed; headings, links, lists, and code
+blocks are preserved). The
 repo-relative path is tracked in the `markdown_path` column of `links.db`, so
 `--only-missing` writes just the links that still have `markdown_path IS NULL` —
 re-run it to backfill in batches. The `extract` pipeline also writes these files
 automatically as a final step (use `--no-markdown` to skip).
+
+The rendered body comes from `markdown_content`, which is captured **at fetch
+time** (the raw HTML only exists then). Links fetched before this feature existed
+have no `markdown_content`, so `export-markdown` falls back to the stored
+plain-text body for them. To give those older links a true HTML→Markdown body,
+re-fetch them with `backfill-markdown` (summaries and tags are left untouched):
+
+```bash
+# Re-fetch links missing a rendered body and rewrite their files (rate-limited)
+uv run link-extractor backfill-markdown
+
+# Backfill in batches
+uv run link-extractor backfill-markdown --limit 100
+```
+
+Links that fail to re-fetch (link rot, paywalls) keep their plain-text fallback.
 
 ## Project Structure
 

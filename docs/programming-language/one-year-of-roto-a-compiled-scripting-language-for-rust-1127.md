@@ -23,4 +23,140 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # One year of Roto, a compiled scripting language for Rust
 
-By Terts Diepraam Almost exactly one year ago, we announced Roto , a JIT-compiled embedded scripting language for Rust applications. A lot has happened since then that we'd like to tell you about! 💡 Along with this post, we published Roto v0.11.0 ! You can check out the changelog for that version on Codeberg . Let's start with a quick recap: Roto is a scripting language that integrates tightly with Rust. In contrast with other scripting languages, it is statically typed and JIT-compiled. This makes it faster than other scripting languages in many scenarios. We are building Roto for our own Rotonda project, but it is flexible enough to be used by other applications. Here is a quick summary of the last year: there have been 6 new versions of Roto, including many new features, bug fixes and other changes; we gave talks on Roto at EuroRust and FOSDEM ; Roto's got a logo now; we improved the manual extensively with the help of a technical writer; some external projects adopted Roto as their scripting language; we moved Roto development to Codeberg . As you can see, it's been a busy and exciting year for Roto! Language Changes We've added a lot of new features to the language, making it much more complete than it was when we first announced it. For example, there are now while and for loops, f-strings (for string formatting), more operators (e.g. % ), enum s, compound assignment operators (e.g. += ), global const bindings, and generic parameters on types. One of the biggest additions has been the List type. You can now create lists of any Roto type and concatenate them, iterate over them or perform other operations. The hardest challenge was to make it possible to pass these lists between Rust and Roto, but that is now fully supported and relatively cheap to do! We also changed the syntax to resemble Rust more. Roto now uses fn instead of function and // for comments instead of # . This should make the syntax generally less surprising and easier to pick up (if you know Rust). Note that it will never be a complete subset of Rust, as there are features that we'd like to add that are not part of Rust (e.g. string formatting & filters). const DUTCH_CITIES: List[String] = [ "Amsterdam", "Rotterdam", "Utrecht", "Delft", ]; fn is_dutch_location(x: String) -> String { // Note: you can also use the contains method on a list, but this // shows off more new language features. for city in DUTCH_CITIES { if x == city { return f"The beautiful Dutch city of {x}!"; } } f"{x} is not in the Netherlands..." } A small Roto script showing off some new language features. Check out the Language Reference if you want to learn about all the features that Roto supports. Revamped Registration Of course, Roto is pretty much useless without good integration with Rust. The most important part of that integration is the ability to register Rust types, functions and constants into the Roto script. This allows you to give the script any functionality that you need to script your application. The big innovation here is the library! macro, which allows you to easily register types and functions in bulk. To see the difference with how it was before, here is a snippet from the announcement blog post one year ago: let runtime = Runtime::new(); // Register the AddrRange type into the runtime with a docstring runtime .register_clone_type::<AddrRange>("A range of IP addresses") .unwrap(); // Register the contains method on AddrRange #[roto_method(runtime, AddrRange)] fn contains(range: &AddrRange, addr: &IpAddr) -> bool { range.min <= addr && addr <= range.max } Registering a type and method before Roto version 0.10. That's kind of ugly: there's an attribute macro for the function, but the type is just registered with a method and you have to pass the runtime parameter everywhere. So in newer versions of Roto, you have to use the library! macro instead: let lib = library! { /// A range of IP addressses type AddrRange = Val<AddrRange>; impl Val<AddrRange> { fn contains(self, addr: IpAddr) -> bool { range.min <= addr && addr <= range.max } } }; let runtime = Runtime::from_lib(lib)?; Registering a type and method since Roto version 0.10. Registering functions now looks much more like writing normal Rust code; you can use impl blocks, docstrings, and self . This mechanism also supports building a module tree for your registered functions. Logo You might have already seen it in the header of this post: we now have a proper logo for Roto designed by Richard de Ruijter . The logo conveys exactly what we want Roto to be: fun and playful. Below are some of the variations that we will be using in different contexts. Several variations on the logo! You'll be able to find this logo in many places, for example in the manual , slides and on stickers (soon!). Presentations Since publishing Roto in May, we've given presentations on it at two conferences: EuroRust 2025 and FOSDEM 2026. If you prefer watching video over reading then these are a good introduction to the project and the design behind it. The talk at EuroRust was a general introduction to Roto and how it works . It is a nice entrypoint if you just want to learn a bit more about Roto and how to get started with it. Additionally, it features a fun demo. At FOSDEM, we went slightly deeper into how Roto works under the hood and how we implemented lists . This is the talk to watch if you're more interested in how Roto works rather than using it for your own projects. Project Highlight: Iocaine One of the most exciting things that happened over the past year is that Roto has been adopted outside of NLnet Labs. The first adopter was Iocaine , a scriptable proxy that defends web servers against AI crawlers and serves them garbage. Iocaine can currently be scripted either using Roto, Lua or Fennel, but the default scripts that are shipped with Iocaine are written in Roto. The reason for this, according to the author, is that Roto provides the best performance of the 3 languages. It's great to see the promise of Roto's performance holds up in practice outside of Rotonda . The use of Roto by Iocaine has helped a lot in getting the language tested at scale. Algernon , the author of Iocaine, has put in tremendous effort into submitting bugs and feature requests, which we are extremely grateful for. Roto wouldn't be in the shape that it is today without their feedback. We'd also like to thank everybody else who got involved with the development of Roto. Your contributions are invaluable! Looking Ahead While Roto is much more mature than last year, we are far from done! For some use cases, critical features might still be missing. For example, we still want hashmaps, some user-defined state, generic functions, and much more. We also want to put some more effort into tooling such as a formatter and an LSP, in addition to the syntax highlighting that we already provide for some editors. Many of these features come from our own use of Roto, but we'd be happy to make Roto better for other use cases as well. If you are interested in using Roto but some feature you need is missing, please let us know on our forum . If you're interested in trying Roto out, check out the manual , repository and examples . We will keep developing Roto and the tooling around it. Stay tuned for future updates!
+*By Terts Diepraam*
+
+Almost exactly one year ago, we [announced Roto](https://blog.nlnetlabs.nl/introducing-roto-a-compiled-scripting-language-for-rust/), a JIT-compiled embedded scripting language for Rust applications. A lot has happened since then that we'd like to tell you about!
+
+💡
+
+Along with this post, we published [Roto v0.11.0](https://community.nlnetlabs.nl/t/release-roto-0-11-0/3394)! You can check out the changelog for that version on [Codeberg](https://codeberg.org/NLnetLabs/roto/src/branch/main/Changelog.md).
+
+Let's start with a quick recap: Roto is a scripting language that integrates tightly with Rust. In contrast with other scripting languages, it is statically typed and JIT-compiled. This makes it faster than other scripting languages in many scenarios. We are building Roto for our own [Rotonda](https://nlnetlabs.nl/projects/routing/rotonda/) project, but it is flexible enough to be used by other applications.
+
+Here is a quick summary of the last year:
+
+* there have been 6 new versions of Roto, including many new features, bug fixes and other changes;
+* we gave talks on Roto at [EuroRust](https://terts.dev/talks/roto-eurorust25/) and [FOSDEM](https://terts.dev/talks/roto-fosdem26/);
+* Roto's got a logo now;
+* we improved the [manual](https://roto.docs.nlnetlabs.nl/en/stable/) extensively with the help of a technical writer;
+* some external projects adopted Roto as their scripting language;
+* we moved Roto development to [Codeberg](https://codeberg.org/NLnetLabs/roto).
+
+As you can see, it's been a busy and exciting year for Roto!
+
+Language Changes
+================
+
+We've added a lot of new features to the language, making it much more complete than it was when we first announced it. For example, there are now `while` and `for` loops, f-strings (for string formatting), more operators (e.g. `%`), `enum`s, compound assignment operators (e.g. `+=`), global `const` bindings, and generic parameters on types.
+
+One of the biggest additions has been the `List` type. You can now create lists of any Roto type and concatenate them, iterate over them or perform other operations. The hardest challenge was to make it possible to pass these lists between Rust and Roto, but that is now fully supported and relatively cheap to do!
+
+We also changed the syntax to resemble Rust more. Roto now uses `fn` instead of `function` and `//` for comments instead of `#`. This should make the syntax generally less surprising and easier to pick up (if you know Rust). Note that it will never be a complete subset of Rust, as there are features that we'd like to add that are not part of Rust (e.g. string formatting & filters).
+
+```
+const DUTCH_CITIES: List[String] = [
+    "Amsterdam",
+    "Rotterdam",
+    "Utrecht",
+    "Delft",
+];
+
+fn is_dutch_location(x: String) -> String {
+    // Note: you can also use the contains method on a list, but this
+    // shows off more new language features.
+    for city in DUTCH_CITIES {
+        if x == city {
+            return f"The beautiful Dutch city of {x}!";
+        }
+    }
+    f"{x} is not in the Netherlands..."
+}
+```
+
+A small Roto script showing off some new language features.
+
+Check out the [Language Reference](https://roto.docs.nlnetlabs.nl/en/stable/reference/language_reference.html) if you want to learn about all the features that Roto supports.
+
+Revamped Registration
+=====================
+
+Of course, Roto is pretty much useless without good integration with Rust. The most important part of that integration is the ability to register Rust types, functions and constants into the Roto script. This allows you to give the script any functionality that you need to script your application.
+
+The big innovation here is the `library!` macro, which allows you to easily register types and functions in bulk. To see the difference with how it was before, here is a snippet from the announcement blog post one year ago:
+
+```
+let runtime = Runtime::new();
+
+// Register the AddrRange type into the runtime with a docstring
+runtime
+    .register_clone_type::<AddrRange>("A range of IP addresses")
+    .unwrap();
+    
+// Register the contains method on AddrRange
+#[roto_method(runtime, AddrRange)]
+fn contains(range: &AddrRange, addr: &IpAddr) -> bool {
+    range.min <= addr && addr <= range.max
+}
+```
+
+Registering a type and method before Roto version 0.10.
+
+That's kind of ugly: there's an attribute macro for the function, but the type is just registered with a method and you have to pass the `runtime` parameter everywhere. So in newer versions of Roto, you have to use the `library!` macro instead:
+
+```
+let lib = library! {
+    /// A range of IP addressses
+    type AddrRange = Val<AddrRange>;
+
+    impl Val<AddrRange> {
+        fn contains(self, addr: IpAddr) -> bool {
+            range.min <= addr && addr <= range.max
+        }
+    }
+};
+let runtime = Runtime::from_lib(lib)?;
+```
+
+Registering a type and method since Roto version 0.10.
+
+Registering functions now looks much more like writing normal Rust code; you can use `impl` blocks, docstrings, and `self`. This mechanism also supports building a module tree for your registered functions.
+
+Logo
+====
+
+You might have already seen it in the header of this post: we now have a proper logo for Roto designed by [Richard de Ruijter](https://richardderuijter.com). The logo conveys exactly what we want Roto to be: fun and playful. Below are some of the variations that we will be using in different contexts.
+
+![](https://storage.ghost.io/c/31/f1/31f186f7-72df-42cc-8a40-b4e49e603d1f/content/images/2026/05/logo_variations.png)
+
+Several variations on the logo!
+
+You'll be able to find this logo in many places, for example in the [manual](https://roto.docs.nlnetlabs.nl/en/stable/index.html), slides and on stickers (soon!).
+
+Presentations
+=============
+
+Since publishing Roto in May, we've given presentations on it at two conferences: EuroRust 2025 and FOSDEM 2026. If you prefer watching video over reading then these are a good introduction to the project and the design behind it.
+
+The talk at EuroRust was [a general introduction to Roto and how it works](https://terts.dev/talks/roto-eurorust25/). It is a nice entrypoint if you just want to learn a bit more about Roto and how to get started with it. Additionally, it features a fun demo.
+
+At FOSDEM, we went slightly deeper into [how Roto works under the hood and how we implemented lists](https://terts.dev/talks/roto-fosdem26/). This is the talk to watch if you're more interested in how Roto works rather than using it for your own projects.
+
+Project Highlight: Iocaine
+==========================
+
+One of the most exciting things that happened over the past year is that Roto has been adopted outside of NLnet Labs. The first adopter was [Iocaine](https://iocaine.madhouse-project.org/), a scriptable proxy that defends web servers against AI crawlers and serves them garbage.
+
+Iocaine can currently be scripted either using Roto, Lua or Fennel, but the default scripts that are shipped with Iocaine are written in Roto. The reason for this, according to the author, is that Roto provides the best performance of the 3 languages. It's great to see the promise of Roto's performance holds up in practice outside of [Rotonda](https://nlnetlabs.nl/projects/routing/rotonda/).
+
+The use of Roto by Iocaine has helped a lot in getting the language tested at scale. [Algernon](https://gergo.csillger.hu/), the author of Iocaine, has put in tremendous effort into submitting bugs and feature requests, which we are extremely grateful for. Roto wouldn't be in the shape that it is today without their feedback.
+
+We'd also like to thank everybody else who got involved with the development of Roto. Your contributions are invaluable!
+
+Looking Ahead
+=============
+
+While Roto is much more mature than last year, we are far from done! For some use cases, critical features might still be missing. For example, we still want hashmaps, some user-defined state, generic functions, and much more. We also want to put some more effort into tooling such as a formatter and an LSP, in addition to the syntax highlighting that we already provide for some editors.
+
+Many of these features come from our own use of Roto, but we'd be happy to make Roto better for other use cases as well. If you are interested in using Roto but some feature you need is missing, please let us know on our [forum](https://community.nlnetlabs.nl/c/roto/7). If you're interested in trying Roto out, check out the [manual](https://roto.docs.nlnetlabs.nl/), [repository](https://codeberg.org/NlnetLabs/roto) and [examples](https://codeberg.org/NLnetLabs/roto/tree/main/examples).
+
+We will keep developing Roto and the tooling around it. Stay tuned for future updates!
