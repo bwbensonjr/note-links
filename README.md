@@ -18,6 +18,12 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 ## Upgrade Tasks 
 
 - [ ] - Cache a markdown version of each article in the repository
+  - Create category-based directory under `docs` like
+    `programming-language`, `technical-topic`.
+  - When processing or re-processing links, create a slugified article
+    name in the appropriate category directory with a Markdown version 
+    of the link content with YAML metadata front matter.
+  - Keep track of repo location in sqlite3 `links.db`.
 - [ ] - Move processing, summarizing, tagging, to GitHub action(s)
 - [x] - Evaluate posts without tags to identify new categories and tags, e.g., "food", "recipe"
 - [ ] - Allow attaching comments/notes per link 
