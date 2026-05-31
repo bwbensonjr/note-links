@@ -17,10 +17,10 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 
 ## Upgrade Tasks 
 
-- [ ] - Allow attaching comments/notes per link 
-- [ ] - Move processing, summarizing, tagging, to GitHub action(s)
 - [ ] - Cache a markdown version of each article in the repository
+- [ ] - Move processing, summarizing, tagging, to GitHub action(s)
 - [x] - Evaluate posts without tags to identify new categories and tags, e.g., "food", "recipe"
+- [ ] - Allow attaching comments/notes per link 
 
 ## Installation
 
