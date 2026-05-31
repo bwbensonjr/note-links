@@ -20,4 +20,12 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # The Easiest Way to Setup Obsidian Git (to backup notes) - #5 by hayyaun - Share & showcase - Obsidian Forum
 
-hayyaun December 8, 2023, 10:12am 5 I have a mobile setup version here, it’s quick way and working: Setup obsidian-git on multiple devices
+[hayyaun](https://forum.obsidian.md/u/hayyaun)
+
+
+December 8, 2023, 10:12am
+
+5
+
+I have a mobile setup version here, it’s quick way and working:  
+[Setup obsidian-git on multiple devices](https://github.com/hayyaun/everything)

@@ -14,4 +14,8 @@ summarizer_model: metadata
 
 # Instagram
 
+[Instagram](/)
 
+[Log In](/accounts/login/?next=%2Freel%2FDMO4aeGA7lW%2F%3Figsh%3DMWttbjdrbGs1dHYzeQ%253D%253D&source=desktop_nav)
+
+[Sign Up](/accounts/emailsignup/)

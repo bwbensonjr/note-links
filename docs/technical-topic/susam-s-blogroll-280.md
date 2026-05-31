@@ -19,4 +19,35 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Susam's Blogroll
 
-Susam's Blogroll Last five posts from my favourite weblogs (45 entries) Maximally Semantic Structure for a Blog Post 12 Jan 2026 | shkspr.mobi Book Review: The Real Shakespeare - Emilia Bassano Willoughby by Irene ... 11 Jan 2026 | shkspr.mobi Why my NFC passport didn't work at Heathrow's eGates 10 Jan 2026 | shkspr.mobi Book Review: Room 706 by Ellie Levenson 09 Jan 2026 | shkspr.mobi Weekly Notes 02/2026 09 Jan 2026 | thejeshgn.com Restaurant Review: The Smokaccia Laboratory - Phuket 07 Jan 2026 | shkspr.mobi 2026-01-05 Emacs news 05 Jan 2026 | sachachua.com La semaine du 29 décembre 05 Jan 2026 | sachachua.com Easy (Horizontal Scrollbar) Fixes for Your Blog CSS 05 Jan 2026 | aartaka.me Using whisper.el to convert speech to text and save it to the ... 04 Jan 2026 | sachachua.com Boredom is Good, Actually 03 Jan 2026 | aartaka.me EmacsConf 2025 notes 02 Jan 2026 | sachachua.com Weekly Notes 01/2026 02 Jan 2026 | thejeshgn.com The Year that was 2025 31 Dec 2025 | thejeshgn.com Emacs Lisp: Making a multi-part form PUT or POST using ... 31 Dec 2025 | sachachua.com 2025: Never-ed(1)-ing Lisp, Writing, and Feelings 30 Dec 2025 | aartaka.me Memory Safety Is ... 30 Dec 2025 | matklad.github.io The Second Great Error Model Convergence 29 Dec 2025 | matklad.github.io Parsing Advances 28 Dec 2025 | matklad.github.io Weekly Notes 52/2025 26 Dec 2025 | thejeshgn.com Review: ViaTerra’s Wayne Urban Riding Jacket 26 Dec 2025 | thejeshgn.com Unity of Paradigms 25 Dec 2025 | alexalejandre.com Newtype Index Pattern In Zig 23 Dec 2025 | matklad.github.io Static Allocation For Compilers 23 Dec 2025 | matklad.github.io Goodbye! 18 Dec 2025 | maxwellito.com Common Lisp Dependency Vendoring with Submodules 15 Dec 2025 | aartaka.me Interview With Bakpakin 01 Dec 2025 | alexalejandre.com Towards Better Word 24 Nov 2025 | aartaka.me Gradual Automation With Do Nothing Scripts 26 Oct 2025 | alexalejandre.com Thoughts on Mechanical Keyboards and the ZSA Moonlander 26 Sep 2025 | masteringemacs.org Interview With Technomancy 27 Jul 2025 | alexalejandre.com Exploring Janet 18 Jul 2025 | alexalejandre.com Replacing tmux and GNU screen with Emacs 06 Mar 2025 | masteringemacs.org What's New in Emacs 30.1? 24 Feb 2025 | masteringemacs.org Combobulate: Bulk Editing Tree-Sitter Nodes with Multiple Cursors 19 Sep 2024 | masteringemacs.org The Emacs 29 Edition of Mastering Emacs is out now 22 Jul 2024 | masteringemacs.org Get Started With Tmux 20 Dec 2020 | sunainapai.com Functional Lifestyles Training 01 Apr 2018 | norvig.com xkcd 1970: Name Dominoes 21 Mar 2018 | norvig.com Advent of Code 2017 24 Dec 2016 | norvig.com Advent of Code 2016 24 Dec 2016 | norvig.com Even Longer Longest Palindrome 06 Oct 2016 | norvig.com Map Caps Lock to Escape on Mac OS X 05 Dec 2014 | sunainapai.com Change Terminal Prompt in Mac OS X 06 Oct 2014 | sunainapai.com Install MacVim on Mac OS X 05 Oct 2014 | sunainapai.com Generated on 12 Jan 2026 at 22:00 UTC. See roll.log for generator log.
+Susam's Blogroll
+================
+
+*My favourite weblogs*
+
+(11 websites)
+
+* Alex Alejandre  
+  [alexalejandre.com](https://alexalejandre.com/) | [feed](https://alexalejandre.com/index.xml)
+* Alex Kladov  
+  [matklad.github.io](https://matklad.github.io/) | [feed](https://matklad.github.io/feed.xml)
+* Artyom Bologov  
+  [aartaka.me](https://aartaka.me/) | [feed](https://aartaka.me/rss.xml)
+* Chris Morgan  
+  [chrismorgan.info](https://chrismorgan.info/) | [feed](https://chrismorgan.info/*.feed)
+* Max  
+  [maxwellito.com](https://maxwellito.com/) | [feed](https://maxwellito.com/feed)
+* Mickey Petersen  
+  [masteringemacs.org](https://www.masteringemacs.org/) | [feed](https://www.masteringemacs.org/feed)
+* Peter Norvig  
+  [norvig.com](https://www.norvig.com/) | [feed](https://www.norvig.com/rss-feed.xml)
+* Sacha Chua  
+  [sachachua.com](https://sachachua.com/) | [feed](https://sachachua.com/blog/feed/)
+* Susam Pal  
+  [susam.net](https://susam.net/) | [feed](https://susam.net/feed.xml)
+* Terence Eden  
+  [shkspr.mobi](https://shkspr.mobi/) | [feed](https://shkspr.mobi/blog/feed/atom/)
+* Thejesh GN  
+  [thejeshgn.com](https://thejeshgn.com/) | [feed](https://feeds.thejeshgn.com/thejeshgn/)
+
+To follow these websites in your feed reader, import
+this [OPML file](roll.opml).

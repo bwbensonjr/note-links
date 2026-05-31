@@ -19,4 +19,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Pacific Horticulture | Mycorrhizal Fungi, Nature's Key to Plant Survival and Success
 
-Book Review: Confessions of a Bicycle-Powered Landscaper
+[![](https://pacifichorticulture.org/wp-content/uploads/Screenshot-2026-05-19-070325.png)](https://pacifichorticulture.org/articles/book-review-confessions-of-a-bicycle-powered-landscaper/)
+
+### [Book Review: Confessions of a Bicycle-Powered Landscaper](https://pacifichorticulture.org/articles/book-review-confessions-of-a-bicycle-powered-landscaper/)

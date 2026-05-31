@@ -17,4 +17,9 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Andrej Karpathy talks about "Claws"
 
-Recent articles Adding TILs, releases, museums, tools and research to my blog - 20th February 2026 Two new Showboat tools: Chartroom and datasette-showboat - 17th February 2026 Deep Blue - 15th February 2026
+Recent articles
+---------------
+
+* [Claude Opus 4.8: "a modest but tangible improvement"](/2026/May/28/claude-opus-4-8/) - 28th May 2026
+* [I think Anthropic and OpenAI have found product-market fit](/2026/May/27/product-market-fit/) - 27th May 2026
+* [Notes on Pope Leo XIV's encyclical on AI](/2026/May/25/encyclical-on-ai/) - 25th May 2026

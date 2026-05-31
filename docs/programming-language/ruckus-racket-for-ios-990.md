@@ -19,4 +19,54 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Ruckus: Racket for iOS
 
-Ruckus Racket for iOS Write, run, and explore Racket on your iPhone and iPad. ( features ) 01 Run Scripts Execute Racket programs and see output as it's produced. Everything runs locally on your device. 02 Rainbow Parentheses Color-coded nesting depth and bracket matching. 03 Smart Indentation Understands Racket forms like define, let, and cond. Includes a keyboard row for brackets and common keywords. 04 Color Themes Catppuccin Mocha, Dracula, Gruvbox, Nord, One Dark, Solarized, and more. 05 Find & Replace Search and replace across your code. 06 Shortcuts & Widgets Run scripts from your home screen or automate them with Shortcuts. Opens .rkt files from Files.
+![Ruckus app icon](images/app-icon.png)
+
+Ruckus
+======
+
+Racket for iOS
+
+Write, run, and explore Racket on your iPhone and iPad.
+
+[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83)](https://apps.apple.com/us/app/ruckus-racket-ide/id6760411372)
+
+![Script output view](images/screenshot-output.png)![App settings](images/screenshot-settings.png)![Code editor with Racket syntax highlighting](images/screenshot-editor.png)
+
+(features)
+----------
+
+01
+
+### Run Scripts
+
+Execute Racket programs and see output as it's produced. Everything runs locally on your device.
+
+02
+
+### Rainbow Parentheses
+
+Color-coded nesting depth and bracket matching.
+
+03
+
+### Smart Indentation
+
+Understands Racket forms like define, let, and cond. Includes a keyboard row for brackets and common keywords.
+
+04
+
+### Color Themes
+
+Catppuccin Mocha, Dracula, Gruvbox, Nord, One Dark, Solarized, and more.
+
+05
+
+### Find & Replace
+
+Search and replace across your code.
+
+06
+
+### Shortcuts & Widgets
+
+Run scripts from your home screen or automate them with Shortcuts. Opens .rkt files from Files.

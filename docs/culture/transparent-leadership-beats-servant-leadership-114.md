@@ -20,4 +20,89 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Transparent Leadership Beats Servant Leadership
 
-tl:dr : Parenting and leadership is similar. Teach a man to fish, etc. I spent a couple of years managing a team, and I entered that role – like many – without knowing anything about how to do it. I tried to figure out how to be a good manager, and doing so I ended up reading a lot about servant leadership . It never quite sat right with me, though. Servant leadership seems to me a lot like curling parenting: the leader/parent anticipate problems and sweep the way for their direct reports/children. To be clear, this probably feels very good (initially, anyway) for the direct reports/children. But the servant leader/curling parent quickly becomes an overworked single point of failure, and once they leave there is nobody else who knows how to handle the obstacles the leader moved out of the way for everyone. In the worst cases, they leave behind a group of people who have been completely isolated from the rest of the organisation, and has no idea what their purpose is and how to fit in with the rest of the world. I would like to invent my own buzzword: transparent leadership . In my book, a good leader coaches people, connects people, teaches people methodical problem solving, explains values and principles embraced by the organisation to aid them in making aligned decisions on their own, creates direct links between supply and demand (instead of deliberately making themselves a middle man), allows their direct reports career growth by gradually taking over leadership responsibilities, continuously trains their replacement, and generally makes themselves redundant. The middle manager that doesn’t perform any useful work is a fun stereotype, but I also think it’s a good target to aim for. The difference lies in what to do once one has rendered oneself redundant. A common response is to invent new work, ask for status reports, and add bureaucracy. A better response is to go back to working on technical problems. This keeps the manager’s skills fresh and gets them more respect from their reports. The manager should turn into a high-powered spare worker, rather than a paper-shuffler. This article has received some criticism for misrepresenting servant leadership. The critics generally claim that a true servant leader does not do what one would expect of a servant, but instead act like a transparent leader. Their claim is valid because the origins of the phrase “servant leadership” with Greenleaf does emphasise that the people served by the leader ought to become healthier, wiser, freer, more autonomous , more likely themselves to become servants. And that sounds great. I’m not opposed to true servant leadership. I’m opposed to servant leadership the way it seems to happen in practice: managers doing the boring and difficult bits so that reports can “focus on doing their job”, narrowly defined in Taylorian fashion . Indeed, true servant leadership is practically the same as transparent leadership. But people who don’t study up on true servant leadership seem to get the mistaken idea that the servant leader should act like a servant. Comments 2024-09-18 : Adam The traits you use to define “transparent” leadership are all traits that a good leader should have. Until I read your blog post, I had largely associated many if not all of those traits to servant leadership. Servant leadership, to me, is defined by what is prioritized rather than any specific behaviors. Servant leaders prioritize the people they are leading over exercising control. Sometimes that takes the form of getting their hands dirty and clearing the way for their reports but it takes discernment to know when that is appropriate versus coaching a report through the task and helping them grow in the process. If the leader becomes the single point of failure then they have missed the mark of the “leader” part of being a servant leader. I have been happily married for 17 years and have three boys aged 12, 10, and 5. My professional life has not given me a chance to lead a team of people but I completely agree that parenting is an excellent place to learn and develop good leadership skills. (Adam occasionally writes for fun on his blog .)
+tl:dr: Parenting and leadership is similar. Teach a man to fish, etc.
+
+---
+
+I spent a couple of years managing a team, and I entered that role – like many –
+without knowing anything about how to do it. I tried to figure out how to be a
+good manager, and doing so I ended up reading a lot about *servant leadership*.
+It never quite sat right with me, though. Servant leadership seems to me a lot
+like curling parenting: the leader/parent anticipate problems and sweep the way
+for their direct reports/children.
+
+To be clear, this probably feels very good (initially, anyway) for the direct
+reports/children. But the servant leader/curling parent quickly becomes an
+overworked single point of failure, and once they leave there is nobody else who
+knows how to handle the obstacles the leader moved out of the way for everyone.
+In the worst cases, they leave behind a group of people who have been completely
+isolated from the rest of the organisation, and has no idea what their purpose
+is and how to fit in with the rest of the world.
+
+I would like to invent my own buzzword: *transparent leadership*. In my book, a
+good leader
+
+* coaches people,
+* connects people,
+* teaches people methodical problem solving,
+* explains values and principles embraced by the organisation to aid them in
+  making aligned decisions on their own,
+* creates direct links between supply and demand (instead of deliberately making
+  themselves a middle man),
+* allows their direct reports career growth by gradually taking over leadership
+  responsibilities,
+* continuously trains their replacement, and
+* generally makes themselves redundant.
+
+The middle manager that doesn’t perform any useful work is a fun stereotype, but
+I also think it’s a good target to aim for. The difference lies in what to do
+once one has rendered oneself redundant. A common response is to invent new
+work, ask for status reports, and add bureaucracy.
+
+A better response is to go back to working on technical problems. This keeps the
+manager’s skills fresh and gets them more respect from their reports. The
+manager should turn into a high-powered spare worker, rather than a paper-shuffler.
+
+---
+
+This article has received some criticism for misrepresenting servant leadership.
+The critics generally claim that a *true* servant leader does not do what one
+would expect of a servant, but instead act like a transparent leader. Their
+claim is valid because the origins of the phrase “servant leadership” with
+Greenleaf does emphasise that the people served by the leader ought to
+
+> become healthier, wiser, freer, **more autonomous**, more likely themselves to
+> become servants.
+
+And that sounds great. I’m not opposed to *true* servant leadership. I’m opposed
+to servant leadership the way it seems to happen in practice: managers doing the
+boring and difficult bits so that reports can “focus on doing their job”,
+narrowly defined [in Taylorian fashion](handoff-waste-and-taylorism.html).
+
+Indeed, *true* servant leadership is practically the same as transparent
+leadership. But people who don’t study up on *true* servant leadership seem to
+get the mistaken idea that the servant leader should act like a servant.
+
+[Comments](#comments)
+=====================
+
+[2024-09-18: Adam](#org1f2c21b)
+-------------------------------
+
+The traits you use to define “transparent” leadership are all traits that a good
+leader should have. Until I read your blog post, I had largely associated many
+if not all of those traits to servant leadership. Servant leadership, to me, is
+defined by what is prioritized rather than any specific behaviors. Servant
+leaders prioritize the people they are leading over exercising control.
+Sometimes that takes the form of getting their hands dirty and clearing the way
+for their reports but it takes discernment to know when that is appropriate
+versus coaching a report through the task and helping them grow in the process.
+If the leader becomes the single point of failure then they have missed the mark
+of the “leader” part of being a servant leader.
+
+I have been happily married for 17 years and have three boys aged 12, 10, and 5.
+My professional life has not given me a chance to lead a team of people but I
+completely agree that parenting is an excellent place to learn and develop good
+leadership skills.
+
+(Adam occasionally writes for fun [on his blog](https://alittlebrighter.svbtle.com/).)

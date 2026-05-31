@@ -21,4 +21,11 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # The APL Programming Language Source Code - CHM
 
-Home CHM BLOG From the Collection The APL Programming Language Source Code By Leonard J. Shustek | October 10, 2012
+[Home](https://live-comp-history-museum.pantheonsite.io/)  [CHM BLOG](https://computerhistory.org/blogs/)  [From the Collection](https://computerhistory.org/blog/category/from-the-collection/)
+
+The APL Programming Language Source Code
+========================================
+
+#### By [Leonard J. Shustek](https://computerhistory.org/profile/leonard-j-shustek/) | October 10, 2012
+
+![](https://computerhistory.org/wp-content/themes/bsdstarter/assets/img/basic-page-core-memory.svg)

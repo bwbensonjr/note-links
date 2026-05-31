@@ -19,4 +19,7 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Texico | NHK WORLD-JAPAN
 
-Texico Learn the principles of programming without even touching a computer in this new-style education program. Unique animated characters assist in the fun and lucid introduction of 5 core programming processes: analysis, combination, generalization, abstraction and simulation.
+Texico
+======
+
+Learn the principles of programming without even touching a computer in this new-style education program. Unique animated characters assist in the fun and lucid introduction of 5 core programming processes: analysis, combination, generalization, abstraction and simulation.

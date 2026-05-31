@@ -21,4 +21,76 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # SNEWPapers — The World's First AI Newspaper Archive
 
-1730s – 1960s • American History The World’s First AI Newspaper Archive & Research Platform …and the only one that has read the papers. 6 million stories — and growing daily — are waiting for you to explore. Extracted and organized by our AI from 250 years of American History. You won’t find these on Google. They aren’t on ChatGPT. They’re only here on… Start Exploring The SNEWPapers Difference 6M+ Stories 250 Years of History 3,000+ Newspaper Titles 24 / 1,000+ Categories & Sub-Categories See how it works See all tutorials → Research the way it should work 🔍 AI-Powered Search Search by meaning, not just keywords. Find articles about concepts, events, and themes — even when the exact words don’t appear. Slice and dice using 24 category and 1,000+ sub-category, state and date filters to find what you’re looking for. 📚 Collections & Discovery Build curated collections, explore public collections from other researchers, and discover connections across centuries of history. The Sleuth Your AI research assistant. Ask questions, get answers with citations, and let it dig through the archive so you don’t have to. 📰 Today in History Every day, a curated timeline of what happened on this date — sourced directly from the newspapers that reported it.
+1730s – 1960s • American History
+
+The World’s First AI Newspaper Archive 
+& Research Platform
+===========================================================
+
+…and the only one that has read the papers.
+
+6 million stories — and growing daily — are waiting for you to explore.
+Extracted and organized by our AI from 250 years of American History.
+
+You won’t find these on Google.
+
+They aren’t on ChatGPT.
+
+They’re only here on…
+
+![Snewpapers](https://snewpapers.com/assets/brand/logo-44842124.webp)
+
+[Start Exploring](/today-in-history)
+[Sign Up Free](/subscribe)
+[The SNEWPapers Difference](/snewpapers-difference)
+
+6M+
+
+Stories
+
+250
+
+Years of History
+
+3,000+
+
+Newspaper Titles
+
+24 / 1,000+
+
+Categories & Sub-Categories
+
+See how it works
+----------------
+
+[See all tutorials →](/guide)
+
+Research the way it should work
+-------------------------------
+
+[🔍
+
+### AI-Powered Search
+
+Search by meaning, not just keywords. Find articles about concepts, events, and
+themes — even when the exact words don’t appear. Slice and dice using
+24 category and 1,000+ sub-category, state and date filters to find what
+you’re looking for.](/search)
+[📚
+
+### Collections & Discovery
+
+Build curated collections, explore public collections from other researchers,
+and discover connections across centuries of history.](/collections)
+[![The Sleuth](https://snewpapers.com/assets/sleuths/snews-sleuth-avatar-9687619f.webp)
+
+### The Sleuth
+
+Your AI research assistant. Ask questions, get answers with citations,
+and let it dig through the archive so you don’t have to.](/sleuth)
+[📰
+
+### Today in History
+
+Every day, a curated timeline of what happened on this date — sourced
+directly from the newspapers that reported it.](/today-in-history)

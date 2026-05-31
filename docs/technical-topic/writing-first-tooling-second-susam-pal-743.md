@@ -21,4 +21,98 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Writing First, Tooling Second - Susam Pal
 
-Writing First, Tooling Second By Susam Pal on 10 Jan 2026 I am a strong proponent of running independent personal websites on your own domains and publishing your writing there. Doing so keeps the web diverse and decentralised, rather than concentrating most writing and discussion inside a small number of large platforms. It gives authors long term control over their work without being subject to changing policies or incentives . I think that a web made up of many small, individually run websites is more resilient and also more interesting than one dominated by a handful of social media services. I often participate in discussions pertaining to authoring personal websites because this is an area I am passionate about. Any discussion about authoring websites that I take part in seems to drift, sooner or later, into tooling. Aspiring personal website authors worry at length about which blogging engine to use, which static site generator to pick, which templating language to choose and so on. I think none of this is important until you have published at least five articles on your website. Just write plain HTML and worry about tooling later. This very website you are reading right now began its life as a loose collection of HTML files typed into Notepad on a Windows 98 machine. I wrote some text, wrapped it in basic markup and copied it to my web server's document root directory. That's it. Tooling came much later, in fact many years later. As the number of pages grew, I naturally wanted some consistency. I wanted a common layout for my pages, navigation links, a footer that did not need to be edited in twenty places. An early version of this website used HTML frames to accomplish these goals. Later, I rewrote the website in PHP. Now this website is generated using Common Lisp. All of these additions came later, after I had been maintaining this website for several years. None of this was required to begin. Around 2006, when blogging had become quite fashionable, I experimented with blogging too. Eventually, I returned to a loose, chaotic collection of pages. I do have an index page and an RSS feed that resemble a blog, but they are simply a list of selected pages arranged in reverse chronological order. The pages themselves are scattered across various corners of this website. My point is that not every website needs to be a blog. A website can just as well be a collection of pages, arranged in whatever way makes sense to you. The blog is merely one possible organising principle, not a requirement. If your goal is simply to share your thoughts on your own web space, worrying about blogging and tooling can easily become counterproductive. Just write your posts first, in plain HTML if need be. If you truly dislike writing HTML, that is fine too. Write in Markdown, AsciiDoc or whatever plain text format you find pleasant and convert it to HTML using Pandoc or a similar tool. Yes, I am slightly undermining my own point here but I think a little bit of tooling to make your writing process enjoyable is reasonable. Tooling should exist to reduce friction, not to become the main ceremony. Personally, I write all my posts directly in HTML. I use Emacs, which provides a number of convenient key sequences and functions that make writing HTML very comfortable. For example, it takes only a few keystrokes in Emacs to wrap text in a <blockquote> element, insert a code block or close any open tags. But that is just me. I enjoy writing HTML documents in Emacs. If you do not, it is easy to run your Markdown files through a converter and publish the result with only a little extra tooling overhead. It is easy to spend days and weeks polishing a website setup, selecting the perfect generator, theme and deployment pipeline, only to end up with a beautifully engineered website whose sole content is a single 'hello world' post. That might not be very useful to you or anyone else, unless setting up the pipeline itself was your goal. By contrast, a scrappy website made up of standalone HTML pages might be useful to you as well as others. You can refer back to it months later. You can send someone a link. You can build on it gradually. Even if you never turn it into a blog, never add RSS or never add any tooling, it still fulfills its most important purpose: it exists and it says something you wanted to say. So to summarise my post here: Create the website. Publish something. Do it in the simplest way that lets you get your words onto the page and onto the web. Once you have content that you care about, tooling can follow. Your thoughts, your ideas, your personality and quirks are the essence of your website. Everything else is optional. Comments | #web | #technology
+Writing First, Tooling Second
+=============================
+
+By **Susam Pal** on 10 Jan 2026
+
+I am a strong proponent of running
+[independent personal websites](https://hnpwd.github.io/)
+on your own domains and publishing your writing there. Doing so
+keeps the web diverse and decentralised, rather than concentrating
+most writing and discussion inside a small number of large
+platforms. It gives authors long term control over their work
+without being subject to
+[changing policies
+or incentives](attention-media-vs-social-networks.html). I think that a web made up of many small,
+individually run websites is more resilient and also more
+interesting than one dominated by a handful of social media
+services.
+
+I often participate in discussions pertaining to authoring personal
+websites because this is an area I am passionate about. Any
+discussion about authoring websites that I take part in seems to
+drift, sooner or later, into tooling. Aspiring personal website
+authors worry at length about which blogging engine to use, which
+static site generator to pick, which templating language to choose
+and so on. I think none of this is important until you have
+published at least five articles on your website. Just write plain
+HTML and worry about tooling later.
+
+This very website you are reading right now began its life as a
+loose collection of HTML files typed into Notepad on a Windows 98
+machine. I wrote some text, wrapped it in basic markup and copied
+it to my web server's document root directory. That's it. Tooling
+came much later, in fact many years later. As the number of pages
+grew, I naturally wanted some consistency. I wanted a common layout
+for my pages, navigation links, a footer that did not need to be
+edited in twenty places. An early version of this website used HTML
+frames to accomplish these goals. Later, I rewrote the website in
+PHP. Now this website is generated using Common Lisp. All of these
+additions came later, after I had been maintaining this website for
+several years. None of this was required to begin.
+
+Around 2006, when blogging had become quite fashionable, I
+experimented with blogging too. Eventually, I returned to a loose,
+chaotic collection of pages. I do have an
+[index page](./) and an [web
+feed](feed.xml) that resemble a blog, but they are simply a list of
+selected pages arranged in reverse chronological order. The pages
+themselves are scattered across various
+[corners](links.html) of this website. My point is that
+not every website needs to be a blog. A website can just as well be
+a collection of pages, arranged in whatever way makes sense to you.
+The blog is merely one possible organising principle, not a
+requirement. If your goal is simply to share your thoughts on your
+own web space, worrying about blogging and tooling can easily become
+counterproductive. Just write your posts first, in plain HTML if
+need be.
+
+If you truly dislike writing HTML, that is fine too. Write in
+Markdown, AsciiDoc or whatever plain text format you find pleasant
+and convert it to HTML using Pandoc or a similar tool. Yes, I am
+slightly undermining my own point here but I think a little bit of
+tooling to make your writing process enjoyable is reasonable.
+Tooling should exist to reduce friction, not to become the main
+ceremony. Personally, I write all my posts directly in HTML. I use
+Emacs, which provides a number of convenient key sequences and
+functions that make writing HTML very comfortable. For example, it
+takes only a few keystrokes in Emacs to wrap text in a
+`<blockquote>` element, insert a code block or
+close any open tags. But that is just me. I enjoy writing HTML
+documents in Emacs. If you do not, it is easy to run your Markdown
+files through a converter and publish the result with only a little
+extra tooling overhead.
+
+It is easy to spend days and weeks polishing a website setup,
+selecting the perfect generator, theme and deployment pipeline, only
+to end up with a beautifully engineered website whose sole content
+is a single 'hello world' post. That might not be very useful to
+you or anyone else, unless setting up the pipeline itself was your
+goal. By contrast, a scrappy website made up of standalone HTML
+pages might be useful to you as well as others. You can refer back
+to it months later. You can send someone a link. You can build on
+it gradually. Even if you never turn it into a blog, never add a
+feed or never add any tooling, it still fulfills its most important
+purpose: it exists and it says something you wanted to say.
+
+So to summarise my post here: Create the website. Publish
+something. Do it in the simplest way that lets you get your words
+onto the page and onto the web. Once you have content that you care
+about, tooling can follow. Your thoughts, your ideas, your
+personality and quirks are the essence of your website. Everything
+else is optional.
+
+[Comments](./comments/writing-first-tooling-second.html) |
+[#web](./tag/web.html) |
+[#technology](./tag/technology.html)

@@ -18,4 +18,9 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Changes in the system prompt between Claude Opus 4.6 and 4.7
 
-More recent articles Is Claude Code going to cost $100/month? Probably not - it's all very confusing - 22nd April 2026 Where's the raccoon with the ham radio? (ChatGPT Images 2.0) - 21st April 2026
+More recent articles
+--------------------
+
+* [Claude Opus 4.8: "a modest but tangible improvement"](/2026/May/28/claude-opus-4-8/) - 28th May 2026
+* [I think Anthropic and OpenAI have found product-market fit](/2026/May/27/product-market-fit/) - 27th May 2026
+* [Notes on Pope Leo XIV's encyclical on AI](/2026/May/25/encyclical-on-ai/) - 25th May 2026

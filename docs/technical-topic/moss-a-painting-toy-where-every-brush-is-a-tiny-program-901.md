@@ -18,4 +18,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # MOSS — A Painting Toy Where Every Brush Is a Tiny Program
 
-MOSS is a painting toy where every brush is a tiny program. Paint with MOSS
+MOSS is a painting toy where every brush is a tiny program.
+
+[Paint with MOSS](https://play.moss.town)

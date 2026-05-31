@@ -20,4 +20,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # GitHub Stacked PRs | GitHub Stacked PRs
 
-Stacked PRs, Native in GitHub Arrange pull requests in an ordered stack and merge them all in one click. Each PR represents one focused layer of your change, reviewed independently and landed together.
+Stacked PRs, Native in GitHub
+
+Arrange pull requests in an ordered stack and merge them all in one click. Each PR represents one focused layer of your change, reviewed independently and landed together.

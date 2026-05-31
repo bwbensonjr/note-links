@@ -21,4 +21,35 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Reverting the incremental GC in Python 3.14 and 3.15 - Core Development - Discussions on Python.org
 
-hugovk (Hugo van Kemenade) April 16, 2026, 6:15pm 1 Python 3.14 shipped with a new incremental garbage collector . However, we’ve had a number of reports of significant memory pressure in production environments. We’ve decided to revert it in both 3.14 and 3.15, and go back to the generational GC from 3.13. 3.15 is still in alpha, so such changes are fine. For 3.14, it is unusual for a patch release, but the old GC is a known quantity, the new incremental GC didn’t go through the PEP process, and was rolled back just before the final release of 3.13 . We’ve discussed this in the core team and with the Steering Council. If we want to reintroduce the incremental GC for 3.16, it can go through the regular PEP process and be more thoroughly evaluated. Schedules: 3.15 : The first beta is scheduled for 2026-05-05, just under three weeks from now. If the revert is ready to release within the next week or so, we can put out an extra alpha 9. 3.14 : the next patch release 3.14.5 was planned for 2026-06-09, but we’ll release that early when the revert is ready. I’ll update this topic and the release PEPs when those dates are known. 34 Likes Python 3.14.5 is here, with a new (old) garbage collector! Python 3.14.5 release candidate Improving incremental gc
+[hugovk](https://discuss.python.org/u/hugovk)
+
+(Hugo van Kemenade)
+
+
+
+April 16, 2026, 6:15pm
+
+1
+
+Python 3.14 shipped with a new [incremental garbage collector](https://docs.python.org/3/whatsnew/3.14.html#whatsnew314-incremental-gc). However, we’ve had a number of [reports](https://github.com/python/cpython/issues/142516) of significant memory pressure in production environments.
+
+We’ve decided to revert it in both 3.14 and 3.15, and go back to the generational GC from 3.13.
+
+3.15 is still in alpha, so such changes are fine. For 3.14, it is unusual for a patch release, but the old GC is a known quantity, the new incremental GC didn’t go through the PEP process, and was [rolled back just before the final release of 3.13](https://discuss.python.org/t/incremental-gc-and-pushing-back-the-3-13-0-release/65285). We’ve discussed this in the core team and with the Steering Council.
+
+If we want to reintroduce the incremental GC for 3.16, it can go through the regular PEP process and be more thoroughly evaluated.
+
+Schedules:
+
+* [3.15](https://peps.python.org/pep-0790/): The first beta is scheduled for 2026-05-05, just under three weeks from now. If the revert is ready to release within the next week or so, we can put out an extra alpha 9.
+* [3.14](https://peps.python.org/pep-0745/): the next patch release 3.14.5 was planned for 2026-06-09, but we’ll release that early when the revert is ready.
+
+I’ll update this topic and the release PEPs when those dates are known.
+
+34 Likes
+
+[Python 3.14.5 is here, with a new (old) garbage collector!](https://discuss.python.org/t/python-3-14-5-is-here-with-a-new-old-garbage-collector/107304)
+
+[Python 3.14.5 release candidate](https://discuss.python.org/t/python-3-14-5-release-candidate/107185)
+
+[Improving incremental gc](https://discuss.python.org/t/improving-incremental-gc/107067)

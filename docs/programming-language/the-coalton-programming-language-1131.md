@@ -21,4 +21,10 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # The Coalton Programming Language
 
-Coalton is an efficient, statically typed functional programming language that supercharges Common Lisp by taking great ideas from Haskell, Scheme, and OCaml. New! Coalton language manual. May 2025: Robert Smith's talk at ELS 2025.
+![The Coalton Programming Language](/site-images/coalton-logotype-gray.svg)
+
+Coalton is an efficient, statically typed functional programming language that supercharges Common Lisp by taking great ideas from Haskell, Scheme, and OCaml.
+
+**New!** [Coalton language manual.](https://coalton-lang.github.io/manual/)
+
+May 2025: [Robert Smith's talk at ELS 2025.](https://www.youtube.com/watch?v=of92m4XNgrM)

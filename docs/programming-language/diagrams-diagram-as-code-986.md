@@ -20,4 +20,32 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Diagrams · Diagram as Code
 
-Diagrams Diagram as Code Try It Out Show Examples About Diagrams Diagrams lets you draw the cloud system architecture in Python code . It was born for prototyping a new system architecture without any design tools. You can also describe or visualize the existing system architecture as well. Diagram as Code allows you to track the architecture diagram changes in any version control system. Diagrams currently supports main major providers including: AWS , Azure , GCP , Kubernetes , Alibaba Cloud , Oracle Cloud etc... It also supports On-Premises nodes, SaaS and major Programming frameworks and languages. NOTE: It does not control any actual cloud resources nor does it generate cloud formation or terraform code. It is just for drawing the cloud system architecture diagrams.
+![Project Logo](/img/diagrams.png)
+
+DiagramsDiagram as Code
+-----------------------
+
+[Try It Out](/docs/getting-started/installation)
+
+[Show Examples](/docs/getting-started/examples)
+
+About Diagrams
+--------------
+
+Diagrams lets you draw the cloud system architecture **in Python code**.
+
+It was born for **prototyping** a new system architecture without any design tools. You can also describe or visualize the existing system architecture as well.
+
+`Diagram as Code` allows you to **track** the architecture diagram changes in any **version control** system.
+
+Diagrams currently supports main major providers including: `AWS`, `Azure`, `GCP`, `Kubernetes`, `Alibaba Cloud`, `Oracle Cloud` etc... It also supports `On-Premises` nodes, `SaaS` and major `Programming` frameworks and languages.
+
+`NOTE: It does not control any actual cloud resources nor does it generate cloud formation or terraform code. It is just for drawing the cloud system architecture diagrams.`
+
+![](/img/message_collecting_code.png)
+
+![](/img/message_collecting_diagram.png)
+
+![](/img/event_processing_code.png)
+
+![](/img/event_processing_diagram.png)

@@ -29,4 +29,13 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # 90 Years of Alcoholics Anonymous: How Bill Wilson Changed the World - News - Harvard Business School
 
-… → Harvard Business School → Newsroom → News Story → News Story News Story
+* […](#)→
+* [Harvard Business School](https://www.hbs.edu/Pages/default.aspx)→
+* [Newsroom](/news/Pages/default.aspx)→
+* [News Story](/news/Pages/article-detail.aspx)→
+
+News Story
+----------
+
+News Story
+----------

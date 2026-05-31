@@ -19,4 +19,7 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # claude-skills/charting-vega-lite at main · oaustegard/claude-skills · GitHub
 
-oaustegard / claude-skills Public Notifications You must be signed in to change notification settings Fork 2 Star 29
+charting-vega-lite
+==================
+
+Create interactive data visualizations using Vega-Lite declarative JSON grammar. Supports 20+ chart types (bar, line, scatter, histogram, boxplot, grouped/stacked variations, etc.) via templates and programmatic builders. Use when users upload data for charting, request specific chart types, or mention visualizations. Produces portable JSON specs with inline data islands that work in Claude artifacts and can be adapted for production.

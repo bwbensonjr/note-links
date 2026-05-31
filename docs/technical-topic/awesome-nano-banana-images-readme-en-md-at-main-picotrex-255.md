@@ -22,4 +22,13 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Awesome-Nano-Banana-images/README_en.md at main · PicoTrex/Awesome-Nano-Banana-images · GitHub
 
-PicoTrex / Awesome-Nano-Banana-images Public Notifications You must be signed in to change notification settings Fork 2.1k Star 19.8k
+[PicoTrex](/PicoTrex) 
+/
+**[Awesome-Nano-Banana-images](/PicoTrex/Awesome-Nano-Banana-images)**
+Public
+
+* [Notifications](/login?return_to=%2FPicoTrex%2FAwesome-Nano-Banana-images) You must be signed in to change notification settings
+* [Fork
+  2.4k](/login?return_to=%2FPicoTrex%2FAwesome-Nano-Banana-images)
+* [Star
+   22.9k](/login?return_to=%2FPicoTrex%2FAwesome-Nano-Banana-images)

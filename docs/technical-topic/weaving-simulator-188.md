@@ -20,4 +20,13 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Weaving simulator
 
-Tromp as Writ Download .WIF Render frames Download frames Load a WIF file by dragging and dropping onto this page. You can find some starter WIFs at the repo for this project . This is a little client-side loom simulator and generator to accompany my 2018 Strange Loop talk, 'It's Just Matrix Multiplication': Notation For Weaving . The heddle frames generated can be cut out of cardboard and used in any kind of shoebox or backstrap loom. You can watch my brief video on building a shoebox loom for some inspiration.
+Tromp as Writ
+Download .WIF
+Render frames
+Download frames
+
+Load a [WIF](http://www.mhsoft.com/wif/wif.html) file by dragging and dropping onto this page.
+You can find some starter WIFs at [the repo for this project](https://github.com/lealbaugh/little-loom).
+
+This is a little client-side loom simulator and generator to accompany my 2018 Strange Loop talk, ['It's Just Matrix Multiplication': Notation For Weaving](https://www.thestrangeloop.com/2018/its-just-matrix-multiplication-notation-for-weaving.html).
+The heddle frames generated can be cut out of cardboard and used in any kind of shoebox or backstrap loom. You can watch my [brief video on building a shoebox loom](https://vimeo.com/292752195) for some inspiration.

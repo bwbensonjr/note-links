@@ -17,4 +17,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # The Book of Shen	4th Edition
 
-The Book of Shen 4th Edition Home Learn Download News Group Chatroom OS Wiki About Us Previous Next Up Want to advertise on this page? Go to the Contact link. Built by Shen Technology (c) Mark Tarver, June 2025
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  | | --- | --- | |  | The Book of Shen 4th Edition | | |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | [Home](https://shenlanguage.org/index.html) | [Learn](https://shenlanguage.org/learn.html) | [Download](https://shenlanguage.org/download.html) | [News Group](https://groups.google.com/g/qilang) | [Chatroom](https://shenlanguage.org/chatroom.html) | [OS Wiki](https://github.com/Shen-Language/wiki/wiki) | [About Us](https://shenlanguage.org/aboutus.html) | | | | |  |  | | --- | --- | | [Previous](https://shenlanguage.org/TBoS/tbos_14.html)      [Next](https://shenlanguage.org/TBoS/tbos_16.html)      [Up](https://shenlanguage.org/TBOS/tbos.html ) Want to advertise on this page?   Go to the Contact link. | | | |  Built by Shen Technology (c) Mark Tarver, June 2025 |

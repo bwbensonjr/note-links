@@ -19,4 +19,4 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # WebAssembly from the Ground Up
 
-Mariano is the co-founder of Gloodata and Instadeq data analysis and visualization products. He has a long history of language- and compiler-related side projects, including the programming languages Efene and Interfix . In the past, he worked with IBM Research and on high-performance computing at Intel. Originally from Córdoba, Argentina, he now lives in Stuttgart, Germany.
+Mariano is the co-founder of [Gloodata](https://gloodata.com/) and [Instadeq](https://instadeq.com/) data analysis and visualization products. He has a long history of language- and compiler-related side projects, including the programming languages [Efene](http://efene.org/) and [Interfix](https://github.com/marianoguerra/interfix). In the past, he worked with IBM Research and on high-performance computing at Intel. Originally from Córdoba, Argentina, he now lives in Stuttgart, Germany.

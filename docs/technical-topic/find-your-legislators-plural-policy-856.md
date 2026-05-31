@@ -22,4 +22,44 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Find Your Legislators - Plural Policy
 
-Find Your Legislators . Search for your representatives & look up legislation across the United States Search Legislation Look up a bill Looking for your existing OpenStates.org account and bill tracking tool? You can still access that account here . Find Your Legislators Enter your address We are committed to making democracy more accessible and transparent. As part of that commitment, we make available free democracy tools and open data. Plural is carrying that legacy forward from the Open States project, which we adopted in 2021. We continue to expand our open data and just launched improved democracy tools. Dig In To Our Data & APIs We make the biggest collection of open legislative data available for bulk download and via our powerful API . Get an API key to get started. API key access is managed through open.pluralpolicy.com , which is distinct from pluralpolicy.com. This is a separate and distinct account from your pluralpolicy.com account. Explore our pricing tiers . Plural’s AI-powered legislation tracker offers not just data, but foresight, providing real-time updates, predictive analytics, and strategic insights. No matter your needs, we have a plan for you. explore pricing
+Find Your Legislators.
+======================
+
+### Search for your representatives & look up legislation across the United States
+
+![](/wp-content/uploads/2024/07/2-3-1024x1024.png)
+
+### Search Legislation
+
+###### Look up a bill
+
+*Looking for your existing OpenStates.org account and bill tracking tool? [You can still access that account here](https://open.pluralpolicy.com).*
+
+![](/wp-content/uploads/2024/07/1-3-1024x1024.png)
+
+### Find Your Legislators
+
+###### Enter your address
+
+We are committed to making democracy more accessible and transparent.
+---------------------------------------------------------------------
+
+**As part of that commitment, we make available free democracy tools and open data. Plural is carrying that legacy forward from the Open States project, which we adopted in 2021. We continue to expand our open data and just launched improved democracy tools.**
+
+![](https://pluralpolicy.com/wp-content/uploads/2024/07/Federal-Collab-1024x997.png)
+
+![](/wp-content/uploads/2024/05/MN-HF5406-1024x997.png)
+
+Dig In To Our Data & APIs
+-------------------------
+
+**We make the biggest collection of open legislative data available for [bulk download](https://open.pluralpolicy.com/data/) and via our powerful [API](https://docs.openstates.org/api-v3/).**
+
+**[Get an API key](https://open.pluralpolicy.com/accounts/profile/#apikey) to get started. API key access is managed through [open.pluralpolicy.com](https://open.pluralpolicy.com/), which is distinct from pluralpolicy.com. This is a separate and distinct account from your pluralpolicy.com account.**
+
+Explore our pricing tiers.
+==========================
+
+Plural’s AI-powered legislation tracker offers not just data, but foresight, providing real-time updates, predictive analytics, and strategic insights. No matter your needs, we have a plan for you.
+
+[explore pricing](/get-started/)

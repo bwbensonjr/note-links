@@ -24,4 +24,271 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Golfing APL/K in 90 Lines of Python - by Mohammed Alrujayi
 
-Golfing APL/K in 90 Lines of Python Lisp + APL = K Mohammed Alrujayi Jan 16, 2026 6 1 Share Egyptian hieroglyphs, an early visual notation In my previous post on Homoiconic Python , I explored McCarthy’s Lisp, a language where code and data are the same thing. But there’s another path to expressive power, one that emerged in parallel. At the 1956 Dartmouth conference , John McCarthy encountered Newell and Simon’s list-processing language IPL. He liked the idea of lists but hated the language itself, so he spent the next two years building Lisp at MIT. That same year, Kenneth Iverson was teaching mathematics at Harvard and growing frustrated with the inadequacy of conventional notation for expressing algorithms. He began inventing his own, publishing it in 1962 as A Programming Language , the book that gave APL its name. Thanks for reading MOHAMMED JAMAL ALRUJAYI! Subscribe for free to receive new posts and support my work. APL looked like nothing else. Iverson designed a new alphabet, like Egyptian hieroglyphics, each symbol a complete idea: Modern APL glyphs APL is very expressive . Here is the complete implementation of Conway's Game of Life in APL: life ← {⊃1 ⍵ ∨.∧ 3 4 = +/ +⌿ ¯1 0 1 ∘.⊖ ¯1 0 1 ⌽¨ ⊂⍵} And just like Lisp, APL had one data structure: the array. Lisp had the list. This shared minimalism is the first hint of a deeper, ancestral bond. Lisp was born at MIT; APL at Harvard. Lisp processes lists; APL processes matrices. Lisp inherits from Church’s lambda calculus; APL from Curry’s combinators. Lisp was designed for machines to do symbolic reasoning; APL was designed for humans to communicate mathematical ideas. One prioritizes semantic elegance, the other syntactic density. APL and LISP are very similar languages—both manipulate a complex data structure and the functional structure of the languages has been ideally chosen for convenient manipulation of these structures. Proposals have been made to combine them by embedding one within the other. In 1979, Alan Perlis (the first recipient of the Turing Award) chaired a panel asking: ” APL and LISP—should they be combined, and if so how ?” The panel debated embedding one within the other, or generalizing both into something superior. No conclusion was reached. That same year, Iverson received his own Turing Award and delivered his famous lecture: Notation as a Tool of Thought . Iverson’s Ghosts You’ve probably used Iverson’s ideas without knowing it. John Baker calls NumPy an ”Iverson ghost” , APL’s array programming reborn in Python’s syntax. Broadcasting, vectorization, reduction along axes-these aren’t NumPy inventions. They’re Iverson’s ideas from the 1960s, wrapped in `np.` prefixes and spelled out in English. PyTorch, TensorFlow, JAX-the entire deep learning stack speaks Iverson’s dialect with extra syllables. `np.arange(10)` is `!10` . `np.cumsum(x)` is `+\x` . `x[::-1]` is `|x` . Same concepts, more typing. The Prophecy Fulfilled Ken Iverson & Arthur Whitney at APL91 Arthur Whitney , Iverson’s protégé, saw both languages clearly. On kparc.com (his personal website) he listed K’s lineage simply as “lisp and apl,” linking to Iverson’s Turing paper and Perlis’s lyrical programming . In a 2009 interview , he explained: ”I much preferred implementing and coding in LISP, but once I was dealing with big data sets... APL just seemed to have the better vocabulary.” He understood their complementary strengths: ”What I liked was the original LISP, which had car, cdr, cons, and cond, but that was too little. Common LISP was way too big, but a stripped-down version of APL was in the middle with about 50 operations.” Whitney first encountered APL at age 11, when Iverson (a friend of his father’s) demonstrated interactive programming on a terminal in 1969. But it wasn’t until 1980, working alongside Iverson at I.P. Sharp in Toronto, that he began using it seriously. Through the ‘80s he explored broadly, implementing his own object-oriented languages, various Lisps, and Prolog. In 1988 he joined Morgan Stanley and built trading systems using his own APL dialect, which became A+. Incunabulum In 1989, Whitney visited Iverson at Kiln Farm. Iverson and Roger Hui were working on a new APL dialect-one that would use ASCII instead of special glyphs. Over one afternoon, Whitney wrote the now famous incunabulum . A one page interpreter in C. Arthur's one-page interpreter (an early version of J), try it on your browser That’s Arthur’s style: C that looks like APL. Macros turn C into a higher-order language; by the time he writes the interpreter, he’s writing APL in C. It looks alien at first glance, then you see it. This is code golfing at its earliest (popular among APL hackers long before Perl coined the term). Roger Hui studied that page for a week, then wrote the first line of what would become J . J shipped in 1990, the first ASCII APL. But Whitney wasn’t done. K In 1992, Whitney created K. Where J modernized APL’s syntax, K transformed its semantics. On kparc.com , he laid out exactly what K inherited from each parent: The parallel history of Lisp & APL/K according to Arthur Whitney The parallels are striking. Both functional. Both dynamic. Both built on atoms and lists with maps between them. Both with REPLs and lexical scope. The syntax differs (s-expressions versus m-expressions) but the bones are the same. K marked a major departure from APL tradition and towards LISP influence, since it discarded APL’s multidimensional array model in favor of nested lists. The Lisp features crept in gradually. Lambda and conditionals appeared in the 1970s. Higher-order operators-map and reduce-arrived in 1979, the same year Perlis posed his question. ASCII came with J in 1989. But the decisive break was 1992: K abandoned APL’s multidimensional arrays for nested lists-Lisp’s data structure. The enire documentation of modern k APL & Lisp, after four decades of parallel evolution, finally merged as k. K Verses This is what K looks like (using the 90 lines python implemntation from next section). Factorial: */1+!5 120 Average: (+/x)%#x:!100 49.5 Primes under 50: &2=+/0=(a)mod/a:1+!50 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47] 🤯 Golden ratio via continued fraction: 0{1+1%x}/1 1.618033988749895 Fibonacci: 5{|+\x}\1,2 [[1, 2], [3, 1], [4, 3], [7, 4], [11, 7], [18, 11]] Pi via Madhava series: 4*+/(-*\-_a%a:1+!n)*1%1+2*!n:1000000 3.1415916535897743 Euler’s number: */x*1+1%#x:_x%x:1+!1000000 2.7182804690959363 Square root of 2 via Newton: 1+100{1%2+x}/1 1.4142135623730951 A Python Implementation How do you build K in Python? The data structure is already there, Python lists can represent Lisp lists (as I showed in my previous post). The symbols? K already uses ASCII. What’s missing is what makes APL special: everything is vectorized. We need scalar extension . Then parser/eval, this is where we lay the syntactic sugar, the notation if you will, of APL on top of Lisp. Lisp is semantics, APL is syntax. Scalar Extension Enter monad and dyad . Two higher-order functions that vectorize * any* Python function: atom = lambda x: isinstance(x, (int, float, str)) monad = lambda f: lambda x: f(x) if atom(x) else list(map(monad(f), x)) dyad = lambda f: (lambda x, y: f(x, y) if atom(x) and atom(y) else list(map(lambda yi: dyad(f)(x, yi), y)) if atom(x) else list(map(lambda xi: dyad(f)(xi, y), x)) if atom(y) else list(map(lambda xi, yi: dyad(f)(xi, yi), x, y))) Monad lifts a unary (one argument, i.e. f(x)) function. Dyad lifts a binary (two arguments, i.e. f(x,y)) one. They recurse into structure until they find atoms, then apply. This is scalar extension, the heart of array programming. Watch what happens: >>> import math >>> sqrt = monad(math.sqrt) >>> sqrt(4) 2.0 >>> sqrt([4, 9, 16]) [2.0, 3.0, 4.0] >>> sqrt([[4, 9], [16, 25]]) [[2.0, 3.0], [4.0, 5.0]] >>> add = dyad(lambda x, y: x + y) >>> add(1, 2) 3 >>> add(10, [1, 2, 3]) [11, 12, 13] >>> add([1, 2], [10, 20]) [11, 22] Any function. Any depth. No loops. No NumPy. Just two higher-order functions. dyad function works exactly like this: atom + atom → apply directly atom + list → extend the atom (scalar extension) list + atom → extend the atom (scalar extension) list + list → pairwise monad function makes functions pervasive, it penetrates into nested structures recursively. These two functions are what inspired me to build the whole thing. 90 Lines Later Armed with scalar extension and a feel for K’s semantics, I wanted to see how far terseness could go. I wanted to implement the whole thing in under 100 lines of Python, honoring the tradition of my predecessors. Here it is: K functions Apply & Eval Parser and REPL Lisp: code is data. Empahsis on semantics. APL: notation is thought. Empahsis on syntax. K: both. Less is more. For more details, check out k.py on GitHub . Thanks for reading MOHAMMED JAMAL ALRUJAYI! Subscribe for free to receive new posts and support my work. 6 1 Share
+Golfing APL/K in 90 Lines of Python
+===================================
+
+### Lisp + APL = K
+
+[![Mohammed Alrujayi's avatar](https://substackcdn.com/image/fetch/$s_!figO!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621a6e60-96de-4a0a-ad89-b554f5761233_992x992.png)](https://substack.com/@aburjg)
+
+[Mohammed Alrujayi](https://substack.com/@aburjg)
+
+Jan 16, 2026
+
+8
+
+1
+
+Share
+
+[![](https://substackcdn.com/image/fetch/$s_!tpX2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e35f49d-a7b1-4a5b-8b38-38319ed492cb_1968x1352.heic)](https://substackcdn.com/image/fetch/$s_!tpX2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e35f49d-a7b1-4a5b-8b38-38319ed492cb_1968x1352.heic)
+
+Egyptian hieroglyphs, an early visual notation
+
+In my previous post on [Homoiconic Python](https://aljamal.substack.com/p/homoiconic-python), I explored McCarthy’s Lisp, a language where code and data are the same thing. But there’s another path to expressive power, one that emerged in parallel.
+
+At the [1956 Dartmouth conference](https://en.wikipedia.org/wiki/Dartmouth_workshop), John McCarthy encountered Newell and Simon’s list-processing language IPL. He liked the idea of lists but hated the language itself, so he spent the next two years building [Lisp](http://jmc.stanford.edu/articles/lisp/lisp.pdf) at MIT. That same year, [Kenneth Iverson](https://en.wikipedia.org/wiki/Kenneth_E._Iverson) was teaching mathematics at Harvard and growing frustrated with the inadequacy of conventional notation for expressing algorithms. He began inventing his own, publishing it in 1962 as ***A Programming Language***, the book that gave APL its name.
+
+Thanks for reading MOHAMMED JAMAL ALRUJAYI! Subscribe for free to receive new posts and support my work.
+
+APL looked like nothing else. Iverson designed a new alphabet, like Egyptian hieroglyphics, each symbol a complete idea:
+
+[![](https://substackcdn.com/image/fetch/$s_!Cslb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1e943ea-e7f5-4e9d-b59c-db90995baa98_1390x1264.jpeg)](https://substackcdn.com/image/fetch/$s_!Cslb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1e943ea-e7f5-4e9d-b59c-db90995baa98_1390x1264.jpeg)
+
+Modern APL glyphs
+
+APL is [very expressive](https://www.youtube.com/watch?v=a9xAKttWgP4&t=2s). Here is the complete implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in APL:
+
+```
+      life ← {⊃1 ⍵ ∨.∧ 3 4 = +/ +⌿ ¯1 0 1 ∘.⊖ ¯1 0 1 ⌽¨ ⊂⍵}
+```
+
+And just like Lisp, APL had one data structure: **the array.** Lisp had the list.
+
+This shared minimalism is the first hint of a deeper, ancestral bond.
+
+Lisp was born at MIT; APL at Harvard.Lisp processes lists; APL processes matrices. Lisp inherits from Church’s lambda calculus; APL from Curry’s combinators. Lisp was designed for machines to do symbolic reasoning; APL was designed for humans to communicate mathematical ideas. One prioritizes semantic elegance, the other syntactic density.
+
+APL and LISP are very similar languages—both manipulate a complex data structure and the functional structure of the languages has been ideally chosen for convenient manipulation of these structures. Proposals have been made to combine them by embedding one within the other.
+
+In 1979, [Alan Perlis](https://dl.acm.org/doi/10.1145/800136.804474) (the first recipient of the Turing Award) chaired a [panel](https://dl.acm.org/doi/10.1145/800136.804474#:~:text=APL%20and%20LISP%20are%20very,embedding%20one%20within%20the%20other.) asking:***”*****APL and LISP—should they be combined, and if so how*****?”*** The panel debated embedding one within the other, or generalizing both into something superior. No conclusion was reached. That same year, Iverson received his own Turing Award and delivered his famous lecture: ***[Notation as a Tool of Thought](https://www.eecg.utoronto.ca/~jzhu/csc326/readings/iverson.pdf)***.
+
+**Iverson’s Ghosts**
+--------------------
+
+You’ve probably used Iverson’s ideas without knowing it. John Baker calls NumPy an [”Iverson ghost”](https://analyzethedatanotthedrivel.org/2018/03/31/numpy-another-iverson-ghost/), APL’s array programming reborn in Python’s syntax. Broadcasting, vectorization, reduction along axes-these aren’t NumPy inventions. They’re Iverson’s ideas from the 1960s, wrapped in `` `np.` `` prefixes and spelled out in English.
+
+PyTorch, TensorFlow, JAX-the entire deep learning stack speaks Iverson’s dialect with extra syllables. `` `np.arange(10)` `` is `` `!10` ``. `` `np.cumsum(x)` `` is `` `+\x` ``. `` `x[::-1]` `` is `` `|x` ``. Same concepts, more typing.
+
+**The Prophecy Fulfilled**
+--------------------------
+
+[![](https://substackcdn.com/image/fetch/$s_!Kc9U!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bd4a8ca-8abd-41cb-922e-1e0b9459d273_1500x1110.heic)](https://substackcdn.com/image/fetch/$s_!Kc9U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bd4a8ca-8abd-41cb-922e-1e0b9459d273_1500x1110.heic)
+
+Ken Iverson & Arthur Whitney at APL91
+
+[Arthur Whitney](https://aplwiki.com/wiki/Arthur_Whitney), Iverson’s protégé,saw both languages clearly. On [kparc.com](https://web.archive.org/web/20170314100110/http://kparc.com/) (his personal website) he listed K’s lineage simply as “lisp and apl,” linking to Iverson’s Turing paper and Perlis’s [lyrical programming](https://www.jsoftware.com/papers/perlis77.htm). In a [2009 interview](https://queue.acm.org/detail.cfm?id=1531242), he explained: ***”I much preferred implementing and coding in LISP, but once I was dealing with big data sets... APL just seemed to have the better vocabulary.”*** He understood their complementary strengths: ***”What I liked was the original LISP, which had car, cdr, cons, and cond, but that was too little. Common LISP was way too big, but a stripped-down version of APL was in the middle with about 50 operations.”***
+
+Whitney first encountered APL at age 11, when Iverson (a friend of his father’s) demonstrated interactive programming on a terminal in 1969. But it wasn’t until 1980, working alongside Iverson at I.P. Sharp in Toronto, that he began using it seriously. Through the ‘80s he explored broadly, implementing his own object-oriented languages, various Lisps, and Prolog. In 1988 he joined Morgan Stanley and built trading systems using his own APL dialect, which became A+.
+
+### **Incunabulum**
+
+In 1989, Whitney visited Iverson at Kiln Farm. Iverson and [Roger Hui](https://en.wikipedia.org/wiki/Roger_Hui) were working on a new APL dialect-one that would use ASCII instead of special glyphs. Over one afternoon, Whitney wrote the now famous ***[incunabulum](https://code.jsoftware.com/wiki/Essays/Incunabulum)***. A one page interpreter in C.
+
+[![](https://substackcdn.com/image/fetch/$s_!pAfA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6517be8-c996-4de6-b99e-42d4f5707dba_1051x1688.jpeg)](https://substackcdn.com/image/fetch/$s_!pAfA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6517be8-c996-4de6-b99e-42d4f5707dba_1051x1688.jpeg)
+
+Arthur's one-page interpreter (an early version of J), [try it on your browser](https://ktye.github.io/zoo/index.html#j0)
+
+That’s Arthur’s style: C that looks like APL. Macros turn C into a higher-order language; by the time he writes the interpreter, he’s writing APL in C. It looks alien at first glance, then you see it. This is [code golfing](https://en.wikipedia.org/wiki/Code_golf) at its earliest (popular among APL hackers long before Perl coined the term).
+
+Roger Hui studied that page for a week, then wrote the first line of what would become [J](https://en.wikipedia.org/wiki/J_(programming_language)). J shipped in 1990, the first ASCII APL. But Whitney wasn’t done.
+
+### **K**
+
+In 1992, Whitney created K. Where J modernized APL’s syntax, K transformed its semantics. On [kparc.com](https://web.archive.org/web/20170713190011/http://kparc.com/lisp.txt), he laid out exactly what K inherited from each parent:
+
+[![](https://substackcdn.com/image/fetch/$s_!7HVj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d671150-a2a0-4fd4-b615-388aacbfe674_1044x1476.heic)](https://substackcdn.com/image/fetch/$s_!7HVj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d671150-a2a0-4fd4-b615-388aacbfe674_1044x1476.heic)
+
+The parallel history of Lisp & APL/K according to Arthur Whitney
+
+The parallels are striking. Both functional. Both dynamic. Both built on atoms and lists with maps between them. Both with REPLs and lexical scope. The syntax differs (s-expressions versus m-expressions) but the bones are the same.
+
+***K marked a major departure from APL tradition and towards LISP influence, since it discarded APL’s multidimensional array model in favor of nested lists.***
+
+The Lisp features crept in gradually. Lambda and conditionals appeared in the 1970s. Higher-order operators-map and reduce-arrived in 1979, the same year Perlis posed his question. ASCII came with J in 1989. But the decisive break was 1992: K abandoned APL’s multidimensional arrays for nested lists-Lisp’s data structure.
+
+[![](https://substackcdn.com/image/fetch/$s_!vyBm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e27253a-1335-4917-87b0-bd84aa599a0f_1438x1452.heic)](https://substackcdn.com/image/fetch/$s_!vyBm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e27253a-1335-4917-87b0-bd84aa599a0f_1438x1452.heic)
+
+The enire documentation of modern k
+
+APL & Lisp, after four decades of parallel evolution, finally merged as k.
+
+**K Verses**
+------------
+
+This is what K looks like (using the 90 lines python implemntation from next section). Factorial:
+
+```
+ */1+!5
+
+120
+```
+
+Average:
+
+```
+ (+/x)%#x:!100
+
+49.5
+```
+
+Primes under 50:
+
+```
+ &2=+/0=(a)mod/a:1+!50
+
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47] 🤯
+```
+
+Golden ratio via continued fraction:
+
+```
+ 0{1+1%x}/1
+
+1.618033988749895
+```
+
+Fibonacci:
+
+```
+ 5{|+\x}\1,2
+
+[[1, 2], [3, 1], [4, 3], [7, 4], [11, 7], [18, 11]]
+```
+
+Pi via Madhava series:
+
+```
+ 4*+/(-*\-_a%a:1+!n)*1%1+2*!n:1000000
+
+3.1415916535897743
+```
+
+Euler’s number:
+
+```
+ */x*1+1%#x:_x%x:1+!1000000
+
+2.7182804690959363
+```
+
+Square root of 2 via Newton:
+
+```
+ 1+100{1%2+x}/1
+
+1.4142135623730951
+```
+
+**A Python Implementation**
+---------------------------
+
+How do you build K in Python?
+
+The data structure is already there, Python lists can represent Lisp lists (as I showed in my previous post). The symbols? K already uses ASCII. What’s missing is what makes APL special: everything is vectorized. We need [scalar extension](https://aplwiki.com/wiki/Scalar_extension). Then parser/eval, this is where we lay the syntactic sugar, the notation if you will, of APL on top of Lisp. Lisp is semantics, APL is syntax.
+
+### Scalar Extension
+
+Enter **monad** and **dyad**. Two higher-order functions that vectorize *\***any\**** Python function:
+
+```
+atom = lambda x: isinstance(x, (int, float, str))
+monad = lambda f: lambda x: f(x) if atom(x) else list(map(monad(f), x))
+dyad = lambda f: (lambda x, y: f(x, y) if atom(x) and atom(y)
+  else list(map(lambda yi: dyad(f)(x, yi), y)) if atom(x)
+  else list(map(lambda xi: dyad(f)(xi, y), x)) if atom(y)
+  else list(map(lambda xi, yi: dyad(f)(xi, yi), x, y)))
+```
+
+**Monad** lifts a unary (one argument, i.e. f(x)) function. **Dyad**lifts a binary (two arguments, i.e. f(x,y)) one. They recurse into structure until they find atoms, then apply. This is scalar extension, the heart of array programming.
+
+Watch what happens:
+
+```
+>>> import math
+
+>>> sqrt = monad(math.sqrt)
+
+>>> sqrt(4)
+
+2.0
+
+>>> sqrt([4, 9, 16])
+
+[2.0, 3.0, 4.0]
+
+>>> sqrt([[4, 9], [16, 25]])
+
+[[2.0, 3.0], [4.0, 5.0]]
+
+>>> add = dyad(lambda x, y: x + y)
+
+>>> add(1, 2)
+
+3
+
+>>> add(10, [1, 2, 3])
+
+[11, 12, 13]
+
+>>> add([1, 2], [10, 20])
+
+[11, 22]
+```
+
+Any function. Any depth. No loops. No NumPy. Just two higher-order functions.
+
+**dyad** function works exactly like this:
+
+* atom + atom → apply directly
+* atom + list → extend the atom (scalar extension)
+* list + atom → extend the atom (scalar extension)
+* list + list → pairwise
+
+**monad** function makes functions pervasive, it penetrates into nested structures recursively.
+
+These two functions are what inspired me to build the whole thing.
+
+### 90 Lines Later
+
+Armed with scalar extension and a feel for K’s semantics, I wanted to see how far terseness could go. I wanted to implement the whole thing in under 100 lines of Python, honoring the tradition of my predecessors. Here it is:
+
+[![](https://substackcdn.com/image/fetch/$s_!kFMO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c465fe6-86ac-40d0-9a47-be008386067f_2428x676.heic)](https://substackcdn.com/image/fetch/$s_!kFMO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c465fe6-86ac-40d0-9a47-be008386067f_2428x676.heic)
+
+K functions
+
+[![](https://substackcdn.com/image/fetch/$s_!rhox!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29599d60-0483-4034-a702-8a1764236b8f_1534x920.heic)](https://substackcdn.com/image/fetch/$s_!rhox!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29599d60-0483-4034-a702-8a1764236b8f_1534x920.heic)
+
+Apply & Eval
+
+[![](https://substackcdn.com/image/fetch/$s_!u9Cd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff045ac74-a29a-4e90-aa5e-9efe34f03eb6_1908x900.heic)](https://substackcdn.com/image/fetch/$s_!u9Cd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff045ac74-a29a-4e90-aa5e-9efe34f03eb6_1908x900.heic)
+
+Parser and REPL
+
+Lisp: code is data. Empahsis on semantics.
+
+APL: notation is thought. Empahsis on syntax.
+
+K: both.
+
+Less is more.
+
+For more details, check out [k.py on GitHub](https://github.com/aburjg/k.py).
+
+Thanks for reading MOHAMMED JAMAL ALRUJAYI! Subscribe for free to receive new posts and support my work.
+
+8
+
+1
+
+Share

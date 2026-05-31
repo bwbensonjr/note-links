@@ -23,4 +23,15 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Structure and Interpretation of Classical Mechanics
 
-Dedication Preface Acknowledgments Lagrangian Mechanics Rigid Bodies Hamiltonian Mechanics Phase Space Structure Canonical Transformations Canonical Evolution Canonical Perturbation Theory Appendix: Scheme Appendix: Our Notation
+* [Dedication](#toc-dedication)
+* [Preface](#toc-preface)
+* [Acknowledgments](#toc-acknowledgments)
+* [Lagrangian Mechanics](#toc-chap-1)
+* [Rigid Bodies](#toc-chap-2)
+* [Hamiltonian Mechanics](#toc-chap-3)
+* [Phase Space Structure](#toc-chap-4)
+* [Canonical Transformations](#toc-chap-5)
+* [Canonical Evolution](#toc-chap-6)
+* [Canonical Perturbation Theory](#toc-chap-7)
+* [Appendix: Scheme](#toc-chap-8)
+* [Appendix: Our Notation](#toc-chap-9)

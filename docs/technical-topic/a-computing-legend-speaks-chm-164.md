@@ -25,4 +25,11 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # A Computing Legend Speaks - CHM
 
-Home CHM BLOG Remarkable People A Computing Legend Speaks By David C. Brock | October 08, 2025
+[Home](https://live-comp-history-museum.pantheonsite.io/)  [CHM BLOG](https://computerhistory.org/blogs/)  [Remarkable People](https://computerhistory.org/blog/category/remarkable-people/)
+
+A Computing Legend Speaks
+=========================
+
+#### By [David C. Brock](https://computerhistory.org/profile/david-brock/) | October 08, 2025
+
+![](https://computerhistory.org/wp-content/themes/bsdstarter/assets/img/basic-page-core-memory.svg)

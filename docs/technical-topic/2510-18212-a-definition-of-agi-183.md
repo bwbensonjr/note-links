@@ -23,4 +23,199 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # [2510.18212] A Definition of AGI
 
-Computer Science > Artificial Intelligence arXiv:2510.18212 (cs) [Submitted on 21 Oct 2025 ( v1 ), last revised 3 Dec 2025 (this version, v3)] Title: A Definition of AGI Authors: Dan Hendrycks , Dawn Song , Christian Szegedy , Honglak Lee , Yarin Gal , Erik Brynjolfsson , Sharon Li , Andy Zou , Lionel Levine , Bo Han , Jie Fu , Ziwei Liu , Jinwoo Shin , Kimin Lee , Mantas Mazeika , Long Phan , George Ingebretsen , Adam Khoja , Cihang Xie , Olawale Salaudeen , Matthias Hein , Kevin Zhao , Alexander Pan , David Duvenaud , Bo Li , Steve Omohundro , Gabriel Alfour , Max Tegmark , Kevin McGrew , Gary Marcus , Jaan Tallinn , Eric Schmidt , Yoshua Bengio View a PDF of the paper titled A Definition of AGI, by Dan Hendrycks and 32 other authors View PDF HTML (experimental) Abstract: The lack of a concrete definition for Artificial General Intelligence (AGI) obscures the gap between today's specialized AI and human-level cognition. This paper introduces a quantifiable framework to address this, defining AGI as matching the cognitive versatility and proficiency of a well-educated adult. To operationalize this, we ground our methodology in Cattell-Horn-Carroll theory, the most empirically validated model of human cognition. The framework dissects general intelligence into ten core cognitive domains-including reasoning, memory, and perception-and adapts established human psychometric batteries to evaluate AI systems. Application of this framework reveals a highly "jagged" cognitive profile in contemporary models. While proficient in knowledge-intensive domains, current AI systems have critical deficits in foundational cognitive machinery, particularly long-term memory storage. The resulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 57%) concretely quantify both rapid progress and the substantial gap remaining before AGI. Subjects: Artificial Intelligence (cs.AI) ; Machine Learning (cs.LG) Cite as: arXiv:2510.18212 [cs.AI] (or arXiv:2510.18212v3 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2510.18212 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Long Phan [ view email ] [v1] Tue, 21 Oct 2025 01:28:35 UTC (20,673 KB) [v2] Thu, 23 Oct 2025 18:00:45 UTC (20,299 KB) [v3] Wed, 3 Dec 2025 00:35:56 UTC (20,290 KB) Full-text links: Access Paper: View a PDF of the paper titled A Definition of AGI, by Dan Hendrycks and 32 other authors View PDF HTML (experimental) TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2025-10 Change to browse by: cs cs.LG References & Citations NASA ADS Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) Links to Code Toggle Papers with Code ( What is Papers with Code? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+Computer Science > Artificial Intelligence
+==========================================
+
+**arXiv:2510.18212** (cs)
+
+[Submitted on 21 Oct 2025 ([v1](https://arxiv.org/abs/2510.18212v1)), last revised 3 Dec 2025 (this version, v3)]
+
+Title:A Definition of AGI
+=========================
+
+Authors:[Dan Hendrycks](https://arxiv.org/search/cs?searchtype=author&query=Hendrycks,+D), [Dawn Song](https://arxiv.org/search/cs?searchtype=author&query=Song,+D), [Christian Szegedy](https://arxiv.org/search/cs?searchtype=author&query=Szegedy,+C), [Honglak Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+H), [Yarin Gal](https://arxiv.org/search/cs?searchtype=author&query=Gal,+Y), [Erik Brynjolfsson](https://arxiv.org/search/cs?searchtype=author&query=Brynjolfsson,+E), [Sharon Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+S), [Andy Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+A), [Lionel Levine](https://arxiv.org/search/cs?searchtype=author&query=Levine,+L), [Bo Han](https://arxiv.org/search/cs?searchtype=author&query=Han,+B), [Jie Fu](https://arxiv.org/search/cs?searchtype=author&query=Fu,+J), [Ziwei Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Z), [Jinwoo Shin](https://arxiv.org/search/cs?searchtype=author&query=Shin,+J), [Kimin Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+K), [Mantas Mazeika](https://arxiv.org/search/cs?searchtype=author&query=Mazeika,+M), [Long Phan](https://arxiv.org/search/cs?searchtype=author&query=Phan,+L), [George Ingebretsen](https://arxiv.org/search/cs?searchtype=author&query=Ingebretsen,+G), [Adam Khoja](https://arxiv.org/search/cs?searchtype=author&query=Khoja,+A), [Cihang Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+C), [Olawale Salaudeen](https://arxiv.org/search/cs?searchtype=author&query=Salaudeen,+O), [Matthias Hein](https://arxiv.org/search/cs?searchtype=author&query=Hein,+M), [Kevin Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+K), [Alexander Pan](https://arxiv.org/search/cs?searchtype=author&query=Pan,+A), [David Duvenaud](https://arxiv.org/search/cs?searchtype=author&query=Duvenaud,+D), [Bo Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+B), [Steve Omohundro](https://arxiv.org/search/cs?searchtype=author&query=Omohundro,+S), [Gabriel Alfour](https://arxiv.org/search/cs?searchtype=author&query=Alfour,+G), [Max Tegmark](https://arxiv.org/search/cs?searchtype=author&query=Tegmark,+M), [Kevin McGrew](https://arxiv.org/search/cs?searchtype=author&query=McGrew,+K), [Gary Marcus](https://arxiv.org/search/cs?searchtype=author&query=Marcus,+G), [Jaan Tallinn](https://arxiv.org/search/cs?searchtype=author&query=Tallinn,+J), [Eric Schmidt](https://arxiv.org/search/cs?searchtype=author&query=Schmidt,+E), [Yoshua Bengio](https://arxiv.org/search/cs?searchtype=author&query=Bengio,+Y)
+
+View a PDF of the paper titled A Definition of AGI, by Dan Hendrycks and 32 other authors
+
+[View PDF](/pdf/2510.18212)
+[HTML (experimental)](https://arxiv.org/html/2510.18212v3)
+> Abstract:The lack of a concrete definition for Artificial General Intelligence (AGI) obscures the gap between today's specialized AI and human-level cognition. This paper introduces a quantifiable framework to address this, defining AGI as matching the cognitive versatility and proficiency of a well-educated adult. To operationalize this, we ground our methodology in Cattell-Horn-Carroll theory, the most empirically validated model of human cognition. The framework dissects general intelligence into ten core cognitive domains-including reasoning, memory, and perception-and adapts established human psychometric batteries to evaluate AI systems. Application of this framework reveals a highly "jagged" cognitive profile in contemporary models. While proficient in knowledge-intensive domains, current AI systems have critical deficits in foundational cognitive machinery, particularly long-term memory storage. The resulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 57%) concretely quantify both rapid progress and the substantial gap remaining before AGI.
+
+|  |  |
+| --- | --- |
+| Subjects: | Artificial Intelligence (cs.AI); Machine Learning (cs.LG) |
+| Cite as: | [arXiv:2510.18212](https://arxiv.org/abs/2510.18212) [cs.AI] |
+|  | (or  [arXiv:2510.18212v3](https://arxiv.org/abs/2510.18212v3) [cs.AI] for this version) |
+|  | <https://doi.org/10.48550/arXiv.2510.18212> Focus to learn more  arXiv-issued DOI via DataCite |
+
+Submission history
+------------------
+
+From: Long Phan [[view email](/show-email/a0585d12/2510.18212)]   
+ **[[v1]](/abs/2510.18212v1)**
+Tue, 21 Oct 2025 01:28:35 UTC (20,673 KB)  
+**[[v2]](/abs/2510.18212v2)**
+Thu, 23 Oct 2025 18:00:45 UTC (20,299 KB)  
+**[v3]**
+Wed, 3 Dec 2025 00:35:56 UTC (20,290 KB)
+
+Full-text links:
+
+Access Paper:
+-------------
+
+View a PDF of the paper titled A Definition of AGI, by Dan Hendrycks and 32 other authors
+
+* [View PDF](/pdf/2510.18212)
+* [HTML (experimental)](https://arxiv.org/html/2510.18212v3)
+* [TeX Source](/src/2510.18212)
+
+[![license icon](https://arxiv.org/icons/licenses/by-4.0.png)
+view license](http://creativecommons.org/licenses/by/4.0/ "Rights to this article")
+
+Current browse context:
+
+cs.AI
+
+[< prev](/prevnext?id=2510.18212&function=prev&context=cs.AI "previous in cs.AI (accesskey p)")
+  |   
+[next >](/prevnext?id=2510.18212&function=next&context=cs.AI "next in cs.AI (accesskey n)")
+
+[new](/list/cs.AI/new)
+ | 
+[recent](/list/cs.AI/recent)
+ | [2025-10](/list/cs.AI/2025-10)
+
+Change to browse by:
+
+[cs](/abs/2510.18212?context=cs)  
+[cs.LG](/abs/2510.18212?context=cs.LG)
+
+### References & Citations
+
+* [NASA ADS](https://ui.adsabs.harvard.edu/abs/arXiv:2510.18212)
+* [Google Scholar](https://scholar.google.com/scholar_lookup?arxiv_id=2510.18212)
+* [Semantic Scholar](https://api.semanticscholar.org/arXiv:2510.18212)
+
+export BibTeX citation
+Loading...
+
+BibTeX formatted citation
+-------------------------
+
+×
+
+loading...
+
+Data provided by:
+
+### Bookmark
+
+[![BibSonomy logo](/static/browse/0.3.4/images/icons/social/bibsonomy.png)](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2510.18212&description=A Definition of AGI "Bookmark on BibSonomy")
+[![Reddit logo](/static/browse/0.3.4/images/icons/social/reddit.png)](https://reddit.com/submit?url=https://arxiv.org/abs/2510.18212&title=A Definition of AGI "Bookmark on Reddit")
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+================================
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer *([What is the Explorer?](https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer))*
+
+Connected Papers Toggle
+
+Connected Papers *([What is Connected Papers?](https://www.connectedpapers.com/about))*
+
+Litmaps Toggle
+
+Litmaps *([What is Litmaps?](https://www.litmaps.co/))*
+
+scite.ai Toggle
+
+scite Smart Citations *([What are Smart Citations?](https://www.scite.ai/))*
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+=================================================
+
+alphaXiv Toggle
+
+alphaXiv *([What is alphaXiv?](https://alphaxiv.org/))*
+
+Links to Code Toggle
+
+CatalyzeX Code Finder for Papers *([What is CatalyzeX?](https://www.catalyzex.com))*
+
+DagsHub Toggle
+
+DagsHub *([What is DagsHub?](https://dagshub.com/))*
+
+GotitPub Toggle
+
+Gotit.pub *([What is GotitPub?](http://gotit.pub/faq))*
+
+Huggingface Toggle
+
+Hugging Face *([What is Huggingface?](https://huggingface.co/huggingface))*
+
+Links to Code Toggle
+
+Papers with Code *([What is Papers with Code?](https://paperswithcode.com/))*
+
+ScienceCast Toggle
+
+ScienceCast *([What is ScienceCast?](https://sciencecast.org/welcome))*
+
+Demos
+
+Demos
+=====
+
+Replicate Toggle
+
+Replicate *([What is Replicate?](https://replicate.com/docs/arxiv/about))*
+
+Spaces Toggle
+
+Hugging Face Spaces *([What is Spaces?](https://huggingface.co/docs/hub/spaces))*
+
+Spaces Toggle
+
+TXYZ.AI *([What is TXYZ.AI?](https://txyz.ai))*
+
+Related Papers
+
+Recommenders and Search Tools
+=============================
+
+Link to Influence Flower
+
+Influence Flower *([What are Influence Flowers?](https://influencemap.cmlab.dev/))*
+
+Core recommender toggle
+
+CORE Recommender *([What is CORE?](https://core.ac.uk/services/recommender))*
+
+* Author
+* Venue
+* Institution
+* Topic
+
+
+About arXivLabs
+
+arXivLabs: experimental projects with community collaborators
+=============================================================
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+
+Have an idea for a project that will add value for arXiv's community? [**Learn more about arXivLabs**](https://info.arxiv.org/labs/index.html).
+
+[Which authors of this paper are endorsers?](/auth/show-endorsers/2510.18212) |
+[Disable MathJax](javascript:setMathjaxCookie()) ([What is MathJax?](https://info.arxiv.org/help/mathjax.html))

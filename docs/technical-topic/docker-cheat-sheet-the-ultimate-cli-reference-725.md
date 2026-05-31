@@ -21,4 +21,52 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Docker Cheat Sheet — The Ultimate CLI Reference
 
-Copied to clipboard! Keyboard Shortcuts Focus search / Clear search Esc Show all 1 Containers 2 Images 3 Dockerfile 4 Volumes 5 Networks 6 Compose 7 System 8
+Copied to clipboard!
+
+
+
+Keyboard Shortcuts
+
+Focus search
+
+`/`
+
+Clear search
+
+`Esc`
+
+Show all
+
+`1`
+
+Containers
+
+`2`
+
+Images
+
+`3`
+
+Dockerfile
+
+`4`
+
+Volumes
+
+`5`
+
+Networks
+
+`6`
+
+Compose
+
+`7`
+
+System
+
+`8`
+
+Troubleshooting
+
+`9`

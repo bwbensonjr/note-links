@@ -21,4 +21,24 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # apfel - Free AI on Your Mac
 
-v0.7.1 · macOS 26+ · MIT apfel The free AI already on your Mac. Every Mac with Apple Silicon has a built-in LLM. Apple locked it behind Siri. apfel sets it free - as a CLI tool, an OpenAI-compatible server, and a chat. 100% On-Device Zero Cost OpenAI Compatible $ brew install Arthur-Ficial/tap/apfel Copy 1.3k+ stars on github.com/Arthur-Ficial/apfel Requires: Apple Silicon · macOS Tahoe · Apple Intelligence enabled
+v1.3.8 · Zero Config · MIT
+
+apfel
+=====
+
+The free AI already on your Mac.
+
+macOS Tahoe ships with a 3B parameter LLM. apfel gives you CLI access with one brew install. No model downloads, no API keys, no configuration needed, just works.
+
+No Token Costs
+ On-Device AI
+ Scriptable
+
+`$ brew install apfel`
+
+
+Copy
+
+5.5k+ stars on [github.com/Arthur-Ficial/apfel](https://github.com/Arthur-Ficial/apfel)
+
+Requires: Apple Silicon · macOS Tahoe · Apple Intelligence enabled

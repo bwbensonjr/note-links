@@ -21,4 +21,10 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Tessellations, Escher-style - Tiled.art
 
-Other languages We'd like to support other languages. If you or someone you know can help with translation, please send an email to [email protected] OK
+##### Other languages
+
+We'd like to support other languages.
+If you or someone you know can help with translation, please
+[send an email](/cdn-cgi/l/email-protection#83f7f1e2edf0efe2f7e6c3f7eaefe6e7ade2f1f7) to **[[email protected]](/cdn-cgi/l/email-protection)**
+
+OK

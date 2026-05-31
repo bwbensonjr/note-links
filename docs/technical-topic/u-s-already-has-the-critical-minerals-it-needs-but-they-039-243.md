@@ -23,4 +23,73 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # U.S. already has the critical minerals it needs – but they&#039;re being thrown away, new analysis shows | Colorado School of Mines | Newsroom
 
-August 21, 2025 by Erich Kirshner U.S. already has the critical minerals it needs – but they're being thrown away, new analysis shows In new Science article, Colorado School of Mines researchers call for more research, development and policy to increase critical mineral recovery Copper, a mineral essential to technology, energy and modern life, was one of 70 elements analyzed by Colorado School of Mines researchers in findings published in the journal Science. All the critical minerals the U.S. needs annually for energy, defense and technology applications are already being mined at existing U.S. facilities, according to a new analysis published today in the journal Science . The catch? These minerals, such as cobalt, lithium, gallium and rare earth elements like neodymium and yttrium, are currently being discarded as tailings of other mineral streams like gold and zinc, said Elizabeth Holley, associate professor of mining engineering at Colorado School of Mines and lead author of the new paper. "The challenge lies in recovery," Holley said. "It's like getting salt out of bread dough – we need to do a lot more research, development and policy to make the recovery of these critical minerals economically feasible." To conduct the analysis, Holley and her team built a database of annual production from federally permitted metal mines in the U.S. They used a statistical resampling technique to pair these data with the geochemical concentrations of critical minerals in ores, recently compiled by the U.S. Geological Survey , Geoscience Australia and the Geologic Survey of Canada. Using this approach, Holley’s team was able to estimate the quantities of critical minerals being mined and processed every year at U.S. metal mines but not being recovered. Instead, these valuable minerals are ending up as discarded tailings that must be stored and monitored to prevent environmental contamination. “This is a brand-new view of ‘low hanging fruit’ – we show where each critical mineral exists and the sites at which even 1 percent recovery of a particular critical mineral could make a huge difference, in many cases dramatically reducing or even eliminating the need to import that mineral,” Holley said. The analysis in Science looks at a total of 70 elements used in applications ranging from consumer electronics like cell phones to medical devices to satellites to renewable energy to fighter jets and shows that unrecovered byproducts from other U.S. mines could meet the demand for all but two – platinum and palladium. Among the elements included in the analysis are: Cobalt (Co): The lustrous bluish-gray metal, a key component in electric car batteries, is a byproduct of nickel and copper mining. Recovering less than 10 percent of the cobalt currently being mined and processed but not recovered would be more than enough to fuel the entire U.S. battery market. Germanium (Ge): The brittle silvery-white semi-metal used for electronics and infrared optics, including sensors on missiles and defense satellites, is present in zinc and molybdenum mines. If the U.S. recovered less than 1 percent of the germanium currently mined and processed but not recovered from U.S. mines, it would not have to import any germanium to meet industry needs. The benefits of enhanced recovery are not only economic and geopolitical but also environmental, Holley said – recovering these critical minerals instead of sending them to tailings piles would reduce the environmental impact of mine waste and open more opportunities for reuse in construction and other industries. “Now that we know which sites are low-hanging fruit, we need to conduct detailed analyses of the minerals in which these chemical elements reside and then test the technologies suitable for recovery of those elements from those specific minerals,” Holley said. “We also need policies that incentivize mine operators to incorporate additional processing infrastructure. Although these elements are needed, their market value may not be sufficient to motivate operators to invest in new equipment and processes without the right policies in place.” Co-authors on the paper are Karlie Hadden, PhD candidate in geology ; Dorit Hammerling, associate professor of applied mathematics and statistics ; Rod Eggert, research professor of economics and business ; Erik Spiller, research professor of mining engineering; and Priscilla Nelson, professor of mining engineering. Read the full paper, "Byproduct recovery from US metal mines could reduce import reliance for critical minerals," on the Science website. To access the data and figures before the paper appears in print, contact Mines Media Relations Specialist Erich Kirshner at erich.kirshner@mines.edu . Critical Minerals Economics and business Mining Applied Mathematics & Statistics Faculty Research Earth Exploration Erich Kirshner Media Relations Specialist 303-273-3188 erich.kirshner@mines.edu About Mines Colorado School of Mines is a public R1 research university focused on applied science and engineering, producing the talent, knowledge and innovations to serve industry and benefit society – all to create a more prosperous future.
+August 21, 2025
+
+by
+
+Erich Kirshner
+
+U.S. already has the critical minerals it needs – but they're being thrown away, new analysis shows
+===================================================================================================
+
+In new Science article, Colorado School of Mines researchers call for more research, development and policy to increase critical mineral recovery
+
+![macro view of copper](/sites/default/files/styles/max_width_340/public/2025-09/closeup-copper-stock_0.jpg?itok=CPy7KTYv)
+
+Copper, a mineral essential to technology, energy and modern life, was one of 70 elements analyzed by Colorado School of Mines researchers in findings published in the journal Science.
+
+All the critical minerals the U.S. needs annually for energy, defense and technology applications are already being mined at existing U.S. facilities, according to a [new analysis published today](https://www.science.org/doi/10.1126/science.adw8997) in the journal *Science*.
+
+The catch? These minerals, such as cobalt, lithium, gallium and rare earth elements like neodymium and yttrium, are currently being discarded as tailings of other mineral streams like gold and zinc, said Elizabeth Holley, associate professor of [mining engineering at Colorado School of Mines](https://mining.mines.edu) and lead author of the new paper.
+
+"The challenge lies in recovery," Holley said. "It's like getting salt out of bread dough – we need to do a lot more research, development and policy to make the recovery of these critical minerals economically feasible."
+
+To conduct the analysis, Holley and her team built a database of annual production from federally permitted metal mines in the U.S. They used a statistical resampling technique to pair these data with the geochemical concentrations of critical minerals in ores, recently compiled by the [U.S. Geological Survey](https://usgs.gov), Geoscience Australia and the Geologic Survey of Canada.
+
+Using this approach, Holley’s team was able to estimate the quantities of critical minerals being mined and processed every year at U.S. metal mines but not being recovered. Instead, these valuable minerals are ending up as discarded tailings that must be stored and monitored to prevent environmental contamination.
+
+“This is a brand-new view of ‘low hanging fruit’ – we show where each critical mineral exists and the sites at which even 1 percent recovery of a particular critical mineral could make a huge difference, in many cases dramatically reducing or even eliminating the need to import that mineral,” Holley said.
+
+The analysis in *Science* looks at a total of 70 elements used in applications ranging from consumer electronics like cell phones to medical devices to satellites to renewable energy to fighter jets and shows that unrecovered byproducts from other U.S. mines could meet the demand for all but two – platinum and palladium.
+
+Among the elements included in the analysis are:
+
+* **Cobalt (Co):** The lustrous bluish-gray metal, a key component in electric car batteries, is a byproduct of nickel and copper mining. Recovering less than 10 percent of the cobalt currently being mined and processed but not recovered would be more than enough to fuel the entire U.S. battery market.
+* **Germanium (Ge):** The brittle silvery-white semi-metal used for electronics and infrared optics, including sensors on missiles and defense satellites, is present in zinc and molybdenum mines. If the U.S. recovered less than 1 percent of the germanium currently mined and processed but not recovered from U.S. mines, it would not have to import any germanium to meet industry needs.
+
+The benefits of enhanced recovery are not only economic and geopolitical but also environmental, Holley said – recovering these critical minerals instead of sending them to tailings piles would reduce the environmental impact of mine waste and open more opportunities for reuse in construction and other industries.
+
+“Now that we know which sites are low-hanging fruit, we need to conduct detailed analyses of the minerals in which these chemical elements reside and then test the technologies suitable for recovery of those elements from those specific minerals,” Holley said. “We also need policies that incentivize mine operators to incorporate additional processing infrastructure. Although these elements are needed, their market value may not be sufficient to motivate operators to invest in new equipment and processes without the right policies in place.”
+
+Co-authors on the paper are Karlie Hadden, PhD candidate in [geology](https://geology.mines.edu); Dorit Hammerling, associate professor of [applied mathematics and statistics](https://ams.mines.edu); Rod Eggert, research professor of [economics and business](https://econbus.mines.edu); Erik Spiller, research professor of mining engineering; and Priscilla Nelson, professor of mining engineering.
+
+Read the full paper, ["Byproduct recovery from US metal mines could reduce import reliance for critical minerals,"](http://www.science.org/doi/10.1126/science.adw8997) on the *Science* website. To access the data and figures before the paper appears in print, contact Mines Media Relations Specialist Erich Kirshner at [erich.kirshner@mines.edu](mailto:erich.kirshner@mines.edu).
+
+[Critical Minerals](/newsroom/567)
+
+[Economics and business](/newsroom/173)
+
+[Mining](/newsroom/113)
+
+[Applied Mathematics & Statistics](/newsroom/169)
+
+[Faculty](/newsroom/8)
+
+[Research](/newsroom/117)
+
+[Earth Exploration](/newsroom/478)
+
+![Headshot of Erich Kirshner](/sites/default/files/styles/thumbnail_retina/public/2024-08/erich_kirshner_photo.jpg?itok=077iIDD6)
+
+Erich Kirshner
+--------------
+
+Media Relations Specialist
+
+303-273-3188
+
+[erich.kirshner@mines.edu](mailto:erich.kirshner@mines.edu)
+
+About Mines
+
+Colorado School of Mines is a public R1 research university focused on applied science and engineering, producing the talent, knowledge and innovations to serve industry and benefit society – all to create a more prosperous future.

@@ -21,4 +21,9 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Structured Context Engineering for File-Native Agentic Systems
 
-Recent articles How StrongDM's AI team build serious software without even looking at the code - 7th February 2026 Running Pydantic's Monty Rust sandboxed Python subset in WebAssembly - 6th February 2026 Distributing Go binaries like sqlite-scanner through PyPI using go-to-wheel - 4th February 2026
+Recent articles
+---------------
+
+* [Claude Opus 4.8: "a modest but tangible improvement"](/2026/May/28/claude-opus-4-8/) - 28th May 2026
+* [I think Anthropic and OpenAI have found product-market fit](/2026/May/27/product-market-fit/) - 27th May 2026
+* [Notes on Pope Leo XIV's encyclical on AI](/2026/May/25/encyclical-on-ai/) - 25th May 2026

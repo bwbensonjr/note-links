@@ -21,4 +21,10 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Automate Your AI Workflows with Claude Code Hooks | Butler&#x27;s Log
 
-MCP vs RAG: Two Very Different Ways to Gain Context This month by PJ Hagerty 5 min read At first glance RAG and MCP seem similar. In practice, they solve very different problems and lead to very different system designs.
+[![Git Merge 2026](https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/git-merge-2026.webp)
+
+### Git Merge 2026
+
+This monthby Scott Chacon2 min read
+
+Git Merge is coming to Lisbon this September, and GitButler is once again helping host two days of Git talks, community, and deep technical nerdery.](/git-merge-2026)

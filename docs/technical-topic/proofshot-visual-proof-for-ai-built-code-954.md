@@ -21,4 +21,32 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # ProofShot — Visual proof for AI-built code
 
-+ Add New item Name Enable dark mode Owner @emma Priority P0 P1 P2 Create + Add 🧭 Navigate: /board 🖱 Click: + Add ⌨ Type: Enable dark mode ↕ Scroll down
++ Add
+
+New item
+
+Name
+
+Enable dark mode
+
+Owner
+
+@emma
+
+Priority
+
+P0
+P1
+P2
+
+Create
+
++ Add
+
+🧭 Navigate: /board
+
+🖱 Click: + Add
+
+⌨ Type: Enable dark mode
+
+↕ Scroll down

@@ -26,4 +26,10 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # graydon2 | losing language features: some stories about disjoint unions
 
-Recent Entries Archive Reading Network Tags Memories Profile
+* [Recent Entries](https://graydon2.dreamwidth.org/)
+* [Archive](https://graydon2.dreamwidth.org/archive)
+* [Reading](https://graydon2.dreamwidth.org/read)
+* [Network](https://graydon2.dreamwidth.org/network)
+* [Tags](https://graydon2.dreamwidth.org/tag/)
+* [Memories](https://www.dreamwidth.org/tools/memories?user=graydon2)
+* [Profile](https://graydon2.dreamwidth.org/profile)

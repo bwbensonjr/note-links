@@ -22,4 +22,127 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Rating Competitors in Games with Strength-Dependent Tie Probabilities
 
-Article info More Article info Rating Competitors in Games with Strength-Dependent Tie Probabilities Mark E. Glickman Authors Placeholder Close https://doi.org/10.6339/25-JDS1209 Pub. online: 4 December 2025 Type: Statistical Data Science Open Access Received 13 June 2025 Accepted 25 November 2025 Published 4 December 2025 Abstract Competitor rating systems for head-to-head games are typically used to measure playing strength from game outcomes. Ratings computed from these systems are often used to select top competitors for elite events, for pairing players of similar strength in online gaming, and for players to track their own strength over time. Most implemented rating systems assume only win/loss outcomes, and treat occurrences of ties as the equivalent to half a win and half a loss. However, in games such as chess, the probability of a tie (draw) is demonstrably higher for stronger players than for weaker players, so that rating systems ignoring this aspect of game results may produce strength estimates that are unreliable. We develop a new rating system for head-to-head games based on a model that explicitly acknowledges that a tie may depend on the strengths of the competitors. The approach uses a Bayesian dynamic modeling framework. Within each time period, posterior updates are computed in closed form using a single Newton-Raphson iteration evaluated at the prior mean. The approach is demonstrated on a large dataset of chess games played in International Correspondence Chess Federation tournaments. Supplementary material Supplementary Material • Appendices.pdf : Appendices A and B. • Code_and_Data.zip : Zip file consisting of code and data to run the analyses in this manuscript. References Bhat CR (1995). A heteroscedastic extreme value model of intercity travel mode choice. Transportation Research. Part B: Methodological , 29(6): 471–483. https://doi.org/10.1016/0191-2615(95)00015-6 Boys R, Dunsmore I (1987). Diagnostic and sampling models in screening. Biometrika , 74(2): 365–374. https://doi.org/10.1093/biomet/74.2.365 Bradley RA, Terry ME (1952). Rank analysis of incomplete block designs: I. The method of paired comparisons. Biometrika , 39(3/4): 324–345. https://doi.org/10.2307/2334029 Crouch EA, Spiegelman D (1990). The evaluation of integrals of the form ${\textstyle\int _{-\infty }^{\infty }}f(t)\exp (-{t^{2}})$ : Application to logistic-normal models. Journal of the American Statistical Association , 85(410): 464–469. https://doi.org/10.1080/01621459.1990.10476222 David H (1988). The Method of Paired Comparisons . Charles Griffin & Company, London. Davidson RR (1970). On extending the Bradley-Terry model to accommodate ties in paired comparison experiments. Journal of the American Statistical Association , 65(329): 317–328. https://doi.org/10.1080/01621459.1970.10481082 Davidson RR, Beaver RJ (1977). On extending the Bradley-Terry model to incorporate within-pair order effects. Biometrics , 33(4): 693–702. https://doi.org/10.2307/2529467 Durbin J, Koopman SJ (2012). Time Series Analysis by State Space Methods , volume 38. OUP, Oxford. Elo AE (1978). The Rating of Chess Players, Past and Present . Arco Publishing, New York. Fahrmeir L, Tutz G (1994). Dynamic stochastic models for time-dependent ordered paired comparison systems. Journal of the American Statistical Association , 89(428): 1438–1449. https://doi.org/10.1080/01621459.1994.10476882 Florez M, Guindani M, Vannucci M (2025). Bayesian bivariate Conway–Maxwell–Poisson regression model for correlated count data in sports. Journal of Quantitative Analysis in Sports , 21(1): 51–71. https://doi.org/10.1515/jqas-2024-0072 Glickman ME (1993). Paired comparison models with time-varying parameters, Ph.D. thesis, Harvard University. Glickman ME (1995). A comprehensive guide to chess ratings. American Chess Journal , 3(1): 59–102. Glickman ME (1999). Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society. Series C. Applied Statistics , 48(3): 377–394. https://doi.org/10.1111/1467-9876.00159 Glickman ME (2001). Dynamic paired comparison models with stochastic variances. Journal of Applied Statistics , 28(6): 673–689. https://doi.org/10.1080/02664760120059219 Glickman ME (2025). Paired comparison models with strength-dependent ties and order effects. Statistical Modelling. In press. https://doi.org/10.1177/1471082X251400474 . Glickman ME, Jones AC (2024). Models and rating systems for head-to-head competition. Annual Review of Statistics and Its Application , 12: 259–282. https://doi.org/10.1146/annurev-statistics-040722-061813 Gorgi P, Koopman SJ, Lit R (2019). The analysis and forecasting of tennis matches by using a high dimensional dynamic model. Journal of the Royal Statistical Society. Series A. Statistics in Society , 182(4): 1393–1409. https://doi.org/10.1111/rssa.12464 Harding MC, Hausman J (2007). Using a Laplace approximation to estimate the random coefficients logit model by nonlinear least squares. International Economic Review , 48(4): 1311–1328. https://doi.org/10.1111/j.1468-2354.2007.00463.x Hastie T, Tibshirani R (1986). Generalized additive models. Statistical Science , 1(3): 297–310. https://doi.org/10.1214/ss/1177013604 Ingram M (2021). How to extend Elo: A Bayesian perspective. Journal of Quantitative Analysis in Sports , 17(3): 203–219. https://doi.org/10.1515/jqas-2020-0066 Karlis D, Ntzoufras I (2003). Analysis of sports data by using bivariate Poisson models. Journal of the Royal Statistical Society. Series D. The Statistician , 52(3): 381–393. Karlis D, Ntzoufras I (2005). Bivariate Poisson and diagonal inflated bivariate Poisson regression models in R. Journal of Statistical Software , 14: 1–36. https://doi.org/10.18637/jss.v014.i10 Knorr-Held L (2000). Dynamic rating of sports teams. Journal of the Royal Statistical Society. Series D. The Statistician , 49(2): 261–276. Nelder JA, Mead R (1965). A simplex method for function minimization. The Computer Journal , 7(4): 308–313. https://doi.org/10.1093/comjnl/7.4.308 Pirjol D (2013). The logistic-normal integral and its generalizations. Journal of Computational and Applied Mathematics , 237(1): 460–469. https://doi.org/10.1016/j.cam.2012.06.016 Pryanishnikov I, Zigova K (2016). Multinomial logit models for the Austrian labor market. Austrian Journal of Statistics , 32(4): 267–282. https://doi.org/10.17713/ajs.v32i4.461 Steen N, Byrne G, Gelbard E (1969). Gaussian quadratures for the integrals ${\textstyle\int _{0}^{\infty }}{e^{-{x^{2}}}}f(x)dx$ and ${\textstyle\int _{0}^{b}}{e^{-{x^{2}}}}f(x)dx$ . Mathematics of Computation , 23(107): 661–671. https://doi.org/10.1090/S0025-5718-1969-0247744-3 Szczecinski L, Djebbi A (2020). Understanding draws in Elo rating algorithm. Journal of Quantitative Analysis in Sports , 16(3): 211–220. https://doi.org/10.1515/jqas-2019-0102 West M, Harrison PJ, Migon HS (1985). Dynamic generalized linear models and Bayesian forecasting. Journal of the American Statistical Association , 80(389): 73–83. https://doi.org/10.1080/01621459.1985.10477131 Wood SN (2011). Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. Journal of the Royal Statistical Society (B) , 73(1): 3–36. https://doi.org/10.1111/j.1467-9868.2010.00749.x Download PDF XML Citation
+* [Article info](https://jds-online.org/journal/JDS/article/1455)
+* [More](#)
+
+  [Article info](https://jds-online.org/journal/JDS/article/1455)
+
+  
+
+Rating Competitors in Games with Strength-Dependent Tie Probabilities
+
+[Mark E. Glickman](https://jds-online.org/search?author=Mark%20E.%20Glickman "Search for more publications by the author")
+
+[![ORCID icon link to view author Mark E. Glickman details](https://jds-online.org/images/icons/orcid_16x16.png)](https://orcid.org/0000-0003-3993-2801 "View author details on orcid.org")
+
+#### Authors
+
+Placeholder
+
+Close
+
+<https://doi.org/10.6339/25-JDS1209>
+
+Pub. online: 4 December 2025
+    
+Type: Statistical Data Science
+    
+![Open access](https://jds-online.org/images/icons/unlocked.svg "Open access")Open Access
+
+---
+
+Received  
+13 June 2025
+
+Accepted  
+25 November 2025
+
+Published  
+4 December 2025
+
+---
+
+#### Abstract
+
+Competitor rating systems for head-to-head games are typically used to measure playing strength from game outcomes. Ratings computed from these systems are often used to select top competitors for elite events, for pairing players of similar strength in online gaming, and for players to track their own strength over time. Most implemented rating systems assume only win/loss outcomes, and treat occurrences of ties as the equivalent to half a win and half a loss. However, in games such as chess, the probability of a tie (draw) is demonstrably higher for stronger players than for weaker players, so that rating systems ignoring this aspect of game results may produce strength estimates that are unreliable. We develop a new rating system for head-to-head games based on a model that explicitly acknowledges that a tie may depend on the strengths of the competitors. The approach uses a Bayesian dynamic modeling framework. Within each time period, posterior updates are computed in closed form using a single Newton-Raphson iteration evaluated at the prior mean. The approach is demonstrated on a large dataset of chess games played in International Correspondence Chess Federation tournaments.
+
+#### Supplementary material
+
+[Supplementary Material](https://jds-online.org/journal/JDS/article/1455/file/14115)
+
+•
+Appendices.pdf: Appendices A and B.
+•
+Code\_and\_Data.zip: Zip file consisting of code and data to run the analyses in this manuscript.
+
+#### References
+
+Bhat CR (1995). A heteroscedastic extreme value model of intercity travel mode choice. *Transportation Research. Part B: Methodological*, 29(6): 471–483. <https://doi.org/10.1016/0191-2615(95)00015-6>
+
+Boys R, Dunsmore I (1987). Diagnostic and sampling models in screening. *Biometrika*, 74(2): 365–374. <https://doi.org/10.1093/biomet/74.2.365>
+
+Bradley RA, Terry ME (1952). Rank analysis of incomplete block designs: I. The method of paired comparisons. *Biometrika*, 39(3/4): 324–345. <https://doi.org/10.2307/2334029>
+
+Crouch EA, Spiegelman D (1990). The evaluation of integrals of the form ${\textstyle\int \_{-\infty }^{\infty }}f(t)\exp (-{t^{2}})$: Application to logistic-normal models. *Journal of the American Statistical Association*, 85(410): 464–469. <https://doi.org/10.1080/01621459.1990.10476222>
+
+David H (1988). *The Method of Paired Comparisons*. Charles Griffin & Company, London.
+
+Davidson RR (1970). On extending the Bradley-Terry model to accommodate ties in paired comparison experiments. *Journal of the American Statistical Association*, 65(329): 317–328. <https://doi.org/10.1080/01621459.1970.10481082>
+
+Davidson RR, Beaver RJ (1977). On extending the Bradley-Terry model to incorporate within-pair order effects. *Biometrics*, 33(4): 693–702. <https://doi.org/10.2307/2529467>
+
+Durbin J, Koopman SJ (2012). *Time Series Analysis by State Space Methods*, volume 38. OUP, Oxford.
+
+Elo AE (1978). *The Rating of Chess Players, Past and Present*. Arco Publishing, New York.
+
+Fahrmeir L, Tutz G (1994). Dynamic stochastic models for time-dependent ordered paired comparison systems. *Journal of the American Statistical Association*, 89(428): 1438–1449. <https://doi.org/10.1080/01621459.1994.10476882>
+
+Florez M, Guindani M, Vannucci M (2025). Bayesian bivariate Conway–Maxwell–Poisson regression model for correlated count data in sports. *Journal of Quantitative Analysis in Sports*, 21(1): 51–71. <https://doi.org/10.1515/jqas-2024-0072>
+
+Glickman ME (1993). Paired comparison models with time-varying parameters, Ph.D. thesis, Harvard University.
+
+Glickman ME (1995). A comprehensive guide to chess ratings. *American Chess Journal*, 3(1): 59–102.
+
+Glickman ME (1999). Parameter estimation in large dynamic paired comparison experiments. *Journal of the Royal Statistical Society. Series C. Applied Statistics*, 48(3): 377–394. <https://doi.org/10.1111/1467-9876.00159>
+
+Glickman ME (2001). Dynamic paired comparison models with stochastic variances. *Journal of Applied Statistics*, 28(6): 673–689. <https://doi.org/10.1080/02664760120059219>
+
+Glickman ME (2025). Paired comparison models with strength-dependent ties and order effects. Statistical Modelling. In press. <https://doi.org/10.1177/1471082X251400474>.
+
+Glickman ME, Jones AC (2024). Models and rating systems for head-to-head competition. *Annual Review of Statistics and Its Application*, 12: 259–282. <https://doi.org/10.1146/annurev-statistics-040722-061813>
+
+Gorgi P, Koopman SJ, Lit R (2019). The analysis and forecasting of tennis matches by using a high dimensional dynamic model. *Journal of the Royal Statistical Society. Series A. Statistics in Society*, 182(4): 1393–1409. <https://doi.org/10.1111/rssa.12464>
+
+Harding MC, Hausman J (2007). Using a Laplace approximation to estimate the random coefficients logit model by nonlinear least squares. *International Economic Review*, 48(4): 1311–1328. <https://doi.org/10.1111/j.1468-2354.2007.00463.x>
+
+Hastie T, Tibshirani R (1986). Generalized additive models. *Statistical Science*, 1(3): 297–310. <https://doi.org/10.1214/ss/1177013604>
+
+Ingram M (2021). How to extend Elo: A Bayesian perspective. *Journal of Quantitative Analysis in Sports*, 17(3): 203–219. <https://doi.org/10.1515/jqas-2020-0066>
+
+Karlis D, Ntzoufras I (2003). Analysis of sports data by using bivariate Poisson models. *Journal of the Royal Statistical Society. Series D. The Statistician*, 52(3): 381–393.
+
+Karlis D, Ntzoufras I (2005). Bivariate Poisson and diagonal inflated bivariate Poisson regression models in R. *Journal of Statistical Software*, 14: 1–36. <https://doi.org/10.18637/jss.v014.i10>
+
+Knorr-Held L (2000). Dynamic rating of sports teams. *Journal of the Royal Statistical Society. Series D. The Statistician*, 49(2): 261–276.
+
+Nelder JA, Mead R (1965). A simplex method for function minimization. *The Computer Journal*, 7(4): 308–313. <https://doi.org/10.1093/comjnl/7.4.308>
+
+Pirjol D (2013). The logistic-normal integral and its generalizations. *Journal of Computational and Applied Mathematics*, 237(1): 460–469. <https://doi.org/10.1016/j.cam.2012.06.016>
+
+Pryanishnikov I, Zigova K (2016). Multinomial logit models for the Austrian labor market. *Austrian Journal of Statistics*, 32(4): 267–282. <https://doi.org/10.17713/ajs.v32i4.461>
+
+Steen N, Byrne G, Gelbard E (1969). Gaussian quadratures for the integrals ${\textstyle\int \_{0}^{\infty }}{e^{-{x^{2}}}}f(x)dx$ and ${\textstyle\int \_{0}^{b}}{e^{-{x^{2}}}}f(x)dx$. *Mathematics of Computation*, 23(107): 661–671. <https://doi.org/10.1090/S0025-5718-1969-0247744-3>
+
+Szczecinski L, Djebbi A (2020). Understanding draws in Elo rating algorithm. *Journal of Quantitative Analysis in Sports*, 16(3): 211–220. <https://doi.org/10.1515/jqas-2019-0102>
+
+West M, Harrison PJ, Migon HS (1985). Dynamic generalized linear models and Bayesian forecasting. *Journal of the American Statistical Association*, 80(389): 73–83. <https://doi.org/10.1080/01621459.1985.10477131>
+
+Wood SN (2011). Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. *Journal of the Royal Statistical Society (B)*, 73(1): 3–36. <https://doi.org/10.1111/j.1467-9868.2010.00749.x>
+
+Download
+
+[PDF](https://jds-online.org/journal/JDS/article/1455/file/pdf "Download PDF")
+[XML](https://jds-online.org/journal/JDS/article/1455/file/xml "Download XML")
+
+
+Citation

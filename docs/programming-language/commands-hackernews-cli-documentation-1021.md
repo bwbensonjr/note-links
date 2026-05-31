@@ -20,4 +20,94 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Commands — HackerNews CLI  documentation
 
-Navigation index next | previous | HackerNews CLI documentation » Commands ¶ Start hacking with hn command: $ hn --help Usage: hn [OPTIONS] COMMAND [ARGS]... HackerNews CLI - for hackers Options: --version Show the version and exit. --help Show this message and exit. Commands: comment comment story on HackerNews comments show comments for the story go go to the story on HackerNews stories list stories $ hn stories --help Usage: hn stories [OPTIONS] list stories Options: -s, --sort_by [newest|best] sort type -l, --limit INTEGER number of top stories to show --help Show this message and exit. $ hn go --help Usage: hn go [OPTIONS] STORY_ID go to the story on HackerNews Options: --help Show this message and exit. $ hn comments --help Usage: hn comments [OPTIONS] STORY_ID show comments for the story Options: --help Show this message and exit. $ hn comment --help Usage: hn comment [OPTIONS] STORY_ID comment story on HackerNews Options: --help Show this message and exit. HackerNews CLI Navigation Commands Changelog Quick search Enter search terms or a module, class or function name. ©2014 Kamil Chmielewski. | Powered by Sphinx 1.2.3 & Alabaster 0.6.1 | Page source
+### Navigation
+
+* [index](genindex.html "General Index")
+* [next](changelog.html "Changelog") |
+* [previous](index.html "Welcome to HackerNews CLI") |
+* [HackerNews CLI documentation](index.html) »
+
+Commands[¶](#commands "Permalink to this headline")
+===================================================
+
+Start hacking with hn command:
+
+```
+$ hn --help
+Usage: hn [OPTIONS] COMMAND [ARGS]...
+
+  HackerNews CLI - for hackers
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  comment   comment story on HackerNews
+  comments  show comments for the story
+  go        go to the story on HackerNews
+  stories   list stories
+```
+
+```
+$ hn stories --help
+Usage: hn stories [OPTIONS]
+
+  list stories
+
+Options:
+  -s, --sort_by [newest|best]  sort type
+  -l, --limit INTEGER          number of top stories to show
+  --help                       Show this message and exit.
+```
+
+```
+$ hn go --help
+Usage: hn go [OPTIONS] STORY_ID
+
+  go to the story on HackerNews
+
+Options:
+  --help  Show this message and exit.
+```
+
+```
+$ hn comments --help
+Usage: hn comments [OPTIONS] STORY_ID
+
+  show comments for the story
+
+Options:
+  --help  Show this message and exit.
+```
+
+```
+$ hn comment --help
+Usage: hn comment [OPTIONS] STORY_ID
+
+  comment story on HackerNews
+
+Options:
+  --help  Show this message and exit.
+```
+
+[![Logo](_static/hn_hat.png)
+
+HackerNews CLI
+==============](index.html)
+
+### Navigation
+
+* Commands
+* [Changelog](changelog.html)
+
+### Quick search
+
+Enter search terms or a module, class or function name.
+
+©2014 Kamil Chmielewski.
+|
+Powered by [Sphinx 1.2.3](http://sphinx-doc.org/)
+& [Alabaster 0.6.1](https://github.com/bitprophet/alabaster)
+|
+[Page source](_sources/commands.txt)

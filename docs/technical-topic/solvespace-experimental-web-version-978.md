@@ -21,4 +21,52 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # SolveSpace - Experimental Web Version
 
-SOLVESPACE -- parametric 2d/3d CAD Examples Tutorials Features Download Web Version Reference Technology Library Forum Contact EXPERIMENTAL WEB VERSION SolveSpace is developed primarily as normal desktop software. It's compact enough that it runs surprisingly well when compiled with emscripten for the browser, though. There is some speed penalty and there are many remaining bugs, but with smaller models the experience is often highly usable. In keeping with the experimental status of this target, the version below is built from our latest development branch. You are likely to encounter issues that don't exist in the normal desktop targets , but feel free to report bugs in the usual way. START EXPERIMENTAL WEB VERSION This web version has no network dependencies after loading. To host your own copy, build and host the output like any other static web content. © 2008-2026 SolveSpace contributors. Most recent update March 27 2026.
+[![SolveSpace Logo](pics/solvespace-scalable.svg)
+SOLVESPACE
+ -- parametric 2d/3d CAD](index.pl)
+
+[Examples](examples.pl)
+
+[Tutorials](tutorial.pl)
+
+[Features](features.pl)
+
+[Download](download.pl)
+
+Web Version
+
+[Reference](ref.pl)
+
+[Technology](tech.pl)
+
+[Library](library.pl)
+
+[Forum](forum.pl)
+
+[Contact](contact.pl)
+
+EXPERIMENTAL WEB VERSION
+
+SolveSpace is developed primarily as normal desktop software. It's
+compact enough that it runs surprisingly well when compiled with
+emscripten for the browser, though. There is some speed penalty and
+there are many remaining bugs, but with smaller models the experience is
+often highly usable.
+
+In keeping with the experimental status of this target, the version
+below is built from our latest development branch. You are likely to
+encounter issues that don't exist in the
+[normal desktop targets](download.pl), but
+feel free to
+[report](https://github.com/solvespace/solvespace/issues)
+bugs in the usual way.
+
+> **[START EXPERIMENTAL WEB VERSION](/webver/solvespace.html)**
+
+This web version has no network dependencies after loading. To host your
+own copy,
+[build](https://github.com/solvespace/solvespace/#building-for-web-very-experimental)
+and host the output like any other static web content.
+
+© 2008-2026 SolveSpace contributors.
+Most recent update March 27 2026.

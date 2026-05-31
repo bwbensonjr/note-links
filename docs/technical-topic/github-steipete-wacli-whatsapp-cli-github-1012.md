@@ -21,4 +21,165 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # GitHub - steipete/wacli: WhatsApp CLI · GitHub
 
-🗃️ wacli — WhatsApp CLI: sync, search, send. WhatsApp CLI built on top of whatsmeow , focused on: Best-effort local sync of message history + continuous capture Fast offline search Sending messages Contact + group management This is a third-party tool that uses the WhatsApp Web protocol via whatsmeow and is not affiliated with WhatsApp. Status Core implementation is in place. See docs/spec.md for the full design notes. Recent updates (0.2.0) Messages: search/list includes display text for reactions, replies, and media types. Send: wacli send file --filename to override the display name. Auth: optional WACLI_DEVICE_LABEL / WACLI_DEVICE_PLATFORM env overrides. Install / Build Choose one of the following options. If you install via Homebrew, you can skip the local build step. Option A: Install via Homebrew (tap) brew install steipete/tap/wacli Option B: Build locally go build -tags sqlite_fts5 -o ./dist/wacli ./cmd/wacli Run (local build only): ./dist/wacli --help Quick start Default store directory is ~/.wacli (override with --store DIR ). # 1) Authenticate (shows QR), then bootstrap sync pnpm wacli auth # or: ./dist/wacli auth (after pnpm build) # 2) Keep syncing (never shows QR; requires prior auth) pnpm wacli sync --follow # Diagnostics pnpm wacli doctor # Search messages pnpm wacli messages search " meeting " # Backfill older messages for a chat (best-effort; requires your primary device online) pnpm wacli history backfill --chat 1234567890@s.whatsapp.net --requests 10 --count 50 # Download media for a message (after syncing) ./wacli media download --chat 1234567890@s.whatsapp.net --id < message-id > # Send a message pnpm wacli send text --to 1234567890 --message " hello " # Send a file ./wacli send file --to 1234567890 --file ./pic.jpg --caption " hi " # Or override display name ./wacli send file --to 1234567890 --file /tmp/abc123 --filename report.pdf # List groups and manage participants pnpm wacli groups list pnpm wacli groups rename --jid 123456789@g.us --name " New name " Prior Art / Credit This project is heavily inspired by (and learns from) the excellent whatsapp-cli by Vicente Reig: whatsapp-cli High-level UX wacli auth : interactive login (shows QR code), then immediately performs initial data sync. wacli sync : non-interactive sync loop (never shows QR; errors if not authenticated). Output is human-readable by default; pass --json for machine-readable output. Storage Defaults to ~/.wacli (override with --store DIR ). Environment overrides WACLI_DEVICE_LABEL : set the linked device label (shown in WhatsApp). WACLI_DEVICE_PLATFORM : override the linked device platform (defaults to CHROME if unset or invalid). Backfilling older history wacli sync stores whatever WhatsApp Web sends opportunistically. To try to fetch older messages, use on-demand history sync requests to your primary device (your phone). Important notes: This is best-effort : WhatsApp may not return full history. Your primary device must be online . Requests are per chat (DM or group). wacli uses the oldest locally stored message in that chat as the anchor. Recommended --count is 50 per request. Backfill one chat pnpm wacli history backfill --chat 1234567890@s.whatsapp.net --requests 10 --count 50 Backfill all chats (script) This loops through chats already known in your local DB: pnpm -s wacli -- --json chats list --limit 100000 \ | jq -r ' .[].JID ' \ | while read -r jid ; do pnpm -s wacli -- history backfill --chat " $jid " --requests 3 --count 50 done License See LICENSE .
+🗃️ wacli — WhatsApp CLI: sync, search, send
+===========================================
+
+[![wacli banner](/openclaw/wacli/raw/main/docs/assets/readme-banner.jpg)](/openclaw/wacli/blob/main/docs/assets/readme-banner.jpg)
+
+A scriptable WhatsApp client built on [`whatsmeow`](https://github.com/tulir/whatsmeow). Pairs as a linked WhatsApp Web device, mirrors your messages into a local SQLite store, and gives you offline search, sending, and chat/group/contact management from the command line.
+
+> Third-party tool. Uses the WhatsApp Web protocol via `whatsmeow`. Not affiliated with WhatsApp.
+
+Full documentation: **<https://wacli.sh>**
+
+Features
+--------
+
+* **Auth + sync** — QR pairing, one-shot or follow-mode sync, optional media downloads, optional signed webhook fan-out.
+* **Offline message store** — SQLite with FTS5 search (LIKE fallback), filterable by chat, sender, direction, time, and media type, with status broadcasts stored separately.
+* **Sending** — text with mentions/replies/link-previews, files (image/video/audio/document, ≤100 MiB), stickers, voice notes, reactions, and status broadcasts; rapid-send guardrails and retry-receipt grace.
+* **History backfill** — best-effort per-chat requests to your primary device for older messages.
+* **Contacts / chats / groups / channels / profile** — search, alias, tag, archive, pin, mute, mark-read, rename, prune, manage participants and invite links, send to channels, and manage profile metadata.
+* **Diagnostics + safety** — `doctor`, read-only mode, store locks with owner reporting, panic recovery, bounded media queue, owner-only DB perms.
+* **Scriptable** — `--json` everywhere, `--events` NDJSON lifecycle stream, deterministic exit codes.
+
+Install
+-------
+
+### Homebrew (recommended)
+
+```
+brew install openclaw/tap/wacli
+```
+
+If a Linux install reports `Binary was compiled with 'CGO_ENABLED=0'`, run `brew update && brew reinstall openclaw/tap/wacli`.
+
+### Build from source
+
+`wacli` uses `go-sqlite3`, so cgo + a C compiler are required.
+
+* macOS: Xcode Command Line Tools.
+* Debian/Ubuntu: `sudo apt install build-essential`.
+
+```
+CGO_ENABLED=1 CGO_CFLAGS="-Wno-error=missing-braces" \
+  go install -tags sqlite_fts5 github.com/openclaw/wacli/cmd/wacli@latest
+```
+
+For local development:
+
+```
+git clone https://github.com/openclaw/wacli.git
+cd wacli
+CGO_ENABLED=1 CGO_CFLAGS="-Wno-error=missing-braces" \
+  go build -tags sqlite_fts5 -o ./dist/wacli ./cmd/wacli
+./dist/wacli --help
+```
+
+### Docker
+
+```
+docker build -t wacli .
+docker run --rm -it -v "$PWD/.wacli:/data" wacli auth
+docker run --rm -v "$PWD/.wacli:/data" wacli sync --follow
+```
+
+The image keeps WhatsApp auth, SQLite, config, and cache under `/data`; it also includes `ffmpeg` for media helpers.
+
+Quick start
+-----------
+
+```
+# 1. Pair (shows QR), then bootstrap sync
+wacli auth
+
+# 2. Keep syncing in the background (no QR; needs prior auth)
+wacli sync --follow
+
+# 3. Search
+wacli messages search "meeting"
+
+# 4. Send
+wacli send text --to 1234567890 --message "hello"
+wacli send file --to mom --file ./pic.jpg --caption "hi"
+wacli send status --message "available today" --background-color '#1f7a8c'
+
+# 5. Diagnostics
+wacli doctor
+```
+
+Recipients accept a JID, phone number (E.164 or formatted), channel JID, or a synced contact/group/chat name. Ambiguous names prompt in a TTY; pass `--pick N` in scripts.
+
+More recipes — replies, mentions, stickers, voice, reactions, statuses, channels, history backfill, chat management — live in the [docs](https://wacli.sh).
+
+Documentation
+-------------
+
+| Area | Pages |
+| --- | --- |
+| **Setup** | [overview](/openclaw/wacli/blob/main/docs/overview.md) · [auth](/openclaw/wacli/blob/main/docs/auth.md) · [accounts](/openclaw/wacli/blob/main/docs/accounts.md) · [sync](/openclaw/wacli/blob/main/docs/sync.md) · [doctor](/openclaw/wacli/blob/main/docs/doctor.md) |
+| **Messaging** | [messages](/openclaw/wacli/blob/main/docs/messages.md) · [calls](/openclaw/wacli/blob/main/docs/calls.md) · [send](/openclaw/wacli/blob/main/docs/send.md) · [media](/openclaw/wacli/blob/main/docs/media.md) · [presence](/openclaw/wacli/blob/main/docs/presence.md) |
+| **Address book** | [contacts](/openclaw/wacli/blob/main/docs/contacts.md) · [chats](/openclaw/wacli/blob/main/docs/chats.md) · [groups](/openclaw/wacli/blob/main/docs/groups.md) · [channels](/openclaw/wacli/blob/main/docs/channels.md) |
+| **History** | [history coverage / fill / backfill](/openclaw/wacli/blob/main/docs/history.md) |
+| **Local store** | [store](/openclaw/wacli/blob/main/docs/store.md) · [companion integrations](/openclaw/wacli/blob/main/docs/integrations.md) |
+| **Misc** | [profile](/openclaw/wacli/blob/main/docs/profile.md) · [version](/openclaw/wacli/blob/main/docs/version.md) · [completion](/openclaw/wacli/blob/main/docs/completion.md) · [release](/openclaw/wacli/blob/main/docs/release.md) |
+
+Configuration
+-------------
+
+Default store: `~/.local/state/wacli` on Linux, `~/.wacli` elsewhere. Existing `~/.wacli` directories on Linux keep working. Use `wacli accounts add NAME` and `--account NAME` for first-class multi-account stores.
+
+**Global flags:** `--store DIR`, `--account NAME`, `--json`, `--events`, `--full`, `--timeout DUR`, `--lock-wait DUR`, `--read-only`.
+
+**Environment overrides:**
+
+| Variable | Effect |
+| --- | --- |
+| `WACLI_STORE_DIR` | Default store directory. |
+| `WACLI_READONLY` | `1`/`true`/`yes`/`on` enables read-only mode. |
+| `WACLI_DEVICE_LABEL` | Linked-device label shown in WhatsApp. Defaults to `wacli - <OS> (<host>)`. |
+| `WACLI_DEVICE_PLATFORM` | Linked-device platform. Defaults to `DESKTOP`; invalid values fall back to `CHROME`. |
+| `WACLI_SYNC_MAX_MESSAGES` | Stop sync once total local messages exceed this count. |
+| `WACLI_SYNC_MAX_DB_SIZE` | Stop sync once `wacli.db` + sidecars reach a size like `500MB` or `2GB`. |
+
+Backfilling older history
+-------------------------
+
+`wacli sync` only stores what WhatsApp Web sends opportunistically. To fetch *older* messages, `wacli` issues on-demand history requests to your **primary device** (your phone), which must be online.
+
+* Best-effort: WhatsApp may not return full history.
+* One request anchors on the **oldest locally stored message** in that chat — run `sync` first.
+* Recommended `--count 50` per request (max 500). Max `--requests 100` per run.
+* `history coverage` shows which chats are eligible. `history fill --dry-run` plans without connecting.
+
+```
+wacli history coverage --include-blocked
+wacli history fill --dry-run --kind group --limit 20
+wacli history backfill --chat 1234567890@s.whatsapp.net --requests 10 --count 50
+```
+
+Loop over every known chat:
+
+```
+wacli --json chats list --limit 100000 \
+  | jq -r '.data[].JID' \
+  | while read -r jid; do
+      wacli history backfill --chat "$jid" --requests 3 --count 50
+    done
+```
+
+Credits
+-------
+
+Heavily inspired by [`whatsapp-cli`](https://github.com/vicentereig/whatsapp-cli) by Vicente Reig.
+
+Maintainers
+-----------
+
+* Created by [@steipete](https://github.com/steipete)
+* Currently maintained by [@dinakars777](https://github.com/dinakars777)
+
+License
+-------
+
+See [`LICENSE`](/openclaw/wacli/blob/main/LICENSE).

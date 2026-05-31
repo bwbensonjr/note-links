@@ -24,4 +24,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Galois - Claude Can (Sometimes) Prove It
 
-Blog Post Generative AI for Rigorous Digital Engineering Andrew Shaughnessy Read more Tags: Rigorous Digital Engineering Artificial Intelligence & Machine Learning Blog Post Automated Lean Proofs for Every Type Elizaveta Pertseva Read more Tags: Software & Systems Analysis Blog Post Galois Internship Round 2: A Second Summer Intern Experience Mark Moeller Read more Tags: Software & Systems Analysis
+[![](https://cdn.prod.website-files.com/673b407e535dbf3b547179dd/673b407e535dbf3b54717a24_galois%20white%20and%20yellow%404x.png)](/)
+
+[Get Started](#)

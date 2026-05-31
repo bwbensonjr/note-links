@@ -15,4 +15,4 @@ summarizer_model: metadata
 
 # Spatial SQL Explorer
 
-
+DuckDB WASM + spatial extension + MapLibre

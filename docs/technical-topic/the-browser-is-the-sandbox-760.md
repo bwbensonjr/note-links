@@ -21,4 +21,9 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # the browser is the sandbox
 
-Recent articles Wilson Lin on FastRender: a browser built by thousands of parallel agents - 23rd January 2026 First impressions of Claude Cowork, Anthropic's general agent - 12th January 2026 My answers to the questions I posed about porting open source code with LLMs - 11th January 2026
+Recent articles
+---------------
+
+* [Claude Opus 4.8: "a modest but tangible improvement"](/2026/May/28/claude-opus-4-8/) - 28th May 2026
+* [I think Anthropic and OpenAI have found product-market fit](/2026/May/27/product-market-fit/) - 27th May 2026
+* [Notes on Pope Leo XIV's encyclical on AI](/2026/May/25/encyclical-on-ai/) - 25th May 2026

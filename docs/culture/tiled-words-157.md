@@ -16,4 +16,6 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Tiled Words
 
-Would you like to reveal the word? You can reveal up to 3 words per puzzle.
+Would you like to reveal the word?
+
+You can reveal up to 3 words per puzzle.

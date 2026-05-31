@@ -23,4 +23,58 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Possible pancreatic cancer breakthrough
 
-Pancreatic cancer cells. The drug daraxonrasib targets a cellular protein that fuels nearly all pancreatic tumors. Possible pancreatic cancer breakthrough ‘Impossible’ idea led to drug now nearing approval By Gina Kolata and Rebecca Robbins | May 13th, 2026, 3:42 am New York Times Pancreatic cancer is one of the most dire diagnoses in medicine. There are few available treatments, and they do little to help. For decades, experimental drugs flopped in trials. Many researchers believed the biological obstacles could not be surmounted. In what seems like the blink of an eye, all that has changed. A drug nearing regulatory approval, daraxonrasib, is the first to substantially extend the lives of patients with pancreatic cancer. It works by targeting a cellular protein that fuels not just nearly all pancreatic tumors, but also many lung and colon cancers. Those three are the leading causes of cancer deaths. Now, some scientists predict that the approach could wind up being the most significant advance in cancer treatment in 15 years, since the arrival of immunotherapy. The long scientific journey that led to the drug is a triumph of both public and private research funding, succeeding only after decades of false starts and dashed hopes — and the unraveling of conventional wisdom that turned out to be completely wrong. “Every time there was an advance, it led to another dumping of dogma and finding out that what everybody assumed was true was actually not true,’’ said Adrienne Cox, a researcher at the University of North Carolina. Scientists long ago identified their target: a smooth-surfaced protein inside cells, called KRAS, that is altered in certain cancers and drives their growth. Researchers often described it as a “greasy ball,’’ seemingly impervious to assault. “Almost everybody thought that it was going to be impossible to make drugs against KRAS,’’ said Marina Pasca di Magliano, a researcher at the University of Michigan. But it was possible. Over decades, academics laid the groundwork with support from the National Institutes of Health and the Howard Hughes Medical Institute, a nonprofit medical research organization. Then, industry refined the chemistry and turned the idea into a drug, using a novel approach that glues molecules together to grab and shut down KRAS. And now that the protein-targeting strategy shows promise, multiple companies have jumped into the fray. Dozens of similar drugs are now being tested for cancers of the pancreas, lung, and colon. The drug that opened the floodgates, daraxonrasib, has been fast-tracked for review by the Food and Drug Administration and could win approval later this year. Until then, the agency has signed off on a plan by Revolution Medicines, the small Silicon Valley company developing the drug, to offer early access to some patients. The pills, three taken daily, are not a cure. Eventually, daraxonrasib stops working. Many patients do not respond. And it has side effects that can be harsh, including rash, diarrhea, fatigue, nausea, and raw, split fingertips. Until now, however, patients with pancreatic cancer have typically been offered grueling chemotherapy that does little to extend their lives. A gland deep in the abdomen, the pancreas helps regulate blood sugar and digestion. Only 3 percent of these patients with cancer that has spread to distant parts of their body are still alive after five years. The disease kills more than 50,000 Americans a year. Revolution tested daraxonrasib in a late-stage clinical trial in patients who had metastatic cancer and had already tried chemotherapy. For these patients, further treatment was viewed as a Hail Mary. Patients who received the drug lived for a median of more than 13 months, compared with less than seven months for patients who had chemotherapy, the company said in a news release. The usual methods for finding a new treatment were not going to work for pancreatic cancer. A typical way for a drug to work is by binding to a pocket on the surface of a crucial protein, like a rock climber finding a crack in a cliff face, in order to disable it. But KRAS, the greasy ball, had no obvious places where a drug could attach. “Everyone ran away from KRAS,’’ said Channing Der, a pioneering KRAS researcher who is now at the University of North Carolina. “Very prominent members of the field argued this is lunacy, that this is crazy.’’ By Gina Kolata and Rebecca Robbins New York Times
+![](../wp-content/uploads/sites/953/2026/05/import/image_main_05132026_5e6dd3c8-4e5b-11f1-8568-854ff663232f-8d72b574ed5c8692c2c726b52152a561-768x446.jpg)
+
+
+Pancreatic cancer cells. The drug daraxonrasib targets a cellular protein that fuels nearly all pancreatic tumors.
+
+Possible pancreatic cancer breakthrough
+=======================================
+
+‘Impossible’ idea led to drug now nearing approval
+
+By Gina Kolata and Rebecca Robbins
+|
+May 13th, 2026, 3:42 am
+
+New York Times
+
+Pancreatic cancer is one of the most dire diagnoses in medicine. There are few available treatments, and they do little to help. For decades, experimental drugs flopped in trials. Many researchers believed the biological obstacles could not be surmounted.
+
+In what seems like the blink of an eye, all that has changed. A drug nearing regulatory approval, daraxonrasib, is the first to substantially extend the lives of patients with pancreatic cancer. It works by targeting a cellular protein that fuels not just nearly all pancreatic tumors, but also many lung and colon cancers. Those three are the leading causes of cancer deaths.
+
+Now, some scientists predict that the approach could wind up being the most significant advance in cancer treatment in 15 years, since the arrival of immunotherapy.
+
+The long scientific journey that led to the drug is a triumph of both public and private research funding, succeeding only after decades of false starts and dashed hopes — and the unraveling of conventional wisdom that turned out to be completely wrong.
+
+“Every time there was an advance, it led to another dumping of dogma and finding out that what everybody assumed was true was actually not true,’’ said Adrienne Cox, a researcher at the University of North Carolina.
+
+Scientists long ago identified their target: a smooth-surfaced protein inside cells, called KRAS, that is altered in certain cancers and drives their growth. Researchers often described it as a “greasy ball,’’ seemingly impervious to assault.
+
+“Almost everybody thought that it was going to be impossible to make drugs against KRAS,’’ said Marina Pasca di Magliano, a researcher at the University of Michigan.
+
+But it was possible. Over decades, academics laid the groundwork with support from the National Institutes of Health and the Howard Hughes Medical Institute, a nonprofit medical research organization. Then, industry refined the chemistry and turned the idea into a drug, using a novel approach that glues molecules together to grab and shut down KRAS.
+
+And now that the protein-targeting strategy shows promise, multiple companies have jumped into the fray. Dozens of similar drugs are now being tested for cancers of the pancreas, lung, and colon.
+
+The drug that opened the floodgates, daraxonrasib, has been fast-tracked for review by the Food and Drug Administration and could win approval later this year. Until then, the agency has signed off on a plan by Revolution Medicines, the small Silicon Valley company developing the drug, to offer early access to some patients.
+
+The pills, three taken daily, are not a cure. Eventually, daraxonrasib stops working. Many patients do not respond. And it has side effects that can be harsh, including rash, diarrhea, fatigue, nausea, and raw, split fingertips.
+
+Until now, however, patients with pancreatic cancer have typically been offered grueling chemotherapy that does little to extend their lives.
+
+A gland deep in the abdomen, the pancreas helps regulate blood sugar and digestion. Only 3 percent of these patients with cancer that has spread to distant parts of their body are still alive after five years. The disease kills more than 50,000 Americans a year.
+
+Revolution tested daraxonrasib in a late-stage clinical trial in patients who had metastatic cancer and had already tried chemotherapy. For these patients, further treatment was viewed as a Hail Mary.
+
+Patients who received the drug lived for a median of more than 13 months, compared with less than seven months for patients who had chemotherapy, the company said in a news release.
+
+The usual methods for finding a new treatment were not going to work for pancreatic cancer.
+
+A typical way for a drug to work is by binding to a pocket on the surface of a crucial protein, like a rock climber finding a crack in a cliff face, in order to disable it. But KRAS, the greasy ball, had no obvious places where a drug could attach.
+
+“Everyone ran away from KRAS,’’ said Channing Der, a pioneering KRAS researcher who is now at the University of North Carolina. “Very prominent members of the field argued this is lunacy, that this is crazy.’’
+
+By Gina Kolata and Rebecca Robbins
+
+New York Times

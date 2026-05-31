@@ -19,4 +19,17 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # AI is a horse - Kevin Conner
 
-AI is a horse AI is a horse. It is faster than your feet depending on the terrain It is way slower and less reliable than a train but can go more places It eats a lot You cannot simply tell it to go to the store for you You have to tell it where to turn even if it might guess right sometimes You have to keep it on the road even if it usually stays on the road You can only lead it to water, you cannot make it drink A good one runs at the shadow of the whip We are skeptical of those that talk
+AI is a horse
+-------------
+
+AI is a horse.
+
+* It is faster than your feet depending on the terrain
+* It is way slower and less reliable than a train but can go more places
+* It eats a lot
+* You cannot simply tell it to go to the store for you
+* You have to tell it where to turn even if it might guess right sometimes
+* You have to keep it on the road even if it usually stays on the road
+* You can only lead it to water, you cannot make it drink
+* A good one runs at the shadow of the whip
+* We are skeptical of those that talk

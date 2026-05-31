@@ -18,4 +18,4 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Recovering Anthony Bourdain’s (really) lost Li.st’s
 
-Images have been lost . Other avenues had struck no luck. I’ll try again later.
+Images **have been lost**. Other avenues had struck no luck. I’ll try again later.

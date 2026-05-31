@@ -18,4 +18,23 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Careful Words
 
-Careful Words a little bit more than a thesaurus try some words: solitude • moon • book by simon sarris • about
+[Careful Words](/)
+==================
+
+a little bit more than a thesaurus
+
+try some words:
+[solitude](/solitude)
+•
+[moon](/moon)
+•
+[book](/book)
+
+---
+
+![](https://d33wubrfki0l68.cloudfront.net/a373ceadbcdf5b23c4947c0e26dcacd267f2b271/cf19e/_assets/img/reader.jpg)
+
+by
+[simon sarris](https://simonsarris.com)
+•
+[about](/_about)

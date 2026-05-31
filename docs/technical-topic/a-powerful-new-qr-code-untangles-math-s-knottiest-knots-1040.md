@@ -23,4 +23,262 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots | Quanta Magazine
 
-Home A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots Comment Save Article Read Later Share Facebook Copied! Copy link Email Pocket Reddit Ycombinator Comment Comments Save Article Read Later Read Later knot theory A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots By Erica Klarreich April 22, 2026 With a newly discovered mathematical tool, researchers are hoping to gain unprecedented insight into the structure of complex knots. Comment Save Article Read Later Mathematicians recently invented a new way to tell knots apart: by giving each knot a colorful “QR code.” Dror Bar-Natan, Roland van der Veen; Quanta Magazine Introduction From the tangle in your computer cord to the mess your cat made of your knitting basket, knots are everywhere in daily life. They also pervade science, showing up in loops of DNA, intertwined polymer strands, and swirling water currents. And within pure mathematics, knots are the key to many central questions in topology. Yet knot theorists still struggle with the most basic of questions: how to tell two knots apart. It’s hard to decide whether two complicated knots have the same structure just by looking at them. Even if they appear completely different, you might be able to turn one into the other by moving some strands around. (To a mathematician, the ends of a knot are always fastened together so that such motions won’t untie it.) Over the past century, knot theorists have developed a set of clear, if imperfect, tools for distinguishing knots. Called knot invariants, these tools each measure some aspect of a knot — a pattern formed by its interwoven strands, perhaps, or the topology of the space surrounding it. If you use an invariant to measure two knots and you get two different results, you’ve proved the knots are different. But the reverse isn’t always true: If the invariant gives you identical results, the knots may be the same, or they may be different. Some invariants are better at telling knots apart than others, but there’s a trade-off: These stronger invariants tend to be hard to calculate. “Most invariants are either very strong but impossible to compute, or easy to compute but very weak,” said Daniel Tubbenhauer of the University of Sydney. By the time you’re up to knots whose strands cross each other 15 or 20 times, many invariants start to falter — either they fail to distinguish between many knots, or they’re getting too hard to compute. For most knot invariants, said Dror Bar-Natan of the University of Toronto, “if you say ‘300 crossings’ and then you say the word ‘compute,’ you are in science fiction.” A page from an 1885 paper by Peter Guthrie Tait, in which he distinguishes different knots with 10 crossings. Peter Guthrie Tait But now, Bar-Natan and Roland van der Veen of the University of Groningen in the Netherlands have come up with a knot invariant that does not require mathematicians to choose between two evils: It is both strong and easy to compute. “It seems to be right in the sweet spot where exciting things happen,” said Tubbenhauer, who was not involved in the work. This combination of strength and speed means that mathematicians can probe knots that were previously far out of reach. It’s easy to calculate the new invariant for knots with as many as 300 crossings, and Bar-Natan and van der Veen have even calculated some aspects of the invariant for knots with more than 600 crossings. “This breakthrough is comparable to a new kind of telescope: one that not only provides much sharper resolution over familiar ranges, but also extends our reach by a factor of 10,” said Gil Kalai of the Hebrew University of Jerusalem. For each knot, the invariant outputs a colorful hexagonal “QR code,” as symmetric and delicately detailed as a snowflake. “The output is phenomenally beautiful and unbelievably varied,” said Liam Watson of the University of British Columbia. “It just seems to come from another world.” Mathematicians hope that these intricate motifs will point them toward deeper topological features of individual knots. “You immediately start to wonder,” Watson said, “what was it about this given knot that produced this particular pattern?” Buckets of Knots Consider a game in which you draw a knot and try to color each of its strands red, yellow, or blue. The rules are that you must use each color at least once, and that at every crossing, either all three colors appear or only one does. This is possible for some knots, but not others — for example, you can color a trefoil knot, but not a figure-eight knot. Mark Belan/ Quanta Magazine No matter how you further tangle any given knot, if it starts out “three-colorable” then it will remain so. Likewise, knots that aren’t three-colorable stay that way. That makes three-coloring a knot invariant. It’s not so hard to calculate whether a knot is three-colorable, but this invariant is not very good at distinguishing between knots. It separates knots into just two buckets: three-colorable and not three-colorable. If the knots you’re trying to distinguish happen to be in the same bucket, you’re out of luck. You could improve your invariant by using more colors and rules, and by measuring how many colorings a knot has instead of just whether it can be colored. These refinements create stronger invariants, but they also get harder to calculate. Over the past century, knot theorists have come up with hundreds of invariants. Using these tools, they’ve managed to catalog the more than 2 billion knots with 20 or fewer crossings — a heroic effort, considering the shortage of invariants that are both computable and strong. When it comes to identifying knots, “the tools we have in 100 years of knot theory are not particularly great,” Tubbenhauer said. This is partly because the strongest knot invariants tend to emerge from the study of profound topological structures within knots. But few knot theorists are versed in both these theoretical ideas and the computational considerations that go into devising invariants that are easy to calculate. Bar-Natan and van der Veen, two theoreticians who are also adept programmers, are exceptions to this rule. Their new invariant grew out of deep topological ideas, but for now they’ve mainly focused on creating a fast, strong invariant. Making computability the priority in this way is “something culturally new” in knot theory, Watson said. A Knotted Highway Bar-Natan’s path to the new invariant started two decades ago when he was trying to understand ribbon knots — knots that run along the boundary of a ribbon that passes through itself. The work led him to revisit a particularly powerful invariant called the Kontsevich integral, which contains many other knot invariants rolled up inside it. Mathematicians have conjectured that this invariant is so strong that it can distinguish between all knots. “For about five minutes I was happy,” Bar-Natan said. Then he reminded himself that for all practical purposes, the Kontsevich integral is impossible to compute. “It exists as an abstract thing, but you cannot actually deduce anything about any real-life knot from it.” The QR codes of increasingly complicated “square weave” knots. Dror Bar-Natan, Roland van der Veen Bar-Natan set about trying to approximate the Kontsevich integral with more computable invariants that still preserve some of its valuable information. There’s a certain natural sequence of invariants that capture more and more details of the Kontsevich integral. But no one knew how to fully compute these invariants in an efficient way, except for the first member of the sequence. At a lecture at Aarhus University in 2015, Bar-Natan distributed a handout describing his goals. At the bottom, in large magenta italics, he wrote, “Help Needed!” Van der Veen, who was in the audience, answered the call. Together, the pair tried to figure out how to move beyond the first invariant in the sequence. They began by looking at that first invariant: the so-called Alexander polynomial, which was discovered in 1923. In the world of knots, a polynomial converts measurements on a knot into a combination of numbers and variables raised to powers, such as 3 x 7 + 8. (The Alexander polynomial also involves powers of the reciprocal of x .) Over the past century, mathematicians have come up with dozens of different methods to calculate the Alexander polynomial of a knot. Bar-Natan and van der Veen set out to generalize one of these methods, which they were eventually able to formulate in the language of car traffic. Imagine a knot as a one-way highway that you’ve snipped open somewhere so that it has a beginning and an end. Imagine further that there’s a city between each pair of crossings. If a car starts at the beginning of the highway, it will drive through each city once before falling off the end. To construct the Alexander polynomial, imagine that at each crossing, there’s an optional down ramp from the overpass to the underpass. When a car reaches an overpass, there’s some probability — call it x — that the car will take the down ramp instead of the overpass. (The actual setup is a bit more complicated, sometimes involving the reciprocal of x .) Now a car won’t necessarily drive through each city exactly once. Suppose you launch 100 cars in Miami and ask how much traffic will pass through Atlanta. Some cars might visit Atlanta once, but others might go through it multiple times or bypass it entirely. The expected amount of traffic through Atlanta can be written as a function of x that captures information about how the strands of the knot wind in and out of each other. For each pair of cities, you can construct a traffic function. A simple combination of these functions then produces the Alexander polynomial, the first approximation of the Kontsevich integral. Bar-Natan and van der Veen thought it might be possible to write down a similar formula for the second step in the sequence of invariants by creating a traffic scenario involving
+[Home](/)
+
+A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots
+
+[Comment](https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/#comments)
+
+Save Article 
+
+Read Later
+
+###### Share
+
+
+
+[Facebook](http://www.facebook.com/sharer.php?u=https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/)
+
+Copied!
+
+Copy link
+[Email](/cdn-cgi/l/email-protection#231c505641494640571e6208734c54465145564f086d465408066611061b13061a1b727108604c4746066611061b13061a1a08764d57424d444f4650086e42574b066611061b13061a1a5008684d4c57574a46505708684d4c575005414c475a1e744a574b0342034d46544f5a03474a50404c5546514647034e42574b464e42574a40424f03574c4c4f0f03514650464251404b46515003425146034b4c534a4d4403574c0344424a4d03564d535146404647464d574647034a4d504a444b57034a4d574c03574b4603505751564057565146034c4503404c4e534f465b03484d4c57500d7f4d7f4d4b57575350190c0c5454540d5256424d57424e424442594a4d460d4c51440c420e534c54465145564f0e4d46540e52510e404c47460e564d57424d444f46500e4e42574b500e484d4c57574a4650570e484d4c57500e11131115131711110c)
+
+[Pocket](https://getpocket.com/save?url=https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/&title=A+Powerful+New+%E2%80%98QR+Code%E2%80%99+Untangles+Math%E2%80%99s+Knottiest+Knots)
+[Reddit](https://www.reddit.com/submit?url=https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/)
+[Ycombinator](https://news.ycombinator.com/submitlink?u=https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/&t=A+Powerful+New+%E2%80%98QR+Code%E2%80%99+Untangles+Math%E2%80%99s+Knottiest+Knots)
+
+* [Comment
+
+  Comments](#comments)
+* Save Article
+
+  Read Later
+
+  Read Later
+
+[knot theory](/tag/knot-theory/)
+
+A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots
+=========================================================
+
+*By* 
+[Erica Klarreich](https://www.quantamagazine.org/authors/erica-klarreich/)
+
+*April 22, 2026*
+
+With a newly discovered mathematical tool, researchers are hoping to gain unprecedented insight into the structure of complex knots.
+
+[Comment](#comments)
+
+Save Article 
+
+Read Later
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knots-cr-Dror-Bar-Natan_Roland-van-der-Veen_Quanta-Magazine-Lede-scaled.webp)
+
+Mathematicians recently invented a new way to tell knots apart: by giving each knot a colorful “QR code.”
+
+Dror Bar-Natan, Roland van der Veen; *Quanta Magazine*
+
+Introduction
+------------
+
+From the tangle in your computer cord to the mess your cat made of your knitting basket, knots are everywhere in daily life. They also pervade science, showing up in loops of DNA, intertwined polymer strands, and swirling water currents. And within pure mathematics, knots are the key to many central questions in topology.
+
+Yet knot theorists still struggle with the most basic of questions: how to tell two knots apart.
+
+It’s hard to decide whether two complicated knots have the same structure just by looking at them. Even if they appear completely different, you might be able to turn one into the other by moving some strands around. (To a mathematician, the ends of a knot are always fastened together so that such motions won’t untie it.)
+
+Over the past century, knot theorists have developed a set of clear, if imperfect, tools for distinguishing knots. Called knot invariants, these tools each measure some aspect of a knot — a pattern formed by its interwoven strands, perhaps, or the topology of the space surrounding it. If you use an invariant to measure two knots and you get two different results, you’ve proved the knots are different. But the reverse isn’t always true: If the invariant gives you identical results, the knots may be the same, or they may be different.
+
+Some invariants are better at telling knots apart than others, but there’s a trade-off: These stronger invariants tend to be hard to calculate. “Most invariants are either very strong but impossible to compute, or easy to compute but very weak,” said [Daniel Tubbenhauer](https://www.dtubbenhauer.com/) of the University of Sydney.
+
+By the time you’re up to knots whose strands cross each other 15 or 20 times, many invariants start to falter — either they fail to distinguish between many knots, or they’re getting too hard to compute. For most knot invariants, said [Dror Bar-Natan](https://www.math.toronto.edu/drorbn/) of the University of Toronto, “if you say ‘300 crossings’ and then you say the word ‘compute,’ you are in science fiction.”
+
+![Dozens of sketches of different knots.](https://www.quantamagazine.org/wp-content/uploads/2026/04/Tait-Knots-scaled.webp)
+
+A page from an 1885 paper by Peter Guthrie Tait, in which he distinguishes different knots with 10 crossings.
+
+Peter Guthrie Tait
+
+But now, Bar-Natan and [Roland van der Veen](https://www.rolandvdv.nl/) of the University of Groningen in the Netherlands have [come up with a knot invariant](https://arxiv.org/abs/2509.18456) that does not require mathematicians to choose between two evils: It is both strong and easy to compute. “It seems to be right in the sweet spot where exciting things happen,” said Tubbenhauer, who was not involved in the work.
+
+This combination of strength and speed means that mathematicians can probe knots that were previously far out of reach. It’s easy to calculate the new invariant for knots with as many as 300 crossings, and Bar-Natan and van der Veen have even calculated some aspects of the invariant for knots with more than 600 crossings.
+
+“This breakthrough is comparable to a new kind of telescope: one that not only provides much sharper resolution over familiar ranges, but also extends our reach by a factor of 10,” said [Gil Kalai](http://www.ma.huji.ac.il/~kalai/) of the Hebrew University of Jerusalem.
+
+For each knot, the invariant outputs a colorful hexagonal “QR code,” as symmetric and delicately detailed as a snowflake. “The output is phenomenally beautiful and unbelievably varied,” said [Liam Watson](https://personal.math.ubc.ca/~liam/) of the University of British Columbia. “It just seems to come from another world.”
+
+Mathematicians hope that these intricate motifs will point them toward deeper topological features of individual knots. “You immediately start to wonder,” Watson said, “what was it about this given knot that produced this particular pattern?”
+
+**Buckets of Knots**
+--------------------
+
+Consider a game in which you draw a knot and try to color each of its strands red, yellow, or blue. The rules are that you must use each color at least once, and that at every crossing, either all three colors appear or only one does. This is possible for some knots, but not others — for example, you can color a trefoil knot, but not a figure-eight knot.
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Trifold.svg)![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Trifold-MOBILE.svg)
+
+Mark Belan/*Quanta Magazine*
+
+No matter how you further tangle any given knot, if it starts out “three-colorable” then it will remain so. Likewise, knots that aren’t three-colorable stay that way. That makes three-coloring a knot invariant.
+
+It’s not so hard to calculate whether a knot is three-colorable, but this invariant is not very good at distinguishing between knots. It separates knots into just two buckets: three-colorable and not three-colorable. If the knots you’re trying to distinguish happen to be in the same bucket, you’re out of luck. You could improve your invariant by using more colors and rules, and by measuring how many colorings a knot has instead of just whether it can be colored. These refinements create stronger invariants, but they also get harder to calculate.
+
+Over the past century, knot theorists have come up with hundreds of invariants. Using these tools, they’ve managed to catalog the [more than 2 billion knots](https://msp.org/agt/2025/25-1/agt-v25-n1-p12-p.pdf) with 20 or fewer crossings — a heroic effort, considering the shortage of invariants that are both computable and strong. When it comes to identifying knots, “the tools we have in 100 years of knot theory are not particularly great,” Tubbenhauer said.
+
+This is partly because the strongest knot invariants tend to emerge from the study of profound topological structures within knots. But few knot theorists are versed in both these theoretical ideas and the computational considerations that go into devising invariants that are easy to calculate.
+
+Bar-Natan and van der Veen, two theoreticians who are also adept programmers, are exceptions to this rule. Their new invariant grew out of deep topological ideas, but for now they’ve mainly focused on creating a fast, strong invariant. Making computability the priority in this way is “something culturally new” in knot theory, Watson said.
+
+**A Knotted Highway**
+---------------------
+
+Bar-Natan’s path to the new invariant started two decades ago when he was trying to understand ribbon knots — knots that run along the boundary of a ribbon that passes through itself. The work led him to revisit a particularly powerful invariant called the Kontsevich integral, which contains many other knot invariants rolled up inside it. Mathematicians have conjectured that this invariant is so strong that it can distinguish between all knots.
+
+“For about five minutes I was happy,” Bar-Natan said. Then he reminded himself that for all practical purposes, the Kontsevich integral is impossible to compute. “It exists as an abstract thing, but you cannot actually deduce anything about any real-life knot from it.”
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR_Knot_Codes_cr.Paper-Five-Knots-MOBILE.svg)![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR_Knot_Codes_cr.Paper-Five-Knots.svg)
+
+The QR codes of increasingly complicated “square weave” knots.
+
+Dror Bar-Natan, Roland van der Veen
+
+Bar-Natan set about trying to approximate the Kontsevich integral with more computable invariants that still preserve some of its valuable information. There’s a certain natural sequence of invariants that capture more and more details of the Kontsevich integral. But no one knew how to fully compute these invariants in an efficient way, except for the first member of the sequence.
+
+At a lecture at Aarhus University in 2015, Bar-Natan distributed [a handout](https://www.math.toronto.edu/drorbn/Talks/Aarhus-1507/index.html) describing his goals. At the bottom, in large magenta italics, he wrote, “Help Needed!” Van der Veen, who was in the audience, answered the call. Together, the pair tried to figure out how to move beyond the first invariant in the sequence.
+
+They began by looking at that first invariant: the so-called Alexander polynomial, which was discovered in 1923. In the world of knots, a polynomial converts measurements on a knot into a combination of numbers and variables raised to powers, such as 3*x*7 + 8. (The Alexander polynomial also involves powers of the reciprocal of *x*.) Over the past century, mathematicians have come up with dozens of different methods to calculate the Alexander polynomial of a knot. Bar-Natan and van der Veen set out to generalize one of these methods, which they were eventually able to formulate in the language of car traffic.
+
+Imagine a knot as a one-way highway that you’ve snipped open somewhere so that it has a beginning and an end. Imagine further that there’s a city between each pair of crossings. If a car starts at the beginning of the highway, it will drive through each city once before falling off the end.
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Trifold-Roads-MOBILE.svg)![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Trifold-Roads-V2.svg)
+
+To construct the Alexander polynomial, imagine that at each crossing, there’s an optional down ramp from the overpass to the underpass. When a car reaches an overpass, there’s some probability — call it *x* — that the car will take the down ramp instead of the overpass. (The actual setup is a bit more complicated, sometimes involving the reciprocal of *x*.)
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Trifold-Ramp.svg)
+
+Now a car won’t necessarily drive through each city exactly once. Suppose you launch 100 cars in Miami and ask how much traffic will pass through Atlanta. Some cars might visit Atlanta once, but others might go through it multiple times or bypass it entirely. The expected amount of traffic through Atlanta can be written as a function of *x* that captures information about how the strands of the knot wind in and out of each other.
+
+For each pair of cities, you can construct a traffic function. A simple combination of these functions then produces the Alexander polynomial, the first approximation of the Kontsevich integral.
+
+Bar-Natan and van der Veen thought it might be possible to write down a similar formula for the second step in the sequence of invariants by creating a traffic scenario involving two kinds of cars that take the down ramp with different probabilities (say, *x* and *y*). But despite many efforts, they couldn’t figure out a traffic setup that worked. Then one day, they took inspiration from the mathematics of subatomic particles.
+
+Just as particles can combine or split apart into other particles, Bar-Natan and van der Veen envisioned their two types of cars sometimes coming together to form a third type of vehicle — as if one were being towed by the other. The two cars would then traverse the highway as a single vehicle. Later, they might split apart again and go their separate ways. Once again, you can calculate how much of the traffic starting in Miami should pass through Atlanta, but this time, you also keep track of the different vehicle types.
+
+![15 hexagons with different red and blue patterns.](https://www.quantamagazine.org/wp-content/uploads/2026/04/Hexagons.svg)
+
+The QR codes of several knots that have 300 crossings or more.
+
+Dror Bar-Natan, Roland van der Veen
+
+Bar-Natan and van der Veen felt convinced that they had hit on the right setup, but they still didn’t know how to combine all their traffic functions to directly generate a knot invariant. What their setup did give them, though, was a feel for the general “shape” such an invariant should have. So they resorted to an old trick, simply writing down a formula in the correct general shape and then adjusting its coefficients to make it stay invariant even when the strands of the knot got moved around.
+
+“We in some sense just winged it,” van der Veen said.
+
+The result, a convoluted polynomial in the variables *x* and *y*, has left other researchers scratching their heads. “The fact that you do this complicated thing with the cars and the turnoffs and the probabilities, and the answer that comes out of it will be the same no matter what picture of the knot you took — that’s the amazing thing,” said [Zsuzsanna Dancso](https://www.zsuzsannadancso.net/) of the University of Sydney. “How the heck did they come up with it?”
+
+**Knotted Dreams**
+------------------
+
+While the polynomial looks messy, a computer can calculate it easily, even for knots with hundreds of crossings. And it is strong: Tubbenhauer computed, for instance, that the invariant uniquely identifies more than 97% of the knots with 18 crossings. By comparison, the Jones polynomial, one of the most widely used invariants for cataloging knots, identifies about 42%, and the Alexander polynomial only about 11%.
+
+“I think there’s nothing that comes close to the computability and relative power of this invariant,” Watson said.
+
+By plotting the coefficients of the polynomial as a sort of heat map, the researchers have created striking visuals — an ornate hexagonal QR code for each knot. Two knots with different QR codes are guaranteed to be different knots.
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Code-for-Knots-V2.svg)![](https://www.quantamagazine.org/wp-content/uploads/2026/04/QR-Knot-Codes-cr.Mark-Belan-Code-for-Knots-MOBILE.svg)
+
+Mark Belan/*Quanta Magazine*
+
+Bar-Natan and van der Veen expect that this QR code will have many uses beyond distinguishing between knots. In a section of their paper called “Stories, Conjectures, and Dreams,” they propose that the QR code might help elucidate a broad array of topological features of knots. For instance, the hexagon’s diameter, they believe, will put a lower bound on a measure of knot complexity called the knot’s genus (which is also crucial to the study of surfaces). If this proves true, Dancso said, “that means we are going to be much better at calculating the genus of large knots.”
+
+Bar-Natan and van der Veen, as well as other researchers, are convinced that the new invariant is equivalent to the second approximation to the Kontsevich integral, which mathematicians call the two-loop polynomial and [have](https://arxiv.org/abs/math/0003187) [been](https://arxiv.org/abs/math/0005284) [studying](https://msp.org/gt/2007/11-3/p04.xhtml) for decades. “I would bet my house” on it, said [Lev Rozansky](https://math.unc.edu/faculty-member/rozansky-lev/) of the University of North Carolina, Chapel Hill, one of the first to study the two-loop polynomial.
+
+In its traditional form, the two-loop polynomial is hard to compute but topologically rich. So proving this equivalence would instantly confirm much of the topological power that Bar-Natan and van der Veen ascribe to their new invariant. Even so, the authors hope that they will eventually be able to explain the new invariant in a less complicated way. “An elementary construction ought to have a simple explanation,” they wrote.
+
+In a sense, they feel that they’ve stumbled into the middle of the story. “We are quite unsure about the beginning and the end,” they wrote.
+
+Meanwhile, there’s nothing stopping researchers from trying to create traffic setups with even more cars and variables, to try to capture more and more of the information stored in the Kontsevich integral. “There’s a whole zoo of similar-type things just waiting for us,” van der Veen said.
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/04/End-image.webp)
+
+The Quanta Newsletter
+
+*Get highlights of the most important news delivered to your email inbox*
+
+[Recent newsletters](http://us1.campaign-archive2.com/home/?u=0d6ddf7dc1a0b7297c8e06618&id=f0cb61321c)
+
+Also in Mathematics
+-------------------
+
+[Two Researchers Are Rebuilding Mathematics From the Ground Up
+
+![An illustration of a brick wall with mathematical symbols.](https://www.quantamagazine.org/wp-content/uploads/2026/05/TearInTopology-crKristinaArmitage-Default.webp)](https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/)
+
+[foundations of mathematics](/tag/foundations-of-mathematics/)
+
+[### Two Researchers Are Rebuilding Mathematics From the Ground Up](https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/)
+
+*By* 
+[Konstantin Kakaes](https://www.quantamagazine.org/authors/konstantin-kakaes/)
+
+May 20, 2026
+
+[Comment](https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/#comments)
+
+Save Article 
+
+Read Later
+
+[How Alexander Grothendieck Revolutionized 20th-Century Mathematics
+
+![](https://www.quantamagazine.org/wp-content/uploads/2026/05/Grothendieck-cr-Mercedes-deBellard-Default.webp)](https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/)
+
+[explainers](/tag/explainers/)
+
+[### How Alexander Grothendieck Revolutionized 20th-Century Mathematics](https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/)
+
+*By* 
+[Konstantin Kakaes](https://www.quantamagazine.org/authors/konstantin-kakaes/)
+
+May 20, 2026
+
+[Comment](https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/#comments)
+
+Save Article 
+
+Read Later
+
+[What Do Gödel’s Incompleteness Theorems Truly Mean?
+
+![](https://www.quantamagazine.org/wp-content/uploads/2050/01/Qualia-Incompleteness-cr-Kurt-Godel-Papers-the-Shelby-White-and-Leon-Levy-Achives-Center-Institute-for-Advanced-Study-Samuel-Velasco-and-Michael-Kanyongolo-Default.webp)](https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/)
+
+[Qualia](/tag/qualia/)
+
+[### What Do Gödel’s Incompleteness Theorems Truly Mean?](https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/)
+
+*By* 
+[Natalie Wolchover](https://www.quantamagazine.org/authors/natalie/)
+
+May 18, 2026
+
+[Comment](https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/#comments)
+
+Save Article 
+
+Read Later
+
+Comment on this article
+-----------------------
+
+*Quanta Magazine moderates comments to facilitate an informed, substantive, civil conversation. Abusive, profane, self-promotional, misleading, incoherent or off-topic comments will be rejected. Moderators are staffed during regular business hours (New York time) and can only accept comments written in English.*
+
+Show comments
+
+![A collage illustration depicting a model of the proteins in a flagellar motor, surrounded by images of vintage rotors and gears, and diagrams of bacteria.](https://www.quantamagazine.org/wp-content/uploads/2026/04/FlagellarMotors-crKristinaArmitage-HP-1720x729.jpg)
+
+Next article
+------------
+
+What Physical ‘Life Force’ Turns Biology’s Wheels?

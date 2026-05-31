@@ -19,4 +19,15 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # ClojureStream - Learn Clojure with Real-World Projects
 
-Clojure Stream ClojureStream is your place for all things Clojure, ClojureScript, and Datalog. Access structured learning paths, engage in live workshops, explore insightful podcast conversations, and more within one dedicated platform built by and for the Clojure community. Subscribe to our newsletter No spam, ever. Unsubscribe anytime.
+Your Place for All Things Clojure
+
+ClojureStream
+-------------
+
+ClojureStream is your place for all things Clojure, ClojureScript, and Datalog. Access structured learning paths, engage in live workshops, explore insightful podcast conversations, find Clojure jobs, and more within one dedicated platform built by and for the Clojure community.
+
+Subscribe to our newsletter
+
+No spam, ever. Unsubscribe anytime.
+
+![ClojureStream](/img/clojurestream-logo.svg)

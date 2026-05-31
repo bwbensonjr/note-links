@@ -17,4 +17,16 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # LisaGUI
 
-NO JS 1 REFRESH PAGE 2 MORE INFO 3 STARTUP FROM...
+NO JS
+
+[1](.)
+
+REFRESH PAGE
+
+[2](https://lisagui.com/info.html)
+
+MORE INFO
+
+3
+
+STARTUP FROM...

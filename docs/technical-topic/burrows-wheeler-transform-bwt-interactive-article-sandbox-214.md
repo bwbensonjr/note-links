@@ -21,4 +21,4 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Burrows-Wheeler Transform (BWT) - Interactive article - sandbox.bio
 
-Write down all rotations b a n a n a $ a n a n a $ b n a n a $ b a a n a $ b a n n a $ b a n a a $ b a n a n $ b a n a n a Sort strings (row-wise) $ b a n a n a a $ b a n a n a n a $ b a n a n a n a $ b b a n a n a $ n a $ b a n a n a n a $ b a The BWT is the last column a n n b $ a a
+String to encode:

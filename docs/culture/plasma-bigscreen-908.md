@@ -20,4 +20,16 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Plasma Bigscreen
 
-Plasma Bigscreen An open-source TV interface for Linux. Your TV, your way. Coming Soon! Get Started Learn More
+![Plasma Bigscreen](https://plasma-bigscreen.org/img/logo.svg)
+
+Plasma Bigscreen
+================
+
+An open-source TV interface for Linux. Your TV, your way.
+
+Coming Soon!
+
+[Get Started](https://plasma-bigscreen.org/get/)
+[Learn More](#about)
+
+![Plasma Bigscreen homescreen](https://plasma-bigscreen.org/img/Bigscreen1.png)

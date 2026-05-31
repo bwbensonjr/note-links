@@ -20,4 +20,17 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # riscv-vector-primer/index.md at main · simplex-micro/riscv-vector-primer · GitHub
 
-simplex-micro / riscv-vector-primer Public Notifications You must be signed in to change notification settings Fork 3 Star 56
+RISC-V Vector Primer
+====================
+
+A structured, open technical primer explaining the RISC-V Vector Extension.
+
+Chapters
+--------
+
+* [Chapter 1](/simplex-micro/riscv-vector-primer/blob/main/chapter-01.md)
+* [Chapter 2](/simplex-micro/riscv-vector-primer/blob/main/chapter-02.md)
+* [Chapter 3](/simplex-micro/riscv-vector-primer/blob/main/chapter-03.md)
+* [Chapter 4](/simplex-micro/riscv-vector-primer/blob/main/chapter-04.md)
+* [Chapter 5](/simplex-micro/riscv-vector-primer/blob/main/chapter-05.md)
+* [Chapter 6](/simplex-micro/riscv-vector-primer/blob/main/chapter-06.md)

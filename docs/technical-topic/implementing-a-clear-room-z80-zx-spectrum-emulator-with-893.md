@@ -23,4 +23,5 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code - <antirez>
 
-Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code
+[Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code](/news/160)
+----------------------------------------------------------------------------------

@@ -13,4 +13,15 @@ summarizer_model: metadata
 
 # Prime Number Grid Explorer
 
+Start
 
+Rows
+
+Cols
+
+−
++
+«
+»
+·
+t

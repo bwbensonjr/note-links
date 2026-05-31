@@ -19,4 +19,7 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # CadQuery | Create parametric CAD models with Python
 
-CadQuery is an open-source Python library for building 3D CAD models. It lets you describe parts as code, making models easy to version, share, and parameterize - no GUI required. Documentation Downloads
+CadQuery is an open-source Python library for building 3D CAD models. It lets you describe parts as code, making models easy to version, share, and parameterize - no GUI required.
+
+[Documentation](https://cadquery.readthedocs.io)
+[Downloads](downloads)

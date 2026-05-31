@@ -14,4 +14,5 @@ summarizer_model: metadata
 
 # Byte - a visual archive
 
-
+A visual archive.
+[About](#about).

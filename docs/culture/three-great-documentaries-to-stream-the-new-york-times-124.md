@@ -19,4 +19,14 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Three Great Documentaries to Stream - The New York Times
 
-NYTIMES.COM Three Great Documentaries to Stream Redirecting to https://www.nytimes.com/2025/11/28/movies/three-great-documentaries-to-stream.html#23f199bc08d15c3ebda6cfa4ae338abc
+[![Best of Enemies](https://www.nytimes.com/shared/v1/cl-single.png?uri=nyt%3A%2F%2Farticle%2F75095066-dc08-57b4-93cf-ae944b5bb482&ca=23f199bc08d15c3ebda6cfa4ae338abc&bg=false)](https://www.nytimes.com/2025/11/28/movies/three-great-documentaries-to-stream.html#23f199bc08d15c3ebda6cfa4ae338abc)
+  
+
+NYTIMES.COM
+
+[Three Great Documentaries to Stream](https://www.nytimes.com/2025/11/28/movies/three-great-documentaries-to-stream.html#23f199bc08d15c3ebda6cfa4ae338abc)
+
+  
+
+Redirecting to
+<https://www.nytimes.com/2025/11/28/movies/three-great-documentaries-to-stream.html#23f199bc08d15c3ebda6cfa4ae338abc>

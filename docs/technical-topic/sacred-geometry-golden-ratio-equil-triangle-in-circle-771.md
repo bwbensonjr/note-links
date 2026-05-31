@@ -18,4 +18,5 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Sacred Geometry:Golden Ratio:Equil.Triangle in circle:GeometryCode.com
 
-Another interesting way to graphically derive the Golden Ratio using an equilateral triangle inscribed in a circle and the chord which passes through the midpoints of the sides of the equilateral triangle.
+Inscribed Triangle Phi Another interesting way to graphically derive the Golden Ratio using an equilateral triangle inscribed in a circle and the chord which passes through the midpoints of the sides of the equilateral triangle.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

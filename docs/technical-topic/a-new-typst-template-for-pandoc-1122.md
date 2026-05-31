@@ -21,4 +21,74 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # A New Typst Template for Pandoc
 
-A New Typst Template for Pandoc JMax • March 24, 2025 • typography Last summer I spent a lot of time with Typst (at that point v0.11) and Pandoc, working on a flexible and reusable workflow to typeset markdown-formatted articles to PDF. I designed a Pandoc template for Typst that would do nice things with layout and typography, and I posted about that here . Fast-forward to spring 2025. In the intervening months, Typst has been upgraded twice (to v0.13) and Pandoc has upgraded at least 3 times (currently at v3.6.4), and my templates don’t work anymore. Partly this is because Pandoc’s own Typst output template is different and makes some different assumptions about how it is called, and partly because major changes to Typst’s logic emerged since v0.12 So this past month – in the context of a graduate class I teach – I set about rebuilding my workflow. My new templates (see below) use Pandoc’s default Typst output template, which itself does very little in terms of formatting, but now utilize an actual Typst Template (that is, written for Typst, not for Pandoc). It’s called like so: pandoc file.md -o file.pdf -V template=article.typ --pdf-engine=typst Note that this looks kinda similar asking Pandoc to use one of its templates, but note that this is actually -V passing a variable to Pandoc… Pandoc’s own template.typst watches for this to be set, and then imports the named template. That’s a little syntactically confusing (I was confused), but it does separate out Pandoc’s logic from Typst’s logic. As it should be. This ought to be a little more robust long-term, too. Breaking that up a bit for clarity… pandoc article.md \ -f markdown --wrap=none \ -t pdf --pdf-engine=typst \ -V template=article.typ \ -o article.pdf The Typst template I’ve produced assumes you’re running it this way, and it gathers all the metadata Pandoc can recognize from your markdown source. I’m assuming you have a metadata block at the top of your markdown source with things like title , author , date , and so on. You can download the template, and I’ll explain how it works below: Download article.typ The Template I’ve set up this template to do a fair bit of work; not all of this may be needed; you can disable stuff if you like. Let’s walk through it section by section. The first part is a content-to-string mapping that I cribbed straight from Pandoc’s minimal Typst template… this just assembles multi-part metadata (like authors’ names and emails) and makes it available to Typst. After that we set up the conf for the template, setting up default values for the things that are coming in from document metadata, as well as boilerplate stuff like page size and format, base font, and numbering options. The first big customization is a set of routines for running heads and footers (feets?): specifically, if we have left and right facing pages (as in a book), we want the headers and footers to align left and right, and also optionally to include different content on each. If you don’t care about L & R pages, you can first change the margins (line 41) so that “inside” and “outside” are the same value, and then set the running headers to be the same for both L & R – it’s simply based on whether the current page number is even or odd. You could also set the align to centred if you prefer. Next up is a set of basic text properties: Typst has support for OpenType font options, so you can turn on ligatures, old-style figures, and so on. Below that (from line 110 ff ) are a set of parameters defining the styling for block-quotations, code blocks, images and captions, ad footnotes. There’s not a lot to this, just some attention to details. It’s a little nicer than the defaults, to my eye. Line 143 onward defines three levels of headings, with some stylistic differences that you could mix and match and customize as you like. Some of this formatting is fancier than it needs to be, merely demonstrating what Typst can do and making it easier to tweak the styles later on. Following line 170, I have set up two labelled sections: for epigraphs and for a References section: styling these distinctively (e.g., a hanging indent for the Refs). These are invoked by this bit of markdown which Pandoc recognizes, and which results in a Typst ‘label.’ This is equivalent to putting an ID on a div in HTML: ::: {#epigraph} It was the best of times... ::: You could follow suit and style whatever labels you want to put in your content. After that (line 185 ff ), we ask Typst to style specific bits of text. A nice example is the regex that matches a date followed by “CE” – this will put the “CE” in smallcaps. Another one styles URLs. You could make lots more of these! After line 192 is the actual layout of the document. I kept this simple, but this could be much more elaborate, simply by writing more Typst code here. We begin with a title/metadata display block: the title, authors, date, and abstract, formatted with a bit of extra vertical space around it and with a line separating this from the body. Then we display the body text. Here, I set the paragraph style (justified, and with first-line-indents). I set these here instead of earlier, so that the title block isn’t also trying to have first-line-indents and justification. Last, a little colophon giving credit to Typst and Pandoc. This is functionally the same as what I blogged about last summer, although the code is a little simpler and better organized (partly because Typst is smarter; partly because I read the Typst docs better)
+A New Typst Template for Pandoc
+===============================
+
+JMax •
+March 24, 2025 •
+[typography](/categories/typography)
+
+Last summer I spent a lot of time with Typst (at that point v0.11) and Pandoc, working on a flexible and reusable workflow to typeset markdown-formatted articles to PDF. I designed a Pandoc template for Typst that would do nice things with layout and typography, and I [posted about that here](/posts/2024/pandoc-typst-tutorial/).
+
+Fast-forward to spring 2025. In the intervening months, Typst has been upgraded twice (to v0.13) and Pandoc has upgraded at least 3 times (currently at v3.6.4), and my templates don’t work anymore. Partly this is because Pandoc’s own Typst output template is different and makes some different assumptions about how it is called, and partly because major changes to Typst’s logic emerged since v0.12
+
+So this past month – in the context of a [graduate class I teach](https://www.sfu.ca/publishing/master-of-publishing/masters-courses/pub-607.html) – I set about rebuilding my workflow. My new templates (see below) use Pandoc’s default Typst output template, which itself does very little in terms of formatting, but now utilize an actual Typst Template (that is, written for Typst, not for Pandoc). It’s called like so:
+
+```
+pandoc file.md -o file.pdf  -V template=article.typ --pdf-engine=typst
+```
+
+Note that this *looks* kinda similar asking Pandoc to use one of *its* templates, but note that this is actually **-V** passing a variable to Pandoc… Pandoc’s own template.typst watches for this to be set, and then imports the named template. That’s a little syntactically confusing (I was confused), but it does separate out Pandoc’s logic from Typst’s logic. As it should be. This ought to be a little more robust long-term, too.
+
+Breaking that up a bit for clarity…
+
+```
+pandoc article.md \
+  -f markdown --wrap=none \
+  -t pdf --pdf-engine=typst \
+  -V template=article.typ \
+  -o article.pdf
+```
+
+The Typst template I’ve produced assumes you’re running it this way, and it gathers all the metadata Pandoc can recognize from your markdown source. I’m assuming you have a metadata block at the top of your markdown source with things like *title*, *author*, *date*, and so on.
+
+You can download the template, and I’ll explain how it works below:
+
+> [Download article.typ](../img/article.typ)
+
+The Template
+------------
+
+I’ve set up this template to do a fair bit of work; not all of this may be needed; you can disable stuff if you like. Let’s walk through it section by section.
+
+The first part is a `content-to-string` mapping that I cribbed straight from Pandoc’s minimal Typst template… this just assembles multi-part metadata (like authors’ names and emails) and makes it available to Typst.
+
+After that we set up the `conf` for the template, setting up default values for the things that are coming in from document metadata, as well as boilerplate stuff like page size and format, base font, and numbering options.
+
+The first big customization is a set of routines for running heads and footers (feets?): specifically, if we have *left* and *right* facing pages (as in a book), we want the headers and footers to align left and right, and also optionally to include different content on each. If you don’t care about L & R pages, you can first change the margins (line 41) so that “inside” and “outside” are the same value, and then set the running headers to be the same for both L & R – it’s simply based on whether the current page number is even or odd. You could also set the `align` to centred if you prefer.
+
+Next up is a set of basic text properties: Typst has support for OpenType font options, so you can turn on ligatures, old-style figures, and so on.
+
+Below that (from line 110*ff*) are a set of parameters defining the styling for block-quotations, code blocks, images and captions, ad footnotes. There’s not a lot to this, just some attention to details. It’s a little nicer than the defaults, to my eye.
+
+Line 143 onward defines three levels of headings, with some stylistic differences that you could mix and match and customize as you like. Some of this formatting is fancier than it needs to be, merely demonstrating what Typst can do and making it easier to tweak the styles later on.
+
+Following line 170, I have set up two *labelled sections:* for epigraphs and for a References section: styling these distinctively (e.g., a hanging indent for the Refs). These are invoked by this bit of markdown which Pandoc recognizes, and which results in a Typst ‘label.’ This is equivalent to putting an ID on a `div` in HTML:
+
+```
+::: {#epigraph}
+It was the best of times...
+:::
+```
+
+You could follow suit and style whatever labels you want to put in your content.
+
+After that (line 185*ff*), we ask Typst to style specific bits of text. A nice example is the regex that matches a date followed by “CE” – this will put the “CE” in smallcaps. Another one styles URLs. You could make lots more of these!
+
+After line 192 is the actual layout of the document. I kept this simple, but this could be much more elaborate, simply by writing more Typst code here. We begin with a title/metadata display block: the title, authors, date, and abstract, formatted with a bit of extra vertical space around it and with a line separating this from the body.
+
+Then we display the body text. Here, I set the paragraph style (justified, and with first-line-indents). I set these here instead of earlier, so that the title block isn’t also trying to have first-line-indents and justification.
+
+Last, a little colophon giving credit to Typst and Pandoc.
+
+This is functionally the same as what I blogged about last summer, although the code is a little simpler and better organized (partly because Typst is smarter; partly because I read the Typst docs better)

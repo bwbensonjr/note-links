@@ -20,4 +20,11 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Adobe Photoshop Source Code - CHM
 
-Home CHM BLOG From the Collection Adobe Photoshop Source Code By Leonard J. Shustek | February 13, 2013
+[Home](https://live-comp-history-museum.pantheonsite.io/)  [CHM BLOG](https://computerhistory.org/blogs/)  [From the Collection](https://computerhistory.org/blog/category/from-the-collection/)
+
+Adobe Photoshop Source Code
+===========================
+
+#### By [Leonard J. Shustek](https://computerhistory.org/profile/leonard-j-shustek/) | February 13, 2013
+
+![](https://computerhistory.org/wp-content/themes/bsdstarter/assets/img/basic-page-core-memory.svg)

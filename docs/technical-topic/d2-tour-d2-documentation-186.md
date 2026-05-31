@@ -23,4 +23,36 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # D2 Tour | D2 Documentation
 
-Contents D2 is a diagram scripting language that turns text to diagrams. It stands for Declarative Diagramming . Declarative, as in, you describe what you want diagrammed, it generates the image. For example, download the CLI, create a file named input.d2 , copy paste the following, run this command, and you get the image below. NETWORK USER API SERVER LOGS CELL TOWER ONLINE PORTAL DATA PROCESSOR SATELLITES TRANSMITTER UI STORAGE SEND SEND SEND PHONE LOGS MAKE CALL ACCESS DISPLAY PERSIST Using the CLI watch mode ​ You can finish this tour in about 5-10 minutes, and at the end, there's a cheat sheet you can download and refer to. If you want just the bare essentials, Getting Started takes ~2 mins. info The source code for D2 is hosted here: https://github.com/terrastruct/d2 . The source code for these docs are here: https://github.com/terrastruct/d2-docs . info For each D2 snippet, you can hover over it to open directly in the Playground and tinker. There's some exceptions like snippets that use imports.
+Contents
+
+**D2** is a diagram scripting language that turns text to diagrams. It stands for
+**Declarative Diagramming**. Declarative, as in, you describe what you want diagrammed, it
+generates the image.
+
+For example, download the CLI, create a file named `input.d2`, copy paste the following,
+run this command, and you get the image below.
+
+NETWORKUSERAPI SERVERLOGSCELL TOWERONLINE PORTALDATA PROCESSORSATELLITESTRANSMITTERUISTORAGE  SENDSENDSENDPHONE LOGSMAKE CALL  ACCESSDISPLAYPERSIST
+
+Using the CLI watch mode[​](#using-the-cli-watch-mode "Direct link to Using the CLI watch mode")
+------------------------------------------------------------------------------------------------
+
+![D2 CLI](/assets/images/cli-d53efad8a27f22b9520d9cd7dc9658d1.gif)
+
+You can finish this tour in about 5-10 minutes, and at the end, there's a cheat sheet you
+can download and refer to. If you want just the bare essentials, [Getting Started](/tour/hello-world/) takes
+~2 mins.
+
+info
+
+The source code for D2 is hosted here:
+<https://github.com/terrastruct/d2>.
+
+The source code for these docs are here:
+<https://github.com/terrastruct/d2-docs>.
+
+info
+
+For each D2 snippet, you can hover over it to open directly in the Playground and tinker.
+
+There's some exceptions like snippets that use imports.

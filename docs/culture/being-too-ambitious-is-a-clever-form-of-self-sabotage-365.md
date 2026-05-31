@@ -22,4 +22,30 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # being too ambitious is a clever form of self-sabotage
 
-being too ambitious is a clever form of self-sabotage on starting, doing, being, and becoming. maalvika Jun 06, 2025 ∙ Paid 6,573 198 2,158 Share This post is for paid subscribers Already a paid subscriber? Sign in Previous Next
+being too ambitious is a clever form of self-sabotage
+=====================================================
+
+### on starting, doing, being, and becoming.
+
+[![maalvika's avatar](https://substackcdn.com/image/fetch/$s_!jriu!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eb8773a-c586-4b2e-a6de-d56ea45a4e22_1792x1792.jpeg)](https://substack.com/@maalvika)
+
+[maalvika](https://substack.com/@maalvika)
+
+Jun 06, 2025
+
+∙ Paid
+
+6,570
+
+195
+
+2,146
+
+Share
+
+This post is for paid subscribers
+---------------------------------
+
+[Already a paid subscriber? **Sign in**](https://substack.com/sign-in?redirect=%2Fp%2Fbeing-too-ambitious-is-a-clever-form&for_pub=maalvika&change_user=false)
+
+PreviousNext

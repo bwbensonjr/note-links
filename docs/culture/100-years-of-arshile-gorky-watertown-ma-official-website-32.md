@@ -19,4 +19,69 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # 100 Years of Arshile Gorky | Watertown, MA - Official Website
 
-Skip to Main Content 100 Years of Arshile Gorky Arshile Gorky (born Vosdanig Adoian) painting at his sister Akabi’s house on Dexter Avenue in Watertown, MA, c. 1922. Unknown photographer. Collection of the Arshile Gorky Foundation. Gift of Gail Sarkissian. About "100 Years of Arshile Gorky" Watertown Public Arts & Culture is collaborating with several community stakeholders to commemorate the life and work of the former surrealist artist Arshile Gorky, who, notably, forged the birth of Abstract Expressionism in the United States. After surviving the 1915 Armenian genocide and its aftermath, Gorky arrived in Watertown in February 1920 as part of a third wave of Armenians immigrants arriving in the United States to escape persecution. He lived in Watertown with his sisters until late 1924 to early 1925, when he moved to New York City. Gorky’s impact on art history and his continued influence on contemporary art cannot be overstated. Watertown has long been a haven for Armenian immigrants and the East End of Watertown, where Gorky lived, is proud to be the home of several Armenian art and cultural organizations. The working group is led jointly by resident Jack Dargon and Public Arts and Culture Planner, Liz Helfer, in collaboration with The Armenian Museum of America, Mosesian Center for the Arts, and the Historical Society of Watertown. The project is supported by Mount Auburn Cemetery, Arshile Gorky Foundation, Watertown Cultural Council, Massachusetts Cultural Council, Massachusetts Department of Conservation & Recreation, Watertown Community Foundation, and Watertown's Public Arts & Culture Committee. Self-Guided Tour: Arshile Gorky in Watertown on Storymaps See where Arshile Gorky worked and lived in Watertown and learn about how he got started painting in the United States. Commemorative Events City Council Resolution: Commemorating a Day Watertown City Council proclaimed March 1, 2025, in honor of Arshile Gorky, read the full proclamation . City Council Resolution: Naming a Square The City Council voted to name the square at the intersection of Dexter Avenue and Hazel Street in honor of Arshile Gorky, at the end of the block where he used to live. Signage forthcoming. Capsule Collection at Watertown Free Public Library In March 2025, enjoy a capsule collection of books and resources about Arshile Gorky, the Abstract Expressionist art movement, and Armenia. Exhibition: Gorky and the Language of Drawing at Mosesian Center for the Arts Co-curated with Bill Flynn. The exhibit will be on view March 7 to April 25, 2025. Learn more through the Mosesian Center for the Arts website . Opening reception on March 13 from 5:30-7pm. View the full catalog. Screening of "Without Gorky" at Mosesian Center for the Arts On March 28, 2025, at 7:30pm enjoy a showing of Without Gorky by the artist’s granddaughter Cosima Spender, followed by a Q&A with art historian Bruce Weber, artist Bill Flynn, and Parker Field, director of the Arshile Gorky Foundation. Mural on the Watertown-Cambridge Greenway The Watertown Public Arts and Culture Committee is collaborating with the Massachusetts Department of Conservation and Recreation (DCR) to commission a mural by Brandon Gaia Marshall at the Grove Street underpass on the Watertown-Cambridge Greenway that commemorates the life and work of Arshile Gorky. Read the full call (PDF) . The mural will be installed April 15-June 15. Learn more about Brandon Gaia Marshall and his mural design . Opening reception scheduled for June 10 from 5:30-7:00pm. Watertown Walks: Gorky and Mental Health with Live Well Watertown Part of the Watertown Walks series. Explore the sites where Gorky used to live and work on June 12 from 1-2pm. Meet at the intersection of Arlington St and Nichols Ave. Exhibition curated by Kim Theriault at Armenian Museum of America Coming in Fall 2025. 100 Years of Arshile Gorky Committee: Jack Dargon, Chair, 100 Years of Arshile Gorky Liz Helfer, Public Arts & Culture Planner, City of Watertown Boriana Kantcheva, Artistic Director, Mosesian Center for the Arts Jason Sohigian, Director, Armenian Museum of America Joyce Kelly, Member, Historical Society of Watertown Left: Gorky soon after his arrival in the United States, 1920. Unknown photographer. Government Websites by CivicPlus® []
+100 Years of Arshile Gorky
+==========================
+
+![Gorky Watertown 1922](https://content.civicplus.com/api/assets/a09364ea-e538-4634-a5b7-8cec0684a0ea)
+
+Arshile Gorky (born Vosdanig Adoian) painting at his sister Akabi’s house on Dexter Avenue in Watertown, MA, c. 1922. Unknown photographer. Collection of the Arshile Gorky Foundation. Gift of Gail Sarkissian.
+
+### About "100 Years of Arshile Gorky"
+
+Watertown Public Arts & Culture is collaborating with several community stakeholders to commemorate the life and work of the former surrealist artist Arshile Gorky, who, notably, forged the birth of Abstract Expressionism in the United States. After surviving the 1915 Armenian genocide and its aftermath, Gorky arrived in Watertown in February 1920 as part of a third wave of Armenians immigrants arriving in the United States to escape persecution. He lived in Watertown with his sisters until late 1924 to early 1925, when he moved to New York City. Gorky’s impact on art history and his continued influence on contemporary art cannot be overstated. Watertown has long been a haven for Armenian immigrants and the East End of Watertown, where Gorky lived, is proud to be the home of several Armenian art and cultural organizations.
+
+The working group is led jointly by resident Jack Dargon and Public Arts and Culture Planner, Liz Helfer, in collaboration with The Armenian Museum of America, Mosesian Center for the Arts, and the Historical Society of Watertown. The project is supported by Mount Auburn Cemetery, Arshile Gorky Foundation, Watertown Cultural Council, Massachusetts Cultural Council, Massachusetts Department of Conservation & Recreation, Watertown Community Foundation, and Watertown's Public Arts & Culture Committee.
+
+**Self-Guided Tour:**[**Arshile Gorky in Watertown on Storymaps**](https://arcg.is/04bOWS)  
+See where Arshile Gorky worked and lived in Watertown and learn about how he got started painting in the United States.
+
+**See excerpts from the exhibition by WCA-TV:** [**Arshile Gorky Exhibit Highlights Watertown Roots In Citywide Celebration**](https://www.youtube.com/watch?v=QOY3X0v5qYs)
+
+[![](https://content.civicplus.com/api/assets/230f663e-9383-4267-b9a0-0544ee313af5)](https://arcg.is/04bOWS)
+
+Commemorative Events
+--------------------
+
+**City Council Resolution: Commemorating a Day**  
+Watertown City Council proclaimed March 1, 2025, in honor of Arshile Gorky, [read the full proclamation](https://watertownma.portal.civicclerk.com/event/6516/files/attachment/2605).
+
+**City Council Resolution: Naming a Square**  
+The City Council voted to name the square at the intersection of Dexter Avenue and Hazel Street in honor of Arshile Gorky, at the end of the block where he used to live. Signage forthcoming.
+
+**Capsule Collection at Watertown Free Public Library**  
+In March 2025, enjoy a capsule collection of books and resources about Arshile Gorky, the Abstract Expressionist art movement, and Armenia.
+
+**Exhibition: Gorky and the Language of Drawing at Mosesian Center for the Arts**  
+Co-curated with Bill Flynn. The exhibit will be on view March 7 to April 25, 2025. Learn more through the [Mosesian Center for the Arts website](https://www.mosesianarts.org/product/1986?v=2603). Opening reception on March 13 from 5:30-7pm. View the full catalog.
+
+**Screening of "Without Gorky" at Mosesian Center for the Arts**  
+On March 28, 2025, at 7:30pm enjoy a showing of Without Gorky by the artist’s granddaughter Cosima Spender, followed by a Q&A with art historian Bruce Weber, artist Bill Flynn, and Parker Field, director of the Arshile Gorky Foundation.
+
+**Mural on the Watertown-Cambridge Greenway**  
+The Watertown Public Arts and Culture Committee is collaborating with the Massachusetts Department of Conservation and Recreation (DCR) to commission a mural by Brandon Gaia Marshall at the Grove Street underpass on the Watertown-Cambridge Greenway that commemorates the life and work of Arshile Gorky. [Read the full call (PDF)](https://www.watertown-ma.gov/asset/d4d4056e-26a8-4b11-9295-c3dea6b9e45e). The mural will be installed April 15-June 15. Learn more about [Brandon Gaia Marshall and his mural design](https://www.watertownmanews.com/2024/12/15/artist-selected-to-create-mural-celebrating-artist-arshile-gorky/). Opening reception scheduled for June 10 from 5:30-7:00pm.
+
+**Watertown Walks: Gorky and Mental Health with Live Well Watertown**  
+Part of the Watertown Walks series. Explore the sites where Gorky used to live and work on June 12 from 1-2pm. Meet at the intersection of Arlington St and Nichols Ave.
+
+**Exhibition curated by Kim Theriault at Armenian Museum of America**  
+Coming in Fall 2025.
+
+![](https://content.civicplus.com/api/assets/eb415cfb-6844-4ae4-85d5-8ff53ed1dc1c)
+
+**![a file #2](https://content.civicplus.com/api/assets/1480884f-2152-4d6a-9928-2d324f2dbf60)**
+
+**100 Years of Arshile Gorky Committee:**
+
+Jack Dargon, Chair, 100 Years of Arshile Gorky
+
+Liz Helfer, Public Arts & Culture Planner, City of Watertown
+
+Boriana Kantcheva, Artistic Director, Mosesian Center for the Arts
+
+Jason Sohigian, Director, Armenian Museum of America
+
+Joyce Kelly, Member, Historical Society of Watertown
+
+Left: Gorky soon after his arrival in the United States, 1920. Unknown photographer.
+
+![](https://www.watertown-ma.gov/asset/48c32ea9-0f51-4892-ae25-4ae20267bbb5)

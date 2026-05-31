@@ -19,4 +19,77 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Building Calculations
 
-Length Converter Convert between feet-inches-fractions and decimal inches Feet Inches Numerator / Denominator 1 2 4 8 16 32 equals Total Inches (whole) Numerator / Denominator 1 2 4 8 16 32 equals Total Inches (decimal) Clear All Triangle Calculator Enter any 3 values to calculate the rest A B C c b a Sides Side a (opposite A) Side b (opposite B) Side c (opposite C) Angles (degrees) Angle A Angle B Angle C Clear All
+Length Converter
+----------------
+
+Convert between feet-inches-fractions and decimal inches
+
+Feet
+
+Inches
+
+Numerator
+
+/
+
+Denominator
+
+1
+2
+4
+8
+16
+32
+
+equals
+
+Total Inches (whole)
+
+Numerator
+
+/
+
+Denominator
+
+1
+2
+4
+8
+16
+32
+
+equals
+
+Total Inches (decimal)
+
+Clear All
+
+Triangle Calculator
+-------------------
+
+Enter any 3 values to calculate the rest
+
+A
+B
+C
+c
+b
+a
+
+### Sides
+
+Side a (opposite A)
+
+Side b (opposite B)
+
+Side c (opposite C)
+
+### Angles (degrees)
+
+Angle A
+
+Angle B
+
+Angle C
+
+Clear All

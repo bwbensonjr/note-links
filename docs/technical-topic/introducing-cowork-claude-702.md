@@ -21,4 +21,307 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Introducing Cowork | Claude
 
-Cowork: Claude Code for the rest of your work Category Product announcements Agents Product Claude apps Date January 12, 2026 Reading time 5 min Share Copy link https://claude.com/blog/cowork-research-preview When we released Claude Code, we expected developers to use it for coding. They did—and then quickly began using it for almost everything else . This prompted us to build Cowork: a simpler way for anyone— not just developers —to work with Claude in the very same way. Cowork is available today as a research preview for Claude Max subscribers on our macOS app , and we will improve it rapidly from here. How is using Cowork different from a regular conversation? In Cowork, you give Claude access to a folder of your choosing on your computer. Claude can then read, edit, or create files in that folder. It can, for example, re-organize your downloads by sorting and renaming each file, create a new spreadsheet with a list of expenses from a pile of screenshots, or produce a first draft of a report from your scattered notes. In Cowork, Claude completes work like this with much more agency than you’d see in a regular conversation. Once you’ve set it a task, Claude will make a plan and steadily complete it, while looping you in on what it’s up to. If you’ve used Claude Code, this will feel familiar—Cowork is built on the very same foundations . This means Cowork can take on many of the same tasks that Claude Code can handle, but in a more approachable form for non-coding tasks. When you’ve mastered the basics, you can make Cowork more powerful still. Claude can use your existing connectors , which link Claude to external information, and in Cowork we’ve added an initial set of skills that improve Claude’s ability to create documents, presentations, and other files. If you pair Cowork with Claude in Chrome , Claude can complete tasks that require browser access, too. Cowork is designed to make using Claude for new work as simple as possible. You don’t need to keep manually providing context or converting Claude’s outputs into the right format. Nor do you have to wait for Claude to finish before offering further ideas or feedback: you can queue up tasks and let Claude work through them in parallel. It feels much less like a back-and-forth and much more like leaving messages for a coworker. Stay in control In Cowork, you can choose which folders and connectors Claude can see: Claude can’t read or edit anything you don’t give it explicit access to. Claude will also ask before taking any significant actions, so you can steer or course-correct it as you need. That said, there are still things to be aware of before you give Claude control. By default, the main thing to know is that Claude can take potentially destructive actions (such as deleting local files) if it’s instructed to. Since there’s always some chance that Claude might misinterpret your instructions, you should give Claude very clear guidance around things like this. You should also be aware of the risk of “ prompt injections ”: attempts by attackers to alter Claude’s plans through content it might encounter on the internet. We’ve built sophisticated defenses against prompt injections, but agent safety—that is, the task of securing Claude’s real-world actions—is still an active area of development in the industry. These risks aren’t new with Cowork, but it might be the first time you’re using a more advanced tool that moves beyond a simple conversation. We recommend taking precautions, particularly while you learn how it works. We provide more detail in our Help Center . Looking forward This is a research preview. We’re releasing Cowork early because we want to learn what people use it for, and how they think it could be better. We encourage you to experiment with what Cowork can do for you, and to try things you don’t expect to work: you might be surprised! As we learn more from this preview, we plan to make lots of improvements (including by adding cross-device sync and bringing it to Windows), and we’ll identify further ways to make it safer. Claude Max subscribers can try Cowork now by downloading the macOS app , then clicking on “Cowork” in the sidebar. If you're on another plan, you can join the waitlist for future access. No items found. Prev Prev 0 / 5 Next Next eBook FAQ No items found. Related posts Explore more product news and best practices for teams building with Claude. Nov 13, 2025 Skills explained: How Skills compares to prompts, Projects, MCP, and subagents Agents Skills explained: How Skills compares to prompts, Projects, MCP, and subagents Skills explained: How Skills compares to prompts, Projects, MCP, and subagents Skills explained: How Skills compares to prompts, Projects, MCP, and subagents Skills explained: How Skills compares to prompts, Projects, MCP, and subagents May 30, 2024 Claude can now use tools Product announcements Claude can now use tools Claude can now use tools Claude can now use tools Claude can now use tools Oct 16, 2025 Introducing Agent Skills Product announcements Introducing Agent Skills Introducing Agent Skills Introducing Agent Skills Introducing Agent Skills Sep 29, 2025 Managing context on the Claude Developer Platform Product announcements Managing context on the Claude Developer Platform Managing context on the Claude Developer Platform Managing context on the Claude Developer Platform Managing context on the Claude Developer Platform Transform how your organization operates with Claude See pricing See pricing See pricing Contact sales Contact sales Contact sales Get the developer newsletter Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox. Thank you! You’re subscribed. Sorry, there was a problem with your submission, please try again later.
+Delegate to Claude, delight in the result
+=========================================
+
+Hand off a task, get a polished deliverable. Spend less time finding, formatting, and fixing with Claude Cowork.
+
+Download Claude
+
+[Download Claude](/download)Download Claude
+
+Talk to sales
+
+[Talk to sales](/contact-sales)Talk to sales
+
+[Play video](#)Play video
+
+[](https://assets.claude.ai/brand/videos/cowork-hero-thumbnail.webm)
+
+Power through tedious tasks
+---------------------------
+
+Unlike Chat, Cowork lets Claude complete work on its own. Describe the outcome and cadence, and it takes action and keeps you informed. Come back to the result.
+
+Schedule tasks
+
+Organize files
+
+Build spreadsheets
+
+Prepare reports
+
+Analyze notes
+
+Active
+
+Note
+
+Interact with the data—hover and toggle views to uncover patterns
+
+Prompt
+
+Pull my metrics from the analytics dashboard and drop them in the weekly report template every Friday.
+
+Attachments
+
+Quarterly Performance
+
+977 lines
+
+csv
+
+Strategic Metrics
+
+92 kb
+
+json
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69c3e9405a173533acdaf552_f0d9b6e44e75fdd2a15586497528ec53_CleanShot%202026-03-25%20at%2009.54.54%402x.webp)
+
+### Set it once, skip the ask
+
+With scheduled tasks, you can have Claude check your email every morning, pull metrics, or run your weekly Slack digest. You define the cadence once. Claude handles it from there.
+
+Prompt
+
+Help me organize my Downloads folder.  
+Scan the contents and propose a plan:    
+- Categories/folders to create    
+- How files should be sorted    
+- Any naming conventions to apply    
+- Files to flag for review or deletion  
+Show me the plan before making changes. Only proceed after I approve.
+
+Working folder
+
+/Downloads
+
+Downloads/
+
+├── Documents/
+
+│ ├── 2024-03-15\_invoice.pdf
+
+│ ├── 2024-03-22\_invoice.pdf
+
+│ ├── 2024-03-20\_meeting-notes.txt
+
+│ ├── resume\_john-smith\_2024.pdf
+
+│ └── untitled\_document.docx
+
+│
+
+├── Spreadsheets/
+
+│ └── 2024\_q3-budget\_v3.xlsx
+
+│
+
+├── Presentations/
+
+│ └── presentation-draft.pptx
+
+│
+
+├── Images/
+
+│ ├── photo\_2024-03-15\_4392.jpg
+
+│ ├── photo\_2024-03-15\_4393.jpg
+
+│ ├── photo\_2024-03-18\_4401.heic
+
+│ ├── screenshot\_2024-03-15\_finder-window.png
+
+│ └── screenshot\_2024-03-22\_slack-conversation.png
+
+│
+
+├── Audio & Video/
+
+│ ├── 2024-03-20\_zoom-recording.mp4
+
+│ └── audio\_recording.m4a
+
+│
+
+├── Archives/
+
+│ └── random\_download.zip
+
+│
+
+└── Duplicates/
+
+  ├── Document(1).pdf
+
+ ├── Document(2).pdf
+
+  ├── meeting-notes(1).txt
+
+└── 2024\_q3-budget\_v2.xlsx
+
+Downloads/
+
+├── Documents/
+
+│ ├── 2024-03-15\_invoice.pdf
+
+│ ├── 2024-03-22\_invoice.pdf
+
+│ ├── 2024-03-20\_meeting-notes.txt
+
+│ ├── resume\_john-smith\_2024.pdf
+
+│ └── untitled\_document.docx
+
+│
+
+├── Spreadsheets/
+
+│ └── 2024\_q3-budget\_v3.xlsx
+
+│
+
+├── Presentations/
+
+│ └── presentation-draft.pptx
+
+│
+
+├── Images/
+
+│ ├── photo\_2024-03-15\_4392.jpg
+
+│ ├── photo\_2024-03-15\_4393.jpg
+
+│ ├── photo\_2024-03-18\_4401.heic
+
+│ ├── screenshot\_2024-03-15\_finder-window.png
+
+│ └── screenshot\_2024-03-22\_slack-conversation.png
+
+│
+
+├── Audio & Video/
+
+│ ├── 2024-03-20\_zoom-recording.mp4
+
+│ └── audio\_recording.m4a
+
+│
+
+├── Archives/
+
+│ └── random\_download.zip
+
+│
+
+└── Duplicates/
+
+  ├── Document(1).pdf
+
+ ├── Document(2).pdf
+
+  ├── meeting-notes(1).txt
+
+└── 2024\_q3-budget\_v2.xlsx
+
+### Organize and rename files
+
+Point Claude at your Downloads folder. It sorts files by type, renames them with sensible conventions, and cleans up months of clutter in minutes.
+
+[](https://www-cdn.anthropic.com/2d8fcd0519b6da79c2abb424da92848da895be44.mp4)
+
+### Turn screenshots into spreadsheets
+
+Hand Claude a pile of receipts, invoices, or screenshots. Come back to a formatted spreadsheet with all the data extracted and organized.
+
+[](https://www-cdn.anthropic.com/79bf5401230043931ec8366a8e5e2c127e7bacb2.mp4)
+
+### Prepare branded reports, documents, and decks
+
+Combine your company templates with source materials. Claude follows your formatting conventions and produces polished docs, decks, or reports. Schedule a task to update daily, weekly, or monthly to keep it fresh and accurate.
+
+Prompt
+
+Draft a Q1 product update report. Pull from all my meeting notes and project docs in the attached folder. Focus on launch milestones, key decisions, and what's shipping next.
+
+Working folder
+
+/Documents/01\_23-Product-Meeting
+
+### Q1 Product Update
+
+January 2026 • Draft
+
+#### Executive Summary
+
+Q1 marked a pivotal quarter for the product team. We successfully launched Dashboard v2, completed a major API overhaul, and entered beta for our mobile application. These milestones position us well for Q1's enterprise expansion.   
+‍
+
+###### Launch Milestones
+
+* July 28: Dashboard v2 shipped to all users
+* Aug 15: API v3 migration complete
+* Sep 5: Mobile beta launched (iOS)  
+  ‍
+
+###### Key Decisions
+
+Based on stakeholder feedback (Jan 12), the team decided to prioritize enterprise features over consumer expansion. The pricing model was revised to support...   
+‍
+
+###### What's Next
+
+Q2 priorities include Android beta launch (Apr), enterprise SSO (May), and analytics dashboard expansion...
+
+### Draft reports from scattered notes
+
+Give Claude access to your notes folder. It reads through everything, identifies the relevant pieces, and produces a first draft ready for your review.
+
+Now in Beta
+
+Message Claude from anywhere, come back when it’s done
+------------------------------------------------------
+
+Pair your phone
+
+[Pair your phone](/download)Pair your phone
+
+### Message from your phone
+
+Send a task to Claude from your phone. It picks up where you left off and remembers how you work.
+
+### Claude works on your computer
+
+Anything you can do on your computer, Claude can do. Open apps, fill spreadsheets, navigate your browser. No setup, no passwords handed off.
+
+### You get the result
+
+Claude delivers finished work instead of step-by-step updates: a formatted spreadsheet, a memo, a briefing doc. You review, refine, and decide what's next.
+
+How it works
+------------
+
+Find Cowork in your desktop app, alongside Chat and Code. Switch to Cowork when you want Claude to execute non-coding tasks.
+
+### Describe what you need
+
+Tell Claude what you want from your desktop or phone. Claude picks the fastest path: a connector for Slack, Chrome for web research, or your screen to open apps when there's no direct integration.
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6972a1d3d9f82138ceba7cb9_cowork-how-01.webp)
+
+Claude does the work
+
+Claude works through each step, looping you in before anything significant. Watch in real time or walk away. For recurring tasks, tell Claude once and it handles the rest.
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6972a1d380a08f2685e461ec_cowork-how-02.webp)
+
+You’re in control
+
+You choose which folders and connectors Claude can access. Before Claude acts, it shows you the plan and waits for your approval. Redirect, refine, or take a different approach at any step.
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6972a1d40a6e040ed0666235_cowork-how-03.webp)

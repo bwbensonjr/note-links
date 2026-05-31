@@ -15,4 +15,4 @@ summarizer_model: metadata
 
 # Strudel REPL
 
-
+[mastodon](https://social.toplap.org/@strudel)

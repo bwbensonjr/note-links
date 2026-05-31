@@ -27,4 +27,230 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # GitHub - kb4ai/mcp-considered-suboptimal-pub-kb: Technical analysis (not code): Why CLI/SDK tools beat MCP for LLM agents. 98.7% token reduction. Archived sources. · GitHub
 
-MCP Considered Suboptimal (A technical analysis — not a software project) Premise: Anthropic's Model Context Protocol (MCP) bloats context windows and makes LLMs dumber. Better alternative: give LLMs CLI tools they can script. Quick reference: Core Thesis — concise summary to share The Smoking Gun In November 2025, Anthropic published a blog post effectively admitting MCP doesn't scale: 150,000 → 2,000 tokens. A 98.7% reduction. Their solution? Have agents write code instead of calling MCP tools directly. Source: Code Execution with MCP (archived: local copy ) Then in February 2026, they doubled down. With the Sonnet 4.6 release ( archived ), Anthropic moved programmatic tool calling to GA . Claude now writes Python code to invoke tools in sandboxed containers — intermediate results never enter context. They also shipped dynamic web search filtering : Claude writes code to filter search results before they reach the context window. The result? 11% accuracy improvement and 24% fewer tokens — from cleaning the information diet alone, not changing the model. BrowserComp: Sonnet 33% → 46%, Opus 45% → 61%. That's the kind of gain you'd expect from a model upgrade — achieved purely by better context management. ( analysis ) And it doesn't stop there. Anthropic's own Claude Code plugin marketplace hosts Firecrawl's integration — which wraps a CLI tool via a Skill , not an MCP server. Firecrawl maintains both MCP and CLI options. They chose CLI. ( details ) The Core Insight "Models do not get smarter when you give them more tools. They get smarter when you give them a small subset of really good tools." — Theo, t3.gg ( video transcript ) MCP's Fourfold Problem: Issue Impact Cost More tokens = higher API bills Quality Context saturation → distracted model → worse outputs Latency More tokens = slower responses Compounding Wrong decisions → more steps → error cascades → recovery loops Compounding is worst: One bad tool choice leads to retries, exploration, 5 steps becoming 15. The Alternative: UNIX-Philosophy CLI Tools Not just "any CLI" — tools built for composability and agent workflows: Principle Implementation Benefit KISS 3-5 focused operations Less to load, less confusion JSON/JSONL output --json flag, machine-readable Filter BEFORE hitting context Self-documenting --help / usage command Load docs on demand, not upfront Shell-first Standard CLI, no special protocol Works with any bash-capable agent Composable Pipes to jq , [ rg ][ripgrep], scripts Chain tools, filter locally Pre-trained bash, git, grep already known Zero protocol overhead "Standard CLI tool callable from bash (...) usage command provides complete documentation—agents self-document by reading output (...) Output JSON for piping to jq (...) Unix philosophy of small, composable tools (...) Leverage existing Bash tool instead of creating new tool type (...) Solve the problems you actually encounter." — Carlo Zottmann, Linearis design principles ( archived ) Result: Data stays in sandbox. Tokens stay minimal. Code is deterministic. Detailed analysis: CLI/SDK Over Context Bloat Approach A: Direct MCP (high latency) Approach B: Executor Delegation (low latency) Click images for detailed latency analysis Key Numbers Metric Value Source Token reduction (code exec vs MCP) 98.7% Anthropic Accuracy gain from context diet alone +11% Anthropic (Sonnet 4.6 dynamic filtering) Tool definition token reduction 85% Anthropic (Tool Search Tool) Multi-tool workflow token reduction 37% Anthropic (Programmatic Tool Calling) MCP servers with production features ~2% HackerNoon Recommended max tools per agent 3-5 Industry consensus Linear MCP server token cost ~13,000 Linearis author Equivalent CLI token cost ~200 Linearis author Featured Quotes On Context Efficiency: "LLMs aren't traditional software systems where more data equals better decisions. They're pattern-matching machines. Every token in context adds noise." — HackerNoon ( archived ) On Software Industrialization: "Technical debt is the pollution of the digital world, invisible until it chokes the systems that depend on it. In an era of mass automation, we may find that the hardest problem is not production, but stewardship. Who maintains the software that no one owns? " — Chris Loy ( archived ) On MCP's Design Flaws: "Did you know MCP has no concept of OAuth at all? At all. Now, there's like 18 implementations of it because there's no way to do proper handshakes." — Theo, t3.gg On Practical Alternatives: "Token budget matters: 13k tokens for tool definitions is prohibitive. Simplicity wins: 3-4 features beats 20+ for real workflows." — Carlo Zottmann, Linearis ( archived ) On Choosing CLI Over MCP (from Anthropic's own marketplace): "This plugin adds the Firecrawl CLI as a skill to Claude Code" — Firecrawl Claude Plugin (hosted in Anthropic's official marketplace — despite Firecrawl having an MCP server available) On Why Code Beats JSON — From MCP's Own Creator: "Claude's training includes extensive exposure to code, making it effective at reasoning through and chaining function calls. When tools are presented as callable functions within a code execution environment, Claude can leverage this strength." — Anthropic, Programmatic Tool Calling docs ( archived ) "Tool results from programmatic invocations do not count toward your input/output token usage. Only the final code execution result and Claude's response count." — Anthropic, same docs On Who Controls Context: "MCP browser tools have a fundamental problem: the server controls what enters your context . With Playwright MCP, every response includes the full accessibility tree plus console messages. After a few page queries, your context window is full. CLI flips this around: you control what enters context ." — webctl Further Reading Core Thesis — Concise summary of the argument (shareable) Why This Repo? — Use cases, audiences, share templates Time-Traveling RPC for LLM Executors — Why executors beat MCP (latency analysis with diagrams) MCP Alternatives — CLI tools that replace MCP servers (contribute yours!) FAQ: MCP Alternatives & Advanced Patterns — Aggregators, sandboxing, self-optimization MCP Critique: Sources & Commentary — Comprehensive collection of industry voices Anthropic Graduates Programmatic Tool Calling — Feb 2026 thesis validation analysis Firecrawl: CLI Over MCP in Anthropic's Marketplace — Case study with permalinks The Argument in Brief MCP bloats context — 500+ tool definitions make models dumber Code execution works — 98.7% token savings prove it Context diet improves accuracy — 11% gain from filtering alone, no model change (Anthropic, Feb 2026) CLIs are self-documenting — --help on demand, not upfront Scripts are deterministic — No hallucination in execution Executors minimize latency — Keep LLMs out of fast loops ( details ) Industrialization needs stewardship — Generic tools, custom composition Software engineering patterns apply — APIs > Protocols The market converges on CLI — Even in Anthropic's own marketplace, CLI plugins over MCP ( evidence ) MCP's creator validates the thesis — Anthropic ships programmatic tool calling, tool search, and dynamic filtering as GA escape hatches from MCP's own context bloat ( analysis ) Call to Action When building for LLM agents: Prefer CLI/SDK tools over MCP servers Expose --help or usage commands Output JSON for composability Limit scope to 3-5 core operations Let agents script their own workflows The future is not bigger context windows. It's smarter tool design. Primary Sources Anthropic's Own Evolution (most significant) Anthropic: Introducing Claude Sonnet 4.6 (Feb 2026) — Programmatic tool calling moved to GA ( archived ) Anthropic: Programmatic Tool Calling docs — Official API documentation ( archived ) Anthropic: Advanced Tool Use (Nov 2025) — Tool Search, Programmatic Calling, Examples ( archived ) Anthropic: Code Execution with MCP (Nov 2025) — Original 98.7% token reduction finding ( archived ) Anthropic Marketplace: Firecrawl CLI plugin — Skill+CLI chosen over MCP in Anthropic's own repo (Feb 2026) ( analysis ) Industry Voices Prompt Engineering (YouTube): Anthropic Just Killed Tool Calling (Feb 2026, 42K+ views) ( transcript ) ai505.com: Anthropic Just Killed Traditional Tool Calling (Feb 2026) ( archived ) Theo t3.gg: Anthropic admits they were wrong about MCP (Nov 2025) ( archived ) HackerNoon: 98% of MCP Servers Got This Wrong (Nov 2025) ( archived ) Chris Loy: The Rise of Industrial Software (Dec 2025) ( archived ) Carlo Zottmann: Linearis: CLI Built for Agents (Sep 2025) ( archived ) Dev.to: Beyond the Hype: MCP Limitations ( archived ) Simon Willison: Code Execution with MCP Commentary (Nov 2025) ( archived ) Last updated 2026-02-21. All sources preserved with full attribution in archived-resources/ .
+MCP Considered Suboptimal (A technical analysis — not a software project)
+=========================================================================
+
+**Premise:** Anthropic's Model Context Protocol (MCP) bloats context windows and makes LLMs dumber. Better alternative: give LLMs CLI tools they can script.
+
+**Quick reference:** [Core Thesis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/THESIS.md) — concise summary to share
+
+---
+
+The Smoking Gun
+---------------
+
+In November 2025, Anthropic published a blog post effectively admitting MCP doesn't scale:
+
+> **150,000 → 2,000 tokens. A 98.7% reduction.**
+
+Their solution? Have agents write code instead of calling MCP tools directly.
+
+Source: [Code Execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp) (archived: [local copy](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic--code-execution-with-mcp.md))
+
+**Then in February 2026, they doubled down.** With the [Sonnet 4.6 release](https://www.anthropic.com/news/claude-sonnet-4-6) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic--sonnet-4-6-announcement.md)), Anthropic moved **programmatic tool calling to GA**. Claude now writes Python code to invoke tools in sandboxed containers — intermediate results never enter context. They also shipped **dynamic web search filtering**: Claude writes code to filter search results *before* they reach the context window. The result?
+
+> **11% accuracy improvement and 24% fewer tokens — from cleaning the information diet alone, not changing the model.**
+
+BrowserComp: Sonnet 33% → 46%, Opus 45% → 61%. That's the kind of gain you'd expect from a model upgrade — achieved purely by better context management. ([analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-20--anthropic-graduates-programmatic-tool-calling-thesis-validation.md))
+
+**And it doesn't stop there.** Anthropic's own [Claude Code plugin marketplace](https://github.com/anthropics/claude-plugins-official/blob/261ce4fba4f2c314c490302158909a32e5889c88/.claude-plugin/marketplace.json#L643C1-L652C6) hosts Firecrawl's integration — which wraps a **CLI tool via a Skill**, not an MCP server. Firecrawl maintains [both MCP and CLI](https://github.com/firecrawl/.github/blob/eac6d8b43e11e1cc401a48e0e038a3c60fb53db9/profile/README.md) options. They chose CLI. ([details](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-18--firecrawl-claude-marketplace-cli-over-mcp.md))
+
+---
+
+The Core Insight
+----------------
+
+> "Models do not get smarter when you give them more tools. They get smarter when you give them a small subset of really good tools."
+> — Theo, t3.gg ([video transcript](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/theo-t3gg--anthropic-admits-mcp-sucks--transcript.md))
+
+**MCP's Fourfold Problem:**
+
+| Issue | Impact |
+| --- | --- |
+| **Cost** | More tokens = higher API bills |
+| **Quality** | Context saturation → distracted model → worse outputs |
+| **Latency** | More tokens = slower responses |
+| **Compounding** | Wrong decisions → more steps → error cascades → recovery loops |
+
+**Compounding is worst:** One bad tool choice leads to retries, exploration, 5 steps becoming 15.
+
+---
+
+The Alternative: UNIX-Philosophy CLI Tools
+------------------------------------------
+
+Not just "any CLI" — tools built for composability and agent workflows:
+
+| Principle | Implementation | Benefit |
+| --- | --- | --- |
+| **KISS** | 3-5 focused operations | Less to load, less confusion |
+| **JSON/JSONL output** | `--json` flag, machine-readable | Filter BEFORE hitting context |
+| **Self-documenting** | `--help` / `usage` command | Load docs on demand, not upfront |
+| **Shell-first** | Standard CLI, no special protocol | Works with any bash-capable agent |
+| **Composable** | Pipes to [`jq`](https://github.com/jqlang/jq), [`rg`][ripgrep], scripts | Chain tools, filter locally |
+| **Pre-trained** | bash, git, grep already known | Zero protocol overhead |
+
+> "Standard CLI tool callable from bash (...) `usage` command provides complete documentation—agents self-document by reading output (...) Output JSON for piping to `jq` (...) Unix philosophy of small, composable tools (...) Leverage existing Bash tool instead of creating new tool type (...) Solve the problems you actually encounter."
+> — Carlo Zottmann, Linearis design principles ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/zottmann--linearis-linear-cli-built.md))
+
+**Result:** Data stays in sandbox. Tokens stay minimal. Code is deterministic.
+
+**Detailed analysis:** [CLI/SDK Over Context Bloat](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/cli-sdk-over-context-bloat.md)
+
+|  |  |
+| --- | --- |
+| [Approach A: LLM in Loop](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/time-travel-latency.md) | [Approach B: LLM out of Loop](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/time-travel-latency.md) |
+| *Approach A: Direct MCP (high latency)* | *Approach B: Executor Delegation (low latency)* |
+
+*Click images for [detailed latency analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/time-travel-latency.md)*
+
+---
+
+Key Numbers
+-----------
+
+| Metric | Value | Source |
+| --- | --- | --- |
+| Token reduction (code exec vs MCP) | **98.7%** | Anthropic |
+| Accuracy gain from context diet alone | **+11%** | Anthropic (Sonnet 4.6 dynamic filtering) |
+| Tool definition token reduction | **85%** | Anthropic (Tool Search Tool) |
+| Multi-tool workflow token reduction | **37%** | Anthropic (Programmatic Tool Calling) |
+| MCP servers with production features | **~2%** | HackerNoon |
+| Recommended max tools per agent | **3-5** | Industry consensus |
+| Linear MCP server token cost | **~13,000** | Linearis author |
+| Equivalent CLI token cost | **~200** | Linearis author |
+
+
+
+---
+
+Featured Quotes
+---------------
+
+**On Context Efficiency:**
+
+> "LLMs aren't traditional software systems where more data equals better decisions. They're pattern-matching machines. Every token in context adds noise."
+> — HackerNoon ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/hackernoon--98-percent-mcp-servers-wrong.md))
+
+**On Software Industrialization:**
+
+> "Technical debt is the pollution of the digital world, invisible until it chokes the systems that depend on it. In an era of mass automation, we may find that the hardest problem is not production, but stewardship. **Who maintains the software that no one owns?**"
+> — Chris Loy ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/chrisloy--rise-of-industrial-software.md))
+
+**On MCP's Design Flaws:**
+
+> "Did you know MCP has no concept of OAuth at all? At all. Now, there's like 18 implementations of it because there's no way to do proper handshakes."
+> — Theo, t3.gg
+
+**On Practical Alternatives:**
+
+> "Token budget matters: 13k tokens for tool definitions is prohibitive. Simplicity wins: 3-4 features beats 20+ for real workflows."
+> — Carlo Zottmann, Linearis ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/zottmann--linearis-linear-cli-built.md))
+
+**On Choosing CLI Over MCP (from Anthropic's own marketplace):**
+
+> "This plugin adds the Firecrawl CLI as a skill to Claude Code"
+> — [Firecrawl Claude Plugin](https://github.com/firecrawl/firecrawl-claude-plugin/blob/684b975c8cc6bd0fcfa96f787900bf87fffeef57/README.md) (hosted in [Anthropic's official marketplace](https://github.com/anthropics/claude-plugins-official/blob/261ce4fba4f2c314c490302158909a32e5889c88/.claude-plugin/marketplace.json#L643C1-L652C6) — despite Firecrawl having an MCP server available)
+
+**On Why Code Beats JSON — From MCP's Own Creator:**
+
+> "Claude's training includes extensive exposure to code, making it effective at reasoning through and chaining function calls. When tools are presented as callable functions within a code execution environment, Claude can leverage this strength."
+> — Anthropic, [Programmatic Tool Calling docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic-docs--programmatic-tool-calling.md))
+
+> "Tool results from programmatic invocations do not count toward your input/output token usage. Only the final code execution result and Claude's response count."
+> — Anthropic, same docs
+
+**On Who Controls Context:**
+
+> "MCP browser tools have a fundamental problem: **the server controls what enters your context**. With Playwright MCP, every response includes the full accessibility tree plus console messages. After a few page queries, your context window is full. CLI flips this around: **you control what enters context**."
+> — [webctl](https://github.com/cosinusalpha/webctl)
+
+---
+
+Further Reading
+---------------
+
+* **[Core Thesis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/THESIS.md)** — Concise summary of the argument (shareable)
+* **[Why This Repo?](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/WHY_THIS_REPO.md)** — Use cases, audiences, share templates
+* **[Time-Traveling RPC for LLM Executors](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/time-travel-latency.md)** — Why executors beat MCP (latency analysis with diagrams)
+* **[MCP Alternatives](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/mcp-alternatives.md)** — CLI tools that replace MCP servers (contribute yours!)
+* **[FAQ: MCP Alternatives & Advanced Patterns](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/FAQ.md)** — Aggregators, sandboxing, self-optimization
+* **[MCP Critique: Sources & Commentary](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/mcp-critique-sources.md)** — Comprehensive collection of industry voices
+* **[Anthropic Graduates Programmatic Tool Calling](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-20--anthropic-graduates-programmatic-tool-calling-thesis-validation.md)** — Feb 2026 thesis validation analysis
+* **[Firecrawl: CLI Over MCP in Anthropic's Marketplace](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-18--firecrawl-claude-marketplace-cli-over-mcp.md)** — Case study with permalinks
+* **[AXI: A Concrete Spec for Agent-Friendly CLIs](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-05-17--axi-agent-experience-initiative.md)** — May 2026 — 10-principle spec + head-to-head benchmarks beating MCP
+* **[TOON: Token-Oriented Object Notation](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-05-17--toon-token-oriented-object-notation.md)** — May 2026 — ~40% token reduction vs JSON, payload-layer evidence
+
+---
+
+Adjacent: AXI + TOON (May 2026)
+-------------------------------
+
+Two named specs now operationalize this thesis with published head-to-head benchmarks beating MCP:
+
+* **[AXI](https://axi.md/)** — 10-principle CLI design spec ([`gh-axi`](https://github.com/kunchenguid/gh-axi) 100% / $0.05 vs MCP 82–87% / $0.10–$0.15; [`chrome-devtools-axi`](https://github.com/kunchenguid/chrome-devtools-axi) *wraps* the MCP server in a CLI and still wins). Corporate adoption: [`opera-browser-cli`](https://github.com/operasoftware/opera-browser-cli). → [analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-05-17--axi-agent-experience-initiative.md)
+* **[TOON](https://toonformat.dev/)** — Wire-format encoding, −39.9% tokens / +1.4pp accuracy vs JSON (5,016 LLM calls). AXI principle #1 mandates it. → [analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-05-17--toon-token-oriented-object-notation.md)
+* **Companion skill** *(secret gist, under review)* — [Authoring Agent-Friendly CLIs](https://gist.github.com/gwpl/841d6d29f5987a325551c2bbf3eec764)
+
+Savings stack: **encoding (TOON) + interface (AXI) + invocation (Anthropic programmatic tool calling)**.
+
+---
+
+The Argument in Brief
+---------------------
+
+1. **MCP bloats context** — 500+ tool definitions make models dumber
+2. **Code execution works** — 98.7% token savings prove it
+3. **Context diet improves accuracy** — 11% gain from filtering alone, no model change (Anthropic, Feb 2026)
+4. **CLIs are self-documenting** — `--help` on demand, not upfront
+5. **Scripts are deterministic** — No hallucination in execution
+6. **Executors minimize latency** — Keep LLMs out of fast loops ([details](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/time-travel-latency.md))
+7. **Industrialization needs stewardship** — Generic tools, custom composition
+8. **Software engineering patterns apply** — APIs > Protocols
+9. **The market converges on CLI** — Even in Anthropic's own marketplace, CLI plugins over MCP ([evidence](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-18--firecrawl-claude-marketplace-cli-over-mcp.md))
+10. **MCP's creator validates the thesis** — Anthropic ships programmatic tool calling, tool search, and dynamic filtering as GA escape hatches from MCP's own context bloat ([analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-20--anthropic-graduates-programmatic-tool-calling-thesis-validation.md))
+
+---
+
+Call to Action
+--------------
+
+When building for LLM agents:
+
+1. **Prefer CLI/SDK tools** over MCP servers
+2. **Expose `--help`** or `usage` commands
+3. **Output JSON** for composability
+4. **Limit scope** to 3-5 core operations
+5. **Let agents script** their own workflows
+
+The future is not bigger context windows. It's smarter tool design.
+
+---
+
+Primary Sources
+---------------
+
+### Anthropic's Own Evolution (most significant)
+
+* **Anthropic:** [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) (Feb 2026) — Programmatic tool calling moved to GA ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic--sonnet-4-6-announcement.md))
+* **Anthropic:** [Programmatic Tool Calling docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) — Official API documentation ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic-docs--programmatic-tool-calling.md))
+* **Anthropic:** [Advanced Tool Use](https://www.anthropic.com/engineering/advanced-tool-use) (Nov 2025) — Tool Search, Programmatic Calling, Examples ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic--advanced-tool-use-engineering.md))
+* **Anthropic:** [Code Execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp) (Nov 2025) — Original 98.7% token reduction finding ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/anthropic--code-execution-with-mcp.md))
+* **Anthropic Marketplace:** [Firecrawl CLI plugin](https://github.com/anthropics/claude-plugins-official/blob/261ce4fba4f2c314c490302158909a32e5889c88/.claude-plugin/marketplace.json#L643C1-L652C6) — Skill+CLI chosen over MCP in Anthropic's own repo (Feb 2026) ([analysis](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/ramblings/2026-02-18--firecrawl-claude-marketplace-cli-over-mcp.md))
+
+### Industry Voices
+
+* **Mitko Vasilev (CTO, LinkedIn):** ["I just deleted all my MCPs. Skills + CLI is all you need."](https://www.linkedin.com/posts/mitkox_i-just-deleted-all-my-mcps-skills-cli-share-7437591825273757696-eYEc/) (Mar 2026, 140+ reactions, 450+ comments) — practitioner declaration aligned with this repo's thesis ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/mitkox-linkedin--deleted-all-mcps-skills-cli.md))
+* **Carsten Lindstedt (LinkedIn comment):** [Tool-surface entropy framing](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/carsten-lindstedt-linkedin--tool-surface-entropy.md) — "this isn't MCP vs CLI; the real variable is whether you control tool surface entropy or let it explode." Promoted to repo concept page: [`tool-surface-entropy.md`](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/tool-surface-entropy.md).
+* **Prompt Engineering (YouTube):** [Anthropic Just Killed Tool Calling](https://www.youtube.com/watch?v=8dVCSPXG6Mw) (Feb 2026, 42K+ views) ([transcript](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/prompt-engineering-yt--anthropic-killed-tool-calling--transcript.md))
+* **ai505.com:** [Anthropic Just Killed Traditional Tool Calling](https://ai505.com/anthropic-just-killed-traditional-tool-calling-here-s-what-replaces-it/) (Feb 2026) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/ai505--anthropic-killed-traditional-tool-calling.md))
+* **Theo t3.gg:** [Anthropic admits they were wrong about MCP](https://www.youtube.com/watch?v=1piFEKA9XL0) (Nov 2025) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/theo-t3gg--anthropic-admits-mcp-sucks--transcript.md))
+* **HackerNoon:** [98% of MCP Servers Got This Wrong](https://hackernoon.com/98percent-of-mcp-servers-got-this-wrong-the-reason-why-the-protocol-never-worked) (Nov 2025) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/hackernoon--98-percent-mcp-servers-wrong.md))
+* **Chris Loy:** [The Rise of Industrial Software](https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software) (Dec 2025) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/chrisloy--rise-of-industrial-software.md))
+* **Carlo Zottmann:** [Linearis: CLI Built for Agents](https://zottmann.org/2025/09/03/linearis-my-linear-cli-built.html) (Sep 2025) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/zottmann--linearis-linear-cli-built.md))
+* **Dev.to:** [Beyond the Hype: MCP Limitations](https://dev.to/ramkey982/beyond-the-hype-understanding-the-limitations-of-anthropics-model-context-protocol-for-tool-48kk) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/devto--beyond-hype-mcp-limitations.md))
+* **Simon Willison:** [Code Execution with MCP Commentary](https://simonwillison.net/2025/Nov/4/code-execution-with-mcp/) (Nov 2025) ([archived](/kb4ai/mcp-considered-suboptimal-pub-kb/blob/master/archived-resources/simonwillison--code-execution-mcp-commentary.md))
+
+---
+
+*Last updated 2026-05-28. All sources preserved with full attribution in `archived-resources/`.*

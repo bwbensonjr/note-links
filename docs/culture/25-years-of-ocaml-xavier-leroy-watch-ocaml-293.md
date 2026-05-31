@@ -19,4 +19,16 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # 25 Years of OCaml: Xavier Leroy - Watch OCaml
 
-PeerTube Incompatible browser We are sorry but it seems that PeerTube is not compatible with your web browser. Please try with the latest version of Mozilla Firefox . If you think this is a mistake, please report it .
+PeerTube
+========
+
+Incompatible browser
+--------------------
+
+We are sorry but it seems that PeerTube is not compatible with your web browser.
+
+---
+
+Please try with the latest version of [Mozilla Firefox](https://www.mozilla.org).
+
+If you think this is a mistake, please [report it](https://github.com/Chocobozzz/PeerTube/issues/new).

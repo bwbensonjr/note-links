@@ -20,4 +20,12 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Encyclopædia Britannica, 11th Edition
 
-Encyclopædia Britannica Eleventh Edition · 1910–1911 ∼◆∼ Fully searchable, cross-referenced, and annotated
+Encyclopædia Britannica
+
+Eleventh Edition · 1910–1911
+
+∼◆∼
+
+![Title page of the Encyclopædia Britannica, 11th Edition, Volume I (1910)](title_page.jpg)
+
+Fully searchable, cross-referenced, and annotated

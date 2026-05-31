@@ -20,4 +20,26 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # Bubble Sorted Amen Break by Vee 🥑
 
-Daniel Savage 11 hours ago (+1) compsci prof voice : what is the computational complexity of these sick chops Reply t3db0t 14 hours ago there needs to be an option to play the sorted samples also :) is the source online? Reply eieio 15 hours ago this is lovely, thank you Reply
+[Ciro Durán](https://itch.io/profile/chiguire)[74 days ago](https://itch.io/post/15717573)
+
+Now I'm curious about Amen Break Quick sort (RIP Hoare, you would have loved this)
+
+[Reply](https://itch.io/login?intent=community&return_to=https%3A%2F%2Fparametricavocado.itch.io%2Famen-sorting)
+
+[Daniel Savage](https://itch.io/profile/danbolt)[79 days ago](https://itch.io/post/15686490)(+3)
+
+***compsci prof voice***: what is the computational complexity of these sick chops
+
+[Reply](https://itch.io/login?intent=community&return_to=https%3A%2F%2Fparametricavocado.itch.io%2Famen-sorting)
+
+[t3db0t](https://itch.io/profile/t3db0t)[79 days ago](https://itch.io/post/15685454)(+1)
+
+there needs to be an option to play the sorted samples also :) is the source online?
+
+[Reply](https://itch.io/login?intent=community&return_to=https%3A%2F%2Fparametricavocado.itch.io%2Famen-sorting)
+
+[eieio](https://itch.io/profile/itseieio)[79 days ago](https://itch.io/post/15685028)
+
+this is lovely, thank you
+
+[Reply](https://itch.io/login?intent=community&return_to=https%3A%2F%2Fparametricavocado.itch.io%2Famen-sorting)

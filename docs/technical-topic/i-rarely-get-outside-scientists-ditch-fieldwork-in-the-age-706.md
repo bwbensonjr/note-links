@@ -23,4 +23,212 @@ summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
 
 # ‘I rarely get outside’: scientists ditch fieldwork in the age of AI
 
-Email Bluesky Facebook LinkedIn Reddit Whatsapp X A climber affixes a wildlife camera to a tree in French Guiana. Credit: Philippe Psaila/Science Photo Library Tadeo Ramirez-Parada studied the timing of plant flowering for his PhD — but he didn’t touch a single petal. Instead, he developed a machine-learning algorithm to analyse the digitized captions of one million herbarium specimens, which showed him how flowering times are changing with rising temperatures. Ramirez-Parada’s work has helped to solve an important mystery in ecology — showing that as temperatures change, plants shift their flowering times to cope with the heat, rather than adapting through natural selection 1 . Yet his work so far has been almost entirely computer-based. “I have had to do very little experimental or field work,” says Ramirez-Parada, who did his PhD at the University of California, Santa Barbara. Ecologists: don’t lose touch with the joy of fieldwork Ramirez-Parada’s work is typical of a change that is reaching into every part of ecology. Whatever scientists are analysing — digitized specimens, images of the natural world, DNA samples, or data streaming in from sensors — many are doing it indoors. The technologies are creating a world that can be monitored at times, places and scales that were previously unimaginable. We are moving towards the “fully automated monitoring of ecological communities”, wrote Marc Besson, a marine scientist at the Sorbonne University Ocean Observatory in Banyuls-sur-Mer, France, in a 2022 paper 2 . Many ecologists say this revolution offers huge potential for understanding the biodiversity crisis and discerning patterns of global change. But some ecologists are dismayed . They feel that the discipline is losing intimacy with its subject matter. They argue that field experience is in decline, and that this loss could lead to error, bias and oversimplification of results. “If it becomes a world where you don’t actually have to go out in order to become an ecologist, we kind of lose sight of what the actual world is like,” says Bill Sutherland, who studies conservation biology at the University of Cambridge, UK. Always on Like scientists everywhere, ecologists are grappling with how to make the most of a torrent of data. Natural-history museums and herbariums around the world have digitized more than one billion specimens over the past few decades, some with accompanying DNA records. A unique plant specimen is digitized at the Royal Botanic Gardens in Kew, UK, as part of an effort to make plant and fungal data available to researchers worldwide. Credit: Chris Jackson/Getty Images for RBG Kew Meanwhile, citizen scientists and researchers alike have been feeding databases such as iNaturalist with hundreds of millions of observations, which are absorbed into the Global Biodiversity Information Facility (GBIF), a central database for natural history. There is also a stream of data from sensors such as camera traps — which take pictures when activated by movement — microphones, animal-tracking devices, drones, satellites and DNA samplers. Such sensors can run for years without intervention. Once, a remotely planted camera trap would eventually run out of power: now, the energy consumption of such a device is minimal and it can rely on solar or wind energy. Bandwidth is no longer an obstacle to data being transmitted 24 hours a day. And computer science is more than keeping up 3 . Artificial-intelligence systems are already identifying species from these data; they are also being used for more complicated tasks such as building species-distribution models and ancestry trees. Some ecologists predict that generative AI, which creates new content based on learning from huge data sets, will soon be able to make more complex models, leading the way to understanding ecological processes and forecasting how species will respond to environmental changes. There are already at least 100 laboratories that would label their work as ‘AI for nature’, according to Tanya Berger-Wolf, a computational ecologist at the Ohio State University in Columbus. The approach is starting to bear fruit. One European project, called CamAlien, is tracking invasive species using high-resolution cameras with machine-learning processing power, affixed to cars, boats and trains. As they speed along, they rapidly photograph the sides of roads and tracks, analyse the images in situ and upload alerts about alien invasive plants to a Europe-wide online map. The system shows how, just in the past few years, new technologies combined with AI have “gone from mostly demonstrating potential to actually beginning to deliver real implementations”, says Toke Thomas Høye, an ecologist at Aarhus University in Denmark, who co-developed CamAlien. Some 16 European countries are trying out the technology to assess the distribution of invasive alien species. A solar-powered recording device on a coffee farm in the Alishan Mountains, Taiwan, enables real-time monitoring of the impact of agriculture on migratory birds. Credit: Sarab Sethi Similarly, amid the steep declines in some insects, a consortium of researchers has finessed camera-trap technology, originally designed to spot mammals, so that it can identify and monitor insect species, which are much more numerous. Automated insect monitoring didn’t exist five years ago, says Høye. Thanks to developments in AI, scientists can distinguish between thousands of species. “It’s opening up a door to part of our natural world that is so much more diverse compared to what camera traps have been used for previously,” says Høye. He and his group think that making insect monitoring easier and less labour-intensive will shed light on the state of insect populations around the globe. Another group has deployed a system of microphones in search of a more detailed understanding of migration as birds fly across Europe from Norway to the Mediterranean coast of Spain. Known as the TABMON project, it is now streaming real-time soundscape data, day and night. An AI tool analyses the data and converts them into commonly used biodiversity indicators. “Having standardized ecological data on continental scales is extremely rare,” says Sarab Sethi, who studies ecosystem sensing at Imperial College London, and led the design of the microphones, “especially when it’s on the fine-scale temporal resolution that acoustics gives, across a wide range of species, and across multiple years”. The project has yet to report its first results. Extinction of experience Few would dispute the benefits of more data and detail, but there is an ominous side effect, says Kevin Gaston at the University of Exeter, UK, who studies people’s relationship with nature: field experience is on the wane. Gaston and his co-author Masashi Soga, who studies the loss of human–nature interactions at the University of Tokyo, argued in a March 2025 paper 4 that there has been an ‘extinction of experience’: a widespread decline in fieldwork-based research and education, with knock-on effects on the depth of ecological understanding. They also flagged other dangers, such as reduced engagement with local communities — a practice known to be crucial for successful conservation. Others have expressed concern about ‘AI colonialism’, a practice in which data, collected remotely in poorer countries, are siphoned off for analysis in well-equipped labs elsewhere. In India’s forests, ecologists harness the power of fieldwork There are few quantitative data available to support or challenge Gaston and Soga’s argument. One analysis 5 of ecological studies published between 1980 and 2014 found that fieldwork-based studies decreased by 20% (as a proportion of the total), whereas modelling and data analyses increased by 600% and 800%, respectively. But these are relative changes, rather than absolute numbers, and the data set ends more than a decade ago. Anecdotally, however, Gaston and Soga’s paper struck a nerve. Since publication, a number of groups have cited it while warning that a lack of outdoor research is hindering studies on subjects ranging from solitary bees to dinosaur fossils. There’s also anecdotal evidence that more computer scientists have entered ecology, excited about what they can offer, but lacking field experience. That was the case for Berger-Wolf, considered a founder of computational ecology. She completed her PhD in theoretical computer science, but, being married to an ecologist, says she would chat to others in the ecology community and walk away “with a feeling like, oh, there’s got to be a different way of answering this question”. Marc Besson and a colleague monitor juvenile and larval fishes along the coast of southern France. Credit: Pascal Romans Berger-Wolf changed tack in 2003, and by 2005 was developing algorithms for dynamic network analysis to depict the social interactions of zebras in the Kenyan Serengeti. Field colleagues urged her to go and see her data but she always refused: “I’m a city girl. And I don’t like dust and bugs. And my answer was: ‘no, my data looks beautiful on my screen.’” Sethi is another convert to ecology, having arrived in the field with an engineering background. In 2016, he decided to apply acoustic monitoring to ecology for his PhD — but the self-confessed metrophile quickly found himself out of his depth in a rainforest in Malaysian Borneo. “I did what I now realize was the extremely dumb thing of trying to develop a new technology and for its first deployment to be in a tropical forest on the other side of the world,” Sethi grins. On the first night, he lay under a mosquito net in a pitch-dark hut on stilts, wide awake, while his ecologist colleagues dozed comfortably amid the sounds of the rainforest. He remembers thinking: “My God, is this just like a joke that’s gone a bit too far?” Now he values his field experiences but works mostly from the lab. Some ecologists have gone the other way, coming in from outdoors t
+* [Email](mailto:?subject=‘I rarely get outside’: scientists ditch fieldwork in the age of AI&body=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+* [Bluesky](https://bsky.app/intent/compose?text=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+* [Facebook](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w&t=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI)
+* [LinkedIn](https://www.linkedin.com/shareArticle?text=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+* [Reddit](https://www.reddit.com/submit?title=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+* [Whatsapp](https://wa.me/?text=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+* [X](https://twitter.com/intent/tweet?text=%E2%80%98I+rarely+get+outside%E2%80%99%3A+scientists+ditch+fieldwork+in+the+age+of+AI&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+
+![A climber wearing a fluorescent green hard hat attaches a camera trap to a branch high up in a tree canopy.](//media.nature.com/w767/magazine-assets/d41586-025-04150-w/d41586-025-04150-w_51839810.jpg)
+
+A climber affixes a wildlife camera to a tree in French Guiana. Credit: Philippe Psaila/Science Photo Library
+
+[Access through your institution](https://wayf.springernature.com?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+
+[Buy or subscribe](#access-options)
+
+Tadeo Ramirez-Parada studied the timing of plant flowering for his PhD — but he didn’t touch a single petal. Instead, he developed a machine-learning algorithm to analyse the digitized captions of one million herbarium specimens, which showed him how flowering times are changing with rising temperatures.
+
+Access options
+--------------
+
+[Access through your institution](https://wayf.springernature.com?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-025-04150-w)
+
+Access Nature and 54 other Nature Portfolio journals
+
+Get Nature+, our best-value online-access subscription
+
+$32.99 / 30 days
+
+cancel any time
+
+[Learn more](https://shop-amers.nature.com/products/plus/?region=US)
+
+Subscribe to this journal
+
+Receive 52 print issues and online access
+
+$199.00 per year
+
+only $3.83 per issue
+
+[Learn more](/nature/subscribe)
+
+Rent or buy this article
+
+Prices vary by article type
+
+from$1.95
+
+to$39.95
+
+[Learn more](//www.nature.com/articles/d41586-025-04150-w.epdf?no_publisher_access=1&r3_referer=nature)
+
+Prices may be subject to local taxes which are calculated during checkout
+
+*Nature* **649**, 278-281 (2026)
+
+*doi: https://doi.org/10.1038/d41586-025-04150-w*
+
+### Updates & Corrections
+
+* **Correction 20 January 2026**: An earlier version of this Feature misspelt the surname of David Lindenmayer.
+
+References
+----------
+
+1. Ramirez-Parada, T. H. *et al.* *Nature Ecol. Evol.* **8**, 467–476 (2024).
+
+   [Article](https://doi.org/10.1038%2Fs41559-023-02304-5) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=38212525) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Nature%20Ecol.%20Evol.&doi=10.1038%2Fs41559-023-02304-5&volume=8&pages=467-476&publication_year=2024&author=Ramirez-Parada%2CT.%20H.)
+2. Besson, M. *et al.* *Ecol. Lett.* **25**, 2753–2775 (2022).
+
+   [Article](https://doi.org/10.1111%2Fele.14123) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=36264848) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Ecol.%20Lett.&doi=10.1111%2Fele.14123&volume=25&pages=2753-2775&publication_year=2022&author=Besson%2CM.)
+3. Reynolds, S. A. *et al.* *Trends Ecol. Evol.* **40**, 191–207 (2025).
+
+   [Article](https://doi.org/10.1016%2Fj.tree.2024.11.013) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39694720) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Trends%20Ecol.%20Evol.&doi=10.1016%2Fj.tree.2024.11.013&volume=40&pages=191-207&publication_year=2025&author=Reynolds%2CS.%20A.)
+4. Soga, M. & Gaston, K. J. *Trends Ecol. Evol.* **40**, 212–215 (2025).
+
+   [Article](https://doi.org/10.1016%2Fj.tree.2024.12.010) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39794266) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Trends%20Ecol.%20Evol.&doi=10.1016%2Fj.tree.2024.12.010&volume=40&pages=212-215&publication_year=2025&author=Soga%2CM.&author=Gaston%2CK.%20J.)
+5. Ríos-Saldaña, C. A., Delibes-Mateos, M. & Ferreira, C. C. *Glob. Ecol. Conserv.* **14**, e00389 (2018).
+
+   [Article](https://doi.org/10.1016%2Fj.gecco.2018.e00389) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Glob.%20Ecol.%20Conserv.&doi=10.1016%2Fj.gecco.2018.e00389&volume=14&publication_year=2018&author=R%C3%ADos-Salda%C3%B1a%2CC.%20A.&author=Delibes-Mateos%2CM.&author=Ferreira%2CC.%20C.)
+6. Rafiq, K. *et al.* *Trends Ecol. Evol.* **39**, 1059–1062 (2024).
+
+   [Article](https://doi.org/10.1016%2Fj.tree.2024.10.003) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=39547845) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Trends%20Ecol.%20Evol.&doi=10.1016%2Fj.tree.2024.10.003&volume=39&pages=1059-1062&publication_year=2024&author=Rafiq%2CK.)
+7. Sethi, S. S. *et al.* *Nature Ecol. Evol.* **7**, 1373–1378 (2023).
+
+   [Article](https://doi.org/10.1038%2Fs41559-023-02148-z) 
+   [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=37524796) 
+   [Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Nature%20Ecol.%20Evol.&doi=10.1038%2Fs41559-023-02148-z&volume=7&pages=1373-1378&publication_year=2023&author=Sethi%2CS.%20S.)
+
+[Download references](https://citation-needed.springer.com/v2/references/10.1038/d41586-025-04150-w?format=refman&flavour=references)
+
+[Reprints and permissions](https://s100.copyright.com/AppDispatchServlet?title=%E2%80%98I%20rarely%20get%20outside%E2%80%99%3A%20scientists%20ditch%20fieldwork%20in%20the%20age%20of%20AI&author=Aisling%20Irwin&contentID=10.1038%2Fd41586-025-04150-w&copyright=Springer%20Nature%20Limited&publication=0028-0836&publicationDate=2026-01-07&publisherName=SpringerNature&orderBeanReset=true)
+
+Related Articles
+----------------
+
+* [![](//media.nature.com/lw100/magazine-assets/d41586-025-04150-w/d41586-025-04150-w_27102992.jpg)
+  Ecologists: don’t lose touch with the joy of fieldwork](https://www.nature.com/articles/d41586-024-01178-2)
+* [![](//media.nature.com/lw100/magazine-assets/d41586-025-04150-w/d41586-025-04150-w_51849004.jpg)
+  In India’s forests, ecologists harness the power of fieldwork](https://www.nature.com/articles/d44151-025-00160-9)
+* [![](//media.nature.com/lw100/magazine-assets/d41586-025-04150-w/d41586-025-04150-w_51849008.jpg)
+  Biodiversity research requires more boots on the ground](https://www.nature.com/articles/s41559-017-0360-y)
+
+Subjects
+--------
+
+* [Ecology](/subjects/ecology)
+* [Technology](/subjects/technology)
+* [Conservation biology](/subjects/conservation-biology)
+* [Lab life](/subjects/lab-life)
+
+Latest on:
+----------
+
+* [Ecology](#latest-content-0-container)
+* [Technology](#latest-content-1-container)
+
+* [![](https://images.nature.com/w140h79/magazine-assets/d41586-026-01652-z/d41586-026-01652-z_52442348.jpg)
+
+  Peter H. Raven obituary: visionary botanist who transformed our understanding of plant diversity
+
+  Obituary 27 MAY 26](https://www.nature.com/articles/d41586-026-01652-z)
+* [![](https://images.nature.com/w140h79/magazine-assets/d41586-026-01622-5/d41586-026-01622-5_52427388.jpg)
+
+  Meet the biologists deciphering marine-mammal histories from baleen, whiskers and tusks
+
+  Technology Feature 27 MAY 26](https://www.nature.com/articles/d41586-026-01622-5)
+* [![](https://media.nature.com/w140h79/springer-static/image/art%3A10.1038%2Fs41586-026-10541-4/MediaObjects/41586_2026_10541_Fig1_HTML.png)
+
+  Darkness and body size shaped end-Cretaceous marine extinction patterns
+
+  Article 27 MAY 26](https://www.nature.com/articles/s41586-026-10541-4)
+
+* [![](https://images.nature.com/w140h79/magazine-assets/d41586-026-01325-x/d41586-026-01325-x_52421718.jpg)
+
+  Child sexual abuse enabled by digital technologies is widespread and under-reported
+
+  News & Views 27 MAY 26](https://www.nature.com/articles/d41586-026-01325-x)
+* [![](https://images.nature.com/w140h79/magazine-assets/d41586-026-01413-y/d41586-026-01413-y_52473072.jpg)
+
+  Transistors on a roll: 3D circuits built from stacks of flexible membranes
+
+  News & Views 27 MAY 26](https://www.nature.com/articles/d41586-026-01413-y)
+* [![](https://images.nature.com/w140h79/magazine-assets/d41586-026-01617-2/d41586-026-01617-2_52448618.jpg)
+
+  Too dangerous to release: is Mythos the start of the restricted-AI era?
+
+  News Feature 26 MAY 26](https://www.nature.com/articles/d41586-026-01617-2)
+
+Nature Careers
+--------------
+
+### [Jobs](https://www.nature.com/naturecareers/)
+
+* #### [Nanjing Forestry University Recruits Metasequoia Scholars and Metasequoia Talents Worldwide](https://www.nature.com/naturecareers/job/12842001/nanjing-forestry-university-recruits-metasequoia-scholars-and-metasequoia-talents-worldwide/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62)
+
+  Nanjing, Jiangsu (CN)
+
+  Nanjing Forestry University (NFU)
+
+  ![](https://www.nature.com/naturecareers/getasset/e6d981bb-a28d-4597-ac8f-833b6fa0cbc6/)
+* #### [Physician-Scientist Positions in Research Hospital, ShanghaiTech University](https://www.nature.com/naturecareers/job/12841663/physician-scientist-positions-in-research-hospital-shanghaitech-university/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62)
+
+  Invites visionary Physician-Scientists and Clinicians across all disciplines and career stages to join our foundational team.
+
+  Shanghai (CN)
+
+  ShanghaiTech University
+
+  ![](https://www.nature.com/naturecareers/getasset/63b75d46-300e-49e0-9ea0-a35ad2488b47/)
+* #### [Faculty Positions (School of Biomedical Engineering (BME))](https://www.nature.com/naturecareers/job/12841662/faculty-positions-school-of-biomedical-engineering-bme-/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62)
+
+  School of Biomedical Engineering invites highly qualified candidates to apply for multiple tenure-track/tenured faculty positions.
+
+  Shanghai (CN)
+
+  ShanghaiTech University
+
+  ![](https://www.nature.com/naturecareers/getasset/63b75d46-300e-49e0-9ea0-a35ad2488b47/)
+* #### [Faculty Positions (School of Creativity and Art (SCA))](https://www.nature.com/naturecareers/job/12841661/faculty-positions-school-of-creativity-and-art-sca-/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62)
+
+  School of Creativity and Art (SCA) calls for candidates with exceptional academic records or demonstrated potential.
+
+  Shanghai (CN)
+
+  ShanghaiTech University
+
+  ![](https://www.nature.com/naturecareers/getasset/63b75d46-300e-49e0-9ea0-a35ad2488b47/)
+* #### [Faculty Positions (Information & Mathematical Science)](https://www.nature.com/naturecareers/job/12841636/faculty-positions-information-and-mathematical-science-/?TrackID=62&utm_source=widget&utm_medium=referral&utm_campaign=62)
+
+  School of Information Science and Technology invites highly qualified candidates to fill multiple tenure-track/tenured faculty positions.
+
+  Shanghai (CN)
+
+  ShanghaiTech University
+
+  ![](https://www.nature.com/naturecareers/getasset/63b75d46-300e-49e0-9ea0-a35ad2488b47/)
