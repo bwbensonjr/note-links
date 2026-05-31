@@ -59,4 +59,20 @@ Tags for non-technical content.
 - `video` - YouTube videos, video content
 - `gaming` - Video games, gaming
 - `social-media` - Threads, Twitter/X, Bluesky, social posts
+- `recipe` - Recipes for making food 
+- `gardening` - Plants and gardening 
+
+## Science 
+
+Tags for science topics.
+
+- `physics` - Mechanics, thermodynamics, quantum mechanics, relativity
+- `astronomy` - Space, galaxies, solar systems, planets, stars
+- `biology` - The study of plants and animals
+- `psychology` - The study of mind and behavior
+- `chemistry` - The science of matter 
+- `geology` - The study of rocks 
+- `mathematics` - Arithmetic, geometry, algebra, analysis, discrete mathematics 
+- `statistics` - The study of the interpretation of data 
+
 

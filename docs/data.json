@@ -1,6 +1,130 @@
 {
-  "exported_at": "2026-05-28T08:57:16.565263",
+  "exported_at": "2026-05-31T08:58:49.382956",
   "links": [
+    {
+      "id": 1127,
+      "url": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
+      "title": null,
+      "description": "Roto, a compiled scripting language for Rust",
+      "summary": "Roto is a JIT-compiled scripting language for Rust that has matured significantly over its first year, adding major features like loops, lists, enums, and improved syntax to resemble Rust more closely. The project has been enhanced with a revamped registration system using the library! macro for easier Rust integration, expanded documentation, conference presentations, and adoption by external projects like Iocaine, which praised its superior performance compared to other scripting languages. The developers plan to continue expanding Roto with additional features like hashmaps and generic functions, as well as improving tooling like formatters and language server support.",
+      "domain": "blog.nlnetlabs.nl",
+      "source_date": "2026-05-31",
+      "page_title": "One year of Roto, a compiled scripting language for Rust",
+      "tags": [
+        "rust",
+        "compilers",
+        "tutorial"
+      ]
+    },
+    {
+      "id": 1126,
+      "url": "https://specification.website/",
+      "title": null,
+      "description": "What a good website does",
+      "summary": "The Website Specification is a comprehensive, platform-agnostic technical checklist covering 128 topics across ten categories that define what makes a good website, including foundations, SEO, accessibility, security, performance, and privacy standards sourced from widely-accepted web standards like WHATWG, W3C, and WCAG. The specification is designed to be used by both humans and AI agents for auditing, learning, and improving websites, with full documentation available on GitHub and accessible through open APIs including an MCP server and Agent Skill. Users can browse topics to understand why each feature matters and how to implement it, with the entire resource built collaboratively and continuously updated through community contributions.",
+      "domain": "specification.website",
+      "source_date": "2026-05-31",
+      "page_title": "The Website Specification",
+      "tags": [
+        "web-dev",
+        "security",
+        "tutorial",
+        "devops"
+      ]
+    },
+    {
+      "id": 1129,
+      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "title": null,
+      "description": "The Last Technical Interview",
+      "summary": "The Last Technical Interview",
+      "domain": "steve-yegge.medium.com",
+      "source_date": "2026-05-30",
+      "page_title": null,
+      "tags": [
+        "tutorial",
+        "video"
+      ]
+    },
+    {
+      "id": 1128,
+      "url": "https://pandoc-templates.org/",
+      "title": null,
+      "description": "Pandoc Templates",
+      "summary": "Pandoc-templates.org is a comprehensive repository of templates that enable users to convert Markdown files into various document formats including PDF, LaTeX, HTML, EPUB, and DOCX using Pandoc. The site features dozens of specialized templates designed for academic and professional purposes, such as lecture notes, PhD theses, resumes, IEEE papers, journal articles, and cover letters. These community-created templates range from simple basic page layouts to complex academic formatting systems, providing users with pre-configured solutions to streamline document conversion and formatting workflows.",
+      "domain": "pandoc-templates.org",
+      "source_date": "2026-05-30",
+      "page_title": "pandoc-templates.org",
+      "tags": [
+        "cli-tool",
+        "tutorial",
+        "web-dev"
+      ]
+    },
+    {
+      "id": 1133,
+      "url": "https://github.com/HarleyCoops/Math-To-Manim",
+      "title": null,
+      "description": "Math-to-Manim - Create Epic Math and Physics Animations & Study Notes From Text and Images",
+      "summary": "Math-To-Manim is a tool that converts math and physics questions into animated explainer videos using Manim, powered by reasoning models like DeepSeek R1. Rather than just producing a video, the system preserves all intermediate artifacts—intent, prerequisite graphs, lesson plans, storyboards, and generated code—creating a complete reasoning pipeline from question to visual explanation. The project is designed as a reinforcement learning environment where models can learn to improve visual explanations through iterative corrections and refinements.",
+      "domain": "github.com",
+      "source_date": "2026-05-29",
+      "page_title": "GitHub - HarleyCoops/Math-To-Manim: Create Epic Math and Physics Animations & Study Notes From Text and Images. · GitHub",
+      "tags": [
+        "github-repo",
+        "mathematics",
+        "python",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": 1132,
+      "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+      "title": null,
+      "description": "MCP is dead",
+      "summary": "MCP (Model Context Protocol) suffers from significant practical limitations that make CLI-first approaches more efficient for most developer workflows. The protocol consumes excessive context—up to 10.5% of Claude's 200K token window just for tool definitions—operates with low reliability due to separate process overhead, and duplicates functionality already available through existing CLIs and APIs. The article recommends prioritizing CLI-first strategies and a \"Skills\" pattern that loads tools on-demand rather than upfront, reserving MCP primarily for web-only services, non-developer users, or production databases where safety guardrails are essential.",
+      "domain": "www.quandri.io",
+      "source_date": "2026-05-29",
+      "page_title": "MCP is dead | Quandri Engineering",
+      "tags": [
+        "llm",
+        "cli-tool",
+        "devops"
+      ]
+    },
+    {
+      "id": 1131,
+      "url": "https://coalton-lang.github.io",
+      "title": null,
+      "description": "The Coalton programming language",
+      "summary": "Coalton is a statically typed functional programming language designed to enhance Common Lisp by incorporating best practices from languages like Haskell, Scheme, and OCaml. The language prioritizes efficiency and aims to provide developers with a powerful tool that combines the strengths of multiple programming paradigms while maintaining compatibility with the Common Lisp ecosystem.",
+      "domain": "coalton-lang.github.io",
+      "source_date": "2026-05-29",
+      "page_title": "The Coalton Programming Language",
+      "tags": [
+        "common-lisp",
+        "lisp",
+        "haskell",
+        "scheme",
+        "compilers"
+      ]
+    },
+    {
+      "id": 1130,
+      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "title": null,
+      "description": "Claude Code settings that aren’t in the docs",
+      "summary": "This article reveals undocumented configuration options in Claude Code that exist in the source code but aren't covered in official documentation, including the ability to configure the \"YOLO Classifier\" permission system with plain English descriptions, create powerful hook scripts that can rewrite commands mid-flight and inject persistent context, and access hidden frontmatter fields for skills and agents. The author provides copy-paste ready examples of practical implementations, such as hooks that auto-approve read-only commands, scan for hardcoded secrets, and automatically load project context at session start, all of which dramatically expand what developers can build with Claude Code beyond the official docs.",
+      "domain": "buildingbetter.tech",
+      "source_date": "2026-05-29",
+      "page_title": "I Read the Claude Code Source Code. Here's Everything You Can Configure That the Docs Don't Tell You.",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "web-dev"
+      ]
+    },
     {
       "id": 1123,
       "url": "https://retrogamecoders.com/zero-lines-maze/",
@@ -42,8 +166,8 @@
       "source_date": "2026-05-28",
       "page_title": "[2510.04950] Mind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper)",
       "tags": [
-        "llm",
         "academic-paper",
+        "llm",
         "ai"
       ]
     },
@@ -57,8 +181,8 @@
       "source_date": "2026-05-28",
       "page_title": "GitHub - BurntSushi/bttf: A command line tool for datetime arithmetic, parsing, formatting and more. · GitHub",
       "tags": [
-        "cli-tool",
         "github-repo",
+        "cli-tool",
         "rust"
       ]
     },
@@ -102,7 +226,7 @@
       "source_date": "2026-05-27",
       "page_title": "WhatCable: Thunderbolt vs USB-C: what the connector hides",
       "tags": [
-        "cli-tool"
+        "security"
       ]
     },
     {
@@ -115,9 +239,9 @@
       "source_date": "2026-05-27",
       "page_title": "The Easiest Way to Setup Obsidian Git (to backup notes) - #5 by hayyaun - Share & showcase - Obsidian Forum",
       "tags": [
-        "devops",
         "tutorial",
-        "github-repo"
+        "devops",
+        "cli-tool"
       ]
     },
     {
@@ -131,8 +255,8 @@
       "page_title": "Beyond the Prompt: Claude Code | Arpan Patel",
       "tags": [
         "tutorial",
-        "cli-tool",
-        "python"
+        "ai",
+        "cli-tool"
       ]
     },
     {
@@ -160,6 +284,7 @@
       "page_title": "America built the world’s greatest research engine. Now it’s shrinking.",
       "tags": [
         "news",
+        "academic-paper",
         "politics"
       ]
     },
@@ -174,7 +299,7 @@
       "page_title": "Cultural Demonstration Video - Yosemite National Park (U.S. National Park Service)",
       "tags": [
         "video",
-        "nonfiction-book"
+        "tutorial"
       ]
     },
     {
@@ -188,7 +313,7 @@
       "page_title": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned | WIRED",
       "tags": [
         "news",
-        "academic-paper"
+        "physics"
       ]
     },
     {
@@ -218,7 +343,6 @@
       "tags": [
         "academic-paper",
         "ai",
-        "tutorial",
         "python"
       ]
     },
@@ -233,7 +357,6 @@
       "page_title": "AudioMass - Audio Editor",
       "tags": [
         "web-dev",
-        "javascript",
         "cli-tool"
       ]
     },
@@ -293,7 +416,7 @@
       "tags": [
         "security",
         "ai",
-        "academic-paper"
+        "llm"
       ]
     },
     {
@@ -322,8 +445,7 @@
       "tags": [
         "github-repo",
         "ruby",
-        "cli-tool",
-        "devops"
+        "cli-tool"
       ]
     },
     {
@@ -349,7 +471,10 @@
       "domain": "pacifichorticulture.org",
       "source_date": "2026-05-22",
       "page_title": "Pacific Horticulture | Mycorrhizal Fungi, Nature's Key to Plant Survival and Success",
-      "tags": []
+      "tags": [
+        "gardening",
+        "biology"
+      ]
     },
     {
       "id": 1105,
@@ -375,7 +500,8 @@
       "source_date": "2026-05-21",
       "page_title": "The Letter S",
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -404,8 +530,7 @@
       "page_title": "The Virtual OS Museum",
       "tags": [
         "emulator",
-        "cli-tool",
-        "video"
+        "cli-tool"
       ]
     },
     {
@@ -419,8 +544,7 @@
       "page_title": "GitHub - zakirullin/files.md: 🌱 Private, quiet space for thinking. A simple app for your .md files. · GitHub",
       "tags": [
         "github-repo",
-        "web-dev",
-        "cli-tool"
+        "web-dev"
       ]
     },
     {
@@ -449,7 +573,7 @@
       "page_title": "2024 Commencement Address by Roger Federer | Dartmouth",
       "tags": [
         "video",
-        "news"
+        "nonfiction-book"
       ]
     },
     {
@@ -463,7 +587,7 @@
       "page_title": "A nicer voltmeter clock - lcamtuf’s thing",
       "tags": [
         "tutorial",
-        "video"
+        "cli-tool"
       ]
     },
     {
@@ -519,7 +643,9 @@
       "domain": "cooking.nytimes.com",
       "source_date": "2026-05-15",
       "page_title": "Chopped Salad With Chickpeas, Feta and Avocado Recipe",
-      "tags": []
+      "tags": [
+        "recipe"
+      ]
     },
     {
       "id": 1092,
@@ -532,9 +658,8 @@
       "page_title": "How Claude Code works in large codebases: Best practices and where to start | Claude",
       "tags": [
         "tutorial",
-        "ai",
         "web-dev",
-        "devops"
+        "github-repo"
       ]
     },
     {
@@ -548,7 +673,7 @@
       "page_title": "Reverting the incremental GC in Python 3.14 and 3.15 - Core Development - Discussions on Python.org",
       "tags": [
         "python",
-        "academic-paper"
+        "compilers"
       ]
     },
     {
@@ -578,8 +703,7 @@
       "page_title": "Extraordinary Ordinals",
       "tags": [
         "academic-paper",
-        "haskell",
-        "lisp"
+        "haskell"
       ]
     },
     {
@@ -593,7 +717,7 @@
       "page_title": "Possible pancreatic cancer breakthrough",
       "tags": [
         "news",
-        "academic-paper"
+        "biology"
       ]
     },
     {
@@ -620,9 +744,9 @@
       "source_date": "2026-05-11",
       "page_title": "7 lines of code, 3 minutes: Implement a programming language",
       "tags": [
-        "scheme",
         "compilers",
         "tutorial",
+        "scheme",
         "lisp"
       ]
     },
@@ -637,8 +761,7 @@
       "page_title": "The Compiler Writer Resource Page",
       "tags": [
         "compilers",
-        "tutorial",
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -652,8 +775,7 @@
       "page_title": "CADara",
       "tags": [
         "web-dev",
-        "github-repo",
-        "typescript"
+        "github-repo"
       ]
     },
     {
@@ -682,7 +804,7 @@
       "page_title": null,
       "tags": [
         "news",
-        "nonfiction-book"
+        "video"
       ]
     },
     {
@@ -697,7 +819,7 @@
       "tags": [
         "tutorial",
         "cli-tool",
-        "security"
+        "web-dev"
       ]
     },
     {
@@ -757,9 +879,9 @@
       "source_date": "2026-05-04",
       "page_title": "From CVS to Git, thirty years of source control, lived from inside - EvilGeniusLabs.ca",
       "tags": [
+        "github-repo",
         "tutorial",
-        "devops",
-        "nonfiction-book"
+        "devops"
       ]
     },
     {
@@ -775,7 +897,7 @@
         "github-repo",
         "python",
         "llm",
-        "ai"
+        "cli-tool"
       ]
     },
     {
@@ -788,7 +910,7 @@
       "source_date": "2026-05-04",
       "page_title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life | Quanta Magazine",
       "tags": [
-        "news",
+        "biology",
         "academic-paper"
       ]
     },
@@ -803,7 +925,8 @@
       "page_title": "Texico | NHK WORLD-JAPAN",
       "tags": [
         "tutorial",
-        "video"
+        "video",
+        "compilers"
       ]
     },
     {
@@ -832,8 +955,7 @@
       "page_title": "DeepSeek V4—almost on the frontier, a fraction of the price",
       "tags": [
         "llm",
-        "ai",
-        "news"
+        "ai"
       ]
     },
     {
@@ -847,8 +969,8 @@
       "page_title": "SNEWPapers — The World's First AI Newspaper Archive",
       "tags": [
         "ai",
-        "news",
-        "database"
+        "database",
+        "news"
       ]
     },
     {
@@ -861,7 +983,9 @@
       "source_date": "2026-05-02",
       "page_title": null,
       "tags": [
-        "news"
+        "biology",
+        "news",
+        "nonfiction-book"
       ]
     },
     {
@@ -874,8 +998,8 @@
       "source_date": "2026-05-02",
       "page_title": "Daniel's Blog · The Century-Long Pause in Fundamental Physics",
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -889,8 +1013,8 @@
       "page_title": "LLM 0.32a0  is a major backwards-compatible refactor",
       "tags": [
         "llm",
-        "cli-tool",
-        "python"
+        "python",
+        "cli-tool"
       ]
     },
     {
@@ -906,7 +1030,8 @@
         "python",
         "cli-tool",
         "web-dev",
-        "llm"
+        "github-repo",
+        "ai"
       ]
     },
     {
@@ -936,7 +1061,7 @@
       "tags": [
         "github-repo",
         "llm",
-        "web-dev",
+        "cli-tool",
         "python"
       ]
     },
@@ -980,7 +1105,6 @@
       "tags": [
         "ai",
         "podcast",
-        "llm",
         "tutorial"
       ]
     },
@@ -996,7 +1120,7 @@
       "tags": [
         "cli-tool",
         "ai",
-        "devops"
+        "github-repo"
       ]
     },
     {
@@ -1010,8 +1134,7 @@
       "page_title": "Introducing talkie: a 13B vintage language model from 1930",
       "tags": [
         "llm",
-        "ai",
-        "github-repo"
+        "ai"
       ]
     },
     {
@@ -1024,7 +1147,8 @@
       "source_date": "2026-04-27",
       "page_title": null,
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "tutorial"
       ]
     },
     {
@@ -1096,7 +1220,6 @@
       "tags": [
         "github-repo",
         "common-lisp",
-        "lisp",
         "compilers"
       ]
     },
@@ -1111,7 +1234,7 @@
       "page_title": "On sabotaging projects by overthinking, scope creep, and structural diffing",
       "tags": [
         "tutorial",
-        "compilers"
+        "web-dev"
       ]
     },
     {
@@ -1125,8 +1248,8 @@
       "page_title": "Repairing the Ruins: Why AI Can’t Replace Education| National Catholic Register",
       "tags": [
         "ai",
-        "nonfiction-book",
-        "news"
+        "llm",
+        "nonfiction-book"
       ]
     },
     {
@@ -1139,8 +1262,8 @@
       "source_date": "2026-04-25",
       "page_title": "PCR is a (Surprisingly) Near-Optimal Technology",
       "tags": [
-        "academic-paper",
-        "tutorial"
+        "biology",
+        "academic-paper"
       ]
     },
     {
@@ -1154,7 +1277,7 @@
       "page_title": "A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots | Quanta Magazine",
       "tags": [
         "academic-paper",
-        "news"
+        "physics"
       ]
     },
     {
@@ -1183,8 +1306,8 @@
       "page_title": "GitHub - nex-crm/wuphf: Slack for AI employees with a shared brain. Get Claudes, Codexes and OpenClaws to collaborate and do your work autonomously while never losing context. · GitHub",
       "tags": [
         "github-repo",
-        "llm",
         "ai",
+        "llm",
         "typescript",
         "distributed-systems"
       ]
@@ -1215,8 +1338,8 @@
       "page_title": "GitHub - refactoringhq/tolaria: Desktop app to manage markdown knowledge bases · GitHub",
       "tags": [
         "github-repo",
+        "web-dev",
         "ai",
-        "cli-tool",
         "devops"
       ]
     },
@@ -1232,8 +1355,8 @@
       "tags": [
         "github-repo",
         "llm",
-        "cli-tool",
-        "academic-paper"
+        "ai",
+        "cli-tool"
       ]
     },
     {
@@ -1246,7 +1369,8 @@
       "source_date": "2026-04-23",
       "page_title": "Secrets Of The Bees: Now Streaming, Trailer & Where To Watch | Explore Disney+",
       "tags": [
-        "video"
+        "video",
+        "biology"
       ]
     },
     {
@@ -1262,8 +1386,7 @@
         "github-repo",
         "database",
         "python",
-        "rust",
-        "distributed-systems"
+        "rust"
       ]
     },
     {
@@ -1276,10 +1399,11 @@
       "source_date": "2026-04-23",
       "page_title": "Bring Your Agent to Teams | Teams SDK",
       "tags": [
+        "ai",
         "web-dev",
-        "llm",
+        "typescript",
         "tutorial",
-        "typescript"
+        "llm"
       ]
     },
     {
@@ -1294,7 +1418,7 @@
       "tags": [
         "devops",
         "distributed-systems",
-        "ai"
+        "github-repo"
       ]
     },
     {
@@ -1310,8 +1434,8 @@
         "github-repo",
         "zig",
         "ai",
-        "web-dev",
-        "cli-tool"
+        "cli-tool",
+        "web-dev"
       ]
     },
     {
@@ -1339,9 +1463,8 @@
       "page_title": "All your agents are going async — /dev/knill",
       "tags": [
         "ai",
-        "llm",
         "distributed-systems",
-        "devops"
+        "web-dev"
       ]
     },
     {
@@ -1371,7 +1494,6 @@
       "page_title": "VidStudio - Free Online Video Resizer & Editor",
       "tags": [
         "web-dev",
-        "video",
         "cli-tool"
       ]
     },
@@ -1386,8 +1508,8 @@
       "page_title": null,
       "tags": [
         "ai",
-        "nonfiction-book",
-        "news"
+        "news",
+        "academic-paper"
       ]
     },
     {
@@ -1400,8 +1522,8 @@
       "source_date": "2026-04-20",
       "page_title": "I Made the \"Next-Level\" Camera and I love it",
       "tags": [
-        "video",
-        "tutorial"
+        "physics",
+        "video"
       ]
     },
     {
@@ -1415,8 +1537,8 @@
       "page_title": "Stripe’s payments APIs: The first 10 years | Stripe Dot Dev Blog",
       "tags": [
         "web-dev",
-        "tutorial",
-        "academic-paper"
+        "database",
+        "tutorial"
       ]
     },
     {
@@ -1429,7 +1551,6 @@
       "source_date": "2026-04-20",
       "page_title": "How to generate good looking reports with Claude Code, Cowork or Codex - Martin Alderson",
       "tags": [
-        "ai",
         "llm",
         "tutorial",
         "javascript",
@@ -1446,8 +1567,8 @@
       "source_date": "2026-04-20",
       "page_title": "Introducing Claude Design by Anthropic Labs \\ Anthropic",
       "tags": [
-        "llm",
         "ai",
+        "llm",
         "web-dev"
       ]
     },
@@ -1462,7 +1583,8 @@
       "page_title": "How To Make a Fast Dynamic Language Interpreter",
       "tags": [
         "compilers",
-        "tutorial"
+        "tutorial",
+        "academic-paper"
       ]
     },
     {
@@ -1491,8 +1613,7 @@
       "tags": [
         "clojure",
         "video",
-        "academic-paper",
-        "lisp"
+        "academic-paper"
       ]
     },
     {
@@ -1505,10 +1626,9 @@
       "source_date": "2026-04-17",
       "page_title": "Reflections on 30 Years of HPC Programming: So many hardware advances, so little adoption of new languages",
       "tags": [
+        "compilers",
         "c",
         "cpp",
-        "tutorial",
-        "distributed-systems",
         "academic-paper"
       ]
     },
@@ -1523,7 +1643,6 @@
       "page_title": "CadQuery | Create parametric CAD models with Python",
       "tags": [
         "python",
-        "github-repo",
         "web-dev"
       ]
     },
@@ -1537,6 +1656,7 @@
       "source_date": "2026-04-16",
       "page_title": "Dogfooding Opus 4.7 the last few weeks, I've been feeling incredibly productive. Sharing a few tips to get more out of 4.7 🧵",
       "tags": [
+        "ai",
         "llm",
         "social-media",
         "tutorial"
@@ -1553,7 +1673,7 @@
       "page_title": "Accent Expert Gives a Tour of U.S. Accents - (Part One) | WIRED - YouTube",
       "tags": [
         "video",
-        "podcast"
+        "tutorial"
       ]
     },
     {
@@ -1566,8 +1686,7 @@
       "source_date": "2026-04-16",
       "page_title": null,
       "tags": [
-        "video",
-        "academic-paper"
+        "nonfiction-book"
       ]
     },
     {
@@ -1582,7 +1701,7 @@
       "tags": [
         "python",
         "cli-tool",
-        "github-repo"
+        "tutorial"
       ]
     },
     {
@@ -1641,8 +1760,7 @@
       "page_title": "Deprecation of Legacy Worksheets and Dashboards | Snowflake Documentation",
       "tags": [
         "database",
-        "devops",
-        "web-dev"
+        "devops"
       ]
     },
     {
@@ -1686,7 +1804,7 @@
       "page_title": "Introduction to Obsidian",
       "tags": [
         "tutorial",
-        "cli-tool"
+        "web-dev"
       ]
     },
     {
@@ -1714,7 +1832,7 @@
       "source_date": "2026-04-13",
       "page_title": null,
       "tags": [
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -1728,7 +1846,7 @@
       "page_title": "A tour of Oodi",
       "tags": [
         "video",
-        "social-media"
+        "recipe"
       ]
     },
     {
@@ -1770,8 +1888,7 @@
       "page_title": "[2603.21852] All elementary functions from a single binary operator",
       "tags": [
         "academic-paper",
-        "ai",
-        "compilers"
+        "ai"
       ]
     },
     {
@@ -1845,8 +1962,7 @@
       "page_title": "PGLite evangelism - Bill Jackson",
       "tags": [
         "database",
-        "web-dev",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -1859,8 +1975,8 @@
       "source_date": "2026-04-09",
       "page_title": "Claude mixes up who said what, and that's not OK",
       "tags": [
-        "ai",
         "llm",
+        "ai",
         "security"
       ]
     },
@@ -1876,7 +1992,8 @@
       "tags": [
         "cli-tool",
         "tutorial",
-        "devops"
+        "devops",
+        "github-repo"
       ]
     },
     {
@@ -1889,6 +2006,7 @@
       "source_date": "2026-04-08",
       "page_title": "An Arctic Road Trip Brings Vital Underground Networks into View | Quanta Magazine",
       "tags": [
+        "biology",
         "academic-paper",
         "ai"
       ]
@@ -1903,6 +2021,7 @@
       "source_date": "2026-04-07",
       "page_title": "Artemis II Lunar Flyby - NASA",
       "tags": [
+        "astronomy",
         "video",
         "news"
       ]
@@ -1918,6 +2037,7 @@
       "page_title": "John Coltrane Illustrates the Mathematics of Jazz | American Jazz Music Society",
       "tags": [
         "music",
+        "physics",
         "academic-paper"
       ]
     },
@@ -1933,7 +2053,6 @@
       "tags": [
         "github-repo",
         "database",
-        "music",
         "cli-tool"
       ]
     },
@@ -1948,8 +2067,7 @@
       "page_title": "Book Review: There Is No Antimemetics Division",
       "tags": [
         "fiction-book",
-        "ai",
-        "academic-paper"
+        "nonfiction-book"
       ]
     },
     {
@@ -1993,8 +2111,8 @@
       "page_title": null,
       "tags": [
         "academic-paper",
-        "music",
-        "tutorial"
+        "tutorial",
+        "ai"
       ]
     },
     {
@@ -2024,8 +2142,7 @@
       "page_title": "Ruckus: Racket for iOS",
       "tags": [
         "lisp",
-        "cli-tool",
-        "swift"
+        "cli-tool"
       ]
     },
     {
@@ -2040,7 +2157,7 @@
       "tags": [
         "rust",
         "music",
-        "ai",
+        "web-dev",
         "cli-tool"
       ]
     },
@@ -2073,7 +2190,6 @@
         "github-repo",
         "ai",
         "llm",
-        "cli-tool",
         "python"
       ]
     },
@@ -2088,8 +2204,7 @@
       "page_title": "TR | 2026-03-04",
       "tags": [
         "academic-paper",
-        "nonfiction-book",
-        "compilers"
+        "astronomy"
       ]
     },
     {
@@ -2103,8 +2218,8 @@
       "page_title": "Herbie Tutorial",
       "tags": [
         "tutorial",
-        "javascript",
-        "compilers"
+        "cli-tool",
+        "javascript"
       ]
     },
     {
@@ -2135,7 +2250,6 @@
       "tags": [
         "github-repo",
         "c",
-        "distributed-systems",
         "devops"
       ]
     },
@@ -2149,8 +2263,8 @@
       "source_date": "2026-04-03",
       "page_title": "A Community for Naturalists\n ·  iNaturalist",
       "tags": [
-        "social-media",
-        "database"
+        "biology",
+        "social-media"
       ]
     },
     {
@@ -2163,11 +2277,10 @@
       "source_date": "2026-04-03",
       "page_title": "apfel - Free AI on Your Mac",
       "tags": [
-        "ai",
         "llm",
+        "ai",
         "cli-tool",
-        "github-repo",
-        "swift"
+        "github-repo"
       ]
     },
     {
@@ -2181,9 +2294,8 @@
       "page_title": "Diagrams · Diagram as Code",
       "tags": [
         "python",
-        "cli-tool",
         "devops",
-        "web-dev"
+        "cli-tool"
       ]
     },
     {
@@ -2211,9 +2323,9 @@
       "source_date": "2026-04-01",
       "page_title": "GitHub - yannick-cw/korb: REWE delivery CLI · GitHub",
       "tags": [
+        "github-repo",
         "cli-tool",
         "haskell",
-        "github-repo",
         "ai"
       ]
     },
@@ -2229,7 +2341,7 @@
       "tags": [
         "emulator",
         "web-dev",
-        "cli-tool"
+        "c"
       ]
     },
     {
@@ -2288,7 +2400,6 @@
       "tags": [
         "ai",
         "academic-paper",
-        "tutorial",
         "llm"
       ]
     },
@@ -2303,9 +2414,8 @@
       "page_title": "How I manage Images for my Blog | Martin Lysk",
       "tags": [
         "web-dev",
-        "devops",
         "cli-tool",
-        "typescript"
+        "tutorial"
       ]
     },
     {
@@ -2394,8 +2504,8 @@
       "tags": [
         "github-repo",
         "python",
-        "cli-tool",
-        "web-dev"
+        "web-dev",
+        "cli-tool"
       ]
     },
     {
@@ -2452,8 +2562,7 @@
       "source_date": "2026-03-27",
       "page_title": null,
       "tags": [
-        "academic-paper",
-        "web-dev"
+        "academic-paper"
       ]
     },
     {
@@ -2467,9 +2576,8 @@
       "page_title": "jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}",
       "tags": [
         "cli-tool",
-        "rust",
         "compilers",
-        "tutorial"
+        "rust"
       ]
     },
     {
@@ -2500,8 +2608,7 @@
       "tags": [
         "clojure",
         "python",
-        "tutorial",
-        "database"
+        "tutorial"
       ]
     },
     {
@@ -2559,8 +2666,8 @@
       "source_date": "2026-03-23",
       "page_title": "How I’m Productive with Claude Code | Neil Kakkar",
       "tags": [
-        "devops",
         "ai",
+        "devops",
         "tutorial",
         "cli-tool"
       ]
@@ -2620,7 +2727,6 @@
       "page_title": "7 More Common Mistakes in Architecture Diagrams | Ilograph Blog",
       "tags": [
         "tutorial",
-        "devops",
         "distributed-systems"
       ]
     },
@@ -2636,7 +2742,7 @@
       "tags": [
         "distributed-systems",
         "database",
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -2695,7 +2801,7 @@
       "tags": [
         "database",
         "rust",
-        "ai"
+        "distributed-systems"
       ]
     },
     {
@@ -2708,7 +2814,8 @@
       "source_date": "2026-03-21",
       "page_title": "boomloom",
       "tags": [
-        "video"
+        "gardening",
+        "tutorial"
       ]
     },
     {
@@ -2721,8 +2828,7 @@
       "source_date": "2026-03-21",
       "page_title": "Why One Key Shouldn’t Rule Them All: Threshold Signatures for the Rest of Us – Eric Mann's Blog",
       "tags": [
-        "security",
-        "distributed-systems"
+        "security"
       ]
     },
     {
@@ -2737,8 +2843,7 @@
       "tags": [
         "c",
         "tutorial",
-        "compilers",
-        "academic-paper"
+        "compilers"
       ]
     },
     {
@@ -2795,7 +2900,9 @@
       "source_date": "2026-03-17",
       "page_title": "A Decade of Slug - Eric Lengyel",
       "tags": [
-        "academic-paper"
+        "compilers",
+        "academic-paper",
+        "c"
       ]
     },
     {
@@ -2809,7 +2916,7 @@
       "page_title": "GitHub - rexrodeo/american-healthcare-conundrum: Investigative data journalism: quantifying fixable waste in US healthcare, one issue at a time. Open-source analysis of CMS, OECD, and federal datasets. $98.6B in savings identified so far. · GitHub",
       "tags": [
         "github-repo",
-        "news",
+        "python",
         "academic-paper"
       ]
     },
@@ -2853,7 +2960,8 @@
       "page_title": "You gotta think outside the hypercube - lcamtuf’s thing",
       "tags": [
         "tutorial",
-        "academic-paper"
+        "academic-paper",
+        "physics"
       ]
     },
     {
@@ -2881,7 +2989,7 @@
       "page_title": "A Survival Guide to a PhD",
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "tutorial"
       ]
     },
     {
@@ -2922,9 +3030,9 @@
       "source_date": "2026-03-13",
       "page_title": "IMG_0416 - ben-mini",
       "tags": [
-        "social-media",
         "video",
-        "news"
+        "social-media",
+        "nonfiction-book"
       ]
     },
     {
@@ -2939,6 +3047,7 @@
       "tags": [
         "music",
         "video",
+        "tutorial",
         "compilers"
       ]
     },
@@ -2953,8 +3062,7 @@
       "page_title": "Hyperlinks in Terminal Emulators · GitHub",
       "tags": [
         "cli-tool",
-        "github-repo",
-        "tutorial"
+        "github-repo"
       ]
     },
     {
@@ -2968,7 +3076,7 @@
       "page_title": "“This Is Not The Computer For You” · Sam Henri Gold",
       "tags": [
         "nonfiction-book",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -2982,7 +3090,7 @@
       "page_title": "Willingness to look stupid is a genuine moat in creative work",
       "tags": [
         "nonfiction-book",
-        "video"
+        "academic-paper"
       ]
     },
     {
@@ -3011,8 +3119,9 @@
       "page_title": "GitHub - gcv/julia-snail: An Emacs development environment for Julia · GitHub",
       "tags": [
         "github-repo",
-        "cli-tool",
-        "tutorial"
+        "common-lisp",
+        "clojure",
+        "cli-tool"
       ]
     },
     {
@@ -3026,8 +3135,7 @@
       "page_title": "Computational Complexity: Tony Hoare (1934-2026)",
       "tags": [
         "news",
-        "academic-paper",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -3041,9 +3149,8 @@
       "page_title": "The Mog Language Guide | Mog",
       "tags": [
         "ai",
-        "tutorial",
-        "compilers",
-        "python"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -3072,7 +3179,8 @@
       "page_title": "Why can’t you tune your guitar? – The Ethan Hein Blog",
       "tags": [
         "music",
-        "academic-paper"
+        "physics",
+        "tutorial"
       ]
     },
     {
@@ -3102,7 +3210,7 @@
       "page_title": "Microscopes can See Video on a LaserDisc - Andonstar AD246S-P - YouTube",
       "tags": [
         "video",
-        "gaming"
+        "physics"
       ]
     },
     {
@@ -3115,8 +3223,9 @@
       "source_date": "2026-03-09",
       "page_title": "FontCrafter: Create Your Handwriting Font for Free",
       "tags": [
+        "cli-tool",
         "web-dev",
-        "cli-tool"
+        "tutorial"
       ]
     },
     {
@@ -3162,7 +3271,7 @@
       "tags": [
         "ai",
         "llm",
-        "distributed-systems"
+        "database"
       ]
     },
     {
@@ -3189,8 +3298,7 @@
       "source_date": "2026-03-08",
       "page_title": "The surprising whimsy of the Time Zone Database - Big Muddy",
       "tags": [
-        "database",
-        "nonfiction-book"
+        "database"
       ]
     },
     {
@@ -3203,8 +3311,9 @@
       "source_date": "2026-03-08",
       "page_title": "∫telescope // Curiosity Telescope Log",
       "tags": [
+        "astronomy",
         "tutorial",
-        "cli-tool"
+        "github-repo"
       ]
     },
     {
@@ -3231,9 +3340,9 @@
       "source_date": "2026-03-07",
       "page_title": "Plasma Bigscreen",
       "tags": [
-        "github-repo",
+        "tv",
         "devops",
-        "cli-tool"
+        "github-repo"
       ]
     },
     {
@@ -3247,8 +3356,8 @@
       "page_title": "Tick, Tick...Boom! | Jacob Weisberg | The New York Review of Books",
       "tags": [
         "nonfiction-book",
-        "news",
-        "ai"
+        "ai",
+        "academic-paper"
       ]
     },
     {
@@ -3261,8 +3370,8 @@
       "source_date": "2026-03-06",
       "page_title": "Intertwined Creatures | Columbia University Press",
       "tags": [
-        "nonfiction-book",
         "academic-paper",
+        "nonfiction-book",
         "ai"
       ]
     },
@@ -3290,7 +3399,8 @@
       "source_date": "2026-03-06",
       "page_title": null,
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "physics"
       ]
     },
     {
@@ -3318,7 +3428,8 @@
       "page_title": "MOSS — A Painting Toy Where Every Brush Is a Tiny Program",
       "tags": [
         "web-dev",
-        "tutorial"
+        "tutorial",
+        "python"
       ]
     },
     {
@@ -3331,7 +3442,7 @@
       "source_date": "2026-03-05",
       "page_title": "Smalltalk’s Browser: Unbeatable, Yet Not Enough",
       "tags": [
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -3346,8 +3457,7 @@
       "tags": [
         "github-repo",
         "cli-tool",
-        "ai",
-        "devops"
+        "ai"
       ]
     },
     {
@@ -3389,8 +3499,7 @@
       "tags": [
         "ai",
         "llm",
-        "tutorial",
-        "web-dev"
+        "tutorial"
       ]
     },
     {
@@ -3404,8 +3513,7 @@
       "page_title": "Triple threat Thomas Adès illuminates his own music with BSO",
       "tags": [
         "music",
-        "news",
-        "video"
+        "news"
       ]
     },
     {
@@ -3418,8 +3526,8 @@
       "source_date": "2026-03-03",
       "page_title": "@ryancbriggs.net on Bluesky",
       "tags": [
-        "ai",
         "llm",
+        "ai",
         "social-media"
       ]
     },
@@ -3433,9 +3541,8 @@
       "source_date": "2026-03-02",
       "page_title": "Are the Mysteries of Quantum Mechanics Beginning To Dissolve? | Quanta Magazine",
       "tags": [
-        "academic-paper",
-        "news",
-        "ai"
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -3478,8 +3585,7 @@
       "tags": [
         "github-repo",
         "cli-tool",
-        "ai",
-        "music"
+        "ai"
       ]
     },
     {
@@ -3507,8 +3613,7 @@
       "page_title": "Decision Trees",
       "tags": [
         "ai",
-        "tutorial",
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -3538,10 +3643,9 @@
       "page_title": "GitHub - kossisoroyce/timber: Ollama for classical ML models. AOT compiler that turns XGBoost, LightGBM, scikit-learn, CatBoost & ONNX models into native C99 inference code. One command to load, one command to serve. 336x faster than Python inference.",
       "tags": [
         "github-repo",
-        "compilers",
         "c",
-        "python",
-        "cli-tool"
+        "compilers",
+        "ai"
       ]
     },
     {
@@ -3554,8 +3658,8 @@
       "source_date": "2026-03-01",
       "page_title": "MCP is dead. Long live the CLI",
       "tags": [
-        "cli-tool",
         "llm",
+        "cli-tool",
         "tutorial"
       ]
     },
@@ -3569,8 +3673,8 @@
       "source_date": "2026-03-01",
       "page_title": "WebMCP is available for early preview  |  Blog  |  Chrome for Developers",
       "tags": [
-        "web-dev",
         "ai",
+        "web-dev",
         "javascript"
       ]
     },
@@ -3584,10 +3688,10 @@
       "source_date": "2026-03-01",
       "page_title": "microgpt",
       "tags": [
-        "python",
         "llm",
-        "tutorial",
-        "ai"
+        "python",
+        "ai",
+        "tutorial"
       ]
     },
     {
@@ -3615,8 +3719,7 @@
       "page_title": "Eschewing Zshell for Emacs Shell",
       "tags": [
         "tutorial",
-        "cli-tool",
-        "lisp"
+        "common-lisp"
       ]
     },
     {
@@ -3631,7 +3734,7 @@
       "tags": [
         "academic-paper",
         "cli-tool",
-        "distributed-systems"
+        "devops"
       ]
     },
     {
@@ -3659,7 +3762,9 @@
       "domain": "cooking.nytimes.com",
       "source_date": "2026-02-27",
       "page_title": "One-Pan Chicken With Golden Potatoes Recipe",
-      "tags": []
+      "tags": [
+        "recipe"
+      ]
     },
     {
       "id": 891,
@@ -3671,8 +3776,7 @@
       "source_date": "2026-02-27",
       "page_title": "Obsidian CLI - Obsidian Help",
       "tags": [
-        "cli-tool",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -3687,8 +3791,7 @@
       "tags": [
         "clojure",
         "tutorial",
-        "web-dev",
-        "podcast"
+        "web-dev"
       ]
     },
     {
@@ -3702,7 +3805,7 @@
       "page_title": "An interactive intro to quadtrees | growingSWE",
       "tags": [
         "tutorial",
-        "distributed-systems"
+        "web-dev"
       ]
     },
     {
@@ -3715,7 +3818,7 @@
       "source_date": "2026-02-27",
       "page_title": "The Hunt for Dark Breakfast – Ryan Moulton's Articles",
       "tags": [
-        "fiction-book",
+        "recipe",
         "video"
       ]
     },
@@ -3729,8 +3832,7 @@
       "source_date": "2026-02-26",
       "page_title": null,
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -3774,7 +3876,7 @@
       "tags": [
         "security",
         "llm",
-        "ai"
+        "news"
       ]
     },
     {
@@ -3805,7 +3907,6 @@
       "tags": [
         "github-repo",
         "rust",
-        "devops",
         "compilers"
       ]
     },
@@ -3851,8 +3952,7 @@
       "tags": [
         "tutorial",
         "cli-tool",
-        "devops",
-        "web-dev"
+        "devops"
       ]
     },
     {
@@ -3913,7 +4013,7 @@
       "page_title": "GitHub - kurouna/elecxzy: elecxzy project",
       "tags": [
         "github-repo",
-        "typescript",
+        "javascript",
         "cli-tool"
       ]
     },
@@ -3927,8 +4027,8 @@
       "source_date": "2026-02-21",
       "page_title": "How I Use Claude Code | Boris Tane",
       "tags": [
-        "tutorial",
         "llm",
+        "tutorial",
         "web-dev"
       ]
     },
@@ -3956,7 +4056,7 @@
       "source_date": "2026-02-21",
       "page_title": "Introduction - Acme Weather",
       "tags": [
-        "news",
+        "web-dev",
         "video"
       ]
     },
@@ -3971,8 +4071,7 @@
       "page_title": "Andrej Karpathy talks about \"Claws\"",
       "tags": [
         "ai",
-        "llm",
-        "video"
+        "llm"
       ]
     },
     {
@@ -3986,7 +4085,8 @@
       "page_title": "Cleaning up merged git branches: a one-liner from the CIA's leaked dev docs | spencer.wtf",
       "tags": [
         "cli-tool",
-        "tutorial"
+        "tutorial",
+        "devops"
       ]
     },
     {
@@ -4000,9 +4100,8 @@
       "page_title": "Paged Out! #8",
       "tags": [
         "security",
-        "academic-paper",
         "compilers",
-        "video"
+        "academic-paper"
       ]
     },
     {
@@ -4015,10 +4114,9 @@
       "source_date": "2026-02-20",
       "page_title": "Find Your Legislators - Plural Policy",
       "tags": [
+        "web-dev",
         "politics",
-        "cli-tool",
-        "database",
-        "ai"
+        "database"
       ]
     },
     {
@@ -4063,8 +4161,8 @@
       "source_date": "2026-02-19",
       "page_title": "Lindenmayer.jl · Lindenmayer",
       "tags": [
-        "tutorial",
-        "web-dev"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -4079,7 +4177,6 @@
       "tags": [
         "sql",
         "database",
-        "web-dev",
         "tutorial"
       ]
     },
@@ -4128,8 +4225,7 @@
         "github-repo",
         "sql",
         "database",
-        "web-dev",
-        "devops"
+        "web-dev"
       ]
     },
     {
@@ -4143,7 +4239,7 @@
       "page_title": "How I use Obsidian — Steph Ango",
       "tags": [
         "tutorial",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -4173,7 +4269,7 @@
       "tags": [
         "ai",
         "web-dev",
-        "llm",
+        "tutorial",
         "github-repo"
       ]
     },
@@ -4220,8 +4316,8 @@
       "tags": [
         "github-repo",
         "web-dev",
-        "music",
-        "javascript"
+        "javascript",
+        "music"
       ]
     },
     {
@@ -4235,8 +4331,8 @@
       "page_title": "Continuous batching from first principles",
       "tags": [
         "llm",
-        "tutorial",
         "ai",
+        "tutorial",
         "distributed-systems"
       ]
     },
@@ -4252,7 +4348,7 @@
       "tags": [
         "web-dev",
         "cli-tool",
-        "compilers"
+        "javascript"
       ]
     },
     {
@@ -4281,7 +4377,7 @@
       "page_title": "Christian Lorentzen · I’m always in the club: Peter Matthiessen in Paris",
       "tags": [
         "nonfiction-book",
-        "academic-paper"
+        "politics"
       ]
     },
     {
@@ -4296,7 +4392,6 @@
       "tags": [
         "ai",
         "llm",
-        "news",
         "github-repo"
       ]
     },
@@ -4310,8 +4405,8 @@
       "source_date": "2026-02-15",
       "page_title": "Stargazing Buddy — Practical Night Sky Observing Guide",
       "tags": [
-        "tutorial",
-        "video"
+        "astronomy",
+        "tutorial"
       ]
     },
     {
@@ -4337,7 +4432,8 @@
       "source_date": "2026-02-14",
       "page_title": "Rating Competitors in Games with Strength-Dependent Tie Probabilities",
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "gaming"
       ]
     },
     {
@@ -4365,6 +4461,7 @@
       "source_date": "2026-02-14",
       "page_title": "The Story of Wall Street Raider - A 40-Year Odyssey from Harvard Law to Steam",
       "tags": [
+        "video",
         "gaming",
         "nonfiction-book"
       ]
@@ -4380,7 +4477,8 @@
       "page_title": "Opusmodus",
       "tags": [
         "music",
-        "ai"
+        "ai",
+        "tutorial"
       ]
     },
     {
@@ -4394,7 +4492,7 @@
       "page_title": "Common Lisp Screenshots",
       "tags": [
         "common-lisp",
-        "video"
+        "lisp"
       ]
     },
     {
@@ -4424,7 +4522,7 @@
       "page_title": "How to Have a Bad Career | David Patterson | Talks at Google - YouTube",
       "tags": [
         "video",
-        "academic-paper"
+        "nonfiction-book"
       ]
     },
     {
@@ -4451,8 +4549,8 @@
       "source_date": "2026-02-13",
       "page_title": "Opinion | AI's Claude is ubiquitous. Check out its brilliant namesake..",
       "tags": [
-        "news",
         "ai",
+        "news",
         "nonfiction-book"
       ]
     },
@@ -4466,9 +4564,8 @@
       "source_date": "2026-02-13",
       "page_title": "Polis",
       "tags": [
-        "web-dev",
-        "social-media",
-        "politics"
+        "politics",
+        "social-media"
       ]
     },
     {
@@ -4494,8 +4591,8 @@
       "source_date": "2026-02-12",
       "page_title": "Clay Christensen’s Milkshake Marketing | Working Knowledge",
       "tags": [
-        "nonfiction-book",
-        "academic-paper"
+        "academic-paper",
+        "nonfiction-book"
       ]
     },
     {
@@ -4524,8 +4621,7 @@
       "page_title": "HeyWhatsThat Sitemap/FAQ",
       "tags": [
         "web-dev",
-        "tutorial",
-        "cli-tool"
+        "astronomy"
       ]
     },
     {
@@ -4538,8 +4634,8 @@
       "source_date": "2026-02-12",
       "page_title": "Playground Wisdom: Threads Beat Async/Await | Armin Ronacher's Thoughts and Writings",
       "tags": [
-        "distributed-systems",
-        "tutorial"
+        "tutorial",
+        "distributed-systems"
       ]
     },
     {
@@ -4553,7 +4649,9 @@
       "page_title": "A Language For Agents | Armin Ronacher's Thoughts and Writings",
       "tags": [
         "ai",
-        "compilers"
+        "llm",
+        "compilers",
+        "academic-paper"
       ]
     },
     {
@@ -4567,7 +4665,6 @@
       "page_title": null,
       "tags": [
         "academic-paper",
-        "nonfiction-book",
         "ai"
       ]
     },
@@ -4595,9 +4692,9 @@
       "source_date": "2026-02-11",
       "page_title": "Exploring a Modern SMTPE 2110 Broadcast Truck With My Dad - Jeff Geerling",
       "tags": [
-        "video",
         "devops",
-        "distributed-systems"
+        "distributed-systems",
+        "video"
       ]
     },
     {
@@ -4626,7 +4723,8 @@
       "page_title": "Hello Entire World · Entire",
       "tags": [
         "ai",
-        "cli-tool"
+        "cli-tool",
+        "github-repo"
       ]
     },
     {
@@ -4640,7 +4738,7 @@
       "page_title": null,
       "tags": [
         "ai",
-        "nonfiction-book",
+        "academic-paper",
         "llm",
         "tutorial"
       ]
@@ -4655,6 +4753,7 @@
       "source_date": "2026-02-10",
       "page_title": null,
       "tags": [
+        "physics",
         "academic-paper",
         "tutorial"
       ]
@@ -4672,8 +4771,7 @@
         "ai",
         "llm",
         "python",
-        "go",
-        "devops"
+        "go"
       ]
     },
     {
@@ -4688,8 +4786,7 @@
       "tags": [
         "ai",
         "llm",
-        "devops",
-        "video"
+        "devops"
       ]
     },
     {
@@ -4702,8 +4799,7 @@
       "source_date": "2026-02-10",
       "page_title": "Game Theory Patterns at Work – Daeus Jorento",
       "tags": [
-        "nonfiction-book",
-        "tutorial"
+        "nonfiction-book"
       ]
     },
     {
@@ -4733,8 +4829,7 @@
       "source_date": "2026-02-09",
       "page_title": "Quartz crystals",
       "tags": [
-        "tutorial",
-        "cli-tool"
+        "physics"
       ]
     },
     {
@@ -4747,8 +4842,7 @@
       "source_date": "2026-02-09",
       "page_title": "TESSELLATION KIT",
       "tags": [
-        "video",
-        "tutorial"
+        "mathematics"
       ]
     },
     {
@@ -4762,8 +4856,7 @@
       "page_title": null,
       "tags": [
         "lisp",
-        "academic-paper",
-        "tutorial"
+        "academic-paper"
       ]
     },
     {
@@ -4793,8 +4886,8 @@
       "page_title": "Offpunk 3.0 \"A Community is Born\" Release",
       "tags": [
         "cli-tool",
-        "python",
-        "web-dev"
+        "github-repo",
+        "python"
       ]
     },
     {
@@ -4808,7 +4901,8 @@
       "page_title": "The Man from the Future: The Visionary Ideas of John von Neumann by Ananyo Bhattacharya | Goodreads",
       "tags": [
         "nonfiction-book",
-        "academic-paper"
+        "academic-paper",
+        "physics"
       ]
     },
     {
@@ -4837,7 +4931,7 @@
       "tags": [
         "distributed-systems",
         "academic-paper",
-        "c"
+        "devops"
       ]
     },
     {
@@ -4850,8 +4944,7 @@
       "source_date": "2026-02-08",
       "page_title": "Nancy Drew Collection | Open Library",
       "tags": [
-        "fiction-book",
-        "video"
+        "fiction-book"
       ]
     },
     {
@@ -4864,8 +4957,8 @@
       "source_date": "2026-02-08",
       "page_title": "GitHub Agentic Workflows | GitHub Agentic Workflows",
       "tags": [
-        "github-repo",
         "ai",
+        "github-repo",
         "devops",
         "security",
         "cli-tool"
@@ -4881,7 +4974,8 @@
       "source_date": "2026-02-08",
       "page_title": null,
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -4909,9 +5003,8 @@
       "page_title": "FOSDEM 2026 - ga68, the GNU Algol 68 Compiler",
       "tags": [
         "compilers",
-        "c",
-        "tutorial",
-        "video"
+        "video",
+        "tutorial"
       ]
     },
     {
@@ -4927,8 +5020,7 @@
         "github-repo",
         "ai",
         "llm",
-        "python",
-        "cli-tool"
+        "python"
       ]
     },
     {
@@ -4958,7 +5050,7 @@
       "tags": [
         "ai",
         "llm",
-        "cli-tool"
+        "github-repo"
       ]
     },
     {
@@ -4971,10 +5063,10 @@
       "source_date": "2026-02-04",
       "page_title": "Introducing Deno Sandbox | Deno",
       "tags": [
-        "ai",
-        "llm",
         "security",
-        "devops"
+        "llm",
+        "devops",
+        "cli-tool"
       ]
     },
     {
@@ -4989,7 +5081,7 @@
       "tags": [
         "music",
         "academic-paper",
-        "tutorial"
+        "physics"
       ]
     },
     {
@@ -5035,7 +5127,8 @@
       "tags": [
         "github-repo",
         "elixir",
-        "web-dev"
+        "web-dev",
+        "tutorial"
       ]
     },
     {
@@ -5049,7 +5142,6 @@
       "page_title": "Claude Code just became a learning machine 🧠\n\nThe Playground plugin is now in the official marketplace.\n\nAsk it to visualize anything. Diagrams. Architecture. Protocols.\n\nIt builds interactive HTML right in your terminal.\n\nThis is how I'm learning now.",
       "tags": [
         "social-media",
-        "ai",
         "cli-tool",
         "web-dev",
         "tutorial"
@@ -5067,7 +5159,7 @@
       "tags": [
         "ai",
         "news",
-        "video"
+        "llm"
       ]
     },
     {
@@ -5095,8 +5187,9 @@
       "source_date": "2026-02-02",
       "page_title": null,
       "tags": [
+        "academic-paper",
         "distributed-systems",
-        "academic-paper"
+        "compilers"
       ]
     },
     {
@@ -5110,9 +5203,9 @@
       "page_title": "What I learned building an opinionated and minimal coding agent",
       "tags": [
         "llm",
-        "ai",
         "cli-tool",
-        "tutorial"
+        "github-repo",
+        "python"
       ]
     },
     {
@@ -5139,8 +5232,8 @@
       "source_date": "2026-02-01",
       "page_title": "Democrats hit historic high in Fox News Poll as GOP loses ground on key issues",
       "tags": [
-        "news",
-        "politics"
+        "politics",
+        "news"
       ]
     },
     {
@@ -5153,8 +5246,8 @@
       "source_date": "2026-02-01",
       "page_title": "I'm Boris and I created Claude Code. I wanted to quickly share a few tips for using Claude Code, sourced directly from the Claude Code team. The way the team uses Claude is different than how I use it. Remember: there is no one right way to use Claude Code -- everyones' setup is different. You should experiment to see what works for you!",
       "tags": [
-        "social-media",
         "ai",
+        "social-media",
         "tutorial"
       ]
     },
@@ -5187,8 +5280,7 @@
         "github-repo",
         "security",
         "ai",
-        "llm",
-        "cli-tool"
+        "llm"
       ]
     },
     {
@@ -5264,7 +5356,7 @@
       "page_title": "Sacred Geometry:Golden Ratio:Equil.Triangle in circle:GeometryCode.com",
       "tags": [
         "tutorial",
-        "academic-paper"
+        "physics"
       ]
     },
     {
@@ -5278,8 +5370,8 @@
       "page_title": "pandas - Python Data Analysis Library",
       "tags": [
         "python",
-        "database",
-        "news"
+        "github-repo",
+        "database"
       ]
     },
     {
@@ -5293,6 +5385,7 @@
       "page_title": "SvgPathEditor",
       "tags": [
         "web-dev",
+        "javascript",
         "cli-tool"
       ]
     },
@@ -5308,7 +5401,7 @@
       "tags": [
         "rust",
         "cli-tool",
-        "ai"
+        "github-repo"
       ]
     },
     {
@@ -5352,8 +5445,9 @@
       "source_date": "2026-01-27",
       "page_title": null,
       "tags": [
+        "ai",
         "social-media",
-        "ai"
+        "llm"
       ]
     },
     {
@@ -5369,7 +5463,7 @@
         "llm",
         "ai",
         "academic-paper",
-        "web-dev"
+        "distributed-systems"
       ]
     },
     {
@@ -5383,8 +5477,8 @@
       "page_title": "diamond geezer",
       "tags": [
         "tv",
-        "nonfiction-book",
-        "news"
+        "video",
+        "nonfiction-book"
       ]
     },
     {
@@ -5397,8 +5491,8 @@
       "source_date": "2026-01-26",
       "page_title": "My prod revenue-generating coding setup\n\n- Run Claude Code in Cursor so I can see the code \n- Use Claude.MD a LOT i.e. tell C to always use subagents for tasks, to use Tasks tool, write tests, use migrations (Alembic) \n- Use a central ARCHITECTURE.md file to keep track of global project status, nothing stays in context\n- Use WisprFlow to talk to CC \n- Minimal MCP use (i.e. MCP of DB services I use, Claude in Chrome)\n\nExample of global task list in .md below:",
       "tags": [
-        "web-dev",
         "devops",
+        "tutorial",
         "python",
         "cli-tool"
       ]
@@ -5414,8 +5508,7 @@
       "page_title": "Hooks can now run in the background without blocking Claude Code's execution. Just add async: true to your hook config.\n\nGreat for logging, notifications, or any side-effect that shouldn't slow things down.",
       "tags": [
         "social-media",
-        "web-dev",
-        "ai"
+        "web-dev"
       ]
     },
     {
@@ -5430,7 +5523,7 @@
       "tags": [
         "web-dev",
         "database",
-        "devops"
+        "github-repo"
       ]
     },
     {
@@ -5514,8 +5607,7 @@
       "source_date": "2026-01-24",
       "page_title": null,
       "tags": [
-        "news",
-        "politics"
+        "news"
       ]
     },
     {
@@ -5557,8 +5649,8 @@
       "source_date": "2026-01-23",
       "page_title": "'Askers' vs. 'Guessers' - The Atlantic",
       "tags": [
-        "news",
-        "nonfiction-book"
+        "nonfiction-book",
+        "news"
       ]
     },
     {
@@ -5571,9 +5663,8 @@
       "source_date": "2026-01-23",
       "page_title": "Writing First, Tooling Second - Susam Pal",
       "tags": [
-        "tutorial",
         "web-dev",
-        "nonfiction-book"
+        "tutorial"
       ]
     },
     {
@@ -5602,7 +5693,7 @@
       "page_title": "AI is a horse - Kevin Conner",
       "tags": [
         "ai",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -5615,8 +5706,7 @@
       "source_date": "2026-01-23",
       "page_title": "Isometric NYC",
       "tags": [
-        "video",
-        "web-dev"
+        "video"
       ]
     },
     {
@@ -5645,9 +5735,9 @@
       "source_date": "2026-01-22",
       "page_title": "The best code is no code: composing APIs and CLIs in the era of LLMs",
       "tags": [
-        "cli-tool",
         "llm",
-        "web-dev",
+        "cli-tool",
+        "tutorial",
         "python"
       ]
     },
@@ -5662,8 +5752,8 @@
       "page_title": "On this day in 1976, Dolenz, Jones, Boyce & Hart appeared on “Dinah!”. They performed a medley of The Monkees hits, including Carole King’s and Gerry Goffin’s “Pleasant Valley Sunday”.",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "tv",
+        "video"
       ]
     },
     {
@@ -5694,7 +5784,7 @@
       "tags": [
         "ai",
         "web-dev",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -5721,8 +5811,7 @@
       "source_date": "2026-01-22",
       "page_title": null,
       "tags": [
-        "video",
-        "nonfiction-book"
+        "video"
       ]
     },
     {
@@ -5737,7 +5826,6 @@
       "tags": [
         "python",
         "tutorial",
-        "lisp",
         "compilers"
       ]
     },
@@ -5753,7 +5841,7 @@
       "tags": [
         "database",
         "tutorial",
-        "distributed-systems"
+        "devops"
       ]
     },
     {
@@ -5767,7 +5855,6 @@
       "page_title": "GitHub - anthropics/original_performance_takehome: Anthropic's original performance take-home, now open for you to try!",
       "tags": [
         "github-repo",
-        "ai",
         "llm"
       ]
     },
@@ -5781,8 +5868,8 @@
       "source_date": "2026-01-20",
       "page_title": "ScratchTrack — Version Control for Audio",
       "tags": [
-        "music",
         "devops",
+        "web-dev",
         "distributed-systems"
       ]
     },
@@ -5813,9 +5900,8 @@
       "page_title": "GitHub - agentset-ai/awesome-rerankers: A curated list of reranking models, libraries, and resources for building high-quality Retrieval-Augmented Generation (RAG) applications.",
       "tags": [
         "github-repo",
-        "llm",
         "ai",
-        "tutorial"
+        "llm"
       ]
     },
     {
@@ -5828,7 +5914,8 @@
       "source_date": "2026-01-20",
       "page_title": "A rationalist’s guide to manifestation. - Isabel Unraveled",
       "tags": [
-        "nonfiction-book"
+        "nonfiction-book",
+        "tutorial"
       ]
     },
     {
@@ -5858,10 +5945,9 @@
       "page_title": "ReportBurster – A Complete Open‑Source BI Platform Inspired by Real‑World Reporting Workflows",
       "tags": [
         "database",
-        "github-repo",
         "ai",
-        "web-dev",
-        "devops"
+        "github-repo",
+        "web-dev"
       ]
     },
     {
@@ -5875,8 +5961,8 @@
       "page_title": "beats",
       "tags": [
         "web-dev",
-        "javascript",
         "music",
+        "javascript",
         "cli-tool"
       ]
     },
@@ -5892,7 +5978,7 @@
       "tags": [
         "cli-tool",
         "devops",
-        "distributed-systems"
+        "tutorial"
       ]
     },
     {
@@ -5907,7 +5993,7 @@
       "tags": [
         "emulator",
         "compilers",
-        "c"
+        "cli-tool"
       ]
     },
     {
@@ -5952,8 +6038,8 @@
       "page_title": "install.md: A Standard for LLM-Executable Installation",
       "tags": [
         "llm",
-        "ai",
         "devops",
+        "tutorial",
         "cli-tool"
       ]
     },
@@ -5969,8 +6055,7 @@
       "tags": [
         "academic-paper",
         "security",
-        "ai",
-        "compilers"
+        "ai"
       ]
     },
     {
@@ -5983,9 +6068,9 @@
       "source_date": "2026-01-17",
       "page_title": "Cursor's latest \"browser experiment\" implied success without evidence",
       "tags": [
+        "ai",
         "github-repo",
         "compilers",
-        "ai",
         "news"
       ]
     },
@@ -6032,7 +6117,7 @@
       "tags": [
         "github-repo",
         "ai",
-        "cli-tool",
+        "llm",
         "web-dev"
       ]
     },
@@ -6062,7 +6147,7 @@
       "tags": [
         "github-repo",
         "web-dev",
-        "cli-tool"
+        "python"
       ]
     },
     {
@@ -6091,7 +6176,7 @@
       "tags": [
         "compilers",
         "tutorial",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -6107,7 +6192,7 @@
         "ai",
         "llm",
         "distributed-systems",
-        "web-dev"
+        "github-repo"
       ]
     },
     {
@@ -6122,8 +6207,8 @@
       "tags": [
         "github-repo",
         "rust",
-        "cli-tool",
         "typescript",
+        "cli-tool",
         "security"
       ]
     },
@@ -6138,8 +6223,7 @@
       "page_title": "Ask HN: Share your personal website | Hacker News",
       "tags": [
         "social-media",
-        "web-dev",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -6183,8 +6267,7 @@
         "github-repo",
         "cli-tool",
         "web-dev",
-        "ai",
-        "python"
+        "ai"
       ]
     },
     {
@@ -6198,7 +6281,7 @@
       "page_title": "Chroma Explorer - Modern ChromaDB Desktop Client",
       "tags": [
         "database",
-        "llm",
+        "ai",
         "cli-tool"
       ]
     },
@@ -6212,6 +6295,7 @@
       "source_date": "2026-01-14",
       "page_title": "Gleam programming language",
       "tags": [
+        "compilers",
         "web-dev",
         "distributed-systems"
       ]
@@ -6226,9 +6310,8 @@
       "source_date": "2026-01-13",
       "page_title": "The $LANG Programming Language | Hacker News",
       "tags": [
-        "news",
-        "social-media",
-        "github-repo"
+        "github-repo",
+        "news"
       ]
     },
     {
@@ -6242,6 +6325,7 @@
       "page_title": "The $LANG Programming Language | Hacker News",
       "tags": [
         "news",
+        "social-media",
         "github-repo"
       ]
     },
@@ -6256,8 +6340,8 @@
       "page_title": "‘I rarely get outside’: scientists ditch fieldwork in the age of AI",
       "tags": [
         "ai",
-        "news",
-        "academic-paper"
+        "academic-paper",
+        "biology"
       ]
     },
     {
@@ -6285,8 +6369,8 @@
       "page_title": "Cray simulator",
       "tags": [
         "emulator",
-        "cli-tool",
-        "github-repo"
+        "github-repo",
+        "cli-tool"
       ]
     },
     {
@@ -6299,9 +6383,10 @@
       "source_date": "2026-01-12",
       "page_title": "GitHub - haykgrigo3/TimeCapsuleLLM: A LLM trained only on data from the 19th century",
       "tags": [
-        "github-repo",
         "llm",
-        "ai"
+        "github-repo",
+        "ai",
+        "python"
       ]
     },
     {
@@ -6315,8 +6400,7 @@
       "page_title": "Introducing Cowork | Claude",
       "tags": [
         "ai",
-        "cli-tool",
-        "security"
+        "cli-tool"
       ]
     },
     {
@@ -6373,7 +6457,8 @@
       "page_title": "GitHub - torvalds/AudioNoise at 71b256a7fcb0aa1250625f79838ab71b2b77b9ff",
       "tags": [
         "github-repo",
-        "python"
+        "python",
+        "c"
       ]
     },
     {
@@ -6388,8 +6473,8 @@
       "tags": [
         "ai",
         "tutorial",
-        "database",
-        "cli-tool"
+        "devops",
+        "python"
       ]
     },
     {
@@ -6419,7 +6504,7 @@
       "page_title": "Wikidata",
       "tags": [
         "database",
-        "tutorial"
+        "web-dev"
       ]
     },
     {
@@ -6433,8 +6518,8 @@
       "page_title": "Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more | Hacker News",
       "tags": [
         "go",
-        "database",
-        "github-repo"
+        "github-repo",
+        "database"
       ]
     },
     {
@@ -6449,8 +6534,8 @@
       "tags": [
         "devops",
         "ai",
-        "llm",
-        "distributed-systems"
+        "distributed-systems",
+        "github-repo"
       ]
     },
     {
@@ -6480,8 +6565,7 @@
       "tags": [
         "github-repo",
         "typescript",
-        "tutorial",
-        "web-dev"
+        "tutorial"
       ]
     },
     {
@@ -6494,9 +6578,10 @@
       "source_date": "2026-01-11",
       "page_title": "Reading across books with Claude Code | Pieter Maes",
       "tags": [
-        "llm",
         "ai",
-        "tutorial"
+        "llm",
+        "tutorial",
+        "nonfiction-book"
       ]
     },
     {
@@ -6511,7 +6596,7 @@
       "tags": [
         "academic-paper",
         "ai",
-        "python"
+        "llm"
       ]
     },
     {
@@ -6554,8 +6639,8 @@
       "source_date": "2026-01-10",
       "page_title": "Lend Me Your Ears",
       "tags": [
-        "gaming",
         "music",
+        "gaming",
         "tutorial"
       ]
     },
@@ -6600,7 +6685,8 @@
       "tags": [
         "compilers",
         "tutorial",
-        "academic-paper"
+        "academic-paper",
+        "haskell"
       ]
     },
     {
@@ -6613,8 +6699,8 @@
       "source_date": "2026-01-09",
       "page_title": "1ML - core and modules united",
       "tags": [
-        "academic-paper",
-        "compilers"
+        "compilers",
+        "academic-paper"
       ]
     },
     {
@@ -6627,6 +6713,7 @@
       "source_date": "2026-01-09",
       "page_title": "Slime mould - a hidden wonderland brought to life in photos",
       "tags": [
+        "biology",
         "news",
         "video"
       ]
@@ -6645,7 +6732,7 @@
         "rust",
         "c",
         "cli-tool",
-        "devops"
+        "compilers"
       ]
     },
     {
@@ -6658,10 +6745,9 @@
       "source_date": "2026-01-09",
       "page_title": "What Happened To WebAssembly",
       "tags": [
-        "web-dev",
-        "security",
         "compilers",
-        "tutorial"
+        "web-dev",
+        "security"
       ]
     },
     {
@@ -6676,7 +6762,8 @@
       "tags": [
         "ai",
         "llm",
-        "security"
+        "security",
+        "distributed-systems"
       ]
     },
     {
@@ -6719,9 +6806,8 @@
       "source_date": "2026-01-07",
       "page_title": "Shipmap.org | Visualisation of Global Cargo Ships | By Kiln and UCL",
       "tags": [
-        "video",
         "web-dev",
-        "devops"
+        "academic-paper"
       ]
     },
     {
@@ -6763,8 +6849,7 @@
       "page_title": "Yes I agree with you. The pattern is \"composition\" vs \"inheritance\". Defining a ... | Hacker News",
       "tags": [
         "social-media",
-        "web-dev",
-        "python"
+        "web-dev"
       ]
     },
     {
@@ -6778,8 +6863,7 @@
       "page_title": "What Features Should Rust Include? Part I: Not Inheritance. :: The Coded Message",
       "tags": [
         "rust",
-        "compilers",
-        "academic-paper"
+        "compilers"
       ]
     },
     {
@@ -6822,8 +6906,8 @@
       "tags": [
         "github-repo",
         "tutorial",
-        "cli-tool",
-        "devops"
+        "devops",
+        "cli-tool"
       ]
     },
     {
@@ -6864,10 +6948,9 @@
       "source_date": "2026-01-05",
       "page_title": "GitHub - nibzard/awesome-agentic-patterns: A curated catalogue of awesome agentic AI patterns",
       "tags": [
-        "github-repo",
         "ai",
-        "llm",
-        "tutorial"
+        "github-repo",
+        "llm"
       ]
     },
     {
@@ -6880,9 +6963,9 @@
       "source_date": "2026-01-05",
       "page_title": "NeXTSTEP on HP 9000 PA-RISC Computers – OpenPA.net",
       "tags": [
-        "emulator",
         "devops",
-        "c"
+        "c",
+        "compilers"
       ]
     },
     {
@@ -6895,9 +6978,10 @@
       "source_date": "2026-01-05",
       "page_title": "Claude Code On-The-Go - Granda | Ideas & Code",
       "tags": [
-        "devops",
         "cli-tool",
-        "tutorial"
+        "devops",
+        "tutorial",
+        "ai"
       ]
     },
     {
@@ -6941,9 +7025,8 @@
       "page_title": "GitHub - BayramAnnakov/claude-reflect: A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md.",
       "tags": [
         "github-repo",
-        "ai",
         "cli-tool",
-        "python"
+        "ai"
       ]
     },
     {
@@ -6958,7 +7041,8 @@
       "tags": [
         "ai",
         "llm",
-        "github-repo"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -6971,10 +7055,10 @@
       "source_date": "2026-01-04",
       "page_title": "Neural Networks: Zero To Hero",
       "tags": [
-        "tutorial",
         "ai",
-        "python",
-        "llm"
+        "tutorial",
+        "llm",
+        "python"
       ]
     },
     {
@@ -6987,9 +7071,9 @@
       "source_date": "2026-01-03",
       "page_title": "Experiments with ableton-mcp (Dec 2025) - John Hurliman",
       "tags": [
-        "llm",
         "ai",
-        "music",
+        "llm",
+        "python",
         "tutorial"
       ]
     },
@@ -7019,9 +7103,11 @@
       "source_date": "2026-01-03",
       "page_title": "The Most Popular Blogs of Hacker News in 2025 · Refactoring English",
       "tags": [
-        "news",
         "ai",
-        "security"
+        "news",
+        "github-repo",
+        "security",
+        "web-dev"
       ]
     },
     {
@@ -7035,8 +7121,7 @@
       "page_title": "TR-CS-96-05.dvi",
       "tags": [
         "academic-paper",
-        "distributed-systems",
-        "compilers"
+        "distributed-systems"
       ]
     },
     {
@@ -7051,7 +7136,7 @@
       "tags": [
         "social-media",
         "video",
-        "tutorial"
+        "web-dev"
       ]
     },
     {
@@ -7094,9 +7179,9 @@
       "source_date": "2026-01-02",
       "page_title": "A Website To End All Websites | Henry From Online",
       "tags": [
+        "web-dev",
         "nonfiction-book",
-        "politics",
-        "social-media"
+        "politics"
       ]
     },
     {
@@ -7125,8 +7210,8 @@
       "page_title": "Easel Turns One!",
       "tags": [
         "clojure",
-        "web-dev",
-        "github-repo"
+        "github-repo",
+        "web-dev"
       ]
     },
     {
@@ -7140,8 +7225,8 @@
       "page_title": "2025: The year in LLMs",
       "tags": [
         "llm",
-        "news",
-        "ai"
+        "ai",
+        "news"
       ]
     },
     {
@@ -7155,7 +7240,7 @@
       "page_title": "Opal [Experiment]",
       "tags": [
         "web-dev",
-        "cli-tool"
+        "tutorial"
       ]
     },
     {
@@ -7169,8 +7254,8 @@
       "page_title": "Understanding How We Learn: A Visual Guide — The Learning Scientists",
       "tags": [
         "nonfiction-book",
-        "academic-paper",
-        "tutorial"
+        "tutorial",
+        "academic-paper"
       ]
     },
     {
@@ -7243,8 +7328,7 @@
       "tags": [
         "devops",
         "github-repo",
-        "ai",
-        "web-dev"
+        "ai"
       ]
     },
     {
@@ -7258,8 +7342,7 @@
       "page_title": "AI Is Forcing Us To Write Good Code - by Steve Krenzel",
       "tags": [
         "ai",
-        "tutorial",
-        "web-dev"
+        "tutorial"
       ]
     },
     {
@@ -7274,8 +7357,7 @@
       "tags": [
         "emulator",
         "tutorial",
-        "devops",
-        "c"
+        "devops"
       ]
     },
     {
@@ -7290,7 +7372,7 @@
       "tags": [
         "github-repo",
         "lisp",
-        "devops"
+        "emulator"
       ]
     },
     {
@@ -7318,7 +7400,6 @@
       "tags": [
         "github-repo",
         "ai",
-        "cli-tool",
         "python"
       ]
     },
@@ -7333,8 +7414,7 @@
       "page_title": "Publishing your work increases your luck · GitHub",
       "tags": [
         "github-repo",
-        "tutorial",
-        "nonfiction-book"
+        "tutorial"
       ]
     },
     {
@@ -7347,9 +7427,9 @@
       "source_date": "2025-12-26",
       "page_title": "The Best Things and Stuff of 2025",
       "tags": [
+        "nonfiction-book",
         "video",
         "fiction-book",
-        "nonfiction-book",
         "gaming"
       ]
     },
@@ -7364,7 +7444,7 @@
       "page_title": "graydon2 | always bet on text",
       "tags": [
         "nonfiction-book",
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -7378,8 +7458,8 @@
       "page_title": "Reddit - The heart of the internet",
       "tags": [
         "video",
-        "social-media",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -7392,8 +7472,7 @@
       "source_date": "2025-12-25",
       "page_title": "Tessellations, Escher-style - Tiled.art",
       "tags": [
-        "video",
-        "gaming"
+        "video"
       ]
     },
     {
@@ -7437,7 +7516,6 @@
       "tags": [
         "python",
         "tutorial",
-        "ai",
         "academic-paper"
       ]
     },
@@ -7466,8 +7544,7 @@
       "source_date": "2025-12-24",
       "page_title": "Volvo Centum is Dalton Maag's new typeface for Volvo | Wallpaper*",
       "tags": [
-        "news",
-        "video"
+        "news"
       ]
     },
     {
@@ -7481,9 +7558,8 @@
       "page_title": "High Performance HTML to PNG API",
       "tags": [
         "web-dev",
-        "cli-tool",
-        "ai",
-        "llm"
+        "llm",
+        "cli-tool"
       ]
     },
     {
@@ -7498,7 +7574,7 @@
       "tags": [
         "news",
         "social-media",
-        "tutorial"
+        "devops"
       ]
     },
     {
@@ -7527,9 +7603,8 @@
       "page_title": "Adobe Photoshop Source Code - CHM",
       "tags": [
         "github-repo",
-        "academic-paper",
         "c",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -7543,8 +7618,8 @@
       "page_title": "Our New SAM Audio Model Transforms Audio Editing",
       "tags": [
         "ai",
-        "news",
-        "llm"
+        "llm",
+        "web-dev"
       ]
     },
     {
@@ -7558,7 +7633,8 @@
       "page_title": "Introducing Lightning: Real-time editing for tiled data",
       "tags": [
         "web-dev",
-        "database"
+        "database",
+        "devops"
       ]
     },
     {
@@ -7573,7 +7649,7 @@
       "tags": [
         "music",
         "lisp",
-        "tutorial"
+        "common-lisp"
       ]
     },
     {
@@ -7587,8 +7663,7 @@
       "page_title": "OpenSCAD Is Kinda Neat – nuxx.net",
       "tags": [
         "cli-tool",
-        "tutorial",
-        "web-dev"
+        "tutorial"
       ]
     },
     {
@@ -7632,8 +7707,7 @@
       "tags": [
         "cli-tool",
         "llm",
-        "tutorial",
-        "github-repo"
+        "tutorial"
       ]
     },
     {
@@ -7647,7 +7721,7 @@
       "page_title": "Your job is to deliver code you have proven to work",
       "tags": [
         "tutorial",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -7662,7 +7736,7 @@
       "tags": [
         "academic-paper",
         "compilers",
-        "tutorial"
+        "ai"
       ]
     },
     {
@@ -7694,7 +7768,7 @@
         "python",
         "rust",
         "cli-tool",
-        "compilers"
+        "github-repo"
       ]
     },
     {
@@ -7708,6 +7782,7 @@
       "page_title": "Essential Semiconductor Physics cover",
       "tags": [
         "academic-paper",
+        "physics",
         "tutorial"
       ]
     },
@@ -7721,7 +7796,6 @@
       "source_date": "2025-12-15",
       "page_title": "The Book of Shen\t4th Edition",
       "tags": [
-        "lisp",
         "academic-paper",
         "tutorial"
       ]
@@ -7737,8 +7811,7 @@
       "page_title": "Mystery Science Theater 3000: The Definitive Oral History of a TV Masterpiece | WIRED",
       "tags": [
         "tv",
-        "video",
-        "nonfiction-book"
+        "video"
       ]
     },
     {
@@ -7766,7 +7839,7 @@
       "page_title": "Recovering Anthony Bourdain’s (really) lost Li.st’s",
       "tags": [
         "nonfiction-book",
-        "video"
+        "news"
       ]
     },
     {
@@ -7824,7 +7897,7 @@
       "page_title": "Beautiful Abelian Sandpiles",
       "tags": [
         "academic-paper",
-        "video"
+        "physics"
       ]
     },
     {
@@ -7838,7 +7911,6 @@
       "page_title": "This Photographer Built an Awesome Medium-Format Rangefinder, and So Can You | PetaPixel",
       "tags": [
         "github-repo",
-        "tutorial",
         "video"
       ]
     },
@@ -7869,7 +7941,8 @@
       "tags": [
         "database",
         "rust",
-        "github-repo"
+        "github-repo",
+        "sql"
       ]
     },
     {
@@ -7898,8 +7971,7 @@
       "page_title": "GitHub - abo-abo/ace-window: Quickly switch windows in Emacs",
       "tags": [
         "github-repo",
-        "cli-tool",
-        "lisp"
+        "cli-tool"
       ]
     },
     {
@@ -7912,8 +7984,9 @@
       "source_date": "2025-12-07",
       "page_title": "The 10 Principles of Slack Maximalism - by Lucie Philippon",
       "tags": [
-        "devops",
-        "cli-tool"
+        "cli-tool",
+        "tutorial",
+        "devops"
       ]
     },
     {
@@ -7927,8 +8000,9 @@
       "page_title": "OMSCS Open Courseware",
       "tags": [
         "tutorial",
-        "academic-paper",
-        "ai"
+        "ai",
+        "security",
+        "academic-paper"
       ]
     },
     {
@@ -7941,8 +8015,9 @@
       "source_date": "2025-12-07",
       "page_title": "United States Antarctic Program Field Manual",
       "tags": [
-        "tutorial",
-        "cli-tool"
+        "academic-paper",
+        "devops",
+        "security"
       ]
     },
     {
@@ -7956,8 +8031,8 @@
       "page_title": "What even is \"literate programming\"?",
       "tags": [
         "tutorial",
-        "academic-paper",
-        "compilers"
+        "compilers",
+        "academic-paper"
       ]
     },
     {
@@ -7971,7 +8046,7 @@
       "page_title": null,
       "tags": [
         "academic-paper",
-        "tutorial"
+        "physics"
       ]
     },
     {
@@ -7999,7 +8074,7 @@
       "source_date": "2025-12-05",
       "page_title": "Transparent Leadership Beats Servant Leadership",
       "tags": [
-        "nonfiction-book"
+        "news"
       ]
     },
     {
@@ -8014,8 +8089,8 @@
       "tags": [
         "python",
         "tutorial",
-        "cli-tool",
-        "devops"
+        "devops",
+        "ai"
       ]
     },
     {
@@ -8043,8 +8118,8 @@
       "source_date": "2025-12-04",
       "page_title": "All the Way Down - Futility Closet",
       "tags": [
-        "tutorial",
-        "academic-paper"
+        "academic-paper",
+        "physics"
       ]
     },
     {
@@ -8057,8 +8132,8 @@
       "source_date": "2025-12-04",
       "page_title": "Ghostty",
       "tags": [
-        "cli-tool",
-        "emulator"
+        "emulator",
+        "cli-tool"
       ]
     },
     {
@@ -8073,7 +8148,7 @@
       "tags": [
         "tutorial",
         "music",
-        "cli-tool"
+        "video"
       ]
     },
     {
@@ -8117,8 +8192,8 @@
       "page_title": "trifold - trifold",
       "tags": [
         "cli-tool",
-        "devops",
-        "web-dev"
+        "web-dev",
+        "devops"
       ]
     },
     {
@@ -8147,8 +8222,7 @@
       "page_title": "Scala Home Page",
       "tags": [
         "music",
-        "cli-tool",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -8161,8 +8235,7 @@
       "source_date": "2025-11-29",
       "page_title": "Language is primarily a tool for communication rather than thought",
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -8176,7 +8249,7 @@
       "page_title": "Garfield's proof of the Pythagorean theorem - Wikipedia",
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "physics"
       ]
     },
     {
@@ -8217,9 +8290,8 @@
       "page_title": "PocketBase - Open Source backend in 1 file",
       "tags": [
         "database",
-        "web-dev",
-        "cli-tool",
-        "javascript"
+        "javascript",
+        "github-repo"
       ]
     },
     {
@@ -8248,7 +8320,7 @@
       "tags": [
         "compilers",
         "tutorial",
-        "lisp"
+        "scheme"
       ]
     },
     {
@@ -8261,9 +8333,10 @@
       "source_date": "2025-11-23",
       "page_title": "microcad.xyz",
       "tags": [
+        "rust",
+        "github-repo",
         "compilers",
-        "tutorial",
-        "github-repo"
+        "tutorial"
       ]
     },
     {
@@ -8276,8 +8349,7 @@
       "source_date": "2025-11-22",
       "page_title": "Shallow Water\n – Fairfield Circuitry",
       "tags": [
-        "music",
-        "gaming"
+        "music"
       ]
     },
     {
@@ -8292,7 +8364,8 @@
       "tags": [
         "llm",
         "compilers",
-        "tutorial"
+        "tutorial",
+        "github-repo"
       ]
     },
     {
@@ -8307,7 +8380,7 @@
       "tags": [
         "compilers",
         "tutorial",
-        "academic-paper"
+        "web-dev"
       ]
     },
     {
@@ -8353,7 +8426,7 @@
       "tags": [
         "lisp",
         "compilers",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -8369,7 +8442,6 @@
         "github-repo",
         "cli-tool",
         "ai",
-        "llm",
         "python"
       ]
     },
@@ -8412,8 +8484,7 @@
       "source_date": "2025-11-17",
       "page_title": null,
       "tags": [
-        "compilers",
-        "academic-paper"
+        "github-repo"
       ]
     },
     {
@@ -8427,8 +8498,8 @@
       "page_title": "Has Google Quietly Solved Two of AI’s Oldest Problems?",
       "tags": [
         "ai",
-        "news",
-        "llm"
+        "llm",
+        "news"
       ]
     },
     {
@@ -8441,8 +8512,8 @@
       "source_date": "2025-11-15",
       "page_title": null,
       "tags": [
-        "news",
-        "politics"
+        "politics",
+        "news"
       ]
     },
     {
@@ -8471,8 +8542,8 @@
       "page_title": "Spec-Driven Development: The Waterfall Strikes Back",
       "tags": [
         "ai",
-        "tutorial",
-        "web-dev"
+        "llm",
+        "tutorial"
       ]
     },
     {
@@ -8486,9 +8557,8 @@
       "page_title": "Structured outputs on the Claude Developer Platform | Claude",
       "tags": [
         "llm",
-        "ai",
         "web-dev",
-        "tutorial"
+        "cli-tool"
       ]
     },
     {
@@ -8501,9 +8571,9 @@
       "source_date": "2025-11-14",
       "page_title": "Hooked on Sonics: Experimenting with Sound in 19th-Century Popular Science\n — The Public Domain Review",
       "tags": [
-        "nonfiction-book",
+        "physics",
         "academic-paper",
-        "tutorial"
+        "nonfiction-book"
       ]
     },
     {
@@ -8534,6 +8604,7 @@
         "github-repo",
         "python",
         "ai",
+        "llm",
         "cli-tool"
       ]
     },
@@ -8547,9 +8618,7 @@
       "source_date": "2025-11-12",
       "page_title": "About - Project Euler",
       "tags": [
-        "tutorial",
-        "python",
-        "javascript"
+        "tutorial"
       ]
     },
     {
@@ -8577,7 +8646,7 @@
       "page_title": "Using Generative AI in Content Production – Netflix | Partner Help Center",
       "tags": [
         "ai",
-        "movie",
+        "llm",
         "security"
       ]
     },
@@ -8593,8 +8662,8 @@
       "tags": [
         "ai",
         "github-repo",
-        "web-dev",
-        "tutorial"
+        "llm",
+        "cli-tool"
       ]
     },
     {
@@ -8608,10 +8677,10 @@
       "page_title": "Search API Integration | langchain-ai/local-deep-researcher | DeepWiki",
       "tags": [
         "github-repo",
-        "python",
-        "web-dev",
+        "ai",
         "llm",
-        "tutorial"
+        "python",
+        "web-dev"
       ]
     },
     {
@@ -8624,8 +8693,8 @@
       "source_date": "2025-11-10",
       "page_title": "How People Learn to Become Resilient | The New Yorker",
       "tags": [
-        "news",
-        "nonfiction-book"
+        "nonfiction-book",
+        "academic-paper"
       ]
     },
     {
@@ -8668,7 +8737,8 @@
       "page_title": "Reverse Engineering a Neural Network's Clever Solution to Binary Addition - Casey Primozic's Homepage",
       "tags": [
         "ai",
-        "academic-paper"
+        "academic-paper",
+        "llm"
       ]
     },
     {
@@ -8698,9 +8768,9 @@
       "page_title": "🎧 How to Use Claude Code Like the People Who Built It",
       "tags": [
         "podcast",
+        "ai",
         "llm",
-        "tutorial",
-        "web-dev"
+        "tutorial"
       ]
     },
     {
@@ -8713,8 +8783,8 @@
       "source_date": "2025-11-06",
       "page_title": "A Computing Legend Speaks - CHM",
       "tags": [
-        "video",
-        "academic-paper"
+        "academic-paper",
+        "video"
       ]
     },
     {
@@ -8728,9 +8798,9 @@
       "page_title": "How I am deeply integrating emacs - The Universe of Joshua Blais",
       "tags": [
         "cli-tool",
-        "emulator",
         "tutorial",
-        "go"
+        "go",
+        "devops"
       ]
     },
     {
@@ -8792,8 +8862,7 @@
         "github-repo",
         "llm",
         "web-dev",
-        "database",
-        "python"
+        "database"
       ]
     },
     {
@@ -8850,9 +8919,9 @@
       "source_date": "2025-11-01",
       "page_title": "Ask HN: Where to begin with \"modern\" Emacs? | Hacker News",
       "tags": [
-        "social-media",
         "tutorial",
-        "cli-tool"
+        "cli-tool",
+        "social-media"
       ]
     },
     {
@@ -8883,8 +8952,8 @@
       "tags": [
         "github-repo",
         "python",
-        "tutorial",
-        "ai"
+        "ai",
+        "tutorial"
       ]
     },
     {
@@ -8897,8 +8966,8 @@
       "source_date": "2025-10-30",
       "page_title": "Unsupported client",
       "tags": [
-        "web-dev",
-        "ai"
+        "ai",
+        "web-dev"
       ]
     },
     {
@@ -8943,7 +9012,6 @@
       "tags": [
         "javascript",
         "compilers",
-        "web-dev",
         "tutorial"
       ]
     },
@@ -8971,8 +9039,8 @@
       "source_date": "2025-10-27",
       "page_title": "[2510.18212] A Definition of AGI",
       "tags": [
-        "ai",
         "academic-paper",
+        "ai",
         "llm"
       ]
     },
@@ -8986,10 +9054,10 @@
       "source_date": "2025-10-27",
       "page_title": "Structure and Interpretation of Classical Mechanics",
       "tags": [
+        "physics",
         "academic-paper",
         "scheme",
-        "tutorial",
-        "nonfiction-book"
+        "tutorial"
       ]
     },
     {
@@ -9005,7 +9073,7 @@
         "security",
         "tutorial",
         "gaming",
-        "cli-tool"
+        "sql"
       ]
     },
     {
@@ -9018,8 +9086,7 @@
       "source_date": "2025-10-27",
       "page_title": "Why JPEG XL Ignoring Bit Depth Is Genius (And Why AVIF Can’t Pull It Off)   | FX Insights",
       "tags": [
-        "web-dev",
-        "tutorial"
+        "web-dev"
       ]
     },
     {
@@ -9046,8 +9113,9 @@
       "source_date": "2025-10-27",
       "page_title": "Making the Electron Microscope",
       "tags": [
-        "nonfiction-book",
-        "academic-paper"
+        "physics",
+        "biology",
+        "nonfiction-book"
       ]
     },
     {
@@ -9060,6 +9128,7 @@
       "source_date": "2025-10-26",
       "page_title": "These Sandhill Cranes Have Adopted a Canada Gosling, and Birders Have Flocked to Watch the Strange Family",
       "tags": [
+        "biology",
         "news",
         "video"
       ]
@@ -9103,8 +9172,7 @@
       "source_date": "2025-10-24",
       "page_title": "Crying In The Night - song and lyrics by Andrew Bird, Madison Cunningham | Spotify",
       "tags": [
-        "music",
-        "video"
+        "music"
       ]
     },
     {
@@ -9131,8 +9199,7 @@
       "source_date": "2025-10-24",
       "page_title": "Hideaway - song and lyrics by The Weepies, Deb Talan, Steve Tannen | Spotify",
       "tags": [
-        "music",
-        "social-media"
+        "music"
       ]
     },
     {
@@ -9145,8 +9212,7 @@
       "source_date": "2025-10-24",
       "page_title": "This Will Be Our Year - song and lyrics by Lowland Hum | Spotify",
       "tags": [
-        "music",
-        "video"
+        "music"
       ]
     },
     {
@@ -9173,7 +9239,8 @@
       "source_date": "2025-10-24",
       "page_title": "But Not For Me - Vocal Version - song and lyrics by Chet Baker | Spotify",
       "tags": [
-        "music"
+        "music",
+        "video"
       ]
     },
     {
@@ -9214,8 +9281,8 @@
       "page_title": null,
       "tags": [
         "web-dev",
-        "tutorial",
-        "cli-tool"
+        "javascript",
+        "tutorial"
       ]
     },
     {
@@ -9229,9 +9296,8 @@
       "page_title": "JupyterGIS breaks through to the next level - eo science for society",
       "tags": [
         "web-dev",
-        "python",
-        "database",
-        "devops"
+        "devops",
+        "database"
       ]
     },
     {
@@ -9248,7 +9314,7 @@
         "scheme",
         "academic-paper",
         "tutorial",
-        "video"
+        "compilers"
       ]
     },
     {
@@ -9276,7 +9342,7 @@
       "source_date": "2025-10-20",
       "page_title": "Chicken Enchiladas Recipe",
       "tags": [
-        "video"
+        "recipe"
       ]
     },
     {
@@ -9289,7 +9355,7 @@
       "source_date": "2025-10-18",
       "page_title": "CONTENTdm",
       "tags": [
-        "video",
+        "biology",
         "academic-paper"
       ]
     },
@@ -9304,7 +9370,7 @@
       "page_title": "bookofjoe: Live Stream From the Namib Desert",
       "tags": [
         "video",
-        "gaming"
+        "biology"
       ]
     },
     {
@@ -9317,7 +9383,7 @@
       "source_date": "2025-10-17",
       "page_title": null,
       "tags": [
-        "politics"
+        "news"
       ]
     },
     {
@@ -9330,7 +9396,8 @@
       "source_date": "2025-10-16",
       "page_title": null,
       "tags": [
-        "ai"
+        "ai",
+        "news"
       ]
     },
     {
@@ -9375,7 +9442,7 @@
       "tags": [
         "music",
         "cli-tool",
-        "javascript"
+        "tutorial"
       ]
     },
     {
@@ -9403,7 +9470,7 @@
       "page_title": "The Tiny Teams Playbook - by Shawn swyx Wang - Latent.Space",
       "tags": [
         "ai",
-        "podcast",
+        "llm",
         "nonfiction-book"
       ]
     },
@@ -9418,8 +9485,7 @@
       "page_title": "Introducing Emacs agent-shell (powered by ACP)",
       "tags": [
         "ai",
-        "llm",
-        "tutorial"
+        "llm"
       ]
     },
     {
@@ -9451,8 +9517,7 @@
       "tags": [
         "github-repo",
         "tutorial",
-        "llm",
-        "ai"
+        "llm"
       ]
     },
     {
@@ -9466,8 +9531,8 @@
       "page_title": "Meta Superintelligence’s surprising first paper",
       "tags": [
         "llm",
-        "academic-paper",
-        "ai"
+        "ai",
+        "academic-paper"
       ]
     },
     {
@@ -9480,7 +9545,8 @@
       "source_date": "2025-10-10",
       "page_title": "Examples are the best documentation | exotext",
       "tags": [
-        "tutorial"
+        "tutorial",
+        "clojure"
       ]
     },
     {
@@ -9494,8 +9560,8 @@
       "page_title": "Burrows-Wheeler Transform (BWT) - Interactive article - sandbox.bio",
       "tags": [
         "tutorial",
-        "academic-paper",
-        "compilers"
+        "compilers",
+        "biology"
       ]
     },
     {
@@ -9509,8 +9575,8 @@
       "page_title": "Embracing the parallel coding agent lifestyle",
       "tags": [
         "ai",
-        "tutorial",
-        "python"
+        "llm",
+        "tutorial"
       ]
     },
     {
@@ -9540,7 +9606,6 @@
       "page_title": "Machines: Global Village Construction Set | Open Source Ecology",
       "tags": [
         "github-repo",
-        "tutorial",
         "devops"
       ]
     },
@@ -9568,8 +9633,8 @@
       "page_title": "Which Table Format Do LLMs Understand Best? (Results for 11 Formats)",
       "tags": [
         "llm",
-        "academic-paper",
-        "ai"
+        "ai",
+        "academic-paper"
       ]
     },
     {
@@ -9583,8 +9648,8 @@
       "page_title": "Evan Chen • Napkin (v1.6)",
       "tags": [
         "academic-paper",
-        "tutorial",
-        "github-repo"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -9630,7 +9695,7 @@
       "tags": [
         "llm",
         "ai",
-        "web-dev"
+        "github-repo"
       ]
     },
     {
@@ -9645,8 +9710,8 @@
       "tags": [
         "github-repo",
         "python",
-        "cli-tool",
-        "devops"
+        "devops",
+        "cli-tool"
       ]
     },
     {
@@ -9660,7 +9725,7 @@
       "page_title": "In Praise of RSS and Controlled Feeds of Information | Tom Burkert",
       "tags": [
         "tutorial",
-        "social-media"
+        "cli-tool"
       ]
     },
     {
@@ -9719,7 +9784,6 @@
       "page_title": "The ABS programming language",
       "tags": [
         "cli-tool",
-        "devops",
         "python",
         "javascript",
         "ruby"
@@ -9736,7 +9800,8 @@
       "page_title": "Welcome to devbox | devbox",
       "tags": [
         "devops",
-        "cli-tool"
+        "cli-tool",
+        "web-dev"
       ]
     },
     {
@@ -9749,9 +9814,7 @@
       "source_date": "2025-09-28",
       "page_title": null,
       "tags": [
-        "academic-paper",
-        "nonfiction-book",
-        "ai"
+        "academic-paper"
       ]
     },
     {
@@ -9793,9 +9856,9 @@
       "source_date": "2025-09-25",
       "page_title": "Low Earth Orbit Visualization | LeoLabs",
       "tags": [
+        "astronomy",
         "devops",
-        "distributed-systems",
-        "database"
+        "web-dev"
       ]
     },
     {
@@ -9808,7 +9871,8 @@
       "source_date": "2025-09-25",
       "page_title": "Huntington's disease successfully treated for first time",
       "tags": [
-        "news"
+        "news",
+        "biology"
       ]
     },
     {
@@ -9822,7 +9886,7 @@
       "page_title": "Knotty",
       "tags": [
         "tutorial",
-        "web-dev"
+        "github-repo"
       ]
     },
     {
@@ -9851,8 +9915,8 @@
       "page_title": "Obsidian Note Codes – ezhik.jp",
       "tags": [
         "cli-tool",
-        "tutorial",
-        "github-repo"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -9865,7 +9929,7 @@
       "source_date": "2025-09-21",
       "page_title": "Cardiovascular system | Knitted Anatomy",
       "tags": [
-        "video",
+        "biology",
         "tutorial"
       ]
     },
@@ -9879,8 +9943,8 @@
       "source_date": "2025-09-20",
       "page_title": "FRO — Lean Lang",
       "tags": [
-        "academic-paper",
         "compilers",
+        "academic-paper",
         "security"
       ]
     },
@@ -9895,8 +9959,8 @@
       "page_title": "Galois - Claude Can (Sometimes) Prove It",
       "tags": [
         "llm",
-        "ai",
-        "academic-paper"
+        "academic-paper",
+        "tutorial"
       ]
     },
     {
@@ -9924,8 +9988,7 @@
       "page_title": "The best YouTube downloaders (and how Google silenced the press)",
       "tags": [
         "cli-tool",
-        "video",
-        "politics",
+        "news",
         "security"
       ]
     },
@@ -9940,9 +10003,9 @@
       "page_title": "GitHub - finite-sample/rmcp: R MCP Server",
       "tags": [
         "github-repo",
-        "llm",
         "ai",
-        "python"
+        "llm",
+        "cli-tool"
       ]
     },
     {
@@ -9955,8 +10018,8 @@
       "source_date": "2025-09-19",
       "page_title": "These Ant Queens Seem to Defy Biology: They Lay Eggs That Hatch Into Another Species",
       "tags": [
-        "news",
-        "academic-paper"
+        "biology",
+        "news"
       ]
     },
     {
@@ -9969,9 +10032,9 @@
       "source_date": "2025-09-19",
       "page_title": "The Ruliology of Lambdas—Stephen Wolfram Writings",
       "tags": [
-        "academic-paper",
+        "lisp",
         "compilers",
-        "lisp"
+        "academic-paper"
       ]
     },
     {
@@ -9984,8 +10047,8 @@
       "source_date": "2025-09-19",
       "page_title": "U.S. already has the critical minerals it needs – but they're being thrown away, new analysis shows | Colorado School of Mines | Newsroom",
       "tags": [
-        "news",
-        "academic-paper"
+        "academic-paper",
+        "news"
       ]
     },
     {
@@ -9999,6 +10062,7 @@
       "page_title": "About The Book — APOLLO REMASTERED",
       "tags": [
         "nonfiction-book",
+        "astronomy",
         "video"
       ]
     },
@@ -10012,8 +10076,7 @@
       "source_date": "2025-09-14",
       "page_title": "The Socratic Journal Method: A Simple Journaling Method That Actually Works",
       "tags": [
-        "nonfiction-book",
-        "tutorial"
+        "recipe"
       ]
     },
     {
@@ -10055,9 +10118,9 @@
       "page_title": "A Digital Darwin Adventure with Mating Melodies",
       "tags": [
         "music",
-        "ai",
+        "biology",
         "tutorial",
-        "video"
+        "ai"
       ]
     },
     {
@@ -10071,7 +10134,7 @@
       "page_title": "Why our website looks like an operating system - PostHog",
       "tags": [
         "web-dev",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -10114,10 +10177,10 @@
       "source_date": "2025-09-07",
       "page_title": "Using Claude Code to modernize a 25-year-old kernel driver – Dmitry Brant",
       "tags": [
-        "ai",
+        "llm",
         "c",
         "tutorial",
-        "devops"
+        "compilers"
       ]
     },
     {
@@ -10148,8 +10211,8 @@
       "tags": [
         "ai",
         "llm",
-        "tutorial",
-        "web-dev"
+        "web-dev",
+        "tutorial"
       ]
     },
     {
@@ -10163,8 +10226,8 @@
       "page_title": "Quantum-Mechanics-Concise-Book/QM.pdf at main · basketballguy999/Quantum-Mechanics-Concise-Book · GitHub",
       "tags": [
         "github-repo",
-        "academic-paper",
-        "nonfiction-book"
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -10191,10 +10254,9 @@
       "source_date": "2025-09-05",
       "page_title": "Fil's Unbelievable Garbage Collector",
       "tags": [
-        "c",
         "compilers",
-        "distributed-systems",
-        "academic-paper"
+        "c",
+        "distributed-systems"
       ]
     },
     {
@@ -10225,7 +10287,7 @@
         "database",
         "devops",
         "distributed-systems",
-        "web-dev"
+        "ai"
       ]
     },
     {
@@ -10238,9 +10300,8 @@
       "source_date": "2025-08-29",
       "page_title": null,
       "tags": [
-        "video",
         "python",
-        "tutorial"
+        "video"
       ]
     },
     {
@@ -10254,9 +10315,8 @@
       "page_title": "PageIndex/cookbook/pageindex_RAG_simple.ipynb at main · VectifyAI/PageIndex · GitHub",
       "tags": [
         "github-repo",
-        "llm",
-        "ai",
         "python",
+        "llm",
         "tutorial"
       ]
     },
@@ -10270,7 +10330,8 @@
       "source_date": "2025-08-27",
       "page_title": "Japan has opened its first osmotic power plant – so what is it and how does it work? | Japan | The Guardian",
       "tags": [
-        "news"
+        "news",
+        "physics"
       ]
     },
     {
@@ -10297,9 +10358,10 @@
       "source_date": "2025-08-25",
       "page_title": "repomirror/repomirror.md at main · repomirrorhq/repomirror · GitHub",
       "tags": [
-        "github-repo",
         "ai",
-        "llm"
+        "github-repo",
+        "llm",
+        "devops"
       ]
     },
     {
@@ -10313,7 +10375,6 @@
       "page_title": "Busy Beaver Hunters Reach Numbers That Overwhelm Ordinary Math | Quanta Magazine",
       "tags": [
         "academic-paper",
-        "news",
         "compilers"
       ]
     },
@@ -10329,8 +10390,7 @@
       "tags": [
         "javascript",
         "web-dev",
-        "compilers",
-        "github-repo"
+        "compilers"
       ]
     },
     {
@@ -10358,8 +10418,7 @@
       "page_title": "Halt and Catch Fire Syllabus - Halt and Catch Fire Syllabus",
       "tags": [
         "tv",
-        "tutorial",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -10387,8 +10446,8 @@
       "source_date": "2025-08-23",
       "page_title": "AGI is an Engineering Problem | Vinci Rufus",
       "tags": [
-        "llm",
         "ai",
+        "llm",
         "distributed-systems",
         "academic-paper"
       ]
@@ -10445,7 +10504,8 @@
       "source_date": "2025-08-21",
       "page_title": "Two waterfront hotels in New England rank among US best",
       "tags": [
-        "news"
+        "news",
+        "recipe"
       ]
     },
     {
@@ -10472,7 +10532,7 @@
       "source_date": "2025-08-19",
       "page_title": "Susam's Blogroll",
       "tags": [
-        "web-dev",
+        "github-repo",
         "tutorial"
       ]
     },
@@ -10486,8 +10546,7 @@
       "source_date": "2025-08-19",
       "page_title": "Prime Number Grid Explorer",
       "tags": [
-        "tutorial",
-        "python"
+        "tutorial"
       ]
     },
     {
@@ -10501,7 +10560,7 @@
       "page_title": "Introduction to Bases - Obsidian Help",
       "tags": [
         "tutorial",
-        "database"
+        "web-dev"
       ]
     },
     {
@@ -10545,11 +10604,11 @@
       "source_date": "2025-08-18",
       "page_title": "Archives - Eli Bendersky's website",
       "tags": [
-        "tutorial",
         "python",
-        "cpp",
         "go",
-        "compilers"
+        "cpp",
+        "compilers",
+        "tutorial"
       ]
     },
     {
@@ -10593,8 +10652,8 @@
       "source_date": "2025-08-17",
       "page_title": "Derivatives, Gradients, Jacobians and Hessians – Oh My! « The blog at the bottom of the sea",
       "tags": [
-        "tutorial",
         "academic-paper",
+        "tutorial",
         "ai"
       ]
     },
@@ -10624,8 +10683,7 @@
       "tags": [
         "common-lisp",
         "web-dev",
-        "cli-tool",
-        "tutorial"
+        "github-repo"
       ]
     },
     {
@@ -10653,6 +10711,7 @@
       "page_title": "25 Years of OCaml: Xavier Leroy - Watch OCaml",
       "tags": [
         "video",
+        "tutorial",
         "academic-paper"
       ]
     },
@@ -10667,8 +10726,7 @@
       "page_title": "OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming: Correct + Efficient + Beautiful",
       "tags": [
         "tutorial",
-        "academic-paper",
-        "compilers"
+        "academic-paper"
       ]
     },
     {
@@ -10681,7 +10739,8 @@
       "source_date": "2025-08-12",
       "page_title": "Ubuntu 24.04 Customization 02 - GNOME Orchis Theme - Gnome-look.org",
       "tags": [
-        "video"
+        "video",
+        "tutorial"
       ]
     },
     {
@@ -10709,8 +10768,7 @@
       "page_title": "Setting up JetBrains Mono font on Ubuntu is straightforward - DEV Community",
       "tags": [
         "tutorial",
-        "devops",
-        "cli-tool"
+        "devops"
       ]
     },
     {
@@ -10724,7 +10782,6 @@
       "page_title": "What's it like to live in a house designed by Frank Lloyd Wright? This 101-year-old knows : NPR",
       "tags": [
         "news",
-        "nonfiction-book",
         "video"
       ]
     },
@@ -10752,8 +10809,8 @@
       "page_title": "Getting Good Results from Claude Code • Chris Dzombak",
       "tags": [
         "llm",
-        "ai",
-        "tutorial"
+        "tutorial",
+        "web-dev"
       ]
     },
     {
@@ -10782,7 +10839,8 @@
       "page_title": "Instagram",
       "tags": [
         "video",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -10796,8 +10854,7 @@
       "page_title": "GitHub - manzaltu/claude-code-ide.el: Claude Code IDE integration for Emacs",
       "tags": [
         "github-repo",
-        "lisp",
-        "ai",
+        "llm",
         "cli-tool"
       ]
     },
@@ -10811,9 +10868,9 @@
       "source_date": "2025-08-05",
       "page_title": "Magical nights with Willie and Bob and Lucinda- especially last night in Gilford- great to have family and friends there to experience it. \n\nAnd NH pavillion always with the great hospitality…",
       "tags": [
-        "music",
+        "video",
         "social-media",
-        "video"
+        "music"
       ]
     },
     {
@@ -10827,8 +10884,7 @@
       "page_title": "ya'll. i just launched the coolest fuckin' thing ive built all year\n\nPeriod-accurate interactive street maps are now available on Pastmaps to explore all of the US. They include things like historical street layouts & names, buildings (and tenants), railways, topography, and more.\n\nSo you want to figure out where Seattle's saloons were in 1895? Now you can\n\nWhy? I don't know. But it's hella cool and you should try it right now.",
       "tags": [
         "social-media",
-        "web-dev",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -10843,7 +10899,7 @@
       "tags": [
         "ai",
         "llm",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -10886,8 +10942,8 @@
       "source_date": "2025-08-03",
       "page_title": "If you're remote, ramble — Steph Ango",
       "tags": [
-        "tutorial",
-        "video"
+        "devops",
+        "tutorial"
       ]
     },
     {
@@ -10930,8 +10986,9 @@
       "source_date": "2025-08-01",
       "page_title": "The Math Is Haunted — overreacted",
       "tags": [
+        "academic-paper",
         "tutorial",
-        "academic-paper"
+        "compilers"
       ]
     },
     {
@@ -11044,6 +11101,7 @@
       "source_date": "2025-07-26",
       "page_title": "The Best Burger Recipes and Tips - NYT Cooking",
       "tags": [
+        "recipe",
         "tutorial"
       ]
     },
@@ -11057,8 +11115,7 @@
       "source_date": "2025-07-26",
       "page_title": "The rise and fall of the Hanseatic League - Works in Progress Magazine",
       "tags": [
-        "nonfiction-book",
-        "news"
+        "nonfiction-book"
       ]
     },
     {
@@ -11086,7 +11143,7 @@
       "source_date": "2025-07-22",
       "page_title": "My favourite German word - Daniele Procida",
       "tags": [
-        "nonfiction-book",
+        "ai",
         "web-dev"
       ]
     },
@@ -11163,7 +11220,7 @@
         "ai",
         "llm",
         "devops",
-        "cli-tool"
+        "web-dev"
       ]
     },
     {
@@ -11209,7 +11266,8 @@
       "tags": [
         "llm",
         "ai",
-        "academic-paper"
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -11224,8 +11282,7 @@
       "tags": [
         "database",
         "distributed-systems",
-        "tutorial",
-        "c"
+        "tutorial"
       ]
     },
     {
@@ -11239,7 +11296,6 @@
       "page_title": "An artificially complex XML schema as a lock-in tool - TDF Community Blog",
       "tags": [
         "security",
-        "nonfiction-book",
         "politics"
       ]
     },
@@ -11253,9 +11309,9 @@
       "source_date": "2025-07-19",
       "page_title": "Silence is a Commons by Ivan Illich",
       "tags": [
-        "nonfiction-book",
         "academic-paper",
-        "politics"
+        "politics",
+        "nonfiction-book"
       ]
     },
     {
@@ -11269,7 +11325,7 @@
       "page_title": "Asynchrony is not Concurrency | Loris Cro's Blog",
       "tags": [
         "tutorial",
-        "distributed-systems"
+        "web-dev"
       ]
     },
     {
@@ -11327,9 +11383,9 @@
       "page_title": "Claude Code Unleashed",
       "tags": [
         "ai",
-        "cli-tool",
-        "tutorial",
-        "devops"
+        "llm",
+        "devops",
+        "tutorial"
       ]
     },
     {
@@ -11344,7 +11400,7 @@
       "tags": [
         "security",
         "ai",
-        "academic-paper"
+        "llm"
       ]
     },
     {
@@ -11359,7 +11415,7 @@
       "tags": [
         "rust",
         "social-media",
-        "llm"
+        "github-repo"
       ]
     },
     {
@@ -11372,6 +11428,7 @@
       "source_date": "2025-07-17",
       "page_title": "19 cheap food restaurant choices, tasty and $20 dollars or less",
       "tags": [
+        "recipe",
         "news"
       ]
     },
@@ -11386,8 +11443,7 @@
       "page_title": "Artisanal Handcrafted Git Repositories | drew's dev blog",
       "tags": [
         "tutorial",
-        "cli-tool",
-        "devops"
+        "github-repo"
       ]
     },
     {
@@ -11402,7 +11458,6 @@
       "tags": [
         "github-repo",
         "cli-tool",
-        "web-dev",
         "python"
       ]
     },
@@ -11432,8 +11487,8 @@
       "page_title": "DNS over HTTPS · Cloudflare 1.1.1.1 docs",
       "tags": [
         "security",
-        "devops",
-        "tutorial"
+        "web-dev",
+        "cli-tool"
       ]
     },
     {
@@ -11446,10 +11501,9 @@
       "source_date": "2025-07-16",
       "page_title": "Claude is kicking ChatGPT’s butt (in one thing) - ben-mini",
       "tags": [
-        "ai",
         "llm",
-        "web-dev",
-        "news"
+        "ai",
+        "web-dev"
       ]
     },
     {
@@ -11464,7 +11518,7 @@
       "tags": [
         "web-dev",
         "python",
-        "news"
+        "github-repo"
       ]
     },
     {
@@ -11477,8 +11531,7 @@
       "source_date": "2025-07-14",
       "page_title": "The Scourge of Arial",
       "tags": [
-        "nonfiction-book",
-        "video"
+        "nonfiction-book"
       ]
     },
     {
@@ -11491,9 +11544,9 @@
       "source_date": "2025-07-14",
       "page_title": "A century of quantum mechanics | CERN",
       "tags": [
+        "physics",
         "academic-paper",
-        "news",
-        "ai"
+        "news"
       ]
     },
     {
@@ -11506,8 +11559,8 @@
       "source_date": "2025-07-14",
       "page_title": null,
       "tags": [
-        "news",
         "social-media",
+        "news",
         "video"
       ]
     },
@@ -11521,8 +11574,7 @@
       "source_date": "2025-07-14",
       "page_title": null,
       "tags": [
-        "news",
-        "devops"
+        "news"
       ]
     },
     {
@@ -11566,9 +11618,9 @@
       "page_title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative to Perplexity Comet",
       "tags": [
         "ai",
-        "cli-tool",
+        "web-dev",
         "security",
-        "web-dev"
+        "github-repo"
       ]
     },
     {
@@ -11581,7 +11633,6 @@
       "source_date": "2025-07-10",
       "page_title": "DCHP-3",
       "tags": [
-        "nonfiction-book",
         "academic-paper"
       ]
     },
@@ -11597,8 +11648,8 @@
       "tags": [
         "web-dev",
         "ai",
-        "cli-tool",
-        "devops"
+        "llm",
+        "cli-tool"
       ]
     },
     {
@@ -11626,8 +11677,8 @@
       "page_title": "Welcome to xenharmlib’s documentation! — xenharmlib  documentation",
       "tags": [
         "python",
-        "music",
-        "tutorial"
+        "tutorial",
+        "github-repo"
       ]
     },
     {
@@ -11642,7 +11693,7 @@
       "tags": [
         "github-repo",
         "c",
-        "cli-tool"
+        "python"
       ]
     },
     {
@@ -11655,8 +11706,9 @@
       "source_date": "2025-07-08",
       "page_title": "OpenHistoricalMap - OpenStreetMap Wiki",
       "tags": [
+        "database",
         "github-repo",
-        "database"
+        "web-dev"
       ]
     },
     {
@@ -11685,7 +11737,7 @@
       "source_date": "2025-07-08",
       "page_title": "The chemical secrets that help keep honey fresh for so long",
       "tags": [
-        "news",
+        "biology",
         "nonfiction-book"
       ]
     },
@@ -11699,8 +11751,8 @@
       "source_date": "2025-07-06",
       "page_title": "LisaGUI",
       "tags": [
-        "web-dev",
-        "emulator"
+        "emulator",
+        "web-dev"
       ]
     },
     {
@@ -11714,7 +11766,7 @@
       "page_title": "Longitudinal relationships between pet ownership and cognitive functioning in later adulthood across pet types and individuals’ ages | Scientific Reports",
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "biology"
       ]
     },
     {
@@ -11741,8 +11793,7 @@
       "source_date": "2025-07-05",
       "page_title": "being too ambitious is a clever form of self-sabotage",
       "tags": [
-        "nonfiction-book",
-        "podcast"
+        "nonfiction-book"
       ]
     },
     {
@@ -11755,11 +11806,10 @@
       "source_date": "2025-07-04",
       "page_title": "Developing with GitHub Copilot Agent Mode and MCP | Austen Stone",
       "tags": [
-        "ai",
         "llm",
-        "github-repo",
+        "web-dev",
         "tutorial",
-        "web-dev"
+        "cli-tool"
       ]
     },
     {
@@ -11772,7 +11822,7 @@
       "source_date": "2025-07-03",
       "page_title": "Adobe Acrobat",
       "tags": [
-        "cli-tool"
+        "web-dev"
       ]
     },
     {
@@ -11786,7 +11836,7 @@
       "page_title": "Chicago’s Historic Hyde Park, Davis, Vinci",
       "tags": [
         "nonfiction-book",
-        "news"
+        "academic-paper"
       ]
     },
     {
@@ -11829,7 +11879,7 @@
       "tags": [
         "ai",
         "llm",
-        "tutorial",
+        "distributed-systems",
         "python"
       ]
     },
@@ -11858,7 +11908,7 @@
       "source_date": "2025-06-29",
       "page_title": "2025 Best Places to Camp in the Northeast Region",
       "tags": [
-        "video"
+        "recipe"
       ]
     },
     {
@@ -11871,8 +11921,8 @@
       "source_date": "2025-06-29",
       "page_title": "The Unsustainability of Moore’s Law - by Charles Rosenbauer",
       "tags": [
-        "academic-paper",
-        "news"
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -11929,7 +11979,7 @@
       "tags": [
         "github-repo",
         "web-dev",
-        "cli-tool"
+        "devops"
       ]
     },
     {
@@ -11942,8 +11992,8 @@
       "source_date": "2025-06-27",
       "page_title": null,
       "tags": [
-        "news",
-        "politics"
+        "politics",
+        "news"
       ]
     },
     {
@@ -11956,8 +12006,8 @@
       "source_date": "2025-06-24",
       "page_title": "The Cosmic Treasure Chest | Rubin Observatory",
       "tags": [
-        "academic-paper",
-        "video"
+        "astronomy",
+        "news"
       ]
     },
     {
@@ -12014,7 +12064,7 @@
       "source_date": "2025-06-23",
       "page_title": null,
       "tags": [
-        "video"
+        "movie"
       ]
     },
     {
@@ -12027,8 +12077,8 @@
       "source_date": "2025-06-23",
       "page_title": null,
       "tags": [
-        "video",
-        "news"
+        "movie",
+        "video"
       ]
     },
     {
@@ -12056,8 +12106,8 @@
       "page_title": "Color Name API Playground",
       "tags": [
         "web-dev",
-        "javascript",
-        "cli-tool"
+        "cli-tool",
+        "javascript"
       ]
     },
     {
@@ -12072,8 +12122,7 @@
       "tags": [
         "cli-tool",
         "github-repo",
-        "security",
-        "web-dev"
+        "security"
       ]
     },
     {
@@ -12086,8 +12135,8 @@
       "source_date": "2025-06-21",
       "page_title": "xorvoid",
       "tags": [
-        "tutorial",
         "rust",
+        "tutorial",
         "security",
         "academic-paper"
       ]
@@ -12102,7 +12151,8 @@
       "source_date": "2025-06-20",
       "page_title": "public.resource.org - ntis.gov",
       "tags": [
-        "video"
+        "video",
+        "devops"
       ]
     },
     {
@@ -12117,7 +12167,7 @@
       "tags": [
         "tutorial",
         "c",
-        "cli-tool"
+        "compilers"
       ]
     },
     {
@@ -12131,9 +12181,9 @@
       "page_title": "GitHub - ysm-dev/cpdown: 📥 cpdown - Copy to clipboard any webpage content/youtube subtitle as clean markdown with one click or shortcut",
       "tags": [
         "github-repo",
-        "cli-tool",
         "web-dev",
-        "llm"
+        "llm",
+        "cli-tool"
       ]
     },
     {
@@ -12146,9 +12196,9 @@
       "source_date": "2025-06-18",
       "page_title": "GitHub - bgreenwell/lstr: A fast, minimalist directory tree viewer, written in Rust.",
       "tags": [
-        "cli-tool",
+        "github-repo",
         "rust",
-        "github-repo"
+        "cli-tool"
       ]
     },
     {
@@ -12179,7 +12229,7 @@
         "scheme",
         "clojure",
         "python",
-        "javascript",
+        "haskell",
         "tutorial"
       ]
     },
@@ -12193,6 +12243,7 @@
       "source_date": "2025-06-13",
       "page_title": "Dancing brainwaves: How sound reshapes your brain networks in real time | ScienceDaily",
       "tags": [
+        "biology",
         "academic-paper",
         "ai"
       ]
@@ -12208,7 +12259,7 @@
       "page_title": "Frequent reauth doesn't make you more secure",
       "tags": [
         "security",
-        "devops"
+        "cli-tool"
       ]
     },
     {
@@ -12250,11 +12301,10 @@
       "source_date": "2025-06-10",
       "page_title": "Apple supercharges its tools and technologies for developers - Apple",
       "tags": [
-        "news",
         "ai",
         "llm",
-        "web-dev",
-        "swift"
+        "news",
+        "web-dev"
       ]
     },
     {
@@ -12268,9 +12318,7 @@
       "page_title": "Dynamic Languages Wizards Series - Panel on Language Design - YouTube",
       "tags": [
         "video",
-        "compilers",
-        "python",
-        "lisp"
+        "academic-paper"
       ]
     },
     {
@@ -12359,8 +12407,7 @@
       "tags": [
         "python",
         "web-dev",
-        "tutorial",
-        "cli-tool"
+        "tutorial"
       ]
     },
     {
@@ -12375,8 +12422,7 @@
       "tags": [
         "python",
         "tutorial",
-        "web-dev",
-        "javascript"
+        "web-dev"
       ]
     },
     {
@@ -12392,7 +12438,7 @@
         "ai",
         "web-dev",
         "database",
-        "python"
+        "devops"
       ]
     },
     {
@@ -12420,8 +12466,8 @@
       "source_date": "2025-06-06",
       "page_title": null,
       "tags": [
-        "tutorial",
         "python",
+        "tutorial",
         "web-dev"
       ]
     },
@@ -12452,8 +12498,7 @@
       "tags": [
         "web-dev",
         "javascript",
-        "typescript",
-        "devops"
+        "typescript"
       ]
     },
     {
@@ -12467,8 +12512,7 @@
       "page_title": "kepler.gl",
       "tags": [
         "web-dev",
-        "javascript",
-        "typescript"
+        "github-repo"
       ]
     },
     {
@@ -12482,7 +12526,7 @@
       "page_title": "SkyRoof: New Ham Satellite Tracking and SDR Receiver Software",
       "tags": [
         "cli-tool",
-        "security",
+        "astronomy",
         "devops"
       ]
     },
@@ -12496,8 +12540,8 @@
       "source_date": "2025-06-06",
       "page_title": "Occasional paper: The impossible predicament of the death newts — Crooked Timber",
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "biology",
+        "academic-paper"
       ]
     },
     {
@@ -12510,8 +12554,9 @@
       "source_date": "2025-06-02",
       "page_title": "“Raindrops in the Sun’s Corona”: New Adaptive Optics Shows Stunning Details of our Star’s Atmosphere - NSO - National Solar Observatory",
       "tags": [
-        "academic-paper",
-        "video"
+        "astronomy",
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -12525,9 +12570,9 @@
       "page_title": "Lisp as the Maxwell’s equations of software – DDI",
       "tags": [
         "lisp",
+        "tutorial",
         "python",
-        "compilers",
-        "tutorial"
+        "compilers"
       ]
     },
     {
@@ -12556,8 +12601,8 @@
       "source_date": "2025-06-02",
       "page_title": null,
       "tags": [
-        "video",
-        "academic-paper"
+        "academic-paper",
+        "video"
       ]
     },
     {
@@ -12613,6 +12658,8 @@
       "source_date": "2025-05-31",
       "page_title": "He Won the Nobel Prize for Physics. Then He Changed His Mind. - The Atlantic",
       "tags": [
+        "physics",
+        "astronomy",
         "news",
         "academic-paper"
       ]
@@ -12660,7 +12707,7 @@
       "page_title": "FLUX.1 Kontext | Black Forest Labs",
       "tags": [
         "ai",
-        "llm"
+        "web-dev"
       ]
     },
     {
@@ -12673,7 +12720,7 @@
       "source_date": "2025-05-28",
       "page_title": "Street smarts: how a hawk learned to use traffic signals to hunt more successfully",
       "tags": [
-        "news",
+        "biology",
         "video"
       ]
     },
@@ -12705,8 +12752,8 @@
       "page_title": "The Ingredients of a Productive Monorepo",
       "tags": [
         "devops",
-        "tutorial",
-        "distributed-systems"
+        "github-repo",
+        "tutorial"
       ]
     },
     {
@@ -12736,7 +12783,8 @@
       "tags": [
         "ai",
         "llm",
-        "database"
+        "database",
+        "devops"
       ]
     },
     {
@@ -12821,7 +12869,7 @@
       "page_title": "[1201.2590] It is Time to Stop Teaching Frequentism to Non-statisticians",
       "tags": [
         "academic-paper",
-        "ai"
+        "tutorial"
       ]
     },
     {
@@ -12849,8 +12897,8 @@
       "source_date": "2025-05-25",
       "page_title": "Good Writing",
       "tags": [
-        "tutorial",
-        "nonfiction-book"
+        "nonfiction-book",
+        "tutorial"
       ]
     },
     {
@@ -12921,8 +12969,7 @@
       "source_date": "2025-05-23",
       "page_title": "That fractal that's been up on my wall for 12 years – Chris K. W. – Computer stuff and things tangentially related to computer stuff",
       "tags": [
-        "academic-paper",
-        "tutorial"
+        "academic-paper"
       ]
     },
     {
@@ -12951,7 +12998,7 @@
       "source_date": "2025-05-23",
       "page_title": "Modvion - We build wind turbine towers. In wood",
       "tags": [
-        "news"
+        "devops"
       ]
     },
     {
@@ -12964,8 +13011,8 @@
       "source_date": "2025-05-23",
       "page_title": null,
       "tags": [
-        "ai",
         "academic-paper",
+        "ai",
         "database",
         "llm"
       ]
@@ -12980,10 +13027,9 @@
       "source_date": "2025-05-23",
       "page_title": "Introducing KumoRFM: A Foundation Model for In-Context Learning on Relational Data - Kumo",
       "tags": [
-        "ai",
-        "database",
         "llm",
-        "academic-paper"
+        "database",
+        "ai"
       ]
     },
     {
@@ -12996,10 +13042,9 @@
       "source_date": "2025-05-23",
       "page_title": null,
       "tags": [
-        "social-media",
         "ai",
-        "video",
-        "gaming"
+        "gaming",
+        "video"
       ]
     },
     {
@@ -13012,8 +13057,8 @@
       "source_date": "2025-05-22",
       "page_title": "Decibels are ridiculous - lcamtuf’s thing",
       "tags": [
-        "nonfiction-book",
-        "academic-paper"
+        "physics",
+        "nonfiction-book"
       ]
     },
     {
@@ -13026,8 +13071,8 @@
       "source_date": "2025-05-22",
       "page_title": "Tonight in Jungleland by Peter Ames Carlin: 9780385551533 | PenguinRandomHouse.com: Books",
       "tags": [
-        "nonfiction-book",
-        "music"
+        "music",
+        "nonfiction-book"
       ]
     },
     {
@@ -13040,7 +13085,7 @@
       "source_date": "2025-05-22",
       "page_title": null,
       "tags": [
-        "academic-paper"
+        "tutorial"
       ]
     },
     {
@@ -13053,7 +13098,6 @@
       "source_date": "2025-05-22",
       "page_title": "A Secret Trove of Rare Guitars Heads to the Met | The New Yorker",
       "tags": [
-        "news",
         "music",
         "nonfiction-book"
       ]
@@ -13069,7 +13113,7 @@
       "page_title": "‘The Great Unread’ | Commonweal Magazine",
       "tags": [
         "nonfiction-book",
-        "fiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -13083,7 +13127,6 @@
       "page_title": "Building software on top of Large Language Models",
       "tags": [
         "llm",
-        "web-dev",
         "tutorial"
       ]
     },
@@ -13097,7 +13140,8 @@
       "source_date": "2025-05-21",
       "page_title": "Overview of the Ada Computer Language Competition",
       "tags": [
-        "academic-paper"
+        "academic-paper",
+        "compilers"
       ]
     },
     {
@@ -13125,8 +13169,7 @@
       "source_date": "2025-05-19",
       "page_title": "Harvard Mirador Viewer",
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -13141,7 +13184,7 @@
       "tags": [
         "python",
         "cli-tool",
-        "tutorial"
+        "github-repo"
       ]
     },
     {
@@ -13170,7 +13213,7 @@
       "page_title": "Push Ifs Up And Fors Down",
       "tags": [
         "tutorial",
-        "python"
+        "compilers"
       ]
     },
     {
@@ -13185,8 +13228,8 @@
       "tags": [
         "github-repo",
         "python",
-        "academic-paper",
-        "tutorial"
+        "physics",
+        "academic-paper"
       ]
     },
     {
@@ -13200,6 +13243,7 @@
       "page_title": "[2505.08906] Comparing Parallel Functional Array Languages: Programming and Performance",
       "tags": [
         "academic-paper",
+        "haskell",
         "compilers",
         "distributed-systems"
       ]
@@ -13215,7 +13259,7 @@
       "page_title": "Dataview in Obsidian: A Beginner's Guide - Obsidian Rocks",
       "tags": [
         "tutorial",
-        "cli-tool"
+        "web-dev"
       ]
     },
     {
@@ -13244,7 +13288,8 @@
       "page_title": "GitHub - prathyvsh/os-catalog: Catalogue of novel operating systems",
       "tags": [
         "github-repo",
-        "academic-paper"
+        "compilers",
+        "distributed-systems"
       ]
     },
     {
@@ -13273,7 +13318,7 @@
       "tags": [
         "ai",
         "tutorial",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -13286,8 +13331,8 @@
       "source_date": "2025-05-13",
       "page_title": "NASA Study Reveals Venus Crust Surprise - NASA Science",
       "tags": [
-        "academic-paper",
-        "news"
+        "astronomy",
+        "academic-paper"
       ]
     },
     {
@@ -13302,7 +13347,7 @@
       "tags": [
         "nonfiction-book",
         "video",
-        "tv"
+        "tutorial"
       ]
     },
     {
@@ -13316,7 +13361,6 @@
       "page_title": "The Barbican laid bare: inside London’s most famous Brutalist housing estate | Interiors | The Guardian",
       "tags": [
         "nonfiction-book",
-        "news",
         "video"
       ]
     },
@@ -13331,8 +13375,8 @@
       "page_title": "GitHub - jaypyles/Scraperr: Self-hosted webscraper.",
       "tags": [
         "github-repo",
+        "web-dev",
         "cli-tool",
-        "devops",
         "python"
       ]
     },
@@ -13361,7 +13405,7 @@
       "page_title": "Too Young To Go Steady - Remastered - song and lyrics by Nat King Cole | Spotify",
       "tags": [
         "music",
-        "video"
+        "social-media"
       ]
     },
     {
@@ -13390,7 +13434,6 @@
       "tags": [
         "compilers",
         "academic-paper",
-        "web-dev",
         "security"
       ]
     },
@@ -13448,8 +13491,9 @@
       "source_date": "2025-05-07",
       "page_title": "How To Learn Great Concepts From Thelonious Monk - YouTube",
       "tags": [
+        "music",
         "video",
-        "music"
+        "tutorial"
       ]
     },
     {
@@ -13476,9 +13520,7 @@
       "source_date": "2025-05-05",
       "page_title": "Oberon Pi – Pascal for small machines",
       "tags": [
-        "github-repo",
-        "tutorial",
-        "compilers"
+        "github-repo"
       ]
     },
     {
@@ -13506,8 +13548,7 @@
       "page_title": "DuckDB is Probably the Most Important Geospatial Software of the Last Decade",
       "tags": [
         "database",
-        "sql",
-        "tutorial"
+        "sql"
       ]
     },
     {
@@ -13520,9 +13561,9 @@
       "source_date": "2025-05-03",
       "page_title": "GitHub - ernestofgonzalez/epub-utils: A Python library and CLI tool for inspecting ePub from the terminal",
       "tags": [
-        "github-repo",
         "python",
-        "cli-tool"
+        "cli-tool",
+        "github-repo"
       ]
     },
     {
@@ -13536,8 +13577,7 @@
       "page_title": "Xerox Alto Emulator",
       "tags": [
         "emulator",
-        "web-dev",
-        "javascript"
+        "web-dev"
       ]
     },
     {
@@ -13551,8 +13591,8 @@
       "page_title": "In the late 60s the protest folk songs gave way to protest rock. However CSNY was able to keep the message up front and center with acoustic and harmonies.",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -13579,7 +13619,8 @@
       "source_date": "2025-05-02",
       "page_title": "I’ll Remember April (feat. Dave Schildkraut, Horace Silver, Percy Heath & Kenny Clarke) - song and lyrics by Miles Davis, Dave schildkraut, Horace Silver, Percy Heath, Kenny Clarke | Spotify",
       "tags": [
-        "music"
+        "music",
+        "video"
       ]
     },
     {
@@ -13620,8 +13661,8 @@
       "page_title": "GitHub - PhialsBasement/Chain-of-Recursive-Thoughts: I made my AI think harder by making it argue with itself repeatedly. It works stupidly well.",
       "tags": [
         "github-repo",
-        "llm",
         "ai",
+        "llm",
         "python"
       ]
     },
@@ -13651,7 +13692,7 @@
       "page_title": "Slidev",
       "tags": [
         "web-dev",
-        "typescript",
+        "tutorial",
         "cli-tool"
       ]
     },
@@ -13665,8 +13706,8 @@
       "source_date": "2025-04-28",
       "page_title": null,
       "tags": [
-        "cli-tool",
-        "web-dev"
+        "video",
+        "cli-tool"
       ]
     },
     {
@@ -13680,8 +13721,8 @@
       "page_title": "Rick Moranis recorded a hip-hop cover of “The Girl from Ipanema” for his 1989 comedy album “You, Me, the Music, and Me”",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "social-media",
+        "video"
       ]
     },
     {
@@ -13722,8 +13763,7 @@
       "source_date": "2025-04-25",
       "page_title": "Notation as a Tool of Thought",
       "tags": [
-        "academic-paper",
-        "lisp"
+        "academic-paper"
       ]
     },
     {
@@ -13738,8 +13778,7 @@
       "tags": [
         "llm",
         "ai",
-        "tutorial",
-        "cli-tool"
+        "tutorial"
       ]
     },
     {
@@ -13768,7 +13807,6 @@
       "page_title": "Open Map Maker",
       "tags": [
         "web-dev",
-        "typescript",
         "cli-tool"
       ]
     },
@@ -13825,8 +13863,7 @@
       "source_date": "2025-04-18",
       "page_title": null,
       "tags": [
-        "nonfiction-book",
-        "tutorial"
+        "nonfiction-book"
       ]
     },
     {
@@ -13856,7 +13893,8 @@
       "tags": [
         "social-media",
         "llm",
-        "python"
+        "python",
+        "github-repo"
       ]
     },
     {
@@ -13940,8 +13978,8 @@
       "source_date": "2025-03-28",
       "page_title": "Them: I don’t see a Black artist making it in Rock Music \nMe:",
       "tags": [
-        "social-media",
-        "music"
+        "music",
+        "social-media"
       ]
     },
     {
@@ -13955,7 +13993,6 @@
       "page_title": "Here is my little demo of my childhood metronome. It is the BOSS DR. Beat DB-33. I love it because of the simple 4 fader control of basic subdivisions. It may not be the best for exact metronomic markings/tempo because of the spinning dial. However, it rules. It is 9 volt battery powered or AC adaptor. It also has a headphone output. @rolandglobal @rolandcanada @jameswollam THANK YOU AGAIN JAMES! #metronome #bossmetronome",
       "tags": [
         "music",
-        "social-media",
         "video"
       ]
     },
@@ -13970,8 +14007,7 @@
       "page_title": "@teddysphotos shows Jimmy how he builds “Shape of You” on his looping station! FallonTonight",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "video"
       ]
     },
     {
@@ -13999,8 +14035,7 @@
       "page_title": "This is so cool watching this song take shape. It’s classic. #music",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "social-media"
       ]
     },
     {
@@ -14073,8 +14108,8 @@
       "source_date": "2025-03-18",
       "page_title": "7 tips to help you own all of your March Madness 2025 bracket pools - The Athletic",
       "tags": [
-        "news",
-        "gaming"
+        "gaming",
+        "video"
       ]
     },
     {
@@ -14087,7 +14122,6 @@
       "source_date": "2025-03-18",
       "page_title": "NCAA Tournament 2025 bracket: Unbiased simulation predicts surprising upsets, March Madness picks and sleepers - CBS Sports",
       "tags": [
-        "news",
         "video",
         "gaming"
       ]
@@ -14158,8 +14192,7 @@
       "source_date": "2025-03-17",
       "page_title": "OpenTimes",
       "tags": [
-        "tutorial",
-        "video"
+        "tutorial"
       ]
     },
     {
@@ -14188,8 +14221,8 @@
       "tags": [
         "github-repo",
         "python",
-        "web-dev",
         "typescript",
+        "web-dev",
         "devops"
       ]
     },
@@ -14204,7 +14237,7 @@
       "page_title": "The Curious Surge of Productivity in U.S. Restaurants | Becker Friedman Institute",
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "news"
       ]
     },
     {
@@ -14261,9 +14294,9 @@
       "source_date": "2025-03-08",
       "page_title": "Cutting-edge web scraping techniques at NICAR",
       "tags": [
-        "web-dev",
         "tutorial",
-        "cli-tool"
+        "web-dev",
+        "python"
       ]
     },
     {
@@ -14276,7 +14309,8 @@
       "source_date": "2025-03-07",
       "page_title": "Beavers are coming home! | The Wildlife Trusts",
       "tags": [
-        "news"
+        "news",
+        "biology"
       ]
     },
     {
@@ -14289,8 +14323,8 @@
       "source_date": "2025-03-07",
       "page_title": null,
       "tags": [
-        "academic-paper",
-        "nonfiction-book"
+        "biology",
+        "academic-paper"
       ]
     },
     {
@@ -14319,7 +14353,7 @@
       "tags": [
         "music",
         "video",
-        "social-media"
+        "tutorial"
       ]
     },
     {
@@ -14333,7 +14367,8 @@
       "page_title": "Do we all see red as the same colour? We finally have an answer | New Scientist",
       "tags": [
         "news",
-        "academic-paper"
+        "physics",
+        "biology"
       ]
     },
     {
@@ -14347,8 +14382,8 @@
       "page_title": "I love this Elliott Smith performance, especially the last 10 seconds. \nHe was such a talented artist, who believed he was the wrong kind of person to be really big and famous. \nHow wrong he was 🤍\nIt’s a shame so few of his live performances are left…\nMarzec Live Music",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -14377,7 +14412,7 @@
       "tags": [
         "ai",
         "academic-paper",
-        "tutorial"
+        "llm"
       ]
     },
     {
@@ -14391,8 +14426,7 @@
       "page_title": "Threads",
       "tags": [
         "music",
-        "social-media",
-        "podcast"
+        "social-media"
       ]
     },
     {
@@ -14421,8 +14455,8 @@
       "page_title": "@langchain.bsky.social on Bluesky",
       "tags": [
         "social-media",
-        "llm",
-        "python"
+        "ai",
+        "llm"
       ]
     },
     {
@@ -14435,9 +14469,8 @@
       "source_date": "2025-03-02",
       "page_title": "The early days of Linux [LWN.net]",
       "tags": [
-        "nonfiction-book",
         "academic-paper",
-        "news"
+        "nonfiction-book"
       ]
     },
     {
@@ -14452,8 +14485,8 @@
       "tags": [
         "github-repo",
         "cli-tool",
-        "devops",
-        "rust"
+        "rust",
+        "devops"
       ]
     },
     {
@@ -14467,8 +14500,8 @@
       "page_title": "Obsidian Web Clipper — Steph Ango",
       "tags": [
         "cli-tool",
-        "web-dev",
-        "github-repo"
+        "github-repo",
+        "web-dev"
       ]
     },
     {
@@ -14523,9 +14556,9 @@
       "source_date": "2025-02-27",
       "page_title": "Defining Intelligent Life",
       "tags": [
+        "biology",
         "academic-paper",
-        "ai",
-        "nonfiction-book"
+        "ai"
       ]
     },
     {
@@ -14554,7 +14587,7 @@
       "tags": [
         "python",
         "cli-tool",
-        "tutorial"
+        "devops"
       ]
     },
     {
@@ -14583,7 +14616,7 @@
       "page_title": "Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math | Quanta Magazine",
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "physics"
       ]
     },
     {
@@ -14625,8 +14658,8 @@
       "source_date": "2025-02-24",
       "page_title": "But good sir, what is electricity? - lcamtuf’s thing",
       "tags": [
-        "tutorial",
-        "academic-paper"
+        "physics",
+        "tutorial"
       ]
     },
     {
@@ -14683,7 +14716,7 @@
       "tags": [
         "cli-tool",
         "c",
-        "tutorial"
+        "database"
       ]
     },
     {
@@ -14696,9 +14729,8 @@
       "source_date": "2025-02-23",
       "page_title": "Maker Faire Rome  A Black Fungus Might Be Healing Chernobyl By Drinking Radiation",
       "tags": [
-        "video",
-        "academic-paper",
-        "security"
+        "biology",
+        "video"
       ]
     },
     {
@@ -14726,9 +14758,9 @@
       "source_date": "2025-02-22",
       "page_title": "🎧openDAW.studio",
       "tags": [
-        "web-dev",
         "music",
-        "cli-tool"
+        "web-dev",
+        "github-repo"
       ]
     },
     {
@@ -14743,7 +14775,6 @@
       "tags": [
         "llm",
         "ai",
-        "tutorial",
         "web-dev"
       ]
     },
@@ -14758,7 +14789,7 @@
       "page_title": null,
       "tags": [
         "news",
-        "academic-paper"
+        "biology"
       ]
     },
     {
@@ -14772,8 +14803,7 @@
       "page_title": "For Centuries, Indigenous People Lived in These Desert Canyons. Now, New Technology Reveals Extraordinary Details About This Sacred Site",
       "tags": [
         "news",
-        "academic-paper",
-        "nonfiction-book"
+        "academic-paper"
       ]
     },
     {
@@ -14787,7 +14817,7 @@
       "page_title": null,
       "tags": [
         "academic-paper",
-        "nonfiction-book"
+        "biology"
       ]
     },
     {
@@ -14815,8 +14845,8 @@
       "source_date": "2025-02-16",
       "page_title": "Back in Brooklyn: Featuring John Patitucci",
       "tags": [
-        "music",
         "video",
+        "music",
         "movie"
       ]
     },
@@ -14905,7 +14935,7 @@
       "tags": [
         "music",
         "video",
-        "social-media"
+        "tv"
       ]
     },
     {
@@ -14919,8 +14949,8 @@
       "page_title": "I always make my students work on vocabulary at many levels (8th notes, 8th note triplets, 16ths etc.). I learned this many years ago talking with the great jazz drummer Joe LaBarbera.  #bebop #drumlesson #drumsolo #yamahadrumsofficial #remodrumheads #bosphoruscymbals",
       "tags": [
         "music",
-        "video",
-        "tutorial"
+        "tutorial",
+        "video"
       ]
     },
     {
@@ -14993,7 +15023,7 @@
       "page_title": null,
       "tags": [
         "fiction-book",
-        "news"
+        "video"
       ]
     },
     {
@@ -15064,8 +15094,8 @@
       "source_date": "2025-02-08",
       "page_title": "Visual explanations of mathematics — Agile",
       "tags": [
-        "tutorial",
-        "academic-paper"
+        "academic-paper",
+        "tutorial"
       ]
     },
     {
@@ -15079,7 +15109,6 @@
       "page_title": "Easy 6502 by skilldrick",
       "tags": [
         "tutorial",
-        "emulator",
         "compilers",
         "javascript"
       ]
@@ -15096,7 +15125,7 @@
       "tags": [
         "ai",
         "tutorial",
-        "web-dev"
+        "academic-paper"
       ]
     },
     {
@@ -15110,8 +15139,7 @@
       "page_title": "Stanford Lecture - Strong Components and Weak Components, Dr. Donald Knuth I 2024 - YouTube",
       "tags": [
         "video",
-        "academic-paper",
-        "distributed-systems"
+        "academic-paper"
       ]
     },
     {
@@ -15127,7 +15155,7 @@
         "llm",
         "ai",
         "web-dev",
-        "cli-tool"
+        "social-media"
       ]
     },
     {
@@ -15171,7 +15199,8 @@
       "page_title": "Beej's Guide to Git",
       "tags": [
         "tutorial",
-        "cli-tool"
+        "cli-tool",
+        "devops"
       ]
     },
     {
@@ -15184,8 +15213,8 @@
       "source_date": "2025-02-04",
       "page_title": "@MyMorningJacket performs Time Waited…",
       "tags": [
-        "video",
-        "music"
+        "music",
+        "video"
       ]
     },
     {
@@ -15199,8 +15228,8 @@
       "page_title": "Building a Research Agent That Can Write to Google Docs (Part 1) | Towards Data Science",
       "tags": [
         "llm",
-        "tutorial",
         "ai",
+        "tutorial",
         "python"
       ]
     },
@@ -15217,7 +15246,8 @@
         "github-repo",
         "llm",
         "ai",
-        "tutorial"
+        "tutorial",
+        "python"
       ]
     },
     {
@@ -15231,6 +15261,7 @@
       "page_title": null,
       "tags": [
         "llm",
+        "ai",
         "tutorial"
       ]
     },
@@ -15273,8 +15304,8 @@
       "page_title": "GitHub - exelban/stats: macOS system monitor in your menu bar",
       "tags": [
         "github-repo",
-        "devops",
         "cli-tool",
+        "devops",
         "swift"
       ]
     },
@@ -15333,8 +15364,7 @@
       "page_title": "St. Vincent on lead with the Pat, Krist and Dave from Nirvana performing \"Breed\" at the FireAid benefit concert in Los Angeles",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "video"
       ]
     },
     {
@@ -15347,7 +15377,7 @@
       "source_date": "2025-01-28",
       "page_title": "The Ocean Teems With Networks of Interconnected Bacteria | Quanta Magazine",
       "tags": [
-        "news",
+        "biology",
         "academic-paper"
       ]
     },
@@ -15363,8 +15393,7 @@
       "tags": [
         "database",
         "distributed-systems",
-        "academic-paper",
-        "video"
+        "academic-paper"
       ]
     },
     {
@@ -15419,8 +15448,8 @@
       "source_date": "2025-01-26",
       "page_title": "This should win an Emmy for editing. From the upcoming SNL Music special produced by @questlove",
       "tags": [
-        "tv",
         "video",
+        "tv",
         "music"
       ]
     },
@@ -15450,7 +15479,7 @@
       "tags": [
         "music",
         "video",
-        "social-media"
+        "tutorial"
       ]
     },
     {
@@ -15478,8 +15507,8 @@
       "source_date": "2025-01-24",
       "page_title": "part 2 of the “word ladder” technique with my own variation. i think it ends up a little bit more “usable” right away, let me know what you think! #songwriter #songwritingtips #songwriting #lyricist #songwritersofinstagram #wilco #jefftweedy",
       "tags": [
-        "social-media",
         "music",
+        "social-media",
         "video"
       ]
     },
@@ -15494,8 +15523,8 @@
       "page_title": "One of the greatest moments in music.",
       "tags": [
         "music",
-        "social-media",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -15539,7 +15568,7 @@
       "page_title": null,
       "tags": [
         "music",
-        "video"
+        "nonfiction-book"
       ]
     },
     {
@@ -15553,7 +15582,7 @@
       "page_title": "2024 Gems of the year winners - Obsidian",
       "tags": [
         "github-repo",
-        "video"
+        "web-dev"
       ]
     },
     {
@@ -15582,8 +15611,7 @@
       "page_title": "Going Big",
       "tags": [
         "nonfiction-book",
-        "academic-paper",
-        "distributed-systems"
+        "academic-paper"
       ]
     },
     {
@@ -15597,8 +15625,7 @@
       "page_title": "Part 1: We Were Wrong | GBH",
       "tags": [
         "podcast",
-        "nonfiction-book",
-        "news"
+        "nonfiction-book"
       ]
     },
     {
@@ -15642,7 +15669,8 @@
       "page_title": "CFRS[] Community Demos",
       "tags": [
         "cli-tool",
-        "tutorial"
+        "tutorial",
+        "github-repo"
       ]
     },
     {
@@ -15669,8 +15697,8 @@
       "source_date": "2025-01-19",
       "page_title": null,
       "tags": [
-        "news",
-        "nonfiction-book"
+        "nonfiction-book",
+        "news"
       ]
     },
     {
@@ -15712,10 +15740,10 @@
       "source_date": "2025-01-17",
       "page_title": "📥 Agent Inbox UI\n\nToday, we're releasing the UI web app which powers our human-in-the-loop agent interactions.\n\nThe Agent Inbox UI is a generic app which can connect to, and interact with any LangGraph app that uses interrupt events for human-in-the-loop workflows\n\n🧵",
       "tags": [
-        "social-media",
         "llm",
         "web-dev",
-        "ai"
+        "ai",
+        "social-media"
       ]
     },
     {
@@ -15742,8 +15770,8 @@
       "source_date": "2025-01-16",
       "page_title": "John Mayer - In Repair (One Song, One Day) - YouTube",
       "tags": [
-        "video",
-        "music"
+        "music",
+        "video"
       ]
     },
     {
@@ -15771,8 +15799,7 @@
       "page_title": "three timeless songs. yes they are all from a different era of popular music, but i think we can learn a lot from them. simple, restrained, economical. #songwriter #songwritingtips #songwriting #musictheory #bobdylan #brucespringsteen #tompetty",
       "tags": [
         "music",
-        "social-media",
-        "tutorial"
+        "social-media"
       ]
     },
     {
@@ -15786,8 +15813,7 @@
       "page_title": "Join Josh as he watches what he considers a turning point for electric guitar as @johnmayer plays at Austin City Limits! \n\nhttps://youtu.be/pb9IM5RpqUE",
       "tags": [
         "video",
-        "music",
-        "social-media"
+        "music"
       ]
     },
     {
@@ -15814,8 +15840,8 @@
       "source_date": "2025-01-16",
       "page_title": "Best meal you will ever eat out of a crockpot!",
       "tags": [
-        "social-media",
-        "video"
+        "recipe",
+        "social-media"
       ]
     },
     {
@@ -15828,9 +15854,9 @@
       "source_date": "2025-01-16",
       "page_title": "What made you a fan of musical theater? \n\nMe:",
       "tags": [
-        "social-media",
+        "podcast",
         "music",
-        "podcast"
+        "social-media"
       ]
     },
     {
@@ -15860,6 +15886,7 @@
       "tags": [
         "ai",
         "social-media",
+        "llm",
         "github-repo"
       ]
     },
@@ -15874,7 +15901,6 @@
       "page_title": "McKeeman Form",
       "tags": [
         "compilers",
-        "academic-paper",
         "tutorial"
       ]
     },
@@ -15917,10 +15943,10 @@
       "source_date": "2025-01-13",
       "page_title": "The Siren Song of Little Languages – Wilfred Hughes::Blog",
       "tags": [
-        "compilers",
         "scheme",
         "clojure",
-        "tutorial"
+        "compilers",
+        "academic-paper"
       ]
     },
     {
@@ -15933,9 +15959,9 @@
       "source_date": "2025-01-12",
       "page_title": "Everyone NEEDS this groove!!! drum lessons",
       "tags": [
-        "video",
         "music",
-        "tutorial"
+        "tutorial",
+        "video"
       ]
     },
     {
@@ -15950,7 +15976,7 @@
       "tags": [
         "common-lisp",
         "tutorial",
-        "database"
+        "github-repo"
       ]
     },
     {
@@ -15981,8 +16007,7 @@
       "tags": [
         "common-lisp",
         "tutorial",
-        "devops",
-        "cli-tool"
+        "devops"
       ]
     },
     {
@@ -15995,8 +16020,8 @@
       "source_date": "2025-01-11",
       "page_title": "Lazydocker is a simple terminal UI for both docker and docker-compose, written in Go with the gocui library\n\nWhen you are working with multiple containers as devops, what if you had all the information you needed about them in one terminal window with every common Docker command living one keypress away (and the ability to add custom commands as well)? That’s where lazydocker comes in 😎👇\n\nhttps://github.com/jesseduffield/lazydocker",
       "tags": [
-        "devops",
         "go",
+        "devops",
         "cli-tool",
         "github-repo"
       ]
@@ -16027,8 +16052,7 @@
       "page_title": null,
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "video"
       ]
     },
     {
@@ -16043,8 +16067,7 @@
       "tags": [
         "python",
         "ai",
-        "github-repo",
-        "tutorial"
+        "github-repo"
       ]
     },
     {
@@ -16059,7 +16082,6 @@
       "tags": [
         "video",
         "llm",
-        "ai",
         "tutorial"
       ]
     },
@@ -16074,8 +16096,7 @@
       "page_title": "Book yourself 2-3 hours to watch this.\n\nThank me later.",
       "tags": [
         "llm",
-        "video",
-        "tutorial"
+        "video"
       ]
     },
     {
@@ -16088,8 +16109,8 @@
       "source_date": "2025-01-08",
       "page_title": "Folks, drop whatever you’re doing \n\nThis is simply incredible stuff right here\n\nTwo of baseball’s most cerebral geniuses, Barry Bonds and Greg Maddux, breaking down the absolute chess game that was their approach to competing against one another",
       "tags": [
-        "social-media",
         "video",
+        "social-media",
         "gaming"
       ]
     },
@@ -16104,7 +16125,8 @@
       "page_title": "How NotebookLM Was Made - YouTube",
       "tags": [
         "video",
-        "ai"
+        "ai",
+        "llm"
       ]
     },
     {
@@ -16132,8 +16154,7 @@
       "page_title": "@TheLindaLindas perform All In My Head!",
       "tags": [
         "music",
-        "video",
-        "social-media"
+        "video"
       ]
     },
     {
@@ -16174,8 +16195,8 @@
       "source_date": "2025-01-07",
       "page_title": "How to write: Stop not writing. Keep your butt in the chair. Write really bad small sections of the whole—passages, moments, episodes, memories—til you have an incredibly shitty 1st draft. Then take out the boring parts, the lies and pretensions. Then write a better 2nd draft.",
       "tags": [
-        "social-media",
-        "nonfiction-book"
+        "nonfiction-book",
+        "tutorial"
       ]
     },
     {
@@ -16188,10 +16209,9 @@
       "source_date": "2025-01-07",
       "page_title": "Here is how I turned my old tv into a digital dashboard, and honestly, it’s been a game-changer! Now, I can see my goals, schedule, and even the weather all in one place. No more sticky notes everywhere or forgetting what’s next on my to-do list.\n\n#techdiy #rasperrypi #diy #digitalcalendar #howto #dakboard #homedecor",
       "tags": [
-        "tv",
-        "social-media",
         "tutorial",
-        "cli-tool"
+        "video",
+        "devops"
       ]
     },
     {
@@ -16203,7 +16223,9 @@
       "domain": "bpl.org",
       "source_date": "2025-01-07",
       "page_title": "Whoops! - LibCal",
-      "tags": []
+      "tags": [
+        "web-dev"
+      ]
     },
     {
       "id": 663,
@@ -16228,8 +16250,8 @@
       "source_date": "2025-01-06",
       "page_title": "52 years ago today, School House Rock made its debut on ABC. \n\nHave you ever wondered who the voice was behind your favorite School House Rock songs?\n\nMeet Jack Sheldon performing a live rendition of Conjunction Junction. Funny Threads",
       "tags": [
+        "tv",
         "video",
-        "music",
         "social-media"
       ]
     },
@@ -16257,8 +16279,8 @@
       "source_date": "2025-01-04",
       "page_title": "genuary day 3: exactly 42 lines of code. \n\nthe code includes the necessary lines for recording the video as well. and I used the maurer rose equations from Wikipedia!\n\n#genuary #genuary2025 #genuary3",
       "tags": [
-        "social-media",
         "video",
+        "tutorial",
         "python"
       ]
     },
@@ -16273,8 +16295,7 @@
       "page_title": "The 5 Second Rule. Love my Mel Robbins❤️ completely changed my way of thinking.",
       "tags": [
         "social-media",
-        "video",
-        "nonfiction-book"
+        "video"
       ]
     },
     {
@@ -16302,9 +16323,9 @@
       "source_date": "2025-01-03",
       "page_title": "This is so satisfying to play!!! 🥁🤩 drum lessons",
       "tags": [
-        "video",
         "music",
-        "tutorial"
+        "tutorial",
+        "video"
       ]
     },
     {
@@ -16331,8 +16352,7 @@
       "source_date": "2025-01-03",
       "page_title": "Pivotal Weather",
       "tags": [
-        "devops",
-        "web-dev"
+        "devops"
       ]
     },
     {
@@ -16347,8 +16367,7 @@
       "tags": [
         "ai",
         "llm",
-        "tutorial",
-        "social-media"
+        "tutorial"
       ]
     },
     {
@@ -16361,8 +16380,8 @@
       "source_date": "2025-01-02",
       "page_title": "Need to do Bayesian Time Series Forecasting?\n\nIntroducing Orbit. \n\nThis is what it does:",
       "tags": [
-        "social-media",
         "ai",
+        "tutorial",
         "python"
       ]
     },
@@ -16377,7 +16396,6 @@
       "page_title": "One of the best math books I've ever read:\n\nMIT's \"Mathematics for Computer Science\"\n\nIts writing style is brilliant, and it covers everything:\n\n- Linear algebra\n- Series\n- Logic\n- Probability\n- Number theory\n- Graphs \n\nYou can find the PDF here:\n\nhttps://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
       "tags": [
         "academic-paper",
-        "nonfiction-book",
         "tutorial"
       ]
     },
@@ -16407,8 +16425,7 @@
       "page_title": "Things we learned about LLMs in 2024",
       "tags": [
         "llm",
-        "ai",
-        "nonfiction-book"
+        "ai"
       ]
     },
     {
@@ -16423,7 +16440,8 @@
       "tags": [
         "tutorial",
         "ai",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -16436,8 +16454,8 @@
       "source_date": "2024-12-30",
       "page_title": "When Steve Jordan was at Drumeo, he mentioned that he recorded drums on “The Piña Colada Song” so we had to see him play it! Full video is on the Drumeo YouTube channel 👊🏻",
       "tags": [
-        "music",
         "video",
+        "music",
         "social-media"
       ]
     },
@@ -16481,8 +16499,7 @@
       "page_title": null,
       "tags": [
         "news",
-        "politics",
-        "nonfiction-book"
+        "politics"
       ]
     },
     {
@@ -16496,8 +16513,7 @@
       "page_title": "the corporate hunger games nobody talks about:\n\nsuccess signals vs. actual performance\n\na thread on why you're playing the wrong game 🧵",
       "tags": [
         "social-media",
-        "politics",
-        "nonfiction-book"
+        "video"
       ]
     },
     {
@@ -16524,8 +16540,8 @@
       "source_date": "2024-12-26",
       "page_title": "The internet is beautiful.\n\nI have been collecting websites the way rich people collect watches.\n\nHere's a list of my 27 best picks:⤵️",
       "tags": [
-        "social-media",
-        "ai"
+        "ai",
+        "social-media"
       ]
     },
     {
@@ -16553,7 +16569,7 @@
       "page_title": "7 Netflix documentaries that will make you SMARTER...\n\n[part 2- docs that’ll boost your brainpower faster than caffeine] ☕️📚",
       "tags": [
         "video",
-        "nonfiction-book"
+        "social-media"
       ]
     },
     {
@@ -16567,6 +16583,7 @@
       "page_title": "Myrtle the Turtle celebrates 54 years in Boston | WBUR News",
       "tags": [
         "news",
+        "biology",
         "video"
       ]
     },
@@ -16581,8 +16598,7 @@
       "page_title": "How to ace the system design interview (without luck):\n\nOne of the best things you can do to become good at system design is to read case studies.\n\nAnd I write a newsletter with simplified case studies to make it easy for you.\n\nHere are 14 case studies you should read (all free):",
       "tags": [
         "distributed-systems",
-        "tutorial",
-        "social-media"
+        "tutorial"
       ]
     },
     {
@@ -16596,7 +16612,8 @@
       "page_title": "Brad Mehldau & Eden Mehldau \nThe Christmas Song",
       "tags": [
         "music",
-        "video"
+        "video",
+        "social-media"
       ]
     },
     {
@@ -16609,7 +16626,7 @@
       "source_date": "2024-12-24",
       "page_title": "Toronto Public Library Dashboard",
       "tags": [
-        "video",
+        "database",
         "devops"
       ]
     },
@@ -16637,6 +16654,7 @@
       "page_title": "If (like me) you’re a dog lover or (like me) a James Stewart fan or (like me) a bit of a softy - you won’t fail to be moved by Jimmy’s poem for his much loved dog ‘Beau’, which he read out on The Tonight Show in 1981 to a visibly moved Johnny Carson. \n\nJust beautiful.🐾",
       "tags": [
         "video",
+        "tv",
         "social-media"
       ]
     },
@@ -16650,8 +16668,8 @@
       "source_date": "2024-12-23",
       "page_title": "Tinned fish is having a moment, but we say seafood in a can never went out of style. We tasted over 100 tins to find the really special ones worthy of gifting or serving at a party. See all the tinned fish we recommend here: nyti.ms/3VONXZ2",
       "tags": [
-        "video",
-        "news"
+        "recipe",
+        "video"
       ]
     }
   ],
@@ -16659,82 +16677,82 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 357
+      "count": 346
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 273
-    },
-    {
-      "name": "video",
-      "category": "culture",
-      "count": 238
-    },
-    {
-      "name": "academic-paper",
-      "category": "technical_topic",
-      "count": 229
-    },
-    {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 213
+      "count": 260
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 190
+      "count": 223
     },
     {
-      "name": "web-dev",
+      "name": "academic-paper",
       "category": "technical_topic",
-      "count": 185
+      "count": 211
+    },
+    {
+      "name": "video",
+      "category": "culture",
+      "count": 199
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 180
+      "count": 195
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 130
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 187
+    },
+    {
+      "name": "web-dev",
+      "category": "technical_topic",
+      "count": 186
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 130
-    },
-    {
-      "name": "nonfiction-book",
-      "category": "culture",
-      "count": 129
-    },
-    {
-      "name": "python",
-      "category": "programming_language",
-      "count": 116
+      "count": 123
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 116
+      "count": 113
+    },
+    {
+      "name": "python",
+      "category": "programming_language",
+      "count": 110
+    },
+    {
+      "name": "news",
+      "category": "culture",
+      "count": 102
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 115
+      "count": 100
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 92
+      "count": 99
+    },
+    {
+      "name": "nonfiction-book",
+      "category": "culture",
+      "count": 91
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 57
+      "count": 55
     },
     {
       "name": "security",
@@ -16744,80 +16762,105 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 47
+      "count": 38
     },
     {
-      "name": "lisp",
-      "category": "programming_language",
-      "count": 31
+      "name": "physics",
+      "category": "science",
+      "count": 34
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 29
-    },
-    {
-      "name": "c",
-      "category": "programming_language",
-      "count": 28
-    },
-    {
-      "name": "javascript",
-      "category": "programming_language",
-      "count": 26
+      "name": "biology",
+      "category": "science",
+      "count": 33
     },
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 25
+      "count": 27
     },
     {
-      "name": "gaming",
-      "category": "culture",
-      "count": 19
-    },
-    {
-      "name": "typescript",
+      "name": "c",
       "category": "programming_language",
-      "count": 18
+      "count": 26
     },
     {
-      "name": "emulator",
-      "category": "technical_topic",
-      "count": 17
+      "name": "politics",
+      "category": "culture",
+      "count": 26
+    },
+    {
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 23
+    },
+    {
+      "name": "lisp",
+      "category": "programming_language",
+      "count": 22
     },
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 16
-    },
-    {
-      "name": "podcast",
-      "category": "culture",
-      "count": 13
+      "count": 18
     },
     {
       "name": "common-lisp",
       "category": "programming_language",
-      "count": 13
+      "count": 17
+    },
+    {
+      "name": "gaming",
+      "category": "culture",
+      "count": 16
+    },
+    {
+      "name": "emulator",
+      "category": "technical_topic",
+      "count": 15
     },
     {
       "name": "tv",
       "category": "culture",
-      "count": 11
+      "count": 14
     },
     {
-      "name": "fiction-book",
+      "name": "typescript",
+      "category": "programming_language",
+      "count": 12
+    },
+    {
+      "name": "recipe",
       "category": "culture",
-      "count": 10
+      "count": 12
+    },
+    {
+      "name": "astronomy",
+      "category": "science",
+      "count": 12
     },
     {
       "name": "clojure",
       "category": "programming_language",
-      "count": 9
+      "count": 11
+    },
+    {
+      "name": "haskell",
+      "category": "programming_language",
+      "count": 10
     },
     {
       "name": "movie",
+      "category": "culture",
+      "count": 9
+    },
+    {
+      "name": "podcast",
+      "category": "culture",
+      "count": 8
+    },
+    {
+      "name": "fiction-book",
       "category": "culture",
       "count": 8
     },
@@ -16827,14 +16870,9 @@
       "count": 7
     },
     {
-      "name": "haskell",
+      "name": "sql",
       "category": "programming_language",
       "count": 6
-    },
-    {
-      "name": "swift",
-      "category": "programming_language",
-      "count": 5
     },
     {
       "name": "elixir",
@@ -16847,13 +16885,23 @@
       "count": 4
     },
     {
-      "name": "sql",
-      "category": "programming_language",
-      "count": 4
-    },
-    {
       "name": "ruby",
       "category": "programming_language",
+      "count": 2
+    },
+    {
+      "name": "swift",
+      "category": "programming_language",
+      "count": 2
+    },
+    {
+      "name": "gardening",
+      "category": "culture",
+      "count": 2
+    },
+    {
+      "name": "mathematics",
+      "category": "science",
       "count": 2
     },
     {
@@ -16870,7 +16918,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 127
+      "count": 128
     },
     {
       "domain": "www.threads.net",
@@ -17093,6 +17141,10 @@
       "count": 2
     },
     {
+      "domain": "steve-yegge.medium.com",
+      "count": 2
+    },
+    {
       "domain": "tailscale.com",
       "count": 2
     },
@@ -17425,6 +17477,10 @@
       "count": 1
     },
     {
+      "domain": "blog.nlnetlabs.nl",
+      "count": 1
+    },
+    {
       "domain": "blog.phronemophobic.com",
       "count": 1
     },
@@ -17474,6 +17530,10 @@
     },
     {
       "domain": "bryanhogan.com",
+      "count": 1
+    },
+    {
+      "domain": "buildingbetter.tech",
       "count": 1
     },
     {
@@ -17566,6 +17626,10 @@
     },
     {
       "domain": "clojure.stream",
+      "count": 1
+    },
+    {
+      "domain": "coalton-lang.github.io",
       "count": 1
     },
     {
@@ -18469,6 +18533,10 @@
       "count": 1
     },
     {
+      "domain": "pandoc-templates.org",
+      "count": 1
+    },
+    {
       "domain": "parametricavocado.itch.io",
       "count": 1
     },
@@ -18749,6 +18817,10 @@
       "count": 1
     },
     {
+      "domain": "specification.website",
+      "count": 1
+    },
+    {
       "domain": "spencer.wtf",
       "count": 1
     },
@@ -18774,10 +18846,6 @@
     },
     {
       "domain": "steipete.me",
-      "count": 1
-    },
-    {
-      "domain": "steve-yegge.medium.com",
       "count": 1
     },
     {
@@ -19354,6 +19422,10 @@
     },
     {
       "domain": "www.pianorollmusic.org",
+      "count": 1
+    },
+    {
+      "domain": "www.quandri.io",
       "count": 1
     },
     {
