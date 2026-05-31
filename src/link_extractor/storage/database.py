@@ -32,6 +32,9 @@ CREATE TABLE IF NOT EXISTS links (
     summarized_at TIMESTAMP,
     summarizer_model TEXT,
 
+    markdown_content TEXT,
+    markdown_path TEXT,
+
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -127,6 +130,19 @@ class Database:
         """Initialize database schema."""
         with self._connection() as conn:
             conn.executescript(SCHEMA_SQL)
+            self._migrate_add_columns(conn)
+
+    def _migrate_add_columns(self, conn: sqlite3.Connection) -> None:
+        """Idempotently add columns introduced after the initial schema.
+
+        SQLite's CREATE TABLE IF NOT EXISTS is a no-op on existing tables, so
+        new columns must be added with PRAGMA-guarded ALTER TABLE.
+        """
+        existing = {row["name"] for row in conn.execute("PRAGMA table_info(links)")}
+        if "markdown_content" not in existing:
+            conn.execute("ALTER TABLE links ADD COLUMN markdown_content TEXT")
+        if "markdown_path" not in existing:
+            conn.execute("ALTER TABLE links ADD COLUMN markdown_path TEXT")
 
     def link_exists(self, url: str) -> bool:
         """Check if a link already exists."""
@@ -194,6 +210,30 @@ class Database:
                 WHERE id = ?
                 """,
                 (summary, model, link_id),
+            )
+
+    def update_markdown_content(self, link_id: int, content: str | None) -> None:
+        """Store the rendered Markdown body captured at fetch time."""
+        with self._connection() as conn:
+            conn.execute(
+                """
+                UPDATE links
+                SET markdown_content = ?, updated_at = datetime('now')
+                WHERE id = ?
+                """,
+                (content, link_id),
+            )
+
+    def set_markdown_path(self, link_id: int, path: str | None) -> None:
+        """Record the repo-relative path of the written .md file (or NULL)."""
+        with self._connection() as conn:
+            conn.execute(
+                """
+                UPDATE links
+                SET markdown_path = ?, updated_at = datetime('now')
+                WHERE id = ?
+                """,
+                (path, link_id),
             )
 
     def add_tag(
@@ -307,6 +347,20 @@ class Database:
                 SELECT * FROM links
                 WHERE fetch_status != ?
                   AND id NOT IN (SELECT DISTINCT link_id FROM link_tags)
+                ORDER BY source_date DESC
+            """
+            if limit:
+                query += f" LIMIT {limit}"
+            rows = conn.execute(query, (FetchStatus.NOT_FETCHED.value,)).fetchall()
+            return [self._row_to_link(row) for row in rows]
+
+    def get_links_needing_markdown(self, limit: int | None = None) -> list[LinkRecord]:
+        """Get processed links that have no cached markdown file yet."""
+        with self._connection() as conn:
+            query = """
+                SELECT * FROM links
+                WHERE fetch_status != ?
+                  AND markdown_path IS NULL
                 ORDER BY source_date DESC
             """
             if limit:
@@ -513,6 +567,8 @@ class Database:
             fetch_error=row["fetch_error"],
             summary=row["summary"],
             summarizer_model=row["summarizer_model"],
+            markdown_content=row["markdown_content"],
+            markdown_path=row["markdown_path"],
         )
 
     # ---- Web UI methods ----

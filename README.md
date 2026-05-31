@@ -17,7 +17,7 @@ Extract, summarize, and tag links from Obsidian daily notes. Stores results in a
 
 ## Upgrade Tasks 
 
-- [ ] - Cache a markdown version of each article in the repository
+- [x] - Cache a markdown version of each article in the repository
   - Create category-based directory under `docs` like
     `programming-language`, `technical-topic`.
   - When processing or re-processing links, create a slugified article
@@ -142,6 +142,28 @@ uv run link-extractor export-json --output ./build/data.json
 
 The static site is located in `docs/` and reads from `docs/data.json`. After exporting, commit and push to update the GitHub Pages site.
 
+### Export cached Markdown articles
+
+```bash
+# Write/regenerate a Markdown copy of every article
+uv run link-extractor export-markdown
+
+# Limit the number of links written
+uv run link-extractor export-markdown --limit 50
+
+# Only write links that don't have a cached file yet (backfill in batches)
+uv run link-extractor export-markdown --only-missing --limit 100
+```
+
+Each article is cached as `docs/<category>/<slug>-<id>.md`, where the category
+comes from the link's highest-confidence tag (links with no tags go in
+`uncategorized/`). Files contain YAML front matter (url, title, tags, summary,
+fetch metadata) followed by an HTML→Markdown render of the article body. The
+repo-relative path is tracked in the `markdown_path` column of `links.db`, so
+`--only-missing` writes just the links that still have `markdown_path IS NULL` —
+re-run it to backfill in batches. The `extract` pipeline also writes these files
+automatically as a final step (use `--no-markdown` to skip).
+
 ## Project Structure
 
 ```
@@ -155,7 +177,8 @@ note-links/
 │   ├── index.html              # Static site (Vue.js SPA - list/search view)
 │   ├── topics.html             # Static site (Vue.js SPA - topic browser)
 │   ├── data.json               # Exported link data for static site
-│   └── feed.xml                # RSS 2.0 feed
+│   ├── feed.xml                # RSS 2.0 feed
+│   └── <category>/             # Cached Markdown articles (e.g. programming-language/)
 ├── src/link_extractor/
 │   ├── main.py                 # CLI and pipeline orchestration
 │   ├── config.py               # Configuration loading (.env + YAML)
@@ -173,6 +196,9 @@ note-links/
 │   │   ├── llm_tagger.py       # LLM-based auto-tagging via Bedrock
 │   │   ├── audit.py            # Tag vocabulary audit and suggestions
 │   │   └── vocabulary.py       # Runtime loader for TAGS.md
+│   ├── export/
+│   │   ├── rss.py              # RSS 2.0 feed generation
+│   │   └── markdown.py         # Cached Markdown article generation
 │   └── storage/
 │       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
 │       └── database.py         # SQLite operations with FTS5

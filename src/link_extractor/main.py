@@ -9,6 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 import click
+from markdownify import markdownify as html_to_markdown
 
 from .config import Config
 from .extraction.parser import MarkdownLinkParser
@@ -20,6 +21,7 @@ from .storage.database import Database
 from .storage.models import FetchStatus
 from .summarization.bedrock import BedrockSummarizer
 from .export.rss import generate_rss
+from .export.markdown import write_markdown_for_link
 from .tagging.llm_tagger import LLMTagger
 from .tagging.audit import run_audit
 
@@ -56,6 +58,7 @@ class LinkExtractorPipeline:
         fetch: bool = True,
         summarize: bool = True,
         tag: bool = True,
+        markdown: bool = True,
         date_from: str | None = None,
         date_to: str | None = None,
     ) -> None:
@@ -96,6 +99,10 @@ class LinkExtractorPipeline:
         if tag:
             await self._tag_links()
 
+        # Step 5: Write/refresh cached Markdown files
+        if markdown:
+            self._write_markdown_files()
+
         # Print stats
         stats = self.db.get_stats()
         logger.info(
@@ -124,11 +131,20 @@ class LinkExtractorPipeline:
                     page_title=result.title,
                     error=result.error,
                 )
+                # PDFs have no HTML; use the extracted text as the markdown body.
+                self.db.update_markdown_content(link.id, result.content)  # type: ignore
             else:
                 result = await self.fetcher.fetch(link.url)
                 content = None
+                markdown_body = None
                 if result.content:
                     content = self.content_extractor.extract(result.content)
+                    try:
+                        markdown_body = html_to_markdown(
+                            result.content, strip=["script", "style"]
+                        ).strip()
+                    except Exception as e:
+                        logger.warning(f"  markdownify failed for {link.url}: {e}")
 
                 self.db.update_fetch_result(
                     link.id,  # type: ignore
@@ -137,6 +153,7 @@ class LinkExtractorPipeline:
                     page_title=result.title,
                     error=result.error,
                 )
+                self.db.update_markdown_content(link.id, markdown_body)  # type: ignore
 
             status_str = "OK" if result.status == FetchStatus.SUCCESS else result.status.value
             logger.info(f"  [{status_str}] {link.url[:60]}...")
@@ -213,6 +230,22 @@ class LinkExtractorPipeline:
 
         logger.info(f"Applied {tagged_count} tags")
 
+    def _write_markdown_files(self) -> None:
+        """Write/refresh cached Markdown files for recently processed links."""
+        links = self.db.get_links_needing_markdown(limit=self.config.batch_size)
+        if not links:
+            logger.info("No links need markdown files")
+            return
+
+        logger.info(f"Writing {len(links)} markdown files...")
+        repo_root = Path.cwd()
+        written = 0
+        for link in links:
+            rel = write_markdown_for_link(self.db, link, repo_root)
+            if rel:
+                written += 1
+        logger.info(f"Wrote {written} markdown files")
+
     def _file_hash(self, path: Path) -> str:
         """Calculate MD5 hash of file content."""
         return hashlib.md5(path.read_bytes()).hexdigest()
@@ -229,6 +262,7 @@ def cli() -> None:
 @click.option("--no-fetch", is_flag=True, help="Skip fetching web pages")
 @click.option("--no-summarize", is_flag=True, help="Skip summarization")
 @click.option("--no-tag", is_flag=True, help="Skip auto-tagging")
+@click.option("--no-markdown", is_flag=True, help="Skip writing cached markdown files")
 @click.option("--date-from", help="Start date (YYYY-MM-DD)")
 @click.option("--date-to", help="End date (YYYY-MM-DD)")
 def extract(
@@ -236,6 +270,7 @@ def extract(
     no_fetch: bool,
     no_summarize: bool,
     no_tag: bool,
+    no_markdown: bool,
     date_from: str | None,
     date_to: str | None,
 ) -> None:
@@ -247,6 +282,7 @@ def extract(
             fetch=not no_fetch,
             summarize=not no_summarize,
             tag=not no_tag,
+            markdown=not no_markdown,
             date_from=date_from,
             date_to=date_to,
         )
@@ -516,6 +552,35 @@ def export_rss(
     click.echo(f"Exported RSS feed to {output_path}")
     click.echo(f"  Items: {item_count}")
     click.echo(f"  Title: {feed_title}")
+
+
+@cli.command("export-markdown")
+@click.option("--config", "-c", default="config.yaml", help="Config file path")
+@click.option("--limit", "-n", default=None, type=int, help="Max links to write")
+@click.option(
+    "--only-missing",
+    is_flag=True,
+    help="Only write links that don't have a cached markdown file yet",
+)
+def export_markdown(config: str, limit: int | None, only_missing: bool) -> None:
+    """Export/regenerate cached Markdown files for processed links."""
+    cfg = Config.from_yaml(config)
+    db = Database(cfg.database_path)
+
+    if only_missing:
+        links = db.get_links_needing_markdown(limit=limit)
+    else:
+        links = db.get_all_links_with_content(limit=limit)
+    click.echo(f"Writing markdown for {len(links)} links...")
+
+    repo_root = Path.cwd()
+    written = 0
+    for link in links:
+        rel = write_markdown_for_link(db, link, repo_root)
+        if rel:
+            written += 1
+
+    click.echo(f"Wrote {written} markdown files under docs/")
 
 
 @cli.command("tag-audit")

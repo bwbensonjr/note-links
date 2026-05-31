@@ -65,5 +65,9 @@ class LinkRecord:
     # Tags
     tags: list[Tag] = field(default_factory=list)
 
+    # Markdown cache
+    markdown_content: Optional[str] = None
+    markdown_path: Optional[str] = None
+
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None

@@ -33,7 +33,8 @@ note-links/
 │   │   ├── audit.py            # Tag vocabulary audit and TAGS.md suggestions
 │   │   └── vocabulary.py       # Runtime loader for TAGS.md (single source of truth)
 │   ├── export/
-│   │   └── rss.py              # RSS 2.0 feed generation
+│   │   ├── rss.py              # RSS 2.0 feed generation
+│   │   └── markdown.py         # Cached Markdown article generation
 │   └── storage/
 │       ├── models.py           # Dataclasses (ExtractedLink, LinkRecord, Tag)
 │       └── database.py         # SQLite operations with FTS5
@@ -128,6 +129,36 @@ When page content cannot be extracted (JS-heavy sites, login walls, etc.):
 - Summarization creates a metadata-based summary from `page_title` and `description`
 - These are marked with `summarizer_model = 'metadata'` to distinguish from LLM summaries
 
+### Markdown Article Cache
+
+Each processed link is cached as a Markdown file under a category directory in
+`docs/` (e.g. `docs/programming-language/<slug>-<id>.md`). See
+`src/link_extractor/export/markdown.py`.
+
+- **Body**: a true HTML→Markdown render via `markdownify`, captured at fetch
+  time in `_fetch_links()` (raw HTML only exists there, before `ContentExtractor`
+  reduces it to plain text) and stored in the new `markdown_content` column. PDFs
+  use their extracted text. Legacy links predating this column fall back to
+  `page_content` (plain text) when written.
+- **Category directory**: the category of the link's highest-confidence tag
+  (`get_tags_for_link` is confidence-DESC ordered); links with no tags go in
+  `uncategorized/`. The category string is slugified (`programming_language` →
+  `programming-language`).
+- **Front matter**: YAML block (url, title, domain, source_date, tags, summary,
+  fetch/summarizer metadata) via `yaml.safe_dump`.
+- **Filename / uniqueness**: `<slug>-<id>.md`; the `-<id>` suffix guarantees
+  uniqueness, so slug collisions are harmless.
+- **Tracking & stale files**: the repo-relative path is stored in the
+  `markdown_path` column. On re-processing, if the computed path changes
+  (category or slug changed), the old file is deleted before the new one is
+  written (move-by-rewrite).
+- **Migration**: `markdown_content` and `markdown_path` are added to existing
+  databases via PRAGMA-guarded `ALTER TABLE ADD COLUMN` in
+  `Database._migrate_add_columns()` (there is no migration framework). The new
+  columns are not part of the FTS index, so the FTS triggers are unaffected.
+- **Triggers**: written as pipeline Step 5 (after tagging; `--no-markdown` to
+  skip) and by the standalone `export-markdown` command (full backfill).
+
 ## Database Schema
 
 ```sql
@@ -172,6 +203,7 @@ Triggers keep FTS index synchronized with main table.
 6. **Summarize**: Generate summaries via Bedrock Claude (only unsummarized links)
    - Falls back to metadata summary if page content is empty
 7. **Tag**: Apply LLM-based auto-tagging (only untagged links)
+8. **Markdown**: Write cached Markdown files for links without one (only links where `markdown_path IS NULL`)
 
 Each step is independently skippable via CLI flags. The pipeline is fully incremental - running `extract` multiple times will only process new/pending items.
 
@@ -183,6 +215,7 @@ uv run link-extractor extract [OPTIONS]
   --no-fetch       Skip fetching web pages
   --no-summarize   Skip summarization
   --no-tag         Skip auto-tagging
+  --no-markdown    Skip writing cached markdown files
   --date-from      Start date (YYYY-MM-DD)
   --date-to        End date (YYYY-MM-DD)
 
@@ -216,6 +249,9 @@ uv run link-extractor export-rss         # Export to docs/feed.xml
   --title TEXT       Override feed title from config
   --description TEXT Override feed description from config
   --limit N          Max items to include
+uv run link-extractor export-markdown    # Write docs/<category>/<slug>-<id>.md for all links
+  --limit N          Max links to write
+  --only-missing     Only write links without a cached file (markdown_path IS NULL)
 ```
 
 ## Extending
