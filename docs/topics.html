@@ -84,6 +84,11 @@
                   </a>
                   <span class="text-gray-500"> — {{ l.domain }}</span>
                   <span class="text-gray-400"> · {{ l.source_date }}</span>
+                  <a
+                    v-if="l.markdown_path"
+                    :href="'article.html?p=' + encodeURIComponent(l.markdown_path)"
+                    class="text-gray-400 hover:text-blue-600 hover:underline"
+                  > · cached</a>
                 </li>
               </ul>
               <a

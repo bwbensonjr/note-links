@@ -510,6 +510,12 @@ def export_json(config: str, output: str) -> None:
         tags = db.get_tags_for_link(link.id)  # type: ignore
         tag_names = [name for name, category, confidence in tags]
 
+        # Site-relative path (docs/ is the site root) to the cached Markdown
+        # article, for the client-side article.html viewer. None when no file.
+        cached_md = None
+        if link.markdown_path:
+            cached_md = link.markdown_path.removeprefix("docs/")
+
         export_links.append({
             "id": link.id,
             "url": link.url,
@@ -520,6 +526,7 @@ def export_json(config: str, output: str) -> None:
             "source_date": str(link.source_date) if link.source_date else None,
             "page_title": html.unescape(link.page_title) if link.page_title else None,
             "tags": tag_names,
+            "markdown_path": cached_md,
         })
 
     # Get all tags and domains for filters

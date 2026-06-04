@@ -213,7 +213,17 @@
             >
               {{ link.page_title?.trim() || link.title?.trim() || link.description?.trim() || link.url }}
             </a>
-            <span class="text-sm text-gray-500 whitespace-nowrap">{{ link.domain }}</span>
+            <div class="flex items-center gap-2 whitespace-nowrap">
+              <a
+                v-if="link.markdown_path"
+                :href="'article.html?p=' + encodeURIComponent(link.markdown_path)"
+                class="text-xs text-gray-400 hover:text-blue-600 hover:underline"
+                title="View cached copy"
+              >
+                cached
+              </a>
+              <span class="text-sm text-gray-500">{{ link.domain }}</span>
+            </div>
           </div>
 
           <!-- Description -->

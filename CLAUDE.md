@@ -12,7 +12,11 @@ note-links/
 ├── pyproject.toml              # Dependencies and CLI entry point
 ├── links.db                    # SQLite3 database (created on first run)
 ├── docs/
-│   ├── index.html              # Static site (Vue.js SPA for GitHub Pages)
+│   ├── .nojekyll               # Disables Jekyll; docs/ is served verbatim
+│   ├── index.html              # Static site List page (Vue.js SPA for GitHub Pages)
+│   ├── topics.html             # Links grouped by tag/category
+│   ├── random.html             # Single random link
+│   ├── article.html            # Client-side viewer for cached Markdown articles
 │   ├── data.json               # Exported link data for static site
 │   └── feed.xml                # RSS 2.0 feed for static site
 ├── src/link_extractor/
@@ -172,6 +176,31 @@ Each processed link is cached as a Markdown file under a category directory in
   (unlike `refetch`, which resets them). Links that fail to re-fetch keep their
   plain-text fallback. Network-bound and rate-limited; supports `--limit` for
   batching.
+
+### Serving the Cached Markdown (client-side)
+
+The cached `.md` files are viewable in the browser via `docs/article.html`, a
+Vue page in the same static-SPA style as the other pages.
+
+- **No Jekyll.** `docs/.nojekyll` disables GitHub's default Jekyll build, so
+  `docs/` is published verbatim. Jekyll was never used (no `_config.yml` or
+  layouts) and its `jekyll-relative-links` plugin crashed the deploy on a cached
+  file containing `/~ray/...`-style relative links (Ruby's `File.expand_path`
+  reads a leading `~name` as a home directory). Rendering the Markdown in the
+  browser keeps any bad data in a scraped file from ever breaking the deploy.
+- **`article.html?p=<site-relative-path>`**: fetches the raw `.md`, splits the
+  YAML front matter (`js-yaml`) from the body, renders the body with `marked`,
+  and shows a title/url/tags/summary header. All three libs are loaded from CDN
+  like Vue/Tailwind already are. The `p` param is validated to be a same-site
+  relative `.md` path (rejects leading `/`, `..`, and `://`).
+- **`markdown_path` in `data.json`**: `export-json` emits each link's
+  `markdown_path` with the `docs/` prefix stripped (None when no cached file).
+  The List, Topics, and Random pages show a "cached" link to
+  `article.html?p=<markdown_path>` only when that field is set.
+- **Cached-copy caveat**: original-site images referenced by relative URLs
+  (e.g. `/~ray/images/...`) 404 in the cached view; the page shows a "some
+  images may not resolve — view the original" notice. This is cosmetic, not a
+  build failure (the whole point of moving rendering client-side).
 
 ## Database Schema
 
