@@ -1,6 +1,111 @@
 {
-  "exported_at": "2026-05-31T08:58:49.382956",
+  "exported_at": "2026-06-04T06:23:39.277974",
   "links": [
+    {
+      "id": 1138,
+      "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
+      "title": null,
+      "description": "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse",
+      "summary": "The Trump administration is dismantling an ocean observation system with over 900 monitoring instruments across the Atlantic and Pacific oceans, set to be removed within 15 months despite the system being designed to operate for 25 years. This decision will eliminate critical data collection on the Atlantic Meridional Overturning Circulation (AMOC), a vital ocean current system that regulates global climate and scientists fear may be approaching a dangerous collapse point as oceans warm. The loss of sustained monitoring will significantly hinder climate research and ocean observation at a time when long-term data collection is increasingly essential.",
+      "domain": "e360.yale.edu",
+      "source_date": "2026-06-04",
+      "page_title": "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse - Yale E360",
+      "tags": [
+        "news",
+        "physics",
+        "politics"
+      ]
+    },
+    {
+      "id": 1137,
+      "url": "https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician%27s_Lament.pdf",
+      "title": null,
+      "description": "A mathematician’s lament",
+      "summary": "Paul Lockhart uses satirical allegories about music and painting education to critique how mathematics is taught in schools. He argues that mathematics is fundamentally an art form focused on creative problem-solving and pattern recognition, yet it is taught as a meaningless system of rules and procedures divorced from actual mathematical thinking. Lockhart contends that this approach destroys students' natural curiosity and love of learning, making math feel boring and pointless rather than beautiful and engaging.",
+      "domain": "worrydream.com",
+      "source_date": "2026-06-04",
+      "page_title": "Microsoft Word - LockhartsLament.doc",
+      "tags": [
+        "mathematics",
+        "academic-paper",
+        "nonfiction-book"
+      ]
+    },
+    {
+      "id": 1136,
+      "url": "https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03",
+      "title": null,
+      "description": "Learn SQL Once, Use It for 30 Years",
+      "summary": "Learn SQL Once, Use It for 30 Years",
+      "domain": "fagnerbrack.com",
+      "source_date": "2026-06-04",
+      "page_title": null,
+      "tags": [
+        "sql",
+        "tutorial",
+        "database"
+      ]
+    },
+    {
+      "id": 1135,
+      "url": "https://maxleiter.com/blog/weights",
+      "title": null,
+      "description": "They’re made out of weights",
+      "summary": "This is a science fiction dialogue that reimagines Terry Bisson's \"They're Made Out of Meat,\" replacing the alien perspective with a discussion about large language models being composed entirely of mathematical weights and floating-point numbers rather than discrete knowledge bases or reasoning modules. The conversation explores the philosophical implications of AI systems that generate text through matrix multiplication across layers of weights, while the characters debate whether this constitutes genuine intelligence or mere pattern matching, ultimately deciding to officially dismiss any signs of sentience. The story concludes with an ironic twist: despite denying these models consciousness, humans increasingly interact with them, and the next generation will have persistent memory—a feature users most frequently request because they want the AI to remember them.",
+      "domain": "maxleiter.com",
+      "source_date": "2026-06-04",
+      "page_title": "They're Made Out of Weights",
+      "tags": [
+        "ai",
+        "llm",
+        "fiction-book"
+      ]
+    },
+    {
+      "id": 1134,
+      "url": "http://www.ableton.com/en/live/extensions/",
+      "title": null,
+      "description": "Ableton Extensions",
+      "summary": "Ableton Extensions is a new JavaScript-based SDK that allows users to build custom tools within Ableton Live 12 Suite, enabling them to automate tasks, transform MIDI data, analyze song structure, and customize Live's capabilities in ways it wasn't originally designed for. Extensions integrate directly into Live's workflow through a right-click context menu and can interact with tracks, clips, devices, and other Set elements, with a growing community sharing experimental tools on Discord. The SDK requires Node.js and is accessible to both developers and non-developers using AI coding assistants, offering a more flexible alternative to Max for Live focused on Set interaction rather than synthesis and signal processing.",
+      "domain": "www.ableton.com",
+      "source_date": "2026-06-04",
+      "page_title": "Extensions SDK",
+      "tags": [
+        "javascript",
+        "web-dev",
+        "cli-tool"
+      ]
+    },
+    {
+      "id": 1140,
+      "url": "https://janet-lang.org/",
+      "title": null,
+      "description": "The Janet programming language",
+      "summary": "Janet is a lightweight, functional and imperative programming language that runs across multiple operating systems including Windows, Linux, macOS, and BSDs, with a complete implementation including core library, interpreter, compiler, and assembler totaling less than 1MB. The language can be easily integrated into applications through embedding via a single C source file and header, making it ideal for adding scripting capabilities to existing software.",
+      "domain": "janet-lang.org",
+      "source_date": "2026-06-02",
+      "page_title": "Janet Programming Language",
+      "tags": [
+        "c",
+        "compilers",
+        "lisp"
+      ]
+    },
+    {
+      "id": 1139,
+      "url": "https://ianthehenry.com/posts/why-janet/",
+      "title": null,
+      "description": "Why Janet?",
+      "summary": "The author advocates for Janet, a small Lisp dialect that has become their preferred language for side projects, highlighting its simplicity, ease of distribution as native executables, and powerful text parsing capabilities using parsing expression grammars instead of regular expressions. Key strengths include its embeddability, support for both mutable and immutable collections, elegant macro system, and unique ability to serialize compile-time values into runtime snapshots, making it exceptionally useful for command-line tools and scripting tasks. The author argues that Janet offers an elegant syntax and developer experience that makes it a worthwhile alternative to languages like Bash, Perl, and Lua for a wide range of programming scenarios.",
+      "domain": "ianthehenry.com",
+      "source_date": "2026-06-02",
+      "page_title": "Why Janet?",
+      "tags": [
+        "lisp",
+        "cli-tool",
+        "tutorial"
+      ]
+    },
     {
       "id": 1127,
       "url": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
@@ -16677,12 +16782,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 346
+      "count": 348
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 260
+      "count": 261
     },
     {
       "name": "github-repo",
@@ -16692,7 +16797,7 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 211
+      "count": 212
     },
     {
       "name": "video",
@@ -16702,17 +16807,17 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 195
+      "count": 196
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 187
+      "count": 189
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 186
+      "count": 187
     },
     {
       "name": "music",
@@ -16732,7 +16837,12 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 102
+      "count": 103
+    },
+    {
+      "name": "compilers",
+      "category": "technical_topic",
+      "count": 100
     },
     {
       "name": "social-media",
@@ -16740,19 +16850,14 @@
       "count": 100
     },
     {
-      "name": "compilers",
-      "category": "technical_topic",
-      "count": 99
-    },
-    {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 91
+      "count": 92
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 55
+      "count": 56
     },
     {
       "name": "security",
@@ -16767,7 +16872,7 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 34
+      "count": 35
     },
     {
       "name": "biology",
@@ -16782,22 +16887,22 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 26
+      "count": 27
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 26
-    },
-    {
-      "name": "javascript",
-      "category": "programming_language",
-      "count": 23
+      "count": 27
     },
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 22
+      "count": 24
+    },
+    {
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 24
     },
     {
       "name": "scheme",
@@ -16850,17 +16955,17 @@
       "count": 10
     },
     {
+      "name": "fiction-book",
+      "category": "culture",
+      "count": 9
+    },
+    {
       "name": "movie",
       "category": "culture",
       "count": 9
     },
     {
       "name": "podcast",
-      "category": "culture",
-      "count": 8
-    },
-    {
-      "name": "fiction-book",
       "category": "culture",
       "count": 8
     },
@@ -16872,7 +16977,7 @@
     {
       "name": "sql",
       "category": "programming_language",
-      "count": 6
+      "count": 7
     },
     {
       "name": "elixir",
@@ -16883,6 +16988,11 @@
       "name": "cpp",
       "category": "programming_language",
       "count": 4
+    },
+    {
+      "name": "mathematics",
+      "category": "science",
+      "count": 3
     },
     {
       "name": "ruby",
@@ -16897,11 +17007,6 @@
     {
       "name": "gardening",
       "category": "culture",
-      "count": 2
-    },
-    {
-      "name": "mathematics",
-      "category": "science",
       "count": 2
     },
     {
@@ -17849,6 +17954,10 @@
       "count": 1
     },
     {
+      "domain": "e360.yale.edu",
+      "count": 1
+    },
+    {
       "domain": "eavan.blog",
       "count": 1
     },
@@ -17918,6 +18027,10 @@
     },
     {
       "domain": "ezhik.jp",
+      "count": 1
+    },
+    {
+      "domain": "fagnerbrack.com",
       "count": 1
     },
     {
@@ -18085,6 +18198,10 @@
       "count": 1
     },
     {
+      "domain": "ianthehenry.com",
+      "count": 1
+    },
+    {
       "domain": "iiif.lib.harvard.edu",
       "count": 1
     },
@@ -18130,6 +18247,10 @@
     },
     {
       "domain": "jamanetwork.com",
+      "count": 1
+    },
+    {
+      "domain": "janet-lang.org",
       "count": 1
     },
     {
@@ -18314,6 +18435,10 @@
     },
     {
       "domain": "matt.might.net",
+      "count": 1
+    },
+    {
+      "domain": "maxleiter.com",
       "count": 1
     },
     {
@@ -19041,6 +19166,10 @@
       "count": 1
     },
     {
+      "domain": "worrydream.com",
+      "count": 1
+    },
+    {
       "domain": "writewithharper.com",
       "count": 1
     },
@@ -19054,6 +19183,10 @@
     },
     {
       "domain": "www.aarp.org",
+      "count": 1
+    },
+    {
+      "domain": "www.ableton.com",
       "count": 1
     },
     {
