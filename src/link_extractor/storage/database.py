@@ -355,12 +355,31 @@ class Database:
             return [self._row_to_link(row) for row in rows]
 
     def get_links_needing_markdown(self, limit: int | None = None) -> list[LinkRecord]:
-        """Get processed links that have no cached markdown file yet."""
+        """Get processed links whose cached markdown file is missing or stale.
+
+        Two cases are returned:
+        1. No file yet (``markdown_path IS NULL``) - never written.
+        2. Filed under ``uncategorized/`` but the link now has tags - the file
+           was written before tagging completed (e.g. a partial/failed run where
+           the LLM step didn't run), so it is stuck in the wrong directory with
+           empty front matter. ``write_markdown_for_link`` moves it to the right
+           category via its move-by-rewrite path.
+
+        Note: this does not detect staleness of a file already filed under a real
+        category (e.g. a summary added after the file was written, or a top-tag
+        category change from a retag). Those keep the file's directory, so they
+        are cosmetic rather than mis-filings; a full ``export-markdown`` (without
+        ``--only-missing``) rewrites everything.
+        """
         with self._connection() as conn:
             query = """
                 SELECT * FROM links
                 WHERE fetch_status != ?
-                  AND markdown_path IS NULL
+                  AND (
+                        markdown_path IS NULL
+                        OR (markdown_path LIKE 'docs/uncategorized/%'
+                            AND id IN (SELECT DISTINCT link_id FROM link_tags))
+                      )
                 ORDER BY source_date DESC
             """
             if limit:

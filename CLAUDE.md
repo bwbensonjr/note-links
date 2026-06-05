@@ -163,7 +163,15 @@ Each processed link is cached as a Markdown file under a category directory in
 - **Tracking & stale files**: the repo-relative path is stored in the
   `markdown_path` column. On re-processing, if the computed path changes
   (category or slug changed), the old file is deleted before the new one is
-  written (move-by-rewrite).
+  written (move-by-rewrite). `get_links_needing_markdown` selects links that
+  are missing a file (`markdown_path IS NULL`) *or* are stale in the one way
+  that matters for mis-filing: filed under `uncategorized/` yet now tagged.
+  This is the recovery path for a partial run where fetch succeeded but the LLM
+  summarize/tag step did not (e.g. unauthenticated Bedrock) - the file gets
+  written uncategorized, and the next run (after the LLM step succeeds) moves it
+  to the correct category instead of leaving it frozen. Staleness that does not
+  change the directory (a summary added later, a top-tag category change from a
+  retag) is not auto-detected; use a full `export-markdown` to rewrite those.
 - **Migration**: `markdown_content` and `markdown_path` are added to existing
   databases via PRAGMA-guarded `ALTER TABLE ADD COLUMN` in
   `Database._migrate_add_columns()` (there is no migration framework). The new
@@ -246,7 +254,7 @@ Triggers keep FTS index synchronized with main table.
 6. **Summarize**: Generate summaries via Bedrock Claude (only unsummarized links)
    - Falls back to metadata summary if page content is empty
 7. **Tag**: Apply LLM-based auto-tagging (only untagged links)
-8. **Markdown**: Write cached Markdown files for links without one (only links where `markdown_path IS NULL`)
+8. **Markdown**: Write cached Markdown files for links that are missing one (`markdown_path IS NULL`) or stale (filed under `uncategorized/` but since tagged - e.g. written by an earlier partial/failed run before the LLM step succeeded; rewritten into the correct category)
 
 Each step is independently skippable via CLI flags. The pipeline is fully incremental - running `extract` multiple times will only process new/pending items.
 

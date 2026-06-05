@@ -1,6 +1,69 @@
 {
-  "exported_at": "2026-06-04T06:45:57.667114",
+  "exported_at": "2026-06-05T07:23:10.581882",
   "links": [
+    {
+      "id": 1143,
+      "url": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/",
+      "title": null,
+      "description": "Linear cosine palettes",
+      "summary": "The post explores linear cosine palettes, a simple mathematical method for generating continuous color palettes using the formula f(t) = a + b cos(2π(ct + d)), where a, b, c, and d are base colors. The author provides an R implementation and demonstrates how these palettes work effectively in generative art systems like subdivision and Lissajous curve visualizations, finding that the approach produces visually appealing results with minimal optimization effort.",
+      "domain": "blog.djnavarro.net",
+      "source_date": "2026-06-05",
+      "page_title": "Linear cosine palettes – Notes from a data witch",
+      "tags": [
+        "mathematics",
+        "tutorial",
+        "ai"
+      ],
+      "markdown_path": "science/linear-cosine-palettes-notes-from-a-data-witch-1143.md"
+    },
+    {
+      "id": 1142,
+      "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+      "title": null,
+      "description": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
+      "summary": "Recent research by physicists including Charles Cao has discovered that a quantum property called \"magic\" may explain how matter curves space-time, solving a long-standing puzzle in quantum gravity theory. While previous holographic models showed that quantum entanglement builds the structure of space-time itself, they couldn't explain how matter actually bends space—until researchers found that \"magic,\" a measure of quantumness, acts as the missing ingredient that gives space-time its flexibility and allows it to respond to matter. This breakthrough bridges the gap between Einstein's description of gravity and quantum mechanics, bringing physicists closer to a unified theory of quantum gravity.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-06-05",
+      "page_title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity. | Quanta Magazine",
+      "tags": [
+        "physics",
+        "academic-paper"
+      ],
+      "markdown_path": "science/entanglement-builds-space-time-now-magic-gives-it-gravity-1142.md"
+    },
+    {
+      "id": 1141,
+      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today/",
+      "title": null,
+      "description": "C++: The Documentary",
+      "summary": "A C++ documentary premiered today on YouTube, featuring Bjarne Stroustrup and other key figures in the language's 40-year history, from its origins at Bell Labs to its current status as the fastest-growing of the top four programming languages. The film chronicles C++'s evolution through major milestones including the introduction of the Standard Template Library, the first C++98 standard, adoption in gaming and financial trading, and the modern C++ era beginning with C++11. The documentary showcases the language's journey from humble beginnings to global adoption, highlighting its critical role in performance-critical applications across industries.",
+      "domain": "herbsutter.com",
+      "source_date": "2026-06-05",
+      "page_title": "C++: The Documentary released today – Sutter’s Mill",
+      "tags": [
+        "cpp",
+        "video",
+        "academic-paper"
+      ],
+      "markdown_path": "programming-language/c-the-documentary-released-today-sutter-s-mill-1141.md"
+    },
+    {
+      "id": 1144,
+      "url": "https://arxiv.org/abs/2606.04032",
+      "title": null,
+      "description": "Do Transformers Need Three Projections? Systematic Study of QKV Variants",
+      "summary": "This paper systematically investigates whether transformers require three separate projections (query, key, value) in their attention mechanism, testing variants that share projections across different components. The researchers find that sharing key-value projections achieves comparable performance to standard transformers while reducing KV cache by 50% with minimal perplexity degradation, and when combined with other optimization techniques like head sharing, enables up to 96.9% cache reduction for on-device inference. The findings demonstrate that projection sharing is an underexplored and practical approach to reducing memory requirements in transformer models without significant quality loss.",
+      "domain": "arxiv.org",
+      "source_date": "2026-06-04",
+      "page_title": "[2606.04032] Do Transformers Need Three Projections? Systematic Study of QKV Variants",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/2606-04032-do-transformers-need-three-projections-1144.md"
+    },
     {
       "id": 1138,
       "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
@@ -17922,12 +17985,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 348
+      "count": 349
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 261
+      "count": 263
     },
     {
       "name": "github-repo",
@@ -17937,17 +18000,17 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 212
+      "count": 215
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 199
+      "count": 200
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 196
+      "count": 197
     },
     {
       "name": "cli-tool",
@@ -18012,7 +18075,7 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 35
+      "count": 36
     },
     {
       "name": "biology",
@@ -18120,19 +18183,19 @@
       "count": 7
     },
     {
+      "name": "cpp",
+      "category": "programming_language",
+      "count": 5
+    },
+    {
       "name": "elixir",
       "category": "programming_language",
       "count": 5
     },
     {
-      "name": "cpp",
-      "category": "programming_language",
-      "count": 4
-    },
-    {
       "name": "mathematics",
       "category": "science",
-      "count": 3
+      "count": 4
     },
     {
       "name": "ruby",
@@ -18187,7 +18250,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 13
+      "count": 14
     },
     {
       "domain": "open.spotify.com",
@@ -18203,7 +18266,7 @@
     },
     {
       "domain": "www.quantamagazine.org",
-      "count": 7
+      "count": 8
     },
     {
       "domain": "eli.thegreenplace.net",
@@ -18695,6 +18758,10 @@
     },
     {
       "domain": "blog.demofox.org",
+      "count": 1
+    },
+    {
+      "domain": "blog.djnavarro.net",
       "count": 1
     },
     {
@@ -19307,6 +19374,10 @@
     },
     {
       "domain": "herbie.uwplse.org",
+      "count": 1
+    },
+    {
+      "domain": "herbsutter.com",
       "count": 1
     },
     {
