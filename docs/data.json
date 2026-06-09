@@ -1,6 +1,211 @@
 {
-  "exported_at": "2026-06-05T07:23:10.581882",
+  "exported_at": "2026-06-09T06:41:05.098250",
   "links": [
+    {
+      "id": 1146,
+      "url": "https://thi.ng/",
+      "title": null,
+      "description": "th.ing - Open source building blocks for computational design & art. Est.2006",
+      "summary": "thi.ng is a vast, long-term open-source project established in 2006 that provides approximately 350 modular code libraries and building blocks for computational design and art across multiple programming languages including TypeScript, Clojure, C, and others. Created and maintained by Karsten Schmidt, the project follows a bottom-up philosophy where small, specialized components combine to serve diverse applications, with over 200 examples and educational resources included. The collection emphasizes functional programming, data transformation, and composition, spanning domains such as generative design, 3D graphics, data visualization, and domain-specific languages.",
+      "domain": "thi.ng",
+      "source_date": "2026-06-09",
+      "page_title": "thi.ng - Open source building blocks for computational design & art. Est. 2006 (TypeScript, Zig, GLSL, Clojure, C, SideFX Houdini)",
+      "tags": [
+        "typescript",
+        "clojure",
+        "github-repo",
+        "c",
+        "zig"
+      ],
+      "markdown_path": "programming-language/thi-ng-open-source-building-blocks-for-computational-design-1146.md"
+    },
+    {
+      "id": 1145,
+      "url": "https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age",
+      "title": null,
+      "description": "Forever Young - In a career-defining paper, biologist Scott Poethig uncovered how one molecule can lock plants in a youthful state",
+      "summary": "Forever Young - In a career-defining paper, biologist Scott Poethig uncovered how one molecule can lock plants in a youthful state",
+      "domain": "omnia.sas.upenn.edu",
+      "source_date": "2026-06-09",
+      "page_title": null,
+      "tags": [
+        "biology",
+        "academic-paper",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/forever-young-in-a-career-defining-paper-biologist-scott-1145.md"
+    },
+    {
+      "id": 1150,
+      "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+      "title": null,
+      "description": "People-computer symbiosis",
+      "summary": "J. C. R. Licklider's seminal 1960 paper introduces the concept of man-computer symbiosis, envisioning humans and computers working together in intimate partnership where humans set goals and make decisions while computers handle routine computational work to support human thinking and problem-solving. The paper argues that this collaborative relationship would enable intellectual capabilities far beyond what either humans or machines could achieve alone, particularly for tasks requiring formulative thinking and real-time decision-making that current computers cannot handle through predetermined programs. Licklider identifies necessary technological developments in time-sharing, memory systems, programming languages, and input/output equipment to realize this symbiotic partnership.",
+      "domain": "groups.csail.mit.edu",
+      "source_date": "2026-06-08",
+      "page_title": "Man-Computer Symbiosis",
+      "tags": [
+        "academic-paper",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/man-computer-symbiosis-1150.md"
+    },
+    {
+      "id": 1149,
+      "url": "https://www.absurdlyoptimized.com/recipes/pancakes/",
+      "title": null,
+      "description": "The absurdly optimized pancake",
+      "summary": "This article provides a comprehensive scientific analysis of pancake chemistry, exploring how leavening agents, acid-base stoichiometry, and the Maillard reaction create optimal pancakes across four quality dimensions: interior texture, tang, rise and structure, and exterior crisp. The author has developed an interactive calculator that allows cooks to adjust ingredients based on what they have available while maintaining proper chemical balance, rather than being locked into fixed recipes. The piece combines historical context on pancake evolution, detailed chemistry explanations, and practical guidance to help anyone create perfectly optimized pancakes tailored to their specific ingredients and preferences.",
+      "domain": "www.absurdlyoptimized.com",
+      "source_date": "2026-06-08",
+      "page_title": "The Absurdly Optimized Pancake: Leavening Chemistry, Acid-Base Stoichiometry, and an Interactive Calculator | Absurdly Optimized",
+      "tags": [
+        "recipe",
+        "chemistry",
+        "tutorial"
+      ],
+      "markdown_path": "culture/the-absurdly-optimized-pancake-leavening-chemistry-acid-1149.md"
+    },
+    {
+      "id": 1148,
+      "url": "https://github.com/markusheimerl/gpt",
+      "title": null,
+      "description": "A tiny hackable GPT implementation",
+      "summary": "This project is a lightweight, hackable implementation of a GPT-style transformer model that operates on byte-level tokens and can process any byte stream including text, images, audio, or binary data. The architecture uses multi-layer transformers with causal self-attention and feed-forward networks trained with AdamW optimization to predict the next byte in a sequence. The repository includes installation instructions for Ubuntu and sample outputs demonstrating the model's ability to generate coherent text continuations from prompts.",
+      "domain": "github.com",
+      "source_date": "2026-06-08",
+      "page_title": "GitHub - markusheimerl/gpt: A generative pretrained transformer implementation · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "ai",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-markusheimerl-gpt-a-generative-pretrained-1148.md"
+    },
+    {
+      "id": 1147,
+      "url": "https://x.com/rasbt/status/2063649136323252397",
+      "title": null,
+      "description": "AGENTS.md files can make task execution less efficient",
+      "summary": "AGENTS.md files can make task execution less efficient",
+      "domain": "x.com",
+      "source_date": "2026-06-08",
+      "page_title": null,
+      "tags": [
+        "social-media",
+        "devops"
+      ],
+      "markdown_path": "culture/agents-md-files-can-make-task-execution-less-efficient-1147.md"
+    },
+    {
+      "id": 1153,
+      "url": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
+      "title": null,
+      "description": "The Smallest Brain You Can Build",
+      "summary": "A perceptron is the fundamental building block of neural networks—a simple machine that takes one input and produces a yes-or-no output by multiplying the input by a weight, adding a bias, and checking if the result exceeds zero. The key components are the weight (which controls steepness), the bias (which moves the decision boundary to the right location), and a learning algorithm that adjusts these parameters based on mistakes. The machine learns by repeatedly passing through data and nudging weights and biases in the correct direction, with factors like learning rate and data normalization affecting how smoothly and quickly it converges to the right answer.",
+      "domain": "ranpara.net",
+      "source_date": "2026-06-07",
+      "page_title": "The Smallest Brain You Can Build | Devarsh Ranpara",
+      "tags": [
+        "ai",
+        "tutorial",
+        "mathematics"
+      ],
+      "markdown_path": "technical-topic/the-smallest-brain-you-can-build-devarsh-ranpara-1153.md"
+    },
+    {
+      "id": 1152,
+      "url": "https://kristoff.it/blog/north-star/",
+      "title": null,
+      "description": "My Software North Star",
+      "summary": "Loris Cro outlines his prioritized philosophy for software development, where the primary goal is creating useful software that users can love, followed by ensuring correctness and maintainability. He emphasizes that technical choices like memory safety or elegant abstractions are only valuable insofar as they serve the end user, and that maximizing user utility—not developer experience or technical perfection—is his guiding principle for all software decisions.",
+      "domain": "kristoff.it",
+      "source_date": "2026-06-07",
+      "page_title": "My Software North Star | Loris Cro's Blog",
+      "tags": [
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/my-software-north-star-loris-cro-s-blog-1152.md"
+    },
+    {
+      "id": 1151,
+      "url": "https://www.ioccc.org/2025/",
+      "title": null,
+      "description": "The 29th International Obfuscated C Contest Winners",
+      "summary": "The 29th International Obfuscated C Contest (IOCCC) has announced its winning entries, showcasing creative and deliberately complex C programming code submissions from around the world. The contest website provides resources including winning entries, author information, guidelines for compiling and running entries, and FAQs for those interested in participating in future contests or learning more about this long-running programming competition.",
+      "domain": "www.ioccc.org",
+      "source_date": "2026-06-07",
+      "page_title": "2025 - The 29th IOCCC",
+      "tags": [
+        "c",
+        "github-repo"
+      ],
+      "markdown_path": "programming-language/2025-the-29th-ioccc-1151.md"
+    },
+    {
+      "id": 1157,
+      "url": "https://pdimagearchive.org/",
+      "title": null,
+      "description": "Public domain image archive",
+      "summary": "The Public Domain Image Archive is a freely accessible collection of over 11,000 out-of-copyright images that users can browse, download, and reuse without restrictions. The archive is regularly updated with new images added weekly and offers multiple browsing options including filters by artist, century, style, theme, and tags. This resource provides a valuable repository for anyone seeking high-quality, legally usable images for personal or professional projects.",
+      "domain": "pdimagearchive.org",
+      "source_date": "2026-06-06",
+      "page_title": "Public Domain Image Archive",
+      "tags": [
+        "video"
+      ],
+      "markdown_path": "culture/public-domain-image-archive-1157.md"
+    },
+    {
+      "id": 1156,
+      "url": "https://ataraxy-labs.github.io/sem/",
+      "title": null,
+      "description": "sem-cli - Semantic understanding on top of git",
+      "summary": "sem-cli is a Git tool that provides semantic understanding of code changes by analyzing functions and entities rather than individual lines. It offers six commands—diff, blame, impact, log, entities, and context—that work across 26 programming languages with zero configuration needed, helping developers and AI agents better understand what actually changed in their codebase. The tool can be instantly installed and automatically replaces standard git diff output with entity-level analysis that includes rename detection and dependency tracking.",
+      "domain": "ataraxy-labs.github.io",
+      "source_date": "2026-06-06",
+      "page_title": "sem",
+      "tags": [
+        "cli-tool",
+        "github-repo",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/sem-1156.md"
+    },
+    {
+      "id": 1155,
+      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+      "title": null,
+      "description": "My agent skill for test-driven development",
+      "summary": "AI agents traditionally struggle with writing tests, but Jason Swett demonstrates that with proper guidance based on Kent Beck's Canon TDD principles, they can produce clear and meaningful tests. He outlines a \"specify-encode-fulfill\" approach as an alternative to red-green-refactor, along with additional design review skills that help agents catch and correct their own testing mistakes. While not perfect, this structured methodology has proven effective enough to become his default approach for making code changes.",
+      "domain": "www.saturnci.com",
+      "source_date": "2026-06-06",
+      "page_title": "My Agent Skill for Test-Driven Development - SaturnCI - Continuous Integration for Ruby on Rails",
+      "tags": [
+        "ai",
+        "ruby",
+        "tutorial",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/my-agent-skill-for-test-driven-development-saturnci-1155.md"
+    },
+    {
+      "id": 1154,
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/",
+      "title": null,
+      "description": "How LLMs work",
+      "summary": "This article explains how Large Language Models (LLMs) work by breaking down the key components of transformer-based architectures, starting with tokenization and progressing through embeddings, positional encoding, and attention mechanisms. The author emphasizes that modern LLMs are built by stacking transformer blocks and aims to provide an accessible introduction to these core mechanisms without requiring deep mathematical knowledge. By understanding these foundational concepts—how text becomes integers, how those integers gain meaning through embeddings, and how the model understands token order and relationships—readers can better grasp how modern LLM architectures function and what distinguishes different model families.",
+      "domain": "www.0xkato.xyz",
+      "source_date": "2026-06-06",
+      "page_title": "How LLMs Actually Work | 0xkato",
+      "tags": [
+        "llm",
+        "ai",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/how-llms-actually-work-0xkato-1154.md"
+    },
     {
       "id": 1143,
       "url": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/",
@@ -17985,37 +18190,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 349
+      "count": 354
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 263
+      "count": 268
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 223
+      "count": 227
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 215
+      "count": 217
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 200
+      "count": 201
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 197
+      "count": 199
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 189
+      "count": 190
     },
     {
       "name": "web-dev",
@@ -18030,12 +18235,12 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 113
+      "count": 116
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 110
+      "count": 111
     },
     {
       "name": "news",
@@ -18043,19 +18248,19 @@
       "count": 103
     },
     {
+      "name": "social-media",
+      "category": "culture",
+      "count": 101
+    },
+    {
       "name": "compilers",
       "category": "technical_topic",
       "count": 100
     },
     {
-      "name": "social-media",
-      "category": "culture",
-      "count": 100
-    },
-    {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 92
+      "count": 93
     },
     {
       "name": "database",
@@ -18080,15 +18285,15 @@
     {
       "name": "biology",
       "category": "science",
-      "count": 33
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 27
+      "count": 34
     },
     {
       "name": "c",
+      "category": "programming_language",
+      "count": 29
+    },
+    {
+      "name": "rust",
       "category": "programming_language",
       "count": 27
     },
@@ -18135,22 +18340,22 @@
     {
       "name": "typescript",
       "category": "programming_language",
-      "count": 12
+      "count": 13
     },
     {
       "name": "recipe",
       "category": "culture",
+      "count": 13
+    },
+    {
+      "name": "clojure",
+      "category": "programming_language",
       "count": 12
     },
     {
       "name": "astronomy",
       "category": "science",
       "count": 12
-    },
-    {
-      "name": "clojure",
-      "category": "programming_language",
-      "count": 11
     },
     {
       "name": "haskell",
@@ -18195,15 +18400,20 @@
     {
       "name": "mathematics",
       "category": "science",
-      "count": 4
+      "count": 5
     },
     {
       "name": "ruby",
       "category": "programming_language",
-      "count": 2
+      "count": 3
     },
     {
       "name": "swift",
+      "category": "programming_language",
+      "count": 2
+    },
+    {
+      "name": "zig",
       "category": "programming_language",
       "count": 2
     },
@@ -18218,15 +18428,15 @@
       "count": 1
     },
     {
-      "name": "zig",
-      "category": "programming_language",
+      "name": "chemistry",
+      "category": "science",
       "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 128
+      "count": 129
     },
     {
       "domain": "www.threads.net",
@@ -18357,6 +18567,10 @@
       "count": 3
     },
     {
+      "domain": "x.com",
+      "count": 3
+    },
+    {
       "domain": "youtu.be",
       "count": 3
     },
@@ -18414,6 +18628,10 @@
     },
     {
       "domain": "karpathy.github.io",
+      "count": 2
+    },
+    {
+      "domain": "kristoff.it",
       "count": 2
     },
     {
@@ -18510,10 +18728,6 @@
     },
     {
       "domain": "www.wired.com",
-      "count": 2
-    },
-    {
-      "domain": "x.com",
       "count": 2
     },
     {
@@ -18650,6 +18864,10 @@
     },
     {
       "domain": "astral.sh",
+      "count": 1
+    },
+    {
+      "domain": "ataraxy-labs.github.io",
       "count": 1
     },
     {
@@ -19357,6 +19575,10 @@
       "count": 1
     },
     {
+      "domain": "groups.csail.mit.edu",
+      "count": 1
+    },
+    {
       "domain": "gzw1987-bit.github.io",
       "count": 1
     },
@@ -19526,10 +19748,6 @@
     },
     {
       "domain": "kmicinski.com",
-      "count": 1
-    },
-    {
-      "domain": "kristoff.it",
       "count": 1
     },
     {
@@ -19813,6 +20031,10 @@
       "count": 1
     },
     {
+      "domain": "omnia.sas.upenn.edu",
+      "count": 1
+    },
+    {
       "domain": "onthegomap.com",
       "count": 1
     },
@@ -19890,6 +20112,10 @@
     },
     {
       "domain": "paulgraham.com",
+      "count": 1
+    },
+    {
+      "domain": "pdimagearchive.org",
       "count": 1
     },
     {
@@ -20018,6 +20244,10 @@
     },
     {
       "domain": "rakhim.exotext.com",
+      "count": 1
+    },
+    {
+      "domain": "ranpara.net",
       "count": 1
     },
     {
@@ -20253,6 +20483,10 @@
       "count": 1
     },
     {
+      "domain": "thi.ng",
+      "count": 1
+    },
+    {
       "domain": "tiled.art",
       "count": 1
     },
@@ -20393,6 +20627,10 @@
       "count": 1
     },
     {
+      "domain": "www.0xkato.xyz",
+      "count": 1
+    },
+    {
       "domain": "www.aarp.org",
       "count": 1
     },
@@ -20402,6 +20640,10 @@
     },
     {
       "domain": "www.abs-lang.org",
+      "count": 1
+    },
+    {
+      "domain": "www.absurdlyoptimized.com",
       "count": 1
     },
     {
@@ -20617,6 +20859,10 @@
       "count": 1
     },
     {
+      "domain": "www.ioccc.org",
+      "count": 1
+    },
+    {
       "domain": "www.jacquescorbytuech.com",
       "count": 1
     },
@@ -20798,6 +21044,10 @@
     },
     {
       "domain": "www.rtl-sdr.com",
+      "count": 1
+    },
+    {
+      "domain": "www.saturnci.com",
       "count": 1
     },
     {
