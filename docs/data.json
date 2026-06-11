@@ -1,6 +1,103 @@
 {
-  "exported_at": "2026-06-09T06:41:05.098250",
+  "exported_at": "2026-06-11T19:17:02.333076",
   "links": [
+    {
+      "id": 1159,
+      "url": "https://tonedear.com/",
+      "title": null,
+      "description": "Ear training practice exercises",
+      "summary": "Toned Ear is a comprehensive web-based ear training platform offering daily practice exercises designed to develop musicians' listening skills and musical intuition. The site features various exercises including interval identification, chord recognition, scale detection, chord progressions, perfect pitch training, and melodic dictation, with both standard and \"functional\" versions that emphasize contextual hearing. It also provides a dedicated teacher version for classroom use with assignment tracking and student performance monitoring features.",
+      "domain": "tonedear.com",
+      "source_date": "2026-06-11",
+      "page_title": "Ear Training",
+      "tags": [
+        "music",
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "culture/ear-training-1159.md"
+    },
+    {
+      "id": 1158,
+      "url": "https://mceglowski.substack.com/p/laffaire-siloxane",
+      "title": null,
+      "description": "L'Affaire Siloxane - How antiperspirant fumes nearly got NASA to evacuate the space station",
+      "summary": "NASA discovered that antiperspirant fumes were contaminating the International Space Station's water recycling system with a compound called dimethylsilanediol (DMSD), a siloxane that nearly forced the agency to evacuate the station in 2010. The mysterious contaminant, which evaporates from personal hygiene products like antiperspirants and hair conditioners, proved difficult to identify and analyze because it contaminated the laboratory equipment used to measure it. While the siloxane problem never reached critical evacuation levels and became a manageable recurring issue, it demonstrates an unexpected challenge in maintaining life support systems in space—the humble chemistry of everyday consumer products can wreak havoc on expensive orbital infrastructure.",
+      "domain": "mceglowski.substack.com",
+      "source_date": "2026-06-11",
+      "page_title": "L'Affaire Siloxane - by Maciej Cegłowski",
+      "tags": [
+        "chemistry",
+        "video"
+      ],
+      "markdown_path": "science/l-affaire-siloxane-by-maciej-ceg-owski-1158.md"
+    },
+    {
+      "id": 1161,
+      "url": "https://paperswithcode.co/",
+      "title": null,
+      "description": "Papers with code",
+      "summary": "Papers with Code - Papers with code",
+      "domain": "paperswithcode.co",
+      "source_date": "2026-06-10",
+      "page_title": "Papers with Code",
+      "tags": [
+        "academic-paper",
+        "github-repo",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/papers-with-code-1161.md"
+    },
+    {
+      "id": 1160,
+      "url": "https://github.com/graemeg/blaise",
+      "title": null,
+      "description": "Blaise - A modern, self-hosting Object Pascal compiler built for the 2020s",
+      "summary": "Blaise is a next-generation Object Pascal compiler designed for modern development, eliminating decades of legacy complexity by providing a single language mode, unified UTF-8 string type, automatic reference counting, and zero-GUID interfaces. The project is fully self-hosting and feature-complete through Phase 5, with 2,768 tests and two code generation backends (QBE and native x86-64), and is actively working toward Windows/macOS support and IDE integration. It represents a deliberate departure from both Embarcadero Delphi's proprietary approach and Free Pascal's accumulated complexity, prioritizing developer productivity and memory safety.",
+      "domain": "github.com",
+      "source_date": "2026-06-10",
+      "page_title": "GitHub - graemeg/blaise: A modern, self-hosting Object Pascal compiler built for the 2020s. Zero legacy, full ARC, and unified UTF-8. · GitHub",
+      "tags": [
+        "github-repo",
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/github-graemeg-blaise-a-modern-self-hosting-object-pascal-1160.md"
+    },
+    {
+      "id": 1163,
+      "url": "https://github.com/apple/container",
+      "title": null,
+      "description": "container - Lightweight containers for macOS 26",
+      "summary": "Apple's container is a Swift-based tool designed for Mac users with Apple silicon that enables creating and running Linux containers as lightweight virtual machines, with full compatibility with OCI-standard container images from any registry. The tool requires macOS 26 and provides features for building, running, and publishing containerized applications, with installation and management handled through signed installer packages and command-line scripts. The project is actively under development with potential breaking changes expected until reaching version 1.0.0.",
+      "domain": "github.com",
+      "source_date": "2026-06-09",
+      "page_title": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub",
+      "tags": [
+        "github-repo",
+        "swift",
+        "devops",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-apple-container-a-tool-for-creating-and-running-1163.md"
+    },
+    {
+      "id": 1162,
+      "url": "https://thi.ng",
+      "title": null,
+      "description": "th.ing - Open source building blocks for computational design & art. Est.2006",
+      "summary": "thi.ng is a mature, long-term open-source project established in 2006 that provides approximately 350 complementary code libraries for computational design and generative art across multiple programming languages including TypeScript, Clojure, C, and others. Created and maintained by Karsten Schmidt, the project follows a bottom-up design philosophy emphasizing composition, functional programming, and data transformation, with over 200 bundled examples and a focus on making pioneering computational design tools accessible for both professional work and educational purposes.",
+      "domain": "thi.ng",
+      "source_date": "2026-06-09",
+      "page_title": "thi.ng - Open source building blocks for computational design & art. Est. 2006 (TypeScript, Zig, GLSL, Clojure, C, SideFX Houdini)",
+      "tags": [
+        "typescript",
+        "github-repo",
+        "c",
+        "clojure",
+        "zig"
+      ],
+      "markdown_path": "programming-language/thi-ng-open-source-building-blocks-for-computational-design-1162.md"
+    },
     {
       "id": 1146,
       "url": "https://thi.ng/",
@@ -18190,27 +18287,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 354
+      "count": 355
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 268
+      "count": 269
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 227
+      "count": 231
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 217
+      "count": 218
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 201
+      "count": 202
     },
     {
       "name": "llm",
@@ -18220,22 +18317,22 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 190
+      "count": 191
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 187
+      "count": 188
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 123
+      "count": 124
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 116
+      "count": 117
     },
     {
       "name": "python",
@@ -18248,14 +18345,14 @@
       "count": 103
     },
     {
-      "name": "social-media",
-      "category": "culture",
+      "name": "compilers",
+      "category": "technical_topic",
       "count": 101
     },
     {
-      "name": "compilers",
-      "category": "technical_topic",
-      "count": 100
+      "name": "social-media",
+      "category": "culture",
+      "count": 101
     },
     {
       "name": "nonfiction-book",
@@ -18290,7 +18387,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 29
+      "count": 30
     },
     {
       "name": "rust",
@@ -18333,12 +18430,17 @@
       "count": 15
     },
     {
+      "name": "typescript",
+      "category": "programming_language",
+      "count": 14
+    },
+    {
       "name": "tv",
       "category": "culture",
       "count": 14
     },
     {
-      "name": "typescript",
+      "name": "clojure",
       "category": "programming_language",
       "count": 13
     },
@@ -18346,11 +18448,6 @@
       "name": "recipe",
       "category": "culture",
       "count": 13
-    },
-    {
-      "name": "clojure",
-      "category": "programming_language",
-      "count": 12
     },
     {
       "name": "astronomy",
@@ -18410,12 +18507,12 @@
     {
       "name": "swift",
       "category": "programming_language",
-      "count": 2
+      "count": 3
     },
     {
       "name": "zig",
       "category": "programming_language",
-      "count": 2
+      "count": 3
     },
     {
       "name": "gardening",
@@ -18423,20 +18520,20 @@
       "count": 2
     },
     {
-      "name": "nix",
-      "category": "programming_language",
-      "count": 1
-    },
-    {
       "name": "chemistry",
       "category": "science",
+      "count": 2
+    },
+    {
+      "name": "nix",
+      "category": "programming_language",
       "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 129
+      "count": 131
     },
     {
       "domain": "www.threads.net",
@@ -18672,6 +18769,10 @@
     },
     {
       "domain": "tailscale.com",
+      "count": 2
+    },
+    {
+      "domain": "thi.ng",
       "count": 2
     },
     {
@@ -19871,6 +19972,10 @@
       "count": 1
     },
     {
+      "domain": "mceglowski.substack.com",
+      "count": 1
+    },
+    {
       "domain": "mcp-b.ai",
       "count": 1
     },
@@ -20092,6 +20197,10 @@
     },
     {
       "domain": "pandoc-templates.org",
+      "count": 1
+    },
+    {
+      "domain": "paperswithcode.co",
       "count": 1
     },
     {
@@ -20483,10 +20592,6 @@
       "count": 1
     },
     {
-      "domain": "thi.ng",
-      "count": 1
-    },
-    {
       "domain": "tiled.art",
       "count": 1
     },
@@ -20504,6 +20609,10 @@
     },
     {
       "domain": "tombedor.dev",
+      "count": 1
+    },
+    {
+      "domain": "tonedear.com",
       "count": 1
     },
     {

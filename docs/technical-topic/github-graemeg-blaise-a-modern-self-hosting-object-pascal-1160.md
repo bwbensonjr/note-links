@@ -1,0 +1,256 @@
+---
+id: 1160
+url: https://github.com/graemeg/blaise
+title: 'GitHub - graemeg/blaise: A modern, self-hosting Object Pascal compiler built
+  for the 2020s. Zero legacy, full ARC, and unified UTF-8. · GitHub'
+domain: github.com
+source_date: '2026-06-10'
+tags:
+- github-repo
+- compilers
+summary: Blaise is a next-generation Object Pascal compiler designed for modern development,
+  eliminating decades of legacy complexity by providing a single language mode, unified
+  UTF-8 string type, automatic reference counting, and zero-GUID interfaces. The project
+  is fully self-hosting and feature-complete through Phase 5, with 2,768 tests and
+  two code generation backends (QBE and native x86-64), and is actively working toward
+  Windows/macOS support and IDE integration. It represents a deliberate departure
+  from both Embarcadero Delphi's proprietary approach and Free Pascal's accumulated
+  complexity, prioritizing developer productivity and memory safety.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# GitHub - graemeg/blaise: A modern, self-hosting Object Pascal compiler built for the 2020s. Zero legacy, full ARC, and unified UTF-8. · GitHub
+
+Blaise Pascal Compiler
+======================
+
+**The Pascal you love, reimagined for the modern era.**
+
+Blaise is a next-generation Object Pascal compiler built from the ground up to eliminate decades of legacy baggage. It prioritizes developer productivity, memory safety, and high-performance execution.
+
+✨ The Vision
+------------
+
+The Object Pascal ecosystem has two options: Embarcadero Delphi (proprietary,
+Windows-first) and Free Pascal (open source but carrying 30 years of accumulated
+complexity — five language modes, five string types, and thousands of include files).
+
+This compiler takes a different approach:
+
+* **One language mode.** No `{$mode}` switches; no legacy dialect support.
+* **One string type.** UTF-8 reference-counted string and 0-based indexing. `RawBytes` for binary data.
+* **One memory model.** Automatic reference counting applies uniformly to
+  strings, classes, and interfaces. No manual/auto split between `TObject`
+  and `TInterfacedObject`; `[Weak]` breaks cycles. `Free` is retained as a
+  synonym for immediate release.
+* **Clean interfaces.** No COM GUIDs; interface dispatch via compile-time vtable mapping.
+* **Reified generics.** Monomorphization at compile time — no type erasure.
+* **Modern build system.** PasBuild with `project.xml`; no makefiles.
+* **First-class debugger.** OPDF is the default debug format; DWARF is not required.
+
+See [docs/design.adoc](/graemeg/blaise/blob/master/docs/design.adoc) for the full architecture and
+implementation plan.
+
+The result — A modern, cross-platform Object Pascal compiler targeting native code
+via two backends: [QBE](https://c9x.me/compile/) (the default, production-proven
+backend) and a direct native x86-64 code generator (in active development,
+approaching feature parity). Single language mode, single string type,
+zero-GUID interfaces, reified generics, and first-class
+[OPDF](https://github.com/graemeg/opdebugger) debug format support.
+
+🚀 Project Status
+----------------
+
+* **Self-Hosting:** Yes. Blaise bootstraps and recompiles itself with byte-for-byte fixpoint. FPC is no longer required — the entire toolchain runs on Blaise alone.
+* **Testing:** 2768 tests and growing (Test-Driven Development from day one). The test suite itself compiles under Blaise.
+* **Backends:** Two code-generation backends — QBE (default, production) and a direct native x86-64 backend (in active development, approaching feature parity with QBE).
+
+| Phase | Goal | Status |
+| --- | --- | --- |
+| 1 | Bootstrap pipeline — Hello World on Linux x86\_64 via PasBuild | Complete ✅ |
+| 2 | Type system — classes, records, ARC, exceptions | Complete ✅ |
+| 3 | Generics + zero-GUID interfaces | Complete ✅ |
+| 4 | OPDF debug info emission | Complete ✅ |
+| 5 | Self-hosting | Complete ✅ |
+| 6 | Language improvements + expand RTL & StdLib + bug fixing | In-Progress |
+| 7 | Native backend feature parity + Windows + macOS ARM64 | In-Progress |
+| 8 | LSP + VS Code extension | Planned |
+| 9 | Migration analyser for FPC/Delphi codebases | Planned |
+
+What Is Dropped From Classic Pascal
+-----------------------------------
+
+| Feature | Reason for removal |
+| --- | --- |
+| `ShortString`, `AnsiString`, `WideString`, `UnicodeString` | Replaced by a single UTF-8 reference-counted `string` type |
+| `with` statement | Source of hard-to-diagnose symbol resolution bugs; breaks static analysis |
+| Old-style `object` types | Use `record` (stack/value) or `class` (heap/reference) instead |
+| COM-style interface GUIDs | Interface dispatch via compile-time vtable; GUIDs are unnecessary complexity |
+| Multiple language modes | One dialect, maintained well, beats five dialects maintained poorly |
+| `assign`, `reset`, `rewrite`, `blockread` | Replaced by a stream-based I/O RTL |
+| `TObject` vs `TInterfacedObject` split | One unified class model under automatic reference counting; `[Weak]` breaks cycles |
+
+📢 Community
+-----------
+
+The core architecture is still being finalised, so the project is not yet
+accepting code contributions. Feedback on language design, syntax choices, and
+the future direction of Blaise is very welcome — please use the
+[Discussions](https://github.com/graemeg/blaise/discussions) tab on GitHub.
+
+Repository Layout
+-----------------
+
+This project uses PasBuild’s multi-module layout. Each subdirectory with a
+`project.xml` is an independent module; the root `project.xml` is the aggregator.
+
+```
+project.xml                       Root aggregator (packaging=pom)
+│
+├── compiler/                     The compiler binary (packaging=application)
+│   ├── project.xml
+│   └── src/
+│       ├── main/pascal/          uLexer, uParser, uAST, blaise.codegen.qbe, blaise.codegen.native.*, ...
+│       └── test/pascal/          Test suite (blaise.testing, compiled by Blaise)
+│
+├── runtime/                      Always-linked runtime (packaging=library)
+│   ├── project.xml
+│   ├── Makefile
+│   └── src/
+│       ├── main/asm/              Platform assembly (setjmp, atomics, UTF-8)
+│       ├── main/pascal/          system.pas, blaise_str.pas, blaise_arc.pas, ...
+│       └── test/pascal/          Runtime tests (punit, compiled by Blaise)
+│
+├── stdlib/                       Standard library — opt-in via uses clause
+│   ├── project.xml
+│   └── src/
+│       └── main/pascal/          sysutils.pas, classes.pas, math.pas, ...
+│
+├── tools/
+│   └── migration-analyser/       FPC/Delphi migration report tool (packaging=application)
+│       ├── project.xml           depends on compiler module
+│       └── src/
+│           ├── main/pascal/
+│           └── test/pascal/
+│
+├── vendor/qbe/                   Vendored QBE backend source (pinned, built from source)
+└── docs/                         Design documents and specifications
+```
+
+PasBuild compiles each module to its own `target/` subdirectory. Build output is
+never committed to the repository.
+
+Building
+--------
+
+### Prerequisites
+
+* A previously released Blaise binary (see `releases/`)
+* [PasBuild](https://github.com/graemeg/pasbuild)
+* A C compiler (`gcc` or `clang`) for building the vendored QBE backend and linking
+* GNU `make` for the runtime build
+
+|  |  |
+| --- | --- |
+| Note | FPC is **not** required. Blaise is fully self-hosting — each release binary compiles the next version. The bootstrap chain starts from the binary in `releases/`. |
+
+### Bootstrap from a release
+
+The runtime build compiles its Pascal units (`blaise_str.pas`, `blaise_arc.pas`,
+`blaise_sys.pas`) using the Blaise binary at `compiler/target/blaise`. On a
+clean checkout that binary does not exist yet, so the release binary must be
+passed explicitly via the `BLAISE` make variable.
+
+```
+# 0. Build the vendored QBE backend (once-off — not needed again unless
+#    you update vendor/qbe/)
+cd vendor/qbe && make && cd ../..
+
+# 1. Build the runtime using the release binary (BLAISE= avoids chicken-and-egg)
+cd runtime && make BLAISE=../releases/v0.7.0/blaise && make install && cd ..
+
+# 2. Compile the compiler using the latest release binary
+releases/v0.7.0/blaise \
+  --source compiler/src/main/pascal/Blaise.pas \
+  --unit-path compiler/src/main/pascal \
+  --unit-path runtime/src/main/pascal \
+  --unit-path stdlib/src/main/pascal \
+  --emit-ir > /tmp/blaise.ssa
+
+# 3. Assemble and link
+vendor/qbe/qbe -o /tmp/blaise.s /tmp/blaise.ssa
+gcc -o compiler/target/blaise /tmp/blaise.s compiler/target/blaise_rtl.a
+```
+
+Once `compiler/target/blaise` exists, subsequent RTL rebuilds (`make && make install`)
+work without the override. The QBE build in step 0 is a one-off and does not
+need to be repeated when rebuilding the compiler.
+
+### Bootstrap a development checkout
+
+The procedure above works while the latest release binary is new enough to
+compile the current source. Between releases that ceases to hold: once a commit
+teaches the parser a new feature and a later commit uses it in the
+runtime/compiler, the release binary can no longer build `master` directly.
+
+`scripts/rolling-bootstrap.sh` rebuilds the chain commit-by-commit from the last
+release binary up to the checked-out revision, producing a working `-pre`
+bootstrap binary. See [scripts/BOOTSTRAP.adoc](/graemeg/blaise/blob/master/scripts/BOOTSTRAP.adoc) for the
+prerequisite (placing the release binary under `releases/`) and usage.
+
+### Build via PasBuild
+
+PasBuild can drive the full compile and test cycle using a Blaise binary:
+
+```
+pasbuild compile -m blaise-compiler --compiler compiler/target/blaise
+pasbuild test -m blaise-compiler --compiler compiler/target/blaise
+```
+
+### Run tests
+
+```
+pasbuild test -m blaise-compiler --compiler compiler/target/blaise
+```
+
+### Verify self-hosting fixpoint
+
+After any compiler change, verify that the compiler reproduces itself:
+
+```
+./scripts/fixpoint.sh
+```
+
+This generates stage-2 and stage-3 IR and confirms they are identical.
+
+### Running the compiler
+
+Once built, the compiler binary is at `compiler/target/blaise`.
+
+```
+# Compile a single-file program (QBE backend — default)
+compiler/target/blaise --source Hello.pas --emit-ir > Hello.ssa
+vendor/qbe/qbe -o Hello.s Hello.ssa
+gcc -o Hello Hello.s compiler/target/blaise_rtl.a
+
+# Compile via the native x86-64 backend (no QBE step)
+compiler/target/blaise --source Hello.pas --backend native --output Hello
+
+# Compile with unit search paths
+compiler/target/blaise --source MyApp.pas \
+  --unit-path src/units \
+  --emit-ir > MyApp.ssa
+
+# Emit QBE IR only (useful for debugging the compiler itself)
+compiler/target/blaise --source Hello.pas --emit-ir
+```
+
+Licence
+-------
+
+Apache License v2.0 with Runtime Library Exception. See [LICENSE](/graemeg/blaise/blob/master/LICENSE).
+
+---
+
+**Built with ❤️ for the Pascal community by Graeme.**
