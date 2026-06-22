@@ -1,6 +1,136 @@
 {
-  "exported_at": "2026-06-15T11:54:24.558630",
+  "exported_at": "2026-06-22T06:38:40.123865",
   "links": [
+    {
+      "id": 1178,
+      "url": "https://docs.deno.com/runtime/desktop/",
+      "title": null,
+      "description": "Deno for desktop apps",
+      "summary": "Deno Desktop is an upcoming feature (coming in Deno 2.9) that converts Deno projects into self-contained desktop applications with small binaries, full Node compatibility, and built-in auto-updates. It offers key advantages over competing solutions like Electron and Tauri, including framework auto-detection for popular web frameworks, in-process communication between backend and UI, and cross-compilation capabilities. The feature emphasizes simplicity—developers can take existing web projects and run them as desktop apps with minimal code changes, using either the OS's native webview for smaller binaries or an optional bundled Chromium backend for consistent rendering across platforms.",
+      "domain": "docs.deno.com",
+      "source_date": "2026-06-22",
+      "page_title": "Desktop apps | Deno Docs",
+      "tags": [
+        "web-dev",
+        "typescript",
+        "tutorial",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/desktop-apps-deno-docs-1178.md"
+    },
+    {
+      "id": 1179,
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "title": null,
+      "description": "Building Reliable Agentic AI Systems",
+      "summary": "Bayer AG and Thoughtworks developed PRINCE, an agentic AI system that transforms preclinical drug discovery by evolving from keyword-based search to an intelligent research assistant capable of answering complex questions and drafting regulatory documents. The platform combines Retrieval-Augmented Generation and multi-agent workflows to integrate decades of safety study reports, with a focus on reliability through context engineering (shaping information flow between agents) and harness engineering (building orchestration, error recovery, and observability). PRINCE demonstrates how production-ready AI systems can maintain governance and compliance while significantly improving research efficiency and data accessibility in the pharmaceutical industry.",
+      "domain": "martinfowler.com",
+      "source_date": "2026-06-21",
+      "page_title": "Building Reliable Agentic AI Systems",
+      "tags": [
+        "ai",
+        "llm",
+        "distributed-systems",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/building-reliable-agentic-ai-systems-1179.md"
+    },
+    {
+      "id": 1185,
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+      "title": null,
+      "description": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "summary": "Datasette Apps is a feature that allows users to host custom HTML applications directly within Datasette, extending its functionality beyond traditional data browsing and querying. This capability enables developers to build interactive web applications that leverage Datasette's data infrastructure while maintaining a unified hosting environment. The feature represents an expansion of Datasette's versatility as a platform for data exploration and application development.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-06-19",
+      "page_title": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "tags": [
+        "web-dev",
+        "database",
+        "python"
+      ],
+      "markdown_path": "technical-topic/datasette-apps-host-custom-html-applications-inside-1185.md"
+    },
+    {
+      "id": 1184,
+      "url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/",
+      "title": null,
+      "description": "Grammar of graphics for Typst",
+      "summary": "Gribouille 0.3.0 introduces finer control over plot guides, allowing users to hide axis ticks and legends independently without modifying themes, while also adding a theme parameter to the compose() function for styling multi-panel layouts. Key updates include new syntax like guides(x: none) for axis control, the defer() helper function replacing plot(..., defer: true), default stacking for geom-area(), and the ability for annotations to overflow panel boundaries with clip: false. The release prioritizes usability improvements and bug fixes, particularly in legend layout and styling.",
+      "domain": "mickael.canouil.fr",
+      "source_date": "2026-06-19",
+      "page_title": "Gribouille 0.3.0: Finer Guide Control and a Themed Compose – Mickaël CANOUIL",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/gribouille-0-3-0-finer-guide-control-and-a-themed-compose-1184.md"
+    },
+    {
+      "id": 1183,
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+      "title": null,
+      "description": "Zen and the art of ML research",
+      "summary": "Successful AI research requires balancing reading and hands-on building rather than excelling at either alone, combined with disciplined persistence since insights arrive unpredictably. The author emphasizes focusing on fundamental concepts and deep understanding rather than chasing trendy topics or benchmarks, while maintaining an open mind and learning from both successful and failed experiments with equanimity. Beyond technical work, inspiration often strikes during non-research activities, and great research typically demands hundreds of hours of unglamorous foundational work before achieving breakthroughs.",
+      "domain": "blog.jxmo.io",
+      "source_date": "2026-06-19",
+      "page_title": "Zen and the Art of Machine Learning Research",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/zen-and-the-art-of-machine-learning-research-1183.md"
+    },
+    {
+      "id": 1182,
+      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "title": null,
+      "description": "Java value classes in JDK 28",
+      "summary": "Project Valhalla, a decade-long initiative to create value classes in Java, is finally being integrated into JDK 28 as a preview feature, marking a major milestone despite being only the first phase of the project. The initiative aims to solve a fundamental Java performance problem by allowing developers to write normal, readable classes that the JVM treats as efficiently as primitives, eliminating costly heap allocations and improving cache locality for large-scale data structures. The project evolved through multiple prototypes over the years, ultimately shifting from a \"Q World\" approach that treated value types as fundamentally separate from objects to an \"L World\" design that integrated them more seamlessly into the existing type system.",
+      "domain": "www.jvm-weekly.com",
+      "source_date": "2026-06-19",
+      "page_title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28 - JVM Weekly vol. 180",
+      "tags": [
+        "java",
+        "compilers",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/project-valhalla-explained-how-a-decade-of-work-arrives-in-1182.md"
+    },
+    {
+      "id": 1181,
+      "url": "https://mnot.net/blog/2026/well_known_uris",
+      "title": null,
+      "description": "So you want to define a well-known URi?",
+      "summary": "Mark Nottingham, an author of the Well-Known URI specification, provides guidance on when and how to properly use well-known URIs for protocol design. Well-known locations work best when a client needs to discover something about an entire site efficiently, such as access policies, but they are often misused as a shortcut for legitimacy or to avoid specifying full URLs. The post outlines common pitfalls including discovery mechanism ambiguities, content metadata complications in multi-publisher environments, and the importance of careful planning around scheme support and transition strategies for existing deployments.",
+      "domain": "mnot.net",
+      "source_date": "2026-06-19",
+      "page_title": "So You Want To Define a Well-Known URI",
+      "tags": [
+        "web-dev",
+        "tutorial",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/so-you-want-to-define-a-well-known-uri-1181.md"
+    },
+    {
+      "id": 1180,
+      "url": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
+      "title": null,
+      "description": "DuckDB internals: Why is DuckDB so fast?",
+      "summary": "DuckDB achieves its speed through several architectural optimizations including vectorized query execution, which processes data in batches rather than row-by-row, and a columnar storage format that enables better compression and cache efficiency. The database employs advanced query optimization techniques and is designed specifically for analytical workloads on in-process data, eliminating network overhead and allowing tight integration with applications. These design choices collectively enable DuckDB to deliver superior performance compared to traditional row-oriented databases for analytical queries.",
+      "domain": "www.greybeam.ai",
+      "source_date": "2026-06-19",
+      "page_title": "DuckDB Internals: Why is DuckDB Fast? | Greybeam",
+      "tags": [
+        "database",
+        "tutorial",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/duckdb-internals-why-is-duckdb-fast-greybeam-1180.md"
+    },
     {
       "id": 1165,
       "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
@@ -18509,32 +18639,32 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 360
+      "count": 366
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 273
+      "count": 275
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 234
+      "count": 235
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 222
+      "count": 225
+    },
+    {
+      "name": "llm",
+      "category": "technical_topic",
+      "count": 203
     },
     {
       "name": "video",
       "category": "culture",
       "count": 203
-    },
-    {
-      "name": "llm",
-      "category": "technical_topic",
-      "count": 201
     },
     {
       "name": "cli-tool",
@@ -18544,7 +18674,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 191
+      "count": 195
     },
     {
       "name": "music",
@@ -18554,12 +18684,12 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 117
+      "count": 118
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 111
+      "count": 112
     },
     {
       "name": "news",
@@ -18569,7 +18699,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 101
+      "count": 102
     },
     {
       "name": "social-media",
@@ -18584,7 +18714,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 57
+      "count": 59
     },
     {
       "name": "security",
@@ -18594,7 +18724,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 41
+      "count": 42
     },
     {
       "name": "physics",
@@ -18647,6 +18777,11 @@
       "count": 17
     },
     {
+      "name": "typescript",
+      "category": "programming_language",
+      "count": 15
+    },
+    {
       "name": "emulator",
       "category": "technical_topic",
       "count": 15
@@ -18655,11 +18790,6 @@
       "name": "tv",
       "category": "culture",
       "count": 15
-    },
-    {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 14
     },
     {
       "name": "clojure",
@@ -18750,6 +18880,11 @@
       "name": "nix",
       "category": "programming_language",
       "count": 1
+    },
+    {
+      "name": "java",
+      "category": "programming_language",
+      "count": 1
     }
   ],
   "all_domains": [
@@ -18762,12 +18897,12 @@
       "count": 89
     },
     {
-      "domain": "www.nytimes.com",
+      "domain": "simonwillison.net",
       "count": 27
     },
     {
-      "domain": "simonwillison.net",
-      "count": 26
+      "domain": "www.nytimes.com",
+      "count": 27
     },
     {
       "domain": "www.youtube.com",
@@ -18967,6 +19102,10 @@
     },
     {
       "domain": "martinalderson.com",
+      "count": 2
+    },
+    {
+      "domain": "martinfowler.com",
       "count": 2
     },
     {
@@ -19327,6 +19466,10 @@
     },
     {
       "domain": "blog.janestreet.com",
+      "count": 1
+    },
+    {
+      "domain": "blog.jxmo.io",
       "count": 1
     },
     {
@@ -19691,6 +19834,10 @@
     },
     {
       "domain": "docs.astral.sh",
+      "count": 1
+    },
+    {
+      "domain": "docs.deno.com",
       "count": 1
     },
     {
@@ -20198,10 +20345,6 @@
       "count": 1
     },
     {
-      "domain": "martinfowler.com",
-      "count": 1
-    },
-    {
       "domain": "math.uchicago.edu",
       "count": 1
     },
@@ -20250,6 +20393,10 @@
       "count": 1
     },
     {
+      "domain": "mickael.canouil.fr",
+      "count": 1
+    },
+    {
       "domain": "microcad.xyz",
       "count": 1
     },
@@ -20287,6 +20434,10 @@
     },
     {
       "domain": "mmapped.blog",
+      "count": 1
+    },
+    {
+      "domain": "mnot.net",
       "count": 1
     },
     {
@@ -21178,6 +21329,10 @@
       "count": 1
     },
     {
+      "domain": "www.greybeam.ai",
+      "count": 1
+    },
+    {
       "domain": "www.hacktivate.app",
       "count": 1
     },
@@ -21239,6 +21394,10 @@
     },
     {
       "domain": "www.john-rush.com",
+      "count": 1
+    },
+    {
+      "domain": "www.jvm-weekly.com",
       "count": 1
     },
     {
