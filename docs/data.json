@@ -1,6 +1,217 @@
 {
-  "exported_at": "2026-06-22T06:38:40.123865",
+  "exported_at": "2026-06-29T13:10:15.919620",
   "links": [
+    {
+      "id": 1186,
+      "url": "https://www.nytimes.com/2026/06/29/upshot/times-siena-polling-changes.html?smid=nytcore-ios-share",
+      "title": null,
+      "description": "Changes to Times/Sienna polling methodology",
+      "summary": "Changes to Times/Sienna polling methodology",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-06-29",
+      "page_title": null,
+      "tags": [
+        "news",
+        "statistics"
+      ],
+      "markdown_path": "culture/changes-to-times-sienna-polling-methodology-1186.md"
+    },
+    {
+      "id": 1187,
+      "url": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition.html",
+      "title": null,
+      "description": "Engineering for bounded cognition",
+      "summary": "Software engineers face an inherent paradox: they build systems with tens of millions of lines of code using minds that can only consciously hold about four things at a time, with narrow attention and poor memory retention. Rather than viewing human errors as individual failures, good engineering treats cognitive limitations as a permanent condition and solves them through structural design—clear naming, defined boundaries, tests, and reversible changes that offload cognitive burden from the fragile human mind onto the system itself. This principle applies equally to humans and machines, including AI models with fixed context windows, making the real challenge of engineering not finding a bigger mind but shaping systems that small minds can safely work with.",
+      "domain": "shapeofthesystem.com",
+      "source_date": "2026-06-28",
+      "page_title": "Engineering for Bounded Cognition",
+      "tags": [
+        "tutorial",
+        "psychology",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/engineering-for-bounded-cognition-1187.md"
+    },
+    {
+      "id": 1189,
+      "url": "https://markdy.com/",
+      "title": null,
+      "description": "Markdy - Like Mermaid but for motion",
+      "summary": "Markdy is an open-source animation DSL (Domain Specific Language) engine that allows users to create motion graphics and animations through code, similar to how Mermaid works for diagrams. To start an animation project, users must first define a canvas scene by specifying properties like width, height, frame rate, background color, and optional duration. The tool uses a `.markdy` file format where the scene setup serves as the foundational first line for any animation.",
+      "domain": "markdy.com",
+      "source_date": "2026-06-25",
+      "page_title": "Markdy — Open-Source Animation DSL Engine",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/markdy-open-source-animation-dsl-engine-1189.md"
+    },
+    {
+      "id": 1188,
+      "url": "https://blog.cloudflare.com/oauth-for-all/",
+      "title": null,
+      "description": "Cloudflare announces OAuth for all",
+      "summary": "Cloudflare has announced OAuth for all, making self-managed OAuth available to all customers rather than just a limited number of manually onboarded partners. This enables developers to build integrations, SaaS applications, and agentic tools with standard OAuth flows that give users clearer consent and easier access revocation. To support this expansion securely, Cloudflare undertook a major upgrade of its underlying OAuth engine from Hydra, implementing a blue-green deployment strategy with innovative solutions like refresh token coalescing and revocation replay queues to minimize user disruption during the migration.",
+      "domain": "blog.cloudflare.com",
+      "source_date": "2026-06-25",
+      "page_title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+      "tags": [
+        "web-dev",
+        "security",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/unlocking-the-cloudflare-app-ecosystem-with-oauth-for-all-1188.md"
+    },
+    {
+      "id": 1193,
+      "url": "https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time/",
+      "title": null,
+      "description": "Inventing the Future, One Lisp Machine at a Time",
+      "summary": "The article recounts a conversation with Larry Masinter and Frank Halasz, two pioneering computer scientists from Xerox PARC, about their revolutionary work in early computing, particularly the Interlisp programming environment and hypertext systems like NoteCards. They discuss PARC's unique culture of \"utter freedom with accountability,\" where researchers pursued ambitious ideas that were often ahead of their time, and explain how Interlisp's philosophy of \"residential programming\"—treating code as a living, modifiable database rather than static files—enabled rapid experimentation but sacrificed long-term maintainability. The speakers reflect on how PARC's innovations sometimes \"overfitted\" to an imagined networked future and suggest that while modern development tools echo some of Interlisp's interactive philosophy, they haven't fully recaptured its power to patch running systems without expensive compile-load-run cycles.",
+      "domain": "www.patrickdomanico.com",
+      "source_date": "2026-06-23",
+      "page_title": "Inventing the Future, One Lisp Machine at a Time | Between People & Machine",
+      "tags": [
+        "lisp",
+        "academic-paper",
+        "compilers"
+      ],
+      "markdown_path": "programming-language/inventing-the-future-one-lisp-machine-at-a-time-between-1193.md"
+    },
+    {
+      "id": 1192,
+      "url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
+      "title": null,
+      "description": "Rhombus v1.0",
+      "summary": "Rhombus v1.0 is a new general-purpose, functional, and extensible programming language built on Racket that combines conventional syntax with powerful metaprogramming capabilities through a macro system inspired by Lisp. The language aims to balance accessibility for everyday programming with advanced extensibility features, offering modern programming constructs like closures, pattern matching, and type parametricity while enabling domain-specific language development. Rhombus is intended for production use with the stability and community support of Racket, and it represents a synthesis of functional programming with practical language design rather than an academic or teaching-only project.",
+      "domain": "blog.racket-lang.org",
+      "source_date": "2026-06-23",
+      "page_title": "Rhombus v1.0",
+      "tags": [
+        "lisp",
+        "compilers",
+        "github-repo"
+      ],
+      "markdown_path": "programming-language/rhombus-v1-0-1192.md"
+    },
+    {
+      "id": 1191,
+      "url": "https://plotnine.org/",
+      "title": null,
+      "description": "plotnine - A grammar of graphics for Python",
+      "summary": "Plotnine is a Python data visualization package built on the grammar of graphics system, offering syntax similar to the popular R package ggplot2. It enables users to create visualizations efficiently—from simple single-line plots to fully customized publication-ready figures—with sensible defaults for elements like legends and color palettes, while allowing complete customization of every aspect including layers, themes, and styling. The package is demonstrated through examples using Anscombe's Quartet, showcasing how visualizations can be iteratively built and refined using declarative syntax.",
+      "domain": "plotnine.org",
+      "source_date": "2026-06-23",
+      "page_title": "Plotnine – plotnine 0.15.7",
+      "tags": [
+        "python",
+        "web-dev",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/plotnine-plotnine-0-15-7-1191.md"
+    },
+    {
+      "id": 1190,
+      "url": "https://www.stephendiehl.com/posts/bad_place_2026/",
+      "title": null,
+      "description": "Crypto policy proposals to get us out of the bad place",
+      "summary": "The article paints a dystopian picture of cryptocurrency in 2026, where the industry has become a vehicle for financial manipulation, gambling, and corruption—from presidential memecoins to prediction markets on military assassinations. The author argues that crypto instruments lack genuine market value and function only as self-referential speculation games, fundamentally different from legitimate markets that price real-world goods and services. Rather than serving its claimed purpose of helping political dissidents, the crypto industry has deliberately targeted retail consumers through unregulated channels, prioritizing \"sucker farming\" over legitimate financial competition.",
+      "domain": "www.stephendiehl.com",
+      "source_date": "2026-06-23",
+      "page_title": "Crypto in 2026: Oh, This is the Bad Place",
+      "tags": [
+        "politics",
+        "security",
+        "news"
+      ],
+      "markdown_path": "culture/crypto-in-2026-oh-this-is-the-bad-place-1190.md"
+    },
+    {
+      "id": 1198,
+      "url": "https://github.com/nashsu/llm_wiki",
+      "title": null,
+      "description": "`llm_wiki` - LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically",
+      "summary": "LLM Wiki is a cross-platform desktop application that automatically transforms documents into an organized, interconnected knowledge base by using large language models to incrementally build and maintain a persistent wiki rather than re-deriving answers on each query. It enhances Andrej Karpathy's original LLM Wiki pattern with features including two-step chain-of-thought ingestion, multimodal image processing, a knowledge graph with relevance modeling, community detection, deep research capabilities, and a full desktop interface with three-column layout and real-time processing visualization. The application maintains source traceability, supports vector semantic search, includes a Chrome web clipper, and provides local API and MCP server integration for hybrid searching and AI agent integration.",
+      "domain": "github.com",
+      "source_date": "2026-06-22",
+      "page_title": "GitHub - nashsu/llm_wiki: LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。 · GitHub",
+      "tags": [
+        "llm",
+        "github-repo",
+        "ai",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-nashsu-llm-wiki-llm-wiki-is-a-cross-platform-desktop-1198.md"
+    },
+    {
+      "id": 1197,
+      "url": "https://readwise.io/reader/shared/01kvqqp8fcah5mtkbh219hxbez/",
+      "title": null,
+      "description": "A frontier without an ecosystem is unstable",
+      "summary": "The article argues that sustainable AI adoption requires companies to build \"token capital\" (AI capabilities they own) alongside their \"human capital\" (expertise and judgment), creating a learning loop where both compound together rather than compete. The key differentiator won't be access to the best AI models, but rather a company's ability to turn its unique workflows and domain knowledge into proprietary systems that improve over time, capturing institutional value that cannot be easily commoditized. This ecosystem-based approach, where value flows broadly across organizations rather than concentrating in a few models, is necessary for economic stability and prevents the hollowing out of industries that occurred during previous technological transitions.",
+      "domain": "readwise.io",
+      "source_date": "2026-06-22",
+      "page_title": "A frontier without an ecosystem is not stable | annotated by codekiln",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/a-frontier-without-an-ecosystem-is-not-stable-annotated-by-1197.md"
+    },
+    {
+      "id": 1196,
+      "url": "https://github.com/LeoBR84p/markdown_hero/tree/main",
+      "title": null,
+      "description": "`markdown_hero` - A Python library for processing Markdown files",
+      "summary": "markdown_hero is a Python library that provides comprehensive tools for processing Markdown files, including cleanup, chunking, Word export, file concatenation, splitting, and validation with support for GitHub Flavored Markdown. The library offers both programmatic functions and command-line interface commands for common tasks like normalizing text, extracting document chunks for RAG purposes, converting to .docx format, and detecting formatting issues. It's compatible with Python 3.10+ and includes features for managing metadata, extracting frontmatter and document elements, and intelligently merging multiple Markdown files.",
+      "domain": "github.com",
+      "source_date": "2026-06-22",
+      "page_title": "GitHub - LeoBR84p/markdown_hero · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "cli-tool",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/github-leobr84p-markdown-hero-github-1196.md"
+    },
+    {
+      "id": 1195,
+      "url": "https://github.com/LeoBR84p/wiki_llm",
+      "title": null,
+      "description": "`wiki_llm` - A Python implementation of Karpathy's llm-wiki",
+      "summary": "wiki_llm is a Python tool that automatically transforms scattered documents (PDFs, Word files, Markdown, etc.) into an organized, navigable knowledge base powered by large language models. The system uses a fully automated pipeline featuring intelligent summarization, automatic taxonomy generation, content deduplication, and built-in chat search—eliminating the need for manual documentation work. It leverages semantic Markdown processing through markdown-hero to ensure all generated wiki pages are structurally valid and ready for integration with tools like Obsidian, MkDocs, or Docusaurus.",
+      "domain": "github.com",
+      "source_date": "2026-06-22",
+      "page_title": "GitHub - LeoBR84p/wiki_llm · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "llm",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-leobr84p-wiki-llm-github-1195.md"
+    },
+    {
+      "id": 1194,
+      "url": "https://pub.towardsai.net/i-built-karpathys-llm-wiki-twice-once-as-code-once-as-a-md-heres-what-each-one-gives-up-08b31170999a",
+      "title": null,
+      "description": "I Built Karpathy’s LLM Wiki Twice — Once as Code, Once as a `.md`",
+      "summary": "The author built Karpathy's LLM wiki concept in two ways: first as a Python package with strict data validation and deterministic processing, then as a markdown file for AI agents. The programmatic version offers better reproducibility, token efficiency, and structural integrity through validated schemas and markdown processing, making it ideal for large corpora and recurring pipelines, while the markdown version is faster to prototype and easier to modify for smaller knowledge bases. The key tradeoff is that code-based implementations guarantee consistent output quality through enforced contracts and structured processing, whereas agent-based implementations are more flexible but require trusting the agent to follow conventions correctly.",
+      "domain": "pub.towardsai.net",
+      "source_date": "2026-06-22",
+      "page_title": "I built Karpathy’s LLM Wiki twice — once as code, once as a .md. Here's what each one gives up. | by Leandro Bernardo | Medium | Towards AI",
+      "tags": [
+        "llm",
+        "python",
+        "ai",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/i-built-karpathy-s-llm-wiki-twice-once-as-code-once-as-a-md-1194.md"
+    },
     {
       "id": 1178,
       "url": "https://docs.deno.com/runtime/desktop/",
@@ -18639,27 +18850,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 366
+      "count": 370
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 275
+      "count": 278
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 235
+      "count": 240
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 225
+      "count": 227
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 203
+      "count": 207
     },
     {
       "name": "video",
@@ -18667,14 +18878,14 @@
       "count": 203
     },
     {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 195
-    },
-    {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 195
+      "count": 199
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 198
     },
     {
       "name": "music",
@@ -18684,22 +18895,22 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 118
+      "count": 119
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 112
+      "count": 117
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 103
+      "count": 105
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 102
+      "count": 104
     },
     {
       "name": "social-media",
@@ -18719,7 +18930,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 54
+      "count": 56
     },
     {
       "name": "distributed-systems",
@@ -18742,19 +18953,19 @@
       "count": 30
     },
     {
+      "name": "politics",
+      "category": "culture",
+      "count": 28
+    },
+    {
       "name": "rust",
       "category": "programming_language",
       "count": 27
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 27
-    },
-    {
       "name": "lisp",
       "category": "programming_language",
-      "count": 25
+      "count": 27
     },
     {
       "name": "javascript",
@@ -18885,23 +19096,33 @@
       "name": "java",
       "category": "programming_language",
       "count": 1
+    },
+    {
+      "name": "statistics",
+      "category": "science",
+      "count": 1
+    },
+    {
+      "name": "psychology",
+      "category": "science",
+      "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 134
+      "count": 137
     },
     {
       "domain": "www.threads.net",
       "count": 89
     },
     {
-      "domain": "simonwillison.net",
-      "count": 27
+      "domain": "www.nytimes.com",
+      "count": 28
     },
     {
-      "domain": "www.nytimes.com",
+      "domain": "simonwillison.net",
       "count": 27
     },
     {
@@ -19185,6 +19406,10 @@
       "count": 2
     },
     {
+      "domain": "www.stephendiehl.com",
+      "count": 2
+    },
+    {
       "domain": "www.theatlantic.com",
       "count": 2
     },
@@ -19437,6 +19662,10 @@
       "count": 1
     },
     {
+      "domain": "blog.cloudflare.com",
+      "count": 1
+    },
+    {
       "domain": "blog.computationalcomplexity.org",
       "count": 1
     },
@@ -19490,6 +19719,10 @@
     },
     {
       "domain": "blog.phronemophobic.com",
+      "count": 1
+    },
+    {
+      "domain": "blog.racket-lang.org",
       "count": 1
     },
     {
@@ -20333,6 +20566,10 @@
       "count": 1
     },
     {
+      "domain": "markdy.com",
+      "count": 1
+    },
+    {
       "domain": "marmelab.com",
       "count": 1
     },
@@ -20681,6 +20918,10 @@
       "count": 1
     },
     {
+      "domain": "plotnine.org",
+      "count": 1
+    },
+    {
       "domain": "ploum.net",
       "count": 1
     },
@@ -20718,6 +20959,10 @@
     },
     {
       "domain": "proofshot.argil.io",
+      "count": 1
+    },
+    {
+      "domain": "pub.towardsai.net",
       "count": 1
     },
     {
@@ -20766,6 +21011,10 @@
     },
     {
       "domain": "read.isabelunraveled.com",
+      "count": 1
+    },
+    {
+      "domain": "readwise.io",
       "count": 1
     },
     {
@@ -20830,6 +21079,10 @@
     },
     {
       "domain": "sethmlarson.dev",
+      "count": 1
+    },
+    {
+      "domain": "shapeofthesystem.com",
       "count": 1
     },
     {
@@ -21521,6 +21774,10 @@
       "count": 1
     },
     {
+      "domain": "www.patrickdomanico.com",
+      "count": 1
+    },
+    {
       "domain": "www.paulgraham.com",
       "count": 1
     },
@@ -21602,10 +21859,6 @@
     },
     {
       "domain": "www.sofarsounds.com",
-      "count": 1
-    },
-    {
-      "domain": "www.stephendiehl.com",
       "count": 1
     },
     {
