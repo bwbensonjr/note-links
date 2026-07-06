@@ -1,6 +1,222 @@
 {
-  "exported_at": "2026-06-29T13:10:15.919620",
+  "exported_at": "2026-07-06T08:04:36.337854",
   "links": [
+    {
+      "id": 1203,
+      "url": "https://lcamtuf.substack.com/p/cursed-circuits-capacitance-multiplier",
+      "title": null,
+      "description": "Cursed circuits #5: capacitance multiplier",
+      "summary": "This article explores the capacitance multiplier circuit, a clever but somewhat obsolete design that uses an operational amplifier to make a small capacitor behave like a much larger one by slowing its charging rate. The circuit works by combining two resistors in parallel configuration with an op-amp voltage follower, effectively multiplying the capacitance by a factor determined by the resistor values, allowing engineers to achieve filtering or timing functions with smaller, cheaper components. While historically useful, the circuit has become less practical due to modern improvements in capacitor technology and the availability of digital alternatives for precision filtering and timing applications.",
+      "domain": "lcamtuf.substack.com",
+      "source_date": "2026-07-06",
+      "page_title": "Cursed circuits: capacitance multiplier - lcamtuf’s thing",
+      "tags": [
+        "physics",
+        "tutorial"
+      ],
+      "markdown_path": "science/cursed-circuits-capacitance-multiplier-lcamtuf-s-thing-1203.md"
+    },
+    {
+      "id": 1202,
+      "url": "https://learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromosomes/",
+      "title": null,
+      "description": "Cells, chromosomes, and genomes",
+      "summary": "Cells are the basic units of life containing a genome—the complete set of inherited instructions encoded in DNA—which consists of approximately 3 billion characters made up of four nucleotide bases (A, C, T, G) organized into 23 pairs of chromosomes in humans. DNA functions like a master recipe book with over 20,000 genes that cells read and interpret to produce proteins, with each cell type producing different combinations of proteins to maintain its specific function. Understanding genomes and their relationship to physical traits (genotype-phenotype relationships) is essential for identifying how genetic mutations lead to diseases like cancer and for developing personalized medical treatments.",
+      "domain": "learngenomics.dev",
+      "source_date": "2026-07-06",
+      "page_title": "Cells, Chromosomes, and Genomes | Introduction to Genomics for Engineers",
+      "tags": [
+        "biology",
+        "tutorial",
+        "academic-paper"
+      ],
+      "markdown_path": "science/cells-chromosomes-and-genomes-introduction-to-genomics-for-1202.md"
+    },
+    {
+      "id": 1201,
+      "url": "https://craigmod.com/essays/fast_software/",
+      "title": null,
+      "description": "Fast software, the best software",
+      "summary": "Fast software—meaning applications that respond instantly with minimal lag—is a critical indicator of engineering quality and user trust that's often undervalued in software development. Craig Mod illustrates this through examples like nvALT (which he trusts implicitly for its speed) versus Ulysses (which occasionally slows down, causing him to doubt its reliability), arguing that speed is intrinsically linked to whether users perceive an application as well-crafted or bloated. He demonstrates how software that unbloats and improves over time, like Sublime Text and Figma, builds user confidence and loyalty, while bloated applications like modern Photoshop and Google Maps lose users to faster, more focused alternatives despite their feature richness.",
+      "domain": "craigmod.com",
+      "source_date": "2026-07-06",
+      "page_title": "Fast Software, the Best Software — by Craig Mod",
+      "tags": [
+        "web-dev",
+        "nonfiction-book"
+      ],
+      "markdown_path": "technical-topic/fast-software-the-best-software-by-craig-mod-1201.md"
+    },
+    {
+      "id": 1200,
+      "url": "https://brettterpstra.com/projects/nvalt/",
+      "title": null,
+      "description": "nvAlt - Fork of Notational Velocity for taking notes quickly",
+      "summary": "nvALT is a retired fork of Notational Velocity, a keyboard-driven note-taking application that allows users to quickly create, search, and organize notes with features like MultiMarkdown support, tagging, and full-text search. The app, developed by Brett Terpstra and David Halter, is being replaced by a new application called nvUltra, and users are encouraged to report issues on GitHub rather than through other channels. nvALT offers customizable interfaces, multiple color schemes, and browser extensions for clipping content directly into notes.",
+      "domain": "brettterpstra.com",
+      "source_date": "2026-07-06",
+      "page_title": "nvALT - BrettTerpstra.com",
+      "tags": [
+        "cli-tool",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/nvalt-brettterpstra-com-1200.md"
+    },
+    {
+      "id": 1199,
+      "url": "https://nvultra.com/",
+      "title": null,
+      "description": "nvUltra - Searchable, portable Markdown notes",
+      "summary": "nvUltra is an upcoming note-taking application that combines powerful features with a distraction-free interface, using plain text MultiMarkdown files that remain portable and never locked into proprietary formats. The app offers blazing-fast full-text search, modal entry for seamless note creation, live preview with customizable themes, and support for multiple file types including images and PDFs, all while allowing users to organize unlimited notebooks across any Mac folders. Key features include wiki-style linking between notes, synchronized editing and preview panes, advanced Markdown tools, and the flexibility to edit notes with external applications.",
+      "domain": "nvultra.com",
+      "source_date": "2026-07-06",
+      "page_title": "nvUltra - Searchable, portable, MultiMarkdown notes",
+      "tags": [
+        "cli-tool",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/nvultra-searchable-portable-multimarkdown-notes-1199.md"
+    },
+    {
+      "id": 1209,
+      "url": "https://organicmaps.app/",
+      "title": null,
+      "description": "Organic Maps: Offline Hike, Bike, Trails and Navigation",
+      "summary": "Organic Maps is a free, privacy-focused offline navigation app for hiking, cycling, and driving that requires no internet connection and contains no ads, tracking, or data collection. The app uses OpenStreetMap data to provide detailed maps, turn-by-turn navigation, hiking trails, and cycling routes that work entirely offline on a single battery charge. Developed as an open-source community project, Organic Maps prioritizes user privacy and respects fundamental digital rights while being supported through donations and grants from institutional sponsors.",
+      "domain": "organicmaps.app",
+      "source_date": "2026-07-05",
+      "page_title": "Organic Maps: Offline Hike, Bike, Trails and Navigation",
+      "tags": [
+        "cli-tool",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/organic-maps-offline-hike-bike-trails-and-navigation-1209.md"
+    },
+    {
+      "id": 1208,
+      "url": "https://www.opentools.studio/",
+      "title": null,
+      "description": "Openprinter - An open source printer",
+      "summary": "OpenPrinter is an open-source, repairable printer designed for durability and cost-effectiveness, featuring refillable ink cartridges, flexible paper formats (sheets and rolls), and compatibility across multiple operating systems. It offers customizable configurations with compact, robust construction using standard components, allowing users to reduce printing costs and electronic waste while maintaining independent control over black and color ink usage. Available for pre-order through crowdfunding, the printer prioritizes sustainability and user repairability, with plans to release open-source files and design specifications once the final product is complete.",
+      "domain": "www.opentools.studio",
+      "source_date": "2026-07-05",
+      "page_title": "OpenTools / OpenPrinter",
+      "tags": [
+        "github-repo",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/opentools-openprinter-1208.md"
+    },
+    {
+      "id": 1207,
+      "url": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "title": null,
+      "description": "Is The Economist always wrong?",
+      "summary": "Is The Economist always wrong?",
+      "domain": "www.economist.com",
+      "source_date": "2026-07-05",
+      "page_title": null,
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/is-the-economist-always-wrong-1207.md"
+    },
+    {
+      "id": 1206,
+      "url": "https://jacob.gold/posts/programmers-need-to-start-meditating-now/",
+      "title": null,
+      "description": "Programmers need to start meditating",
+      "summary": "The author argues that programming has traditionally provided a meditative flow state that benefited mental health, but modern work involving constant context switching has eliminated this benefit. As a result, programmers should actively seek out meditation practices or other meditative hobbies to maintain mental clarity and calm that they once gained naturally from their work.",
+      "domain": "jacob.gold",
+      "source_date": "2026-07-05",
+      "page_title": "Programmers need to start meditating now | Jake Gold",
+      "tags": [
+        "psychology",
+        "video"
+      ],
+      "markdown_path": "science/programmers-need-to-start-meditating-now-jake-gold-1206.md"
+    },
+    {
+      "id": 1205,
+      "url": "https://pandoc.org/lua-filters.html",
+      "title": null,
+      "description": "Pandoc Lua filters",
+      "summary": "Pandoc Lua filters allow users to manipulate the pandoc abstract syntax tree (AST) directly using Lua without external dependencies, offering significant performance improvements over traditional JSON-based filters. Lua filters are defined as tables with element names as keys and filtering functions as values, and they provide flexible options for traversing and transforming document elements through simple function-based rules. The built-in Lua interpreter (version 5.4) and pandoc library eliminate JSON marshaling overhead, making Lua filters substantially faster while remaining easy to write and deploy with any pandoc installation.",
+      "domain": "pandoc.org",
+      "source_date": "2026-07-05",
+      "page_title": "Pandoc - Pandoc Lua Filters",
+      "tags": [
+        "tutorial",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/pandoc-pandoc-lua-filters-1205.md"
+    },
+    {
+      "id": 1204,
+      "url": "https://wiki.xxiivv.com/site/uxn.html",
+      "title": null,
+      "description": "uxn virtual machine",
+      "summary": "Uxn is a lightweight virtual machine at the core of the Hundred Rabbits ecosystem, designed as a portability layer for creating small interactive graphical software and capable of hosting personal computing applications. Programmable in the Uxntal language, it can be assembled into ROM files and run across multiple emulator platforms including x11, SDL2, Windows, and HTML5. The system provides a comfortable computing environment with reference implementations, comprehensive instruction sets, and an active community through mailing lists and IRC channels.",
+      "domain": "wiki.xxiivv.com",
+      "source_date": "2026-07-05",
+      "page_title": "XXIIVV — uxn",
+      "tags": [
+        "emulator",
+        "github-repo",
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/xxiivv-uxn-1204.md"
+    },
+    {
+      "id": 1210,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42002260/",
+      "title": null,
+      "description": "Egg consumption inversely correlated with Alzheimer’s risk",
+      "summary": "A large prospective study of nearly 40,000 Seventh-day Adventists found that moderate to regular egg consumption was significantly associated with lower Alzheimer's disease risk compared to never consuming eggs, with those eating eggs five or more times per week showing a 27% reduced risk. The protective effect appeared to be dose-dependent, with consistent risk reductions across different consumption frequencies, suggesting that nutrients found in eggs may provide neuroprotective benefits when consumed as part of a balanced diet. These findings address an important gap in understanding how dietary factors influence Alzheimer's disease development in a health-conscious population.",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "source_date": "2026-07-04",
+      "page_title": "Egg Intake and the Incidence of Alzheimer's Disease in the Adventist Health Study-2 Cohort Linked with Medicare Data - PubMed",
+      "tags": [
+        "academic-paper",
+        "psychology",
+        "biology",
+        "statistics"
+      ],
+      "markdown_path": "technical-topic/egg-intake-and-the-incidence-of-alzheimer-s-disease-in-the-1210.md"
+    },
+    {
+      "id": 1211,
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "title": null,
+      "description": "Claude-real-video - Actual video reading for LLMs",
+      "summary": "Claude-real-video is an open-source tool that enables LLMs like Claude to actually understand videos by intelligently extracting scene-change-based keyframes, deduplicating similar images, and transcribing audio—all processed locally for privacy. Unlike fixed-interval sampling used by other tools, it captures only meaningful frames, reducing token usage while preserving visual information, and outputs frames and transcripts that can be fed into any LLM for analysis. The tool supports URLs and local files, offers optional audio transcription via Whisper, and integrates with Claude Code as a skill for seamless video analysis.",
+      "domain": "github.com",
+      "source_date": "2026-07-03",
+      "page_title": "GitHub - HUANGCHIHHUNGLeo/claude-real-video: Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT. · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "python",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-huangchihhungleo-claude-real-video-let-claude-or-any-1211.md"
+    },
+    {
+      "id": 1212,
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "title": null,
+      "description": "For the first time a synthetic cell divides",
+      "summary": "Scientists have successfully created a synthetic cell from nonliving components that grows, replicates its DNA, and divides—marking the first time a lab-built cell has completed a full cell cycle. While not truly alive (it requires constant external supplies and lacks defense systems), this breakthrough demonstrates that it's possible to generate life-like behavior from inanimate molecular parts, achieving a major milestone in synthetic biology that researchers have pursued for decades. The achievement could eventually enable the creation of new materials like biofuels and drugs, while also providing insights into fundamental questions about the nature of life and how it originated.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-07-01",
+      "page_title": "For the First Time, a Cell Built From Scratch Grows and Divides | Quanta Magazine",
+      "tags": [
+        "biology",
+        "academic-paper",
+        "news"
+      ],
+      "markdown_path": "science/for-the-first-time-a-cell-built-from-scratch-grows-and-1212.md"
+    },
     {
       "id": 1186,
       "url": "https://www.nytimes.com/2026/06/29/upshot/times-siena-polling-changes.html?smid=nytcore-ios-share",
@@ -18850,7 +19066,7 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 370
+      "count": 373
     },
     {
       "name": "ai",
@@ -18860,32 +19076,32 @@
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 240
+      "count": 245
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 227
+      "count": 230
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 207
+      "count": 208
     },
     {
       "name": "video",
       "category": "culture",
+      "count": 204
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
       "count": 203
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 199
-    },
-    {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 198
+      "count": 201
     },
     {
       "name": "music",
@@ -18895,22 +19111,22 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 119
+      "count": 120
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 117
+      "count": 118
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 105
+      "count": 107
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 104
+      "count": 105
     },
     {
       "name": "social-media",
@@ -18920,7 +19136,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 95
+      "count": 96
     },
     {
       "name": "database",
@@ -18940,12 +19156,12 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 36
+      "count": 37
     },
     {
       "name": "biology",
       "category": "science",
-      "count": 34
+      "count": 37
     },
     {
       "name": "c",
@@ -18988,13 +19204,13 @@
       "count": 17
     },
     {
-      "name": "typescript",
-      "category": "programming_language",
-      "count": 15
-    },
-    {
       "name": "emulator",
       "category": "technical_topic",
+      "count": 16
+    },
+    {
+      "name": "typescript",
+      "category": "programming_language",
       "count": 15
     },
     {
@@ -19078,12 +19294,22 @@
       "count": 3
     },
     {
+      "name": "psychology",
+      "category": "science",
+      "count": 3
+    },
+    {
       "name": "gardening",
       "category": "culture",
       "count": 2
     },
     {
       "name": "chemistry",
+      "category": "science",
+      "count": 2
+    },
+    {
+      "name": "statistics",
       "category": "science",
       "count": 2
     },
@@ -19096,22 +19322,12 @@
       "name": "java",
       "category": "programming_language",
       "count": 1
-    },
-    {
-      "name": "statistics",
-      "category": "science",
-      "count": 1
-    },
-    {
-      "name": "psychology",
-      "category": "science",
-      "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 137
+      "count": 138
     },
     {
       "domain": "www.threads.net",
@@ -19151,7 +19367,7 @@
     },
     {
       "domain": "www.quantamagazine.org",
-      "count": 8
+      "count": 9
     },
     {
       "domain": "eli.thegreenplace.net",
@@ -19159,6 +19375,10 @@
     },
     {
       "domain": "gwern.net",
+      "count": 5
+    },
+    {
+      "domain": "lcamtuf.substack.com",
       "count": 5
     },
     {
@@ -19175,10 +19395,6 @@
     },
     {
       "domain": "cooking.nytimes.com",
-      "count": 4
-    },
-    {
-      "domain": "lcamtuf.substack.com",
       "count": 4
     },
     {
@@ -19363,6 +19579,10 @@
     },
     {
       "domain": "til.simonwillison.net",
+      "count": 2
+    },
+    {
+      "domain": "www.economist.com",
       "count": 2
     },
     {
@@ -19762,6 +19982,10 @@
       "count": 1
     },
     {
+      "domain": "brettterpstra.com",
+      "count": 1
+    },
+    {
       "domain": "britannica11.org",
       "count": 1
     },
@@ -19927,6 +20151,10 @@
     },
     {
       "domain": "craftinginterpreters.com",
+      "count": 1
+    },
+    {
+      "domain": "craigmod.com",
       "count": 1
     },
     {
@@ -20390,6 +20618,10 @@
       "count": 1
     },
     {
+      "domain": "jacob.gold",
+      "count": 1
+    },
+    {
       "domain": "jai.scs.stanford.edu",
       "count": 1
     },
@@ -20495,6 +20727,10 @@
     },
     {
       "domain": "lean-lang.org",
+      "count": 1
+    },
+    {
+      "domain": "learngenomics.dev",
       "count": 1
     },
     {
@@ -20758,6 +20994,10 @@
       "count": 1
     },
     {
+      "domain": "nvultra.com",
+      "count": 1
+    },
+    {
       "domain": "obrhubr.org",
       "count": 1
     },
@@ -20814,6 +21054,10 @@
       "count": 1
     },
     {
+      "domain": "organicmaps.app",
+      "count": 1
+    },
+    {
       "domain": "overreacted.io",
       "count": 1
     },
@@ -20839,6 +21083,10 @@
     },
     {
       "domain": "pandoc-templates.org",
+      "count": 1
+    },
+    {
+      "domain": "pandoc.org",
       "count": 1
     },
     {
@@ -20971,6 +21219,10 @@
     },
     {
       "domain": "publicdomainreview.org",
+      "count": 1
+    },
+    {
+      "domain": "pubmed.ncbi.nlm.nih.gov",
       "count": 1
     },
     {
@@ -21362,6 +21614,10 @@
       "count": 1
     },
     {
+      "domain": "wiki.xxiivv.com",
+      "count": 1
+    },
+    {
       "domain": "windowsread.me",
       "count": 1
     },
@@ -21523,10 +21779,6 @@
     },
     {
       "domain": "www.dzombak.com",
-      "count": 1
-    },
-    {
-      "domain": "www.economist.com",
       "count": 1
     },
     {
@@ -21763,6 +22015,10 @@
     },
     {
       "domain": "www.opensourceecology.org",
+      "count": 1
+    },
+    {
+      "domain": "www.opentools.studio",
       "count": 1
     },
     {
