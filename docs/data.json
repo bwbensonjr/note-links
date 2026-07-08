@@ -1,6 +1,55 @@
 {
-  "exported_at": "2026-07-06T08:04:36.337854",
+  "exported_at": "2026-07-08T17:47:25.188172",
   "links": [
+    {
+      "id": 1215,
+      "url": "https://30papers.com/",
+      "title": null,
+      "description": "30 papers",
+      "summary": "30 papers · The reading list Ilya Sutskever gave John Carmack - 30 papers",
+      "domain": "30papers.com",
+      "source_date": "2026-07-07",
+      "page_title": "30 papers · The reading list Ilya Sutskever gave John Carmack",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/30-papers-the-reading-list-ilya-sutskever-gave-john-carmack-1215.md"
+    },
+    {
+      "id": 1214,
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "title": null,
+      "description": "SICP lecture videos",
+      "summary": "MIT OpenCourseWare offers twenty complete video lectures on Structure and Interpretation of Computer Programs, taught by Hal Abelson and Gerald Jay Sussman in 1986 and professionally produced by Hewlett-Packard. The lectures cover fundamental computer science topics including Lisp programming, higher-order procedures, symbolic computation, streams, metacircular evaluators, logic programming, and compilation, and are available under a Creative Commons license for free use. Though based on the first edition of the textbook, the lectures remain relevant for students using the second edition due to their focus on core concepts and consistent presentation structure.",
+      "domain": "ocw.mit.edu",
+      "source_date": "2026-07-07",
+      "page_title": "Video Lectures | Structure and Interpretation of Computer Programs | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+      "tags": [
+        "video",
+        "lisp",
+        "tutorial",
+        "compilers",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/video-lectures-structure-and-interpretation-of-computer-1214.md"
+    },
+    {
+      "id": 1213,
+      "url": "https://cacm.acm.org/federal-funding-of-academic-research/the-llvm-compiler-infrastructure/",
+      "title": null,
+      "description": "The LLVM compiler infrastructure",
+      "summary": "The LLVM compiler infrastructure",
+      "domain": "cacm.acm.org",
+      "source_date": "2026-07-07",
+      "page_title": null,
+      "tags": [
+        "compilers",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/the-llvm-compiler-infrastructure-1213.md"
+    },
     {
       "id": 1203,
       "url": "https://lcamtuf.substack.com/p/cursed-circuits-capacitance-multiplier",
@@ -19066,12 +19115,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 373
+      "count": 374
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 278
+      "count": 279
     },
     {
       "name": "github-repo",
@@ -19081,17 +19130,17 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 230
+      "count": 233
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 208
+      "count": 209
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 204
+      "count": 205
     },
     {
       "name": "cli-tool",
@@ -19126,7 +19175,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 105
+      "count": 107
     },
     {
       "name": "social-media",
@@ -19174,12 +19223,12 @@
       "count": 28
     },
     {
-      "name": "rust",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 27
+      "count": 28
     },
     {
-      "name": "lisp",
+      "name": "rust",
       "category": "programming_language",
       "count": 27
     },
@@ -19650,6 +19699,10 @@
       "count": 1
     },
     {
+      "domain": "30papers.com",
+      "count": 1
+    },
+    {
       "domain": "`youtu`.be",
       "count": 1
     },
@@ -20015,6 +20068,10 @@
     },
     {
       "domain": "bzolang.blog",
+      "count": 1
+    },
+    {
+      "domain": "cacm.acm.org",
       "count": 1
     },
     {
@@ -21011,6 +21068,10 @@
     },
     {
       "domain": "obsolescence.dev",
+      "count": 1
+    },
+    {
+      "domain": "ocw.mit.edu",
       "count": 1
     },
     {
