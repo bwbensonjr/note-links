@@ -1,6 +1,341 @@
 {
-  "exported_at": "2026-07-08T17:47:25.188172",
+  "exported_at": "2026-07-26T20:51:41.453401",
   "links": [
+    {
+      "id": 1221,
+      "url": "https://lv1.sh/",
+      "title": null,
+      "description": "l - a new runtime for k and q",
+      "summary": "l is a new runtime designed to be fully compatible with existing k4 and q code, allowing users to run their current syntax and idioms without modifications. It natively supports q and qSQL while providing optimized performance for columnar tables, dictionaries, partitions, and splays without requiring any code rewrites.",
+      "domain": "lv1.sh",
+      "source_date": "2026-07-24",
+      "page_title": "l",
+      "tags": [
+        "database",
+        "cli-tool",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/l-1221.md"
+    },
+    {
+      "id": 1220,
+      "url": "https://davit.app/",
+      "title": null,
+      "description": "Davit - A fully native macOS app for Apple's container platform",
+      "summary": "Davit is a native macOS application that provides a graphical user interface for Apple's container platform, offering features like container management, image building, file browsing, and docker-compose support—all without using Electron or requiring administrator privileges. Built entirely in SwiftUI and using Apple's virtualization framework, it's lightweight (17 MB) and boots containers in under a second with minimal memory overhead compared to Docker Desktop. While it excels at core container workflows like running, building, and managing images, it lacks Docker CLI/API compatibility, making it unsuitable for scripted or API-dependent workflows.",
+      "domain": "davit.app",
+      "source_date": "2026-07-24",
+      "page_title": "Davit - a native macOS UI for Apple containers",
+      "tags": [
+        "swift",
+        "devops",
+        "cli-tool"
+      ],
+      "markdown_path": "programming-language/davit-a-native-macos-ui-for-apple-containers-1220.md"
+    },
+    {
+      "id": 1219,
+      "url": "https://www.youtube.com/watch?v=8kMaTybvDUw",
+      "title": null,
+      "description": "Original 12 factors talk",
+      "summary": "I don't have access to the actual video content from this YouTube link—I can only see the standard YouTube footer information you've provided. To give you an accurate summary of Dex Horthy's talk on \"12-Factor Agents,\" I would need the video transcript or a description of the actual content covered in the presentation.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-07-24",
+      "page_title": "12-Factor Agents: Patterns of reliable LLM applications — Dex Horthy, HumanLayer - YouTube",
+      "tags": [
+        "llm",
+        "video",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/12-factor-agents-patterns-of-reliable-llm-applications-dex-1219.md"
+    },
+    {
+      "id": 1218,
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "title": null,
+      "description": "12 factors for AI Agents",
+      "summary": "This repository presents \"12-Factor Agents,\" a set of principles for building production-ready LLM-powered applications inspired by the 12-factor app methodology. The author argues that most AI agent frameworks fall short in production environments because truly reliable agents require core engineering disciplines beyond simple prompt-and-tool-loop patterns, and recommends incorporating modular agent-building concepts into existing products rather than adopting all-in framework approaches. The 12 factors emphasize ownership of prompts, context management, human contact capabilities, stateless design, and other software engineering best practices specifically tailored for LLM applications.",
+      "domain": "github.com",
+      "source_date": "2026-07-24",
+      "page_title": "GitHub - humanlayer/12-factor-agents: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "ai",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/github-humanlayer-12-factor-agents-what-are-the-principles-1218.md"
+    },
+    {
+      "id": 1217,
+      "url": "https://tmuxcheatsheet.com/",
+      "title": null,
+      "description": "tmux cheat sheet",
+      "summary": "Tmux Cheat Sheet & Quick Reference | Session, window, pane and more - tmux cheat sheet",
+      "domain": "tmuxcheatsheet.com",
+      "source_date": "2026-07-24",
+      "page_title": "Tmux Cheat Sheet & Quick Reference | Session, window, pane and more",
+      "tags": [
+        "cli-tool",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/tmux-cheat-sheet-quick-reference-session-window-pane-and-1217.md"
+    },
+    {
+      "id": 1216,
+      "url": "https://glinscott.github.io/beam-engine/",
+      "title": null,
+      "description": "The Beam Engine",
+      "summary": "Beam engines were crucial machines that converted steam power into mechanical force, producing about fifteen horsepower and driving the Industrial Revolution. The article explains how these engines work by building from first principles: steam expands dramatically when heated, creating pressure that pushes a piston in a cylinder, and engineers ingeniously harnessed atmospheric pressure by creating a vacuum through steam condensation to amplify force. Key innovations like Thomas Newcomen's engine (1712) and James Watt's separate condenser (1765) made steam engines progressively more efficient and practical for applications beyond coal mines, transforming industrial production.",
+      "domain": "glinscott.github.io",
+      "source_date": "2026-07-24",
+      "page_title": "How a Beam Engine Works — An Interactive Guide",
+      "tags": [
+        "tutorial",
+        "physics",
+        "nonfiction-book"
+      ],
+      "markdown_path": "technical-topic/how-a-beam-engine-works-an-interactive-guide-1216.md"
+    },
+    {
+      "id": 1223,
+      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "title": null,
+      "description": "Quality non-fiction books",
+      "summary": "Quality non-fiction books represent a golden age of the form, standing in stark contrast to AI-generated content, and the author created a free searchable database of award-winning non-fiction titles to help readers discover high-quality works beyond algorithmic recommendations. The platform uses semantic search to allow browsing through roughly 6,500 prize-winning books across major English-language literary awards, recapturing the serendipitous discovery experience the author experienced while shelving books in a university library. By filtering for books that have earned recognition through established literary prizes, the tool offers readers a curated path to genuinely excellent non-fiction that would otherwise be overlooked by commercial recommendation systems.",
+      "domain": "resobscura.substack.com",
+      "source_date": "2026-07-22",
+      "page_title": "Quality non-fiction books are the antithesis of AI slop",
+      "tags": [
+        "nonfiction-book",
+        "ai"
+      ],
+      "markdown_path": "culture/quality-non-fiction-books-are-the-antithesis-of-ai-slop-1223.md"
+    },
+    {
+      "id": 1222,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "title": null,
+      "description": "Apollo 11 guidance computer source code",
+      "summary": "This GitHub repository contains the original Apollo 11 guidance computer source code for both the Command Module (Comanche055) and Lunar Module (Luminary099), digitized from hardcopy originals by the Virtual AGC project and MIT Museum. The repository serves as a comprehensive archive of the historic code used during the 1969 moon landing, with contributions welcomed for any discrepancies found between the transcriptions and original source documents. The code is in the public domain and can be compiled using the Virtual AGC assembler for those interested in studying the original programming.",
+      "domain": "github.com",
+      "source_date": "2026-07-22",
+      "page_title": "GitHub - chrislgarry/Apollo-11: Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. · GitHub",
+      "tags": [
+        "github-repo",
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/github-chrislgarry-apollo-11-original-apollo-11-guidance-1222.md"
+    },
+    {
+      "id": 1224,
+      "url": "https://www.youtube.com/watch?v=Z3tWXQbTpbM",
+      "title": null,
+      "description": "Wilco - I'm Always in Love",
+      "summary": "I don't have access to the actual video content or description from this YouTube page. The text provided only contains YouTube's standard footer information about copyright, policies, and platform features, which doesn't reveal details about the song \"I'm Always in Love\" by Wilco. To provide an accurate summary, I would need access to the video description, comments, or other contextual information about the track itself.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-07-20",
+      "page_title": "Wilco - I'm Always in Love - YouTube",
+      "tags": [
+        "music",
+        "video"
+      ],
+      "markdown_path": "culture/wilco-i-m-always-in-love-youtube-1224.md"
+    },
+    {
+      "id": 1225,
+      "url": "https://www.youtube.com/watch?v=Q3t3oaNzhf4",
+      "title": null,
+      "description": "Squeeze documentary",
+      "summary": "I don't have access to the actual video content from this YouTube link. The page content provided only shows YouTube's standard footer information (copyright, policies, etc.) rather than details about the Squeeze documentary \"Take Me I'm Yours\" from 2012. To provide an accurate summary, I would need access to the video's description, transcript, or actual content details.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-07-19",
+      "page_title": "Squeeze Documentary: Take Me I'm Yours 2012 - YouTube",
+      "tags": [
+        "video",
+        "music"
+      ],
+      "markdown_path": "culture/squeeze-documentary-take-me-i-m-yours-2012-youtube-1225.md"
+    },
+    {
+      "id": 1226,
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "title": null,
+      "description": "Jurassic Park computers in excruciating detail",
+      "summary": "This article provides an exhaustive technical analysis of the computers and hardware featured in Jurassic Park, detailing the specific machines used in the film's control room set, including Apple PowerBooks, SGI workstations (R4000 Indigo and IRIS Crimson), and various storage devices that cost nearly $1.75 million worth of equipment at the time. The author explains that the filmmakers used real, functioning computer hardware rather than props because audiences had become sophisticated enough to detect fake technology, and even reveals behind-the-scenes details like how graphics were actually fed to monitors from a separate room to maintain sync with actors' performances. The piece demonstrates the cutting-edge nature of early 1990s computing technology while highlighting specific technical specifications and interesting production trivia about how these systems were integrated into the film.",
+      "domain": "fabiensanglard.net",
+      "source_date": "2026-07-15",
+      "page_title": "Jurassic Park computers in excruciating detail",
+      "tags": [
+        "movie",
+        "video",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/jurassic-park-computers-in-excruciating-detail-1226.md"
+    },
+    {
+      "id": 1227,
+      "url": "https://elasticity.institute/rsi-paper.pdf",
+      "title": null,
+      "description": "The economics of self-recursive improvement",
+      "summary": "This paper examines the economic conditions necessary for recursive self-improvement (RSI) in AI systems, where AI capabilities accelerate their own development through feedback loops. The authors develop a series of theoretical models represented as directed graphs to determine when self-sustaining acceleration occurs, finding that acceleration depends on the product of elasticities across feedback loops and distinguishing between narrow AI capabilities (optimizing benchmarks) and broad capabilities (real-world economic value). Their analysis of existing data suggests current feedback loops are strengthening but not yet strong enough to generate sustained acceleration, though they provide a framework for measuring key parameters that could help predict future AI acceleration scenarios.",
+      "domain": "elasticity.institute",
+      "source_date": "2026-07-14",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "ai",
+        "mathematics",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/the-economics-of-self-recursive-improvement-1227.md"
+    },
+    {
+      "id": 1233,
+      "url": "https://arxiv.org/abs/2607.01418",
+      "title": null,
+      "description": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "summary": "This research study examines Microsoft's 2026 rollout of command-line AI coding agents like Claude Code and GitHub Copilot CLI, analyzing adoption patterns and productivity impact across tens of thousands of engineers. The findings show that adoption spreads primarily through social networks rather than demographics, retention correlates with engineers' coding activity levels, and users who adopted the tools merged approximately 24% more pull requests than they would have otherwise. The results suggest that CLI coding agents provide meaningful productivity gains beyond novelty effects and that organizations should prioritize visible peer usage as a central strategy when rolling out such tools.",
+      "domain": "arxiv.org",
+      "source_date": "2026-07-13",
+      "page_title": "[2607.01418] Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "llm",
+        "cli-tool",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/2607-01418-adoption-and-impact-of-command-line-ai-coding-1233.md"
+    },
+    {
+      "id": 1232,
+      "url": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
+      "title": null,
+      "description": "climate.gov as destroyed by the Trump admin, open data saved it",
+      "summary": "When the Trump Administration defunded NOAA and took Climate.gov offline, former federal employees rebuilt it as Climate.us, preserving over 15 years of critical climate data and resources including maps, educational materials, and the Fifth National Climate Assessment. This rescue was only possible because U.S. government data is public domain by law, allowing the team to migrate the datasets to a new platform funded by donations rather than tax dollars. While the site demonstrates the importance of open data policies, its reliance on private donations highlights a broader problem: essential government infrastructure and climate information should be permanently supported by public funding.",
+      "domain": "werd.io",
+      "source_date": "2026-07-13",
+      "page_title": "Climate.gov was destroyed. Open data saved it.",
+      "tags": [
+        "news",
+        "politics",
+        "security"
+      ],
+      "markdown_path": "culture/climate-gov-was-destroyed-open-data-saved-it-1232.md"
+    },
+    {
+      "id": 1231,
+      "url": "https://andiroberts.com/citizenship/the-social-physics-of-conversation-citizenship-leadership",
+      "title": null,
+      "description": "The social physics of conversation: Communication patterns matter",
+      "summary": "Alex Pentland's research on group communication patterns reveals that how people interact matters far more than individual intelligence or talent in determining group success. The study found that high-performing groups share three key dynamics: energy (frequent face-to-face exchanges), engagement (direct peer-to-peer communication rather than hub-and-spoke structures), and exploration (reaching beyond group boundaries). To enable better collective thinking, organizations should design gatherings to facilitate informal conversation, create multiple spaces for smaller exchanges, mix participants to introduce new perspectives, and recognize that side conversations and breaks are essential to idea flow rather than distractions from it.",
+      "domain": "andiroberts.com",
+      "source_date": "2026-07-13",
+      "page_title": "The social physics of conversation: Communication patterns matter | Andi Roberts – Executive Coach | Leadership Trainer | Facilitator",
+      "tags": [
+        "psychology",
+        "distributed-systems",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/the-social-physics-of-conversation-communication-patterns-1231.md"
+    },
+    {
+      "id": 1230,
+      "url": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+      "title": null,
+      "description": "How to read more books",
+      "summary": "The author shares proven strategies for reading a book per week, beginning with replacing screen time with reading by removing social media apps from your phone. Key practices include always carrying a book, reading during idle moments, using e-readers for convenience, reading multiple books simultaneously across different genres, and not being afraid to abandon books that don't resonate. Additional tips include setting reading goals, writing reviews to deepen comprehension, and using platforms like Goodreads and YouTube to discover new titles.",
+      "domain": "scotto.me",
+      "source_date": "2026-07-13",
+      "page_title": "How to read more books",
+      "tags": [
+        "nonfiction-book",
+        "tutorial"
+      ],
+      "markdown_path": "culture/how-to-read-more-books-1230.md"
+    },
+    {
+      "id": 1229,
+      "url": "https://billiondollarpdf.com/",
+      "title": null,
+      "description": "Billion dollar PDFs",
+      "summary": "Billion Dollar PDFs is a curated directory of influential documents that introduced transformative mental models and significantly impacted capital allocation across industries. The collection includes 89 documents spanning various categories—from technical papers like Bitcoin's whitepaper and the Transformer architecture to VC doctrine and macro memos—organized by era, category, and format. Users can browse these foundational works that shaped billions of dollars in economic decisions, with each entry providing context and links to the original documents.",
+      "domain": "billiondollarpdf.com",
+      "source_date": "2026-07-13",
+      "page_title": "Billion Dollar PDFs",
+      "tags": [
+        "academic-paper",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/billion-dollar-pdfs-1229.md"
+    },
+    {
+      "id": 1228,
+      "url": "https://www.susanrigetti.com/physics",
+      "title": null,
+      "description": "So you want to learn Physics…",
+      "summary": "Susan Rigetti's \"So You Want to Learn Physics\" is a comprehensive, self-study curriculum guide that has helped over 600,000 people learn physics independently, now available in a second edition with updated textbooks and expanded graduate-level content. The guide addresses a gap in physics education by providing serious learners—from career-changers to curious individuals—with a structured path equivalent to undergraduate and master's-level physics education, emphasizing that anyone can learn physics regardless of their background or formal academic setting. Rigetti's mission stems from her belief that knowledge should be shared accessibly and that many motivated people are underserved by traditional academic and publishing institutions that underestimate their ability to understand real physics.",
+      "domain": "www.susanrigetti.com",
+      "source_date": "2026-07-13",
+      "page_title": "Physics — Susan Rigetti",
+      "tags": [
+        "physics",
+        "tutorial",
+        "academic-paper"
+      ],
+      "markdown_path": "science/physics-susan-rigetti-1228.md"
+    },
+    {
+      "id": 1236,
+      "url": "https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md",
+      "title": null,
+      "description": "Learning Rust through LLM development",
+      "summary": "The author shares their experience learning Rust through LLM assistance while developing the eilmeldung project, and discusses insights about using LLMs effectively in programming education. They emphasize that LLMs work best as tutors when they guide learners through thoughtful questioning and conceptual exploration rather than providing direct answers, mimicking the struggle necessary for genuine learning. The document highlights the importance of balancing LLM assistance with hands-on problem-solving, pushing back against incorrect suggestions, and recognizing that LLMs cannot replace the practical experimentation required to truly master programming concepts.",
+      "domain": "github.com",
+      "source_date": "2026-07-09",
+      "page_title": "eilmeldung/docs/llm-development.md at main · christo-auer/eilmeldung · GitHub",
+      "tags": [
+        "rust",
+        "llm",
+        "github-repo",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/eilmeldung-docs-llm-development-md-at-main-christo-auer-1236.md"
+    },
+    {
+      "id": 1235,
+      "url": "https://github.com/linuxrebel/DocuBrowser",
+      "title": null,
+      "description": "Turning a pile of documents into a searchable knowledge base",
+      "summary": "DocuBrowser is a local AI-powered document search engine that converts scattered files into a searchable knowledge base by combining keyword search with semantic understanding. It works entirely offline on your machine using local AI models (Ollama), supports dozens of file formats including PDFs, Word docs, and ebooks, and can generate AI-powered summaries of documents while protecting sensitive information. The tool features a user-friendly interface with dual search modes, tag filtering, and respects privacy by keeping all data local with no internet connection or API keys required.",
+      "domain": "github.com",
+      "source_date": "2026-07-09",
+      "page_title": "GitHub - linuxrebel/DocuBrowser: This does for Documents what repo-browser does for repos. A local AI powered Document search engine · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-linuxrebel-docubrowser-this-does-for-documents-what-1235.md"
+    },
+    {
+      "id": 1234,
+      "url": "https://www.networkworld.com/article/4192827/meta-reuses-old-ram-in-new-servers-with-custom-bridge-chip.html",
+      "title": null,
+      "description": "Meta reuses old RAM in new servers with custom bridge chip",
+      "summary": "Meta has developed a custom Computer Express Link (CXL) chip called Vistara that allows the company to reuse older RAM from decommissioned servers in newer machines, addressing both a memory shortage affecting 40% of its servers and rising RAM costs. The technology decouples older memory modules from their original constraints, enabling them to work alongside newer native memory without significant performance loss. This solution comes at a critical time when memory prices are expected to surge and shortages could persist through 2027.",
+      "domain": "www.networkworld.com",
+      "source_date": "2026-07-09",
+      "page_title": "Meta reuses old RAM in new servers with custom bridge chip  | Network World",
+      "tags": [
+        "devops",
+        "news",
+        "database"
+      ],
+      "markdown_path": "technical-topic/meta-reuses-old-ram-in-new-servers-with-custom-bridge-chip-1234.md"
+    },
     {
       "id": 1215,
       "url": "https://30papers.com/",
@@ -19115,37 +19450,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 374
+      "count": 380
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 279
+      "count": 285
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 245
+      "count": 250
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 233
+      "count": 238
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 209
+      "count": 215
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 205
+      "count": 209
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 203
+      "count": 207
     },
     {
       "name": "web-dev",
@@ -19155,27 +19490,27 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 124
+      "count": 126
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 120
+      "count": 124
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 118
+      "count": 119
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 107
+      "count": 109
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 107
+      "count": 108
     },
     {
       "name": "social-media",
@@ -19185,27 +19520,27 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 96
+      "count": 100
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 59
+      "count": 61
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 56
+      "count": 57
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 42
+      "count": 43
     },
     {
       "name": "physics",
       "category": "science",
-      "count": 37
+      "count": 39
     },
     {
       "name": "biology",
@@ -19220,17 +19555,17 @@
     {
       "name": "politics",
       "category": "culture",
+      "count": 29
+    },
+    {
+      "name": "rust",
+      "category": "programming_language",
       "count": 28
     },
     {
       "name": "lisp",
       "category": "programming_language",
       "count": 28
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 27
     },
     {
       "name": "javascript",
@@ -19283,13 +19618,13 @@
       "count": 12
     },
     {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 10
-    },
-    {
       "name": "movie",
       "category": "culture",
+      "count": 11
+    },
+    {
+      "name": "haskell",
+      "category": "programming_language",
       "count": 10
     },
     {
@@ -19313,6 +19648,11 @@
       "count": 7
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 6
+    },
+    {
       "name": "cpp",
       "category": "programming_language",
       "count": 5
@@ -19323,11 +19663,6 @@
       "count": 5
     },
     {
-      "name": "mathematics",
-      "category": "science",
-      "count": 5
-    },
-    {
       "name": "ruby",
       "category": "programming_language",
       "count": 4
@@ -19335,16 +19670,16 @@
     {
       "name": "swift",
       "category": "programming_language",
-      "count": 3
-    },
-    {
-      "name": "zig",
-      "category": "programming_language",
-      "count": 3
+      "count": 4
     },
     {
       "name": "psychology",
       "category": "science",
+      "count": 4
+    },
+    {
+      "name": "zig",
+      "category": "programming_language",
       "count": 3
     },
     {
@@ -19376,7 +19711,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 138
+      "count": 142
     },
     {
       "domain": "www.threads.net",
@@ -19387,12 +19722,12 @@
       "count": 28
     },
     {
-      "domain": "simonwillison.net",
-      "count": 27
+      "domain": "www.youtube.com",
+      "count": 28
     },
     {
-      "domain": "www.youtube.com",
-      "count": 25
+      "domain": "simonwillison.net",
+      "count": 27
     },
     {
       "domain": "www.threads.com",
@@ -19400,7 +19735,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 14
+      "count": 15
     },
     {
       "domain": "open.spotify.com",
@@ -19771,6 +20106,10 @@
       "count": 1
     },
     {
+      "domain": "andiroberts.com",
+      "count": 1
+    },
+    {
       "domain": "andywoodruff.com",
       "count": 1
     },
@@ -19912,6 +20251,10 @@
     },
     {
       "domain": "bigdata.2minutestreaming.com",
+      "count": 1
+    },
+    {
+      "domain": "billiondollarpdf.com",
       "count": 1
     },
     {
@@ -20279,6 +20622,10 @@
       "count": 1
     },
     {
+      "domain": "davit.app",
+      "count": 1
+    },
+    {
       "domain": "db.cs.cmu.edu",
       "count": 1
     },
@@ -20395,6 +20742,10 @@
       "count": 1
     },
     {
+      "domain": "elasticity.institute",
+      "count": 1
+    },
+    {
       "domain": "elixir-lang.org",
       "count": 1
     },
@@ -20456,6 +20807,10 @@
     },
     {
       "domain": "ezhik.jp",
+      "count": 1
+    },
+    {
+      "domain": "fabiensanglard.net",
       "count": 1
     },
     {
@@ -20556,6 +20911,10 @@
     },
     {
       "domain": "gleam.run",
+      "count": 1
+    },
+    {
+      "domain": "glinscott.github.io",
       "count": 1
     },
     {
@@ -20832,6 +21191,10 @@
     },
     {
       "domain": "loopmaster.xyz",
+      "count": 1
+    },
+    {
+      "domain": "lv1.sh",
       "count": 1
     },
     {
@@ -21343,6 +21706,10 @@
       "count": 1
     },
     {
+      "domain": "resobscura.substack.com",
+      "count": 1
+    },
+    {
       "domain": "retrogamecoders.com",
       "count": 1
     },
@@ -21388,6 +21755,10 @@
     },
     {
       "domain": "scitools.org.uk",
+      "count": 1
+    },
+    {
+      "domain": "scotto.me",
       "count": 1
     },
     {
@@ -21575,6 +21946,10 @@
       "count": 1
     },
     {
+      "domain": "tmuxcheatsheet.com",
+      "count": 1
+    },
+    {
       "domain": "tombedor.dev",
       "count": 1
     },
@@ -21660,6 +22035,10 @@
     },
     {
       "domain": "web.mit.edu",
+      "count": 1
+    },
+    {
+      "domain": "werd.io",
       "count": 1
     },
     {
@@ -22063,6 +22442,10 @@
       "count": 1
     },
     {
+      "domain": "www.networkworld.com",
+      "count": 1
+    },
+    {
       "domain": "www.noemamag.com",
       "count": 1
     },
@@ -22176,6 +22559,10 @@
     },
     {
       "domain": "www.sofarsounds.com",
+      "count": 1
+    },
+    {
+      "domain": "www.susanrigetti.com",
       "count": 1
     },
     {
