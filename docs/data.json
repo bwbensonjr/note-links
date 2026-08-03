@@ -1,6 +1,176 @@
 {
-  "exported_at": "2026-07-29T13:36:43.131016",
+  "exported_at": "2026-08-03T11:25:46.727397",
   "links": [
+    {
+      "id": 1245,
+      "url": "https://github.com/ViktorRingnes/hackernews",
+      "title": null,
+      "description": "Hacker News CLI",
+      "summary": "Hackernews is a command-line tool that brings Hacker News directly to your terminal, installable via Cargo. Users can browse different news categories (new, best, ask, show, jobs) and navigate using keyboard shortcuts for actions like moving between items, opening links, viewing comments, searching, and more.",
+      "domain": "github.com",
+      "source_date": "2026-08-03",
+      "page_title": "GitHub - ViktorRingnes/hackernews: hacker news cli tool · GitHub",
+      "tags": [
+        "cli-tool",
+        "github-repo",
+        "rust"
+      ],
+      "markdown_path": "technical-topic/github-viktorringnes-hackernews-hacker-news-cli-tool-github-1245.md"
+    },
+    {
+      "id": 1247,
+      "url": "https://share.google/K49zHPN0CgEqX9dZl",
+      "title": null,
+      "description": "Notre Dame documentary PBS",
+      "summary": "This NOVA documentary follows the ambitious restoration effort of Paris's Notre-Dame Cathedral after a devastating fire in April 2019 destroyed its roof and spire. Engineers, masons, and craftspeople face the challenge of stabilizing the weakened structure and restoring the medieval masterpiece to meet a 2024 reopening deadline. Through their work, historians and scientists are uncovering ancient architectural techniques and technologies hidden within the cathedral for centuries.",
+      "domain": "share.google",
+      "source_date": "2026-08-02",
+      "page_title": "NOVA | Rebuilding Notre Dame | Season 49 | Episode 13 | PBS",
+      "tags": [
+        "video"
+      ],
+      "markdown_path": "culture/nova-rebuilding-notre-dame-season-49-episode-13-pbs-1247.md"
+    },
+    {
+      "id": 1246,
+      "url": "https://blog.sparsh.dev/research-topics-in-ml-ai-and-deep-learning/",
+      "title": null,
+      "description": "Research topics in ML, AI and Deep Learning",
+      "summary": "This page outlines major research areas and emerging topics across machine learning, AI, and deep learning, including geometric deep learning, transformers, and graph neural networks. Key focus areas include addressing computational efficiency challenges (quadratic complexity, context windows), improving model reasoning and long-context capabilities, and advancing multimodal AI systems. The content emphasizes practical applications like combining LLMs with graph neural networks and knowledge graphs, alongside emerging techniques such as diffusion models, reinforcement learning from human feedback, and parameter-efficient fine-tuning methods.",
+      "domain": "blog.sparsh.dev",
+      "source_date": "2026-08-02",
+      "page_title": "Research topics in ML, AI and Deep Learning",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/research-topics-in-ml-ai-and-deep-learning-1246.md"
+    },
+    {
+      "id": 1249,
+      "url": "https://github.com/anyaa-labs/agent-skills",
+      "title": null,
+      "description": "agent-skills - Claude Code and Codex skills for evaluating and designing multi-agent systems",
+      "summary": "Agent-skills is a GitHub repository providing Claude Code and Codex skills for evaluating and designing multi-agent AI systems. The primary tool, agent-architect, offers three modes: AUDIT (comprehensive 11-dimension evaluation of existing systems), REVIEW (focused analysis of specific prompts or tools), and DESIGN (architecting new agent systems from scratch), with capabilities covering production-level concerns like API contracts, tool governance, and multimodal surfaces. The skills can be installed locally and invoked through Claude Code or Codex, with the framework designed to be extensible through new skill modules.",
+      "domain": "github.com",
+      "source_date": "2026-08-01",
+      "page_title": "GitHub - anyaa-labs/agent-skills · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "distributed-systems"
+      ],
+      "markdown_path": "technical-topic/github-anyaa-labs-agent-skills-github-1249.md"
+    },
+    {
+      "id": 1248,
+      "url": "https://paulgraham.com/greatwork.html",
+      "title": null,
+      "description": "how to do great work",
+      "summary": "Paul Graham outlines a universal framework for doing great work across any field, consisting of four main steps: choose work that matches your natural aptitude and deep interests, learn enough to reach the frontier of knowledge in that field, notice gaps and overlooked problems, and boldly explore the most promising ones. The key to success is driven by genuine curiosity and interest rather than mere discipline, since these intrinsic motivations will sustain the hard work required, while young people should actively experiment with different fields rather than passively waiting to discover their calling.",
+      "domain": "paulgraham.com",
+      "source_date": "2026-08-01",
+      "page_title": "How to Do Great Work",
+      "tags": [
+        "nonfiction-book",
+        "tutorial"
+      ],
+      "markdown_path": "culture/how-to-do-great-work-1248.md"
+    },
+    {
+      "id": 1254,
+      "url": "https://youtu.be/sRTierdN9c4?si=2VTAlzrAgnk1iWVt",
+      "title": null,
+      "description": "Mike Williams & Björn Gustafsson on Building the JAM",
+      "summary": "I don't have access to the actual video content from this YouTube link. The text provided only shows YouTube's standard footer information (copyright, links, etc.) rather than the video's description or transcript. To provide an accurate summary of Mike Williams and Björn Gustafsson's discussion about building the JAM, I would need access to the video's full description, transcript, or actual content.",
+      "domain": "youtu.be",
+      "source_date": "2026-07-31",
+      "page_title": "Mike Williams & Björn Gustafsson on Building the JAM - YouTube",
+      "tags": [
+        "video",
+        "github-repo"
+      ],
+      "markdown_path": "culture/mike-williams-bj-rn-gustafsson-on-building-the-jam-youtube-1254.md"
+    },
+    {
+      "id": 1253,
+      "url": "https://kk.org/thetechnium/1000-true-fans/",
+      "title": null,
+      "description": "1,000 true fans",
+      "summary": "The Technium: 1,000 True Fans - 1,000 true fans",
+      "domain": "kk.org",
+      "source_date": "2026-07-31",
+      "page_title": "The Technium: 1,000 True Fans",
+      "tags": [
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/the-technium-1-000-true-fans-1253.md"
+    },
+    {
+      "id": 1252,
+      "url": "https://github.com/yc-software/qm",
+      "title": null,
+      "description": "qm - A multiplayer agent harness for work. In Slack and on the web",
+      "summary": "QM is an open-source multiplayer agent harness designed for startups that allows employees to work with AI agents both independently and collaboratively within Slack and web interfaces. Unlike personal assistant-style agents, QM provides isolated workspaces for each user with their own scoped memory, files, and permissions, while supporting shared collaboration in channels and projects, and works with multiple AI models including Claude Code and OpenCode. The platform emphasizes security by having agents act with user credentials and permissions, offers customizable deployment configurations, and allows organizations to maintain private forks of the codebase while keeping the core synchronized with upstream updates.",
+      "domain": "github.com",
+      "source_date": "2026-07-31",
+      "page_title": "GitHub - yc-software/qm: Multiplayer agent harness for work · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-yc-software-qm-multiplayer-agent-harness-for-work-1252.md"
+    },
+    {
+      "id": 1251,
+      "url": "https://en.wikipedia.org/wiki/Why_Fish_Don%27t_Exist",
+      "title": null,
+      "description": "Why Fish Don't Exist",
+      "summary": "\"Why Fish Don't Exist\" is a 2020 memoir by Lulu Miller that interweaves her personal struggles with depression and her relationship with her father with the life of 19th-century taxonomist David Starr Jordan, examining how humans search for order and meaning in a chaotic world. The book critiques Jordan's dogmatic approach to categorizing nature, particularly referencing how modern science has undermined the very concept of \"fish\" as a distinct evolutionary category, ultimately arguing that while the universe is fundamentally chaotic, meaning can be found through relationships and curiosity. The memoir received critical acclaim and was longlisted for the Women's Prize for Non-Fiction in 2025.",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-07-31",
+      "page_title": "Why Fish Don't Exist - Wikipedia",
+      "tags": [
+        "nonfiction-book",
+        "biology",
+        "psychology"
+      ],
+      "markdown_path": "culture/why-fish-don-t-exist-wikipedia-1251.md"
+    },
+    {
+      "id": 1250,
+      "url": "https://earendil.com/posts/session-portability/",
+      "title": null,
+      "description": "AI Session Portability",
+      "summary": "Modern AI inference APIs are increasingly moving away from portable sessions, where users can export their conversation history and continue it with a different provider or model. Instead, providers are locking users into their ecosystems through opaque encrypted reasoning tokens, hidden web search results, server-side state storage, and provider-sealed data that cannot be inspected or transferred. This shift fundamentally changes session ownership from users to providers, making it impossible to truly own, audit, or port conversations despite providers' privacy justifications for these restrictions.",
+      "domain": "earendil.com",
+      "source_date": "2026-07-31",
+      "page_title": "The Session You Cannot Take With You | EARENDIL",
+      "tags": [
+        "ai",
+        "llm",
+        "security"
+      ],
+      "markdown_path": "technical-topic/the-session-you-cannot-take-with-you-earendil-1250.md"
+    },
+    {
+      "id": 1255,
+      "url": "https://archive.ph/iOLaH",
+      "title": null,
+      "description": "Three Journeys: Anton Chekhov on the Road - New Yorker",
+      "summary": "This article examines Anton Chekhov's 1890 journey to the Russian prison colony of Sakhalin, exploring how the six-thousand-mile expedition served as a personal and creative turning point in his life. Though Chekhov's resulting book \"The Island of Sakhalin\" prioritized scientific documentation over literary artistry and lacked the brilliance of his fiction, the arduous journey itself proved transformative—paradoxically, the consumptive writer thrived physically during the expedition and used it to escape the creative and personal stagnation he felt after his brother's death from tuberculosis. The piece emphasizes that Chekhov undertook the trip not for material to write about, but fundamentally to live differently and reinvigorate himself.",
+      "domain": "archive.ph",
+      "source_date": "2026-07-30",
+      "page_title": "Anton Chekhov on the Road | The New Yorker",
+      "tags": [
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/anton-chekhov-on-the-road-the-new-yorker-1255.md"
+    },
     {
       "id": 1231,
       "url": "https://koreader.rocks/",
@@ -77,6 +247,21 @@
         "video"
       ],
       "markdown_path": "technical-topic/fonts-in-use-fonts-in-use-1232.md"
+    },
+    {
+      "id": 1256,
+      "url": "https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus",
+      "title": null,
+      "description": "The Absurdity of Albert Camus",
+      "summary": "The Absurdity of Albert Camus",
+      "domain": "www.historytoday.com",
+      "source_date": "2026-07-26",
+      "page_title": null,
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/the-absurdity-of-albert-camus-1256.md"
     },
     {
       "id": 1237,
@@ -19569,37 +19754,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 380
+      "count": 381
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 286
+      "count": 290
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 253
+      "count": 257
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 239
+      "count": 241
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 216
+      "count": 220
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 211
+      "count": 213
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 208
+      "count": 209
     },
     {
       "name": "web-dev",
@@ -19619,7 +19804,7 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 119
+      "count": 120
     },
     {
       "name": "news",
@@ -19632,14 +19817,14 @@
       "count": 109
     },
     {
+      "name": "nonfiction-book",
+      "category": "culture",
+      "count": 105
+    },
+    {
       "name": "social-media",
       "category": "culture",
       "count": 101
-    },
-    {
-      "name": "nonfiction-book",
-      "category": "culture",
-      "count": 100
     },
     {
       "name": "database",
@@ -19649,12 +19834,12 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 57
+      "count": 58
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 44
+      "count": 45
     },
     {
       "name": "physics",
@@ -19664,7 +19849,7 @@
     {
       "name": "biology",
       "category": "science",
-      "count": 37
+      "count": 38
     },
     {
       "name": "c",
@@ -19679,7 +19864,7 @@
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 28
+      "count": 29
     },
     {
       "name": "lisp",
@@ -19782,6 +19967,11 @@
       "count": 5
     },
     {
+      "name": "psychology",
+      "category": "science",
+      "count": 5
+    },
+    {
       "name": "ruby",
       "category": "programming_language",
       "count": 4
@@ -19789,11 +19979,6 @@
     {
       "name": "swift",
       "category": "programming_language",
-      "count": 4
-    },
-    {
-      "name": "psychology",
-      "category": "science",
       "count": 4
     },
     {
@@ -19830,7 +20015,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 142
+      "count": 145
     },
     {
       "domain": "www.threads.net",
@@ -19877,6 +20062,10 @@
       "count": 5
     },
     {
+      "domain": "en.wikipedia.org",
+      "count": 5
+    },
+    {
       "domain": "gwern.net",
       "count": 5
     },
@@ -19905,10 +20094,6 @@
       "count": 4
     },
     {
-      "domain": "en.wikipedia.org",
-      "count": 4
-    },
-    {
       "domain": "mitpress.mit.edu",
       "count": 4
     },
@@ -19918,6 +20103,10 @@
     },
     {
       "domain": "www.dbreunig.com",
+      "count": 4
+    },
+    {
+      "domain": "youtu.be",
       "count": 4
     },
     {
@@ -19938,6 +20127,10 @@
     },
     {
       "domain": "medium.com",
+      "count": 3
+    },
+    {
+      "domain": "paulgraham.com",
       "count": 3
     },
     {
@@ -19962,10 +20155,6 @@
     },
     {
       "domain": "x.com",
-      "count": 3
-    },
-    {
-      "domain": "youtu.be",
       "count": 3
     },
     {
@@ -20025,6 +20214,10 @@
       "count": 2
     },
     {
+      "domain": "kk.org",
+      "count": 2
+    },
+    {
       "domain": "kristoff.it",
       "count": 2
     },
@@ -20062,10 +20255,6 @@
     },
     {
       "domain": "outingsandinnings.harvard.edu",
-      "count": 2
-    },
-    {
-      "domain": "paulgraham.com",
       "count": 2
     },
     {
@@ -20258,6 +20447,10 @@
     },
     {
       "domain": "archive.org",
+      "count": 1
+    },
+    {
+      "domain": "archive.ph",
       "count": 1
     },
     {
@@ -20458,6 +20651,10 @@
     },
     {
       "domain": "blog.racket-lang.org",
+      "count": 1
+    },
+    {
+      "domain": "blog.sparsh.dev",
       "count": 1
     },
     {
@@ -20853,6 +21050,10 @@
       "count": 1
     },
     {
+      "domain": "earendil.com",
+      "count": 1
+    },
+    {
       "domain": "eavan.blog",
       "count": 1
     },
@@ -21238,10 +21439,6 @@
     },
     {
       "domain": "kevinlynagh.com",
-      "count": 1
-    },
-    {
-      "domain": "kk.org",
       "count": 1
     },
     {
@@ -21897,6 +22094,10 @@
       "count": 1
     },
     {
+      "domain": "share.google",
+      "count": 1
+    },
+    {
       "domain": "share.snipd.com",
       "count": 1
     },
@@ -22426,6 +22627,10 @@
     },
     {
       "domain": "www.hirox-europe.com",
+      "count": 1
+    },
+    {
+      "domain": "www.historytoday.com",
       "count": 1
     },
     {
