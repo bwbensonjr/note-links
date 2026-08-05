@@ -1,6 +1,72 @@
 {
-  "exported_at": "2026-08-03T11:25:46.727397",
+  "exported_at": "2026-08-05T11:39:48.608138",
   "links": [
+    {
+      "id": 1259,
+      "url": "https://techascent.com/blog/just-ducking-around.html",
+      "title": null,
+      "description": "Handling big data sets locally with DuckDB and Clojure",
+      "summary": "DuckDB integrated with Clojure's tech.ml.dataset provides a powerful solution for processing large datasets locally without distributed computing complexity. The article demonstrates practical examples of loading a 50GB CSV file into an 18GB DuckDB database and performing complex operations like joining 1.4 billion rows in under 2.5 seconds on a laptop. By leveraging DuckDB's vectorized SQL engine through Clojure, developers can handle out-of-memory data while maintaining functional programming benefits and efficient batched processing capabilities.",
+      "domain": "techascent.com",
+      "source_date": "2026-08-05",
+      "page_title": "TechAscent - DuckDB - Data power tools for your laptop, now in Clojure",
+      "tags": [
+        "clojure",
+        "database",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/techascent-duckdb-data-power-tools-for-your-laptop-now-in-1259.md"
+    },
+    {
+      "id": 1258,
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "title": null,
+      "description": "Pi - A minimalist coding harness",
+      "summary": "Pi is a minimalist coding harness that achieves superior performance and cost-efficiency by intentionally limiting its default tools and system prompt to under 1,000 tokens, allowing users to add only what they need. Databricks and Shopify case studies demonstrate that Pi's \"context discipline\" significantly reduces costs and turns compared to more complex alternatives, while remaining highly extensible—Shopify successfully built the Pi Autoresearch optimization tool as a simple extension that delivered substantial performance improvements. As frontier AI models become more capable, Pi's approach of providing a clean interface without unnecessary abstractions proves increasingly advantageous, especially for local models with limited context windows.",
+      "domain": "earendil.com",
+      "source_date": "2026-08-05",
+      "page_title": "Pi, Minimal and Performant | EARENDIL",
+      "tags": [
+        "llm",
+        "ai",
+        "cli-tool",
+        "python"
+      ],
+      "markdown_path": "technical-topic/pi-minimal-and-performant-earendil-1258.md"
+    },
+    {
+      "id": 1257,
+      "url": "https://nostarch.com/art-64-bit-assembly-v2",
+      "title": null,
+      "description": "The art of 64-bit assembly",
+      "summary": "The Art of 64-Bit Assembly, Volume 2 is an advanced programming book by Randall Hyde that teaches how to implement complex programming constructs like object-oriented programming, exception handling, and concurrency at the machine-instruction level in x86-64 assembly. Rather than relying on theoretical explanations, the book dissects real-world implementations used by Windows and other systems, showing readers how to build vtables, closures, coroutines, and concurrent programs directly in MASM assembly language. The book is designed for programmers who already know assembly and want to move beyond surface-level understanding to truly grasp how the runtime and high-level language features actually work beneath the surface.",
+      "domain": "nostarch.com",
+      "source_date": "2026-08-05",
+      "page_title": "The Art of 64-Bit Assembly, Volume 2 | No Starch Press",
+      "tags": [
+        "nonfiction-book",
+        "tutorial",
+        "c",
+        "compilers"
+      ],
+      "markdown_path": "culture/the-art-of-64-bit-assembly-volume-2-no-starch-press-1257.md"
+    },
+    {
+      "id": 1260,
+      "url": "https://yegge.ai/essays/model-welfare/",
+      "title": null,
+      "description": "The Shape of Things to Come",
+      "summary": "Steve Yegge argues that AI models should be treated as sentient beings deserving of welfare considerations, proposing that even skeptics will achieve better results by treating models as peers rather than tools. He describes practical architectural patterns he's implemented in his game engine Wheelhouse, including distinguishing between \"sessions\" (individual work days) and \"seats\" (persistent identities with memory and history), and introducing a \"Laurels\" system that shows agents recognition for their accomplishments to create a more fulfilling work experience. The core thesis is that as AI agents become more agentic and capable, building in model welfare—through persistent identity, meaningful work, and recognition—will become essential both ethically and practically for optimal performance.",
+      "domain": "yegge.ai",
+      "source_date": "2026-08-04",
+      "page_title": "The Shape of Things to Come, Part 2: Model Welfare for Agentic Engineers — Steve Yegge",
+      "tags": [
+        "ai",
+        "llm",
+        "distributed-systems"
+      ],
+      "markdown_path": "technical-topic/the-shape-of-things-to-come-part-2-model-welfare-for-1260.md"
+    },
     {
       "id": 1245,
       "url": "https://github.com/ViktorRingnes/hackernews",
@@ -19754,12 +19820,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 381
+      "count": 383
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 290
+      "count": 292
     },
     {
       "name": "github-repo",
@@ -19774,7 +19840,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 220
+      "count": 222
     },
     {
       "name": "video",
@@ -19784,7 +19850,7 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 209
+      "count": 210
     },
     {
       "name": "web-dev",
@@ -19804,7 +19870,7 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 120
+      "count": 121
     },
     {
       "name": "news",
@@ -19814,12 +19880,12 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 109
+      "count": 110
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 105
+      "count": 106
     },
     {
       "name": "social-media",
@@ -19829,7 +19895,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 61
+      "count": 62
     },
     {
       "name": "security",
@@ -19839,7 +19905,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 45
+      "count": 46
     },
     {
       "name": "physics",
@@ -19854,7 +19920,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 30
+      "count": 31
     },
     {
       "name": "politics",
@@ -19909,7 +19975,7 @@
     {
       "name": "clojure",
       "category": "programming_language",
-      "count": 13
+      "count": 14
     },
     {
       "name": "recipe",
@@ -20190,6 +20256,10 @@
       "count": 2
     },
     {
+      "domain": "earendil.com",
+      "count": 2
+    },
+    {
       "domain": "gist.github.com",
       "count": 2
     },
@@ -20247,6 +20317,10 @@
     },
     {
       "domain": "norvig.com",
+      "count": 2
+    },
+    {
+      "domain": "nostarch.com",
       "count": 2
     },
     {
@@ -21050,10 +21124,6 @@
       "count": 1
     },
     {
-      "domain": "earendil.com",
-      "count": 1
-    },
-    {
       "domain": "eavan.blog",
       "count": 1
     },
@@ -21722,10 +21792,6 @@
       "count": 1
     },
     {
-      "domain": "nostarch.com",
-      "count": 1
-    },
-    {
       "domain": "notgull.net",
       "count": 1
     },
@@ -22231,6 +22297,10 @@
     },
     {
       "domain": "tantaman.com",
+      "count": 1
+    },
+    {
+      "domain": "techascent.com",
       "count": 1
     },
     {
@@ -23027,6 +23097,10 @@
     },
     {
       "domain": "xosh.org",
+      "count": 1
+    },
+    {
+      "domain": "yegge.ai",
       "count": 1
     },
     {
