@@ -1,6 +1,371 @@
 {
-  "exported_at": "2026-08-05T11:39:48.608138",
+  "exported_at": "2026-08-14T15:55:30.024570",
   "links": [
+    {
+      "id": 1267,
+      "url": "https://www.youtube.com/watch?v=MQeIerDsReA",
+      "title": null,
+      "description": "Haskell - Origin, Evolution, and Futures",
+      "summary": "I don't have access to the actual content of the YouTube video you've linked. The text you provided only shows YouTube's standard footer and metadata, not the video's description or content details. To provide an accurate summary about the Haskell presentation (\"Origin, Evolution, and Futures\"), I would need access to the video's full description, transcript, or the actual presentation slides.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-08-14",
+      "page_title": "Main Stage - Tent | JuliaCon Global 2026  | Day 1 - YouTube",
+      "tags": [
+        "haskell",
+        "video",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/main-stage-tent-juliacon-global-2026-day-1-youtube-1267.md"
+    },
+    {
+      "id": 1266,
+      "url": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "title": null,
+      "description": "Working on Economics with Fable 5",
+      "summary": "The author describes developing an economic theory over several months in collaboration with Claude (Fable 5), combining classical economics with modern task-based automation models to explain how wages are determined in aggregate—a problem current economics hasn't solved. The resulting model predicts that rising housing costs and land rents result from declining automation of cognitive tasks, and suggests that taxing scarce resources like land and implementing sovereign wealth funds could address economic inequality, drawing inspiration from Henry George's 19th-century ideas.",
+      "domain": "wilsoniumite.com",
+      "source_date": "2026-08-14",
+      "page_title": "Working on Economics with Fable 5 - Wilsons Blog",
+      "tags": [
+        "mathematics",
+        "academic-paper",
+        "ai"
+      ],
+      "markdown_path": "science/working-on-economics-with-fable-5-wilsons-blog-1266.md"
+    },
+    {
+      "id": 1265,
+      "url": "https://cdm.link/ableton-live-on-linux/",
+      "title": null,
+      "description": "Ableton Live and Push can now run on Linux, unofficially",
+      "summary": "Ableton Live and Push, professional music production tools traditionally limited to Windows and macOS, can now run on Linux through unofficial methods. This development opens up Ableton's ecosystem to the Linux community of musicians and producers who have long sought native support for these tools. The unofficial workaround represents a significant shift in accessibility for professional audio production on open-source operating systems.",
+      "domain": "cdm.link",
+      "source_date": "2026-08-14",
+      "page_title": "Ableton Live and Push can now run on Linux, unofficially - CDM Create Digital Music",
+      "tags": [
+        "music",
+        "devops",
+        "news"
+      ],
+      "markdown_path": "culture/ableton-live-and-push-can-now-run-on-linux-unofficially-cdm-1265.md"
+    },
+    {
+      "id": 1264,
+      "url": "https://cekrem.github.io/posts/there-is-still-no-silver-bullet/",
+      "title": null,
+      "description": "There is still no silver bullet",
+      "summary": "Fred Brooks' 1986 essay \"No Silver Bullet\" remains remarkably prescient in claiming that no single technology can dramatically improve software development productivity, because tools can only compress the \"accident\" (implementation details like syntax and boilerplate) rather than the \"essence\" (the conceptual work of deciding what the system should do). While modern AI and LLMs are effective accident-compressors that can boost productivity for certain roles, they cannot accelerate the core engineering work of design decisions, domain understanding, and problem-solving—which is where most senior engineers spend their time. The claim that \"code was never the hard part\" misrepresents both Brooks' argument and software engineering history, since the challenging, creative work of programming happens *through* writing code, not separate from it.",
+      "domain": "cekrem.github.io",
+      "source_date": "2026-08-14",
+      "page_title": "There Is Still No Silver Bullet · cekrem.github.io",
+      "tags": [
+        "academic-paper",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/there-is-still-no-silver-bullet-cekrem-github-io-1264.md"
+    },
+    {
+      "id": 1263,
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "title": null,
+      "description": "Google Sheets Canvas",
+      "summary": "Google Sheets now offers Sheets canvas, a new AI-powered feature that transforms spreadsheet data into interactive visual mini-apps without requiring any coding knowledge. Users can simply describe their needs to Gemini, which then creates custom layouts like study trackers, dashboards, or seating charts that automatically sync with the original spreadsheet data. The feature is available to Google AI Pro and Ultra subscribers and select Google Workspace customers, making data visualization and organization more intuitive and accessible.",
+      "domain": "blog.google",
+      "source_date": "2026-08-14",
+      "page_title": "Build mini-apps with Gemini in Google Sheets",
+      "tags": [
+        "ai",
+        "llm",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/build-mini-apps-with-gemini-in-google-sheets-1263.md"
+    },
+    {
+      "id": 1262,
+      "url": "https://blog.djhaskin.com/blog/common-lisp-community-survey-2024-results/",
+      "title": null,
+      "description": "Common Lisp Community Survey 2024",
+      "summary": "The 2024 Common Lisp Community Survey gathered responses from 293 community members and revealed that approximately 37% use Common Lisp professionally while 97% use it for personal projects, with a significant portion having experience spanning more than 10 years. The survey identified Steel Bank Common Lisp as the dominant implementation (87.67%), while Reddit's r/Common_Lisp community (31.89%) and IRC's #commonlisp channel (19.96%) emerged as the primary platforms where developers engage with the community. The results highlighted that the Common Lisp community remains active and engaged, though the survey's creator acknowledged methodological limitations and plans to improve future iterations through pre-survey community feedback.",
+      "domain": "blog.djhaskin.com",
+      "source_date": "2026-08-14",
+      "page_title": "Common Lisp Community Survey 2024 Results — Dan's Musings",
+      "tags": [
+        "common-lisp",
+        "news"
+      ],
+      "markdown_path": "programming-language/common-lisp-community-survey-2024-results-dan-s-musings-1262.md"
+    },
+    {
+      "id": 1261,
+      "url": "https://blog.djhaskin.com/blog/muxxy-like-slime-for-ai-tmux/",
+      "title": null,
+      "description": "Muxxy: Like Slime, for AI + Tmux",
+      "summary": "Muxxy is a new CLI tool that enables AI assistants to interact with REPLs (read-eval-print loops) through tmux, inspired by the vim-slime plugin's functionality. The author developed it after struggling to get AI tools to effectively interact with Common Lisp and other languages' REPLs, addressing limitations of previous solutions like MCP servers and Swank. The tool comes with built-in support for SBCL, Python, iPython, and Ruby, along with a customizable prompt flag, and includes an AI skill that guides language models on how to use it effectively.",
+      "domain": "blog.djhaskin.com",
+      "source_date": "2026-08-14",
+      "page_title": "Muxxy: Like Slime, for AI + Tmux — Dan's Musings",
+      "tags": [
+        "cli-tool",
+        "ai",
+        "common-lisp",
+        "python",
+        "ruby"
+      ],
+      "markdown_path": "technical-topic/muxxy-like-slime-for-ai-tmux-dan-s-musings-1261.md"
+    },
+    {
+      "id": 1269,
+      "url": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
+      "title": null,
+      "description": "A good article working through Gödel's incompleteness theorem",
+      "summary": "Gödel's incompleteness theorems, proved in 1931, demonstrated that any mathematical system built on a set of axioms will inevitably contain true statements that cannot be proved within that system, shattering the dream of a complete and consistent foundation for all mathematics. The article explains how Gödel achieved this by developing a clever mapping system called Gödel numbering, which converts mathematical statements into unique numbers, allowing a system to make statements about itself and ultimately prove that no set of axioms can verify its own consistency. Nearly a century later, mathematicians have discovered numerous undecidable questions that Gödel's theorems predicted, revealing fundamental limits to what can be proven in both mathematics and physics.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-08-13",
+      "page_title": "How Gödel’s Proof Works | Quanta Magazine",
+      "tags": [
+        "mathematics",
+        "academic-paper"
+      ],
+      "markdown_path": "science/how-g-del-s-proof-works-quanta-magazine-1269.md"
+    },
+    {
+      "id": 1268,
+      "url": "https://youtu.be/32olHvp9npo?si=otsR9k0mgCikbkz_",
+      "title": null,
+      "description": "Buddy Rich Big Band - Love For Sale - 1982",
+      "summary": "I don't have access to the actual video content from this YouTube link, only the page metadata and footer information. To provide an accurate summary of Buddy Rich's \"Love For Sale\" 1982 performance, I would need access to the video itself or a detailed description of its content. If you could share more details about what happens in the performance, I'd be happy to create a summary for you.",
+      "domain": "youtu.be",
+      "source_date": "2026-08-13",
+      "page_title": "The Buddy Rich Show - \"Love For Sale\" 1982 Performance - YouTube",
+      "tags": [
+        "video",
+        "music"
+      ],
+      "markdown_path": "culture/the-buddy-rich-show-love-for-sale-1982-performance-youtube-1268.md"
+    },
+    {
+      "id": 1277,
+      "url": "https://arxiv.org/abs/2608.09530",
+      "title": null,
+      "description": "The Unseen Delta: Characterizing the Compiler Optimization Landscape via Top-Down Differential Analysis",
+      "summary": "This paper introduces a top-down differential analysis methodology to identify and characterize performance bugs in compiler optimizations by comparing binaries generated by different compilers (GCC and Clang) for identical source code. The approach uses hierarchical microarchitectural metrics to pinpoint root causes of performance discrepancies and includes a binary patching framework that transplants superior code sequences between compilers to fix identified inefficiencies. The work reveals systemic challenges in compiler optimizations and provides a novel perspective for understanding optimization defects beyond traditional bottom-up approaches.",
+      "domain": "arxiv.org",
+      "source_date": "2026-08-11",
+      "page_title": "[2608.09530] The Unseen Delta: Characterizing the Compiler Optimization Landscape via Top-Down Differential Analysis",
+      "tags": [
+        "academic-paper",
+        "compilers",
+        "c",
+        "cpp"
+      ],
+      "markdown_path": "technical-topic/2608-09530-the-unseen-delta-characterizing-the-compiler-1277.md"
+    },
+    {
+      "id": 1276,
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "title": null,
+      "description": "Compression is prediction",
+      "summary": "The article explores the fundamental connection between data compression and language modeling, demonstrating that both rely on identifying patterns and predicting what comes next. Using arithmetic coding as the primary example, it explains how compressors work by building probability models of data—assigning higher probabilities to more frequent symbols—and using entropy coders to convert these probabilities into efficient binary representations. The key insight is that better probability predictions lead to better compression, establishing compression as fundamentally an act of prediction.",
+      "domain": "ngrok.com",
+      "source_date": "2026-08-11",
+      "page_title": "Compression is prediction | ngrok blog",
+      "tags": [
+        "compilers",
+        "mathematics",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/compression-is-prediction-ngrok-blog-1276.md"
+    },
+    {
+      "id": 1275,
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "title": null,
+      "description": "Mojo 1.0 release",
+      "summary": "Mojo has officially reached version 1.0, marking a major milestone in its evolution from an experimental language to a stable, production-ready foundation for long-term development. The release emphasizes language consistency and stability, with improvements including Python-style lambda syntax, better memory safety diagnostics, and a more reliable LSP server, while committing to primarily additive changes during the 1.x timeframe. Beyond this foundational release, Modular plans to continue expanding Mojo as a general-purpose systems programming language with features like asynchronous programming and pattern matching, while also enhancing MAX with new model support and easier installation options.",
+      "domain": "www.modular.com",
+      "source_date": "2026-08-11",
+      "page_title": "Modular: Modular 26.5: Mojo 1.0 is here!",
+      "tags": [
+        "python",
+        "compilers",
+        "github-repo"
+      ],
+      "markdown_path": "programming-language/modular-modular-26-5-mojo-1-0-is-here-1275.md"
+    },
+    {
+      "id": 1274,
+      "url": "https://jolt-lang.github.io/",
+      "title": null,
+      "description": "Jolt - Clojure implemented in Chez Scheme",
+      "summary": "Jolt is a Clojure implementation built on Chez Scheme that provides a self-hosted compiler capable of generating standalone executables without requiring the JVM or additional runtime dependencies. It maintains most Clojure semantics including persistent data structures, lazy sequences, transducers, multimethods, protocols, and real concurrency through OS threads, with the main limitations being the absence of Java interop and BigDecimal support. The project offers multiple installation options and can be used interactively via nREPL or compiled into single self-contained binaries for distribution.",
+      "domain": "jolt-lang.github.io",
+      "source_date": "2026-08-11",
+      "page_title": "Jolt — Clojure on Scheme",
+      "tags": [
+        "scheme",
+        "clojure",
+        "compilers",
+        "github-repo"
+      ],
+      "markdown_path": "programming-language/jolt-clojure-on-scheme-1274.md"
+    },
+    {
+      "id": 1273,
+      "url": "https://www.chiply.dev/post-elisp-macros-are-beautiful",
+      "title": null,
+      "description": "Gödel, Escher, Elisp: The Beauty of Macros",
+      "summary": "This article explores the elegant and powerful nature of Elisp macros, drawing parallels to the mathematical beauty found in Gödel's work and the artistic patterns in Escher's compositions. The piece argues that macros in Elisp represent a unique form of elegance in programming by enabling code to manipulate and transform itself, creating a level of abstraction and meta-programming capability that mirrors the recursive and self-referential patterns seen in mathematics and art. Through this lens, the author demonstrates how Elisp macros exemplify the intersection of logical rigor, creative expression, and practical functionality in programming.",
+      "domain": "www.chiply.dev",
+      "source_date": "2026-08-11",
+      "page_title": "Gödel, Escher, Elisp: The Beauty of Macros | Charlie Holland's Blog",
+      "tags": [
+        "lisp",
+        "tutorial",
+        "mathematics"
+      ],
+      "markdown_path": "programming-language/g-del-escher-elisp-the-beauty-of-macros-charlie-holland-s-1273.md"
+    },
+    {
+      "id": 1272,
+      "url": "https://github.com/danielsz/bioscoop/blob/master/paper/programming/bioscoop_paper.pdf",
+      "title": null,
+      "description": "Bioscoop: A Domain-Specific Language for FFmpeg Filtergraph Composition",
+      "summary": "Bioscoop is a domain-specific language (DSL) designed to simplify the composition of FFmpeg filtergraphs, which are complex video processing pipelines. The project is hosted on GitHub as an open-source repository that provides a more user-friendly approach to working with FFmpeg's powerful but complicated filtergraph syntax. The associated paper provides technical documentation on the language's design and implementation for video processing automation.",
+      "domain": "github.com",
+      "source_date": "2026-08-11",
+      "page_title": "bioscoop/paper/programming/bioscoop_paper.pdf at master · danielsz/bioscoop · GitHub",
+      "tags": [
+        "github-repo",
+        "academic-paper",
+        "compilers",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/bioscoop-paper-programming-bioscoop-paper-pdf-at-master-1272.md"
+    },
+    {
+      "id": 1271,
+      "url": "https://github.com/danielsz/bioscoop",
+      "title": null,
+      "description": "A lisp language to FFmpeg filter language compiler",
+      "summary": "Bioscoop is a Lisp-based DSL compiler that translates simplified Lisp syntax into FFmpeg filtergraphs, addressing the complexity and error-proneness of FFmpeg's native string-based syntax. It improves upon native FFmpeg by offering structural integrity through immutable data structures, composable architecture for reusable filter components, automatic label management, bidirectional transformation capabilities, and parametrization with iteration support. The tool enables creative video coding with enhanced maintainability, type safety, and the ability to generate complex filtergraphs programmatically—for example, a slideshow that would require 90 lines of FFmpeg syntax can be expressed in a few lines of Bioscoop code.",
+      "domain": "github.com",
+      "source_date": "2026-08-11",
+      "page_title": "GitHub - danielsz/bioscoop: FFmpeg DSL for creative coding · GitHub",
+      "tags": [
+        "github-repo",
+        "lisp",
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/github-danielsz-bioscoop-ffmpeg-dsl-for-creative-coding-1271.md"
+    },
+    {
+      "id": 1270,
+      "url": "https://github.com/mateusdcc/pi-gpt-search",
+      "title": null,
+      "description": "Model-independent web search for Pi",
+      "summary": "pi-gpt-search is a tool that adds real-time web search capabilities to any AI model (Gemini, Claude, local models) by leveraging OpenAI's standalone search infrastructure without consuming any GPT tokens or model inference. It offers both slash commands and automatic LLM tools for quick lookups and deep research, requires a Pi CLI installation and authenticated Codex session, and includes comprehensive testing and documentation. The tool prioritizes data privacy by default and maintains model sovereignty, allowing users to choose their preferred AI model while gaining web search functionality at no token cost.",
+      "domain": "github.com",
+      "source_date": "2026-08-11",
+      "page_title": "GitHub - mateusdcc/pi-gpt-search: Native, Model-Independent Web Search for Pi using OpenAI Codex Standalone Search Engine. · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "cli-tool",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-mateusdcc-pi-gpt-search-native-model-independent-web-1270.md"
+    },
+    {
+      "id": 1278,
+      "url": "https://cooking.nytimes.com/recipes/769626473-slow-cooker-chicken-diavolo-orzo",
+      "title": null,
+      "description": "Slow cooker chicken thighs and orzo",
+      "summary": "This slow cooker recipe features chicken thighs braised in a spicy tomato-based sauce inspired by Italian chicken diavolo, combining roasted red peppers, sun-dried tomatoes, and hot cherry peppers for depth of flavor. The dish is completed by cooking orzo pasta directly in the flavorful braising liquid during the final 15 minutes, with optional cream added at the end to balance the heat. The entire one-pot meal requires minimal active prep and cooks on low for approximately five and a half hours, making it an easy weeknight dinner that yields 4-6 servings.",
+      "domain": "cooking.nytimes.com",
+      "source_date": "2026-08-10",
+      "page_title": "Slow Cooker Chicken Diavolo With Orzo Recipe",
+      "tags": [
+        "recipe"
+      ],
+      "markdown_path": "culture/slow-cooker-chicken-diavolo-with-orzo-recipe-1278.md"
+    },
+    {
+      "id": 1280,
+      "url": "https://www.bostonglobe.com/2026/08/07/magazine/homes-route-20-kenmore-watertown/",
+      "title": null,
+      "description": "Boston-area condos for sale along Route 20, the longest road in the country",
+      "summary": "The article features two condominium units for sale along Route 20 in the Boston area: a one-bedroom unit in Kenmore Square priced at $449,999 with excellent walkability and proximity to transit, and a three-bedroom penthouse in Watertown listed at $949,900 with modern amenities and parking included. Both properties offer distinct advantages—the Kenmore unit emphasizes urban convenience near Fenway Park and Boston University, while the Watertown unit provides more space and building facilities like a fitness room and EV charging, though it faces the drawback of being on a busy road.",
+      "domain": "www.bostonglobe.com",
+      "source_date": "2026-08-09",
+      "page_title": "See two units on Route 20 in Kenmore and Watertown",
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/see-two-units-on-route-20-in-kenmore-and-watertown-1280.md"
+    },
+    {
+      "id": 1279,
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_20",
+      "title": null,
+      "description": "US Route 20 - The longest road in the United States",
+      "summary": "U.S. Route 20 is the longest road in the United States, spanning 3,254.49 miles from Newport, Oregon on the Pacific Coast to Boston, Massachusetts. The east-west highway passes through 12 states and serves as a major coast-to-coast route roughly parallel to Interstate 90, though it has an unofficial discontinuity through Yellowstone National Park. The route traverses diverse landscapes including coastal mountains, deserts, plains, and river valleys across the Pacific Northwest and New England regions.",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-08-09",
+      "page_title": "U.S. Route 20 - Wikipedia",
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/u-s-route-20-wikipedia-1279.md"
+    },
+    {
+      "id": 1282,
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "title": null,
+      "description": "Auto mode will become the default for Claude",
+      "summary": "Claude's auto mode has been set as the default setting for Pro, Max, and Team plan users, streamlining the user experience by automatically enabling this feature rather than requiring manual activation. This change simplifies access to Claude's automated capabilities for paying subscribers across these plan tiers. The update reflects Anthropic's effort to make advanced features more accessible to their user base by making them opt-out rather than opt-in.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-08-08",
+      "page_title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "tags": [
+        "llm",
+        "ai",
+        "news"
+      ],
+      "markdown_path": "technical-topic/auto-mode-is-now-the-default-in-claude-code-for-pro-max-and-1282.md"
+    },
+    {
+      "id": 1281,
+      "url": "https://docs.langchain.com/oss/python/integrations/tools",
+      "title": null,
+      "description": "LangChain too integrations",
+      "summary": "LangChain provides integrations with various tools designed to work with AI models, organized into categories including search engines, code interpreters, productivity applications, web browsing, databases, finance, and workflow optimization. Each tool integration includes pricing information and details about supported features, such as returned data types, supported languages, and API capabilities. The documentation serves as a comprehensive reference for developers to find and integrate appropriate tools into their LangChain applications based on their specific use cases and requirements.",
+      "domain": "docs.langchain.com",
+      "source_date": "2026-08-08",
+      "page_title": "Tool integrations - Docs by LangChain",
+      "tags": [
+        "llm",
+        "ai",
+        "python",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/tool-integrations-docs-by-langchain-1281.md"
+    },
+    {
+      "id": 1283,
+      "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+      "title": null,
+      "description": "AWS adds vector search to DynamoDB",
+      "summary": "Amazon DynamoDB now natively supports real-time vector search, allowing users to store vector embeddings alongside their operational data and perform similarity searches directly without needing a separate vector database. This serverless capability supports up to 4096 dimensions with single-digit millisecond latency, eliminates the need for data synchronization pipelines, and scales automatically with no infrastructure management required. Users can generate embeddings using models like Amazon Bedrock or OpenAI, create vector indexes on existing tables, and perform semantic searches with optional filtering—making it ideal for applications like recommendation engines, retrieval-augmented generation, and personalized experiences.",
+      "domain": "aws.amazon.com",
+      "source_date": "2026-08-06",
+      "page_title": "Amazon DynamoDB now supports real-time vector search at any scale | AWS News Blog",
+      "tags": [
+        "database",
+        "ai",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/amazon-dynamodb-now-supports-real-time-vector-search-at-any-1283.md"
+    },
     {
       "id": 1259,
       "url": "https://techascent.com/blog/just-ducking-around.html",
@@ -19820,67 +20185,67 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 383
+      "count": 386
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 292
+      "count": 299
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 257
+      "count": 262
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 241
+      "count": 246
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 222
+      "count": 227
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 213
+      "count": 215
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 210
+      "count": 212
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 202
+      "count": 204
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 127
+      "count": 129
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 124
+      "count": 126
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 121
-    },
-    {
-      "name": "news",
-      "category": "culture",
-      "count": 110
+      "count": 125
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 110
+      "count": 116
+    },
+    {
+      "name": "news",
+      "category": "culture",
+      "count": 115
     },
     {
       "name": "nonfiction-book",
@@ -19895,7 +20260,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 62
+      "count": 63
     },
     {
       "name": "security",
@@ -19920,7 +20285,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 31
+      "count": 32
     },
     {
       "name": "politics",
@@ -19928,14 +20293,14 @@
       "count": 30
     },
     {
+      "name": "lisp",
+      "category": "programming_language",
+      "count": 30
+    },
+    {
       "name": "rust",
       "category": "programming_language",
       "count": 29
-    },
-    {
-      "name": "lisp",
-      "category": "programming_language",
-      "count": 28
     },
     {
       "name": "javascript",
@@ -19945,16 +20310,16 @@
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 18
-    },
-    {
-      "name": "gaming",
-      "category": "culture",
-      "count": 17
+      "count": 19
     },
     {
       "name": "common-lisp",
       "category": "programming_language",
+      "count": 19
+    },
+    {
+      "name": "gaming",
+      "category": "culture",
       "count": 17
     },
     {
@@ -19968,19 +20333,19 @@
       "count": 15
     },
     {
+      "name": "clojure",
+      "category": "programming_language",
+      "count": 15
+    },
+    {
       "name": "tv",
       "category": "culture",
       "count": 15
     },
     {
-      "name": "clojure",
-      "category": "programming_language",
-      "count": 14
-    },
-    {
       "name": "recipe",
       "category": "culture",
-      "count": 13
+      "count": 14
     },
     {
       "name": "movie",
@@ -19995,11 +20360,16 @@
     {
       "name": "haskell",
       "category": "programming_language",
-      "count": 10
+      "count": 11
     },
     {
       "name": "fiction-book",
       "category": "culture",
+      "count": 9
+    },
+    {
+      "name": "mathematics",
+      "category": "science",
       "count": 9
     },
     {
@@ -20020,6 +20390,11 @@
     {
       "name": "cpp",
       "category": "programming_language",
+      "count": 6
+    },
+    {
+      "name": "ruby",
+      "category": "programming_language",
       "count": 5
     },
     {
@@ -20028,19 +20403,9 @@
       "count": 5
     },
     {
-      "name": "mathematics",
-      "category": "science",
-      "count": 5
-    },
-    {
       "name": "psychology",
       "category": "science",
       "count": 5
-    },
-    {
-      "name": "ruby",
-      "category": "programming_language",
-      "count": 4
     },
     {
       "name": "swift",
@@ -20081,23 +20446,23 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 145
+      "count": 148
     },
     {
       "domain": "www.threads.net",
       "count": 89
     },
     {
-      "domain": "www.nytimes.com",
-      "count": 28
-    },
-    {
       "domain": "www.youtube.com",
-      "count": 28
+      "count": 29
     },
     {
       "domain": "simonwillison.net",
-      "count": 27
+      "count": 28
+    },
+    {
+      "domain": "www.nytimes.com",
+      "count": 28
     },
     {
       "domain": "www.threads.com",
@@ -20105,11 +20470,15 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 15
+      "count": 16
     },
     {
       "domain": "open.spotify.com",
       "count": 13
+    },
+    {
+      "domain": "www.quantamagazine.org",
+      "count": 10
     },
     {
       "domain": "bsky.app",
@@ -20120,15 +20489,19 @@
       "count": 9
     },
     {
-      "domain": "www.quantamagazine.org",
-      "count": 9
+      "domain": "en.wikipedia.org",
+      "count": 6
     },
     {
-      "domain": "eli.thegreenplace.net",
+      "domain": "www.bostonglobe.com",
+      "count": 6
+    },
+    {
+      "domain": "cooking.nytimes.com",
       "count": 5
     },
     {
-      "domain": "en.wikipedia.org",
+      "domain": "eli.thegreenplace.net",
       "count": 5
     },
     {
@@ -20148,15 +20521,19 @@
       "count": 5
     },
     {
-      "domain": "www.bostonglobe.com",
-      "count": 5
-    },
-    {
       "domain": "www.newyorker.com",
       "count": 5
     },
     {
-      "domain": "cooking.nytimes.com",
+      "domain": "youtu.be",
+      "count": 5
+    },
+    {
+      "domain": "blog.djhaskin.com",
+      "count": 4
+    },
+    {
+      "domain": "blog.google",
       "count": 4
     },
     {
@@ -20170,14 +20547,6 @@
     {
       "domain": "www.dbreunig.com",
       "count": 4
-    },
-    {
-      "domain": "youtu.be",
-      "count": 4
-    },
-    {
-      "domain": "blog.google",
-      "count": 3
     },
     {
       "domain": "computerhistory.org",
@@ -20228,11 +20597,11 @@
       "count": 2
     },
     {
-      "domain": "ben-mini.com",
+      "domain": "aws.amazon.com",
       "count": 2
     },
     {
-      "domain": "blog.djhaskin.com",
+      "domain": "ben-mini.com",
       "count": 2
     },
     {
@@ -20584,10 +20953,6 @@
       "count": 1
     },
     {
-      "domain": "aws.amazon.com",
-      "count": 1
-    },
-    {
       "domain": "ayosec.github.io",
       "count": 1
     },
@@ -20844,6 +21209,14 @@
       "count": 1
     },
     {
+      "domain": "cdm.link",
+      "count": 1
+    },
+    {
+      "domain": "cekrem.github.io",
+      "count": 1
+    },
+    {
       "domain": "cgit.git.savannah.gnu.org",
       "count": 1
     },
@@ -21093,6 +21466,10 @@
     },
     {
       "domain": "docs.deno.com",
+      "count": 1
+    },
+    {
+      "domain": "docs.langchain.com",
       "count": 1
     },
     {
@@ -21468,6 +21845,10 @@
       "count": 1
     },
     {
+      "domain": "jolt-lang.github.io",
+      "count": 1
+    },
+    {
       "domain": "jordanlord.co.uk",
       "count": 1
     },
@@ -21781,6 +22162,10 @@
     },
     {
       "domain": "news.harvard.edu",
+      "count": 1
+    },
+    {
+      "domain": "ngrok.com",
       "count": 1
     },
     {
@@ -22464,6 +22849,10 @@
       "count": 1
     },
     {
+      "domain": "wilsoniumite.com",
+      "count": 1
+    },
+    {
       "domain": "windowsread.me",
       "count": 1
     },
@@ -22565,6 +22954,10 @@
     },
     {
       "domain": "www.cbssports.com",
+      "count": 1
+    },
+    {
+      "domain": "www.chiply.dev",
       "count": 1
     },
     {
@@ -22837,6 +23230,10 @@
     },
     {
       "domain": "www.mintlify.com",
+      "count": 1
+    },
+    {
+      "domain": "www.modular.com",
       "count": 1
     },
     {
