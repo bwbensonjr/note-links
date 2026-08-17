@@ -1,6 +1,120 @@
 {
-  "exported_at": "2026-08-14T15:55:30.024570",
+  "exported_at": "2026-08-17T07:14:27.249829",
   "links": [
+    {
+      "id": 1288,
+      "url": "https://math-ai-org.github.io/mathcode/",
+      "title": null,
+      "description": "MathCode - A mathematical coding agent",
+      "summary": "MathCode is a terminal-based AI coding assistant that converts natural language math problems into formal Lean 4 theorems and automatically attempts to prove them. It features a persistent Lean REPL, reusable theorem and axiom libraries, an interactive proving agent that breaks complex proofs into subgoals, and an Obsidian knowledge graph to visualize theorem dependencies. The tool is available for macOS and Linux systems and can be tried with simple commands to formally verify mathematical statements.",
+      "domain": "math-ai-org.github.io",
+      "source_date": "2026-08-17",
+      "page_title": "MathCode — A Frontier Mathematical Coding Agent",
+      "tags": [
+        "ai",
+        "mathematics",
+        "llm",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/mathcode-a-frontier-mathematical-coding-agent-1288.md"
+    },
+    {
+      "id": 1287,
+      "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "title": null,
+      "description": "Rhombus v1.1",
+      "summary": "Rhombus version 1.1 has been released, featuring a general-purpose programming language designed for ease of use and customization. Key updates include new annotation definition methods, improved binding forms, enhanced class inheritance handling, and improvements to libraries like FFI, pict, and slideshow. The Rhombus team welcomes community feedback and participation in language design discussions through various channels including Discourse and Discord.",
+      "domain": "blog.racket-lang.org",
+      "source_date": "2026-08-17",
+      "page_title": "Rhombus v1.1",
+      "tags": [
+        "lisp",
+        "github-repo",
+        "compilers"
+      ],
+      "markdown_path": "programming-language/rhombus-v1-1-1287.md"
+    },
+    {
+      "id": 1286,
+      "url": "https://linear.axler.net/",
+      "title": null,
+      "description": "Linear Algebra Done Right",
+      "summary": "Linear Algebra Done Right by Sheldon Axler is a best-selling textbook available in multiple languages as a free open-access resource, with the fourth edition featuring over 250 new exercises and 70 new examples. The book takes a novel approach to linear algebra by postponing determinants to the end and focusing on understanding linear operators on finite-dimensional vector spaces through clear explanations and intuitive proofs. It has been adopted by over 430 universities and is praised for its pedagogical excellence and clarity, making it ideal for undergraduate mathematics majors and graduate students.",
+      "domain": "linear.axler.net",
+      "source_date": "2026-08-17",
+      "page_title": "Linear Algebra Done Right",
+      "tags": [
+        "mathematics",
+        "academic-paper",
+        "nonfiction-book",
+        "tutorial"
+      ],
+      "markdown_path": "science/linear-algebra-done-right-1286.md"
+    },
+    {
+      "id": 1285,
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "title": null,
+      "description": "Claude system prompts",
+      "summary": "I'm unable to provide a summary because the page content didn't load properly—it only shows repeated \"Loading\" text. To summarize the page about Claude system prompts, I would need the actual content to be available. You might want to try reloading the page or checking your internet connection, then sharing the content again.",
+      "domain": "platform.claude.com",
+      "source_date": "2026-08-17",
+      "page_title": "System Prompts - Claude Platform Docs",
+      "tags": [
+        "llm",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/system-prompts-claude-platform-docs-1285.md"
+    },
+    {
+      "id": 1284,
+      "url": "https://vida-nyu.github.io/Lea/",
+      "title": null,
+      "description": "Lea - An agent backbone for mathematician-led formalization",
+      "summary": "Lea is an agent-based system that helps mathematicians formalize proofs in the Lean programming language by allowing users to state theorems in natural language and automatically generating corresponding Lean code. The system provides an interactive interface where mathematicians can guide the proof development step-by-step, with the ability to edit, refine, or backtrack through previous versions. The example demonstrates Lea proving that the sum of √2 and √3 is irrational through an automated formalization process integrated into a web-based environment.",
+      "domain": "vida-nyu.github.io",
+      "source_date": "2026-08-17",
+      "page_title": "Lea — An agent backbone for mathematician-led formalization.",
+      "tags": [
+        "mathematics",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "science/lea-an-agent-backbone-for-mathematician-led-formalization-1284.md"
+    },
+    {
+      "id": 1289,
+      "url": "https://beautifulracket.com/",
+      "title": null,
+      "description": "Beautiful Racket",
+      "summary": "Beautiful Racket is an introductory book by Matthew Butterick on language-oriented programming using the Racket programming language. The resource provides comprehensive tutorials, explainers, and practical exercises that guide readers through creating custom languages, understanding functional programming concepts, and mastering advanced topics like macros and domain-specific languages. The book is a paid resource that combines hands-on projects with in-depth explanations of core programming concepts to help developers learn Racket and language design principles.",
+      "domain": "beautifulracket.com",
+      "source_date": "2026-08-16",
+      "page_title": "Beautiful Racket by Matthew Butterick",
+      "tags": [
+        "tutorial",
+        "nonfiction-book",
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/beautiful-racket-by-matthew-butterick-1289.md"
+    },
+    {
+      "id": 1290,
+      "url": "https://github.com/clasp-developers/clasp",
+      "title": null,
+      "description": "Clasp - A Common Lisp built on LLVM",
+      "summary": "Clasp is a Common Lisp implementation built on LLVM that enables seamless interoperability with C++ libraries and programs, allowing developers to leverage existing scientific computing ecosystems while benefiting from Common Lisp's rapid prototyping capabilities. The project supports major Common Lisp components like SLIME, ASDF, and Quicklisp, and is available on Linux, Mac OS X, and FreeBSD, though building from source requires significant computational resources. The development team actively welcomes contributions and provides support through GitHub issues and an IRC channel.",
+      "domain": "github.com",
+      "source_date": "2026-08-15",
+      "page_title": "GitHub - clasp-developers/clasp: clasp Common Lisp environment · GitHub",
+      "tags": [
+        "github-repo",
+        "common-lisp",
+        "compilers",
+        "cpp"
+      ],
+      "markdown_path": "technical-topic/github-clasp-developers-clasp-clasp-common-lisp-environment-1290.md"
+    },
     {
       "id": 1267,
       "url": "https://www.youtube.com/watch?v=MQeIerDsReA",
@@ -365,6 +479,22 @@
         "devops"
       ],
       "markdown_path": "technical-topic/amazon-dynamodb-now-supports-real-time-vector-search-at-any-1283.md"
+    },
+    {
+      "id": 1291,
+      "url": "https://llm-wiki.net/",
+      "title": null,
+      "description": "LLM-wiki - Research/wiki creation agent system",
+      "summary": "LLM Wiki is a system that deploys 5-10 parallel AI agents to research topics from multiple perspectives including academic, technical, applied, news, and contrarian viewpoints. The system uses an iterative approach with a minimum 2-hour duration, continuously refining searches across rounds to identify and fill knowledge gaps, ultimately creating comprehensive wiki-style knowledge bases for AI agents.",
+      "domain": "llm-wiki.net",
+      "source_date": "2026-08-05",
+      "page_title": "LLM Wiki — Knowledge Bases for AI Agents",
+      "tags": [
+        "llm",
+        "ai",
+        "distributed-systems"
+      ],
+      "markdown_path": "technical-topic/llm-wiki-knowledge-bases-for-ai-agents-1291.md"
     },
     {
       "id": 1259,
@@ -20185,27 +20315,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 386
+      "count": 389
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 299
+      "count": 302
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 262
+      "count": 264
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 246
+      "count": 248
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 227
+      "count": 230
     },
     {
       "name": "video",
@@ -20215,7 +20345,7 @@
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 212
+      "count": 213
     },
     {
       "name": "web-dev",
@@ -20240,7 +20370,7 @@
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 116
+      "count": 119
     },
     {
       "name": "news",
@@ -20250,7 +20380,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 106
+      "count": 108
     },
     {
       "name": "social-media",
@@ -20270,7 +20400,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "physics",
@@ -20288,13 +20418,13 @@
       "count": 32
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 30
-    },
-    {
       "name": "lisp",
       "category": "programming_language",
+      "count": 31
+    },
+    {
+      "name": "politics",
+      "category": "culture",
       "count": 30
     },
     {
@@ -20308,12 +20438,12 @@
       "count": 25
     },
     {
-      "name": "scheme",
+      "name": "common-lisp",
       "category": "programming_language",
-      "count": 19
+      "count": 20
     },
     {
-      "name": "common-lisp",
+      "name": "scheme",
       "category": "programming_language",
       "count": 19
     },
@@ -20358,6 +20488,11 @@
       "count": 12
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 12
+    },
+    {
       "name": "haskell",
       "category": "programming_language",
       "count": 11
@@ -20365,11 +20500,6 @@
     {
       "name": "fiction-book",
       "category": "culture",
-      "count": 9
-    },
-    {
-      "name": "mathematics",
-      "category": "science",
       "count": 9
     },
     {
@@ -20383,14 +20513,14 @@
       "count": 7
     },
     {
-      "name": "sql",
+      "name": "cpp",
       "category": "programming_language",
       "count": 7
     },
     {
-      "name": "cpp",
+      "name": "sql",
       "category": "programming_language",
-      "count": 6
+      "count": 7
     },
     {
       "name": "ruby",
@@ -20446,7 +20576,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 148
+      "count": 149
     },
     {
       "domain": "www.threads.net",
@@ -20602,6 +20732,10 @@
     },
     {
       "domain": "ben-mini.com",
+      "count": 2
+    },
+    {
+      "domain": "blog.racket-lang.org",
       "count": 2
     },
     {
@@ -20977,6 +21111,10 @@
       "count": 1
     },
     {
+      "domain": "beautifulracket.com",
+      "count": 1
+    },
+    {
       "domain": "beej.us",
       "count": 1
     },
@@ -21086,10 +21224,6 @@
     },
     {
       "domain": "blog.phronemophobic.com",
-      "count": 1
-    },
-    {
-      "domain": "blog.racket-lang.org",
       "count": 1
     },
     {
@@ -21945,6 +22079,10 @@
       "count": 1
     },
     {
+      "domain": "linear.axler.net",
+      "count": 1
+    },
+    {
       "domain": "link.aps.org",
       "count": 1
     },
@@ -21958,6 +22096,10 @@
     },
     {
       "domain": "littleosbook.github.io",
+      "count": 1
+    },
+    {
+      "domain": "llm-wiki.net",
       "count": 1
     },
     {
@@ -22010,6 +22152,10 @@
     },
     {
       "domain": "martin.kleppmann.com",
+      "count": 1
+    },
+    {
+      "domain": "math-ai-org.github.io",
       "count": 1
     },
     {
@@ -22350,6 +22496,10 @@
     },
     {
       "domain": "plasma-bigscreen.org",
+      "count": 1
+    },
+    {
+      "domain": "platform.claude.com",
       "count": 1
     },
     {
@@ -22790,6 +22940,10 @@
     },
     {
       "domain": "verdik.substack.com",
+      "count": 1
+    },
+    {
+      "domain": "vida-nyu.github.io",
       "count": 1
     },
     {
