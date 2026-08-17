@@ -50,14 +50,29 @@ def generate_rss(
         sorted_links = sorted_links[:limit]
 
     # Build RSS structure
+    # The atom namespace is declared as a literal attribute so ElementTree emits
+    # the prefixed form (atom:link) rather than an ns0: alias.
     rss = Element("rss", version="2.0")
+    rss.set("xmlns:atom", "http://www.w3.org/2005/Atom")
     channel = SubElement(rss, "channel")
 
     # Channel metadata
     SubElement(channel, "title").text = title
     SubElement(channel, "link").text = site_url
     SubElement(channel, "description").text = description
-    SubElement(channel, "lastBuildDate").text = format_datetime(datetime.now())
+    SubElement(
+        channel,
+        "atom:link",
+        href=f"{site_url.rstrip('/')}/feed.xml",
+        rel="self",
+        type="application/rss+xml",
+    )
+    # lastBuildDate comes from the newest item rather than the current time, so
+    # the feed is a pure function of the data: re-exporting without new links
+    # produces identical bytes and doesn't invalidate subscribers' caches.
+    newest = next((x.source_date for x in sorted_links if x.source_date), None)
+    if newest:
+        SubElement(channel, "lastBuildDate").text = _date_to_rfc822(newest)
 
     # Add items
     for link in sorted_links:
