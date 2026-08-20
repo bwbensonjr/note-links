@@ -1,6 +1,152 @@
 {
-  "exported_at": "2026-08-17T07:14:27.249829",
+  "exported_at": "2026-08-20T07:20:57.727712",
   "links": [
+    {
+      "id": 1298,
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "title": null,
+      "description": "Feature request: support AGENTS.md in Claude Code",
+      "summary": "A user is requesting that Claude Code support the AGENTS.md standard, which is becoming a unified format for coding agents to understand codebases, rather than relying solely on the Claude Code-specific CLAUDE.md file. The requester argues that AGENTS.md would facilitate better collaboration among developers using different tools like Codex, Amp, and Cursor, making it more compatible across the broader development ecosystem.",
+      "domain": "github.com",
+      "source_date": "2026-08-20",
+      "page_title": "Feature Request: Support AGENTS.md. · Issue #6235 · anthropics/claude-code · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/feature-request-support-agents-md-issue-6235-anthropics-1298.md"
+    },
+    {
+      "id": 1297,
+      "url": "https://arxiv.org/abs/2608.16753",
+      "title": null,
+      "description": "Mathematics in the age of AI",
+      "summary": "Terence Tao's essay examines how the mathematical community should adapt to AI tools capable of performing research-level mathematics, setting aside debates about AI capabilities to instead explore the fundamental goals and values of mathematical research itself. Rather than focusing on what AI can or cannot do, the paper uses problem-solving as a case study to investigate what mathematics is ultimately meant to achieve. The work, presented at the 2026 International Congress of Mathematicians, provides perspective on reorienting mathematical practice in light of advancing artificial intelligence.",
+      "domain": "arxiv.org",
+      "source_date": "2026-08-20",
+      "page_title": "[2608.16753] Mathematics in the age of AI",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "mathematics"
+      ],
+      "markdown_path": "technical-topic/2608-16753-mathematics-in-the-age-of-ai-1297.md"
+    },
+    {
+      "id": 1296,
+      "url": "https://go.dev/blog/go1.27",
+      "title": null,
+      "description": "Go 1.27 is released",
+      "summary": "Go 1.27 introduces significant language enhancements including generic methods, improved struct literal initialization for nested fields, and generalized function type inference that eliminates the need for explicit type arguments in many contexts. The release also brings tooling improvements like new modernizers in go fix and package@version queries in go doc, along with performance optimizations that reduce small object allocation costs by up to 30% and new standard library packages for JSON processing, post-quantum cryptography, and UUID support.",
+      "domain": "go.dev",
+      "source_date": "2026-08-20",
+      "page_title": "Go 1.27 is released - The Go Programming Language",
+      "tags": [
+        "go",
+        "compilers",
+        "news"
+      ],
+      "markdown_path": "programming-language/go-1-27-is-released-the-go-programming-language-1296.md"
+    },
+    {
+      "id": 1295,
+      "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+      "title": null,
+      "description": "Turns are better than radians",
+      "summary": "Casey Muratori argues that using \"turns\" (a [0, 1] parameterization of angles) instead of radians makes code simpler, faster, and more precise. He demonstrates that most codebases multiply by pi or tau when calling trigonometric functions, only for those functions to immediately divide by pi internally—a redundant operation that turns eliminate entirely. Additionally, turns represent common angles (like 90 degrees = 0.25) as exact values with minimal precision loss, whereas radians cannot represent most practical angles exactly.",
+      "domain": "www.computerenhance.com",
+      "source_date": "2026-08-20",
+      "page_title": "Turns are Better than Radians - by Casey Muratori",
+      "tags": [
+        "mathematics",
+        "tutorial"
+      ],
+      "markdown_path": "science/turns-are-better-than-radians-by-casey-muratori-1295.md"
+    },
+    {
+      "id": 1294,
+      "url": "https://mobileapp.bostonglobe.com/08202026_9590ae0e-9c15-11f1-a463-b256558f355e/content.html",
+      "title": null,
+      "description": "HPC on the relationship of healthcare and private equity",
+      "summary": "Following the Steward Health Care collapse, Massachusetts regulators now have expanded authority to scrutinize private equity investments in healthcare, reviewing 15 transactions where private equity firms hold significant stakes. The Health Policy Commission has found that nearly half of healthcare provider transactions involve private equity investors and is examining whether these investments advance public health goals like affordability and accessibility or prioritize private financial returns. While the HPC cannot block deals, it flags concerns about potential risks including debt-loading, workforce impacts, and market consolidation to inform oversight agencies.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-08-20",
+      "page_title": "After Steward collapse, health care regulators keep watch",
+      "tags": [
+        "news",
+        "politics",
+        "security"
+      ],
+      "markdown_path": "culture/after-steward-collapse-health-care-regulators-keep-watch-1294.md"
+    },
+    {
+      "id": 1293,
+      "url": "https://github.com/opengeos/GeoLibre",
+      "title": null,
+      "description": "GeoLibre - A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data",
+      "summary": "GeoLibre is a free, open-source GIS platform that enables users to visualize, explore, and analyze geospatial data across multiple environments including web browsers, desktop applications, mobile devices, and Jupyter notebooks, while keeping data local and private. It features over 1,000 geoprocessing tools that run directly in the browser via WebAssembly, covering terrain analysis, hydrology, LiDAR processing, remote sensing, and vector analysis without requiring server installation or data transmission. Built with modern web technologies like React, MapLibre GL JS, and DuckDB-WASM Spatial, GeoLibre supports planetary mapping, 3D visualization, spatial SQL queries, and is available across Windows, macOS, Linux, iOS, and Android platforms.",
+      "domain": "github.com",
+      "source_date": "2026-08-20",
+      "page_title": "GitHub - opengeos/GeoLibre: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks. · GitHub",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "database",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-opengeos-geolibre-a-lightweight-cloud-native-gis-1293.md"
+    },
+    {
+      "id": 1300,
+      "url": "https://www.modular.com/blog/modcon-announcements",
+      "title": null,
+      "description": "The Mojo programming language is now fully open source",
+      "summary": "At ModCon 2026, Modular announced major expansions of its open-source AI platform, including making the Mojo programming language fully open source under Apache 2.0 license and launching Modular Cloud as a production-ready inference service. The company also announced partnerships with Qualcomm and Microsoft to bring native Windows support to Mojo and extend the Modular Platform across diverse hardware accelerators including AWS Trainium, Google TPUs, and Qualcomm's AI chips. These announcements reflect Modular's vision of creating a unified, open software foundation that allows developers to write AI models once and deploy them across heterogeneous hardware without rebuilding the entire software stack.",
+      "domain": "www.modular.com",
+      "source_date": "2026-08-19",
+      "page_title": "Modular: ModCon 2026: Open source, open cloud, open silicon",
+      "tags": [
+        "ai",
+        "github-repo",
+        "devops",
+        "python"
+      ],
+      "markdown_path": "technical-topic/modular-modcon-2026-open-source-open-cloud-open-silicon-1300.md"
+    },
+    {
+      "id": 1299,
+      "url": "https://homosabiens.substack.com/p/activation-energy-is-a-good-model",
+      "title": null,
+      "description": "Activation energy is a good model for a lot of things",
+      "summary": "The concept of activation energy—the initial effort required to initiate change—is a versatile model applicable far beyond chemistry, explaining phenomena from paper combustion to friendship maintenance to intimate conversations. The author argues that by viewing daily activities through an \"activation energy\" lens, people can identify which tasks are unnecessarily difficult to start, optimize their personal energy sources, and strategically lower barriers to desired behaviors while raising them for unwanted ones. The piece encourages temporarily adopting this framework to recognize patterns in what requires effort versus what sustains momentum once initiated.",
+      "domain": "homosabiens.substack.com",
+      "source_date": "2026-08-19",
+      "page_title": "Activation Energy is a good model for a lot of things",
+      "tags": [
+        "psychology",
+        "nonfiction-book",
+        "chemistry"
+      ],
+      "markdown_path": "science/activation-energy-is-a-good-model-for-a-lot-of-things-1299.md"
+    },
+    {
+      "id": 1292,
+      "url": "https://cs229.stanford.edu/main_notes.pdf",
+      "title": null,
+      "description": "Stanford CS229 Lecture Notes",
+      "summary": "These are Stanford CS229 lecture notes covering machine learning fundamentals and advanced topics, authored by Tengyu Ma and Andrew Ng. The comprehensive material spans supervised learning (linear regression, logistic regression, SVMs, kernel methods), deep learning with neural networks and backpropagation, generalization and regularization techniques, unsupervised learning (clustering, EM algorithms, PCA), generative models (diffusion models, foundation models, large language models), and reinforcement learning with control theory. The notes provide both theoretical foundations and practical algorithms essential for understanding modern machine learning systems.",
+      "domain": "cs229.stanford.edu",
+      "source_date": "2026-08-19",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "ai",
+        "tutorial",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/stanford-cs229-lecture-notes-1292.md"
+    },
     {
       "id": 1288,
       "url": "https://math-ai-org.github.io/mathcode/",
@@ -20315,27 +20461,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 389
+      "count": 391
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 302
+      "count": 306
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 264
+      "count": 267
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 248
+      "count": 250
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 230
+      "count": 231
     },
     {
       "name": "video",
@@ -20350,7 +20496,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 204
+      "count": 206
     },
     {
       "name": "music",
@@ -20358,29 +20504,29 @@
       "count": 129
     },
     {
-      "name": "devops",
-      "category": "technical_topic",
-      "count": 126
-    },
-    {
       "name": "python",
       "category": "programming_language",
-      "count": 125
+      "count": 127
+    },
+    {
+      "name": "devops",
+      "category": "technical_topic",
+      "count": 127
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 119
+      "count": 120
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 115
+      "count": 117
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 108
+      "count": 109
     },
     {
       "name": "social-media",
@@ -20390,12 +20536,12 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 63
+      "count": 64
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 58
+      "count": 59
     },
     {
       "name": "distributed-systems",
@@ -20418,14 +20564,14 @@
       "count": 32
     },
     {
-      "name": "lisp",
-      "category": "programming_language",
+      "name": "politics",
+      "category": "culture",
       "count": 31
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 30
+      "name": "lisp",
+      "category": "programming_language",
+      "count": 31
     },
     {
       "name": "rust",
@@ -20478,17 +20624,17 @@
       "count": 14
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 14
+    },
+    {
       "name": "movie",
       "category": "culture",
       "count": 12
     },
     {
       "name": "astronomy",
-      "category": "science",
-      "count": 12
-    },
-    {
-      "name": "mathematics",
       "category": "science",
       "count": 12
     },
@@ -20510,7 +20656,7 @@
     {
       "name": "go",
       "category": "programming_language",
-      "count": 7
+      "count": 8
     },
     {
       "name": "cpp",
@@ -20523,6 +20669,11 @@
       "count": 7
     },
     {
+      "name": "psychology",
+      "category": "science",
+      "count": 6
+    },
+    {
       "name": "ruby",
       "category": "programming_language",
       "count": 5
@@ -20530,11 +20681,6 @@
     {
       "name": "elixir",
       "category": "programming_language",
-      "count": 5
-    },
-    {
-      "name": "psychology",
-      "category": "science",
       "count": 5
     },
     {
@@ -20548,13 +20694,13 @@
       "count": 3
     },
     {
-      "name": "gardening",
-      "category": "culture",
-      "count": 2
-    },
-    {
       "name": "chemistry",
       "category": "science",
+      "count": 3
+    },
+    {
+      "name": "gardening",
+      "category": "culture",
       "count": 2
     },
     {
@@ -20576,7 +20722,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 149
+      "count": 151
     },
     {
       "domain": "www.threads.net",
@@ -20600,7 +20746,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 16
+      "count": 17
     },
     {
       "domain": "open.spotify.com",
@@ -20623,6 +20769,10 @@
       "count": 6
     },
     {
+      "domain": "mobileapp.bostonglobe.com",
+      "count": 6
+    },
+    {
       "domain": "www.bostonglobe.com",
       "count": 6
     },
@@ -20640,10 +20790,6 @@
     },
     {
       "domain": "lcamtuf.substack.com",
-      "count": 5
-    },
-    {
-      "domain": "mobileapp.bostonglobe.com",
       "count": 5
     },
     {
@@ -20864,6 +21010,10 @@
     },
     {
       "domain": "www.instagram.com",
+      "count": 2
+    },
+    {
+      "domain": "www.modular.com",
       "count": 2
     },
     {
@@ -21467,6 +21617,10 @@
       "count": 1
     },
     {
+      "domain": "cs229.stanford.edu",
+      "count": 1
+    },
+    {
       "domain": "cs3110.github.io",
       "count": 1
     },
@@ -21827,6 +21981,10 @@
       "count": 1
     },
     {
+      "domain": "go.dev",
+      "count": 1
+    },
+    {
       "domain": "google.github.io",
       "count": 1
     },
@@ -21880,6 +22038,10 @@
     },
     {
       "domain": "home.pivotalweather.com",
+      "count": 1
+    },
+    {
+      "domain": "homosabiens.substack.com",
       "count": 1
     },
     {
@@ -23135,6 +23297,10 @@
       "count": 1
     },
     {
+      "domain": "www.computerenhance.com",
+      "count": 1
+    },
+    {
       "domain": "www.crockford.com",
       "count": 1
     },
@@ -23384,10 +23550,6 @@
     },
     {
       "domain": "www.mintlify.com",
-      "count": 1
-    },
-    {
-      "domain": "www.modular.com",
       "count": 1
     },
     {
