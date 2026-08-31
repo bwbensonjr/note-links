@@ -1,6 +1,277 @@
 {
-  "exported_at": "2026-08-20T07:20:57.727712",
+  "exported_at": "2026-08-31T10:06:26.675358",
   "links": [
+    {
+      "id": 1303,
+      "url": "https://github.com/astral-sh/uv/pull/21327",
+      "title": null,
+      "description": "`uv` - Deduplicate all files in the wheel cache",
+      "summary": "This pull request introduces file-level deduplication to the uv package manager's wheel cache, storing every file under its BLAKE3 hash and using hardlinks to reference them from their original locations. The optimization achieves approximately 545.2 MiB of cache savings (about 10% of total cache size) with a minimal performance tradeoff of less than 4% slowdown for cold installs and no impact on warm installs. The implementation passes comprehensive testing and benchmarks across multiple packages, confirming the deduplication works correctly without significant performance degradation.",
+      "domain": "github.com",
+      "source_date": "2026-08-31",
+      "page_title": "Deduplicate all files in the wheel cache by charliermarsh · Pull Request #21327 · astral-sh/uv · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/deduplicate-all-files-in-the-wheel-cache-by-charliermarsh-1303.md"
+    },
+    {
+      "id": 1302,
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "title": null,
+      "description": "OpenShot video editor",
+      "summary": "OpenShot 4.0 introduces major creative upgrades including a dedicated Color View for professional color correction and grading with tools like color wheels, curves, LUTs, and video scopes. The update adds a new Recording View that lets users capture screen, webcam, microphone, and system audio directly into projects with separate, editable tracks. The release also features ten new effects, local AI-powered subject masking, performance improvements, and a modernized interface to create everything from animated visualizations to cinematic film looks.",
+      "domain": "www.openshot.org",
+      "source_date": "2026-08-31",
+      "page_title": "OpenShot Video Editor | OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "tags": [
+        "video",
+        "ai",
+        "cli-tool"
+      ],
+      "markdown_path": "culture/openshot-video-editor-openshot-4-0-record-edit-and-color-1302.md"
+    },
+    {
+      "id": 1301,
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "title": null,
+      "description": "Understanding ChatGPT Work",
+      "summary": "I appreciate you sharing this request, but I'm unable to access external web pages or URLs. I can only work with text content that's directly provided to me. \n\nIf you'd like me to summarize the article from \"Understanding ChatGPT Work,\" please copy and paste the full text content of the page, and I'll be happy to provide a 2-3 sentence summary focusing on the main topics and key takeaways.",
+      "domain": "simonwillison.net",
+      "source_date": "2026-08-31",
+      "page_title": "Understanding ChatGPT Work",
+      "tags": [
+        "llm",
+        "ai",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/understanding-chatgpt-work-1301.md"
+    },
+    {
+      "id": 1306,
+      "url": "https://arxiv.org/pdf/1804.07389",
+      "title": null,
+      "description": "Longest Straight Line Paths on Water or Land on the Earth",
+      "summary": "Longest Straight Line Paths on Water or Land on the Earth",
+      "domain": "arxiv.org",
+      "source_date": "2026-08-30",
+      "page_title": null,
+      "tags": [
+        "academic-paper",
+        "mathematics"
+      ],
+      "markdown_path": "technical-topic/longest-straight-line-paths-on-water-or-land-on-the-earth-1306.md"
+    },
+    {
+      "id": 1305,
+      "url": "https://chatgpt.com/share/e/6a941239-a5b4-800c-9f0e-a6ef83d1e995",
+      "title": null,
+      "description": "Newtype pattern discussion",
+      "summary": "ChatGPT - Newtype pattern discussion",
+      "domain": "chatgpt.com",
+      "source_date": "2026-08-30",
+      "page_title": "ChatGPT",
+      "tags": [
+        "llm",
+        "rust"
+      ],
+      "markdown_path": "technical-topic/chatgpt-1305.md"
+    },
+    {
+      "id": 1304,
+      "url": "https://dl.acm.org/doi/epdf/10.1145/3830438.3830958",
+      "title": null,
+      "description": "Functional State Machines in Rust: Typestate and Newtype Patterns (Experience Report)",
+      "summary": "Functional State Machines in Rust: Typestate and Newtype Patterns (Experience Report)",
+      "domain": "dl.acm.org",
+      "source_date": "2026-08-30",
+      "page_title": null,
+      "tags": [
+        "rust",
+        "academic-paper",
+        "compilers"
+      ],
+      "markdown_path": "programming-language/functional-state-machines-in-rust-typestate-and-newtype-1304.md"
+    },
+    {
+      "id": 1309,
+      "url": "https://sometimes.digital/posts/experiments-with-plotter-art/",
+      "title": null,
+      "description": "Experiments with plotter art",
+      "summary": "The author has been experimenting with generative art using a repurposed 3D printer modified into a plotter by attaching a pen with magnets to the print head. They use Inkscape with Python scripting extensions to generate and manipulate vector-based designs, which are then converted to gcode for the printer to execute, finding this workflow particularly frictionless for creative exploration and learning new generative techniques. The combination of manual input (hand-drawn shapes) with algorithmic manipulation creates an intuitive and engaging process for producing plotter art.",
+      "domain": "sometimes.digital",
+      "source_date": "2026-08-28",
+      "page_title": "sometimes.digital / experiments with plotter art",
+      "tags": [
+        "python",
+        "tutorial",
+        "ai"
+      ],
+      "markdown_path": "programming-language/sometimes-digital-experiments-with-plotter-art-1309.md"
+    },
+    {
+      "id": 1308,
+      "url": "https://acko.net/blog/curvature-beziers/",
+      "title": null,
+      "description": "Curvature Beziers - Improving on a timeless recipe",
+      "summary": "Bézier curves are a foundational tool in computer graphics that have remained largely unchanged since their invention in the 1960s, despite their limitations. The article explores how to improve bézier curves while maintaining compatibility with existing technology by working directly with curvature rather than relying on symmetric tangent handles, which contrary to common belief don't actually guarantee smoothness. The proposed solution uses curvature handles that scale proportionally to the desired radius of curvature, creating a more intuitive and stable editing experience where curve points and tangents can be adjusted while preserving the intended curvature properties.",
+      "domain": "acko.net",
+      "source_date": "2026-08-28",
+      "page_title": "Curvature Beziers — Acko.net",
+      "tags": [
+        "mathematics",
+        "web-dev",
+        "tutorial"
+      ],
+      "markdown_path": "science/curvature-beziers-acko-net-1308.md"
+    },
+    {
+      "id": 1307,
+      "url": "https://www.nonesuch.com/albums/the-wild-heart",
+      "title": null,
+      "description": "Dylan Mattingly - *The Wild Heart*",
+      "summary": "Dylan Mattingly - *The Wild Heart*",
+      "domain": "www.nonesuch.com",
+      "source_date": "2026-08-28",
+      "page_title": null,
+      "tags": [
+        "music",
+        "video"
+      ],
+      "markdown_path": "culture/dylan-mattingly-the-wild-heart-1307.md"
+    },
+    {
+      "id": 1312,
+      "url": "https://aiandeducation.mit.edu/report/",
+      "title": null,
+      "description": "Report​ - MIT’s Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "summary": "MIT's Ad Hoc Committee on AI and Education released a comprehensive report outlining how generative AI is disrupting the institute's educational model, from undermining student mastery and eroding academic integrity to upending foundational practices like problem sets and office hours. The committee proposes eight guiding principles—including humility about the technology's unpredictable evolution and boldness in strategic response—along with recommendations for immediate and long-term actions to help MIT adapt its curriculum, assessment methods, and community values to an AI-aware educational landscape. The report emphasizes that MIT has a unique responsibility to lead in defining how AI should be integrated into higher education while preserving the rigor, hands-on learning, and human connection central to its mission.",
+      "domain": "aiandeducation.mit.edu",
+      "source_date": "2026-08-27",
+      "page_title": "Report – AI and Education",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/report-ai-and-education-1312.md"
+    },
+    {
+      "id": 1311,
+      "url": "https://en.wikipedia.org/wiki/Land_(O%27Farrell_novel",
+      "title": null,
+      "description": "*Land* - a novel by Maggie O'Farrell",
+      "summary": "*Land* - a novel by Maggie O'Farrell",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-08-27",
+      "page_title": null,
+      "tags": [
+        "fiction-book"
+      ],
+      "markdown_path": "culture/land-a-novel-by-maggie-o-farrell-1311.md"
+    },
+    {
+      "id": 1310,
+      "url": "https://github.com/tninja/ai-code-interface.el",
+      "title": null,
+      "description": "Emacs AI coding agent interface",
+      "summary": "AI Code Interface is a backend-agnostic Emacs package that provides a unified workflow for AI-assisted software development, supporting multiple coding agents like OpenAI Codex, Claude Code, GitHub Copilot CLI, and others. The key advantage is workflow portability—developers can switch between different AI backends without changing their Emacs setup, maintaining consistent context, prompting, code review, and task management workflows. The package is designed to integrate with native coding CLI capabilities rather than reimplement them, keeping the common developer workflow stable while allowing individual backends to use their native strengths.",
+      "domain": "github.com",
+      "source_date": "2026-08-27",
+      "page_title": "GitHub - tninja/ai-code-interface.el: Unified Emacs interface supporting OpenAI Codex, Antigravity CLI, Claude Code, GitHub Copilot CLI,  Opencode, and more · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "lisp",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-tninja-ai-code-interface-el-unified-emacs-interface-1310.md"
+    },
+    {
+      "id": 1315,
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "title": null,
+      "description": "RAG is simpler than you think",
+      "summary": "Most teams over-engineer their RAG systems by jumping straight to embeddings and vector databases, when simpler approaches often suffice. The article presents a decision framework based on data freshness, corpus characteristics, query patterns, scale, and team capabilities, then outlines six progressively complex recipes starting with full-text search (BM25), then query rewriting with LLMs, hybrid search, and on-the-fly embeddings. The key takeaway is to start simple and only move to more complex solutions when you have data proving you actually need them.",
+      "domain": "www.lighthousenewsletter.com",
+      "source_date": "2026-08-26",
+      "page_title": "6 RAG Architectures — and How to Avoid Over-Engineering",
+      "tags": [
+        "llm",
+        "ai",
+        "database",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/6-rag-architectures-and-how-to-avoid-over-engineering-1315.md"
+    },
+    {
+      "id": 1314,
+      "url": "https://openstreetmap.us/news/2026/08/oim-charter-project/",
+      "title": null,
+      "description": "OldInsuranceMaps.net is now a Charter Project",
+      "summary": "OldInsuranceMaps.net, a platform that makes over 1,200 georeferenced Sanborn Insurance Maps accessible to the public, has been designated as an OpenStreetMap US Charter Project. These historical maps, originally created between 1867 and the 1960s, serve as valuable resources for researchers, historians, and community members exploring geographic data and local history. The platform combines crowdsourced georeferencers with open-source technology to digitally stitch and organize these maps, and its Charter Project status strengthens its collaboration with other historical mapping initiatives like OpenHistoricalMap and Yesterdays.",
+      "domain": "openstreetmap.us",
+      "source_date": "2026-08-26",
+      "page_title": "OldInsuranceMaps.net is now a Charter Project! | OpenStreetMap US",
+      "tags": [
+        "news",
+        "github-repo",
+        "web-dev"
+      ],
+      "markdown_path": "culture/oldinsurancemaps-net-is-now-a-charter-project-openstreetmap-1314.md"
+    },
+    {
+      "id": 1313,
+      "url": "https://youtu.be/656058JxTM0?si=TyFQroEywLcPb0T3",
+      "title": null,
+      "description": "Stalking the Wiley hacker 40 years later",
+      "summary": "I don't have access to the actual video content from this YouTube link, only the page metadata and footer information. To provide an accurate summary of Cliff Stoll's DefCon 34 talk about \"Stalking the Wily Hacker: 40 years later,\" I would need the video transcript or a description of the actual presentation content. If you could share the video transcript or detailed notes from the talk, I'd be happy to summarize it for you.",
+      "domain": "youtu.be",
+      "source_date": "2026-08-26",
+      "page_title": "DefCon 34 - Stalking the Wily Hacker: 40 years later - Cliff Stoll - YouTube",
+      "tags": [
+        "video",
+        "security",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/defcon-34-stalking-the-wily-hacker-40-years-later-cliff-1313.md"
+    },
+    {
+      "id": 1317,
+      "url": "https://sites.duke.edu/thefinregblog/2026/08/03/paul-atkins-misreads-adam-smith-and-the-american-founding/",
+      "title": null,
+      "description": "Paul Atkins Misreads Adam Smith and the American Founding",
+      "summary": "Paul Atkins, the SEC chairman, misrepresents the connection between Adam Smith's economic philosophy and America's founding to justify a deregulatory agenda, particularly regarding cryptocurrency. The article argues that Atkins ignores crucial founding principles—including the founders' recognition of economic factions as threats to liberty—and that both Smith and the Framers actually supported public oversight of monetary systems. By withdrawing enforcement actions against politically connected crypto firms while warning against socialism, Atkins undermines market legitimacy and ironically creates the conditions that make capitalism vulnerable to critics.",
+      "domain": "sites.duke.edu",
+      "source_date": "2026-08-21",
+      "page_title": "Paul Atkins Misreads Adam Smith and the American Founding – The FinReg Blog",
+      "tags": [
+        "politics",
+        "news",
+        "security"
+      ],
+      "markdown_path": "culture/paul-atkins-misreads-adam-smith-and-the-american-founding-1317.md"
+    },
+    {
+      "id": 1316,
+      "url": "https://tyoverby.com/posts/version-control-for-everything-else/",
+      "title": null,
+      "description": "Version control for everything",
+      "summary": "The author argues that version control systems are essential for enabling AI agents to work effectively beyond programming tasks, using the example of managing scattered software development information across GitHub, Google Docs, email, and Slack. While building a proxy layer to stage changes across services is impractical, consolidating all project artifacts—issues, documentation, reviews, and code—into a single version-controlled repository would provide the atomic transactions, auditability, and parallel development capabilities that make AI assistance safe and practical. This infrastructure improvement would benefit not just LLMs but all developers by enabling branching, version history, and atomic changes across the entire development workflow.",
+      "domain": "tyoverby.com",
+      "source_date": "2026-08-21",
+      "page_title": "Version control for everything - Ty Overby",
+      "tags": [
+        "llm",
+        "ai",
+        "devops",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/version-control-for-everything-ty-overby-1316.md"
+    },
     {
       "id": 1298,
       "url": "https://github.com/anthropics/claude-code/issues/6235",
@@ -20461,67 +20732,67 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 391
+      "count": 395
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 306
+      "count": 313
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 267
+      "count": 271
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 250
+      "count": 254
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 231
+      "count": 237
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 215
+      "count": 218
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 213
+      "count": 215
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 206
+      "count": 208
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 129
+      "count": 130
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 127
+      "count": 129
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 127
+      "count": 129
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 120
+      "count": 121
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 117
+      "count": 119
     },
     {
       "name": "nonfiction-book",
@@ -20536,12 +20807,12 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 64
+      "count": 65
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 59
+      "count": 61
     },
     {
       "name": "distributed-systems",
@@ -20566,17 +20837,17 @@
     {
       "name": "politics",
       "category": "culture",
-      "count": 31
+      "count": 32
     },
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 31
+      "count": 32
     },
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 29
+      "count": 31
     },
     {
       "name": "javascript",
@@ -20604,6 +20875,11 @@
       "count": 16
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 16
+    },
+    {
       "name": "typescript",
       "category": "programming_language",
       "count": 15
@@ -20624,11 +20900,6 @@
       "count": 14
     },
     {
-      "name": "mathematics",
-      "category": "science",
-      "count": 14
-    },
-    {
       "name": "movie",
       "category": "culture",
       "count": 12
@@ -20646,7 +20917,7 @@
     {
       "name": "fiction-book",
       "category": "culture",
-      "count": 9
+      "count": 10
     },
     {
       "name": "podcast",
@@ -20722,19 +20993,19 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 151
+      "count": 153
     },
     {
       "domain": "www.threads.net",
       "count": 89
     },
     {
-      "domain": "www.youtube.com",
+      "domain": "simonwillison.net",
       "count": 29
     },
     {
-      "domain": "simonwillison.net",
-      "count": 28
+      "domain": "www.youtube.com",
+      "count": 29
     },
     {
       "domain": "www.nytimes.com",
@@ -20746,7 +21017,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 17
+      "count": 18
     },
     {
       "domain": "open.spotify.com",
@@ -20766,7 +21037,7 @@
     },
     {
       "domain": "en.wikipedia.org",
-      "count": 6
+      "count": 7
     },
     {
       "domain": "mobileapp.bostonglobe.com",
@@ -20774,6 +21045,10 @@
     },
     {
       "domain": "www.bostonglobe.com",
+      "count": 6
+    },
+    {
+      "domain": "youtu.be",
       "count": 6
     },
     {
@@ -20801,15 +21076,15 @@
       "count": 5
     },
     {
-      "domain": "youtu.be",
-      "count": 5
-    },
-    {
       "domain": "blog.djhaskin.com",
       "count": 4
     },
     {
       "domain": "blog.google",
+      "count": 4
+    },
+    {
+      "domain": "dl.acm.org",
       "count": 4
     },
     {
@@ -20826,10 +21101,6 @@
     },
     {
       "domain": "computerhistory.org",
-      "count": 3
-    },
-    {
-      "domain": "dl.acm.org",
       "count": 3
     },
     {
@@ -20886,6 +21157,10 @@
     },
     {
       "domain": "c9x.me",
+      "count": 2
+    },
+    {
+      "domain": "chatgpt.com",
       "count": 2
     },
     {
@@ -21085,6 +21360,10 @@
       "count": 1
     },
     {
+      "domain": "acko.net",
+      "count": 1
+    },
+    {
       "domain": "acmeweather.com",
       "count": 1
     },
@@ -21110,6 +21389,10 @@
     },
     {
       "domain": "agilescientific.com",
+      "count": 1
+    },
+    {
+      "domain": "aiandeducation.mit.edu",
       "count": 1
     },
     {
@@ -21510,10 +21793,6 @@
     },
     {
       "domain": "chapel-lang.org",
-      "count": 1
-    },
-    {
-      "domain": "chatgpt.com",
       "count": 1
     },
     {
@@ -22557,6 +22836,10 @@
       "count": 1
     },
     {
+      "domain": "openstreetmap.us",
+      "count": 1
+    },
+    {
       "domain": "opusmodus.com",
       "count": 1
     },
@@ -22885,6 +23168,10 @@
       "count": 1
     },
     {
+      "domain": "sites.duke.edu",
+      "count": 1
+    },
+    {
       "domain": "sites.gatech.edu",
       "count": 1
     },
@@ -22922,6 +23209,10 @@
     },
     {
       "domain": "solvespace.com",
+      "count": 1
+    },
+    {
+      "domain": "sometimes.digital",
       "count": 1
     },
     {
@@ -23074,6 +23365,10 @@
     },
     {
       "domain": "twitter.com",
+      "count": 1
+    },
+    {
+      "domain": "tyoverby.com",
       "count": 1
     },
     {
@@ -23509,6 +23804,10 @@
       "count": 1
     },
     {
+      "domain": "www.lighthousenewsletter.com",
+      "count": 1
+    },
+    {
       "domain": "www.lisp-screenshots.org",
       "count": 1
     },
@@ -23573,11 +23872,19 @@
       "count": 1
     },
     {
+      "domain": "www.nonesuch.com",
+      "count": 1
+    },
+    {
       "domain": "www.nps.gov",
       "count": 1
     },
     {
       "domain": "www.openpa.net",
+      "count": 1
+    },
+    {
+      "domain": "www.openshot.org",
       "count": 1
     },
     {

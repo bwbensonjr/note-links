@@ -1,0 +1,764 @@
+---
+id: 1310
+url: https://github.com/tninja/ai-code-interface.el
+title: 'GitHub - tninja/ai-code-interface.el: Unified Emacs interface supporting OpenAI
+  Codex, Antigravity CLI, Claude Code, GitHub Copilot CLI,  Opencode, and more · GitHub'
+domain: github.com
+source_date: '2026-08-27'
+tags:
+- github-repo
+- ai
+- llm
+- lisp
+- cli-tool
+summary: AI Code Interface is a backend-agnostic Emacs package that provides a unified
+  workflow for AI-assisted software development, supporting multiple coding agents
+  like OpenAI Codex, Claude Code, GitHub Copilot CLI, and others. The key advantage
+  is workflow portability—developers can switch between different AI backends without
+  changing their Emacs setup, maintaining consistent context, prompting, code review,
+  and task management workflows. The package is designed to integrate with native
+  coding CLI capabilities rather than reimplement them, keeping the common developer
+  workflow stable while allowing individual backends to use their native strengths.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# GitHub - tninja/ai-code-interface.el: Unified Emacs interface supporting OpenAI Codex, Antigravity CLI, Claude Code, GitHub Copilot CLI,  Opencode, and more · GitHub
+
+[![./ai-code-interface.png](/tninja/ai-code-interface.el/raw/main/ai-code-interface.png)](/tninja/ai-code-interface.el/blob/main/ai-code-interface.png)
+
+AI Code Interface
+=================
+
+[![https://melpa.org/packages/ai-code-badge.svg](https://camo.githubusercontent.com/9a90eecc88e5144a137f0a71991bdc4b9418666b1b1bc1ebf64fff3448016f0e/68747470733a2f2f6d656c70612e6f72672f7061636b616765732f61692d636f64652d62616467652e737667)](https://melpa.org/#/ai-code)
+[![https://stable.melpa.org/packages/ai-code-badge.svg](https://camo.githubusercontent.com/0577cf3b05c86469e62e4e471e42f45d565bd31c6e42904dd3d47e02d6345b48/68747470733a2f2f737461626c652e6d656c70612e6f72672f7061636b616765732f61692d636f64652d62616467652e737667)](https://stable.melpa.org/#/ai-code)
+[![https://img.shields.io/github/contributors/tninja/ai-code-interface.el.svg](https://camo.githubusercontent.com/d6f5b07d2b1dbfdc4d7dbdb3b56aebad97024aa897bfe0b4d1c7db0d9af4b31e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f746e696e6a612f61692d636f64652d696e746572666163652e656c2e737667)](https://github.com/tninja/ai-code-interface.el/graphs/contributors)
+[![https://awesome.re/mentioned-badge.svg](https://camo.githubusercontent.com/1667baa3145a7b9b2a0ae17d8c7b09b4d471f79aa02b0615ab07d64d9988a198/68747470733a2f2f617765736f6d652e72652f6d656e74696f6e65642d62616467652e737667)](https://github.com/RoggeOhta/awesome-codex-cli)
+
+AI Code Interface is a backend-agnostic Emacs workflow layer for AI-assisted software development.
+
+Use Codex, Claude Code, Gemini CLI, Pi, agent-shell/ACP, and other coding agents while keeping the same Emacs workflow for context, prompting, code changes, review, TDD, Git, tasks, and session management.
+
+Why AI Code Interface?
+----------------------
+
+AI coding agents change quickly. AI Code Interface keeps your developer workflow stable while allowing the agent underneath to change: **the backend can change; your Emacs workflow does not have to**.
+
+If you want the deepest possible integration with one specific agent runtime, a dedicated client may be a better fit. If you use or evaluate multiple coding agents and want one consistent Emacs workflow, AI Code Interface is built for that.
+
+**Workflow portability is the core idea:**
+
+* Keep the same context and prompt workflow.
+* Keep the same code-change, review, refactoring, and TDD workflow.
+* Keep the same task, Git, MCP, and session workflow.
+* Switch the AI backend without rebuilding your Emacs setup.
+
+Design Philosophy
+-----------------
+
+**AI Code Interface unifies developer workflows, not agent runtimes.**
+
+Native coding CLIs keep ownership of their own interaction model, tool execution, retries, queueing or steering, permissions, and other runtime behavior. AI Code Interface integrates with those capabilities rather than reimplementing them.
+
+Structured external backends such as agent-shell/ACP can provide deeper lifecycle and UI integration when available, without making those semantics a requirement for every backend. This keeps the common workflow portable while allowing each backend to use its native strengths.
+
+See [AI coding CLI backend](https://github.com/tninja/ai-code-interface.el/tree/main#ai-coding-cli-backend) for the full backend list and configuration details.
+
+* Screenshot
+
+[![./transient_menu.png](/tninja/ai-code-interface.el/raw/main/transient_menu.png)](/tninja/ai-code-interface.el/blob/main/transient_menu.png)
+
+New User Quick Start
+--------------------
+
+If you are new to this package, follow this order:
+
+1. Read this section
+2. Run the setup in **Installation**
+3. Try one workflow in **Typical Workflows Example**
+4. Configure backend details in **AI coding CLI backend**
+
+Minimal setup:
+
+```
+(use-package ai-code
+  :config
+  (ai-code-set-backend 'codex)
+  ;; Optional: use a narrower transient menu on smaller frames
+  ;; (setq ai-code-menu-layout 'two-columns)
+  (global-set-key (kbd "C-c a") #'ai-code-menu))
+```
+
+First 60 seconds:
+
+* `C-c a a`: Start the currently selected AI CLI session
+* `C-c a c`: Ask AI to change current function/region
+* `C-c a q`: Ask question only (no code change)
+* `C-c a z`: Jump back to AI session buffer
+
+The first time you open `C-c a`, AI Code also shows a small quickstart buffer
+with these core actions. You can reopen it later from `C-c a h`
+(`Help / Quick Start`).
+
+Installation
+------------
+
+Enable installation of packages from MELPA by adding an entry to package-archives after (require ‘package) and before the call to package-initialize in your init.el or .emacs file:
+
+```
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+```
+
+* Use `M-x package-refresh-contents` or `M-x package-list-packages` to ensure that Emacs has fetched the MELPA package list
+* Use `M-x package-install` to install `ai-code` package
+* Import and configure `ai-code` in your init.el or .emacs file:
+
+```
+(use-package ai-code
+  ;; :straight (:host github :repo "tninja/ai-code-interface.el") ;; if you want to use straight to install, no need to have MELPA setting above
+  :config
+  ;; use codex as backend, other options are 'pi, 'claude-code, 'gemini, 'github-copilot-cli, 'open-interpreter, 'opencode, 'kilo, 'grok, 'cursor, 'kiro, 'codebuddy, 'aider, 'eca, 'agent-shell, 'claude-code-ide, 'claude-code-el
+  (ai-code-set-backend 'codex)
+  ;; Optional: default menu stays unchanged; use a narrower 2-column layout on smaller frames
+  ;; (setq ai-code-menu-layout 'two-columns)
+  ;; Enable global keybinding for the main menu
+  (global-set-key (kbd "C-c a") #'ai-code-menu)
+  ;; Optional: Use eat if you prefer, by default it is vterm
+  ;; (setq ai-code-backends-infra-terminal-backend 'eat) ;; config for native CLI backends. for external backends such as agent-shell, claude-code-ide.el and claude-code.el, please check their own config
+  ;; Optional: Try ghostel as an backend infra
+  ;; (setq ai-code-backends-infra-terminal-backend 'ghostel)
+  ;; Optional: Disable @ file completion in comments and AI sessions
+  ;; (ai-code-prompt-filepath-completion-mode -1)
+  ;; Optional: Ask AI to run test after code changes, for a tighter build-test loop
+  (setq ai-code-auto-test-type 'ask-me)
+  ;; Optional: Disable numbered next steps for discussion prompts at send time
+  ;; (enabled by default)
+  ;; (setq ai-code-discussion-auto-follow-up-enabled nil)
+  ;; Optional: In AI session buffers, SPC in Evil normal state triggers the prompt-enter UI
+  (with-eval-after-load 'evil (ai-code-backends-infra-evil-setup))
+  ;; Optional: Turn on auto-revert buffer, so that the AI code change automatically appears in the buffer
+  (global-auto-revert-mode 1)
+  (setq auto-revert-interval 1) ;; set to 1 second for faster update
+  ;; Optional: Set up Magit integration for AI commands in Magit popups
+  (with-eval-after-load 'magit
+    (ai-code-magit-setup-transients)))
+```
+
+Windows
+-------
+
+Native Windows Emacs is supported. Ghostel is the recommended terminal backend
+because it uses ConPTY and provides pre-built Windows native modules. If the
+default vterm backend cannot start on native Windows, AI Code automatically
+falls back to Ghostel. See [Native Windows Support](/tninja/ai-code-interface.el/blob/main/docs/windows.org) for setup and troubleshooting.
+
+Dependencies
+------------
+
+### Required Dependencies
+
+* Emacs 29.1 or later
+* `org`: Org-mode support
+* `magit`: Git integration
+* `transient`: For the menu system
+* One of vterm (default), eat, or [ghostel](https://github.com/dakra/ghostel) needs to be installed to support native AI coding CLI backends, depending on `ai-code-backends-infra-terminal-backend`.
+* [ghostel](https://github.com/dakra/ghostel) is a newly supported native backend infra option.
+  + Ghostel is an Emacs terminal emulator powered by libghostty-vt, the VT engine from Ghostty.
+  + AI Code enables Ghostel image support for AI sessions:
+    - terminal programs can use Ghostel’s Kitty graphics protocol;
+    - local image paths printed by an AI CLI (for example `screenshot.png`) are previewed inline in the session buffer while the source path remains visible and clickable.
+    - tall local previews can use the optional `ultra-scroll` integration
+      described below.
+  + [ghostel](https://github.com/dakra/ghostel) is under active development, please install the latest version.
+  + To try it:
+
+```
+(setq ai-code-backends-infra-terminal-backend 'ghostel)
+```
+
+### Optional Dependencies
+
+* [ultra-scroll](https://github.com/jdtsmith/ultra-scroll): Recommended for partial-pixel scrolling past tall local image previews in Ghostel. AI Code loads and dispatches it only while such a preview is visible, without enabling its global mode. Set `ai-code-ghostel-image-preview-prefer-ultra-scroll` to `nil` to opt out.
+* `helm`: For an enhanced auto-completion experience (`ai-code-input.el`).
+* `whisper`: For speech-to-text input via `ai-code-speech-to-text-input`. Record audio, press `RET` to stop, then choose whether to insert the transcription into the current buffer, send it to the active AI coding session with editable initial input, or copy it to the clipboard.
+* `gptel`: For intelligent, AI-generated content headlines in the prompt file.
+  + ai-code-task-use-gptel-filename: When non-nil, file name created by `ai-code-create-or-open-task-file` or `ai-code-create-file-or-dir` will have auto-generated filenames created by GPTel
+  + ai-code-use-gptel-headline: When non-nil, prompts sent to the AI will have auto-generated headlines created by GPTel, providing better organization and readability in the prompt file
+  + ai-code-use-gptel-classify-prompt: When non-nil, and `ai-code-auto-test-type` or `ai-code-discussion-auto-follow-up-enabled` is non-nil, classify whether the current prompt is about code changes so test prompts or discussion follow-up suggestions are only added when relevant
+* `flycheck`: To enable the `Fix Flycheck errors in scope` action under `C-c a b` and the `ai-code-flycheck-fix-errors-in-scope` command.
+* `yasnippet`: For snippet support in the prompt file. A library of snippets is included.
+  + (emacs built-in) abbrev + skeleton is also a good way to expand prompt. [example abbrev to solve / iterate leetcode problem with tdd (need to set ai-code-auto-test-type with tdd)](/tninja/ai-code-interface.el/blob/main/etc/prompt_expand_with_abbrev_skeleton.el), [example problem resolved](/tninja/ai-code-interface.el/blob/main/examples/leetcode)
+* `projectile`: For project root initialization.
+* `helm-gtags`: For tags creation and symbol navigation fallback from clickable session symbols.
+
+### Optional Screenshot Capture
+
+The Insert submenu’s `Screenshot` commands rely on an external program to
+capture an image. Install or configure the option for your platform:
+
+| Platform | Screenshot capture | Setup |
+| --- | --- | --- |
+| macOS | `screencapture` | Preinstalled; used by default with `-i`. |
+| Linux (Wayland) | `grim` | Install `grim`; selected when `WAYLAND_DISPLAY` is set. |
+| Linux (X11) | `import` from ImageMagick | Install the ImageMagick package. |
+| Windows | No compatible tool is bundled | Configure a capture program as shown below. |
+
+Customize `ai-code-send-screenshot-command` when the default is unavailable.
+The command is a list containing the program followed by its arguments; AI Code
+appends the destination PNG path when invoking it:
+
+```
+(setopt ai-code-send-screenshot-command
+        '("my-screenshot-program" "--interactive"))
+```
+
+Key Features
+------------
+
+* **Transient-Driven Hub (`C-c a`)**: One keystroke opens a contextual transient menu that groups every capability (CLI control, code actions, agile workflows, utilities) so you never need to memorize scattered keybindings.
+  + If the default wide layout does not fit your frame well, set `ai-code-menu-layout` to `two-columns` for a narrower menu with the same commands.
+* **AI CLI Session Management**: Start (`a`), resume (`R`), or jump back into (`z`) the active AI CLI buffer, instantly swap backends (`s`), upgrade them (`u`), install backend skills (`S`), edit backend configs (`g`), open backend agent file (`G`), and run prompts against the current file (`|`). It supports multiple sessions per project. The `S` entry is especially useful for installing shared skill packs such as [obra/superpowers](https://github.com/obra/superpowers).
+  + `j` opens the AI session dashboard, where you can inspect active sessions, refresh the list, visit a session buffer, kill a session, or open the repository’s Magit status.
+  + `P` sends a session checkpoint prompt that asks the AI to summarize the goal, files changed, current hypothesis, tests/build result, blockers, and next action.
+  + When resuming, selecting a UUID in the region appends that UUID automatically so you can continue a specific session.
+  + In AI session side windows, `C-.` grows and `C-,` shrinks the panel immediately. On left/right side windows it adjusts width; on top/bottom side windows it adjusts height.
+* **AI CLI Editor Viewport**: Managed terminal TUI sessions support editing in a native Emacs viewport.
+  + Within managed AI CLI sessions, general `EDITOR` / `VISUAL` requests auto-submit by default (`ai-code-editor-viewport-auto-submit` is `t`). Set it to `nil` to make those requests save-only, including `kubectl edit` or `crontab -e` launched inside the session; Git editor requests are always save-only.
+* **Clickable Session Links**: In AI session buffers, supported in-repo file references, nearby code symbols, and `http` / `https` URLs are underlined and clickable. File links such as `src/foo.el:42`, `src/foo.el:42:7`, `src/foo.el:L42-L60`, or `src/foo.el#L42-L60` jump directly to the right location, nearby symbols such as `setq-local`, `ai-code-session-link-enabled`, or `UserService.processRequest()` trigger code navigation in the associated file, and web links open in your browser. Symbol navigation first tries `xref`, then `helm-gtags` when available, and finally falls back to searching in the opened file buffer. Set `ai-code-session-link-enabled` to `nil` if you want to disable this link rendering.
+
+[![./clickable_link_ai_session.png](/tninja/ai-code-interface.el/raw/main/clickable_link_ai_session.png)](/tninja/ai-code-interface.el/blob/main/clickable_link_ai_session.png)
+
+* **Context-Aware Code Actions**: The menu exposes dedicated entries for changing code (`c`), implementing TODOs (`i`), asking questions (`q`), explaining code (`x`), sending free-form commands (`<SPC>`), and managing AI context (`@`). The context menu can copy scoped references with repository-relative or full paths, including the current function or selected line range. Each command automatically captures the surrounding function, region, or clipboard contents (via `C-u`) to keep prompts precise.
+  + When a visible AI session buffer already exists, prompts can be routed to that session directly instead of opening a new one.
+* **Insert into AI Sessions**: Open the configurable `ai-code-menu` prefix (`C-c a` in the configuration examples), then press `I` to open the Insert submenu for files, Dired selections, regions, diagnostics-aware DWIM, screenshots, and clipboard images. The `I` entry always remains available. If no session is running, pressing it reports that state; if only sessions for other projects are running, it opens the submenu with just the `to…` entries for choosing one explicitly. An editor viewport associated with the destination session receives the insertion when present; otherwise AI Code inserts into that session’s TUI input without submitting it. Screenshot capture may require the [platform-specific utility described above](/tninja/ai-code-interface.el/blob/main/*Optional Screenshot Capture).
+  + Inserted TUI content is always preceded and followed by two newline characters.[fn:insert-tui-spacing] In a viewport, AI Code omits the leading two newlines when the viewport is empty, keeps them when it already contains content, and always appends two newlines. Viewport attachments follow the same spacing rule.
+* **Agile Development Workflows**: Use the refactoring navigator (`r`), the guided TDD cycle (`t`), and the pull/review diff helper (`v`) to keep AI-assisted work aligned with agile best practices. Prompt authoring is first-class through quick access to the prompt file (`p`), build/test helper (`b`), and AI-assisted shell/file execution (`!`). In prompt files, send the current block with `C-c C-c`.
+* **Productivity & Debugging Utilities**: Initialize project navigation assets (`.`), investigate exceptions (`e`), debug Emacs runtime issues (`d`), auto-fix Flycheck issues in scope (`f`), create or open task files (`k`), open prompt history (`p`), capture session notes straight into Org (`n`), search notes with AI (`/`), and dictate prompts with speech-to-text (`:`).
+* **Architecture Document Generation**: Derive practical architecture documents for the current repository with `C-c a A` (`ai-code-derive-architecture-document`). The command can generate architecture guardrails, a C4 PlantUML overview, a lightweight DDD context, or a test context document under `.ai.code.files/architecture/` so future AI coding sessions can reuse module boundaries, dependency rules, runtime flows, and validation expectations. See [the C4 architecture overview for this repository](/tninja/ai-code-interface.el/blob/main/docs/architecture/c4-overview.org) for an example C4 diagram guide.
+* **Seamless Prompt Management**: Open the prompt file via `ai-code-open-prompt-file` (stored under `.ai.code.files/.ai.code.prompt.org` inside a Git repository), send regions with `ai-code-prompt-send-block`, and reuse prompt snippets via `yasnippet` to keep conversations organized. If the preferred prompt-history location is not writable, AI Code falls back to `~/.ai.code.files/.ai.code.prompt.org`; customize `ai-code-prompt-fallback-directory` to change that location or set it to nil to disable fallback. Prompt sending still proceeds with a warning when prompt history cannot be written.
+* **Interactive Chat & Context Tools**: Dedicated buffers hold long-running chats, automatically enriched with file paths, diffs, and history from Magit or Git commands for richer AI responses.
+* **AI-Assisted Bash Commands**: From Dired, shell, eshell, or vterm, run `C-c a !` and type natural-language commands prefixed with `:` (e.g., `:count lines of python code recursively`); the tool generates the shell command for review and executes it in a compile buffer.
+
+[fn:insert-tui-spacing] Managed TUI sessions expose rendered terminal contents, not a backend-independent logical input value. AI Code therefore cannot reliably determine whether a TUI input is empty and conservatively keeps the leading separator.
+
+### Typical Workflows Example
+
+* **Changing Code**: Position the cursor on a function or select a region of code. Press `C-c a`, then `c` (`ai-code-code-change`). Describe the change you want to make in the prompt. The AI will receive the context of the function or region and your instruction.
+* **Implementing a TODO**: Write a comment in your code, like `;; TODO: Implement caching for this function`. Place your cursor on that line and press `C-c a`, then `i` (`ai-code-implement-todo`). The AI will generate the implementation based on the comment.
+  + Relevant packages for TODO: [hl-todo](https://github.com/tarsius/hl-todo), [magit-todos](https://github.com/alphapapa/magit-todos)
+* **Asking a Question**: Place your cursor within a function, press `C-c a`, then `q` (`ai-code-ask-question`), type your question, and press Enter. The question, along with context, will be sent to the AI.
+* **Discussion follow-up suggestions**: `ai-code-discussion-auto-follow-up-enabled` is enabled by default. Set `(setq ai-code-discussion-auto-follow-up-enabled nil)` to turn it off. Then ask a question with `C-c a q` or use `C-c a <SPC>` for a design discussion. When enabled, AI Code asks at send time whether to append 2-3 numbered next-step suggestions, and the transient toggle on `C-c a F` lets you turn the feature on or off from the menu.
+* **Refactoring a Function**: With the cursor in a function, press `C-c a`, then `r` (`ai-code-refactor-book-method`). Select a refactoring technique from the list, provide any required input (e.g., a new method name), and the prompt will be generated.
+* **Automatically run tests after change**: When ai-code-auto-test-type is non-nil, AI will automatically run tests after code changes and follow up on results.
+* **One-prompt TDD with refactoring**: Press `C-c a`, then `t` (`ai-code-tdd-cycle`) and choose `5. Red + Green + Blue (One prompt)` to generate tests, implement code, run tests, and then refactor the changed code in one flow.
+* **Reviewing a Pull Request**: Press `C-c a`, then `v` (`ai-code-pull-or-review-diff-file`). Choose to generate a diff between two branches. The diff will be created in a new buffer, and you’ll be prompted to start a review. Set `ai-code-default-review-source` to `github-mcp` or `gh-cli` to skip the review source prompt and always use that backend; leave it `nil` (the default) to be prompted each time.
+* **Reviewing the Current Branch with Difftastic**: Press `C-c a`, then `v`, and choose `Review current branch with difftastic` to run `difftastic-magit-diff` for a structural review of the current branch. If the `difftastic` package is not installed, AI Code will tell you to install it from MELPA or from [pkryger/difftastic.el](https://github.com/pkryger/difftastic.el).
+* **Multiple Sessions Support**: Start more AI coding session with C-c a a after launching one. Select active session with C-c a z. Prompt with above command will be sent to the selected session.
+* **Speech to Text Input**: Press `C-c a`, then `:` (`ai-code-speech-to-text-input`). Speak your prompt, press `RET` to stop recording, then choose whether to insert the transcription into the current buffer, send it to the active AI coding session after editing it in `ai-code-read-string`, or copy it to the clipboard.
+* **Agent Handoff**: When switching AI backends or pausing work, press `C-c a H` to have the AI write a neutral handoff log into the task file. Later, in a new backend session, run `C-u C-c a H` to feed the entire handoff history back to the new agent.
+
+### Context Engineering
+
+Context engineering is the deliberate practice of selecting, structuring, and delivering the right information to an AI model so the output is specific, accurate, and actionable. For AI-assisted programming, the model cannot read your whole codebase by default, so the quality of the result depends heavily on the clarity and relevance of the provided context (file paths, functions, regions, related files, and repo-level notes). Good context engineering reduces ambiguity, prevents irrelevant suggestions, and keeps changes aligned with the current code.
+
+This package makes context engineering easy by automatically assembling precise context blocks and letting you curate additional context on demand:
+
+* Automatic file and window context: prompts can include the current file and other visible files (`ai-code–get-context-files-string`), so the AI sees related code without manual copying.
+* Function or region scoping: most actions capture the current function or active region, keeping requests focused (e.g., `ai-code-code-change`, `ai-code-implement-todo`, `ai-code-ask-question`).
+* Tree-sitter semantic scope: when the current buffer has an active Tree-sitter parser, prompts carry structural context derived from the real syntax tree instead of just a function name. A prompt for a method now includes its enclosing type, both declaration headers, and the function’s line range:
+
+  ```
+  Enclosing class: UserService
+  Class definition: class UserService(BaseService):
+  Function: find_user
+  Function definition: def find_user(self, user_id: int) -> str:
+  Function range: lines 2-4
+  ```
+* Tree-sitter `@#` symbol completion: after picking a file with `@` (e.g., `@src/service.py`), type `#` to pick a symbol from that file. When Tree-sitter is active (`python-ts-mode`, `rust-ts-mode`, etc.), candidates are qualified names in file-definition order (`Bar`, `Bar.baz`), each annotated with its header and line (`def baz(self): line 4`); otherwise it falls back to an alphabetically sorted `imenu` list. Works in comments, `\*.prompt.org` buffers, and AI session buffers.
+
+Screenshot:
+
+[![./symbol-completion-example-screenshot.png](/tninja/ai-code-interface.el/raw/main/symbol-completion-example-screenshot.png)](/tninja/ai-code-interface.el/blob/main/symbol-completion-example-screenshot.png)
+
+Example (focused refactor with curated context):
+
+1. In a buffer, run `C-c a @` to add the current function or selected region to stored repo context.
+2. Open another related file in a window so it is picked up by `ai-code–get-context-files-string`.
+3. Place the cursor in the target function and run `C-c a c` to request a change.
+
+The generated prompt will include the function/region scope, visible file list, and stored repo context entries, giving the AI exactly the surrounding information it needs.
+
+* MCP can provide critical context to AI model. You can use C-c a g to open and add mcp config for corresponding AI coding CLI. Examples MCPs:
+  + [Github MCP](https://github.com/github/github-mcp-server)
+  + [Atlassian MCP](https://github.com/sooperset/mcp-atlassian)
+  + [Postgresql MCP](https://github.com/crystaldba/postgres-mcp) / Sqlite MCP
+  + [Docker](https://github.com/docker/mcp-gateway) / [Kubernetes](https://github.com/containers/kubernetes-mcp-server) MCP
+
+#### Built-in Emacs MCP Tools
+
+AI Code includes an Emacs MCP server with these built-in tools:
+
+* `project_info`: summarize the current project, active buffer, and file count
+* `editor_state`: inspect the currently selected buffer, point, mode, region, and buffer flags
+* `visible_buffers`: list the buffers visible in the selected frame windows
+* `buffer_query`: read buffer contents, optionally by line range
+* `get_diagnostics`: return Flycheck or Flymake diagnostics for one file or open project buffers
+* `get_project_files`: list regular files in the current project
+* `get_project_buffers`: list open buffers that belong to the current project
+* `imenu_list_symbols`: list useful symbols from a file via imenu
+* `xref_find_references`: find references to an identifier in project context
+* `xref_find_definitions_at_point`: find definitions at a file location
+* `treesit_info`: inspect tree-sitter node information for a file location
+
+Additional debugging tools come from `ai-code-mcp-debug-tools.el` and are enabled by default:
+
+**This make emacs runtime debugging possible. With emacs debugging mcp enabled, you can simply ask AI to trouble shooting your emacs lisp related problem (could deep inside some installed package), AI can automatically figure out the problem and suggest how to fix / perform the fix**
+
+```
+(setq ai-code-mcp-debug-tools-enabled t)  ;; default
+;; (setq ai-code-mcp-debug-tools-enabled nil) ;; disable them
+```
+
+These tools add:
+
+* `get_variable_value`: return the printed value of an Emacs variable by name
+* `get_variable_binding_info`: inspect current and default bindings for an Emacs variable
+* `get_function_info`: inspect function metadata such as kind, aliasing, and advice state
+* `get_feature_load_state`: inspect whether an Emacs feature is loaded and where it comes from
+* `get_recent_messages`: return the latest lines from `*Messages*`
+* `get_last_error_backtrace`: return the most recently recorded Emacs command error snapshot
+* `eval_elisp`: evaluate arbitrary Emacs Lisp with possible side effects in a chosen buffer context when explicitly enabled (no restrictions once enabled)
+
+The old `ai-code-mcp-editor-tools.el` module has been removed. Its live-editor read tools are now built in, while `eval_elisp` remains an explicit opt-in.
+
+To register `eval_elisp`:
+
+```
+(setq ai-code-mcp-debug-tools-enable-eval-elisp t)
+```
+
+Once enabled, `eval_elisp` can evaluate any Emacs Lisp form without restrictions. It takes `code` (a single top-level form), optional `buffer_name` or `file_path` for evaluation context, optional `capture_messages` to collect new `*Messages*` output, optional `include_backtrace` to include a backtrace on failure, and optional `timeout_ms`. This is useful for letting the AI apply fixes by evaluating modified function definitions directly.
+
+screenshot inside Codex cli:
+
+[![./emacs_mcp_tools.png](/tninja/ai-code-interface.el/raw/main/emacs_mcp_tools.png)](/tninja/ai-code-interface.el/blob/main/emacs_mcp_tools.png)
+
+* Emacs mcp use cases
+  + [Unused package clean up](/tninja/ai-code-interface.el/blob/main/docs/emacs-package-cleanup-with-ai-agent.org)
+
+##### Use It with an AI CLI
+
+Set the backend to `claude-code`, `codex`, or `github-copilot-cli` and start a session with `C-c a a`. AI Code will:
+
+* start a local Emacs MCP HTTP server
+* register the current project/buffer as the MCP session context
+* inject a session-scoped MCP config into that agent session automatically
+
+Auto-wiring is currently enabled for `claude-code`, `codex`, and `github-copilot-cli`.
+
+If you disabled it before, enable it again with:
+
+```
+(setq ai-code-mcp-agent-enabled-backends '(claude-code codex github-copilot-cli))
+```
+
+##### Make Sure It Works
+
+1. Start `claude-code`, `codex`, or `github-copilot-cli` with `C-c a a` from the file or project you want to work on.
+2. Switch to the agent buffer and run `M-x ai-code-mcp-agent-show-buffer-status`.
+
+If it shows `:backend`, `:session-id`, and a local `:server-url`, then Emacs has attached MCP to this session.
+
+1. Then ask the agent to use one of the Emacs tools, for example:
+
+* use `project_info` and tell me the current project info
+* use `imenu_list_symbols` for the current file
+* use `get_diagnostics` and summarize the current file diagnostics
+
+The status command only proves the Emacs side is wired. The real proof is that the agent returns your current project path, buffer context, or current-file symbols from those tools.
+
+##### Add a New MCP Tool
+
+1. Define an Emacs Lisp function.
+
+```
+(defun ai-code-mcp-current-buffer-name ()
+  "Return the current buffer name for the active MCP session."
+  (buffer-name (current-buffer)))
+```
+
+1. Register it as an MCP tool before you start the AI agent session:
+
+```
+(require 'ai-code-mcp-server)
+
+(ai-code-mcp-make-tool
+ :function #'ai-code-mcp-current-buffer-name
+ :name "current_buffer_name"
+ :description "Return the current Emacs buffer name."
+ :args nil)
+```
+
+1. Start `claude-code`, `codex`, or `github-copilot-cli` with `C-c a a`.
+
+If the agent session is already running, restart it after registering the new tool.
+
+1. Ask the agent to use the tool, for example:
+
+* use `current_buffer_name` and tell me the current Emacs buffer name
+
+1. If you want to verify from Emacs first, run:
+
+```
+(ai-code-mcp-dispatch "tools/list")
+```
+
+If `current_buffer_name` appears in the tool list, Emacs has registered it. If the agent can call it and returns the expected buffer name, the tool is available inside the AI coding session.
+
+##### Use the MCP Core Directly from Elisp
+
+If you want to use the MCP core without an AI CLI, you can still call it directly:
+
+```
+(require 'ai-code-mcp-server)
+(ai-code-mcp-builtins-setup)
+(ai-code-mcp-dispatch "tools/list")
+```
+
+To expose your own Emacs function as a tool, use `ai-code-mcp-make-tool`.
+
+* [Context Engineering for Coding Agents](https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html), recommended by Martin Fowler.
+
+### Harness Engineering Practice
+
+Harness engineering is about building a reliable loop around the model, so the AI does not stop at *make a change* but continues into *verify the change and react to the result*. In this package, the clearest examples are the auto test loop for code changes and the optional next-step loop for discussion prompts.
+
+Instead of manually telling the AI what to do after every code change or discussion turn, you can make follow-up part of the workflow:
+
+* `ai-code-auto-test-type`: choose how code-change prompts should continue after the edit. You can ask the AI to run tests after the change, use TDD Red+Green, use Red+Green+Blue with refactoring, turn it off, or decide case by case with `ask-me`. The `ask-me` choices also include Uncle Bob’s coding agent harness and harness+; the original keeps the evidence-first gauntlet, while harness+ adds maintainability sensors and semantic modularity checks.
+* `ai-code-discussion-auto-follow-up-enabled`: when non-nil, discussion-style prompts can offer a send-time choice to append 2-3 numbered candidate next steps. You can customize this variable directly or toggle it from the transient menu with `C-c a F`.
+* `ai-code-next-step-suggestion-suffix`: customize the exact instruction appended for those numbered next-step suggestions.
+* `ai-code-use-gptel-classify-prompt`: when paired with the settings above, GPTel can classify prompts so code-change prompts skip discussion follow-up suggestions and discussion prompts skip test follow-up.
+* `ai-code-tdd-cycle`: run a guided TDD flow from the menu, including separate Red, Green, Blue stages or the combined one-prompt flows.
+* `ai-code-build-or-test-project`: run build, test, lint, or scoped Flycheck fixes from `C-c a b` when you want a direct verification or diagnostics step in the middle of the loop.
+* `ai-code-prompt-suffix`: add persistent project rules when needed, so repeated instructions such as response language, coding constraints, or test expectations do not have to be retyped in every prompt.
+* `ai-code-grill-me-enabled`: when non-nil, offer a one-shot clarification step (*“Grill me before acting?”*) immediately before the completed prompt is sent for `ai-code-code-change`, `ai-code-ask-question`, `ai-code-implement-todo`, and `ai-code-send-command`. When accepted, the AI reads the bundled `prompt/grilling.v1.md` harness and asks targeted clarifying questions before acting, reducing ambiguity in the request. The harness is adapted from [mattpocock/skills – grilling](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md). Disabled by default; enable it with:
+
+  ```
+  (setq ai-code-grill-me-enabled t)
+  ```
+* [obra/superpowers](https://github.com/obra/superpowers) pair well with these features.
+
+With the built-in `get_diagnostics` MCP tool, the loop can move further left:
+
+* record a diagnostics baseline before editing so the AI knows which warnings or errors already existed
+* re-run `get_diagnostics` after each edit on the touched files before moving on to slower test commands
+* treat completion as *no new diagnostics* on the touched files relative to the baseline, instead of requiring the entire project to be clean
+* use tests as the next sensor in the loop, not the first one
+
+Screenshot:
+
+[![./emacs_mcp_tool_diagnosis.png](/tninja/ai-code-interface.el/raw/main/emacs_mcp_tool_diagnosis.png)](/tninja/ai-code-interface.el/blob/main/emacs_mcp_tool_diagnosis.png)
+
+The benefit is practical:
+
+* faster feedback after each AI code change
+* less context switching between prompting, testing, and follow-up fixes
+* more consistent AI behavior because verification is part of the workflow
+* easier to let the AI continue with the next step after a failed or passing test
+
+This is why features such as `ai-code-auto-test-type`, `ai-code-discussion-auto-follow-up-enabled`, `ai-code-grill-me-enabled`, and `ai-code-tdd-cycle` fit the idea of harness engineering: they turn testing, clarification, and follow-up into part of the system, not an afterthought in each prompt.
+
+Nit: During using auto test feature, I prefer to turn off the approval request from AI, it will make the whole process more smooth. Eg. for Codex CLI, it is
+
+```
+(setq ai-code-codex-cli-program-switches '("-a" "never"))
+```
+
+* Relevant article: [Harness Engineering](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html)
+
+### Desktop Notifications (Experimental)
+
+When working with multiple AI sessions, it can be useful to receive desktop notifications when AI responses are complete. This is especially helpful when you prompt an AI and then switch to other tasks while waiting for the response.
+
+#### Enabling Notifications
+
+* Notifications are disabled by default.
+* Press `C-c a` then `N` to toggle notifications on/off.
+* Alternatively, use `M-x ai-code-notifications-toggle`.
+* To enable notifications in your config:
+
+```
+(setq ai-code-notifications-enabled t)
+```
+
+#### How It Works
+
+* The package monitors terminal activity in AI session buffers.
+* When the terminal has been idle for ~5 seconds (configurable via `ai-code-backends-infra-idle-delay`), it’s considered a completed response.
+* If the AI session buffer is not currently visible/focused, a desktop notification is sent.
+* Notifications are throttled to avoid spam (minimum 2 seconds between notifications).
+
+#### Platform Support
+
+* On Linux with D-Bus, native desktop notifications are used.
+* On other platforms, notifications appear in the Emacs minibuffer.
+
+### Portable Agent Handoff via Task Files
+
+To transfer development work between different AI coding backends (e.g., from Codex to Antigravity CLI) without relying on backend-specific session histories, **ai-code-interface.el** supports portable agent handoffs using Org-mode task files.
+
+* **Create or Open Task Files (`k` / `ai-code-create-or-open-task-file`)**: Quickly initialize a new task file (by default under `.ai.code.files/`) with date, branch, selected backend, and structured Org headings (`Task Description`, `Investigation`, `Code Change`).
+* **Generate Portable Handoff (`H` / `ai-code-agent-handoff`)**:
+  + Run `C-c a H` (without a prefix) when not on an Org heading to ask the current AI agent to append a structured handoff section (`\* Agent Handoff YYYY-MM-DD HH:MM`) summarizing the task objective, current progress, files modified, design decisions, failed approaches, test results, and a startup prompt for the next agent.
+  + Run `C-c a H` with a prefix argument (e.g. `C-u C-c a H`) to load the whole task file as neutral handoff context in a new AI session.
+  + Run `C-c a H` when the cursor is positioned on an Org heading to load only that specific subtree as prompt context for the active session.
+
+AI coding CLI backend
+---------------------
+
+### Backend Configuration
+
+This package acts as a generic interface that requires a backend AI assistant package to function. You can configure it to work with different backends.
+
+* Press `C-c a` to open the AI menu, then `s` to “Select Backend”.
+* Pick one of the supported backends and the integration will switch immediately.
+* The selection updates the start/switch/send commands and, for CLI backends, the CLI used by `ai-code-apply-prompt-on-current-file`.
+* Press `C-c a` then `S` (`ai-code-install-backend-skills`) to install backend skills for the currently selected backend.
+  + If a backend does not define its own installer, `S` falls back to prompting the active AI CLI to read a skills repository README and perform setup.
+  + The default suggested repository is [obra/superpowers](https://github.com/obra/superpowers), which is a very useful starting point for adding reusable coding skills to supported CLIs.
+  + A practical workflow is: press `C-c a`, then `S`, keep the default URL, and let the backend read the repository README and install the skills it describes.
+  + [obra/superpowers](https://github.com/obra/superpowers) pair well with this package’s existing harness-oriented workflows, especially the `ai-code-auto-test-type` feedback loop, `ai-code-tdd-cycle`, and `ai-code-pull-or-review-diff-file` code review flow.
+
+Natively supported options:
+
+* [OpenAI codex CLI](https://github.com/openai/codex) (`[ai-code-codex-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-codex-cli.el)`)
+* [Pi](https://pi.dev/) (`[ai-code-pi.el](/tninja/ai-code-interface.el/blob/main/ai-code-pi.el)`)
+* [Antigravity CLI](https://antigravity.google/product/antigravity-cli) (`[ai-code-antigravity-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-antigravity-cli.el)`)
+* [Muse Code](https://developer.meta.com/ai/products/muse-code) (`[ai-code-muse-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-muse-cli.el)`)
+* [Opencode](https://opencode.ai/) (`[ai-code-opencode.el](/tninja/ai-code-interface.el/blob/main/ai-code-opencode.el)`)
+* [Claude Code](https://github.com/anthropics/claude-code) (`[ai-code-claude-code.el](/tninja/ai-code-interface.el/blob/main/ai-code-claude-code.el)`)
+  + Binds `Shift+Enter=/=Ctrl+Enter` inside Claude sessions to send Claude’s
+    multiline input sequence.
+* [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/use-copilot-cli) (`[ai-code-github-copilot-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-github-copilot-cli.el)`)
+  + Sets `TERM_PROGRAM=vscode` by default and binds `Shift+Enter=/=Ctrl+Enter`
+    inside Copilot sessions to emulate Copilot CLI’s VS Code multiline setup.
+* [Gemini CLI](https://github.com/google-gemini/gemini-cli) (`[ai-code-gemini-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-gemini-cli.el)`)
+* [Kilo](https://kilo.ai/) (`[ai-code-kilo.el](/tninja/ai-code-interface.el/blob/main/ai-code-kilo.el)`)
+* [Grok CLI](https://grokcli.io/) (`[ai-code-grok-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-grok-cli.el)`)
+* [Cursor CLI](https://docs.cursor.com/en/cli) (`[ai-code-cursor-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-cursor-cli.el)`)
+* [Open Interpreter CLI](https://github.com/openinterpreter/openinterpreter) (`[ai-code-open-interpreter-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-open-interpreter-cli.el)`)
+* [Kiro CLI](https://kiro.dev/cli/) (`[ai-code-kiro-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-kiro-cli.el)`)
+* [CodeBuddy Code CLI](https://cnb.cool/codebuddy/codebuddy-code) (`[ai-code-codebuddy-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-codebuddy-cli.el)`)
+* [Aider CLI](https://aider.chat/) (`[ai-code-aider-cli.el](/tninja/ai-code-interface.el/blob/main/ai-code-aider-cli.el)`)
+
+It also supports external backends through customization of the `ai-code-backends` variable; currently it includes:
+
+* [ECA (Editor Code Assistant)](https://eca.dev/) (`[ai-code-eca.el](/tninja/ai-code-interface.el/blob/main/ai-code-eca.el)`)
+* [agent-shell](https://github.com/xenodium/agent-shell) (`[ai-code-agent-shell.el](/tninja/ai-code-interface.el/blob/main/ai-code-agent-shell.el)`)
+* Claude Code IDE (`[claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)`)
+* Claude Code (`[claude-code.el](https://github.com/stevemolitor/claude-code.el)`)
+
+#### ECA (Editor Code Assistant) backend setup
+
+Install the [eca](https://eca.dev/) Emacs package, which provides the `eca`, `eca-session`, `eca-chat-open`,
+`eca-chat-send-prompt`, and `eca-chat--get-last-buffer` functions.
+Then select the backend in your config:
+
+```
+(ai-code-set-backend 'eca)
+```
+
+Note: `ai-code-apply-prompt-on-current-file` is CLI-pipe based and is not supported
+when `eca` is the active backend.
+
+#### agent-shell backend setup
+
+Install [agent-shell](https://github.com/xenodium/agent-shell) and its dependency [acp.el](https://github.com/xenodium/acp.el), then configure one of the ACP agent providers in agent-shell (for example Codex, Gemini, Opencode, etc.).
+Select `agent-shell` via `ai-code-select-backend` (or `(ai-code-set-backend ‘agent-shell)` in your config).
+Note: `ai-code-apply-prompt-on-current-file` is CLI-pipe based and is not supported when `agent-shell` is the active backend.
+
+#### Pi setup
+
+Install Pi with `npm install -g --ignore-scripts @earendil-works/pi-coding-agent`,
+or use the installer documented at [pi.dev](https://pi.dev/). Ensure the `pi`
+executable is on your PATH, authenticate with an API key or `/login`, and
+select the backend with `C-c a s` or `(ai-code-set-backend 'pi)`. Customize
+`ai-code-pi-program` or `ai-code-pi-program-switches` to change the
+executable or startup flags. Once selected, `C-c a a` starts Pi and
+`C-c a R` resumes a session. In Pi session buffers, Shift+Enter and
+Ctrl+Enter insert a newline, and Ctrl+Escape sends Escape to cancel the
+current operation.
+
+#### Grok CLI setup
+
+Install [grok-cli](https://grokcli.io/) and ensure the `grok` executable is on your PATH.
+Customize `ai-code-grok-cli-program` or `ai-code-grok-cli-program-switches` if you want to
+point at a different binary or pass additional flags (for example,
+selecting a profile). After that, select the backend through
+`ai-code-select-backend` or bind a helper in your config.
+
+#### CodeBuddy Code CLI setup
+
+Install CodeBuddy Code CLI via npm: `npm install -g @tencent-ai/codebuddy-code`, or via Homebrew: `brew install Tencent-CodeBuddy/tap/codebuddy-code`.
+Ensure the `codebuddy` executable is on your PATH.
+Customize `ai-code-codebuddy-cli-program` or `ai-code-codebuddy-cli-program-switches` if you want to
+point at a different binary or pass additional flags. After that, select the backend through
+`ai-code-select-backend` or bind a helper in your config.
+To resume previous conversations, use `-c` flag (automatically handled by the resume command).
+
+#### Antigravity CLI setup
+
+Install Antigravity CLI on macOS / Linux with:
+`curl -fsSL https://antigravity.google/cli/install.sh | bash`
+Review the script before piping it to your shell.
+Ensure the `agy` executable is on your PATH.
+Customize `ai-code-antigravity-cli-program` or `ai-code-antigravity-cli-program-switches` if you want to
+point at a different binary or pass additional flags. After that, select the backend through
+`ai-code-select-backend` or bind a helper in your config.
+The resume command adds `--continue` automatically.
+
+#### Muse Code setup
+
+Install Muse Code on macOS or Linux with:
+`curl -fsSL https://dev.meta.ai/install.sh | bash`
+Review the script before piping it to your shell, then ensure the `muse`
+executable is available to Emacs through `PATH` and `exec-path`.
+Customize `ai-code-muse-cli-program` or
+`ai-code-muse-cli-program-switches` to use a different executable or pass
+additional startup flags. Select the backend with `ai-code-select-backend`.
+The resume command runs `muse resume`.
+
+#### Open Interpreter CLI setup
+
+[Open Interpreter CLI](https://github.com/openinterpreter/openinterpreter) is treated as a Codex-compatible CLI. It can be installed with:
+`curl -fsSL https://www.openinterpreter.com/install | sh`
+Ensure the `interpreter` executable is on your PATH.
+Customize `ai-code-open-interpreter-cli-program` or `ai-code-open-interpreter-cli-program-switches` if needed.
+The backend config command opens `~/.openinterpreter/config.toml`.
+Then select the backend:
+
+```
+(ai-code-set-backend 'open-interpreter)
+```
+
+Resume runs `interpreter resume --last` to reopen the most recent session.
+How to setup [Kimi K3 for Open Interpreter CLI](https://www.openinterpreter.com/docs/terminal/kimi-k3?utm_source=github&utm_medium=referral&utm_campaign=readme&utm_content=kimi_k3_docs)
+
+You can add other backends by customizing the `ai-code-backends` variable.
+
+#### Add a new AI coding CLI backend
+
+* [This PR](https://github.com/tninja/ai-code-interface.el/pull/2) adds github-copilot-cli. It can be an example to add basic support for other AI coding CLI.
+* Open an issue, post information about the new AI coding CLI backend (eg. cursor CLI?), at least providing the command line name. You can also include the version upgrade command, how to resume, where the configuration files are located, and so on. We can ask GitHub Copilot to add support features based on the issue.
+
+[Why Agile development with AI?](https://github.com/tninja/aider.el/blob/main/appendix.org#be-careful-about-ai-generated-code)
+------------------------------------------------------------------------------------------------------------------------------
+
+FAQ
+---
+
+### Q: [Unable to Esc to go back after invoking the slash commands in claude-code shell?](https://github.com/tninja/ai-code-interface.el/issues/398)
+
+* A: Use Ctrl + esc key instead
+
+### Q: When test-after-change / TDD mode is enabled, AI keeps asking for tool-use approval. How can I make this smoother?
+
+* A: Enable auto-approval for your active AI coding CLI. For example, in Codex CLI, you can enable the following flag.
+
+```
+(setq ai-code-codex-cli-program-switches '("-a" "never"))
+```
+
+* For antigravity cli, it is
+
+```
+(setq ai-code-antigravity-cli-program-switches '("--dangerously-skip-permissions"))
+```
+
+* For github copilot cli, it is
+
+```
+(setq ai-code-github-copilot-cli-program-switches '("--allow-all"))
+```
+
+### Q: Codex CLI use my API key, instead of my ChatGPT Plus subscription and cost money, how to fix that?
+
+* A: use `codex login` to login with your OpenAI account that has ChatGPT Plus subscription. After that, Codex CLI will use your ChatGPT Plus subscription automatically. To confirm, check with /status inside the codex CLI buffer.
+
+### Q: Using Opencode as backend, it might have performance issues with eat.el in Doom Emacs. [Issue](https://github.com/tninja/ai-code-interface.el/issues/9#issuecomment-3543277108)
+
+* A: Use vterm as the backend; Opencode won’t trigger mouse hover and will not cause Emacs flickering. Setting “theme” to “system” in the Opencode config can reduce glitches. From [gkzhb’s answer](https://github.com/tninja/ai-code-interface.el/issues/9#issuecomment-3543335121):
+
+```
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "system"
+}
+```
+
+### Q: During using ghostel terminal backend, for long conversation, I found the earliest conversation got truncated
+
+* A: Ghostel trims old output after `ghostel-max-scrollback` bytes are used. The default is 5 MB, so increase it before starting Ghostel sessions.
+
+```
+(setq ghostel-max-scrollback (* 20 1024 1024)) ; 20 MB
+```
+
+### Q: How does image display work with the ghostel terminal backend?
+
+* A: Ghostel supports the Kitty graphics protocol. AI Code additionally previews local image file paths printed in Ghostel AI session buffers. You can tune this with:
+
+```
+;; Native Kitty graphics file-loading mediums for trusted local sessions.
+(setq ai-code-backends-infra-ghostel-kitty-graphics-mediums '(file temp-file))
+
+;; Inline preview for image paths printed by the AI CLI.
+(setq ai-code-session-link-ghostel-image-preview-enabled t)
+(setq ai-code-session-link-ghostel-image-preview-max-bytes (* 10 1024 1024))
+;; Display caps in logical pixels. nil (default) fits the session window.
+;; AI Code requests the matching backing-pixel raster on HiDPI/Retina frames
+;; and never enlarges the source. Set an integer for a fixed hard cap.
+(setq ai-code-session-link-ghostel-image-preview-max-width nil)
+(setq ai-code-session-link-ghostel-image-preview-max-height nil)
+```
+
+### Q: Gemini CLI response is relatively slow, how to improve?
+
+* A: use gemini-3-flash model, it is pretty fast, with good quality (being able to solve leetcode hard problems), and it is free. You can set the following in your Emacs config:
+
+```
+(setq ai-code-gemini-cli-program-switches '("--model" "gemini-3-flash-preview"))
+```
+
+AI Assisted Programming related books
+-------------------------------------
+
+The following books introduce how to use AI to assist programming and potentially be helpful to aider / aider.el users.
+
+* [Beyond Vibe Coding](https://learning.oreilly.com/library/view/beyond-vibe-coding/9798341634749/), by Addy Osmani, August, 2025
+* [Critical Thinking Habits for Coding with AI](https://learning.oreilly.com/library/view/critical-thinking-habits/0642572243326/), by Andrew Stellman, Oct 2025
+* [Software Testing with Generative AI](https://www.amazon.com/Software-Testing-Generative-Mark-Winteringham/dp/1633437361/ref=sr_1_34?crid=2MDJBJSIIFHHB&dib=eyJ2IjoiMSJ9.r49jgbX_SxOsAZOy3KnPP9rvtd9VmO1Jjn2Gcon-UgRSwLnzEtcArbaYhW-0h3PyxiJt_4RpfEqhGuiHyh8H-r11rZXxGPxnlIZh0eEaxrvpfKmKJO-mVPk2NRiNp_HRvy8BQqRSeqxMAmuCtGEfu-XofuacCNaxrTDIgNNL23MCTymRqIYQKCJlgW6MUvE00RLnIUYy3j-MSUILOhRpj3HLIJnN0jTyWI8MXfJ3oZGvw4orwskyYZR7kb1_fDX7LLF622PXZmiWn-wFEergew7_6G5D31icv4uNlcIC1Ts.Vf51k-Ag1zVOkmkjkDiVWjpoky698yTcppUBllLxjs4&dib_tag=se&keywords=AI+programming&qid=1748737750&sprefix=ai+programming%2Caps%2C352&sr=8-34), by Mark Winteringham, Dec 2024
+* [More AI Assisted Programming related books](https://github.com/tninja/aider.el?tab=readme-ov-file#ai-assisted-programming-related-books)
+
+Related Emacs packages
+----------------------
+
+* Claude Code (`[claude-code.el](https://github.com/stevemolitor/claude-code.el)`)
+* Claude Code IDE (`[claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)`)
+* Gemini CLI (`[gemini-cli.el](https://github.com/linchen2chris/gemini-cli.el)`)
+* [agent-shell](https://github.com/xenodium/agent-shell) ([acp.el](https://github.com/xenodium/acp.el))
+* [ECA (Editor Code Assistant)](https://eca.dev/)
+* [claude-code-ide-extras.el](https://github.com/acmorrow/claude-code-ide-extras)
+
+License
+-------
+
+Apache-2.0 License
+
+Contributing
+------------
+
+Contributions, issue reports, and improvement suggestions are welcome! Please open an issue or submit a pull request on the project’s GitHub repository.
