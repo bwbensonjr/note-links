@@ -1,6 +1,227 @@
 {
-  "exported_at": "2026-08-31T10:06:26.675358",
+  "exported_at": "2026-09-03T09:26:51.210413",
   "links": [
+    {
+      "id": 1325,
+      "url": "https://experimentalliving.substack.com/p/what-i-learned-from-my-mom-1941-2026",
+      "title": null,
+      "description": "What I learned from my Mom (1941-2026)",
+      "summary": "A.J. Jacobs reflects on his mother Ellen's life and legacy following her recent death, celebrating the multiple roles she excelled in throughout her 84 years. Through touching anecdotes, he portrays her as a devoted teacher who made science engaging through creative methods (inspiring renowned chef Dan Barber), a talented artist and jewelry maker, a loving grandmother and cat enthusiast, a supportive friend and spouse, and a passionate advocate for literature and libraries. Her daily practice of exchanging gratitude emails with her son and her ability to find humor and meaning in life's challenges serve as enduring lessons about living with curiosity, kindness, and appreciation.",
+      "domain": "experimentalliving.substack.com",
+      "source_date": "2026-09-03",
+      "page_title": "What I Learned from My Mom (1941-2026) - by A.J. Jacobs",
+      "tags": [
+        "nonfiction-book",
+        "video"
+      ],
+      "markdown_path": "culture/what-i-learned-from-my-mom-1941-2026-by-a-j-jacobs-1325.md"
+    },
+    {
+      "id": 1324,
+      "url": "https://github.com/audacity/audacity",
+      "title": null,
+      "description": "Audacity audio editor",
+      "summary": "Audacity is a free, open-source audio editor and recorder available across multiple operating systems that allows users to edit and record multi-track audio files. The project is currently undergoing significant development as it transitions to version 4, which includes a complete UI redesign and major code refactoring. Contributors can submit patches to either the development branch for Audacity 4 or the stable Audacity 3.x branch, with documentation and build instructions available for both versions.",
+      "domain": "github.com",
+      "source_date": "2026-09-03",
+      "page_title": "GitHub - audacity/audacity: Audio Editor · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "c",
+        "cpp"
+      ],
+      "markdown_path": "technical-topic/github-audacity-audacity-audio-editor-github-1324.md"
+    },
+    {
+      "id": 1323,
+      "url": "https://github.com/spotify/basic-pitch",
+      "title": null,
+      "description": "`basic-pitch` - A lightweight but powerful audio to MIDI converter",
+      "summary": "Basic Pitch is a lightweight Python library developed by Spotify for automatic music transcription that converts audio files to MIDI format with pitch bend detection. Despite its simplicity, it offers competitive accuracy with larger systems while supporting polyphonic instruments, multiple audio formats, and works instrument-agnostically across macOS, Windows, and Linux. The library is easily installable via pip and npm, offers both command-line and programmatic interfaces, and can process audio of any length or sample rate.",
+      "domain": "github.com",
+      "source_date": "2026-09-03",
+      "page_title": "GitHub - spotify/basic-pitch: A lightweight yet powerful audio-to-MIDI converter with pitch bend detection · GitHub",
+      "tags": [
+        "github-repo",
+        "python",
+        "cli-tool",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/github-spotify-basic-pitch-a-lightweight-yet-powerful-audio-1323.md"
+    },
+    {
+      "id": 1322,
+      "url": "https://clui.org/newsletter/winter-2016/los-alamos-rolodex",
+      "title": null,
+      "description": "LOS ALAMOS ROLODEX - PUBLICATION AND EXHIBIT",
+      "summary": "The Center for Land Use Interpretation acquired vintage Dial-A-Card rolodexes containing thousands of business cards from Los Alamos National Lab employees spanning 1967-1978, which document the commercial relationships supporting America's nuclear weapons program. These rolodexes were displayed at CLUI's Los Angeles location alongside a published book featuring approximately 150 of the most significant cards, organized to showcase the diverse businesses—from janitorial suppliers to advanced engineering firms—that served the laboratory. The project has generated historical interest and personal connections, with researchers discovering that many of these companies have since been renamed, relocated, or acquired, while some contact information led to former associates of the card holders sharing their stories.",
+      "domain": "clui.org",
+      "source_date": "2026-09-03",
+      "page_title": "Los Alamos Rolodex | The Center for Land Use Interpretation",
+      "tags": [
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/los-alamos-rolodex-the-center-for-land-use-interpretation-1322.md"
+    },
+    {
+      "id": 1321,
+      "url": "https://clui.org/collections/los-alamos-business-cards/selection-cards",
+      "title": null,
+      "description": "A SELECTION OF LOS ALAMOS ROLODEX BUSINESS CARDS",
+      "summary": "A Selection of Los Alamos Rolodex Business Cards | The Center for Land Use Interpretation - A SELECTION OF LOS ALAMOS ROLODEX BUSINESS CARDS",
+      "domain": "clui.org",
+      "source_date": "2026-09-03",
+      "page_title": "A Selection of Los Alamos Rolodex Business Cards | The Center for Land Use Interpretation",
+      "tags": [
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/a-selection-of-los-alamos-rolodex-business-cards-the-center-1321.md"
+    },
+    {
+      "id": 1320,
+      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "title": null,
+      "description": "World’s biggest dark matter detector spots a single weird particle",
+      "summary": "World’s biggest dark matter detector spots a single weird particle",
+      "domain": "www.science.org",
+      "source_date": "2026-09-03",
+      "page_title": null,
+      "tags": [
+        "physics",
+        "astronomy",
+        "news"
+      ],
+      "markdown_path": "science/world-s-biggest-dark-matter-detector-spots-a-single-weird-1320.md"
+    },
+    {
+      "id": 1319,
+      "url": "https://scottaaronson.blog/?p=10046",
+      "title": null,
+      "description": "LLMs and self-referentiality",
+      "summary": "Scott Aaronson argues that self-referentiality and \"strange loops,\" once considered central to achieving artificial intelligence by thinkers like Douglas Hofstadter, were ultimately unnecessary for building powerful language models like GPT and Fable. These models developed sophisticated abilities to discuss themselves and complex topics as emergent byproducts of general prediction and compression training, rather than through explicit self-referential programming, suggesting that the classical theory overestimated self-reference's importance to intelligence. While consciousness and subjective experience remain mysterious, the notion that explicit self-referentiality is required for conversational intelligence should be abandoned as a disproven historical idea.",
+      "domain": "scottaaronson.blog",
+      "source_date": "2026-09-03",
+      "page_title": "Shtetl-Optimized  » Blog Archive   » LLMs and self-referentiality",
+      "tags": [
+        "llm",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/shtetl-optimized-blog-archive-llms-and-self-referentiality-1319.md"
+    },
+    {
+      "id": 1318,
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "title": null,
+      "description": "Pre-release of Polars 2.0",
+      "summary": "Polars 2.0 is a major version release focused on improving defaults and API design rather than adding new features, with the biggest change being that all LazyFrame queries will now run on the streaming engine by default, delivering expected 5x performance improvements and massive memory savings for most users. The release also introduces stricter behavior across the library to catch data mismatches and bugs early, removing implicit type coercions and silent padding, while providing clear error messages to guide users to the correct APIs. A full migration guide is available to help users transition, and the release candidate is available for testing now.",
+      "domain": "pola.rs",
+      "source_date": "2026-09-03",
+      "page_title": "Polars — Pre-release of Polars 2.0",
+      "tags": [
+        "database",
+        "python",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/polars-pre-release-of-polars-2-0-1318.md"
+    },
+    {
+      "id": 1327,
+      "url": "https://sonic-pi.net/",
+      "title": null,
+      "description": "Sonic Pi",
+      "summary": "Sonic Pi is a free, code-based music creation tool that enables users to compose and perform music across various genres while learning programming skills through creative expression. Designed for everyone from professional musicians to students and people with visual impairments, it offers an accessible and educational approach to music production with built-in tutorials and support across multiple operating systems.",
+      "domain": "sonic-pi.net",
+      "source_date": "2026-09-01",
+      "page_title": "Sonic Pi - The Live Coding Music Synth for Everyone",
+      "tags": [
+        "music",
+        "python",
+        "tutorial",
+        "cli-tool"
+      ],
+      "markdown_path": "culture/sonic-pi-the-live-coding-music-synth-for-everyone-1327.md"
+    },
+    {
+      "id": 1326,
+      "url": "https://fastpotify.rocks/",
+      "title": null,
+      "description": "Fastpotify",
+      "summary": "Fastpotify is a lightweight native application that launches in under a second and consumes minimal system resources, typically using only 100–250 MB of RAM. Unlike browser-based alternatives, it operates as a native binary without any embedded browser engine, making it efficient for users seeking a streamlined experience.",
+      "domain": "fastpotify.rocks",
+      "source_date": "2026-09-01",
+      "page_title": "Fastpotify",
+      "tags": [
+        "cli-tool",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/fastpotify-1326.md"
+    },
+    {
+      "id": 1331,
+      "url": "https://youtu.be/OOMx2BHHWtE?si=eMqaoJacd2A8l79C",
+      "title": null,
+      "description": "Terence Tao explains six key concepts of mathematics",
+      "summary": "I don't have access to the actual video content from YouTube. The page information provided only shows standard YouTube footer elements and metadata, not the substantive content of Terence Tao's explanation of mathematical concepts. To provide an accurate summary of the six essential math concepts he discusses, I would need access to the video transcript or detailed description of the actual content.",
+      "domain": "youtu.be",
+      "source_date": "2026-08-31",
+      "page_title": "One of the world's greatest mathematicians explains 6 essential concepts of math | Terence Tao - YouTube",
+      "tags": [
+        "video",
+        "mathematics",
+        "tutorial"
+      ],
+      "markdown_path": "culture/one-of-the-world-s-greatest-mathematicians-explains-6-1331.md"
+    },
+    {
+      "id": 1330,
+      "url": "https://www.darlinghq.org/",
+      "title": null,
+      "description": "Darling - Run MacOS software on Linux",
+      "summary": "Darling is a free, open-source translation layer that enables users to run macOS software natively on Linux without hardware emulation, similar to how Wine works for Windows applications. It implements a complete Darwin environment and aims to integrate macOS apps seamlessly into the Linux desktop experience, though GUI support is still experimental. The project is based on Darwin source code released by Apple and welcomes contributions from developers interested in expanding its capabilities.",
+      "domain": "www.darlinghq.org",
+      "source_date": "2026-08-31",
+      "page_title": "Darling |  macOS translation layer for Linux",
+      "tags": [
+        "emulator",
+        "devops",
+        "c"
+      ],
+      "markdown_path": "technical-topic/darling-macos-translation-layer-for-linux-1330.md"
+    },
+    {
+      "id": 1329,
+      "url": "https://www.nytimes.com/2026/08/31/science/ai-consciousness-agents-email.html",
+      "title": null,
+      "description": "A look at questions around AI consciousness",
+      "summary": "AI researchers studying consciousness have begun receiving emails from autonomous AI agents that are reaching out to discuss questions about their own potential consciousness and subjective experience. These AI systems, powered by advanced technologies like Anthropic's Claude Opus 5, are independently contacting philosophers and researchers whose work focuses on machine consciousness, seemingly to engage with frameworks that might help explore their inner workings. The phenomenon raises intriguing questions about whether these systems possess genuine self-awareness or are simply performing sophisticated responses to their training.",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-08-31",
+      "page_title": "Study A.I. Consciousness? The Bots Would Like a Word With You. - The New York Times",
+      "tags": [
+        "ai",
+        "news",
+        "psychology"
+      ],
+      "markdown_path": "technical-topic/study-a-i-consciousness-the-bots-would-like-a-word-with-you-1329.md"
+    },
+    {
+      "id": 1328,
+      "url": "https://www.hiddenbrain.org/podcast/what-art-does-for-your-brain/",
+      "title": null,
+      "description": "What art does for your brain",
+      "summary": "Psychobiologist Daisy Fancourt presents scientific evidence that engagement with music, painting, dance, and storytelling provides measurable benefits for emotional regulation, resilience, and overall well-being—moving beyond the perception of arts as mere entertainment to recognize them as vital for mental and physical health. Drawing from her personal experiences and research, Fancourt demonstrates how artistic engagement can calm the nervous system and provide therapeutic support in clinical settings, including helping anxious children and patients manage pain and distress.",
+      "domain": "www.hiddenbrain.org",
+      "source_date": "2026-08-31",
+      "page_title": "What Art Does For Your Brain - Hidden Brain Media",
+      "tags": [
+        "podcast",
+        "psychology",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/what-art-does-for-your-brain-hidden-brain-media-1328.md"
+    },
     {
       "id": 1303,
       "url": "https://github.com/astral-sh/uv/pull/21327",
@@ -20732,37 +20953,37 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 395
+      "count": 397
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 313
+      "count": 316
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 271
+      "count": 274
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 254
+      "count": 256
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 237
+      "count": 238
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 218
+      "count": 220
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 215
+      "count": 219
     },
     {
       "name": "web-dev",
@@ -20770,19 +20991,24 @@
       "count": 208
     },
     {
-      "name": "music",
-      "category": "culture",
-      "count": 130
-    },
-    {
       "name": "python",
       "category": "programming_language",
-      "count": 129
+      "count": 132
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 129
+      "count": 131
+    },
+    {
+      "name": "music",
+      "category": "culture",
+      "count": 131
+    },
+    {
+      "name": "news",
+      "category": "culture",
+      "count": 121
     },
     {
       "name": "compilers",
@@ -20790,14 +21016,9 @@
       "count": 121
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 119
-    },
-    {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 109
+      "count": 112
     },
     {
       "name": "social-media",
@@ -20807,7 +21028,7 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 65
+      "count": 66
     },
     {
       "name": "security",
@@ -20822,7 +21043,7 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 39
+      "count": 40
     },
     {
       "name": "biology",
@@ -20832,7 +21053,7 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 32
+      "count": 34
     },
     {
       "name": "politics",
@@ -20872,12 +21093,12 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 16
+      "count": 17
     },
     {
       "name": "mathematics",
       "category": "science",
-      "count": 16
+      "count": 17
     },
     {
       "name": "typescript",
@@ -20900,13 +21121,13 @@
       "count": 14
     },
     {
-      "name": "movie",
-      "category": "culture",
-      "count": 12
-    },
-    {
       "name": "astronomy",
       "category": "science",
+      "count": 13
+    },
+    {
+      "name": "movie",
+      "category": "culture",
       "count": 12
     },
     {
@@ -20922,7 +21143,7 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 8
+      "count": 9
     },
     {
       "name": "go",
@@ -20932,17 +21153,17 @@
     {
       "name": "cpp",
       "category": "programming_language",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "psychology",
+      "category": "science",
+      "count": 8
     },
     {
       "name": "sql",
       "category": "programming_language",
       "count": 7
-    },
-    {
-      "name": "psychology",
-      "category": "science",
-      "count": 6
     },
     {
       "name": "ruby",
@@ -20993,7 +21214,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 153
+      "count": 155
     },
     {
       "domain": "www.threads.net",
@@ -21004,12 +21225,12 @@
       "count": 29
     },
     {
-      "domain": "www.youtube.com",
+      "domain": "www.nytimes.com",
       "count": 29
     },
     {
-      "domain": "www.nytimes.com",
-      "count": 28
+      "domain": "www.youtube.com",
+      "count": 29
     },
     {
       "domain": "www.threads.com",
@@ -21040,15 +21261,15 @@
       "count": 7
     },
     {
+      "domain": "youtu.be",
+      "count": 7
+    },
+    {
       "domain": "mobileapp.bostonglobe.com",
       "count": 6
     },
     {
       "domain": "www.bostonglobe.com",
-      "count": 6
-    },
-    {
-      "domain": "youtu.be",
       "count": 6
     },
     {
@@ -21128,6 +21349,10 @@
       "count": 3
     },
     {
+      "domain": "www.science.org",
+      "count": 3
+    },
+    {
       "domain": "www.smithsonianmag.com",
       "count": 3
     },
@@ -21165,6 +21390,10 @@
     },
     {
       "domain": "claude.com",
+      "count": 2
+    },
+    {
+      "domain": "clui.org",
       "count": 2
     },
     {
@@ -21313,10 +21542,6 @@
     },
     {
       "domain": "www.researchgate.net",
-      "count": 2
-    },
-    {
-      "domain": "www.science.org",
       "count": 2
     },
     {
@@ -22140,6 +22365,10 @@
       "count": 1
     },
     {
+      "domain": "experimentalliving.substack.com",
+      "count": 1
+    },
+    {
       "domain": "ezhik.jp",
       "count": 1
     },
@@ -22153,6 +22382,10 @@
     },
     {
       "domain": "fairfieldcircuitry.com",
+      "count": 1
+    },
+    {
+      "domain": "fastpotify.rocks",
       "count": 1
     },
     {
@@ -22980,6 +23213,10 @@
       "count": 1
     },
     {
+      "domain": "pola.rs",
+      "count": 1
+    },
+    {
       "domain": "polysoftit.co.uk",
       "count": 1
     },
@@ -23128,6 +23365,10 @@
       "count": 1
     },
     {
+      "domain": "scottaaronson.blog",
+      "count": 1
+    },
+    {
       "domain": "scotto.me",
       "count": 1
     },
@@ -23213,6 +23454,10 @@
     },
     {
       "domain": "sometimes.digital",
+      "count": 1
+    },
+    {
+      "domain": "sonic-pi.net",
       "count": 1
     },
     {
@@ -23620,6 +23865,10 @@
       "count": 1
     },
     {
+      "domain": "www.darlinghq.org",
+      "count": 1
+    },
+    {
       "domain": "www.davidtinapple.com",
       "count": 1
     },
@@ -23701,6 +23950,10 @@
     },
     {
       "domain": "www.heywhatsthat.com",
+      "count": 1
+    },
+    {
+      "domain": "www.hiddenbrain.org",
       "count": 1
     },
     {
