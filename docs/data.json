@@ -1,6 +1,133 @@
 {
-  "exported_at": "2026-09-03T09:26:51.210413",
+  "exported_at": "2026-09-06T07:35:27.282015",
   "links": [
+    {
+      "id": 1335,
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "title": null,
+      "description": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "summary": "This article explores how Rust implements dynamic polymorphism through `dyn Trait` and vtables, comparing it with C++ approaches like virtual functions and CRTP. The author demonstrates that `dyn Trait` uses \"wide pointers\" (16 bytes instead of 8) containing both a data pointer and a vtable pointer, allowing runtime method dispatch while maintaining Rust's safety guarantees. The post also highlights interesting differences between Rust and C++, such as zero-sized types having no memory allocation and identity being tracked through ownership rather than memory addresses.",
+      "domain": "sofiabelen.github.io",
+      "source_date": "2026-09-06",
+      "page_title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "tags": [
+        "rust",
+        "tutorial",
+        "compilers"
+      ],
+      "markdown_path": "programming-language/visualizing-rust-s-vtables-how-dyn-trait-works-in-memory-1335.md"
+    },
+    {
+      "id": 1334,
+      "url": "https://bergie.iki.fi/blog/eupl/",
+      "title": null,
+      "description": "The European Union Public License for software",
+      "summary": "Henri Bergius has switched his software licensing strategy to the European Union Public License 1.2 (EUPL), moving away from his previous use of LGPLv2 and MIT licenses. EUPL is a strong copyleft license approved by the OSI that closes the \"SaaS loophole\" and requires reciprocal licensing, reflecting his shift away from permissive licenses that he believes have primarily benefited large corporations at the expense of developers and users. He has already applied EUPL to several projects including reticulum-js, dacar, and signalk-energy-predictor, appreciating the license's official translations into 23 languages for global use.",
+      "domain": "bergie.iki.fi",
+      "source_date": "2026-09-06",
+      "page_title": "I changed my license - Henri Bergius in Alofi, Niue",
+      "tags": [
+        "security",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/i-changed-my-license-henri-bergius-in-alofi-niue-1334.md"
+    },
+    {
+      "id": 1333,
+      "url": "https://runjs.app/blog/music-theory-for-programmers",
+      "title": null,
+      "description": "Music theory for programmers",
+      "summary": "This article teaches music theory from first principles using code and the Web Audio API, starting with the physics of sound as changing air pressure. The author demonstrates how fundamental concepts like frequency, envelopes, and harmonics create musical meaning, then builds toward explaining why certain notes and scales work together based on mathematical relationships rather than arbitrary convention. By working through practical examples with sound generation, readers can understand the underlying reasons why music works the way it does without needing to play an instrument or memorize rules.",
+      "domain": "runjs.app",
+      "source_date": "2026-09-06",
+      "page_title": "Music theory for programmers",
+      "tags": [
+        "music",
+        "tutorial",
+        "web-dev",
+        "mathematics",
+        "physics"
+      ],
+      "markdown_path": "culture/music-theory-for-programmers-1333.md"
+    },
+    {
+      "id": 1332,
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "title": null,
+      "description": "Cloud in a bottle",
+      "summary": "Cloud in a Bottle is an open-source personal cloud platform designed to make self-hosting accessible to non-technical users by offering containerized apps with unified authentication and a smartphone-like experience. The project addresses the problem that modern cloud software has become centralized and controlled by companies with misaligned incentives, whereas the open-source model thrived when individuals could host software themselves. The platform provides security through containerized sandboxing, integrated app experiences through shared APIs, and both self-hosted and managed versions, with plans to grow its curated app catalog to make personal cloud computing practical for everyday users.",
+      "domain": "cloudinabottle.org",
+      "source_date": "2026-09-06",
+      "page_title": "Cloud in a Bottle: making self-hosting accessible to everyone | Cloud in a Bottle",
+      "tags": [
+        "devops",
+        "github-repo",
+        "security",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/cloud-in-a-bottle-making-self-hosting-accessible-to-1332.md"
+    },
+    {
+      "id": 1337,
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "title": null,
+      "description": "Learn programming with OCaml",
+      "summary": "This is an open-access English translation of a French textbook on OCaml programming by Sylvain Conchon and Jean-Christophe Filliâtre, funded by the OCaml Software Foundation and licensed under CC BY SA 4.0. The book is available in multiple formats (PDF and EPUB) along with accompanying code examples, and readers can report any errors or typos they find.",
+      "domain": "usr.lmf.cnrs.fr",
+      "source_date": "2026-09-05",
+      "page_title": "Learn Programming with OCaml",
+      "tags": [
+        "tutorial",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/learn-programming-with-ocaml-1337.md"
+    },
+    {
+      "id": 1336,
+      "url": "https://jazzguitartoday.com/2026/08/fingerstyle-jazz-guitarist-gene-bertoncini-dies-at-age-89/",
+      "title": null,
+      "description": "Jazz Guitarist Gene Bertoncini Dies At Age 89",
+      "summary": "Jazz Guitarist Gene Bertoncini Dies At Age 89",
+      "domain": "jazzguitartoday.com",
+      "source_date": "2026-09-05",
+      "page_title": null,
+      "tags": [
+        "music",
+        "news"
+      ],
+      "markdown_path": "culture/jazz-guitarist-gene-bertoncini-dies-at-age-89-1336.md"
+    },
+    {
+      "id": 1339,
+      "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+      "title": null,
+      "description": "Why Julia was invented and a quick description of Dyad",
+      "summary": "Julia began as an MIT research project in 2009 when frustrated scientists sought a programming language that was both easy to use and fast for complex mathematical and scientific work. The language evolved from a lab into the company JuliaHub, and now has over 1 million users worldwide applying it to diverse fields from drug design to aircraft engineering. The latest development, Dyad 3.0, leverages AI to automate hardware design, allowing engineers to simply upload specifications and have the system autonomously design complex systems like aircraft.",
+      "domain": "news.mit.edu",
+      "source_date": "2026-09-04",
+      "page_title": "How an MIT research project became a global programming language | MIT News | Massachusetts Institute of Technology",
+      "tags": [
+        "news",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/how-an-mit-research-project-became-a-global-programming-1339.md"
+    },
+    {
+      "id": 1338,
+      "url": "https://idpro.org/authorization-terminology-is-a-mess-lets-fix-it/",
+      "title": null,
+      "description": "Authorization terminology overview",
+      "summary": "Authorization terminology overview",
+      "domain": "idpro.org",
+      "source_date": "2026-09-04",
+      "page_title": null,
+      "tags": [
+        "security",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/authorization-terminology-overview-1338.md"
+    },
     {
       "id": 1325,
       "url": "https://experimentalliving.substack.com/p/what-i-learned-from-my-mom-1941-2026",
@@ -20953,22 +21080,22 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 397
+      "count": 400
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 316
+      "count": 317
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 274
+      "count": 276
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 256
+      "count": 259
     },
     {
       "name": "llm",
@@ -20976,19 +21103,24 @@
       "count": 238
     },
     {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 220
+    },
+    {
       "name": "video",
       "category": "culture",
       "count": 220
     },
     {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 219
-    },
-    {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 208
+      "count": 209
+    },
+    {
+      "name": "music",
+      "category": "culture",
+      "count": 133
     },
     {
       "name": "python",
@@ -20998,22 +21130,17 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 131
-    },
-    {
-      "name": "music",
-      "category": "culture",
-      "count": 131
+      "count": 132
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 121
+      "count": 123
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 121
+      "count": 122
     },
     {
       "name": "nonfiction-book",
@@ -21033,7 +21160,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 61
+      "count": 64
     },
     {
       "name": "distributed-systems",
@@ -21043,7 +21170,7 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 40
+      "count": 41
     },
     {
       "name": "biology",
@@ -21056,6 +21183,11 @@
       "count": 34
     },
     {
+      "name": "rust",
+      "category": "programming_language",
+      "count": 32
+    },
+    {
       "name": "politics",
       "category": "culture",
       "count": 32
@@ -21064,11 +21196,6 @@
       "name": "lisp",
       "category": "programming_language",
       "count": 32
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 31
     },
     {
       "name": "javascript",
@@ -21086,6 +21213,11 @@
       "count": 19
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 18
+    },
+    {
       "name": "gaming",
       "category": "culture",
       "count": 17
@@ -21093,11 +21225,6 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 17
-    },
-    {
-      "name": "mathematics",
-      "category": "science",
       "count": 17
     },
     {
@@ -21781,6 +21908,10 @@
       "count": 1
     },
     {
+      "domain": "bergie.iki.fi",
+      "count": 1
+    },
+    {
       "domain": "bfi.uchicago.edu",
       "count": 1
     },
@@ -22046,6 +22177,10 @@
     },
     {
       "domain": "clojure.stream",
+      "count": 1
+    },
+    {
+      "domain": "cloudinabottle.org",
       "count": 1
     },
     {
@@ -22581,6 +22716,10 @@
       "count": 1
     },
     {
+      "domain": "idpro.org",
+      "count": 1
+    },
+    {
       "domain": "iiif.lib.harvard.edu",
       "count": 1
     },
@@ -22638,6 +22777,10 @@
     },
     {
       "domain": "jasonwillems.com",
+      "count": 1
+    },
+    {
+      "domain": "jazzguitartoday.com",
       "count": 1
     },
     {
@@ -22982,6 +23125,10 @@
     },
     {
       "domain": "news.harvard.edu",
+      "count": 1
+    },
+    {
+      "domain": "news.mit.edu",
       "count": 1
     },
     {
@@ -23333,6 +23480,10 @@
       "count": 1
     },
     {
+      "domain": "runjs.app",
+      "count": 1
+    },
+    {
       "domain": "s3data.computerhistory.org",
       "count": 1
     },
@@ -23442,6 +23593,10 @@
     },
     {
       "domain": "snimu.github.io",
+      "count": 1
+    },
+    {
+      "domain": "sofiabelen.github.io",
       "count": 1
     },
     {
@@ -23630,6 +23785,10 @@
     },
     {
       "domain": "users.soe.ucsc.edu",
+      "count": 1
+    },
+    {
+      "domain": "usr.lmf.cnrs.fr",
       "count": 1
     },
     {
