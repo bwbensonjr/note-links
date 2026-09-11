@@ -1,6 +1,162 @@
 {
-  "exported_at": "2026-09-06T07:35:27.282015",
+  "exported_at": "2026-09-11T16:18:58.215064",
   "links": [
+    {
+      "id": 1340,
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "title": null,
+      "description": "Armin Ronacher on crazy slop coding in Astra",
+      "summary": "Armin Ronacher critiques GPT-6's Astra model for software engineering, arguing that despite its impressive capabilities, it represents \"involution\"—increased effort without proportional productivity gains. His experiment running an AI-powered software factory for 35 hours burned billions of tokens but produced no useful code, revealing that Astra tends to generate questionable code patterns, particularly using excessive Python string manipulation instead of proper tools, which suggests potential issues in its training process that reward long-horizon task completion without penalizing poor code quality.",
+      "domain": "lucumr.pocoo.org",
+      "source_date": "2026-09-11",
+      "page_title": "Astra for Coding: Why Are We Doing This Again? | Armin Ronacher's Thoughts and Writings",
+      "tags": [
+        "ai",
+        "llm",
+        "python"
+      ],
+      "markdown_path": "technical-topic/astra-for-coding-why-are-we-doing-this-again-armin-ronacher-1340.md"
+    },
+    {
+      "id": 1344,
+      "url": "https://map-yue2.github.io/",
+      "title": null,
+      "description": "Yue2 - Combines symbolic and audio music generation",
+      "summary": "YuE2 is an innovative music generation system that combines symbolic and audio approaches to create original compositions. The tool allows users to generate music while viewing interactive symbolic scores that follow along with the audio playback, enabling a seamless integration of traditional music notation with modern generative AI technology. Users can explore generated songs, compare them with original scores, and customize music through style prompts and lyrical inputs.",
+      "domain": "map-yue2.github.io",
+      "source_date": "2026-09-10",
+      "page_title": "YuE2 · Frontier Music with Symbolic Planning",
+      "tags": [
+        "ai",
+        "music",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/yue2-frontier-music-with-symbolic-planning-1344.md"
+    },
+    {
+      "id": 1343,
+      "url": "https://www.youtube.com/watch?v=g1KmAnN1JSo",
+      "title": null,
+      "description": "Lee Ritenout/Don Grusin - Let's Not Talk About It (Live)",
+      "summary": "I don't have access to the actual content of the YouTube video page you've linked. The text provided only shows YouTube's standard footer information (copyright, links, terms of service) rather than details about the video itself. To provide an accurate summary, I would need information about the video's description, duration, or actual content details.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-09-10",
+      "page_title": "Don Grusin - LET'S NOT TALK ABOUT IT (Live) - YouTube",
+      "tags": [
+        "music",
+        "video"
+      ],
+      "markdown_path": "culture/don-grusin-let-s-not-talk-about-it-live-youtube-1343.md"
+    },
+    {
+      "id": 1342,
+      "url": "https://www.youtube.com/watch?v=ZX5ef_KAZlY",
+      "title": null,
+      "description": "Lee Ritenour - Let's Not Talk About",
+      "summary": "I don't have access to the actual content of this YouTube video page. The text provided only shows standard YouTube footer information (copyright, links, etc.) and doesn't include the video description, comments, or details about the song \"Friendship\" featuring Lee Ritenour. To provide an accurate summary, I would need access to the video's actual description or content details.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-09-10",
+      "page_title": "Friendship (feat.Lee Ritenour) - Let's Not Talk About It  (HQ Audio) - YouTube",
+      "tags": [
+        "music",
+        "video"
+      ],
+      "markdown_path": "culture/friendship-feat-lee-ritenour-let-s-not-talk-about-it-hq-1342.md"
+    },
+    {
+      "id": 1341,
+      "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
+      "title": null,
+      "description": "Stockfish 19",
+      "summary": "Stockfish 19 is a major release of the open-source chess engine that delivers up to 44 Elo points of improvement over its predecessor, maintaining its position as the strongest chess engine. The update includes significant technical enhancements such as universal binaries for easier installation, an upgraded NNUE neural network architecture with improved training techniques, and expanded platform support for RISC-V and LoongArch. The project continues to thrive as a community-driven effort, with developers welcome to contribute through various components including the core engine, testing framework, and training systems.",
+      "domain": "stockfishchess.org",
+      "source_date": "2026-09-10",
+      "page_title": "Stockfish 19 - Stockfish - Strong open-source chess engine",
+      "tags": [
+        "gaming",
+        "github-repo",
+        "c"
+      ],
+      "markdown_path": "culture/stockfish-19-stockfish-strong-open-source-chess-engine-1341.md"
+    },
+    {
+      "id": 1349,
+      "url": "https://deepmind.google/science/weathernext/",
+      "title": null,
+      "description": "WeatherNext 3 - Google advanced weather model",
+      "summary": "WeatherNext 3 is Google DeepMind's advanced weather forecasting model that processes raw satellite imagery to generate hourly weather predictions, enabling users to track rapidly changing weather conditions like rain and snow with greater frequency and accuracy than previous forecasting systems.",
+      "domain": "deepmind.google",
+      "source_date": "2026-09-07",
+      "page_title": "WeatherNext 3 — Google DeepMind",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/weathernext-3-google-deepmind-1349.md"
+    },
+    {
+      "id": 1348,
+      "url": "https://lambdaland.org/posts/2026-09-06-bedrock-v2/",
+      "title": null,
+      "description": "Emacs Bedrock 2.0",
+      "summary": "Bedrock 2.0, a minimal Emacs starter kit, has been released with support for Emacs 31 and includes significant improvements such as lexical binding, automatic package installation, enhanced tree-sitter configuration, and new built-in features like repeat-mode. The kit maintains its philosophy of being a simple, human-readable configuration that users directly edit and customize rather than relying on complex frameworks or automatic upgrades. While this is a major version bump due to dropping Emacs 29 compatibility, it represents incremental improvements rather than a total overhaul, and existing users may not need to upgrade immediately.",
+      "domain": "lambdaland.org",
+      "source_date": "2026-09-07",
+      "page_title": "Lambda Land | Bedrock 2.0 Released",
+      "tags": [
+        "lisp",
+        "tutorial",
+        "cli-tool"
+      ],
+      "markdown_path": "programming-language/lambda-land-bedrock-2-0-released-1348.md"
+    },
+    {
+      "id": 1347,
+      "url": "https://worksthatwork.com/6/unified-arabic",
+      "title": null,
+      "description": "Unified Arabic - Fighting illiteracy with typography",
+      "summary": "Unified Arabic is a typographic system created by Lebanese architect Nasri Khattar in 1932 to simplify Arabic writing by reducing the hundreds of letter variations into a unified set of 30 basic letterforms, making it easier for typewriters and mass printing while addressing widespread illiteracy in the Arab world. Khattar's innovation drastically simplified the typing process by requiring only single keystrokes per letter instead of multiple variations, and with support from IBM and literacy advocate Frank Laubach, the project gained recognition as a potential tool to accelerate literacy education across the Arab region. Despite its practical advantages and backing from major corporations, Unified Arabic faced significant obstacles to widespread adoption despite its potential to democratize access to printed Arabic text.",
+      "domain": "worksthatwork.com",
+      "source_date": "2026-09-07",
+      "page_title": "Fighting Illiteracy With Typography by Yara Khoury Nammour (Works That Work magazine)",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/fighting-illiteracy-with-typography-by-yara-khoury-nammour-1347.md"
+    },
+    {
+      "id": 1346,
+      "url": "https://belmontvoice.org/state-senate-recount-begins-wednesday/",
+      "title": null,
+      "description": "Suffolk and Middlesex recount Wednesday and Thursday",
+      "summary": "A recount for the Massachusetts State Senate Democratic primary race between incumbent William Brownsberger and challenger Daniel Lander will take place Wednesday and Thursday across the Suffolk and Middlesex District, which includes Belmont, Watertown, and parts of Boston and Cambridge. The recount was triggered by an extremely narrow margin of just 34 votes, with Brownsberger currently leading 12,291 to 12,257 after the September 1st election. In Belmont, the recount will involve 20 teams of two who will hand-count ballots in groups of 50, with the process beginning Wednesday morning and resuming Thursday at 9 a.m., and observers from both campaigns and the public are permitted to watch.",
+      "domain": "belmontvoice.org",
+      "source_date": "2026-09-07",
+      "page_title": "State Senate Recount Begins Wednesday - The Belmont Voice",
+      "tags": [
+        "news",
+        "politics"
+      ],
+      "markdown_path": "culture/state-senate-recount-begins-wednesday-the-belmont-voice-1346.md"
+    },
+    {
+      "id": 1345,
+      "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+      "title": null,
+      "description": "Simple is not the same as small",
+      "summary": "The article distinguishes between simplicity and smallness in programming, arguing that small programs are not necessarily simple and vice versa. Using examples like Unix pipelines versus Clojure programs, the author demonstrates how small, modular tools can actually be coupled and complex when requirements change, while large programs like Google Drive can feel simple to users because their components are well-decoupled. The key insight is that true simplicity comes from decoupling different concerns from each other, not from minimizing code size.",
+      "domain": "jyn.dev",
+      "source_date": "2026-09-07",
+      "page_title": "simple is not small",
+      "tags": [
+        "tutorial",
+        "clojure",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/simple-is-not-small-1345.md"
+    },
     {
       "id": 1335,
       "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
@@ -21080,52 +21236,52 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 400
+      "count": 402
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 317
+      "count": 320
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 276
+      "count": 278
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 259
+      "count": 261
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 238
-    },
-    {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 220
+      "count": 240
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 220
+      "count": 222
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 221
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 209
+      "count": 210
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 133
+      "count": 136
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 132
+      "count": 133
     },
     {
       "name": "devops",
@@ -21135,7 +21291,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 123
+      "count": 124
     },
     {
       "name": "compilers",
@@ -21145,7 +21301,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 112
+      "count": 113
     },
     {
       "name": "social-media",
@@ -21180,20 +21336,20 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 34
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 32
+      "count": 35
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 32
+      "count": 33
     },
     {
       "name": "lisp",
+      "category": "programming_language",
+      "count": 33
+    },
+    {
+      "name": "rust",
       "category": "programming_language",
       "count": 32
     },
@@ -21213,14 +21369,14 @@
       "count": 19
     },
     {
-      "name": "mathematics",
-      "category": "science",
+      "name": "gaming",
+      "category": "culture",
       "count": 18
     },
     {
-      "name": "gaming",
-      "category": "culture",
-      "count": 17
+      "name": "mathematics",
+      "category": "science",
+      "count": 18
     },
     {
       "name": "emulator",
@@ -21228,12 +21384,12 @@
       "count": 17
     },
     {
-      "name": "typescript",
+      "name": "clojure",
       "category": "programming_language",
-      "count": 15
+      "count": 16
     },
     {
-      "name": "clojure",
+      "name": "typescript",
       "category": "programming_language",
       "count": 15
     },
@@ -21348,15 +21504,15 @@
       "count": 89
     },
     {
+      "domain": "www.youtube.com",
+      "count": 31
+    },
+    {
       "domain": "simonwillison.net",
       "count": 29
     },
     {
       "domain": "www.nytimes.com",
-      "count": 29
-    },
-    {
-      "domain": "www.youtube.com",
       "count": 29
     },
     {
@@ -21449,6 +21605,10 @@
     },
     {
       "domain": "computerhistory.org",
+      "count": 3
+    },
+    {
+      "domain": "lucumr.pocoo.org",
       "count": 3
     },
     {
@@ -21573,10 +21733,6 @@
     },
     {
       "domain": "kumo.ai",
-      "count": 2
-    },
-    {
-      "domain": "lucumr.pocoo.org",
       "count": 2
     },
     {
@@ -21901,6 +22057,10 @@
     },
     {
       "domain": "beej.us",
+      "count": 1
+    },
+    {
+      "domain": "belmontvoice.org",
       "count": 1
     },
     {
@@ -22325,6 +22485,10 @@
     },
     {
       "domain": "deck.gl",
+      "count": 1
+    },
+    {
+      "domain": "deepmind.google",
       "count": 1
     },
     {
@@ -22820,6 +22984,10 @@
       "count": 1
     },
     {
+      "domain": "jyn.dev",
+      "count": 1
+    },
+    {
       "domain": "karpathy.ai",
       "count": 1
     },
@@ -22857,6 +23025,10 @@
     },
     {
       "domain": "labs.acme.byu.edu",
+      "count": 1
+    },
+    {
+      "domain": "lambdaland.org",
       "count": 1
     },
     {
@@ -22945,6 +23117,10 @@
     },
     {
       "domain": "makerfairerome.eu",
+      "count": 1
+    },
+    {
+      "domain": "map-yue2.github.io",
       "count": 1
     },
     {
@@ -23648,6 +23824,10 @@
       "count": 1
     },
     {
+      "domain": "stockfishchess.org",
+      "count": 1
+    },
+    {
       "domain": "stripe.dev",
       "count": 1
     },
@@ -23881,6 +24061,10 @@
     },
     {
       "domain": "worksinprogress.co",
+      "count": 1
+    },
+    {
+      "domain": "worksthatwork.com",
       "count": 1
     },
     {
