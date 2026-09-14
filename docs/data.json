@@ -1,6 +1,118 @@
 {
-  "exported_at": "2026-09-11T16:18:58.215064",
+  "exported_at": "2026-09-14T13:24:28.533690",
   "links": [
+    {
+      "id": 1352,
+      "url": "https://github.com/anuj0456/OpenArch",
+      "title": null,
+      "description": "OpenArch - PyTorch implementations of Open Source LLM models",
+      "summary": "OpenArch is a GitHub repository containing hand-written PyTorch implementations of modern open-source LLM architectures like Llama, Qwen, DeepSeek, and Gemma, designed specifically for readability and learning rather than production performance. The project prioritizes clarity by presenting each model architecture in a single readable file that makes structural choices explicit and easy to compare, covering variations in attention mechanisms, normalization techniques, positional encodings, and mixture-of-experts approaches. The repository currently implements over a dozen models and welcomes community contributions to expand coverage toward the 72 architectures cataloged in Sebastian Raschka's LLM Architecture Gallery.",
+      "domain": "github.com",
+      "source_date": "2026-09-14",
+      "page_title": "GitHub - anuj0456/OpenArch: PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) — written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery. · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "python",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/github-anuj0456-openarch-pytorch-implementations-of-modern-1352.md"
+    },
+    {
+      "id": 1351,
+      "url": "https://www.wsj.com/arts-culture/books/coltrane-review-sound-and-spirit-b2417282",
+      "title": null,
+      "description": "‘Coltrane’ Review: Sound and Spirit",
+      "summary": "‘Coltrane’ Review: Sound and Spirit",
+      "domain": "www.wsj.com",
+      "source_date": "2026-09-14",
+      "page_title": null,
+      "tags": [
+        "music",
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/coltrane-review-sound-and-spirit-1351.md"
+    },
+    {
+      "id": 1350,
+      "url": "https://knowablemagazine.org/content/article/society/2026/prehistory-lost-threads",
+      "title": null,
+      "description": "Rope, twine and thread: Invisible technologies of the Stone Age",
+      "summary": "Rope, twine and thread: Invisible technologies of the Stone Age",
+      "domain": "knowablemagazine.org",
+      "source_date": "2026-09-14",
+      "page_title": null,
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/rope-twine-and-thread-invisible-technologies-of-the-stone-1350.md"
+    },
+    {
+      "id": 1353,
+      "url": "https://icm.museum/blog/?p=38",
+      "title": null,
+      "description": "MIT-MC.ARPA - A DECSYSTEM-10 KL10 Model 1080 operated by the MIT MACSYMA Consortium, serving as one of the most significant systems in the development of AI and symbolic computation during the 1970s and early 1980s",
+      "summary": "MIT-MC.ARPA was a DECSYSTEM-10 KL10 computer operated by the MIT MACSYMA Consortium from 1975 to 1988 that served as a pioneering platform for artificial intelligence and symbolic computation research during the 1970s and early 1980s. The system ran the Incompatible Timesharing System (ITS) and hosted MACSYMA, a groundbreaking symbolic algebra system developed from 1968-1982 that demonstrated the potential of symbolic AI through sophisticated mathematical capabilities. As a major ARPANET node with extensive memory, disk storage, and network connectivity, MIT-MC facilitated collaborative research and remote access for programmers and researchers, making it central to advancing interactive computing and large-scale symbolic programming.",
+      "domain": "icm.museum",
+      "source_date": "2026-09-13",
+      "page_title": "MIT-MC.ARPA – INTERIM COMPUTER MUSEUM",
+      "tags": [
+        "ai",
+        "academic-paper",
+        "distributed-systems",
+        "lisp"
+      ],
+      "markdown_path": "technical-topic/mit-mc-arpa-interim-computer-museum-1353.md"
+    },
+    {
+      "id": 1356,
+      "url": "https://andrewarrow.dev/2026/moon/2/day/19/the-magic-behind-cubacadabra/",
+      "title": null,
+      "description": "The Magic Behindcubacadabra™",
+      "summary": "The article describes how cubacadabra, a multi-platform application, uses a shared Rust core to eliminate code duplication across iOS, Android, and web versions. Rather than rebuilding features three times in different languages, the project keeps platform-specific native controls minimal while moving portable application logic, validation, and business rules into reusable Rust crates exposed through language bindings. This approach allows product decisions and complex behaviors—like handling username saves with concurrent edits or managing multiplayer session state—to be implemented once and maintained consistently across all platforms.",
+      "domain": "andrewarrow.dev",
+      "source_date": "2026-09-12",
+      "page_title": "The Magic Behind cubacadabra",
+      "tags": [
+        "rust",
+        "web-dev",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/the-magic-behind-cubacadabra-1356.md"
+    },
+    {
+      "id": 1355,
+      "url": "https://modelrift.com/blog/cadquery-vs-openscad/",
+      "title": null,
+      "description": "CadQuery vs OpenSCAD for AI-generated functional parts",
+      "summary": "ModelRift conducted a controlled comparison of OpenSCAD and CadQuery for AI-generated functional 3D parts, testing six Claude Opus agents on three increasingly complex tasks ranging from a simple bracket to a threaded adapter. Both tools produced printable results with identical iteration counts (11 versions each) and similar total effort, but they failed in different ways: OpenSCAD encountered fewer tool-reported errors but had silent geometry failures, while CadQuery reported more errors upfront but provided better assertions for design validation. The comparison revealed that OpenSCAD's simpler syntax made it easier for raw geometry operations, while CadQuery's parameter chains and inline assertions offered advantages for complex multi-part assemblies, though the choice between them depends on whether you prioritize ease of raw geometry construction or parametric design capabilities.",
+      "domain": "modelrift.com",
+      "source_date": "2026-09-12",
+      "page_title": "CadQuery vs OpenSCAD for AI-generated functional parts | ModelRift Blog",
+      "tags": [
+        "ai",
+        "tutorial",
+        "python"
+      ],
+      "markdown_path": "technical-topic/cadquery-vs-openscad-for-ai-generated-functional-parts-1355.md"
+    },
+    {
+      "id": 1354,
+      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "title": null,
+      "description": "Make your first OpenStreetMap edit",
+      "summary": "This tutorial guides new OpenStreetMap contributors through adding website tags to local businesses and amenities in just 15 minutes using the JOSM editor and Website Wizard plugin. The process involves creating an OSM account, downloading JOSM, filtering relevant data, searching for official websites, and uploading the contribution back to the platform. By completing this task, users help make OpenStreetMap more useful globally while learning about OSM's editing tools and community.",
+      "domain": "high5apps.github.io",
+      "source_date": "2026-09-12",
+      "page_title": "Make Your First Edit to OpenStreetMap in the Next 15 Minutes | Website Wizard JOSM Plugin",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/make-your-first-edit-to-openstreetmap-in-the-next-15-1354.md"
+    },
     {
       "id": 1340,
       "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
@@ -21236,27 +21348,32 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 402
+      "count": 406
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 320
+      "count": 322
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 278
+      "count": 279
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 261
+      "count": 263
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 240
+      "count": 241
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 222
     },
     {
       "name": "video",
@@ -21264,24 +21381,19 @@
       "count": 222
     },
     {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 221
-    },
-    {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 210
+      "count": 212
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 136
+      "count": 137
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 133
+      "count": 135
     },
     {
       "name": "devops",
@@ -21301,7 +21413,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 113
+      "count": 115
     },
     {
       "name": "social-media",
@@ -21321,7 +21433,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "physics",
@@ -21339,19 +21451,19 @@
       "count": 35
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 33
-    },
-    {
       "name": "lisp",
       "category": "programming_language",
-      "count": 33
+      "count": 34
     },
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 32
+      "count": 33
+    },
+    {
+      "name": "politics",
+      "category": "culture",
+      "count": 33
     },
     {
       "name": "javascript",
@@ -21497,7 +21609,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 155
+      "count": 156
     },
     {
       "domain": "www.threads.net",
@@ -21933,6 +22045,10 @@
     },
     {
       "domain": "andiroberts.com",
+      "count": 1
+    },
+    {
+      "domain": "andrewarrow.dev",
       "count": 1
     },
     {
@@ -22840,6 +22956,10 @@
       "count": 1
     },
     {
+      "domain": "high5apps.github.io",
+      "count": 1
+    },
+    {
       "domain": "home.cern",
       "count": 1
     },
@@ -22877,6 +22997,10 @@
     },
     {
       "domain": "ianyepan.github.io",
+      "count": 1
+    },
+    {
+      "domain": "icm.museum",
       "count": 1
     },
     {
@@ -23013,6 +23137,10 @@
     },
     {
       "domain": "kmicinski.com",
+      "count": 1
+    },
+    {
+      "domain": "knowablemagazine.org",
       "count": 1
     },
     {
@@ -23245,6 +23373,10 @@
     },
     {
       "domain": "mnot.net",
+      "count": 1
+    },
+    {
+      "domain": "modelrift.com",
       "count": 1
     },
     {
@@ -24689,6 +24821,10 @@
     },
     {
       "domain": "www.wilfred.me.uk",
+      "count": 1
+    },
+    {
+      "domain": "www.wsj.com",
       "count": 1
     },
     {
