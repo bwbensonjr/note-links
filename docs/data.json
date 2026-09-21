@@ -1,6 +1,150 @@
 {
-  "exported_at": "2026-09-16T09:12:34.101991",
+  "exported_at": "2026-09-21T09:45:54.414583",
   "links": [
+    {
+      "id": 1372,
+      "url": "https://agentexecutor.io/",
+      "title": null,
+      "description": "AX - Google's open agentic orchestrator",
+      "summary": "AX is Google's open-source agentic orchestrator that enables developers to declare and run agent tasks at massive scale through isolated sandboxes with built-in workspace setup, network policies, and model configuration. It treats agents as a new class of workload distinct from microservices or batch jobs, offering four core primitives (Task, Workspace, Gateway, Model) and leveraging the Agent Substrate runtime to support billions of concurrent tasks with sub-second suspension and resumption capabilities. The platform is designed for both application developers and AI researchers, providing ergonomic tools to build, evaluate, and scale agent applications while handling state management, resource isolation, and cost efficiency automatically.",
+      "domain": "agentexecutor.io",
+      "source_date": "2026-09-21",
+      "page_title": "AX",
+      "tags": [
+        "ai",
+        "distributed-systems",
+        "devops",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/ax-1372.md"
+    },
+    {
+      "id": 1371,
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "title": null,
+      "description": "kev - Jev-like decision models based on Qwen",
+      "summary": "Kev is an open-source family of small decision models (0.8B, 4B, and 9B parameters) built on Qwen 3.5 that can handle multiple question types (yes/no, multiple-choice, and rating) in a single request, with an API compatible with TypeSafe's System One. The models are designed to run locally on consumer hardware including Apple Silicon Macs, and include training code, evaluation data, and a web playground for testing. Kev-9B achieves strong performance on decision-making tasks with 0.852 accuracy on new datasets and includes optional features like temperature scaling and date arithmetic to improve calibration and reasoning.",
+      "domain": "github.com",
+      "source_date": "2026-09-21",
+      "page_title": "GitHub - jaredpalmer/kev: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own · GitHub",
+      "tags": [
+        "github-repo",
+        "llm",
+        "ai",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-jaredpalmer-kev-tiny-jev-like-family-of-decision-1371.md"
+    },
+    {
+      "id": 1370,
+      "url": "https://x.com/akshay_pachaar/status/2101037514945597645",
+      "title": null,
+      "description": "Jev explained",
+      "summary": "Jev is a specialized \"System One\" model released by TypeSafe AI that handles simple, bounded decisions in milliseconds at a fraction of the cost of general-purpose LLMs. Rather than generating text token-by-token, Jev takes structured input and returns typed answers with probability scores for predefined options, making it ideal for frequent micro-decisions in agent loops like ticket routing or risk assessment. While it cannot hallucinate invalid response shapes, it functions best as a complement to traditional LLMs rather than a replacement, handling high-volume judgment calls while language models handle reasoning and content generation.",
+      "domain": "x.com",
+      "source_date": "2026-09-21",
+      "page_title": "Akshay 🚀 on X: \"https://t.co/haL8IGhx3h\" / X",
+      "tags": [
+        "llm",
+        "ai",
+        "social-media"
+      ],
+      "markdown_path": "technical-topic/akshay-on-x-https-t-co-hal8ighx3h-x-1370.md"
+    },
+    {
+      "id": 1369,
+      "url": "https://en.wikipedia.org/wiki/Jev_(AI_model",
+      "title": null,
+      "description": "Jev (AI model)",
+      "summary": "Jev (AI model)",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-09-21",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/jev-ai-model-1369.md"
+    },
+    {
+      "id": 1375,
+      "url": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
+      "title": null,
+      "description": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders",
+      "summary": "Ctenophores, or comb jellies, are ancient marine organisms that are revolutionizing our understanding of fundamental biology, including the evolution of early nervous systems and bioluminescence. Recent research suggests ctenophores were the first animals to branch off from other animal lineages around 700 million years ago, and they possess surprisingly complex features like unique nervous systems with fused neurons connected without synapses, specialized genome regulation mechanisms, and the ability to reverse their development. By studying these organisms across diverse deep-sea and coastal environments, scientists are uncovering the physical and biological principles that shaped early animal life.",
+      "domain": "www.quantamagazine.org",
+      "source_date": "2026-09-19",
+      "page_title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders. | Quanta Magazine",
+      "tags": [
+        "biology",
+        "academic-paper",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/ctenophores-aren-t-just-beautiful-they-re-biological-1375.md"
+    },
+    {
+      "id": 1374,
+      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+      "title": null,
+      "description": "The Secret Life of Circuits",
+      "summary": "Michał Zalewski has released \"The Secret Life of Circuits,\" a new full-color hardcover book designed as a practical reference for learning electronics without requiring advanced mathematics. The book is now available for direct order from the publisher with immediate shipping, and through retailers like Amazon and Barnes & Noble (with October delivery), featuring nearly 300 custom illustrations and a teaching approach that balances theory with real-world problem-solving. The book has received endorsements from respected electronics experts and aims to fill the gap between traditional textbooks and practical circuit design education.",
+      "domain": "blog.coredump.cx",
+      "source_date": "2026-09-19",
+      "page_title": "“The Secret Life of Circuits” is here - lcamtuf’s thing",
+      "tags": [
+        "nonfiction-book",
+        "tutorial"
+      ],
+      "markdown_path": "culture/the-secret-life-of-circuits-is-here-lcamtuf-s-thing-1374.md"
+    },
+    {
+      "id": 1373,
+      "url": "https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157",
+      "title": null,
+      "description": "The Warez scene",
+      "summary": "Martin Paul Eve's \"Warez: The Infrastructure and Aesthetics of Piracy\" is the first scholarly examination of an elite underground piracy network that operates separately from well-known platforms like The Pirate Bay, focusing on organized groups who obtain and release media before official sale dates. The book reveals that contrary to popular ideological framing around equal access, the \"Warez Scene\"—which evolved from pre-internet bulletin board systems to internet file-sharing servers—is actually driven by competitive ranking and one-upmanship among participants. Eve draws on documentary evidence from the scene itself to explore its unique operations, social structures, norms, and artistic forms within this highly illegal subculture.",
+      "domain": "archive.org",
+      "source_date": "2026-09-19",
+      "page_title": "Warez: The Infrastructure and Aesthetics of Piracy : Martin Paul Eve : Free Download, Borrow, and Streaming : Internet Archive",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper",
+        "security"
+      ],
+      "markdown_path": "culture/warez-the-infrastructure-and-aesthetics-of-piracy-martin-1373.md"
+    },
+    {
+      "id": 1377,
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "title": null,
+      "description": "The human brain developed from two different progenitor cells",
+      "summary": "Stanford Medicine researchers have discovered that the human brain actually consists of two distinct organs that evolved independently rather than developing from a single progenitor cell as previously believed. The forebrain and midbrain arise from cells expressing the Otx2 gene, while the hindbrain develops from cells expressing the Gbx2 gene, with these two developmental pathways running in parallel and never overlapping. This breakthrough enables scientists to successfully grow hindbrain neurons in the laboratory for the first time, opening new avenues for studying and potentially treating brain stem diseases like spinal muscular atrophy and ALS.",
+      "domain": "med.stanford.edu",
+      "source_date": "2026-09-18",
+      "page_title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "tags": [
+        "biology",
+        "academic-paper",
+        "news"
+      ],
+      "markdown_path": "science/human-brain-is-two-separate-organs-stanford-medicine-led-1377.md"
+    },
+    {
+      "id": 1376,
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": null,
+      "description": "Claude Code now reads AGENTS.md if there isn’t a CLAUDE.md",
+      "summary": "Claude Code version 2.1.278 introduced support for reading AGENTS.md files as an alternative to CLAUDE.md for project instructions, along with updates to auto mode classifier billing and a server-side classifier option. The changelog documents numerous bug fixes and improvements across multiple areas including plugin management, session handling, tool functionality, and interface stability, addressing issues ranging from crashes and performance problems to edge cases in file editing and message handling.",
+      "domain": "code.claude.com",
+      "source_date": "2026-09-18",
+      "page_title": "Claude Code changelog - Claude Code Docs",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/claude-code-changelog-claude-code-docs-1376.md"
+    },
     {
       "id": 1358,
       "url": "https://aidailybrief.ai/e/2026-09-13/transcript.md",
@@ -21541,32 +21685,32 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 407
+      "count": 408
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 329
+      "count": 333
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 283
+      "count": 286
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 267
+      "count": 270
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 244
+      "count": 247
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 224
+      "count": 225
     },
     {
       "name": "video",
@@ -21581,7 +21725,7 @@
     {
       "name": "python",
       "category": "programming_language",
-      "count": 137
+      "count": 138
     },
     {
       "name": "music",
@@ -21591,12 +21735,12 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 134
+      "count": 136
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 125
+      "count": 126
     },
     {
       "name": "compilers",
@@ -21606,12 +21750,12 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 115
+      "count": 118
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 101
+      "count": 102
     },
     {
       "name": "database",
@@ -21621,12 +21765,12 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 65
+      "count": 66
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "physics",
@@ -21636,7 +21780,7 @@
     {
       "name": "biology",
       "category": "science",
-      "count": 38
+      "count": 40
     },
     {
       "name": "c",
@@ -21802,7 +21946,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 159
+      "count": 160
     },
     {
       "domain": "www.threads.net",
@@ -21834,7 +21978,7 @@
     },
     {
       "domain": "www.quantamagazine.org",
-      "count": 10
+      "count": 11
     },
     {
       "domain": "bsky.app",
@@ -21846,7 +21990,7 @@
     },
     {
       "domain": "en.wikipedia.org",
-      "count": 7
+      "count": 8
     },
     {
       "domain": "youtu.be",
@@ -21909,6 +22053,10 @@
       "count": 4
     },
     {
+      "domain": "x.com",
+      "count": 4
+    },
+    {
       "domain": "computerhistory.org",
       "count": 3
     },
@@ -21953,11 +22101,11 @@
       "count": 3
     },
     {
-      "domain": "x.com",
-      "count": 3
+      "domain": "adlrocha.substack.com",
+      "count": 2
     },
     {
-      "domain": "adlrocha.substack.com",
+      "domain": "archive.org",
       "count": 2
     },
     {
@@ -21986,6 +22134,10 @@
     },
     {
       "domain": "clui.org",
+      "count": 2
+    },
+    {
+      "domain": "code.claude.com",
       "count": 2
     },
     {
@@ -22197,6 +22349,10 @@
       "count": 1
     },
     {
+      "domain": "agentexecutor.io",
+      "count": 1
+    },
+    {
       "domain": "agentskills.io",
       "count": 1
     },
@@ -22274,10 +22430,6 @@
     },
     {
       "domain": "archive.is",
-      "count": 1
-    },
-    {
-      "domain": "archive.org",
       "count": 1
     },
     {
@@ -22434,6 +22586,10 @@
     },
     {
       "domain": "blog.computationalcomplexity.org",
+      "count": 1
+    },
+    {
+      "domain": "blog.coredump.cx",
       "count": 1
     },
     {
@@ -22658,10 +22814,6 @@
     },
     {
       "domain": "coalton-lang.github.io",
-      "count": 1
-    },
-    {
-      "domain": "code.claude.com",
       "count": 1
     },
     {
@@ -23518,6 +23670,10 @@
     },
     {
       "domain": "mecha.so",
+      "count": 1
+    },
+    {
+      "domain": "med.stanford.edu",
       "count": 1
     },
     {
