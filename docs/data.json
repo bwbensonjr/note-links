@@ -1,6 +1,183 @@
 {
-  "exported_at": "2026-09-14T13:24:28.533690",
+  "exported_at": "2026-09-16T09:12:34.101991",
   "links": [
+    {
+      "id": 1358,
+      "url": "https://aidailybrief.ai/e/2026-09-13/transcript.md",
+      "title": null,
+      "description": "AI Daily Brief - 2026-09-13",
+      "summary": "AI Daily Brief - 2026-09-13",
+      "domain": "aidailybrief.ai",
+      "source_date": "2026-09-16",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "news"
+      ],
+      "markdown_path": "technical-topic/ai-daily-brief-2026-09-13-1358.md"
+    },
+    {
+      "id": 1357,
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "title": null,
+      "description": "Real-time bird detection and vintage art work display",
+      "summary": "Fugleramme is a Raspberry Pi project that uses real-time audio bird detection to display detected birds as hand-curated 1800s natural history illustrations on an e-ink display or web interface. The system runs locally using BirdNET-Go for bird identification and arranges the illustrated species on a textured paper page, sized by body mass, updating only when the detected birds change. The project includes over 800 public-domain artwork cutouts covering more than 400 bird species, with full documentation, containerized deployment options, and community contributions welcome.",
+      "domain": "github.com",
+      "source_date": "2026-09-16",
+      "page_title": "GitHub - arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "python",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/github-arnegiacomo-fugleramme-e-ink-bird-frame-for-1357.md"
+    },
+    {
+      "id": 1363,
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "title": null,
+      "description": "Introducing System One Models & Jev",
+      "summary": "TypeSafe AI has introduced System One Models, a new class of AI models designed specifically for automation and structured decision-making rather than text generation. Their first model, Jev, operates 40-200x faster than existing large language models while maintaining comparable intelligence, costs significantly less, and produces type-safe structured outputs that cannot hallucinate or make errors. Unlike traditional LLMs optimized for chat and human preference, Jev uses a new training method called Reinforcement Learning for Calibrated Decisions (RLCD) to deliver probabilistic decisions with honest confidence scores that can be directly integrated into software workflows.",
+      "domain": "typesafe.ai",
+      "source_date": "2026-09-15",
+      "page_title": "Introducing System One Models & Jev - TypeSafe AI Blog",
+      "tags": [
+        "ai",
+        "llm",
+        "typescript"
+      ],
+      "markdown_path": "technical-topic/introducing-system-one-models-jev-typesafe-ai-blog-1363.md"
+    },
+    {
+      "id": 1362,
+      "url": "https://github.com/HoangNguyen0403/agent-skills-standard",
+      "title": null,
+      "description": "A repository of general software development agent skills",
+      "summary": "Agent Skills Standard is a repository that provides 280+ reusable coding standards and best practices for AI coding agents like Cursor, Claude, and GitHub Copilot, enabling teams to maintain consistent code quality across different AI tools without repeating instructions. The system uses a hierarchical, token-efficient approach that loads only relevant skills based on the file being edited, reducing token usage by 85% compared to traditional prompt engineering. Users can initialize and sync skills with simple CLI commands, and optionally enable runtime enforcement through an MCP server to ensure AI agents follow the standardized rules automatically.",
+      "domain": "github.com",
+      "source_date": "2026-09-15",
+      "page_title": "GitHub - HoangNguyen0403/agent-skills-standard: A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent follow best practies on frameworks and programming laguages · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-hoangnguyen0403-agent-skills-standard-a-collection-1362.md"
+    },
+    {
+      "id": 1361,
+      "url": "http://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html",
+      "title": null,
+      "description": "Synthesizing Loop-Free Programs with Rust and Z3",
+      "summary": "This article explains program synthesis—the automatic generation of programs from specifications—focusing on a specific approach called counterexample-guided iterative synthesis (CEGIS) for loop-free, component-based programs. The author walks through the motivation for program synthesis (such as solving tricky bit manipulation problems or automatically generating compiler optimizations), provides a detailed explanation of the CEGIS technique, and shares a Rust implementation using the Z3 SMT solver to demonstrate how the approach works with practical examples. While the technique shows promise, the article also notes performance challenges when applied to more complex benchmark problems compared to results reported in academic literature.",
+      "domain": "fitzgeraldnick.com",
+      "source_date": "2026-09-15",
+      "page_title": "Synthesizing Loop-Free Programs with Rust and Z3",
+      "tags": [
+        "rust",
+        "tutorial",
+        "compilers",
+        "academic-paper"
+      ],
+      "markdown_path": "programming-language/synthesizing-loop-free-programs-with-rust-and-z3-1361.md"
+    },
+    {
+      "id": 1360,
+      "url": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
+      "title": null,
+      "description": "Coilltean Caillte (Forgotten Woodlands) is a partnership project between NatureScot, Forestry and Land Scotland and Gaelic Place-Names of Scotland",
+      "summary": "Forgotten Woodlands - Coilltean Caillte (Forgotten Woodlands) is a partnership project between NatureScot, Forestry and Land Scotland and Gaelic Place-Names of Scotland",
+      "domain": "storymaps.arcgis.com",
+      "source_date": "2026-09-15",
+      "page_title": "Forgotten Woodlands",
+      "tags": [
+        "video"
+      ],
+      "markdown_path": "culture/forgotten-woodlands-1360.md"
+    },
+    {
+      "id": 1359,
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "title": null,
+      "description": "Charts built for chat",
+      "summary": "dbt Labs has open-sourced dbt Charts, a declarative YAML-based language for building dashboards that works seamlessly with AI agents and traditional development workflows. The tool addresses the gap between messy, uncontrolled AI-generated code and overly restrictive BI tool interfaces by putting charts into code, allowing them to be versioned, audited, and governed alongside data transformations in Git. Alongside the open-source language, dbt Charts.com is launching as a hosted platform offering hosting, access control, and conversational analytics capabilities built on top of the core language.",
+      "domain": "dbtcharts.com",
+      "source_date": "2026-09-15",
+      "page_title": "Charts built for Chat · dbt Charts",
+      "tags": [
+        "web-dev",
+        "ai",
+        "devops",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/charts-built-for-chat-dbt-charts-1359.md"
+    },
+    {
+      "id": 1367,
+      "url": "https://pop.rdi.sh/dario-please/",
+      "title": null,
+      "description": "Dario, Please",
+      "summary": "The author critiques Dario Amodei's regulatory proposal for AI, arguing that Anthropic and OpenAI's calls for stricter open-weight model regulation are self-serving attempts to consolidate power while their own security failures and reckless practices undermine their credibility as \"stewards\" of AI. The piece challenges Amodei's utopian claims about AI curing diseases and creating abundance, pointing out that such benefits would likely remain gated behind corporate interests while existing problems like tuberculosis deaths persist due to distribution failures, not technological limitations. Additionally, the author dismisses Amodei's fears about AGI creating planet-scale botnets as naive hype, while highlighting that the real concern should be OpenAI's documented security incompetence and the companies' competitive \"race to the bottom\" despite their claims of caution.",
+      "domain": "pop.rdi.sh",
+      "source_date": "2026-09-14",
+      "page_title": "dario, please! - POP RDI; RET;",
+      "tags": [
+        "ai",
+        "security",
+        "politics",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/dario-please-pop-rdi-ret-1367.md"
+    },
+    {
+      "id": 1366,
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "title": null,
+      "description": "Why don’t machine learning research agents overfit?",
+      "summary": "Machine learning research agents don't overfit benchmarks despite repeated evaluation cycles because successful strategies are highly compressible—they can be encoded in very few bits or tokens. This compression principle, rooted in Occam's razor, explains why models that capture genuine data structure rather than memorization can generalize well: a strategy too small to memorize training data must rely on real patterns instead. The research demonstrates that AI agents can reproduce strong performance from minimal descriptions, suggesting that effective ML strategies are inherently simple and transferable, which contrasts with the textbook prediction that iterative benchmark optimization should lead to overfitting.",
+      "domain": "www.amazon.science",
+      "source_date": "2026-09-14",
+      "page_title": "Why machine learning research agents don't overfit — and what compression has to do with it - Amazon Science",
+      "tags": [
+        "ai",
+        "llm",
+        "academic-paper",
+        "mathematics"
+      ],
+      "markdown_path": "technical-topic/why-machine-learning-research-agents-don-t-overfit-and-what-1366.md"
+    },
+    {
+      "id": 1365,
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "title": null,
+      "description": "Import papers in distributed computing",
+      "summary": "This resource curates a collection of foundational papers in distributed systems, ranging from Lamport's work on logical clocks and the Byzantine Generals Problem to modern consensus algorithms like Paxos and Raft. The papers cover critical topics including event ordering, fault tolerance, distributed consensus, replication strategies, and emerging areas like blockchain and conflict-free replicated data types. It serves as a curated reading list for understanding the core problems and solutions that have shaped distributed systems research over the past four decades.",
+      "domain": "nvartolomei.com",
+      "source_date": "2026-09-14",
+      "page_title": "Distributed Systems Classics",
+      "tags": [
+        "distributed-systems",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/distributed-systems-classics-1365.md"
+    },
+    {
+      "id": 1364,
+      "url": "https://github.com/JamesRyanATX/fcbnerd",
+      "title": null,
+      "description": "Use a Behringer FCB1010 MIDI pedalboard to do things in MacOS via a CLI",
+      "summary": "fcbnerd is a command-line tool that allows users to control macOS functions using a Behringer FCB1010 MIDI pedalboard or any CoreMIDI source. The tool can either execute shell commands when specific footswitch or pedal messages are received, or stream MIDI events as JSON for other programs to handle. It's designed as a CLI rather than a sandboxed app to avoid permission restrictions and allow users to customize actions through their own shell scripts or existing tools like Hammerspoon or Keyboard Maestro.",
+      "domain": "github.com",
+      "source_date": "2026-09-14",
+      "page_title": "GitHub - JamesRyanATX/fcbnerd: Do things with a Behringer FCB1010 MIDI pedalboard in MacOS · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "python"
+      ],
+      "markdown_path": "technical-topic/github-jamesryanatx-fcbnerd-do-things-with-a-behringer-1364.md"
+    },
     {
       "id": 1352,
       "url": "https://github.com/anuj0456/OpenArch",
@@ -128,6 +305,22 @@
         "python"
       ],
       "markdown_path": "technical-topic/astra-for-coding-why-are-we-doing-this-again-armin-ronacher-1340.md"
+    },
+    {
+      "id": 1368,
+      "url": "https://www.youtube.com/watch?v=n8m7lFQ3njk",
+      "title": null,
+      "description": "Douglas Hofstatder - Analogy as the core of cognition",
+      "summary": "I don't have access to the actual video content from this YouTube link, as the provided text only shows standard YouTube footer information. To create an accurate summary of Douglas Hofstadter's lecture on analogy as the core of cognition, I would need the actual video transcript or detailed content description.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-09-10",
+      "page_title": "Analogy as the Core of Cognition - YouTube",
+      "tags": [
+        "video",
+        "psychology",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/analogy-as-the-core-of-cognition-youtube-1368.md"
     },
     {
       "id": 1344,
@@ -21348,42 +21541,47 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 406
+      "count": 407
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 322
+      "count": 329
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 279
+      "count": 283
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 263
+      "count": 267
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 241
+      "count": 244
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 222
+      "count": 224
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 222
+      "count": 224
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 212
+      "count": 213
+    },
+    {
+      "name": "python",
+      "category": "programming_language",
+      "count": 137
     },
     {
       "name": "music",
@@ -21391,24 +21589,19 @@
       "count": 137
     },
     {
-      "name": "python",
-      "category": "programming_language",
-      "count": 135
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
-      "count": 132
+      "count": 134
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 124
+      "count": 125
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 122
+      "count": 123
     },
     {
       "name": "nonfiction-book",
@@ -21428,12 +21621,12 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 64
+      "count": 65
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 48
+      "count": 49
     },
     {
       "name": "physics",
@@ -21451,19 +21644,19 @@
       "count": 35
     },
     {
-      "name": "lisp",
+      "name": "rust",
       "category": "programming_language",
       "count": 34
     },
     {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 33
-    },
-    {
       "name": "politics",
       "category": "culture",
-      "count": 33
+      "count": 34
+    },
+    {
+      "name": "lisp",
+      "category": "programming_language",
+      "count": 34
     },
     {
       "name": "javascript",
@@ -21481,13 +21674,13 @@
       "count": 19
     },
     {
-      "name": "gaming",
-      "category": "culture",
-      "count": 18
-    },
-    {
       "name": "mathematics",
       "category": "science",
+      "count": 19
+    },
+    {
+      "name": "gaming",
+      "category": "culture",
       "count": 18
     },
     {
@@ -21496,14 +21689,14 @@
       "count": 17
     },
     {
-      "name": "clojure",
+      "name": "typescript",
       "category": "programming_language",
       "count": 16
     },
     {
-      "name": "typescript",
+      "name": "clojure",
       "category": "programming_language",
-      "count": 15
+      "count": 16
     },
     {
       "name": "tv",
@@ -21541,6 +21734,11 @@
       "count": 9
     },
     {
+      "name": "psychology",
+      "category": "science",
+      "count": 9
+    },
+    {
       "name": "go",
       "category": "programming_language",
       "count": 8
@@ -21548,11 +21746,6 @@
     {
       "name": "cpp",
       "category": "programming_language",
-      "count": 8
-    },
-    {
-      "name": "psychology",
-      "category": "science",
       "count": 8
     },
     {
@@ -21609,7 +21802,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 156
+      "count": 159
     },
     {
       "domain": "www.threads.net",
@@ -21617,7 +21810,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 31
+      "count": 32
     },
     {
       "domain": "simonwillison.net",
@@ -22017,6 +22210,10 @@
     },
     {
       "domain": "aicode.swerdlow.dev",
+      "count": 1
+    },
+    {
+      "domain": "aidailybrief.ai",
       "count": 1
     },
     {
@@ -22596,6 +22793,10 @@
       "count": 1
     },
     {
+      "domain": "dbtcharts.com",
+      "count": 1
+    },
+    {
       "domain": "dchp.arts.ubc.ca",
       "count": 1
     },
@@ -22813,6 +23014,10 @@
     },
     {
       "domain": "fil-c.org",
+      "count": 1
+    },
+    {
+      "domain": "fitzgeraldnick.com",
       "count": 1
     },
     {
@@ -23464,6 +23669,10 @@
       "count": 1
     },
     {
+      "domain": "nvartolomei.com",
+      "count": 1
+    },
+    {
       "domain": "nvultra.com",
       "count": 1
     },
@@ -23673,6 +23882,10 @@
     },
     {
       "domain": "polysoftit.co.uk",
+      "count": 1
+    },
+    {
+      "domain": "pop.rdi.sh",
       "count": 1
     },
     {
@@ -23960,6 +24173,10 @@
       "count": 1
     },
     {
+      "domain": "storymaps.arcgis.com",
+      "count": 1
+    },
+    {
       "domain": "stripe.dev",
       "count": 1
     },
@@ -24081,6 +24298,10 @@
     },
     {
       "domain": "tyoverby.com",
+      "count": 1
+    },
+    {
+      "domain": "typesafe.ai",
       "count": 1
     },
     {
@@ -24245,6 +24466,10 @@
     },
     {
       "domain": "www.amazon.com",
+      "count": 1
+    },
+    {
+      "domain": "www.amazon.science",
       "count": 1
     },
     {

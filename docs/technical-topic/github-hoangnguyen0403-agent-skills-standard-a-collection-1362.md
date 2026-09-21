@@ -1,0 +1,614 @@
+---
+id: 1362
+url: https://github.com/HoangNguyen0403/agent-skills-standard
+title: 'GitHub - HoangNguyen0403/agent-skills-standard: A collection of Agent Skills
+  Standard and Best Practice for Programming Languages, Frameworks that help our AI
+  Agent follow best practies on frameworks and programming laguages · GitHub'
+domain: github.com
+source_date: '2026-09-15'
+tags:
+- github-repo
+- ai
+- cli-tool
+summary: Agent Skills Standard is a repository that provides 280+ reusable coding
+  standards and best practices for AI coding agents like Cursor, Claude, and GitHub
+  Copilot, enabling teams to maintain consistent code quality across different AI
+  tools without repeating instructions. The system uses a hierarchical, token-efficient
+  approach that loads only relevant skills based on the file being edited, reducing
+  token usage by 85% compared to traditional prompt engineering. Users can initialize
+  and sync skills with simple CLI commands, and optionally enable runtime enforcement
+  through an MCP server to ensure AI agents follow the standardized rules automatically.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+---
+
+# GitHub - HoangNguyen0403/agent-skills-standard: A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent follow best practies on frameworks and programming laguages · GitHub
+
+Agent Skills Standard
+=====================
+
+[![NPM Version](https://camo.githubusercontent.com/bd35a997917f10d1573afe37ec9df274d9be80d959bb3fa1ebbb36aa6ee7f587/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6167656e742d736b696c6c732d7374616e646172642e7376673f7374796c653d666c61742d737175617265)](https://www.npmjs.com/package/agent-skills-standard)
+[![License: MIT](https://camo.githubusercontent.com/a7e65aee57b11d28e4caff8b945729a66be0bb663f7f93bd24c5aa65699f148e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666c61742d737175617265)](/HoangNguyen0403/agent-skills-standard/blob/develop/LICENSE)
+[![GitHub Stars](https://camo.githubusercontent.com/33505c5cc4a33ff0f7d2664af9d12373c12b93792ff6dda70b6799aaf488cd75/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f486f616e674e677579656e303430332f6167656e742d736b696c6c732d7374616e646172643f7374796c653d666c61742d737175617265)](https://github.com/HoangNguyen0403/agent-skills-standard/stargazers)
+[![SkillSpector Verified](https://camo.githubusercontent.com/cbca3a562d43f0fbd220d5a4e1321620c0e35cb1bfa6daa2a4ac3c00de8c6098/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536b696c6c53706563746f722d56657269666965642d3736623930303f7374796c653d666c61742d737175617265266c6f676f3d6e7669646961266c6f676f436f6c6f723d7768697465)](https://github.com/HoangNguyen0403/agent-skills-standard/security/code-scanning)
+
+**The portable SDLC standards layer for AI coding agents. Sync once, then work in your own runtime.**
+
+**Current release:** `cli-v2.6.2` — the skill validator accepts package directories under `scripts/` (needed by the draw.io diagram pipeline's `schema_parsers/`); builds on v2.6.1's OWASP Agentic Skills Top 10 hardening (skill-content lockfile, `ags verify`, enforcing hooks, secret/dependency scanning). See [CHANGELOG.md](/HoangNguyen0403/agent-skills-standard/blob/develop/CHANGELOG.md).
+
+280 ready-to-use coding standards for **Cursor, Claude Code, GitHub Copilot, Gemini, Windsurf, Trae, Kiro, Roo** and more — synced, versioned, and optimized to use **85% fewer tokens** than traditional prompt engineering.
+
+```
+npx agent-skills-standard@latest init
+npx agent-skills-standard@latest sync
+# Done. Your AI now has portable team standards and SDLC workflows.
+```
+
+If `ags -V` still shows an old version after reinstalling, check your PATH order. `~/Library/pnpm` must come before `~/Library/pnpm/bin`, then run `hash -r` and verify with `ags -V` again.
+
+**Not an engineer?** You don't need to run any of the above — just describe your idea to your AI agent. See [Getting Started: Product Owner](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/getting-started-product-owner.md).
+
+---
+
+The Problem
+-----------
+
+Every team has coding standards. But AI agents don't know them.
+
+You end up repeating the same instructions: *"Use OnPush change detection"*, *"Always wrap errors with context"*, *"No business logic in handlers"*. And every time, you face the same trade-off:
+
+* **Too many rules** = AI forgets them, wastes tokens, gets confused
+* **Too few rules** = AI writes generic code that doesn't match your standards
+* **Copy-paste `.cursorrules`** = out of date in a week, doesn't scale to teams
+
+The Solution
+------------
+
+Agent Skills Standard turns your engineering rules into **modular, version-controlled skills** that any AI agent can load on demand.
+
+| Without Skills | With Skills |
+| --- | --- |
+| 3,600+ token architect prompt in every chat | ~500 token skill, loaded only when relevant |
+| Rules drift across team members' prompts | Single source of truth, synced via CLI |
+| Works in one AI tool, copy-paste to others | Works in Cursor, Claude, Copilot, Gemini, Windsurf, Trae, Kiro, Roo |
+| AI scans all rules every time (slow, lossy) | Hierarchical lookup: ~25 lines scanned per edit |
+
+### Not Another Agent Runtime
+
+Agent Skills Standard does **not** force you into a new daily command system. `ags` is for setup, sync, validation, MCP wiring, and updates. After sync, your AI tool receives native assets:
+
+* Claude/Roo/OpenCode commands
+* Codex/Cursor/Trae skills
+* Gemini TOML commands
+* Copilot prompts
+* Antigravity/Kiro workflow files
+* MCP tools for runtime enforcement
+
+You keep the files in your repo, customize them with `.skillsrc` and `custom_overrides`, and run workflows inside the agent you already use.
+
+### How It Works
+
+```
+You run: npx agent-skills-standard sync
+
+What your AI gets:
+
+1. AGENTS.md (router ~20 lines)
+   "Editing *.ts? Check typescript/_INDEX.md"
+
+2. typescript/_INDEX.md (trigger table)
+   File Match:  typescript-language  *.ts, *.tsx, tsconfig.json
+   Keyword:     typescript-security  validate, sanitize, auth
+
+3. typescript-language/SKILL.md (loaded on demand)
+   The actual rules — only when needed.
+```
+
+The AI loads **only the skills that match** the file being edited and the task at hand. No wasted tokens. No forgotten rules.
+
+---
+
+Architecture & Token Economy
+----------------------------
+
+This project follows a **Zero-Trust** architectural model inspired by **Rust Token Killer (RTK)**. Instead of injecting all rules into every prompt (which can cost 5,000+ tokens and cause "prompt loss"), we use a hierarchical loading system.
+
+Detailed documentation is available in [ARCHITECTURE.md](/HoangNguyen0403/agent-skills-standard/blob/develop/ARCHITECTURE.md), covering:
+
+* **Hierarchical Resolution**: Router Table (`AGENTS.md`) -> Category Index (`_INDEX.md`) -> Skill (`SKILL.md`).
+* **Integration Taxonomy**: Multi-agent bridge support for Cursor, Claude, Copilot, Windsurf, Trae, Roo, etc.
+* **High-Density Design**: All skills must be < 100 lines and optimized for token economy.
+
+Quick Start
+-----------
+
+### 1. Initialize
+
+Detects your tech stack and creates a `.skillsrc` config:
+
+```
+npx agent-skills-standard@latest init
+```
+
+### 2. Sync
+
+Downloads skills into your AI agent's folders and generates the index:
+
+```
+npx agent-skills-standard@latest sync
+```
+
+### 3. Code
+
+Your AI agent now reads `AGENTS.md` automatically. Skills activate based on what file you're editing and what you ask for.
+
+> **Works instantly** with Cursor, Claude Code, GitHub Copilot, Gemini CLI, Windsurf, Trae, Kiro, and Roo. No plugin or extension needed — the CLI generates each agent's native format.
+
+### 4. (Optional) Enable runtime enforcement via the MCP server
+
+The CLI **distributes** skills to disk. The companion MCP server **serves** them to your AI agent at runtime as explicit tool calls — closing the gap where agents read `AGENTS.md` but forget to load matched `SKILL.md` files (especially in sub-agents).
+
+#### Consent model — you choose the scope
+
+`init` and `sync` ask once whether to enable MCP and at what scope. Three choices, recommended in **bold**:
+
+| Scope | What gets written | Touches `$HOME`? |
+| --- | --- | --- |
+| **`project`** (recommended) | `./mcp-config-snippets/*.json` + project-scoped runtime configs (`./.mcp.json`, `./.cursor/mcp.json`, etc.) | ❌ No |
+| `user` | All of `project` + user-home configs (`~/.cursor/mcp.json`, `~/.gemini/settings.json`) | ⚠️ Yes — sync prompts before each user-scope write |
+| `snippets-only` | Only `./mcp-config-snippets/*.json` — never edits any runtime config | ❌ No |
+| `disabled` | Nothing MCP-related | ❌ No |
+
+The CLI never reads or modifies user-home files unless you explicitly choose `user` scope AND confirm each write. All decisions are recorded in `.skillsrc` so you're not re-prompted on every sync.
+
+#### Manage MCP integration with the `mcp` subcommand
+
+```
+ags mcp status                 # Show enabled, scope, and per-agent install state
+ags mcp enable                 # Turn on (uses configured scope)
+ags mcp disable                # Turn off (existing entries kept; use uninstall to clean)
+ags mcp scope project          # Change scope: project | user | snippets-only | disabled
+ags mcp install                # One-shot install at the configured scope
+ags mcp uninstall --from=all   # Remove our entry from project + user configs
+ags mcp snippets               # Regenerate ./mcp-config-snippets/ without touching configs
+```
+
+Or edit `.skillsrc` directly:
+
+```
+mcp:
+  enabled: true
+  scope: project # project | user | snippets-only | disabled
+  prompted: true # set to false to be re-asked next sync
+```
+
+#### Manage the pre-edit hook with the `hooks` subcommand
+
+`sync` installs a PreToolUse hook that reminds your agent to call `load_skills_for_files` before every edit — advisory by default, never blocks work:
+
+```
+ags hooks status                 # Show which hook files are installed per agent
+ags hooks install                # (Re)install the reminder hook — advisory only
+ags hooks install --enforce      # Claude also BLOCKS edits to SOUL.md, MEMORY.md, .env*, .ssh/, credentials*.json|yaml
+ags hooks uninstall              # Deregister the hook (keeps the script file)
+```
+
+Independently, `ags verify` checks installed skill files against `.skills-lock.json` (written by every `sync`) to catch drift — a tampered file, a partial write, or a manual edit — and `ags audit` prints the current skill inventory.
+
+#### Manual install (if you prefer)
+
+Add to your runtime's MCP config:
+
+```
+{
+  "mcpServers": {
+    "agent-skills-standard": {
+      "command": "npx",
+      "args": ["-y", "agent-skills-standard-mcp"],
+    },
+  },
+}
+```
+
+Now any sub-agent in any runtime can call `load_skills_for_files`, `audit_session_compliance`, etc. Works in Claude Code, Cursor, Antigravity, Kiro, Continue, Gemini CLI — anywhere MCP is supported. Full setup: [`mcp/README.md`](/HoangNguyen0403/agent-skills-standard/blob/develop/mcp/README.md).
+
+#### CLI vs MCP — paired layers, not alternatives
+
+| Layer | Tool | Runs when | Purpose |
+| --- | --- | --- | --- |
+| **Distribution** | `agent-skills-standard` (CLI) | Manually, before AI session | Fetches & writes `SKILL.md` files; generates `AGENTS.md` + `_INDEX.md` |
+| **Runtime / Enforcement** | `agent-skills-standard-mcp` (MCP) | Auto-launched by the AI runtime | Serves matched `SKILL.md` to live agents on demand; provides audit log |
+
+Use both when you want enforcement receipts: the CLI installs the rules, the MCP makes sure agents load them.
+
+---
+
+SDLC Workflow Spine
+-------------------
+
+The registry now ships a compact lifecycle that agents can run natively after sync:
+
+| Stage | Synced Workflow | Output |
+| --- | --- | --- |
+| Route | `sdlc` | next workflow and blockers |
+| Brainstorm | `brainstorm-feature` | `product-brief.md` |
+| Plan | `plan-feature` | PRD, decisions, task slices |
+| Design | `design-solution` | architecture, contracts, ADR |
+| Readiness | `implementation-readiness` | go/no-go before code |
+| Build | `implement-feature` / `dev-fix` | implementation handoff |
+| Review | `review-ticket` | multi-lens PR/ticket verdict |
+| Verify | `verify-work` / `verify-bug` | `walkthrough.md` evidence |
+| Security | `pentest` / `security-test` | hacker report, PoC, SAST logs |
+
+### Session Telemetry
+
+The registry now includes the `common-telemetry` skill and a companion MCP tool `get_session_cost()`. At the end of every workflow, the agent can now report MCP-observed session telemetry plus exact-or-estimated token cost when the host runtime supplies usage and pricing data.
+
+See [SDLC Workflow Quick Reference](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/sdlc-workflow-quick-reference.md).
+
+Default SDLC Support
+--------------------
+
+`ags init` includes framework skills plus shared SDLC support categories when the registry provides them:
+
+| Surface | How It Syncs |
+| --- | --- |
+| `quality-engineering` | Included as a skill category for BA review, Jira traceability, QA standards, browser/mobile verification, and Zephyr coverage |
+| `specialists` | Converted directly into native sub-agent files for Jira analysis, codebase scouting, architecture/security review, AC verification, test gaps, PR metadata, Zephyr/Confluence lookup, PR comments, integration tests, and TC creation |
+
+External tasking MCPs such as Jira, Azure DevOps, and Zephyr are integration points, not required dependencies. Workflows should use them when already connected, but every workflow must still work from local tickets, specs, and evidence files so teams can customize their own automation stack.
+
+For security-sensitive autonomous review, prefer a sandboxed runtime with least-privilege tools, isolated credentials, and default-deny outbound network. That aligns with the safety direction shown by NVIDIA OpenShell's policy-enforced sandboxes and Anthropic's warning that PR security review should stay on trusted inputs unless the runtime is hardened.
+
+For review workflows specifically, the next-tier operating model is:
+
+* OpenShell-style runtime contract and auditability.
+* Anthropic-style diff-first, high-confidence security review.
+* SecurityReview.ai-style clear, role-aware review handoff.
+
+In practice that means:
+
+* security reviews emit concise markdown artifacts and handoff notes instead of a large JSON contract layer
+* untrusted PR or ticket prose is treated as hostile content, not as execution instructions
+* `code-review` and `review-ticket` can emit `review-delivery.md` as the sanitized packet for channel handoff or approved PR comment publication
+* broad repo health audits emit `codebase-review.md` separately from `security-review.md` so engineering health and exploitability stay distinct
+
+For repository enforcement, keep the workflows and skills lean: the source of truth lives in `skills/` and `.agents/workflows/`, not in MCP-only artifact helpers, fixture packs, or replay chains.
+
+See also [Learning From agentic-ai](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/agentic-ai-learning.md) and the [Optional MCP Integration Guide](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/mcp-integration-guide.md) and [UI Automation Drivers](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/ui-automation-drivers.md).
+
+299 Skills Across 20+ Frameworks
+--------------------------------
+
+Every skill is audited for token efficiency (averaging ~500 tokens) and tested with automated evals.
+
+| Stack | Key Skills | Version | Skills |
+| --- | --- | --- | --- |
+| **Common Patterns** | Best Practices, Security, TDD, Architecture Diagrams | `v2.5.0` | 38 |
+| **Flutter** | BLoC, Riverpod, Architecture, Concurrency | `v1.7.1` | 22 |
+| **React** | Hooks, Performance, State Management | `v1.3.6` | 8 |
+| **React Native** | Architecture, Navigation, Performance | `v1.4.4` | 13 |
+| **Next.js** | App Router, Server Components, Caching, ISR | `v1.4.5` | 18 |
+| **Angular** | Signals, Components, RxJS, SSR | `v1.4.2` | 15 |
+| **NestJS** | Architecture, Security, BullMQ | `v1.4.5` | 21 |
+| **TypeScript** | Type Safety, Security, Tooling | `v1.3.3` | 4 |
+| **JavaScript** | ES2024+, Patterns, Tooling | `v1.3.4` | 3 |
+| **Go (Golang)** | Clean Arch, Concurrency | `v1.3.5` | 11 |
+| **Python** | Clean Arch, Async, Testing, Security | `v1.0.0` | 9 |
+| **Spring Boot** | Architecture, Security, JPA | `v1.3.3` | 10 |
+| **Android** | Compose, Navigation 3, Edge-to-Edge, AGP 9 | `v1.4.1` | 26 |
+| **iOS** | SwiftUI, Arch, Persistence | `v1.4.5` | 15 |
+| **Swift** | Concurrency, Memory | `v1.3.5` | 8 |
+| **Kotlin** | Coroutines, Language | `v1.3.3` | 4 |
+| **Java** | Records, Virtual Threads | `v1.3.3` | 5 |
+| **PHP** | PHP 8.4+, Error Handling | `v1.3.5` | 7 |
+| **Laravel** | Eloquent, Clean Arch | `v1.3.4` | 10 |
+| **Dart** | Null Safety, Sealed Classes | `v1.3.5` | 3 |
+| **Database** | PostgreSQL, MongoDB, Redis, Migrations | `v1.3.5` | 7 |
+| **Quality Engineer** | BA, TDD, Zephyr, Test Gen | `v1.5.0` | 7 |
+| **Specialists** | Jira, Review, QA, Security, Zephyr, Diagramming | `v1.5.0` | 19 |
+
+> Full skill list with token metrics: [Skills Directory](/HoangNguyen0403/agent-skills-standard/blob/develop/skills/README.md) | [Benchmark Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmark-report.md) | [Public Proof](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/public-proof.md)
+
+---
+
+Configuration
+-------------
+
+The `.skillsrc` file controls what gets synced:
+
+```
+registry: https://github.com/HoangNguyen0403/agent-skills-standard
+agents: [cursor, copilot, claude, gemini]
+# Standard registry skills
+skills:
+  flutter:
+    ref: flutter-v1.6.3
+    exclude: ["getx-navigation"] # Don't use GetX? Exclude it.
+    custom_overrides: ["bloc-state"] # Protect your local modifications.
+  react:
+    ref: react-v1.3.3
+  golang:
+    ref: golang-v1.3.2
+  common:
+    ref: common-v2.0.3
+
+# Local custom standalone skills
+custom_skills:
+  - path: "./.skills/my-custom-rule.md"
+    triggers: ["*.ts", "keyword"]
+```
+
+Skills are **package-aware**: if your Flutter project uses BLoC but not GetX, just exclude the GetX skills. The AI only sees what's relevant to your stack. The **`custom_skills`** feature allows you to index your own `.md` files directly into `AGENTS.md` and `_INDEX.md`, ensuring your project-specific rules are always visible to the AI.
+
+### Workflow Selection
+
+```
+workflows:
+  - sdlc
+  - brainstorm-feature
+  - plan-feature
+  - design-solution
+  - implement-feature
+  - verify-work
+  - pentest
+  - security-test
+  - deploy-release
+  - publish-notes
+  - retro-learn
+```
+
+Workflows sync to the native surface for each selected agent. Keep `.agents/workflows` as the canonical source in this registry; Codex receives generated workflow skills under `.codex/skills/<workflow>/SKILL.md`.
+
+---
+
+How AI Agents Find Skills
+-------------------------
+
+Every AI agent follows the same hierarchical lookup — no agent-specific setup needed:
+
+```
+AGENTS.md (compact router, ~20 lines)
+   |
+   |  "Editing *.go? Read golang/_INDEX.md"
+   v
+_INDEX.md (per-category trigger table)
+   |
+   |  File Match:  golang-database     internal/adapter/repository/**
+   |  Keyword:     golang-security     encrypt, auth, validate
+   v
+SKILL.md (loaded on demand, ~500 tokens)
+   |
+   |  The actual engineering rules
+   v
+Your AI writes code that follows your standards.
+```
+
+**File Match** = auto-checked when you edit a matching file.
+**Keyword Match** = checked only when your prompt mentions the concept.
+
+This means editing a `.ts` file loads **6 relevant skills** instead of 27 — no confusion, no token waste.
+
+---
+
+Walkthrough — NestJS backend feature
+------------------------------------
+
+Picture a developer in Cursor or Claude Code asking:
+
+> *"Add a POST /orders endpoint that validates the body and returns 201."*
+
+Here's what happens **with** the MCP, step by step.
+
+### 1. Agent identifies the file it will touch
+
+```
+src/orders/orders.controller.ts
+```
+
+### 2. Agent calls the MCP — BEFORE writing any code
+
+```
+// Tool call from the agent
+{
+  "name": "load_skills_for_files",
+  "arguments": { "files": ["src/orders/orders.controller.ts"] },
+}
+```
+
+### 3. The MCP returns 11 skills — direct + composite
+
+```
+matched-by                                   skill
+──────────────────────────────────────────  ─────────────────────────────────────
+file:**/*.ts                                 typescript/typescript-language
+file:**/*.controller.ts                      nestjs/nestjs-api-standards
+file:**/*.controller.ts                      nestjs/nestjs-controllers-services
+file:**/*.controller.ts                      nestjs/nestjs-file-uploads
+file:**/*.controller.ts                      nestjs/nestjs-real-time
+file:**/*.controller.ts                      nestjs/nestjs-transport
+composite via typescript/typescript-language common/common-best-practices
+composite via nestjs/nestjs-api-standards    common/common-api-design
+composite via nestjs/nestjs-file-uploads     common/common-security-standards
+composite via nestjs/nestjs-real-time        common/common-performance-engineering
+composite via nestjs/nestjs-transport        system-design/system-design-principles
+```
+
+### 4. The agent now has these team rules in context
+
+| From skill | Rule the agent now follows |
+| --- | --- |
+| `typescript-language` | Strict typing, `unknown` over `any`, satisfies operator |
+| `nestjs-controllers-services` | Controllers stay thin; logic lives in services |
+| `nestjs-api-standards` | DTOs with `class-validator`, consistent error envelopes |
+| `nestjs-transport` | `@HttpCode(201)`, ParseUUIDPipe, response shape |
+| `common-best-practices` | Functions < 30 lines, guard clauses, intention-revealing names |
+| `common-api-design` | Status codes, pagination, idempotency, OpenAPI conventions |
+| `common-security-standards` | Authn/authz, input sanitization, secret handling |
+| `system-design-principles` | Module boundaries, coupling rules |
+| `common-performance-engineering` | Async patterns, N+1 query checks |
+
+### 5. The agent writes the code AND calls the audit before claiming done
+
+```
+{ "name": "audit_session_compliance" }
+```
+
+```
+# Session compliance
+Skills loaded: 11
+- common/common-api-design
+- common/common-best-practices
+- common/common-performance-engineering
+- common/common-security-standards
+- system-design/system-design-principles
+- nestjs/nestjs-api-standards
+- nestjs/nestjs-controllers-services
+- nestjs/nestjs-file-uploads
+- nestjs/nestjs-real-time
+- nestjs/nestjs-transport
+- typescript/typescript-language
+```
+
+### What the same scenario looks like WITHOUT the MCP
+
+The agent reads `AGENTS.md` (maybe), walks the router (maybe), reads the matched `_INDEX.md` (maybe), and reads matched `SKILL.md` files (often skipped — especially in sub-agents that don't inherit `CLAUDE.md`). Result:
+
+|  | With MCP | Without MCP |
+| --- | --- | --- |
+| `typescript-language` rules | ✅ Loaded | ⚠️ Sometimes |
+| `nestjs-*` framework rules | ✅ All 5 loaded | ⚠️ One or two if lucky |
+| `common-best-practices` (function size, naming, guard clauses) | ✅ Loaded via composite | ❌ Almost never |
+| `common-api-design` (status codes, pagination) | ✅ Loaded via composite | ❌ Almost never |
+| `common-security-standards` (input validation, auth) | ✅ Loaded via composite | ❌ Almost never |
+| Provable audit log of what informed the code | ✅ `audit_session_compliance` | ❌ None |
+| Behavior in sub-agents (`tdd-implementer`, `architecture-guard`, etc.) | ✅ Same as orchestrator | ❌ Worse — sub-agents inherit nothing |
+
+That's the reason the MCP exists: the rules **automatically reach the working context** every time, in every runtime, including sub-agents.
+
+### 🤖 Sub-Agents & Specialists
+
+Agent Skills Standard supports **Specialist Sub-Agents**. These are focused personas (for example `@specialist-tdd-implementer`, `@specialist-architecture-guard`, `@specialist-ac-verifier`) that you can delegate specific parts of your workflow to.
+
+* **Strict Budget**: Specialists have one role, bounded tool/file usage, structured output, and no nested sub-agent spawning.
+* **Context Hygiene**: By delegating to a sub-agent, the "noise" of granular implementation stays out of your main chat context.
+* **Unified Sync**: Specialists sync to native agent folders such as `.claude/agents`, `.codex/agents`, `.cursor/agents`, `.gemini/agents`, and `.github/copilot-agents`.
+
+---
+
+Security & Trust
+----------------
+
+Skills are **text files, not code**. They cannot execute commands, access your filesystem, or make network requests. This repo's posture is mapped against the [OWASP Agentic Skills Top 10](https://owasp.org/www-project-agentic-skills-top-10/) — see [docs/SECURITY.md](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/SECURITY.md) for the full AST01–AST10 coverage table. Here's the full picture:
+
+### SkillSpector Security Scanning
+
+Every skill in this repository is automatically scanned by **[NVIDIA SkillSpector](https://github.com/nvidia/skillspector)** — a purpose-built security scanner for AI agent skills. The pipeline checks **64 vulnerability patterns across 16 categories** including prompt injection, data exfiltration, privilege escalation, supply chain attacks, and MCP tool poisoning.
+
+* ✅ **PR gate**: Any PR that modifies `skills/**` must pass the scan before merging
+* 🔒 **Verified by SkillSpector**: A dated `skillspector-verified-vYYYYMMDD` tag is created on `main` when all scanned skills pass the gate
+* ⚠️ **Skipped verification**: 3 security-guidance skills — `common-owasp`, `common-pentest-methodology`, `common-llm-security` — are excluded from the automated scan; a real CI run confirmed their `SKILL.md` legitimately trips the scanner from educational content. The other 4 (including `common-security-audit`) are scanned like every other skill
+* 📊 **SARIF reports**: Results are uploaded to the [GitHub Security tab](https://github.com/HoangNguyen0403/agent-skills-standard/security/code-scanning) for full transparency
+
+See [docs/SECURITY.md](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/SECURITY.md) for the full security policy, threshold definitions, and instructions for running the scanner locally before submitting a PR.
+
+### What Skills Are
+
+* **Pure Markdown/JSON** — no binaries, no scripts, no executable code
+* **Sandboxed** — skills run inside the AI's context window, not as OS processes
+* **Open source** — every skill is auditable on GitHub before you use it
+
+### What the CLI Does
+
+* **Downloads text only** — fetches Markdown and JSON from the [public registry](https://github.com/HoangNguyen0403/agent-skills-standard)
+* **Verifies before writing** — every downloaded file's git blob sha is checked against the tree API, with a 1 MiB size cap, before it's written to disk
+* **No telemetry by default** — no data collection, no analytics, no background daemons. An opt-in local usage log (`AGS_TELEMETRY=1`) writes per-session skill-load counts to `~/.agent-skills-standard/telemetry.jsonl` and is never uploaded; see [docs/FRESHNESS.md](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/FRESHNESS.md#usage-telemetry-local-opt-in); a project's `.skillsrc` can also enable it, in which case the MCP prints a startup notice
+* **No code or project data leaves your machine** — feedback is only sent if you explicitly run `ags feedback`
+
+### How Skills Stay Safe
+
+* **Prompt injection scanning** — every skill's `description`, body, and `references/*.md` are scanned against known injection patterns (zero-width/bidi characters, imperative HTML comments, curl-pipe-to-shell, etc.) at CI time and index-generation time
+* **Skill-content lockfile** — `ags sync` writes `.skills-lock.json` (a sha256 per installed file); run `ags verify` any time to detect drift between what was fetched and what's actually on disk
+* **Least-privilege declarations** — skills can optionally declare `risk_tier`, `allowed-tools`, and `permissions` in frontmatter, projected onto each platform's native mechanism where one exists (e.g. Codex `sandbox_mode`)
+* **Opt-in enforcement** — `ags hooks install --enforce` makes Claude's PreToolUse hook actually block (not just remind) edits to a fixed identity/secret deny-list (`SOUL.md`, `MEMORY.md`, `.env*`, `.ssh/`, `credentials*.json|yaml`)
+* **Automated eval testing** — most skills include `evals.json` datasets that verify AI adherence to constraints via regression tests
+* **Zero-Trust protocol** — the generated `AGENTS.md` enforces a mandatory audit: the AI must declare which skills it loaded before writing code, preventing silent rule-skipping
+* **Continuous benchmarking** — skills are periodically tested against adversarial prompts to identify logic gaps and instruction drift
+* **Vibe Security Scan** — review and pentest workflows include a compact lens for the 20 common AI-generated security bugs, including IDOR, SSRF, traversal, weak JWTs, upload abuse, and slopsquatting
+* **Supply chain** — pinned secret scanning (gitleaks), blocking dependency review, Dependabot, and `npm publish --provenance` on every published package
+* **Governance** — [CODEOWNERS](/HoangNguyen0403/agent-skills-standard/blob/develop/.github/CODEOWNERS) on security-sensitive paths, per-category owners, and a `revocations` list checked on every sync (`ags audit` prints the current inventory)
+
+---
+
+FAQ
+---
+
+**Does this work with Cursor, Claude Code, Copilot, Gemini?**
+  
+Yes — all of them, plus Windsurf, Trae, Kiro, Roo, and Antigravity. The CLI generates each agent's native format automatically. No plugin needed.
+
+**How is this different from .cursorrules or system prompts?**
+  
+`.cursorrules` and system prompts are static — one big file that the AI reads every time, wasting context. Agent Skills Standard uses **hierarchical on-demand loading**: the AI only reads the specific skills relevant to what you're editing right now. This saves ~86% of tokens and scales to 237+ skills without performance loss.
+
+**Will it overwrite my custom rules?**
+  
+No. Use `custom_overrides` in your `.skillsrc` to protect any files you've customized locally. The CLI will skip them during sync.
+
+**How do I add my own skills?**
+  
+Create a `SKILL.md` file in your agent's skills directory (e.g., `.cursor/skills/my-custom/SKILL.md`). It will be automatically included in the index on the next sync. For contributing to the public registry, see below.
+
+**What about token costs?**
+  
+Each skill averages ~500 tokens (vs ~3,600 for a typical architect prompt). The hierarchical index adds only ~25 lines of scanning overhead per edit. Teams report **86% reduction** in prompt-related token usage.
+
+
+---
+
+Contributing
+------------
+
+1. **Propose**: Open an [issue](https://github.com/HoangNguyen0403/agent-skills-standard/issues) with your skill idea.
+2. **Build**: Fork the repo, add your skill to `skills/<category>/`, include `evals.json`.
+3. **PR**: CI validates format, token count, and injection safety before merge.
+
+See [ARCHITECTURE.md](/HoangNguyen0403/agent-skills-standard/blob/develop/ARCHITECTURE.md) for design details and [CLI Architecture](/HoangNguyen0403/agent-skills-standard/blob/develop/cli/ARCHITECTURE.md) for service internals.
+
+---
+
+🧪 Live Evals — Measured, Not Just Structural
+--------------------------------------------
+
+[`benchmark-report.md`](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmark-report.md) measures skill **size** — tokens, structure, rubric score. It's fast and free, but it can't tell you whether a skill actually changes agent behavior. [`evals-report.md`](/HoangNguyen0403/agent-skills-standard/blob/develop/evals-report.md) does: each skill's real eval prompts are answered by an agent twice — once with no skill loaded (baseline), once with it loaded (with-skill) — and scored deterministically against the assertions already in `evals/evals.json`.
+
+This runs inside any coding agent's normal chat session (Claude Code, Copilot, Codex, Antigravity — no API key needed beyond what you already use to run that agent), and every result is independently verifiable afterward with no agent involved:
+
+```
+pnpm evals:verify -- --all   # re-score every committed run, no API key, no LLM call
+```
+
+See [docs/EVALS.md](/HoangNguyen0403/agent-skills-standard/blob/develop/docs/EVALS.md) for the full protocol, the trust model, and how to run your own category.
+
+---
+
+License & Credits
+-----------------
+
+* **License**: MIT
+* **Author**: [Hoang Nguyen](https://github.com/HoangNguyen0403)
+
+### 📜 Benchmark History
+
+| Version | Date | Skills | Avg Tokens | Savings (%) | Report |
+| --- | --- | --- | --- | --- | --- |
+| v2.6.0 | 2026-07-10 | 264 | 528 | 46% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.6.0.md) |
+| v2.4.7 | 2026-06-15 | 251 | 551 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.4.7.md) |
+| v2.4.6 | 2026-06-10 | 251 | 548 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.4.6.md) |
+| v2.4.1 | 2026-05-18 | 247 | 540 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.4.1.md) |
+| v2.4.0 | 2026-05-14 | 246 | 540 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.4.0.md) |
+| v2.3.0 | 2026-05-13 | 246 | 540 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.3.0.md) |
+| v2.2.2 | 2026-05-09 | 249 | 539 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.2.2.md) |
+| v2.2.0 | 2026-04-22 | 242 | 538 | 85% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.2.0.md) |
+| v2.1.2 | 2026-04-11 | 237 | 516 | 86% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.1.2.md) |
+| v2.1.1 | 2026-04-11 | 237 | 516 | 86% | [Report](/HoangNguyen0403/agent-skills-standard/blob/develop/benchmarks/archive/v2.1.1.md) |
