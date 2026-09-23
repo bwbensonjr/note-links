@@ -1,6 +1,84 @@
 {
-  "exported_at": "2026-09-21T09:45:54.414583",
+  "exported_at": "2026-09-23T08:49:09.629398",
   "links": [
+    {
+      "id": 1380,
+      "url": "https://htmx.org/essays/markdown-in-src/",
+      "title": null,
+      "description": "An argument for a standardized `/src/md` directory",
+      "summary": "As AI-generated code becomes increasingly prevalent, Markdown should be treated as source code rather than documentation and stored in a standardized `/src/md` directory alongside generated code. This approach preserves the intent and specifications of software systems in a human-readable, diffable format that both developers and AI agents can easily access, rather than having that critical information scattered across ephemeral prompts, wikis, and chat threads. The proposed convention would organize Markdown files by feature, data model, API, and infrastructure, with code and tests derived from these specifications rather than from temporary prompting sessions.",
+      "domain": "htmx.org",
+      "source_date": "2026-09-23",
+      "page_title": "</> htmx ~ Markdown in /src",
+      "tags": [
+        "web-dev",
+        "ai",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/htmx-markdown-in-src-1380.md"
+    },
+    {
+      "id": 1379,
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "title": null,
+      "description": "Unreal Agent overview",
+      "summary": "Unreal Agent is an AI agent framework designed for cost-efficiency and responsiveness by using asynchronous tool management that relieves language models from managing tool execution overhead. The system achieves up to 40% cost savings compared to competitors by reducing model turns and input tokens while allowing more parallel tool work and real-time user steering without delays. Unreal Labs provides the framework as an open-source SDK with benchmarks demonstrating competitive performance across coding tasks.",
+      "domain": "unreallabs.ai",
+      "source_date": "2026-09-23",
+      "page_title": "Unreal Agent — Unreal Labs",
+      "tags": [
+        "ai",
+        "llm",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/unreal-agent-unreal-labs-1379.md"
+    },
+    {
+      "id": 1378,
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "title": null,
+      "description": "Claude Opus 5.5",
+      "summary": "Anthropic has introduced Claude Opus 5.5, a new flagship model that delivers performance comparable to Claude Fable 5.1 while costing 40% less to operate, with 30% faster output generation and improved safety alignment. The model excels at complex tasks like large-scale code migrations and agentic work, with significant improvements in natural communication, cost efficiency through reduced token pricing, and enhanced safety features verified by external evaluators. Claude Sonnet 5.5 and Haiku 5.5 will follow in coming weeks with similar performance and efficiency improvements.",
+      "domain": "www.anthropic.com",
+      "source_date": "2026-09-23",
+      "page_title": "Introducing Claude Opus 5.5 \\ Anthropic",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/introducing-claude-opus-5-5-anthropic-1378.md"
+    },
+    {
+      "id": 1382,
+      "url": "https://woobox.com/mrnjvb?utm_source=sfmc&utm_medium=email&utm_campaign=09-21-2026-KYHBS+(Staff+and+Faculty+Edition",
+      "title": null,
+      "description": "HBS Fall Photo Challenge",
+      "summary": "Harvard Business School is hosting \"HBS Through Your Lens,\" a fall photo challenge inviting faculty, staff, students, and partners to submit photographs capturing campus life across three categories: Fall at HBS, My HBS, and Hidden HBS. The challenge runs from September 28 to October 23, with community voting in late October and winners announced in mid-November, requiring no prior photography experience or special equipment. Selected photos will be displayed online and in campus locations, celebrating the diverse perspectives and moments that make the HBS community special.",
+      "domain": "woobox.com",
+      "source_date": "2026-09-22",
+      "page_title": "HBS Through Your Lens - A Fall Campus Photo Challenge",
+      "tags": [
+        "video",
+        "social-media"
+      ],
+      "markdown_path": "culture/hbs-through-your-lens-a-fall-campus-photo-challenge-1382.md"
+    },
+    {
+      "id": 1381,
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "title": null,
+      "description": "Transformers explained visually",
+      "summary": "Transformers are a neural network architecture that fundamentally changed AI by using a self-attention mechanism to process sequences and predict the next token in text generation. The page explains how transformers work through three key components: embedding (converting text into numerical vectors with positional information), transformer blocks (which process data through multi-head self-attention and MLP layers), and output probabilities. Using GPT-2 as an example, it demonstrates how transformers break down input text into tokens, assign them semantic meaning through embedding vectors, and use attention mechanisms to capture relationships between tokens from multiple perspectives, enabling the model to generate coherent text predictions.",
+      "domain": "poloclub.github.io",
+      "source_date": "2026-09-22",
+      "page_title": "Transformer Explainer: LLM Transformer Model Visually Explained",
+      "tags": [
+        "ai",
+        "llm",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/transformer-explainer-llm-transformer-model-visually-1381.md"
+    },
     {
       "id": 1372,
       "url": "https://agentexecutor.io/",
@@ -21685,17 +21763,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 408
+      "count": 410
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 333
+      "count": 337
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 286
+      "count": 287
     },
     {
       "name": "academic-paper",
@@ -21705,7 +21783,7 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 247
+      "count": 250
     },
     {
       "name": "cli-tool",
@@ -21715,12 +21793,12 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 224
+      "count": 225
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 213
+      "count": 214
     },
     {
       "name": "python",
@@ -21755,7 +21833,7 @@
     {
       "name": "social-media",
       "category": "culture",
-      "count": 102
+      "count": 103
     },
     {
       "name": "database",
@@ -22001,6 +22079,10 @@
       "count": 6
     },
     {
+      "domain": "www.anthropic.com",
+      "count": 6
+    },
+    {
       "domain": "www.bostonglobe.com",
       "count": 6
     },
@@ -22018,10 +22100,6 @@
     },
     {
       "domain": "lcamtuf.substack.com",
-      "count": 5
-    },
-    {
-      "domain": "www.anthropic.com",
       "count": 5
     },
     {
@@ -23349,6 +23427,10 @@
       "count": 1
     },
     {
+      "domain": "htmx.org",
+      "count": 1
+    },
+    {
       "domain": "ianthehenry.com",
       "count": 1
     },
@@ -24037,6 +24119,10 @@
       "count": 1
     },
     {
+      "domain": "poloclub.github.io",
+      "count": 1
+    },
+    {
       "domain": "polysoftit.co.uk",
       "count": 1
     },
@@ -24461,6 +24547,10 @@
       "count": 1
     },
     {
+      "domain": "unreallabs.ai",
+      "count": 1
+    },
+    {
       "domain": "unsung.aresluna.org",
       "count": 1
     },
@@ -24566,6 +24656,10 @@
     },
     {
       "domain": "withdiode.com",
+      "count": 1
+    },
+    {
+      "domain": "woobox.com",
       "count": 1
     },
     {
