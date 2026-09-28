@@ -1,6 +1,213 @@
 {
-  "exported_at": "2026-09-23T08:49:09.629398",
+  "exported_at": "2026-09-28T08:09:59.051143",
   "links": [
+    {
+      "id": 1387,
+      "url": "https://felixrieseberg.com/made-by-mechanical-means/",
+      "title": null,
+      "description": "Made by mechanical means - Website redesign using Python to program a Blender 3D model",
+      "summary": "Felix Rieseberg redesigned his homepage using Claude AI to program a Blender 3D model, creating an interactive 90s-themed room with VHS tape portfolio items entirely through cloud-based AI without running local code. The project involved 60 parallel Claude threads working through iterative brainstorming and creative refinement, with Claude autonomously writing ~3,000 lines of Python code to generate detailed 3D models, procedural textures, and complex lighting systems. This workflow demonstrates a shift toward more creative, goal-oriented collaboration with AI rather than traditional hands-on coding and development.",
+      "domain": "felixrieseberg.com",
+      "source_date": "2026-09-28",
+      "page_title": "Made by mechanical means",
+      "tags": [
+        "python",
+        "ai",
+        "llm",
+        "web-dev"
+      ],
+      "markdown_path": "programming-language/made-by-mechanical-means-1387.md"
+    },
+    {
+      "id": 1386,
+      "url": "https://www.newyorker.com/magazine/2026/09/28/inconceivable-the-impossibility-of-family-in-an-age-of-uncertainty-anna-louise-sussman-book-review",
+      "title": null,
+      "description": "Baby Steps - What is really behind the baby bust?",
+      "summary": "The article examines two competing explanations for declining birth rates: the conservative view that cultural shifts like feminism and individualism have weakened desire for children, versus author Anna Louise Sussman's argument that people still want children but are deterred by economic hardship and demanding social conditions like expensive housing, costly childcare, and intensive parenting expectations. Sussman contends this represents a significant societal failure, as the gap between desired and actual family size reflects not changing values but rather systemic obstacles that make parenthood increasingly unattainable for those who want it.",
+      "domain": "www.newyorker.com",
+      "source_date": "2026-09-28",
+      "page_title": "What’s Really Behind the Baby Bust? | The New Yorker",
+      "tags": [
+        "nonfiction-book",
+        "news",
+        "psychology"
+      ],
+      "markdown_path": "culture/what-s-really-behind-the-baby-bust-the-new-yorker-1386.md"
+    },
+    {
+      "id": 1385,
+      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
+      "title": null,
+      "description": "TabPFN and TabICL against tuned XGBoost: the model that does not train won on fourteen tables out of fourteen",
+      "summary": "TabPFN and TabICL, tabular foundation models that use in-context learning to make predictions without training on data, outperformed tuned XGBoost on 14 out of 14 benchmark datasets by making predictions in a single forward pass with only data copied to GPU rather than gradient descent optimization. The models reverse traditional machine learning economics by making fitting nearly free and prediction costly, though TabPFN showed weaknesses on high-dimensional tables with many columns. This benchmark challenges conventional practice by suggesting that hyperparameter tuning may no longer be necessary for competitive tabular prediction performance.",
+      "domain": "efraingaray.com",
+      "source_date": "2026-09-28",
+      "page_title": "TabPFN vs XGBoost: benchmark measured on an RTX 4070 Ti",
+      "tags": [
+        "ai",
+        "llm",
+        "python",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/tabpfn-vs-xgboost-benchmark-measured-on-an-rtx-4070-ti-1385.md"
+    },
+    {
+      "id": 1384,
+      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "title": null,
+      "description": "What I did at RC",
+      "summary": "Patrick spent a summer at Recurse Center, a programming retreat in Brooklyn, where he participated in multiple study groups including Agentic Adventures (exploring LLMs and AI agents), Practical Deep Learning, and Math Monday, while also working on personal projects like completing his dodo programming language and implementing the DEFLATE compression algorithm in Rust. Through pairing sessions with other participants and numerous side projects, he gained hands-on experience with modern machine learning tools, deepened his understanding of computer science fundamentals, and explored how LLMs could be leveraged for creative problem-solving. His time there emphasized collaborative learning and experimentation, allowing him to achieve his primary goal of understanding and working with contemporary LLM technologies.",
+      "domain": "thill.me",
+      "source_date": "2026-09-28",
+      "page_title": "What I did at RC | patrick’s blog",
+      "tags": [
+        "llm",
+        "ai",
+        "rust",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/what-i-did-at-rc-patrick-s-blog-1384.md"
+    },
+    {
+      "id": 1383,
+      "url": "https://arxiv.org/abs/2110.01834",
+      "title": null,
+      "description": "Thinking fast and slow in AI: the role of metacognition",
+      "summary": "This paper proposes a multi-agent AI architecture inspired by Daniel Kahneman's \"thinking fast and slow\" theory to address limitations in current narrow AI systems. The authors argue that current AI lacks many human-like cognitive capabilities and suggest a framework where \"fast\" agents (System 1) make rapid decisions based on past experience, while \"slow\" agents (System 2) engage in deliberate reasoning when needed, both supported by models of the world and self-knowledge. This approach aims to bridge the gap between specialized AI systems and more generalized human-like intelligence by incorporating metacognitive mechanisms.",
+      "domain": "arxiv.org",
+      "source_date": "2026-09-28",
+      "page_title": "[2110.01834] Thinking Fast and Slow in AI: the Role of Metacognition",
+      "tags": [
+        "academic-paper",
+        "ai",
+        "psychology"
+      ],
+      "markdown_path": "technical-topic/2110-01834-thinking-fast-and-slow-in-ai-the-role-of-1383.md"
+    },
+    {
+      "id": 1393,
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "title": null,
+      "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "summary": "StemDeck is a free, open-source stem separation tool that allows musicians, producers, and hobbyists to isolate vocals, drums, bass, guitar, piano, and other elements from audio files locally on their own machine without requiring accounts, uploads, or subscriptions. The platform supports multiple audio formats and YouTube URLs, offering a DAW-style mixer interface with features like mute, solo, waveform editing, and individual stem export, making it an accessible alternative to commercial cloud-based services like Moises and LALAL.AI. While it prioritizes privacy and local processing over speed and advanced features, it provides a solid solution for personal practice, transcription, and creative audio workflows.",
+      "domain": "github.com",
+      "source_date": "2026-09-27",
+      "page_title": "GitHub - stemdeckapp/stemdeck: Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface · GitHub",
+      "tags": [
+        "github-repo",
+        "cli-tool",
+        "music"
+      ],
+      "markdown_path": "technical-topic/github-stemdeckapp-stemdeck-stemdeck-is-an-modern-stem-1393.md"
+    },
+    {
+      "id": 1392,
+      "url": "https://zachholman.com/posts/you-should-have-an-llc",
+      "title": null,
+      "description": "You should have an LLC",
+      "summary": "The author argues that forming an LLC before you need it is a smart move for aspiring entrepreneurs in today's fast-paced business environment. Because software and businesses can now be built in hours or days, the incorporation process has become the real bottleneck—an LLC removes this friction by allowing you to accept payments, open bank accounts, and legally separate personal and business finances immediately. At roughly $500 per year (plus California's additional fee), having a pre-formed LLC ready to go provides valuable optionality to quickly launch new ideas without artificial delays.",
+      "domain": "zachholman.com",
+      "source_date": "2026-09-27",
+      "page_title": "You Should Have an LLC",
+      "tags": [
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/you-should-have-an-llc-1392.md"
+    },
+    {
+      "id": 1391,
+      "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
+      "title": null,
+      "description": "Oral history of John Chowning, inventor of FM synthesis",
+      "summary": "I don't have access to the actual video content from that YouTube link - I can only see the standard YouTube page footer information you've provided. To give you an accurate summary of John Chowning's oral history, I would need the actual transcript or detailed description of what he discusses in the video. If you could share the video's description or transcript, I'd be happy to summarize the key points about his work in FM synthesis and its significance.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-09-27",
+      "page_title": "Oral History of John Chowning - YouTube",
+      "tags": [
+        "video",
+        "music",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/oral-history-of-john-chowning-youtube-1391.md"
+    },
+    {
+      "id": 1390,
+      "url": "https://github.com/dashersw/coyopedal",
+      "title": null,
+      "description": "ESP32-S3 A2-Full NAM pedalboard with direct SD-card NAM loading and a Gea-compiled native frontend",
+      "summary": "CoyoPedal is a standalone guitar amp and effects pedal built on the ESP32-S3 microcontroller that runs full-size Neural Amp Modeler A2 captures in real-time, featuring a touchscreen UI and support for loading custom amp models from microSD cards. The project includes both a hardware implementation on a Waveshare AMOLED board and a web-based browser version, with an effects chain including gate, compressor, chorus, delay, and reverb. It supports USB Audio Class 2 interfaces and can be controlled via touchscreen, footswitch, or remote maintenance mode, with preset management and a built-in tuner.",
+      "domain": "github.com",
+      "source_date": "2026-09-27",
+      "page_title": "GitHub - dashersw/coyopedal: ESP32-S3 A2-Full NAM pedalboard with direct SD-card NAM loading and a Gea-compiled native frontend · GitHub",
+      "tags": [
+        "github-repo",
+        "c"
+      ],
+      "markdown_path": "technical-topic/github-dashersw-coyopedal-esp32-s3-a2-full-nam-pedalboard-1390.md"
+    },
+    {
+      "id": 1389,
+      "url": "https://archive.is/2026.09.26-101638/https://www.nytimes.com/2026/09/26/science/motel-science-discovery.htm",
+      "title": null,
+      "description": "In an $80 Motel Room, a Discovery to Shed Light on the Origins of Life",
+      "summary": "In an $80 Motel Room, a Discovery to Shed Light on the Origins of Life",
+      "domain": "archive.is",
+      "source_date": "2026-09-27",
+      "page_title": null,
+      "tags": [
+        "news",
+        "academic-paper",
+        "biology"
+      ],
+      "markdown_path": "culture/in-an-80-motel-room-a-discovery-to-shed-light-on-the-1389.md"
+    },
+    {
+      "id": 1388,
+      "url": "https://www.penguinrandomhouse.com/books/754975/darkness-becomes-bright-by-emily-ogden/",
+      "title": null,
+      "description": "*Darkness Becomes Bright: On the Brief Life and Immortal Art of Edgar Allan Poe* - Emily Ogden",
+      "summary": "Emily Ogden's \"Darkness Becomes Bright\" is a literary biography that explores Edgar Allan Poe's mysterious life and enduring influence on literature and culture, examining why readers continue to be drawn to his dark work nearly two centuries after his death. The book interweaves Poe's tragic personal history with stories of his most famous admirers—including Baudelaire, Cortázar, and Marie Bonaparte—to illuminate how his vision has resonated across generations. Ogden argues that engaging with darkness through art, particularly Poe's horror and psychological explorations, helps us confront our own flawed humanity and find meaning in life's uncertainties.",
+      "domain": "www.penguinrandomhouse.com",
+      "source_date": "2026-09-27",
+      "page_title": "Darkness Becomes Bright by Emily Ogden: 9780593832509 | PenguinRandomHouse.com: Books",
+      "tags": [
+        "nonfiction-book",
+        "academic-paper"
+      ],
+      "markdown_path": "culture/darkness-becomes-bright-by-emily-ogden-9780593832509-1388.md"
+    },
+    {
+      "id": 1394,
+      "url": "https://launchvideo.io/",
+      "title": null,
+      "description": "Opus 5.5 is good at explainer videos",
+      "summary": "LaunchVideo is an AI-powered tool that automatically generates explainer videos by taking a URL or text prompt as input and outputting a finished MP4 file without any manual editing. It runs on OpenComputer's serverless infrastructure using Claude Opus 5.5 to write video code, which is then rendered deterministically through Playwright and ffmpeg to ensure consistent, high-quality results. The entire system is open-source and can be deployed in minutes, making it accessible for users to create their own video generation agents.",
+      "domain": "launchvideo.io",
+      "source_date": "2026-09-25",
+      "page_title": "LaunchVideo",
+      "tags": [
+        "ai",
+        "llm",
+        "web-dev",
+        "devops"
+      ],
+      "markdown_path": "technical-topic/launchvideo-1394.md"
+    },
+    {
+      "id": 1395,
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "title": null,
+      "description": "SAML - a fractal of bad design",
+      "summary": "SAML, an XML-based authentication protocol created in 2002 through a committee-driven design process, has become a foundational technology for the SSO industry but is now crumbling under its own complexity and security vulnerabilities. The protocol's fundamental flaws stem from its reliance on XML (which is inherently complex and security-prone) and issues like XML signature wrapping and canonicalization problems that have enabled numerous attacks over the years. The author argues it's time to deprecate SAML in favor of modern alternatives like OpenID Connect (OIDC), which are built on simpler formats like JSON and offer better security foundations.",
+      "domain": "blog.trailofbits.com",
+      "source_date": "2026-09-23",
+      "page_title": "SAML: A fractal of bad design - The Trail of Bits Blog",
+      "tags": [
+        "security",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/saml-a-fractal-of-bad-design-the-trail-of-bits-blog-1395.md"
+    },
     {
       "id": 1380,
       "url": "https://htmx.org/essays/markdown-in-src/",
@@ -21763,62 +21970,62 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 410
+      "count": 412
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 337
+      "count": 342
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 287
+      "count": 289
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 270
+      "count": 275
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 250
+      "count": 254
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 225
+      "count": 226
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 225
+      "count": 226
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 214
+      "count": 216
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 138
+      "count": 140
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 137
+      "count": 139
     },
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 136
+      "count": 137
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 126
+      "count": 128
     },
     {
       "name": "compilers",
@@ -21828,7 +22035,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 118
+      "count": 121
     },
     {
       "name": "social-media",
@@ -21836,12 +22043,12 @@
       "count": 103
     },
     {
-      "name": "database",
+      "name": "security",
       "category": "technical_topic",
-      "count": 66
+      "count": 67
     },
     {
-      "name": "security",
+      "name": "database",
       "category": "technical_topic",
       "count": 66
     },
@@ -21858,17 +22065,17 @@
     {
       "name": "biology",
       "category": "science",
-      "count": 40
+      "count": 41
     },
     {
       "name": "c",
       "category": "programming_language",
-      "count": 35
+      "count": 36
     },
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 34
+      "count": 35
     },
     {
       "name": "politics",
@@ -21946,6 +22153,11 @@
       "count": 11
     },
     {
+      "name": "psychology",
+      "category": "science",
+      "count": 11
+    },
+    {
       "name": "fiction-book",
       "category": "culture",
       "count": 10
@@ -21953,11 +22165,6 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 9
-    },
-    {
-      "name": "psychology",
-      "category": "science",
       "count": 9
     },
     {
@@ -22024,7 +22231,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 160
+      "count": 162
     },
     {
       "domain": "www.threads.net",
@@ -22032,7 +22239,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 32
+      "count": 33
     },
     {
       "domain": "simonwillison.net",
@@ -22043,12 +22250,12 @@
       "count": 29
     },
     {
-      "domain": "www.threads.com",
+      "domain": "arxiv.org",
       "count": 19
     },
     {
-      "domain": "arxiv.org",
-      "count": 18
+      "domain": "www.threads.com",
+      "count": 19
     },
     {
       "domain": "open.spotify.com",
@@ -22087,6 +22294,10 @@
       "count": 6
     },
     {
+      "domain": "www.newyorker.com",
+      "count": 6
+    },
+    {
       "domain": "cooking.nytimes.com",
       "count": 5
     },
@@ -22100,10 +22311,6 @@
     },
     {
       "domain": "lcamtuf.substack.com",
-      "count": 5
-    },
-    {
-      "domain": "www.newyorker.com",
       "count": 5
     },
     {
@@ -22180,6 +22387,10 @@
     },
     {
       "domain": "adlrocha.substack.com",
+      "count": 2
+    },
+    {
+      "domain": "archive.is",
       "count": 2
     },
     {
@@ -22355,6 +22566,10 @@
       "count": 2
     },
     {
+      "domain": "www.penguinrandomhouse.com",
+      "count": 2
+    },
+    {
       "domain": "www.reddit.com",
       "count": 2
     },
@@ -22504,10 +22719,6 @@
     },
     {
       "domain": "arcade.pirillo.com",
-      "count": 1
-    },
-    {
-      "domain": "archive.is",
       "count": 1
     },
     {
@@ -22736,6 +22947,10 @@
     },
     {
       "domain": "blog.tacoda.dev",
+      "count": 1
+    },
+    {
+      "domain": "blog.trailofbits.com",
       "count": 1
     },
     {
@@ -23143,6 +23358,10 @@
       "count": 1
     },
     {
+      "domain": "efraingaray.com",
+      "count": 1
+    },
+    {
       "domain": "ejholmes.github.io",
       "count": 1
     },
@@ -23236,6 +23455,10 @@
     },
     {
       "domain": "fedemagnani.github.io",
+      "count": 1
+    },
+    {
+      "domain": "felixrieseberg.com",
       "count": 1
     },
     {
@@ -23596,6 +23819,10 @@
     },
     {
       "domain": "lambdaland.org",
+      "count": 1
+    },
+    {
+      "domain": "launchvideo.io",
       "count": 1
     },
     {
@@ -24495,6 +24722,10 @@
       "count": 1
     },
     {
+      "domain": "thill.me",
+      "count": 1
+    },
+    {
       "domain": "tiled.art",
       "count": 1
     },
@@ -25119,10 +25350,6 @@
       "count": 1
     },
     {
-      "domain": "www.penguinrandomhouse.com",
-      "count": 1
-    },
-    {
       "domain": "www.peterbe.com",
       "count": 1
     },
@@ -25340,6 +25567,10 @@
     },
     {
       "domain": "yqnn.github.io",
+      "count": 1
+    },
+    {
+      "domain": "zachholman.com",
       "count": 1
     },
     {
