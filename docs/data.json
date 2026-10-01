@@ -1,6 +1,38 @@
 {
-  "exported_at": "2026-09-28T08:09:59.051143",
+  "exported_at": "2026-10-01T07:38:15.634647",
   "links": [
+    {
+      "id": 1396,
+      "url": "https://er.educause.edu/articles/2026/6/the-current-state-of-play-ai-in-higher-education-and-the-road-ahead",
+      "title": null,
+      "description": "The Current State of Play: AI in Higher Education and the Road Ahead",
+      "summary": "The Current State of Play: AI in Higher Education and the Road Ahead",
+      "domain": "er.educause.edu",
+      "source_date": "2026-10-01",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/the-current-state-of-play-ai-in-higher-education-and-the-1396.md"
+    },
+    {
+      "id": 1397,
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "title": null,
+      "description": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "summary": "The article traces the evolution of text classification techniques from simple bag-of-words models through deep neural networks to modern transformer-based approaches, culminating in the recently released Jev AI model. Jev positions itself as a practical middle ground—faster and cheaper than general-purpose large language models while more versatile than narrow, task-specific classifiers. The author provides historical context on classification methods to help demystify the recent hype around Jev and clarify what it actually does well as a text classification tool.",
+      "domain": "magazine.sebastianraschka.com",
+      "source_date": "2026-09-30",
+      "page_title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "tags": [
+        "llm",
+        "ai",
+        "academic-paper",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/language-models-for-text-classification-from-bag-of-words-1397.md"
+    },
     {
       "id": 1387,
       "url": "https://felixrieseberg.com/made-by-mechanical-means/",
@@ -21970,12 +22002,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 412
+      "count": 413
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 342
+      "count": 344
     },
     {
       "name": "github-repo",
@@ -21985,12 +22017,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 275
+      "count": 277
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 254
+      "count": 255
     },
     {
       "name": "cli-tool",
@@ -22354,6 +22386,10 @@
       "count": 3
     },
     {
+      "domain": "magazine.sebastianraschka.com",
+      "count": 3
+    },
+    {
       "domain": "medium.com",
       "count": 3
     },
@@ -22479,10 +22515,6 @@
     },
     {
       "domain": "kumo.ai",
-      "count": 2
-    },
-    {
-      "domain": "magazine.sebastianraschka.com",
       "count": 2
     },
     {
@@ -23407,6 +23439,10 @@
     },
     {
       "domain": "eo4society.esa.int",
+      "count": 1
+    },
+    {
+      "domain": "er.educause.edu",
       "count": 1
     },
     {
