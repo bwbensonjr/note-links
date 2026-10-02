@@ -1,6 +1,112 @@
 {
-  "exported_at": "2026-10-01T07:38:15.634647",
+  "exported_at": "2026-10-02T10:07:32.486964",
   "links": [
+    {
+      "id": 1404,
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "title": null,
+      "description": "The Legend of John von Neumann",
+      "summary": "John von Neumann was an extraordinarily brilliant Hungarian mathematician whose exceptional abilities were evident from childhood, with legendary feats of memory and rapid problem-solving that led to groundbreaking contributions across quantum physics, logic, computing, game theory, and economics. Early in his career, he made fundamental contributions to set theory and logic, and later pioneered the mathematical foundations of quantum mechanics by establishing the connection between Hilbert space geometry and quantum-mechanical states, work that remains influential today. His intellectual versatility and depth of insight positioned him as one of the most influential mathematicians of the twentieth century, with his achievements earning recognition even from contemporary giants like Eugene Wigner and Kurt Gödel.",
+      "domain": "gwern.net",
+      "source_date": "2026-10-02",
+      "page_title": "The Legend of John Von Neumann",
+      "tags": [
+        "academic-paper",
+        "mathematics",
+        "physics"
+      ],
+      "markdown_path": "technical-topic/the-legend-of-john-von-neumann-1404.md"
+    },
+    {
+      "id": 1403,
+      "url": "https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/",
+      "title": null,
+      "description": "To grieve or not to grieve - A look at why we do mathematics",
+      "summary": "The article explores how mathematicians are reacting to recent breakthroughs in AI solving complex mathematical problems, drawing parallels to Elisabeth Kübler-Ross's five stages of grief. The author argues that while some mathematicians are in denial, anger, bargaining, or depression about AI's impact on their field, the real question becomes what mathematics is fundamentally for—whether it's about proving hard theorems or achieving deep human understanding. The author expresses optimism about mathematics's future, suggesting that AI's inability to provide insight into *why* theorems are true reaffirms that the core value of mathematics lies in generating understanding rather than merely producing results.",
+      "domain": "xenaproject.wordpress.com",
+      "source_date": "2026-10-02",
+      "page_title": "To grieve, or not to grieve? | Xena",
+      "tags": [
+        "mathematics",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "science/to-grieve-or-not-to-grieve-xena-1403.md"
+    },
+    {
+      "id": 1402,
+      "url": "https://github.com/streetcomplete/StreetComplete",
+      "title": null,
+      "description": "Street Complete ported to iOS",
+      "summary": "StreetComplete is an open-source mobile app for Android and iOS that makes contributing to OpenStreetMap accessible to non-technical users by presenting simple survey questions about nearby locations and automatically uploading their answers to improve map data. The app works offline, gamifies data collection through quest markers on a map, and has been developed with support from various sponsors including the NLnet foundation and German government funding. Users can contribute not just by answering questions on surveys, but also by translating, reporting issues, suggesting new quests, or supporting development financially.",
+      "domain": "github.com",
+      "source_date": "2026-10-02",
+      "page_title": "GitHub - streetcomplete/StreetComplete: Easy to use OpenStreetMap editor for Android · GitHub",
+      "tags": [
+        "github-repo",
+        "web-dev",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/github-streetcomplete-streetcomplete-easy-to-use-1402.md"
+    },
+    {
+      "id": 1401,
+      "url": "https://comonad.com/reader/2026/turbo-haskell/",
+      "title": null,
+      "description": "Turbo Haskell",
+      "summary": "THC (Turbo Haskell Compiler) is a JIT compiler for Haskell that runs on the JVM using Truffle and GraalVM, leveraging GHC's front-end while providing its own Core optimizer and runtime. It supports advanced features like Template Haskell and Linear Haskell, can compile both to JIT and native executables, and enables polyglot FFI with Python, Ruby, R, and JavaScript for accessing external libraries. The compiler achieves performance within 10-20% of GHC through innovative techniques like detecting tail calls via Bloom filters and stack frame compaction, while supporting both traditional Java threading and lightweight green threads via Project Loom.",
+      "domain": "comonad.com",
+      "source_date": "2026-10-02",
+      "page_title": "Turbo Haskell · The Comonad.Reader",
+      "tags": [
+        "haskell",
+        "compilers"
+      ],
+      "markdown_path": "programming-language/turbo-haskell-the-comonad-reader-1401.md"
+    },
+    {
+      "id": 1400,
+      "url": "https://www.collegeraptor.com/college-rankings/details/HiddenGems/Region/New-England-(CT-ME-MA-NH-RI-VT",
+      "title": null,
+      "description": "Wheaton College is #13 on list of hidden gem schools",
+      "summary": "Wheaton College is #13 on list of hidden gem schools",
+      "domain": "www.collegeraptor.com",
+      "source_date": "2026-10-02",
+      "page_title": null,
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/wheaton-college-is-13-on-list-of-hidden-gem-schools-1400.md"
+    },
+    {
+      "id": 1399,
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "title": null,
+      "description": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "summary": "Researchers used AI model Opus 5.5 to discover a previously unnoticed 1615 Dutch ship's log recording the hunting of dodos on Mauritius, filling a gap in the historical record of the extinct bird. The AI employed semantic search through the Dutch East India Company archives to identify relevant manuscript passages, demonstrating how frontier AI models can now conduct novel historical research by processing large volumes of primary sources across multiple languages. The findings also suggest a possible connection between a dodo described by a Portuguese Jesuit in 1616 and the mysterious dodo that appeared in a 17th-century Mughal Emperor's painting, potentially explaining the bird's unexplained presence in India.",
+      "domain": "resobscura.substack.com",
+      "source_date": "2026-10-02",
+      "page_title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "tags": [
+        "llm",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/using-opus-5-5-to-discover-a-new-eyewitness-record-of-the-1399.md"
+    },
+    {
+      "id": 1398,
+      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "title": null,
+      "description": "Shimano bicycle museum review",
+      "summary": "Shimano bicycle museum review",
+      "domain": "inrng.com",
+      "source_date": "2026-10-02",
+      "page_title": null,
+      "tags": [
+        "video"
+      ],
+      "markdown_path": "culture/shimano-bicycle-museum-review-1398.md"
+    },
     {
       "id": 1396,
       "url": "https://er.educause.edu/articles/2026/6/the-current-state-of-play-ai-in-higher-education-and-the-road-ahead",
@@ -22007,37 +22113,37 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 344
+      "count": 345
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 289
+      "count": 290
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 277
+      "count": 280
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 255
+      "count": 256
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 226
+      "count": 227
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 226
+      "count": 227
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 216
+      "count": 217
     },
     {
       "name": "python",
@@ -22057,12 +22163,12 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 128
+      "count": 129
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 123
+      "count": 124
     },
     {
       "name": "nonfiction-book",
@@ -22092,7 +22198,7 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 41
+      "count": 42
     },
     {
       "name": "biology",
@@ -22125,6 +22231,11 @@
       "count": 25
     },
     {
+      "name": "mathematics",
+      "category": "science",
+      "count": 21
+    },
+    {
       "name": "common-lisp",
       "category": "programming_language",
       "count": 20
@@ -22132,11 +22243,6 @@
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 19
-    },
-    {
-      "name": "mathematics",
-      "category": "science",
       "count": 19
     },
     {
@@ -22175,14 +22281,14 @@
       "count": 13
     },
     {
-      "name": "movie",
-      "category": "culture",
+      "name": "haskell",
+      "category": "programming_language",
       "count": 12
     },
     {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 11
+      "name": "movie",
+      "category": "culture",
+      "count": 12
     },
     {
       "name": "psychology",
@@ -22263,7 +22369,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 162
+      "count": 163
     },
     {
       "domain": "www.threads.net",
@@ -22314,6 +22420,10 @@
       "count": 7
     },
     {
+      "domain": "gwern.net",
+      "count": 6
+    },
+    {
       "domain": "mobileapp.bostonglobe.com",
       "count": 6
     },
@@ -22335,10 +22445,6 @@
     },
     {
       "domain": "eli.thegreenplace.net",
-      "count": 5
-    },
-    {
-      "domain": "gwern.net",
       "count": 5
     },
     {
@@ -22543,6 +22649,10 @@
     },
     {
       "domain": "outingsandinnings.harvard.edu",
+      "count": 2
+    },
+    {
+      "domain": "resobscura.substack.com",
       "count": 2
     },
     {
@@ -23158,6 +23268,10 @@
       "count": 1
     },
     {
+      "domain": "comonad.com",
+      "count": 1
+    },
+    {
       "domain": "composerprogrammer.com",
       "count": 1
     },
@@ -23727,6 +23841,10 @@
     },
     {
       "domain": "indieweb.org",
+      "count": 1
+    },
+    {
+      "domain": "inrng.com",
       "count": 1
     },
     {
@@ -24486,10 +24604,6 @@
       "count": 1
     },
     {
-      "domain": "resobscura.substack.com",
-      "count": 1
-    },
-    {
       "domain": "retrogamecoders.com",
       "count": 1
     },
@@ -25046,6 +25160,10 @@
       "count": 1
     },
     {
+      "domain": "www.collegeraptor.com",
+      "count": 1
+    },
+    {
       "domain": "www.combinatorprize.org",
       "count": 1
     },
@@ -25567,6 +25685,10 @@
     },
     {
       "domain": "www3.nhk.or.jp",
+      "count": 1
+    },
+    {
+      "domain": "xenaproject.wordpress.com",
       "count": 1
     },
     {
