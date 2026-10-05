@@ -1,6 +1,120 @@
 {
-  "exported_at": "2026-10-02T10:07:32.486964",
+  "exported_at": "2026-10-05T09:45:23.421586",
   "links": [
+    {
+      "id": 1405,
+      "url": "https://alexalejandre.com/interviews/peter-bex/",
+      "title": null,
+      "description": "Peter Bex on CHICKEN Scheme",
+      "summary": "Peter Bex, a CHICKEN Scheme maintainer and Clojure developer, discusses his journey into programming through languages like BASIC and C, eventually discovering Lisp and Scheme through university coursework, which fundamentally changed his approach to programming. He explains why he chose CHICKEN as his primary Scheme implementation—for its practicality, speed, and strong community—and describes his ongoing contributions to the language's core, focusing on the numerical tower, garbage collection techniques, and FFI implementation. Bex also reflects on Scheme's standardization challenges, noting the tension between maintaining minimalism for experimental implementations and growing the language to meet production needs, while expressing concerns about fragmentation in the Scheme ecosystem and the rapid pace of R7RS development.",
+      "domain": "alexalejandre.com",
+      "source_date": "2026-10-04",
+      "page_title": "Peter Bex on CHICKEN Scheme | Alex Alejandre",
+      "tags": [
+        "scheme",
+        "podcast",
+        "lisp",
+        "clojure"
+      ],
+      "markdown_path": "programming-language/peter-bex-on-chicken-scheme-alex-alejandre-1405.md"
+    },
+    {
+      "id": 1411,
+      "url": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
+      "title": null,
+      "description": "RSS Feed best practices",
+      "summary": "This guide outlines essential technical practices for publishing RSS feeds, emphasizing standardized formats, proper metadata, and security. Key recommendations include using Atom or RSS 2 format with correct content-type headers, ensuring all URLs are absolute, implementing feed discovery through HTML link tags, and always serving feeds over HTTPS. The article also stresses providing full content in feeds, maintaining consistent entry IDs, and properly handling publication and update dates to ensure compatibility across feed readers and search engines.",
+      "domain": "kevincox.ca",
+      "source_date": "2026-10-02",
+      "page_title": "RSS Feed Best Practices - Kevin Cox",
+      "tags": [
+        "tutorial",
+        "web-dev",
+        "security"
+      ],
+      "markdown_path": "technical-topic/rss-feed-best-practices-kevin-cox-1411.md"
+    },
+    {
+      "id": 1410,
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "title": null,
+      "description": "We want you to build the next Git platform on Cloudflare",
+      "summary": "Cloudflare is launching a competition to challenge developers to build the next-generation Git platform designed for AI agents rather than humans, leveraging Cloudflare's new Artifacts versioned filesystem. The platform needs to handle coordination and code review for hundreds or thousands of agents working simultaneously on the same codebase, moving beyond traditional Git concepts built for human collaboration. Cloudflare has released new Artifacts capabilities including Workers integration, event subscriptions, data jurisdiction controls, and metrics, with submissions due by October 14, 2026, offering $25,000 in credits and travel to Cloudflare Connect for top projects.",
+      "domain": "blog.cloudflare.com",
+      "source_date": "2026-10-02",
+      "page_title": "We want you to build the next Git platform on Cloudflare | Cloudflare Blog",
+      "tags": [
+        "github-repo",
+        "ai",
+        "devops",
+        "distributed-systems"
+      ],
+      "markdown_path": "technical-topic/we-want-you-to-build-the-next-git-platform-on-cloudflare-1410.md"
+    },
+    {
+      "id": 1409,
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "title": null,
+      "description": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "summary": "Opus 5.5 is designed to work autonomously on longer, multi-step tasks with minimal oversight, requiring different prompting strategies than previous Claude models. Key recommendations include giving complete task descriptions with clear finish lines, removing \"think carefully\" prompts since Opus 5.5 thinks before every reply, and using CLAUDE.md files to set rules for when the model should continue working versus stop and ask for input. When reviewing results, prioritize checking what the model needs from you first, have it review code for bugs, and ask it to mark anything it couldn't confirm.",
+      "domain": "claude.dev",
+      "source_date": "2026-10-02",
+      "page_title": "Getting the most out of Opus 5.5 in Claude and Claude Code / claude.dev Blog",
+      "tags": [
+        "llm",
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/getting-the-most-out-of-opus-5-5-in-claude-and-claude-code-1409.md"
+    },
+    {
+      "id": 1408,
+      "url": "https://shannadige.com/blog/darkroom/",
+      "title": null,
+      "description": "Automating my 35mm film scanning pipeline",
+      "summary": "The author automated their 35mm film scanning workflow after spending excessive time on manual processing. Initial attempts to fully automate the process using AI failed when it damaged the scanner, so they pivoted to a hybrid approach using existing scanning software combined with custom automation for post-processing tasks like negative conversion, dust removal, metadata tagging, and publishing. The new pipeline significantly reduces processing time while maintaining quality, allowing the author to focus more on photography itself rather than the tedious technical work.",
+      "domain": "shannadige.com",
+      "source_date": "2026-10-02",
+      "page_title": "Automating my 35mm film scanning pipeline",
+      "tags": [
+        "cli-tool",
+        "python",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/automating-my-35mm-film-scanning-pipeline-1408.md"
+    },
+    {
+      "id": 1407,
+      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "title": null,
+      "description": "Loss of cell identity drives human aging",
+      "summary": "Recent research reveals that cellular aging is driven by loss of cell identity rather than just accumulated damage, with cells gradually losing their specialized characteristics through a process called mesenchymal drift. This loss occurs when the epigenetic structures that maintain cell identity—particularly through a protein complex called PRC2—erode over time, causing cells to become unstable and develop into fibroblast-like states that promote scarring and inflammation across multiple age-related diseases. Potential interventions to reverse this process include caloric restriction, partial epigenetic reprogramming using Yamanaka factors to restore cell identity, and compounds like lithium that help maintain cellular boundaries and prevent identity loss.",
+      "domain": "erictopol.substack.com",
+      "source_date": "2026-10-02",
+      "page_title": "Loss of Cell Identity Drives Human Aging - by Eric Topol",
+      "tags": [
+        "biology",
+        "academic-paper",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/loss-of-cell-identity-drives-human-aging-by-eric-topol-1407.md"
+    },
+    {
+      "id": 1406,
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "title": null,
+      "description": "Mike Tomlin's Minecraft city built over 12 years",
+      "summary": "Mike Tomlin's Minecraft city built over 12 years",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-10-02",
+      "page_title": null,
+      "tags": [
+        "gaming",
+        "video",
+        "news"
+      ],
+      "markdown_path": "culture/mike-tomlin-s-minecraft-city-built-over-12-years-1406.md"
+    },
     {
       "id": 1404,
       "url": "https://gwern.net/doc/math/1973-halmos.pdf",
@@ -22108,47 +22222,47 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 413
+      "count": 416
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 345
+      "count": 346
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 290
+      "count": 291
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 280
+      "count": 281
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 256
+      "count": 257
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 227
+      "count": 228
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 227
+      "count": 228
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 217
+      "count": 219
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 140
+      "count": 141
     },
     {
       "name": "music",
@@ -22158,12 +22272,12 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 137
+      "count": 138
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 129
+      "count": 130
     },
     {
       "name": "compilers",
@@ -22173,7 +22287,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 121
+      "count": 122
     },
     {
       "name": "social-media",
@@ -22183,7 +22297,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 67
+      "count": 68
     },
     {
       "name": "database",
@@ -22193,7 +22307,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 50
+      "count": 51
     },
     {
       "name": "physics",
@@ -22203,7 +22317,7 @@
     {
       "name": "biology",
       "category": "science",
-      "count": 41
+      "count": 42
     },
     {
       "name": "c",
@@ -22216,13 +22330,13 @@
       "count": 35
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 34
-    },
-    {
       "name": "lisp",
       "category": "programming_language",
+      "count": 35
+    },
+    {
+      "name": "politics",
+      "category": "culture",
       "count": 34
     },
     {
@@ -22236,19 +22350,19 @@
       "count": 21
     },
     {
+      "name": "scheme",
+      "category": "programming_language",
+      "count": 20
+    },
+    {
       "name": "common-lisp",
       "category": "programming_language",
       "count": 20
     },
     {
-      "name": "scheme",
-      "category": "programming_language",
-      "count": 19
-    },
-    {
       "name": "gaming",
       "category": "culture",
-      "count": 18
+      "count": 19
     },
     {
       "name": "emulator",
@@ -22256,12 +22370,12 @@
       "count": 17
     },
     {
-      "name": "typescript",
+      "name": "clojure",
       "category": "programming_language",
-      "count": 16
+      "count": 17
     },
     {
-      "name": "clojure",
+      "name": "typescript",
       "category": "programming_language",
       "count": 16
     },
@@ -22296,14 +22410,14 @@
       "count": 11
     },
     {
-      "name": "fiction-book",
+      "name": "podcast",
       "category": "culture",
       "count": 10
     },
     {
-      "name": "podcast",
+      "name": "fiction-book",
       "category": "culture",
-      "count": 9
+      "count": 10
     },
     {
       "name": "go",
@@ -22380,11 +22494,11 @@
       "count": 33
     },
     {
-      "domain": "simonwillison.net",
-      "count": 29
+      "domain": "www.nytimes.com",
+      "count": 30
     },
     {
-      "domain": "www.nytimes.com",
+      "domain": "simonwillison.net",
       "count": 29
     },
     {
@@ -22545,6 +22659,10 @@
     },
     {
       "domain": "ben-mini.com",
+      "count": 2
+    },
+    {
+      "domain": "blog.cloudflare.com",
       "count": 2
     },
     {
@@ -22816,6 +22934,10 @@
       "count": 1
     },
     {
+      "domain": "alexalejandre.com",
+      "count": 1
+    },
+    {
       "domain": "aljamal.substack.com",
       "count": 1
     },
@@ -23009,10 +23131,6 @@
     },
     {
       "domain": "blog.canoozie.net",
-      "count": 1
-    },
-    {
-      "domain": "blog.cloudflare.com",
       "count": 1
     },
     {
@@ -23225,6 +23343,10 @@
     },
     {
       "domain": "ckrapu.github.io",
+      "count": 1
+    },
+    {
+      "domain": "claude.dev",
       "count": 1
     },
     {
@@ -23561,6 +23683,10 @@
     },
     {
       "domain": "eric.mann.blog",
+      "count": 1
+    },
+    {
+      "domain": "erictopol.substack.com",
       "count": 1
     },
     {
@@ -23945,6 +24071,10 @@
     },
     {
       "domain": "kepler.gl",
+      "count": 1
+    },
+    {
+      "domain": "kevincox.ca",
       "count": 1
     },
     {
@@ -24665,6 +24795,10 @@
     },
     {
       "domain": "sethmlarson.dev",
+      "count": 1
+    },
+    {
+      "domain": "shannadige.com",
       "count": 1
     },
     {
