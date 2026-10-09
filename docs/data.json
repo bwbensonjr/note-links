@@ -1,6 +1,147 @@
 {
-  "exported_at": "2026-10-05T09:45:23.421586",
+  "exported_at": "2026-10-09T07:45:01.985007",
   "links": [
+    {
+      "id": 1414,
+      "url": "https://github.com/duckdb/ducklake",
+      "title": null,
+      "description": "DuckLake is an integrated data lake and catalog format",
+      "summary": "DuckLake is an open lakehouse format built on SQL and Parquet, where metadata lives in a catalog database and data is stored in Parquet files. The DuckDB DuckLake extension lets users install it with a simple INSTALL command, attach DuckLake databases, and run standard SQL for creating, updating, and querying tables. Key features highlighted include time travel, schema evolution, and a change data feed, along with instructions for building the extension and running its tests.",
+      "domain": "github.com",
+      "source_date": "2026-10-09",
+      "page_title": "GitHub - duckdb/ducklake: DuckLake is an integrated data lake and catalog format · GitHub",
+      "tags": [
+        "github-repo",
+        "database",
+        "sql"
+      ],
+      "markdown_path": "technical-topic/github-duckdb-ducklake-ducklake-is-an-integrated-data-lake-1414.md"
+    },
+    {
+      "id": 1413,
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "title": null,
+      "description": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "summary": "An illustrator-drawn floor plan of the author's house now serves as his Home Assistant dashboard, with animated devices like a flickering fireplace, glowing garden lights, and running air conditioners that the whole family enjoys using. The author describes how he briefed the artist with an architectural plan, reference photos, and a technical spec requesting layered, shared-canvas WebP and PNG files with day and night versions. He then explains how the Home Assistant picture-elements card uses state-based images, conditional day/night layers, and tap actions to bring the illustration to life.",
+      "domain": "antonfrolov.substack.com",
+      "source_date": "2026-10-09",
+      "page_title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard.",
+      "tags": [
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/i-hired-an-illustrator-to-draw-my-house-now-it-s-my-home-1413.md"
+    },
+    {
+      "id": 1412,
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "title": null,
+      "description": "Keyboard differences between Windows and Macs",
+      "summary": "This article is a reference guide to the many differences in keyboard handling between Windows and Macs, which matter especially for web apps that must support both platforms. It covers differing key names (Backspace vs. Delete, Enter vs. Return), modifier keys (Control vs. Command, plus Mac's extra Control and Option keys), symbol versus word legends, shortcut notation, function key usage, and special character input via Option or AltGr. The key takeaway is that developers and users should be careful with assumptions about keys and shortcuts, since platform conventions and even character assignments can vary.",
+      "domain": "unsung.aresluna.org",
+      "source_date": "2026-10-09",
+      "page_title": "Deeper dive: Keyboard differences between Windows and Macs – Unsung",
+      "tags": [
+        "web-dev",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/deeper-dive-keyboard-differences-between-windows-and-macs-1412.md"
+    },
+    {
+      "id": 1418,
+      "url": "https://naturalsystems.io/eth68",
+      "title": null,
+      "description": "An Ethernet audio interface for Linux",
+      "summary": "eth68 is a low-latency Ethernet audio interface for Linux, offering 6 balanced inputs, 8 balanced outputs, 48/96 kHz sample rates, and DIN MIDI, built on an STM32H7 microcontroller that emulates a netJACK master. It achieves 3.620 ms round-trip latency at 48 kHz with a 64-sample buffer, matching an RME card at that rate and beating it at 96 kHz. Multiple units can be synchronized via a shared clock and an eth68proxy application to increase channel count without adding latency.",
+      "domain": "naturalsystems.io",
+      "source_date": "2026-10-08",
+      "page_title": "eth68",
+      "tags": [
+        "music",
+        "distributed-systems",
+        "emulator"
+      ],
+      "markdown_path": "culture/eth68-1418.md"
+    },
+    {
+      "id": 1417,
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "title": null,
+      "description": "DeepSeek 4.1 Flash performs almost as well as the top models and is incredibly cheap",
+      "summary": "The author, who has used DeepSeek 4.1 Flash heavily for a month, argues it performs nearly as well as frontier models like Claude Opus while costing orders of magnitude less, to the point that they often can't tell the difference mid-session. They attribute its efficiency largely to a roughly 437x reduction in KV cache size, which keeps long coding sessions under a dollar and makes cheap, unattended \"good enough\" AI work practical. The post contends the tech industry underrates such models because it equates price with quality, and suggests cache optimizations may eventually make local self-hosting viable for privacy-focused users.",
+      "domain": "www.dgt.is",
+      "source_date": "2026-10-08",
+      "page_title": "Why Isn't The Industry Freaking Out About DeepSeek 4.1 Flash?",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/why-isn-t-the-industry-freaking-out-about-deepseek-4-1-flash-1417.md"
+    },
+    {
+      "id": 1416,
+      "url": "https://arxiv.org/abs/2610.08144",
+      "title": null,
+      "description": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "summary": "The paper argues that verifying AI-generated mathematical proofs by translating them into Lean does not guarantee their correctness, because faithfully resolving ambiguities in natural-language mathematics is computationally harder than the Halting problem. The authors give examples of AI mistranslations, including OpenAI's announced Navier-Stokes blow-up proof, where the formal Lean proof does not match the natural-language argument.",
+      "domain": "arxiv.org",
+      "source_date": "2026-10-08",
+      "page_title": "[2610.08144] Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "tags": [
+        "academic-paper",
+        "mathematics",
+        "ai",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/2610-08144-navier-stokes-lost-in-translation-why-lean-1416.md"
+    },
+    {
+      "id": 1415,
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "title": null,
+      "description": "GPT-6 and intelligent UI",
+      "summary": "GPT-6 and intelligent UI",
+      "domain": "openai.com",
+      "source_date": "2026-10-08",
+      "page_title": null,
+      "tags": [
+        "ai",
+        "llm",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/gpt-6-and-intelligent-ui-1415.md"
+    },
+    {
+      "id": 1420,
+      "url": "https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/",
+      "title": null,
+      "description": "The future of mathematics",
+      "summary": "The page text didn't come through, so I can't summarize its arguments yet. From the metadata, it appears to be an opinion piece by Terence Tao titled \"The Future of Mathematics,\" posted as a guest blog. If you paste the article text here, I'll write the 2-3 sentence summary.",
+      "domain": "terrytao.wordpress.com",
+      "source_date": "2026-10-05",
+      "page_title": "The Future of Mathematics | What's new",
+      "tags": [
+        "mathematics",
+        "ai"
+      ],
+      "markdown_path": "science/the-future-of-mathematics-what-s-new-1420.md"
+    },
+    {
+      "id": 1419,
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "title": null,
+      "description": "Making a GTK application in Haskell, part 1",
+      "summary": "This tutorial, the first part of a series, shows how to build a todo-list app in Haskell using GTK 4 and the Adwaita library, with haskell-gi providing the bindings. It walks through creating a basic Adwaita window and structuring the app with the Elm Architecture (Model, View, Update, and Effects), modeling todos and messages as plain data types. The author demonstrates the pure update logic in GHCi, showing how actions like adding a task or marking it done produce save effects.",
+      "domain": "floreal.tech",
+      "source_date": "2026-10-05",
+      "page_title": "Making a GTK application in Haskell, part 1 — Floréal Technologies",
+      "tags": [
+        "haskell",
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "programming-language/making-a-gtk-application-in-haskell-part-1-flor-al-1419.md"
+    },
     {
       "id": 1405,
       "url": "https://alexalejandre.com/interviews/peter-bex/",
@@ -22222,27 +22363,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 416
+      "count": 419
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 346
+      "count": 350
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 291
+      "count": 292
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 281
+      "count": 282
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 257
+      "count": 260
     },
     {
       "name": "cli-tool",
@@ -22257,7 +22398,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 219
+      "count": 223
     },
     {
       "name": "python",
@@ -22267,7 +22408,7 @@
     {
       "name": "music",
       "category": "culture",
-      "count": 139
+      "count": 140
     },
     {
       "name": "devops",
@@ -22302,12 +22443,12 @@
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 66
+      "count": 67
     },
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 51
+      "count": 52
     },
     {
       "name": "physics",
@@ -22347,7 +22488,7 @@
     {
       "name": "mathematics",
       "category": "science",
-      "count": 21
+      "count": 23
     },
     {
       "name": "scheme",
@@ -22367,7 +22508,7 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 17
+      "count": 18
     },
     {
       "name": "clojure",
@@ -22390,14 +22531,14 @@
       "count": 14
     },
     {
-      "name": "astronomy",
-      "category": "science",
+      "name": "haskell",
+      "category": "programming_language",
       "count": 13
     },
     {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 12
+      "name": "astronomy",
+      "category": "science",
+      "count": 13
     },
     {
       "name": "movie",
@@ -22432,7 +22573,7 @@
     {
       "name": "sql",
       "category": "programming_language",
-      "count": 7
+      "count": 8
     },
     {
       "name": "ruby",
@@ -22483,7 +22624,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 163
+      "count": 164
     },
     {
       "domain": "www.threads.net",
@@ -22503,7 +22644,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 19
+      "count": 20
     },
     {
       "domain": "www.threads.com",
@@ -22611,6 +22752,10 @@
     },
     {
       "domain": "medium.com",
+      "count": 3
+    },
+    {
+      "domain": "openai.com",
       "count": 3
     },
     {
@@ -22762,10 +22907,6 @@
       "count": 2
     },
     {
-      "domain": "openai.com",
-      "count": 2
-    },
-    {
       "domain": "outingsandinnings.harvard.edu",
       "count": 2
     },
@@ -22787,6 +22928,10 @@
     },
     {
       "domain": "til.simonwillison.net",
+      "count": 2
+    },
+    {
+      "domain": "unsung.aresluna.org",
       "count": 2
     },
     {
@@ -22967,6 +23112,10 @@
     },
     {
       "domain": "antirez.com",
+      "count": 1
+    },
+    {
+      "domain": "antonfrolov.substack.com",
       "count": 1
     },
     {
@@ -23750,6 +23899,10 @@
       "count": 1
     },
     {
+      "domain": "floreal.tech",
+      "count": 1
+    },
+    {
       "domain": "florian-kraemer.net",
       "count": 1
     },
@@ -24370,6 +24523,10 @@
       "count": 1
     },
     {
+      "domain": "naturalsystems.io",
+      "count": 1
+    },
+    {
       "domain": "ndlsearch.ndl.go.jp",
       "count": 1
     },
@@ -24982,6 +25139,10 @@
       "count": 1
     },
     {
+      "domain": "terrytao.wordpress.com",
+      "count": 1
+    },
+    {
       "domain": "text.marvinborner.de",
       "count": 1
     },
@@ -25063,10 +25224,6 @@
     },
     {
       "domain": "unreallabs.ai",
-      "count": 1
-    },
-    {
-      "domain": "unsung.aresluna.org",
       "count": 1
     },
     {
@@ -25339,6 +25496,10 @@
     },
     {
       "domain": "www.davidtinapple.com",
+      "count": 1
+    },
+    {
+      "domain": "www.dgt.is",
       "count": 1
     },
     {
