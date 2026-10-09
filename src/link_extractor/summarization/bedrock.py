@@ -14,9 +14,9 @@ class BedrockSummarizer(BaseSummarizer):
 
     def __init__(
         self,
-        model_id: str = "anthropic.claude-3-5-sonnet-20241022-v2:0",
+        model_id: str = "global.anthropic.claude-haiku-5-5",
         region: str = "us-east-1",
-        max_tokens: int = 300,
+        max_tokens: int = 2000,
     ):
         self.model_id = model_id
         self.region = region
@@ -94,5 +94,7 @@ Summary:"""
         )
 
         response_body = json.loads(response["body"].read())
-        raw_text = response_body["content"][0]["text"].strip()
+        raw_text = "".join(
+            block["text"] for block in response_body["content"] if block["type"] == "text"
+        ).strip()
         return self._clean_summary(raw_text)

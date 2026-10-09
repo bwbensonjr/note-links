@@ -66,7 +66,8 @@ Chose SQLite over JSON files for:
 ### Summarization: AWS Bedrock
 
 Uses Bedrock rather than direct Anthropic API because the user's existing setup uses Bedrock for Claude Code. Key implementation details:
-- Uses cross-region inference profiles (`us.anthropic.claude-3-5-sonnet-20241022-v2:0`)
+- One model for summarization, tagging, and `tag-audit`, set by `bedrock_model` in `config.yaml` (currently Claude Haiku 5.5 via the global cross-region inference profile `global.anthropic.claude-haiku-5-5`). The code defaults in `config.py`, `bedrock.py`, and `llm_tagger.py` match it.
+- Haiku 5.5 may think before answering, so responses can start with a `thinking` block. Callers join the `text` blocks rather than reading `content[0]`, and `max_tokens` (2000 for summaries/tags, 4000 for `tag-audit`) leaves headroom because thinking counts against it.
 - Boto3's sync API wrapped in `run_in_executor` for async compatibility
 - Content truncated to 8000 chars to stay within context limits
 

@@ -58,7 +58,7 @@ Other settings can be configured in `config.yaml`:
 database_path: ./links.db
 rate_limit_per_second: 1.0
 fetch_timeout_seconds: 30
-bedrock_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+bedrock_model: global.anthropic.claude-haiku-5-5
 bedrock_region: us-east-1
 batch_size: 50
 ```

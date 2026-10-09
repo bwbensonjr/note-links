@@ -30,9 +30,9 @@ class LLMTagger:
 
     def __init__(
         self,
-        model_id: str = "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
+        model_id: str = "global.anthropic.claude-haiku-5-5",
         region: str = "us-east-1",
-        max_tokens: int = 500,
+        max_tokens: int = 2000,
     ):
         self.model_id = model_id
         self.region = region
@@ -125,7 +125,9 @@ JSON response:"""
         )
 
         response_body = json.loads(response["body"].read())
-        return response_body["content"][0]["text"].strip()
+        return "".join(
+            block["text"] for block in response_body["content"] if block["type"] == "text"
+        ).strip()
 
     def _parse_response(
         self, response: str

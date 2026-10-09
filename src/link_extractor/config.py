@@ -20,7 +20,7 @@ class Config:
     rate_limit_per_second: float = 1.0
     fetch_timeout_seconds: int = 30
     max_content_length: int = 1_000_000
-    bedrock_model: str = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+    bedrock_model: str = "global.anthropic.claude-haiku-5-5"
     bedrock_region: str = "us-east-1"
     skip_existing: bool = True
     batch_size: int = 50
@@ -61,7 +61,7 @@ class Config:
             fetch_timeout_seconds=data.get("fetch_timeout_seconds", 30),
             max_content_length=data.get("max_content_length", 1_000_000),
             bedrock_model=data.get(
-                "bedrock_model", "anthropic.claude-3-5-sonnet-20241022-v2:0"
+                "bedrock_model", "global.anthropic.claude-haiku-5-5"
             ),
             bedrock_region=data.get("bedrock_region", "us-east-1"),
             skip_existing=data.get("skip_existing", True),

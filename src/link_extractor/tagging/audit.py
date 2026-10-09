@@ -138,7 +138,7 @@ JSON response:"""
     client = boto3.client("bedrock-runtime", region_name=region)
     body = json.dumps({
         "anthropic_version": "bedrock-2023-05-31",
-        "max_tokens": 1500,
+        "max_tokens": 4000,
         "messages": [{"role": "user", "content": prompt}],
     })
 
@@ -150,7 +150,9 @@ JSON response:"""
     )
 
     response_body = json.loads(response["body"].read())
-    text = response_body["content"][0]["text"].strip()
+    text = "".join(
+        block["text"] for block in response_body["content"] if block["type"] == "text"
+    ).strip()
 
     # Handle markdown code blocks
     if text.startswith("```"):
