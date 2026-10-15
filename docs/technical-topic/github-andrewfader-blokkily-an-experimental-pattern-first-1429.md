@@ -1,0 +1,167 @@
+---
+id: 1429
+url: https://github.com/andrewfader/blokkily
+title: 'GitHub - andrewfader/blokkily: An experimental pattern-first DAW · GitHub'
+domain: github.com
+source_date: '2026-10-12'
+tags:
+- github-repo
+- music
+- ai
+summary: Blokkily is an experimental pattern-first digital audio workstation where
+  the same pattern can be edited in a tracker, piano roll, or step grid and arranged
+  across multiple tracks. It supports CLAP, VST3, and SoundFont instruments, offers
+  an MCP bridge so AI agents can control the app, and provides cross-platform downloads
+  for Linux, Windows, and macOS. Because it is still experimental, it has known limitations
+  such as no comping, no MIDI clock input, and a GPL-licensed dependency for clip
+  warping.
+fetch_status: success
+summarizer_model: global.anthropic.claude-haiku-5-5
+---
+
+# GitHub - andrewfader/blokkily: An experimental pattern-first DAW · GitHub
+
+Blokkily
+========
+
+Blokkily is an experimental pattern-based DAW. You can edit the same pattern in
+a tracker, piano roll or step grid, then arrange patterns across multiple
+tracks. It supports CLAP and VST3 plugins, SoundFont instruments and built-in
+samplers. CLAP support is required in every build.
+
+**[Watch a short video](https://www.youtube.com/watch?v=_mbjwN5OBEg)** (with
+sound) of an agent building a funky chiptune in Blokkily over
+[MCP](/andrewfader/blokkily/blob/main/docs/mcp.md), using the [YANES](https://github.com/andrewfader/yanes) and
+[FUZZBOI](https://github.com/andrewfader/fuzzboi) CLAP synths.
+
+[![Blokkily workstation showing an arrangement, synchronized editors, sampler, plugin browser and mixer](/andrewfader/blokkily/raw/main/docs/images/blokkily-session.png)](/andrewfader/blokkily/blob/main/docs/images/blokkily-session.png)
+
+The screenshot comes from the `bdd_session_everything` verification session.
+It shows an eight-track arrangement with a tempo ramp and warped and recorded
+audio clips, the step grid, tracker and piano roll, the sampler, the plugin
+browser and the mixer, with the composition assistant's prompt bar above the
+editors.
+
+Download
+--------
+
+Each [release](https://github.com/andrewfader/blokkily/releases/latest)
+carries packages built and tested by CI:
+
+* **Linux:** `blokkily-<version>-Linux.tar.gz` (or `.tar.xz`), built on Arch
+  Linux. It expects Qt 6, FluidSynth, RtAudio, RtMidi, libsndfile,
+  libsamplerate and Rubber Band from the system.
+* **Windows:** `blokkily-<version>-Windows-x64-setup.exe`, an installer with a
+  Start-menu entry and an uninstaller, or `blokkily-<version>-Windows-x64.zip`
+  to unzip anywhere and run `bin\blokkily.exe`.
+* **macOS:** `blokkily-<version>-macOS-arm64.dmg` for Apple Silicon, or
+  `blokkily-<version>-macOS-x86_64.dmg` for Intel Macs, each a self-contained
+  `Blokkily.app`. It is signed ad hoc, not notarized, so macOS blocks the first
+  launch. Either Control-click the app and choose Open, or run
+  `xattr -dr com.apple.quarantine /Applications/Blokkily.app`.
+
+`SHA256SUMS` lists every package's checksum.
+
+Plugin editors work in every package. CI opens the suite's test CLAP and VST3
+editors, and the editors of a real third-party synth (Dexed), in a real window
+on macOS and Windows and reads their pixels back. Retina and high-DPI scaling
+have not been checked there yet.
+
+Build and run
+-------------
+
+You need CMake 3.25+, Qt 6.5+, plus FluidSynth, RtAudio, RtMidi, libsndfile,
+libsamplerate and Rubber Band 4 (found through pkg-config). JUCE and the CLAP
+headers are vendored under `third_party/`, so clone with `--recursive`.
+
+The verification tests need a SoundFont. CMake looks for `basic.sf2`,
+`TimGM6mb.sf2` or `FluidR3_GM.sf2` in `/usr/share/fweelin`,
+`/usr/share/sounds/sf2` and `/usr/share/soundfonts`; otherwise pass
+`-DBLOKKILY_TEST_SF2=/path/to/bank.sf2`.
+
+```
+cmake -S . -B build -G Ninja
+cmake --build build
+ctest --test-dir build --output-on-failure
+./build/blokkily
+```
+
+`./build/blokkily_cli` runs the headless scheduler demo.
+
+Linux is the primary platform. macOS builds with Homebrew's Qt and libraries,
+and Windows builds with MSVC, vcpkg and the official Qt binaries. The CI
+workflows in `.github/workflows/` (`platforms.yml` and `release.yml`) show the
+exact commands for each.
+
+Clip warping links the Rubber Band Library, licensed under the GPL (version 2
+or later) unless you buy a commercial licence from its authors. A Blokkily
+binary built with it is therefore subject to the GPL.
+
+IBM Plex Sans and JetBrains Mono are bundled in `resources/fonts/` under the
+SIL Open Font License 1.1, with licence texts beside them. Bundling the fonts
+keeps the layout consistent across desktops.
+
+What you can do
+---------------
+
+* Edit notes and chords in any of the three synchronized editors. Patterns
+  support inversions, strum, microtiming, probability, ratchets, loop conditions
+  and parameter locks. Edits are heard during playback without stopping it.
+* Arrange named patterns and audio clips on a multi-track timeline, with tempo
+  steps, ramps and meter changes. The scene launcher lets you perform patterns
+  live and record the performance into the arrangement.
+* Play and record with a MIDI controller or the on-screen piano, isomorphic
+  grids, fretboards and chord pads. Tunings and scales include microtonal
+  options. A session with no instruments uses an installed SoundFont by
+  default, preferring a General MIDI bank when available.
+* Load CLAP, VST3 and SoundFont instruments, or use the keyed and drum samplers.
+  CLAP and VST3 plugins open their own editors, embedded in a Blokkily window
+  on Linux, macOS and Windows.
+* Mix with inserts (including the built-in EQ, delay, reverb and compressor),
+  sends, returns, sidechains, auxiliary outputs, automation and modulation.
+  Plugin latency is compensated in playback and export.
+* Warp audio clips to follow the tempo, or stretch and pitch-shift them.
+* Play hardware synths and drum machines from a track through a MIDI output,
+  and send them MIDI clock.
+* Record audio and MIDI (including MPE and poly pressure), with a metronome and
+  count-in. Resample a bus or bounce stems. Export the arrangement
+  as 16-bit, 24-bit or 32-bit float WAVE through the same engine used for
+  playback. Import and export Standard MIDI Files for note exchange.
+* Save named versions of the song and restore any of them in one undo step,
+  and keep notes with it, in the VERSIONS and NOTES tabs.
+* Press F1 or HELP for a guided tour of the window. CLEAR empties the session
+  in one undo step.
+* Ask the LLM composition assistant for a phrase. Review its proposal before
+  applying it; each generation is one undo step. An MCP bridge also lets agents
+  control the running application.
+
+See the [usage guide](/andrewfader/blokkily/blob/main/docs/usage.md) for controls, keyboard shortcuts and
+recording workflows.
+
+Current limitations
+-------------------
+
+Blokkily is experimental. Comping and MIDI clock input are not implemented. MPE
+support varies by instrument format, and per-note expression has no editor.
+Large unwarped audio clips can stream from disk; warped clips and sampler
+samples still load into memory. On Linux, plugin editor windows need X11, or
+Wayland with XWayland or a CLAP plugin's own Wayland support. Export always
+renders the arrangement, so record a launcher performance into it before
+exporting.
+
+The [limitations reference](/andrewfader/blokkily/blob/main/docs/limitations.md) covers these restrictions and
+others, including sidechains, modulation timing, sampler editing and stems.
+
+Documentation and development
+-----------------------------
+
+* [Usage guide](/andrewfader/blokkily/blob/main/docs/usage.md): editing, arranging, recording, mixing and shortcuts.
+* [Architecture](/andrewfader/blokkily/blob/main/docs/architecture.md): the shared model, scheduler, plugin
+  adapters and coverage commands.
+* [Agent control through MCP](/andrewfader/blokkily/blob/main/docs/mcp.md): setup, tools and environment variables.
+* [LLM composition assistant](/andrewfader/blokkily/blob/main/docs/llm-assistant.md): backends and reply format.
+* [Verification](/andrewfader/blokkily/blob/main/docs/verification.md): repeatable BDD, integration, end-to-end
+  and screenshot checks.
+
+Behaviour specifications live in `features/`. Repository-wide completion rules
+are in [AGENTS.md](/andrewfader/blokkily/blob/main/AGENTS.md).

@@ -1,6 +1,159 @@
 {
-  "exported_at": "2026-10-09T07:45:01.985007",
+  "exported_at": "2026-10-15T07:11:26.011692",
   "links": [
+    {
+      "id": 1422,
+      "url": "https://uji.sh/ito/",
+      "title": null,
+      "description": "Ito - Build Terminal UIs (TUIs) in Lua",
+      "summary": "This page is an interactive workshop for building terminal user interfaces (TUIs) in Lua, with a code editor and live preview where edits update the output as you type. It walks through examples like input flow, a counter, a daily list, preferences, and a small shop, and explains core concepts such as using require(\"ito\") to return a view function, ito.state for changing values, and layout and styling modifiers like :spacing(), :padding(), and :bold(). A reference guide (ito.md) is also provided that can be shared with an LLM.",
+      "domain": "uji.sh",
+      "source_date": "2026-10-15",
+      "page_title": "ito playground · uji",
+      "tags": [
+        "tutorial",
+        "cli-tool",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/ito-playground-uji-1422.md"
+    },
+    {
+      "id": 1421,
+      "url": "https://news.ycombinator.com/item?id=50067325",
+      "title": null,
+      "description": "CAD for woodworking with LLM support",
+      "summary": "A hobbyist woodworker asks Hacker News whether AI and LLMs can speed up designing wood projects in 3D CAD, and commenters suggest tools ranging from general workflows like FreeCAD with AI models to purpose-built options such as ShopSpec, which generates parts, joints, and cut lists for furniture and exports to DXF or SketchUp. The thread also includes a discussion on whether detailed plans are necessary in woodworking or whether letting the wood guide the build is preferable, with the original poster noting that sketching and visualization help define an idea before work begins.",
+      "domain": "news.ycombinator.com",
+      "source_date": "2026-10-15",
+      "page_title": "Ask HN: CAD for wood working with LLM support? | Hacker News",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/ask-hn-cad-for-wood-working-with-llm-support-hacker-news-1421.md"
+    },
+    {
+      "id": 1423,
+      "url": "https://music.xy.dev/",
+      "title": null,
+      "description": "XY Music",
+      "summary": "XY Music appears to be a web-based sheet music viewer and player that displays scores and plays them back with adjustable speed, volume, and an internal piano sound. It also supports optional external MIDI devices and a PDF download of the original score. The page content hadn't finished loading, so no specific pieces or further details were visible.",
+      "domain": "music.xy.dev",
+      "source_date": "2026-10-14",
+      "page_title": "XY Music",
+      "tags": [
+        "music",
+        "web-dev"
+      ],
+      "markdown_path": "culture/xy-music-1423.md"
+    },
+    {
+      "id": 1427,
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "title": null,
+      "description": "Redesigning source code control at Anthropic",
+      "summary": "Anthropic's engineering team describes how Claude's ability to write code has shifted the bottleneck from coding to developer infrastructure, with source control, builds, and CI now struggling under the load of roughly 30,000 merged changes per day. To address this, they built Scion, an in-house version control system designed for always-online agents rather than git's offline, decentralized model, and migrated their monorepo from git in five months. The post explains the principles behind Scion, including client-server asymmetry, horizontal scalability, lock-free commits, and sparse, optional checkouts, as a case study other organizations may soon need as AI coding tools spread.",
+      "domain": "www.anthropic.com",
+      "source_date": "2026-10-13",
+      "page_title": "Redesigning source control at Anthropic \\ Anthropic",
+      "tags": [
+        "devops",
+        "ai",
+        "llm",
+        "distributed-systems"
+      ],
+      "markdown_path": "technical-topic/redesigning-source-control-at-anthropic-anthropic-1427.md"
+    },
+    {
+      "id": 1426,
+      "url": "https://en.wikipedia.org/wiki/Man_on_the_Run_(2025_film",
+      "title": null,
+      "description": "Paul McCartney documentary - *Man on the Run*",
+      "summary": "Paul McCartney documentary - *Man on the Run*",
+      "domain": "en.wikipedia.org",
+      "source_date": "2026-10-13",
+      "page_title": null,
+      "tags": [
+        "movie",
+        "music",
+        "video"
+      ],
+      "markdown_path": "culture/paul-mccartney-documentary-man-on-the-run-1426.md"
+    },
+    {
+      "id": 1425,
+      "url": "https://www.youtube.com/playlist?list=PLac8FQVpsRAU",
+      "title": null,
+      "description": "RacketCon videos",
+      "summary": "This appears to be a YouTube playlist of videos from the sixteenth RacketCon, a 2026 event, likely related to the Racket programming language community. The captured page contains only YouTube's footer links and copyright notice, so it doesn't reveal the specific talks or key takeaways.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-10-13",
+      "page_title": "(sixteenth RacketCon) 2026 - YouTube",
+      "tags": [
+        "video",
+        "lisp",
+        "scheme"
+      ],
+      "markdown_path": "culture/sixteenth-racketcon-2026-youtube-1425.md"
+    },
+    {
+      "id": 1424,
+      "url": "https://www.nytimes.com/wirecutter/out/affiliate/v1/Amazon/7543/235487/4/callout/df58df0c5e854cbb89084d815f0f169a/8",
+      "title": null,
+      "description": "Nordic Ware Naturals half sheet pan",
+      "summary": "This appears to be a Wirecutter affiliate link that redirects to Amazon, and the captured page contains only a \"continue shopping\" button and Amazon's footer links and copyright notice. Based on your note, it likely points to the Nordic Ware Naturals half sheet pan, but the page itself includes no product details, reviews, or pricing.",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-10-13",
+      "page_title": "Amazon.com",
+      "tags": [],
+      "markdown_path": "uncategorized/amazon-com-1424.md"
+    },
+    {
+      "id": 1429,
+      "url": "https://github.com/andrewfader/blokkily",
+      "title": null,
+      "description": "Blokkily is an experimental pattern-first DAW and an MCP",
+      "summary": "Blokkily is an experimental pattern-first digital audio workstation where the same pattern can be edited in a tracker, piano roll, or step grid and arranged across multiple tracks. It supports CLAP, VST3, and SoundFont instruments, offers an MCP bridge so AI agents can control the app, and provides cross-platform downloads for Linux, Windows, and macOS. Because it is still experimental, it has known limitations such as no comping, no MIDI clock input, and a GPL-licensed dependency for clip warping.",
+      "domain": "github.com",
+      "source_date": "2026-10-12",
+      "page_title": "GitHub - andrewfader/blokkily: An experimental pattern-first DAW · GitHub",
+      "tags": [
+        "github-repo",
+        "music",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/github-andrewfader-blokkily-an-experimental-pattern-first-1429.md"
+    },
+    {
+      "id": 1428,
+      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+      "title": null,
+      "description": "Calculus with Julia",
+      "summary": "These notes teach calculus through the Julia programming language, emphasizing the graphical and numerical perspectives, with some algebraic and symbolic treatment added on. They take a \"rule of four\" approach and use a small set of computational actions of the form action(function, arguments...) to tackle introductory calculus problems. The notes are presented as a Quarto book, come with a companion Julia package (CalculusWithJulia), and include try-it-yourself questions at the end of each page.",
+      "domain": "jverzani.github.io",
+      "source_date": "2026-10-12",
+      "page_title": "Calculus with Julia",
+      "tags": [
+        "mathematics",
+        "tutorial"
+      ],
+      "markdown_path": "science/calculus-with-julia-1428.md"
+    },
+    {
+      "id": 1430,
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "title": null,
+      "description": "Terence Tao: Math 2.0",
+      "summary": "Terence Tao argues that AI is transforming mathematics from \"Math 1.0,\" an era defined by proof scarcity, into \"Math 2.0,\" an era of proof abundance, because proofs are objectively verifiable, digitizable, and well suited to machine learning. He cautions that AI capabilities are uneven and that press coverage overstates success, so the field should expand its research frontier while de-emphasizing problem-solving as an end in itself. Open problems serve as \"lighthouses\" that generate valuable understanding, and solving them prematurely with automated tools risks sterilizing the surrounding field and harming its long-term health.",
+      "domain": "teorth.github.io",
+      "source_date": "2026-10-11",
+      "page_title": "Math 2.0",
+      "tags": [
+        "mathematics",
+        "ai"
+      ],
+      "markdown_path": "science/math-2-0-1430.md"
+    },
     {
       "id": 1414,
       "url": "https://github.com/duckdb/ducklake",
@@ -22363,17 +22516,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 419
+      "count": 421
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 350
+      "count": 354
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 292
+      "count": 293
     },
     {
       "name": "academic-paper",
@@ -22383,22 +22536,27 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 260
-    },
-    {
-      "name": "cli-tool",
-      "category": "technical_topic",
-      "count": 228
+      "count": 263
     },
     {
       "name": "video",
       "category": "culture",
-      "count": 228
+      "count": 230
+    },
+    {
+      "name": "cli-tool",
+      "category": "technical_topic",
+      "count": 229
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 223
+      "count": 224
+    },
+    {
+      "name": "music",
+      "category": "culture",
+      "count": 143
     },
     {
       "name": "python",
@@ -22406,14 +22564,9 @@
       "count": 141
     },
     {
-      "name": "music",
-      "category": "culture",
-      "count": 140
-    },
-    {
       "name": "devops",
       "category": "technical_topic",
-      "count": 138
+      "count": 139
     },
     {
       "name": "news",
@@ -22448,7 +22601,7 @@
     {
       "name": "distributed-systems",
       "category": "technical_topic",
-      "count": 52
+      "count": 53
     },
     {
       "name": "physics",
@@ -22466,12 +22619,12 @@
       "count": 36
     },
     {
-      "name": "rust",
+      "name": "lisp",
       "category": "programming_language",
-      "count": 35
+      "count": 36
     },
     {
-      "name": "lisp",
+      "name": "rust",
       "category": "programming_language",
       "count": 35
     },
@@ -22488,12 +22641,12 @@
     {
       "name": "mathematics",
       "category": "science",
-      "count": 23
+      "count": 25
     },
     {
       "name": "scheme",
       "category": "programming_language",
-      "count": 20
+      "count": 21
     },
     {
       "name": "common-lisp",
@@ -22536,14 +22689,14 @@
       "count": 13
     },
     {
-      "name": "astronomy",
-      "category": "science",
+      "name": "movie",
+      "category": "culture",
       "count": 13
     },
     {
-      "name": "movie",
-      "category": "culture",
-      "count": 12
+      "name": "astronomy",
+      "category": "science",
+      "count": 13
     },
     {
       "name": "psychology",
@@ -22624,7 +22777,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 164
+      "count": 165
     },
     {
       "domain": "www.threads.net",
@@ -22632,11 +22785,11 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 33
+      "count": 34
     },
     {
       "domain": "www.nytimes.com",
-      "count": 30
+      "count": 31
     },
     {
       "domain": "simonwillison.net",
@@ -22659,16 +22812,20 @@
       "count": 11
     },
     {
+      "domain": "news.ycombinator.com",
+      "count": 10
+    },
+    {
       "domain": "bsky.app",
       "count": 9
     },
     {
-      "domain": "news.ycombinator.com",
+      "domain": "en.wikipedia.org",
       "count": 9
     },
     {
-      "domain": "en.wikipedia.org",
-      "count": 8
+      "domain": "www.anthropic.com",
+      "count": 7
     },
     {
       "domain": "youtu.be",
@@ -22680,10 +22837,6 @@
     },
     {
       "domain": "mobileapp.bostonglobe.com",
-      "count": 6
-    },
-    {
-      "domain": "www.anthropic.com",
       "count": 6
     },
     {
@@ -24203,6 +24356,10 @@
       "count": 1
     },
     {
+      "domain": "jverzani.github.io",
+      "count": 1
+    },
+    {
       "domain": "jyn.dev",
       "count": 1
     },
@@ -24504,6 +24661,10 @@
     },
     {
       "domain": "muddy.jprs.me",
+      "count": 1
+    },
+    {
+      "domain": "music.xy.dev",
       "count": 1
     },
     {
@@ -25135,6 +25296,10 @@
       "count": 1
     },
     {
+      "domain": "teorth.github.io",
+      "count": 1
+    },
+    {
       "domain": "terathon.com",
       "count": 1
     },
@@ -25220,6 +25385,10 @@
     },
     {
       "domain": "typesafe.ai",
+      "count": 1
+    },
+    {
+      "domain": "uji.sh",
       "count": 1
     },
     {
