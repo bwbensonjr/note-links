@@ -1,6 +1,70 @@
 {
-  "exported_at": "2026-10-15T07:11:26.011692",
+  "exported_at": "2026-10-21T09:12:04.674405",
   "links": [
+    {
+      "id": 1431,
+      "url": "https://www.nybooks.com/articles/2026/11/05/the-dream-of-ai-primacy/",
+      "title": null,
+      "description": "The dream of AI primacy",
+      "summary": "The article argues that a faction of American AI leaders, including figures like Anthropic's Dario Amodei and investor Leopold Aschenbrenner, dreams of \"recursive advantage,\" where AI would let the United States pull permanently ahead of China and secure lasting global primacy. The author contends this vision is strategically imprecise and dangerous, since it rationalizes accepting mounting risks, overlooks how easily technology diffuses (especially through cheap open-weight Chinese models), and assumes a responsible America that the current Trump administration has not shown itself to be. A lead in AI has real benefits, but the author argues it does not require an absolute and permanent monopoly.",
+      "domain": "www.nybooks.com",
+      "source_date": "2026-10-21",
+      "page_title": "The Dream of AI Primacy | Julian Gewirtz | The New York Review of Books",
+      "tags": [
+        "ai",
+        "politics",
+        "news"
+      ],
+      "markdown_path": "technical-topic/the-dream-of-ai-primacy-julian-gewirtz-the-new-york-review-1431.md"
+    },
+    {
+      "id": 1432,
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "title": null,
+      "description": "Introducing tsrs: A port of TypeScript to Rust",
+      "summary": "Cloudflare and VoidZero, working with Max Schwenk and in close collaboration with the TypeScript team, are incubating tsrs, a Rust port of the TypeScript compiler that is not a fork and leaves language design under the TypeScript team's control. Early benchmarks show tsrs up to 8x faster and using about 70% less memory than TypeScript 7.0, and the project aims to keep pace with upstream using agent-driven syncing similar to their Vinext workflow. Rust's memory model also makes it better suited than Go for WebAssembly, enabling development toolchains to run in browsers, embedded devices, and sandboxed Cloudflare environments.",
+      "domain": "blog.cloudflare.com",
+      "source_date": "2026-10-20",
+      "page_title": "Introducing tsrs: a Port of TypeScript to Rust | Cloudflare Blog",
+      "tags": [
+        "rust",
+        "typescript",
+        "compilers",
+        "devops"
+      ],
+      "markdown_path": "programming-language/introducing-tsrs-a-port-of-typescript-to-rust-cloudflare-1432.md"
+    },
+    {
+      "id": 1433,
+      "url": "https://arxiv.org/abs/2610.18861",
+      "title": null,
+      "description": "Hybrid reasoning agents that work in latent space with a bridge to text interaction",
+      "summary": "The paper introduces Hybrid Reasoning Agents (HybridAgents), which dynamically switch between latent-space reasoning and text-based interaction within a unified generation process, using a lightweight HybridLink module and a continuous working memory to keep context lossless across turns. The authors train the system with HybridSFT and HybridRL post-training methods, which teach the model to coordinate with HybridLink and to decide when to think latently versus act through text. Across 11 benchmarks at three model scales, HybridAgents reportedly improves performance by 10.4% over frontier LLM agents while cutting token usage by 35.5%-54.7%, speeding inference 1.8x-2.6x, and lowering cost 2.7x-3.7x.",
+      "domain": "arxiv.org",
+      "source_date": "2026-10-19",
+      "page_title": "[2610.18861] Hybrid Reasoning Agents",
+      "tags": [
+        "llm",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/2610-18861-hybrid-reasoning-agents-1433.md"
+    },
+    {
+      "id": 1434,
+      "url": "https://pele.run/",
+      "title": null,
+      "description": "Pele - render Mermaid diagrams as SVG with styling CSS",
+      "summary": "Pele is a lightweight, open source JavaScript library that renders Mermaid diagram syntax into SVG, with colors and fonts themed through CSS variables that apply without re-rendering. Compared to Mermaid.js, it has a much smaller bundle (about 230 kB gzipped versus 1.6 MB), faster render times (0.05–0.3 ms), and zero direct dependencies. It is installable via npm, pnpm, yarn, or bun, and you call its render() function and insert the returned SVG into your page.",
+      "domain": "pele.run",
+      "source_date": "2026-10-17",
+      "page_title": "Pele · Mermaid diagrams as themeable SVG",
+      "tags": [
+        "javascript",
+        "web-dev"
+      ],
+      "markdown_path": "programming-language/pele-mermaid-diagrams-as-themeable-svg-1434.md"
+    },
     {
       "id": 1422,
       "url": "https://uji.sh/ito/",
@@ -105,8 +169,10 @@
       "domain": "www.nytimes.com",
       "source_date": "2026-10-13",
       "page_title": "Amazon.com",
-      "tags": [],
-      "markdown_path": "uncategorized/amazon-com-1424.md"
+      "tags": [
+        "recipe"
+      ],
+      "markdown_path": "culture/amazon-com-1424.md"
     },
     {
       "id": 1429,
@@ -22521,7 +22587,7 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 354
+      "count": 356
     },
     {
       "name": "github-repo",
@@ -22531,12 +22597,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 282
+      "count": 283
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 263
+      "count": 264
     },
     {
       "name": "video",
@@ -22551,7 +22617,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 224
+      "count": 225
     },
     {
       "name": "music",
@@ -22566,17 +22632,17 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 139
+      "count": 140
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 130
+      "count": 131
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 124
+      "count": 125
     },
     {
       "name": "nonfiction-book",
@@ -22614,6 +22680,11 @@
       "count": 42
     },
     {
+      "name": "rust",
+      "category": "programming_language",
+      "count": 36
+    },
+    {
       "name": "c",
       "category": "programming_language",
       "count": 36
@@ -22624,19 +22695,14 @@
       "count": 36
     },
     {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 35
-    },
-    {
       "name": "politics",
       "category": "culture",
-      "count": 34
+      "count": 35
     },
     {
       "name": "javascript",
       "category": "programming_language",
-      "count": 25
+      "count": 26
     },
     {
       "name": "mathematics",
@@ -22664,14 +22730,14 @@
       "count": 18
     },
     {
-      "name": "clojure",
+      "name": "typescript",
       "category": "programming_language",
       "count": 17
     },
     {
-      "name": "typescript",
+      "name": "clojure",
       "category": "programming_language",
-      "count": 16
+      "count": 17
     },
     {
       "name": "tv",
@@ -22681,7 +22747,7 @@
     {
       "name": "recipe",
       "category": "culture",
-      "count": 14
+      "count": 15
     },
     {
       "name": "haskell",
@@ -22797,7 +22863,7 @@
     },
     {
       "domain": "arxiv.org",
-      "count": 20
+      "count": 21
     },
     {
       "domain": "www.threads.com",
@@ -22888,6 +22954,10 @@
       "count": 4
     },
     {
+      "domain": "blog.cloudflare.com",
+      "count": 3
+    },
+    {
       "domain": "computerhistory.org",
       "count": 3
     },
@@ -22928,6 +22998,10 @@
       "count": 3
     },
     {
+      "domain": "www.nybooks.com",
+      "count": 3
+    },
+    {
       "domain": "www.science.org",
       "count": 3
     },
@@ -22957,10 +23031,6 @@
     },
     {
       "domain": "ben-mini.com",
-      "count": 2
-    },
-    {
-      "domain": "blog.cloudflare.com",
       "count": 2
     },
     {
@@ -23117,10 +23187,6 @@
     },
     {
       "domain": "www.npr.org",
-      "count": 2
-    },
-    {
-      "domain": "www.nybooks.com",
       "count": 2
     },
     {
@@ -24865,6 +24931,10 @@
     },
     {
       "domain": "pdimagearchive.org",
+      "count": 1
+    },
+    {
+      "domain": "pele.run",
       "count": 1
     },
     {

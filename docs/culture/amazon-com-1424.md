@@ -4,7 +4,8 @@ url: https://www.nytimes.com/wirecutter/out/affiliate/v1/Amazon/7543/235487/4/ca
 title: Amazon.com
 domain: www.nytimes.com
 source_date: '2026-10-13'
-tags: []
+tags:
+- recipe
 summary: This appears to be a Wirecutter affiliate link that redirects to Amazon,
   and the captured page contains only a "continue shopping" button and Amazon's footer
   links and copyright notice. Based on your note, it likely points to the Nordic Ware
