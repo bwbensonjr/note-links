@@ -1,6 +1,292 @@
 {
-  "exported_at": "2026-10-21T09:12:04.674405",
+  "exported_at": "2026-10-30T12:44:31.987192",
   "links": [
+    {
+      "id": 1439,
+      "url": "https://cormacmccarthy.lib.utk.edu/record/18247",
+      "title": null,
+      "description": "A course in mathematics for students of Physics",
+      "summary": "This text is a mathematics course for physics students that presents linear algebra and multivariable calculus, especially exterior calculus, which the authors present as a strong framework for expressing physical laws. It applies these tools to optics, electronic networks, electrostatics, wave dynamics, and classical thermodynamics. It also uses a \"spiral\" teaching method that revisits each topic repeatedly at increasing levels of sophistication.",
+      "domain": "cormacmccarthy.lib.utk.edu",
+      "source_date": "2026-10-30",
+      "page_title": "Cormac McCarthy Database Index",
+      "tags": [
+        "mathematics",
+        "physics",
+        "nonfiction-book",
+        "tutorial"
+      ],
+      "markdown_path": "science/cormac-mccarthy-database-index-1439.md"
+    },
+    {
+      "id": 1438,
+      "url": "https://www.massnumbers.us/posts/2026-10-29-contested-races/",
+      "title": null,
+      "description": "Swing district incumbents facing tough challenges",
+      "summary": "The article examines Massachusetts legislative races where incumbents in swing districts face tough challenges, noting that incumbency gives a meaningful advantage, with a 9-point lift for Democrats and 16 points for Republicans in its model. It identifies the four most competitive contests, three featuring Republican incumbents in Democratic-leaning districts and one Democratic incumbent in a Republican-leaning district. The 9th Norfolk race is rated the tightest, and several challengers have outraised or outspent their incumbent opponents.",
+      "domain": "www.massnumbers.us",
+      "source_date": "2026-10-30",
+      "page_title": "Swing district incumbents facing tough challenges – Mass. Numbers",
+      "tags": [
+        "politics",
+        "news"
+      ],
+      "markdown_path": "culture/swing-district-incumbents-facing-tough-challenges-mass-1438.md"
+    },
+    {
+      "id": 1437,
+      "url": "https://tildeweb.nl/~michiel/python-on-my-wrist.html",
+      "title": null,
+      "description": "Python on my wrist",
+      "summary": "The author describes reviving wasp-os, a MicroPython-based operating system for the cheap, open-source PineTime smartwatch, which had gone dormant. Their work includes fixing the build, speeding up firmware updates, reducing memory use, fixing crashes, and porting the OS to mainline MicroPython by getting three upstream changes merged. They also created two new watch faces, a Dutch-language clock and an 8-bit style clock, plus an optional \"Guido\" app that displays a blocky portrait of Guido van Rossum and Python-related logos.",
+      "domain": "tildeweb.nl",
+      "source_date": "2026-10-30",
+      "page_title": "Python on my wrist\n        | Blog",
+      "tags": [
+        "python",
+        "c"
+      ],
+      "markdown_path": "programming-language/python-on-my-wrist-blog-1437.md"
+    },
+    {
+      "id": 1436,
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "title": null,
+      "description": "LLM Voice - Martin Fowler",
+      "summary": "Martin Fowler discusses \"LLM Voice,\" the recognizable, uncanny quality of prose that makes readers lose interest when they sense it was machine-generated, and argues that detection tools miss the point since the reaction is human. He urges authors not to have LLMs draft their writing, since human editing rarely removes the telltale voice, and to write themselves because writing is essential to thinking and learning. He makes limited exceptions for cases like translation or accessibility needs, while stressing that human communication requires the author's humanity to come through.",
+      "domain": "martinfowler.com",
+      "source_date": "2026-10-30",
+      "page_title": "LLM Voice",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/llm-voice-1436.md"
+    },
+    {
+      "id": 1435,
+      "url": "https://cuis.st/",
+      "title": null,
+      "description": "Cuis Smalltalk - The modern Smalltalk-80",
+      "summary": "Cuis Smalltalk is a free, modern implementation of the Smalltalk-80 environment, designed to be simple, powerful, portable to any platform, and fast and efficient. The page showcases its capabilities, including vector graphics, SVG, TrueType fonts, and Unicode support, along with positive user feedback. It also shares recent news, such as the upcoming Smalltalks 2026 conference, community meetings, and the release of Cuis 7.8.",
+      "domain": "cuis.st",
+      "source_date": "2026-10-30",
+      "page_title": "Cuis Smalltalk | The modern Smalltalk-80",
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/cuis-smalltalk-the-modern-smalltalk-80-1435.md"
+    },
+    {
+      "id": 1440,
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "title": null,
+      "description": "Emacs turns 50",
+      "summary": "EMACS, one of the first full-screen text editors, turns 50 this year and remains widely used. Developed at MIT's AI Lab in 1976 from earlier editors like TECO and Control-R, it spawned the GNU Project, the free software movement, and GNU/Linux, and was even shipped with Mac OS X.",
+      "domain": "www.technologyreview.com",
+      "source_date": "2026-10-28",
+      "page_title": "EMACS turns 50 | MIT Technology Review",
+      "tags": [
+        "news",
+        "lisp",
+        "cli-tool"
+      ],
+      "markdown_path": "culture/emacs-turns-50-mit-technology-review-1440.md"
+    },
+    {
+      "id": 1442,
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "title": null,
+      "description": "Ghostty 1.4",
+      "summary": "Ghostty 1.4.0, released October 27, 2026, is a major update featuring large performance and memory gains, a complete Kitty graphics implementation with animation and relative placements, improved SSH integration, and support for macOS 27. Scrollback compression cuts memory use for idle history by 70% to 90%, which allows the default scrollback limit to rise from 10 MB to 50 MB. The release also fixes several security advisories, including paste protection, malicious Kitty graphics commands, tmux control mode crashes, and unsafe hyperlinks.",
+      "domain": "ghostty.org",
+      "source_date": "2026-10-27",
+      "page_title": "1.4.0 - Release Notes",
+      "tags": [
+        "emulator",
+        "cli-tool",
+        "zig",
+        "security"
+      ],
+      "markdown_path": "technical-topic/1-4-0-release-notes-1442.md"
+    },
+    {
+      "id": 1441,
+      "url": "https://www.sciencealert.com/researchers-identify-new-circadian-subtype-of-depression-affecting-1-in-4-patients",
+      "title": null,
+      "description": "Researchers Identify New 'Circadian' Subtype of Depression Affecting 1 in 4 Patients",
+      "summary": "A new study led by researchers at the University of Sydney, published in the British Journal of Psychiatry, identifies a \"circadian\" subtype of depression affecting about 1 in 4 of the 11,380 participants in the Australian Genetics of Depression Study. This subtype is linked to disrupted internal body clocks, causing symptoms like persistent jet lag-like fatigue, social jet lag, and delayed sleep patterns, and it tends to start earlier in life with more severe features and poorer response to antidepressants. The researchers suggest that treatments targeting circadian rhythms, such as light therapy and melatonin, may be more effective for these patients.",
+      "domain": "www.sciencealert.com",
+      "source_date": "2026-10-27",
+      "page_title": "Researchers Identify New 'Circadian' Subtype of Depression Affecting 1 in 4 Patients : ScienceAlert",
+      "tags": [
+        "psychology",
+        "biology"
+      ],
+      "markdown_path": "science/researchers-identify-new-circadian-subtype-of-depression-1441.md"
+    },
+    {
+      "id": 1448,
+      "url": "https://www.nytimes.com/2026/10/25/upshot/election-midterms-times-voter-trends.html",
+      "title": null,
+      "description": "NY Times announcing Voter Trends",
+      "summary": "NY Times announcing Voter Trends",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-10-26",
+      "page_title": null,
+      "tags": [
+        "politics",
+        "news",
+        "statistics"
+      ],
+      "markdown_path": "culture/ny-times-announcing-voter-trends-1448.md"
+    },
+    {
+      "id": 1447,
+      "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+      "title": null,
+      "description": "Pharo 14 released",
+      "summary": "Pharo 14 has been released as a major update to this open-source, pure object-oriented language and its live development environment, known for simplicity and immediate feedback. The release focuses on modernizing development tools (such as Mission Control and Pulse), rebuilding refactoring and command infrastructure, and modernizing the virtual machine, including RISC-V JIT support. It is also the first version released on the new fall schedule, moving from the previous spring cycle.",
+      "domain": "pharo.org",
+      "source_date": "2026-10-26",
+      "page_title": "Pharo - Pharo 14 Released!",
+      "tags": [
+        "compilers"
+      ],
+      "markdown_path": "technical-topic/pharo-pharo-14-released-1447.md"
+    },
+    {
+      "id": 1446,
+      "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "title": null,
+      "description": "Nietzschian Debugger",
+      "summary": "Nietzschian Debugger is an open-source Python CLI tool that refuses to give direct fixes for bugs, instead challenging the developer's assumptions, forcing them to examine evidence, and guiding them to discover the solution themselves. It is built to run on Claude by default but supports other hosted and local models, aiming to counter the habit of copy-pasting AI-generated answers without understanding the code. The tool adapts its approach through three \"lenses\" (Socratic questioning, Nietzschean assumption-probing, and Zarathustra-style encouragement) based on the user's state.",
+      "domain": "github.com",
+      "source_date": "2026-10-26",
+      "page_title": "GitHub - DilawarShafiq/nietzschian-debugger: It won't fix your bug. It'll fix you. The debugger that hands the question back instead of the answer. · GitHub",
+      "tags": [
+        "python",
+        "github-repo",
+        "cli-tool",
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "programming-language/github-dilawarshafiq-nietzschian-debugger-it-won-t-fix-your-1446.md"
+    },
+    {
+      "id": 1445,
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "title": null,
+      "description": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "summary": "Sebastian Raschka's free video course, Build Reasoning Models from the Ground Up, offers eight videos (about 11 hours) of Python and PyTorch coding that implement reasoning models from scratch. Starting from a pre-trained Qwen3 0.6B model, it covers evaluation, inference-time scaling, reinforcement learning with verifiable rewards, and distillation. It works as a sequel to his LLM-from-scratch course, though it can be followed on its own, and it accompanies his book Build a Reasoning Model (From Scratch).",
+      "domain": "magazine.sebastianraschka.com",
+      "source_date": "2026-10-26",
+      "page_title": "Build Your Own Reasoning Model: A Full Video Course",
+      "tags": [
+        "llm",
+        "python",
+        "tutorial",
+        "video",
+        "ai"
+      ],
+      "markdown_path": "technical-topic/build-your-own-reasoning-model-a-full-video-course-1445.md"
+    },
+    {
+      "id": 1444,
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "title": null,
+      "description": "PaperPilot - Rust-based PDF and document editing CLI and MCP",
+      "summary": "PaperPilot is an open-source, Rust-based PDF and document toolkit that runs locally, so files never leave the user's machine. It offers the same engine through an MCP server for AI coding agents, a CLI, a browser (WASM) version, a desktop app, and a local REST API, with features spanning merging, compression, OCR, text extraction, security scanning, and Excel conversion. Its key selling points are privacy, consistent behavior across all interfaces, and first-class support for AI agent integration.",
+      "domain": "github.com",
+      "source_date": "2026-10-26",
+      "page_title": "GitHub - KrushnaVardhanReddy/PaperPilot: Your local AI copilot for documents · GitHub",
+      "tags": [
+        "rust",
+        "github-repo",
+        "cli-tool",
+        "ai"
+      ],
+      "markdown_path": "programming-language/github-krushnavardhanreddy-paperpilot-your-local-ai-copilot-1444.md"
+    },
+    {
+      "id": 1443,
+      "url": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+      "title": null,
+      "description": "Where the Romans fought",
+      "summary": "This interactive map and database catalogs roughly 1,700 battles fought by Rome, from the traditional founding in 753 BCE through the fall of Theodoro in 1475 CE, with each battle's date, place, opponents, result, and Roman army composition. Users can explore the battles by period, opponent, land or sea, and outcome, and view win-draw-loss records and downloadable data in CSV, JSON, or spreadsheet formats. The project also explains its methodology, including how battles were defined, how Roman states were counted, and how traditional and doubtful entries are flagged.",
+      "domain": "iosiflazaridis.github.io",
+      "source_date": "2026-10-26",
+      "page_title": "Where the Romans Fought: Battles of the Romans, 753 BCE – 1475 CE",
+      "tags": [
+        "database",
+        "web-dev",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/where-the-romans-fought-battles-of-the-romans-753-bce-1475-1443.md"
+    },
+    {
+      "id": 1450,
+      "url": "https://www.threads.com/share/_1FXIYokK/",
+      "title": null,
+      "description": "Wynton Marsalis plays Fred Rogers song",
+      "summary": "Did you know?\n\nFred Rogers (Mr Rogers) had a degree in music composition and wrote over 200 songs!\n\nHere, Wynton Marsalis was playing one of Fred’s songs on his show: - Wynton Marsalis plays Fred Rogers song",
+      "domain": "www.threads.com",
+      "source_date": "2026-10-25",
+      "page_title": "Did you know?\n\nFred Rogers (Mr Rogers) had a degree in music composition and wrote over 200 songs!\n\nHere, Wynton Marsalis was playing one of Fred’s songs on his show:",
+      "tags": [
+        "music",
+        "tv",
+        "social-media"
+      ],
+      "markdown_path": "culture/did-you-know-fred-rogers-mr-rogers-had-a-degree-in-music-1450.md"
+    },
+    {
+      "id": 1449,
+      "url": "https://justinethier.github.io/cyclone/docs/Writing-the-Cyclone-Scheme-Compiler-Revised-2017",
+      "title": null,
+      "description": "Writing the Cyclone Scheme compiler",
+      "summary": "Justin Ethier's write-up describes the architecture of the Cyclone Scheme compiler, which translates Scheme into C through a series of small source-to-source transformation passes, including macro expansion, CPS conversion, CPS optimizations, and closure conversion. It explains the challenges of compiling Scheme to C (tail calls, first-class continuations, closures, and garbage collection) and how Cyclone addresses them, drawing inspiration from Marc Feeley's 90-minute Scheme-to-C compiler and reusing existing community code. The document also covers the garbage collector, runtime, and other compiler components, though the excerpt provided ends before those sections.",
+      "domain": "justinethier.github.io",
+      "source_date": "2026-10-25",
+      "page_title": "Cyclone Scheme",
+      "tags": [
+        "compilers",
+        "scheme",
+        "c",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/cyclone-scheme-1449.md"
+    },
+    {
+      "id": 1452,
+      "url": "https://microship.com/lisp-comes-of-age/",
+      "title": null,
+      "description": "Lisp comes of age",
+      "summary": "Lisp comes of age",
+      "domain": "microship.com",
+      "source_date": "2026-10-23",
+      "page_title": null,
+      "tags": [
+        "lisp"
+      ],
+      "markdown_path": "programming-language/lisp-comes-of-age-1452.md"
+    },
+    {
+      "id": 1451,
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "title": null,
+      "description": "The Real Kevin Bacon - Who is at the center of Hollywood movies?",
+      "summary": "The article explores the \"Six Degrees of Kevin Bacon\" idea by ranking actors by \"remoteness,\" their average distance from every other actor in Hollywood. Samuel L. Jackson ranks as the current center of Hollywood, ahead of Kevin Bacon, who ranks 175th. Using film count and co-star data, the author's simulations predict that Gen Z actor Chloë Grace Moretz is the most likely to eventually take Jackson's place, though the outcome is far from certain.",
+      "domain": "pudding.cool",
+      "source_date": "2026-10-23",
+      "page_title": "The Real Kevin Bacon",
+      "tags": [
+        "movie",
+        "statistics",
+        "mathematics"
+      ],
+      "markdown_path": "culture/the-real-kevin-bacon-1451.md"
+    },
     {
       "id": 1431,
       "url": "https://www.nybooks.com/articles/2026/11/05/the-dream-of-ai-primacy/",
@@ -22582,17 +22868,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 421
+      "count": 424
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 356
+      "count": 360
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 293
+      "count": 296
     },
     {
       "name": "academic-paper",
@@ -22602,32 +22888,32 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 264
-    },
-    {
-      "name": "video",
-      "category": "culture",
-      "count": 230
+      "count": 267
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 229
+      "count": 233
+    },
+    {
+      "name": "video",
+      "category": "culture",
+      "count": 231
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 225
-    },
-    {
-      "name": "music",
-      "category": "culture",
-      "count": 143
+      "count": 226
     },
     {
       "name": "python",
       "category": "programming_language",
-      "count": 141
+      "count": 144
+    },
+    {
+      "name": "music",
+      "category": "culture",
+      "count": 144
     },
     {
       "name": "devops",
@@ -22637,32 +22923,32 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 131
+      "count": 135
     },
     {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 125
+      "count": 127
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 122
+      "count": 123
     },
     {
       "name": "social-media",
       "category": "culture",
-      "count": 103
+      "count": 104
     },
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 68
+      "count": 69
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 67
+      "count": 68
     },
     {
       "name": "distributed-systems",
@@ -22672,32 +22958,37 @@
     {
       "name": "physics",
       "category": "science",
-      "count": 42
+      "count": 43
     },
     {
       "name": "biology",
       "category": "science",
-      "count": 42
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 36
+      "count": 43
     },
     {
       "name": "c",
       "category": "programming_language",
-      "count": 36
+      "count": 38
     },
     {
       "name": "lisp",
       "category": "programming_language",
-      "count": 36
+      "count": 38
+    },
+    {
+      "name": "rust",
+      "category": "programming_language",
+      "count": 37
     },
     {
       "name": "politics",
       "category": "culture",
-      "count": 35
+      "count": 37
+    },
+    {
+      "name": "mathematics",
+      "category": "science",
+      "count": 27
     },
     {
       "name": "javascript",
@@ -22705,14 +22996,9 @@
       "count": 26
     },
     {
-      "name": "mathematics",
-      "category": "science",
-      "count": 25
-    },
-    {
       "name": "scheme",
       "category": "programming_language",
-      "count": 21
+      "count": 22
     },
     {
       "name": "common-lisp",
@@ -22727,7 +23013,7 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 18
+      "count": 19
     },
     {
       "name": "typescript",
@@ -22742,7 +23028,7 @@
     {
       "name": "tv",
       "category": "culture",
-      "count": 15
+      "count": 16
     },
     {
       "name": "recipe",
@@ -22750,13 +23036,13 @@
       "count": 15
     },
     {
-      "name": "haskell",
-      "category": "programming_language",
-      "count": 13
-    },
-    {
       "name": "movie",
       "category": "culture",
+      "count": 14
+    },
+    {
+      "name": "haskell",
+      "category": "programming_language",
       "count": 13
     },
     {
@@ -22767,7 +23053,7 @@
     {
       "name": "psychology",
       "category": "science",
-      "count": 11
+      "count": 12
     },
     {
       "name": "podcast",
@@ -22812,7 +23098,12 @@
     {
       "name": "zig",
       "category": "programming_language",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "statistics",
+      "category": "science",
+      "count": 4
     },
     {
       "name": "chemistry",
@@ -22822,11 +23113,6 @@
     {
       "name": "gardening",
       "category": "culture",
-      "count": 2
-    },
-    {
-      "name": "statistics",
-      "category": "science",
       "count": 2
     },
     {
@@ -22843,7 +23129,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 165
+      "count": 167
     },
     {
       "domain": "www.threads.net",
@@ -22855,7 +23141,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 31
+      "count": 32
     },
     {
       "domain": "simonwillison.net",
@@ -22867,7 +23153,7 @@
     },
     {
       "domain": "www.threads.com",
-      "count": 19
+      "count": 20
     },
     {
       "domain": "open.spotify.com",
@@ -22938,6 +23224,10 @@
       "count": 4
     },
     {
+      "domain": "magazine.sebastianraschka.com",
+      "count": 4
+    },
+    {
       "domain": "mitpress.mit.edu",
       "count": 4
     },
@@ -22970,7 +23260,7 @@
       "count": 3
     },
     {
-      "domain": "magazine.sebastianraschka.com",
+      "domain": "martinfowler.com",
       "count": 3
     },
     {
@@ -23074,6 +23364,10 @@
       "count": 2
     },
     {
+      "domain": "ghostty.org",
+      "count": 2
+    },
+    {
       "domain": "gist.github.com",
       "count": 2
     },
@@ -23111,10 +23405,6 @@
     },
     {
       "domain": "martinalderson.com",
-      "count": 2
-    },
-    {
-      "domain": "martinfowler.com",
       "count": 2
     },
     {
@@ -23778,6 +24068,10 @@
       "count": 1
     },
     {
+      "domain": "cormacmccarthy.lib.utk.edu",
+      "count": 1
+    },
+    {
       "domain": "cormullion.github.io",
       "count": 1
     },
@@ -23819,6 +24113,10 @@
     },
     {
       "domain": "cua.ai",
+      "count": 1
+    },
+    {
+      "domain": "cuis.st",
       "count": 1
     },
     {
@@ -24186,10 +24484,6 @@
       "count": 1
     },
     {
-      "domain": "ghostty.org",
-      "count": 1
-    },
-    {
       "domain": "github.github.com",
       "count": 1
     },
@@ -24350,6 +24644,10 @@
       "count": 1
     },
     {
+      "domain": "iosiflazaridis.github.io",
+      "count": 1
+    },
+    {
       "domain": "ipyleaflet.readthedocs.io",
       "count": 1
     },
@@ -24419,6 +24717,10 @@
     },
     {
       "domain": "jqlang.org",
+      "count": 1
+    },
+    {
+      "domain": "justinethier.github.io",
       "count": 1
     },
     {
@@ -24663,6 +24965,10 @@
     },
     {
       "domain": "microcad.xyz",
+      "count": 1
+    },
+    {
+      "domain": "microship.com",
       "count": 1
     },
     {
@@ -24958,6 +25264,10 @@
       "count": 1
     },
     {
+      "domain": "pharo.org",
+      "count": 1
+    },
+    {
       "domain": "pianomanfrazier.com",
       "count": 1
     },
@@ -25063,6 +25373,10 @@
     },
     {
       "domain": "pubmed.ncbi.nlm.nih.gov",
+      "count": 1
+    },
+    {
+      "domain": "pudding.cool",
       "count": 1
     },
     {
@@ -25403,6 +25717,10 @@
     },
     {
       "domain": "thill.me",
+      "count": 1
+    },
+    {
+      "domain": "tildeweb.nl",
       "count": 1
     },
     {
@@ -25954,6 +26272,10 @@
       "count": 1
     },
     {
+      "domain": "www.massnumbers.us",
+      "count": 1
+    },
+    {
       "domain": "www.mathworks.com",
       "count": 1
     },
@@ -26090,6 +26412,10 @@
       "count": 1
     },
     {
+      "domain": "www.sciencealert.com",
+      "count": 1
+    },
+    {
       "domain": "www.sciencedaily.com",
       "count": 1
     },
@@ -26127,6 +26453,10 @@
     },
     {
       "domain": "www.taylorfrancis.com",
+      "count": 1
+    },
+    {
+      "domain": "www.technologyreview.com",
       "count": 1
     },
     {
