@@ -1,6 +1,82 @@
 {
-  "exported_at": "2026-10-30T12:44:31.987192",
+  "exported_at": "2026-10-31T19:31:40.519219",
   "links": [
+    {
+      "id": 1455,
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+      "title": null,
+      "description": "Surviving *The Graduate* - Dustin Hoffman",
+      "summary": "Dustin Hoffman recounts his reluctant path to starring in *The Graduate*, describing how he initially felt he was all wrong for the role of the WASPy Benjamin Braddock and how his insecurities followed him through the screen test and the stressful shoot. He reflects on feeling out of place in Hollywood, which he saw as a step away from the theatre he loved, and on the uncomfortable sense that the director, Mike Nichols, was as anxious as he was.",
+      "domain": "www.newyorker.com",
+      "source_date": "2026-10-31",
+      "page_title": "Surviving “The Graduate” | The New Yorker",
+      "tags": [
+        "movie",
+        "nonfiction-book"
+      ],
+      "markdown_path": "culture/surviving-the-graduate-the-new-yorker-1455.md"
+    },
+    {
+      "id": 1454,
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "title": null,
+      "description": "HackerTube - VIdeos recommended on Hacker News",
+      "summary": "Andrej Karpathy built HackerTube, a YouTube-style site (hackertube.org) that shows only videos recommended in Hacker News comments, after growing frustrated with YouTube's spammy, exaggerated recommendations. Using an AI coding assistant, he filtered about 40K comments down to 6,454 videos from 2007 to 2026 across 150 topics, then added a clean YouTube-like interface, personalized recommendations without accounts, and keyboard shortcuts. The site also lets users export its data so they can build their own version.",
+      "domain": "karpathy.bearblog.dev",
+      "source_date": "2026-10-31",
+      "page_title": "HackerTube – karpathy",
+      "tags": [
+        "video",
+        "web-dev",
+        "ai"
+      ],
+      "markdown_path": "culture/hackertube-karpathy-1454.md"
+    },
+    {
+      "id": 1453,
+      "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+      "title": null,
+      "description": "The oldest ice is disappearing: The Stone Age is emerging from the melting ice",
+      "summary": "Ice patches in the Jotunheimen mountains of eastern Norway are melting fast, exposing some of the oldest archaeological finds yet, including arrows and arrowheads made of slate, bone, and mussel shell that are 3,600 to 6,000 years old. Archaeologists with the Secrets of the Ice project, who have worked there for 20 years, estimate that most ice patches holding artefacts will disappear within two decades. They describe the loss as a deeply sobering sign of climate change, with 48 prehistoric arrows found this season alone.",
+      "domain": "www.sciencenorway.no",
+      "source_date": "2026-10-31",
+      "page_title": "6,000-year-old Stone Age arrows emerge from melting ice in Norway",
+      "tags": [
+        "news",
+        "geology"
+      ],
+      "markdown_path": "culture/6-000-year-old-stone-age-arrows-emerge-from-melting-ice-in-1453.md"
+    },
+    {
+      "id": 1457,
+      "url": "https://github.com/kevinraymond/florilegium",
+      "title": null,
+      "description": "LaTeX flowers",
+      "summary": "This GitHub repository provides florilegium, a LuaLaTeX package that procedurally generates Delft-blue floral page margins by computing parametric petals, leaves, and stems in Lua and painting them like watercolor directly into the PDF, with no external images. Each page gets a unique garden that grows to fill the space the text leaves free, and the package offers options for seasonal aging, initials, section flowers, visitors like butterflies and birds, custom ink colors, and alternative themes such as a flat geometric style or a mathematics-themed margin. Users can adjust density and intensity to make the decorations lighter or sparser.",
+      "domain": "github.com",
+      "source_date": "2026-10-30",
+      "page_title": "GitHub - kevinraymond/florilegium: Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua · GitHub",
+      "tags": [
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/github-kevinraymond-florilegium-procedurally-generated-1457.md"
+    },
+    {
+      "id": 1456,
+      "url": "https://www.youtube.com/watch?v=EMSQtqUIlXY",
+      "title": null,
+      "description": "The Humans are coming for AI's jobs",
+      "summary": "The page doesn't include the video's description, transcript, or any substantive content, only YouTube footer text. Based on the title, it appears to be a New Yorker video about people taking on work that AI was expected to do, but I can't confirm its key points. Pasting the transcript or description would let me give you an accurate summary.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-10-30",
+      "page_title": "The Humans Are Coming for A.I.’s Jobs in “We Were Here” | The New Yorker - YouTube",
+      "tags": [
+        "video",
+        "ai",
+        "news"
+      ],
+      "markdown_path": "culture/the-humans-are-coming-for-a-i-s-jobs-in-we-were-here-the-1456.md"
+    },
     {
       "id": 1439,
       "url": "https://cormacmccarthy.lib.utk.edu/record/18247",
@@ -22873,12 +22949,12 @@
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 360
+      "count": 362
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 296
+      "count": 297
     },
     {
       "name": "academic-paper",
@@ -22898,12 +22974,12 @@
     {
       "name": "video",
       "category": "culture",
-      "count": 231
+      "count": 233
     },
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 226
+      "count": 227
     },
     {
       "name": "python",
@@ -22923,7 +22999,7 @@
     {
       "name": "news",
       "category": "culture",
-      "count": 135
+      "count": 137
     },
     {
       "name": "compilers",
@@ -22933,7 +23009,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 123
+      "count": 124
     },
     {
       "name": "social-media",
@@ -23031,14 +23107,14 @@
       "count": 16
     },
     {
-      "name": "recipe",
+      "name": "movie",
       "category": "culture",
       "count": 15
     },
     {
-      "name": "movie",
+      "name": "recipe",
       "category": "culture",
-      "count": 14
+      "count": 15
     },
     {
       "name": "haskell",
@@ -23124,12 +23200,17 @@
       "name": "java",
       "category": "programming_language",
       "count": 1
+    },
+    {
+      "name": "geology",
+      "category": "science",
+      "count": 1
     }
   ],
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 167
+      "count": 168
     },
     {
       "domain": "www.threads.net",
@@ -23137,7 +23218,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 34
+      "count": 35
     },
     {
       "domain": "www.nytimes.com",
@@ -23180,6 +23261,10 @@
       "count": 7
     },
     {
+      "domain": "www.newyorker.com",
+      "count": 7
+    },
+    {
       "domain": "youtu.be",
       "count": 7
     },
@@ -23193,10 +23278,6 @@
     },
     {
       "domain": "www.bostonglobe.com",
-      "count": 6
-    },
-    {
-      "domain": "www.newyorker.com",
       "count": 6
     },
     {
@@ -24733,6 +24814,10 @@
     },
     {
       "domain": "karpathy.ai",
+      "count": 1
+    },
+    {
+      "domain": "karpathy.bearblog.dev",
       "count": 1
     },
     {
@@ -26417,6 +26502,10 @@
     },
     {
       "domain": "www.sciencedaily.com",
+      "count": 1
+    },
+    {
+      "domain": "www.sciencenorway.no",
       "count": 1
     },
     {
