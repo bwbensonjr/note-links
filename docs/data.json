@@ -1,6 +1,144 @@
 {
-  "exported_at": "2026-10-31T19:31:40.519219",
+  "exported_at": "2026-11-01T20:07:29.013508",
   "links": [
+    {
+      "id": 1466,
+      "url": "https://mobileapp.bostonglobe.com/11012026_7ca76882-d3bb-11f1-b629-0793d06fd25c/content.html",
+      "title": null,
+      "description": "At the Met, Lee Krasner takes center stage",
+      "summary": "The Metropolitan Museum of Art's exhibition \"Krasner and Pollock: Past Continuous\" gives Lee Krasner top billing and reframes her as a major artist rather than a silent support figure for Jackson Pollock. The show's more than 100 works trace the creative partnership, including her influence on his development and her raw, grief-driven paintings made after his death in 1956. Critic Murray Whyte calls it a long-overdue correction to the myth of Pollock's singular genius.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-11-01",
+      "page_title": "At the Met, Lee Krasner takes center stage",
+      "tags": [
+        "news"
+      ],
+      "markdown_path": "culture/at-the-met-lee-krasner-takes-center-stage-1466.md"
+    },
+    {
+      "id": 1465,
+      "url": "https://mobileapp.bostonglobe.com/11012026_1a2d4ae8-d3d2-11f1-b629-0793d06fd25c/content.html",
+      "title": null,
+      "description": "A Boston saxophonist secretly recorded John Coltrane. Now the tapes are coming out.",
+      "summary": "Frank Tiberi, a Boston-area saxophonist and Berklee faculty member, secretly recorded John Coltrane's live Philadelphia performances between 1960 and 1964 using hidden equipment. At 97, he is releasing these tapes as the four-LP box set \"John Coltrane: The Tiberi Tapes,\" arriving November 6 as part of Coltrane centennial celebrations. The recordings capture Coltrane at a crucial stage of his development, showing an experimental, more expansive side of his playing that musicians and scholars have long discussed but rarely heard.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-11-01",
+      "page_title": "A Boston saxophonist secretly recorded John Coltrane. Now the tapes are coming out.",
+      "tags": [
+        "music",
+        "news"
+      ],
+      "markdown_path": "culture/a-boston-saxophonist-secretly-recorded-john-coltrane-now-1465.md"
+    },
+    {
+      "id": 1464,
+      "url": "https://mobileapp.bostonglobe.com/11012026_0906d044-d39c-11f1-b629-0793d06fd25c/content.html",
+      "title": null,
+      "description": "The polls aren’t fake. But have pollsters fixed their errors?",
+      "summary": "Political science professor Brian Schaffner argues that, despite widespread distrust from both parties ahead of the 2026 midterms, polls remain the best tool for setting expectations, and pollsters have adjusted their methods since the notable misses in 2016 and 2024. The main fix has been weighting samples for variables like education, party affiliation, and past vote, since response rates have fallen below 5 percent and random samples are nearly impossible to obtain. He notes, however, that there is no industry standard for these adjustments, so polls can differ widely and are hard to compare, and many pollsters don't disclose their methods.",
+      "domain": "mobileapp.bostonglobe.com",
+      "source_date": "2026-11-01",
+      "page_title": "The polls aren’t fake. But have pollsters fixed their errors?",
+      "tags": [
+        "politics",
+        "statistics",
+        "news"
+      ],
+      "markdown_path": "culture/the-polls-aren-t-fake-but-have-pollsters-fixed-their-errors-1464.md"
+    },
+    {
+      "id": 1463,
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "title": null,
+      "description": "The Duty of a Scholar",
+      "summary": "The author recounts discovering a Hyper-Threading cache side-channel vulnerability in Intel CPUs in 2004-2005 and responsibly disclosing it, then uses that experience to argue that experts have a moral duty to act on hazards and share knowledge. Drawing on engineering ethics, Star Trek, and Fichte's *The Vocation of the Scholar*, the piece argues that this duty goes beyond merely not concealing the truth to actively seeking out those who need it. The essay is cut off before its conclusion.",
+      "domain": "www.daemonology.net",
+      "source_date": "2026-11-01",
+      "page_title": "The Duty of a Scholar",
+      "tags": [
+        "security"
+      ],
+      "markdown_path": "technical-topic/the-duty-of-a-scholar-1463.md"
+    },
+    {
+      "id": 1462,
+      "url": "https://fgiesen.wordpress.com/2015/10/25/reading-and-writing-are-less-symmetric-than-you-probably-think/",
+      "title": null,
+      "description": "Reading and writing are less symmetric than you (probably) think",
+      "summary": "Reading and writing are less symmetric than you (probably) think | The ryg blog - Reading and writing are less symmetric than you (probably) think",
+      "domain": "fgiesen.wordpress.com",
+      "source_date": "2026-11-01",
+      "page_title": "Reading and writing are less symmetric than you (probably) think | The ryg blog",
+      "tags": [
+        "tutorial",
+        "c"
+      ],
+      "markdown_path": "technical-topic/reading-and-writing-are-less-symmetric-than-you-probably-1462.md"
+    },
+    {
+      "id": 1461,
+      "url": "https://dl.acm.org/doi/10.1145/857076.857077",
+      "title": null,
+      "description": "A brief history of Just-In-Time",
+      "summary": "A brief history of Just-In-Time",
+      "domain": "dl.acm.org",
+      "source_date": "2026-11-01",
+      "page_title": null,
+      "tags": [
+        "compilers",
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/a-brief-history-of-just-in-time-1461.md"
+    },
+    {
+      "id": 1460,
+      "url": "https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/",
+      "title": null,
+      "description": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
+      "summary": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
+      "domain": "thereader.mitpress.mit.edu",
+      "source_date": "2026-11-01",
+      "page_title": null,
+      "tags": [
+        "statistics",
+        "politics",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/a-1580-map-shows-why-data-visualization-is-never-neutral-1460.md"
+    },
+    {
+      "id": 1459,
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "title": null,
+      "description": "ChatGPT and Codex usage limits merging",
+      "summary": "Starting in December, OpenAI's Plus, Pro, and Business plans will share a single usage allowance across ChatGPT and Codex, measured in tokens, with consumption depending on the model and task complexity. Instant chat won't count against this allowance, and users can view their combined remaining usage and reset times in Settings → Usage. OpenAI expects most users won't need to wait for resets more often than they do now, and if the limit is reached, users can wait for it to reset, upgrade their plan, or buy credits.",
+      "domain": "help.openai.com",
+      "source_date": "2026-11-01",
+      "page_title": "Understanding ChatGPT and Codex usage limits | OpenAI Help Center",
+      "tags": [
+        "ai",
+        "llm",
+        "news"
+      ],
+      "markdown_path": "technical-topic/understanding-chatgpt-and-codex-usage-limits-openai-help-1459.md"
+    },
+    {
+      "id": 1458,
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "title": null,
+      "description": "The AI cost of JavaScript frameworks",
+      "summary": "Nolan Lawson benchmarked coding agents building the same Pokémon app with a range of JavaScript frameworks, measuring build cost, code quality, and Lighthouse scores, to test common claims that frameworks are \"better for agents\" without evidence. Median API costs per build ranged from about $2.67 (Hono+htmx) to about $4.97 (Angular), with SvelteKit, Gracile+Lit, and Angular consistently costing more. He stresses that results are noisy because LLM behavior is stochastic and agents didn't always use the available framework tooling.",
+      "domain": "nolanlawson.com",
+      "source_date": "2026-11-01",
+      "page_title": "The AI cost of JavaScript frameworks | Read the Tea Leaves",
+      "tags": [
+        "ai",
+        "javascript",
+        "llm",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/the-ai-cost-of-javascript-frameworks-read-the-tea-leaves-1458.md"
+    },
     {
       "id": 1455,
       "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
@@ -22944,12 +23082,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 424
+      "count": 425
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 362
+      "count": 364
     },
     {
       "name": "github-repo",
@@ -22959,12 +23097,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 283
+      "count": 284
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 267
+      "count": 269
     },
     {
       "name": "cli-tool",
@@ -22979,7 +23117,12 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 227
+      "count": 228
+    },
+    {
+      "name": "music",
+      "category": "culture",
+      "count": 145
     },
     {
       "name": "python",
@@ -22987,9 +23130,9 @@
       "count": 144
     },
     {
-      "name": "music",
+      "name": "news",
       "category": "culture",
-      "count": 144
+      "count": 141
     },
     {
       "name": "devops",
@@ -22997,19 +23140,14 @@
       "count": 140
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 137
-    },
-    {
       "name": "compilers",
       "category": "technical_topic",
-      "count": 127
+      "count": 128
     },
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 124
+      "count": 125
     },
     {
       "name": "social-media",
@@ -23019,7 +23157,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 69
+      "count": 70
     },
     {
       "name": "database",
@@ -23044,7 +23182,12 @@
     {
       "name": "c",
       "category": "programming_language",
-      "count": 38
+      "count": 39
+    },
+    {
+      "name": "politics",
+      "category": "culture",
+      "count": 39
     },
     {
       "name": "lisp",
@@ -23057,19 +23200,14 @@
       "count": 37
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 37
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 27
     },
     {
       "name": "mathematics",
       "category": "science",
       "count": 27
-    },
-    {
-      "name": "javascript",
-      "category": "programming_language",
-      "count": 26
     },
     {
       "name": "scheme",
@@ -23157,6 +23295,11 @@
       "count": 8
     },
     {
+      "name": "statistics",
+      "category": "science",
+      "count": 6
+    },
+    {
       "name": "ruby",
       "category": "programming_language",
       "count": 5
@@ -23174,11 +23317,6 @@
     {
       "name": "zig",
       "category": "programming_language",
-      "count": 4
-    },
-    {
-      "name": "statistics",
-      "category": "science",
       "count": 4
     },
     {
@@ -23257,6 +23395,10 @@
       "count": 9
     },
     {
+      "domain": "mobileapp.bostonglobe.com",
+      "count": 9
+    },
+    {
       "domain": "www.anthropic.com",
       "count": 7
     },
@@ -23273,15 +23415,15 @@
       "count": 6
     },
     {
-      "domain": "mobileapp.bostonglobe.com",
-      "count": 6
-    },
-    {
       "domain": "www.bostonglobe.com",
       "count": 6
     },
     {
       "domain": "cooking.nytimes.com",
+      "count": 5
+    },
+    {
+      "domain": "dl.acm.org",
       "count": 5
     },
     {
@@ -23298,10 +23440,6 @@
     },
     {
       "domain": "blog.google",
-      "count": 4
-    },
-    {
-      "domain": "dl.acm.org",
       "count": 4
     },
     {
@@ -24489,6 +24627,10 @@
       "count": 1
     },
     {
+      "domain": "fgiesen.wordpress.com",
+      "count": 1
+    },
+    {
       "domain": "fil-c.org",
       "count": 1
     },
@@ -24622,6 +24764,10 @@
     },
     {
       "domain": "harper.blog",
+      "count": 1
+    },
+    {
+      "domain": "help.openai.com",
       "count": 1
     },
     {
@@ -25178,6 +25324,10 @@
     },
     {
       "domain": "nof1.ai",
+      "count": 1
+    },
+    {
+      "domain": "nolanlawson.com",
       "count": 1
     },
     {
@@ -25801,6 +25951,10 @@
       "count": 1
     },
     {
+      "domain": "thereader.mitpress.mit.edu",
+      "count": 1
+    },
+    {
       "domain": "thill.me",
       "count": 1
     },
@@ -26130,6 +26284,10 @@
     },
     {
       "domain": "www.cs251.com",
+      "count": 1
+    },
+    {
+      "domain": "www.daemonology.net",
       "count": 1
     },
     {
