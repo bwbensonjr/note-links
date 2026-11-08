@@ -1,6 +1,145 @@
 {
-  "exported_at": "2026-11-01T20:07:29.013508",
+  "exported_at": "2026-11-08T16:36:41.576325",
   "links": [
+    {
+      "id": 1469,
+      "url": "https://cooking.nytimes.com/recipes/1024437-chicken-enchiladas?smid=nytcore-ios-share",
+      "title": null,
+      "description": "Chicken Enchiladas",
+      "summary": "This New York Times recipe for chicken enchiladas uses shredded rotisserie or roast chicken, a tomato-onion-poblano filling, and store-bought or homemade enchilada sauce, ready in about an hour. The corn tortillas are lightly fried before rolling, then baked under sauce and sharp Cheddar until bubbly. Reviewers recommend keeping some sauce separate when making ahead to avoid dry enchiladas and adding extra seasoning, since the filling can taste bland.",
+      "domain": "cooking.nytimes.com",
+      "source_date": "2026-11-08",
+      "page_title": "Chicken Enchiladas Recipe",
+      "tags": [
+        "recipe"
+      ],
+      "markdown_path": "culture/chicken-enchiladas-recipe-1469.md"
+    },
+    {
+      "id": 1468,
+      "url": "https://github.com/kobaltgit/StatCraft",
+      "title": null,
+      "description": "StatCraft - SPSS rewritten in Rust",
+      "summary": "StatCraft is a free, open-source statistical software package written entirely in 100% safe Rust, designed as a clean-room alternative to proprietary suites like IBM SPSS Statistics. It offers a graphical interface with an SPSS-style output viewer, a syntax-driven analytical engine, and procedures such as descriptive statistics, t-tests, and one-way ANOVA. Its key differentiator is a local Model Context Protocol bridge that lets AI agents run statistical analyses through natural language while the deterministic Rust engine performs the actual calculations.",
+      "domain": "github.com",
+      "source_date": "2026-11-08",
+      "page_title": "GitHub - kobaltgit/StatCraft: High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust · GitHub",
+      "tags": [
+        "rust",
+        "github-repo",
+        "statistics",
+        "ai"
+      ],
+      "markdown_path": "programming-language/github-kobaltgit-statcraft-high-performance-memory-safe-and-1468.md"
+    },
+    {
+      "id": 1467,
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "title": null,
+      "description": "Agent memory needs its Open Telemetry moment",
+      "summary": "The article argues that agent memory is currently fragmented across incompatible formats (AGENTS.md, Anthropic's memory tool, Mem0, Letta, Graphiti, MCP memory servers, and others), so memories written by one tool cannot be read by another. Drawing a parallel to observability before OpenTelemetry, the author proposes that the community agree on a shared spec covering a common data model, semantic conventions, a protocol, and conformance tests, while vendors keep competing on storage and analysis. The author offers a sketch of a portable record format built on a frontmatter envelope with addressing, identity, authorship, and lifecycle fields, noting that the timing is right because the formats are still young and neutral standards homes like the Linux Foundation's Agentic AI Foundation already exist.",
+      "domain": "www.lorekit.io",
+      "source_date": "2026-11-08",
+      "page_title": "Agent memory needs its OpenTelemetry moment — LoreKit blog",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "markdown_path": "technical-topic/agent-memory-needs-its-opentelemetry-moment-lorekit-blog-1467.md"
+    },
+    {
+      "id": 1470,
+      "url": "https://meccanicos.com/",
+      "title": null,
+      "description": "meccanicos",
+      "summary": "MeccanicOS is a NixOS-based Linux distribution that runs from USB or installs to disk, with an included tool that downloads the latest ISO and makes a bootable USB drive on Windows, macOS, or Linux. Its key features include a keyboard-first command bar (Super+Space), full offline operation with a broad set of bundled drivers, encrypted storage and vaults, atomic upgrades with rollback, and optional local or cloud AI chat.",
+      "domain": "meccanicos.com",
+      "source_date": "2026-11-07",
+      "page_title": "MeccanicOS",
+      "tags": [
+        "nix",
+        "security",
+        "ai",
+        "cli-tool"
+      ],
+      "markdown_path": "programming-language/meccanicos-1470.md"
+    },
+    {
+      "id": 1472,
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "title": null,
+      "description": "Libghostty 1.0",
+      "summary": "libghostty 1.0 is a stable, portable, MIT-licensed C library for terminal emulation, extracted from the core of the Ghostty terminal, with both the library and its C ABI now guaranteed stable under semantic versioning. Since its early days it has grown into a widely adopted foundation, powering the terminal in JetBrains IDEs (over 12.5 million users), Neovim's pending libvterm replacement, and many new terminals and developer tools. The 1.0 release also brings strict ABI enforcement, separate packaging with signed tarballs and dependency manifests, and broad platform support spanning Linux, macOS, Windows, Android, and WebAssembly.",
+      "domain": "mitchellh.com",
+      "source_date": "2026-11-06",
+      "page_title": "Libghostty 1.0 – Mitchell Hashimoto",
+      "tags": [
+        "emulator",
+        "c",
+        "cli-tool"
+      ],
+      "markdown_path": "technical-topic/libghostty-1-0-mitchell-hashimoto-1472.md"
+    },
+    {
+      "id": 1471,
+      "url": "https://www.newyorker.com/magazine/2026/11/09/did-the-world-just-gain-hundreds-of-millions-of-alzheimers-patients",
+      "title": null,
+      "description": "Drug companies working on Alzheimer’s may be focusing on treating an effect, rather than a cause",
+      "summary": "The article examines the surge of optimism at a recent Alzheimer's conference, driven by three FDA-approved antibody drugs that target amyloid plaques and new blood tests that can detect the disease far more easily than before. It also questions what Alzheimer's actually is, noting that people with amyloid buildup may never develop symptoms, which raises the possibility that these tools could bring hundreds of millions more people into the category of patients. The piece suggests that this debate matters because the field's current focus on amyloid may be treating a marker of the disease rather than its root cause.",
+      "domain": "www.newyorker.com",
+      "source_date": "2026-11-06",
+      "page_title": "Did the World Just Gain Hundreds of Millions of Alzheimer’s Patients? | The New Yorker",
+      "tags": [
+        "biology",
+        "news"
+      ],
+      "markdown_path": "science/did-the-world-just-gain-hundreds-of-millions-of-alzheimer-s-1471.md"
+    },
+    {
+      "id": 1473,
+      "url": "https://www.bostonglobe.com/2026/11/05/nation/troy-jackson-susan-collins-maine-senate/",
+      "title": null,
+      "description": "How Troy Jackson toppled Susan Collins",
+      "summary": "Democrat Troy Jackson defeated Republican Senator Susan Collins in Maine after Graham Platner dropped out in scandal, leaving Jackson just over 100 days to run a campaign. His win came from a well-funded, labor-backed operation that raised over $31 million, held more than 100 events, and prepared for debates with help from Senator Elizabeth Warren, along with anti-Trump sentiment and anger over fuel costs, tariffs, and ICE tactics. Democrats also swept state offices, with Hannah Pingree elected governor and the party gaining a state Senate supermajority.",
+      "domain": "www.bostonglobe.com",
+      "source_date": "2026-11-05",
+      "page_title": "How Troy Jackson toppled Susan Collins in Maine Senate race",
+      "tags": [
+        "politics",
+        "news"
+      ],
+      "markdown_path": "culture/how-troy-jackson-toppled-susan-collins-in-maine-senate-race-1473.md"
+    },
+    {
+      "id": 1474,
+      "url": "https://www.nytimes.com/2026/11/03/opinion/midterm-elections-politics-ken-burns.html",
+      "title": null,
+      "description": "Ken Burns: What’s at stake in the midterms",
+      "summary": "Ken Burns: What’s at stake in the midterms",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-11-03",
+      "page_title": null,
+      "tags": [
+        "politics",
+        "news"
+      ],
+      "markdown_path": "culture/ken-burns-what-s-at-stake-in-the-midterms-1474.md"
+    },
+    {
+      "id": 1475,
+      "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "title": null,
+      "description": "If you love a website, back it up",
+      "summary": "A blog post urges readers to personally archive websites they love, since sites can disappear or be repurposed at any time (the author's favorite fansite was lost and its domain now serves gambling ads). It walks through free and paid tools for personal web archiving, including the ArchiveWeb.page browser extension and app for single pages or small sites, and Browsertrix for crawling larger sites, along with ways to view, share, and keep copies of the resulting WACZ/WARC files.",
+      "domain": "blog.mistys-internet.website",
+      "source_date": "2026-11-02",
+      "page_title": "If you love a website, back it up - The Future Is Now",
+      "tags": [
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/if-you-love-a-website-back-it-up-the-future-is-now-1475.md"
+    },
     {
       "id": 1466,
       "url": "https://mobileapp.bostonglobe.com/11012026_7ca76882-d3bb-11f1-b629-0793d06fd25c/content.html",
@@ -23082,17 +23221,17 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 425
+      "count": 426
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 364
+      "count": 367
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 297
+      "count": 298
     },
     {
       "name": "academic-paper",
@@ -23102,12 +23241,12 @@
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 269
+      "count": 270
     },
     {
       "name": "cli-tool",
       "category": "technical_topic",
-      "count": 233
+      "count": 235
     },
     {
       "name": "video",
@@ -23117,7 +23256,7 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 228
+      "count": 229
     },
     {
       "name": "music",
@@ -23125,14 +23264,14 @@
       "count": 145
     },
     {
-      "name": "python",
-      "category": "programming_language",
+      "name": "news",
+      "category": "culture",
       "count": 144
     },
     {
-      "name": "news",
-      "category": "culture",
-      "count": 141
+      "name": "python",
+      "category": "programming_language",
+      "count": 144
     },
     {
       "name": "devops",
@@ -23157,7 +23296,7 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 70
+      "count": 71
     },
     {
       "name": "database",
@@ -23170,34 +23309,34 @@
       "count": 53
     },
     {
+      "name": "biology",
+      "category": "science",
+      "count": 44
+    },
+    {
       "name": "physics",
       "category": "science",
       "count": 43
     },
     {
-      "name": "biology",
-      "category": "science",
-      "count": 43
+      "name": "politics",
+      "category": "culture",
+      "count": 41
     },
     {
       "name": "c",
       "category": "programming_language",
-      "count": 39
+      "count": 40
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 39
+      "name": "rust",
+      "category": "programming_language",
+      "count": 38
     },
     {
       "name": "lisp",
       "category": "programming_language",
       "count": 38
-    },
-    {
-      "name": "rust",
-      "category": "programming_language",
-      "count": 37
     },
     {
       "name": "javascript",
@@ -23215,6 +23354,11 @@
       "count": 22
     },
     {
+      "name": "emulator",
+      "category": "technical_topic",
+      "count": 20
+    },
+    {
       "name": "common-lisp",
       "category": "programming_language",
       "count": 20
@@ -23222,11 +23366,6 @@
     {
       "name": "gaming",
       "category": "culture",
-      "count": 19
-    },
-    {
-      "name": "emulator",
-      "category": "technical_topic",
       "count": 19
     },
     {
@@ -23245,12 +23384,12 @@
       "count": 16
     },
     {
-      "name": "movie",
+      "name": "recipe",
       "category": "culture",
-      "count": 15
+      "count": 16
     },
     {
-      "name": "recipe",
+      "name": "movie",
       "category": "culture",
       "count": 15
     },
@@ -23297,7 +23436,7 @@
     {
       "name": "statistics",
       "category": "science",
-      "count": 6
+      "count": 7
     },
     {
       "name": "ruby",
@@ -23325,14 +23464,14 @@
       "count": 3
     },
     {
-      "name": "gardening",
-      "category": "culture",
+      "name": "nix",
+      "category": "programming_language",
       "count": 2
     },
     {
-      "name": "nix",
-      "category": "programming_language",
-      "count": 1
+      "name": "gardening",
+      "category": "culture",
+      "count": 2
     },
     {
       "name": "java",
@@ -23348,7 +23487,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 168
+      "count": 169
     },
     {
       "domain": "www.threads.net",
@@ -23360,7 +23499,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 32
+      "count": 33
     },
     {
       "domain": "simonwillison.net",
@@ -23399,11 +23538,15 @@
       "count": 9
     },
     {
+      "domain": "www.newyorker.com",
+      "count": 8
+    },
+    {
       "domain": "www.anthropic.com",
       "count": 7
     },
     {
-      "domain": "www.newyorker.com",
+      "domain": "www.bostonglobe.com",
       "count": 7
     },
     {
@@ -23411,16 +23554,12 @@
       "count": 7
     },
     {
+      "domain": "cooking.nytimes.com",
+      "count": 6
+    },
+    {
       "domain": "gwern.net",
       "count": 6
-    },
-    {
-      "domain": "www.bostonglobe.com",
-      "count": 6
-    },
-    {
-      "domain": "cooking.nytimes.com",
-      "count": 5
     },
     {
       "domain": "dl.acm.org",
@@ -24056,6 +24195,10 @@
     },
     {
       "domain": "blog.lysk.tech",
+      "count": 1
+    },
+    {
+      "domain": "blog.mistys-internet.website",
       "count": 1
     },
     {
@@ -25171,6 +25314,10 @@
       "count": 1
     },
     {
+      "domain": "meccanicos.com",
+      "count": 1
+    },
+    {
       "domain": "mecha.so",
       "count": 1
     },
@@ -25228,6 +25375,10 @@
     },
     {
       "domain": "missing.csail.mit.edu",
+      "count": 1
+    },
+    {
+      "domain": "mitchellh.com",
       "count": 1
     },
     {
@@ -26496,6 +26647,10 @@
     },
     {
       "domain": "www.lix.polytechnique.fr",
+      "count": 1
+    },
+    {
+      "domain": "www.lorekit.io",
       "count": 1
     },
     {
