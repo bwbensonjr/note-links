@@ -1,6 +1,354 @@
 {
-  "exported_at": "2026-11-08T16:36:41.576325",
+  "exported_at": "2026-11-15T09:10:38.263573",
   "links": [
+    {
+      "id": 1477,
+      "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+      "title": null,
+      "description": "Formalizing the U.S. tax code using Lean",
+      "summary": "Lexifina used the Lean proof checker to formalize the US Internal Revenue Code (Title 26), using the official structured text and the IRS's own worked examples as tests. The checks found 138 real drafting faults in the code, such as dead cross-references, typos, and unclosed parentheses, each traced to the law that introduced it. The team also built a formal model of the 2025 federal income tax, which revealed inconsistencies such as the SALT cap letting married couples deduct more by filing separately, and checked it against three other tax programs on 5,000 sample households.",
+      "domain": "lexifina.com",
+      "source_date": "2026-11-15",
+      "page_title": "Formalizing the US tax code | Lexifina",
+      "tags": [
+        "mathematics",
+        "politics"
+      ],
+      "markdown_path": "science/formalizing-the-us-tax-code-lexifina-1477.md"
+    },
+    {
+      "id": 1476,
+      "url": "https://www.nytimes.com/2026/11/15/opinion/nate-silver-democrats-midterms-president.html",
+      "title": null,
+      "description": "Nate Silver breaks down possible 2028 Presidential candidates by ideology and fighter vs. uniter",
+      "summary": "Nate Silver assesses 27 Democratic politicians who will likely shape the party's future after its strong 2026 midterm performance, even though the Democratic brand remains unpopular. The group includes likely 2028 presidential contenders and the \"Class of 2026\" rising stars who won breakthrough victories, plus New York Mayor Zohran Mamdani as a special case. The preview doesn't include his full analysis, which the user's note says sorts the candidates by ideology and by whether they are a fighter or a uniter.",
+      "domain": "www.nytimes.com",
+      "source_date": "2026-11-15",
+      "page_title": "Opinion | Nate Silver’s Unscientific, Totally Subjective Breakdown of the Democrats’ Future Stars - The New York Times",
+      "tags": [
+        "politics",
+        "news"
+      ],
+      "markdown_path": "culture/opinion-nate-silver-s-unscientific-totally-subjective-1476.md"
+    },
+    {
+      "id": 1483,
+      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "title": null,
+      "description": "A technical vision for the Haskell ecosystem",
+      "summary": "The Haskell Foundation's technical leadership committee has outlined its vision for the Haskell ecosystem, centered on balancing human craftsmanship with machine automation, with goals spanning faster iteration and build times, better debugging and onboarding, long-term stability with fewer breaking changes, a secure and trustworthy infrastructure, and a thriving open source community. The committee is now operational and seeking companies, contractors, and volunteers to help fund, propose, and execute these initiatives, with community proposals open to comment and counter-proposals.",
+      "domain": "discourse.haskell.org",
+      "source_date": "2026-11-14",
+      "page_title": "A technical vision for the Haskell ecosystem - Haskell Foundation - Haskell Community",
+      "tags": [
+        "haskell",
+        "tutorial"
+      ],
+      "markdown_path": "programming-language/a-technical-vision-for-the-haskell-ecosystem-haskell-1483.md"
+    },
+    {
+      "id": 1482,
+      "url": "https://open.spotify.com/track/7haLndcc43dMQVYLsR92gB?si=492b7130083a4576",
+      "title": null,
+      "description": "Larry Coryell guitar solo - June the 15th, 1967",
+      "summary": "The Spotify page is for \"June the 15th, 1967,\" a 4:52 track by the Gary Burton Quartet from their 1968 album *Lofty Fake Anagram*, released by RCA Records. The page offers no lyrics or detailed description, but the user's note highlights a guitar solo by Larry Coryell as the track's standout feature.",
+      "domain": "open.spotify.com",
+      "source_date": "2026-11-14",
+      "page_title": "June the 15th, 1967 - song and lyrics by Gary Burton Quartet | Spotify",
+      "tags": [
+        "music"
+      ],
+      "markdown_path": "culture/june-the-15th-1967-song-and-lyrics-by-gary-burton-quartet-1482.md"
+    },
+    {
+      "id": 1481,
+      "url": "https://open.spotify.com/album/4oSUqIo6gVVZc61Z6JCCfF?si=qqTPyvE8Rju1nlUCpxJY7A",
+      "title": null,
+      "description": "Gary Burton - Lofty Fake Anagram",
+      "summary": "Lofty Fake Anagram is a 1968 album by the Gary Burton Quartet, containing nine tracks running about 38 minutes, including songs such as \"Feelings and Things,\" \"Fleurette Africaine,\" and \"Good Citizen Swallow.\" The page is a Spotify listing that also suggests related albums by Gary Burton, such as \"Duster,\" \"A Genuine Tong Funeral,\" and \"Passengers.\"",
+      "domain": "open.spotify.com",
+      "source_date": "2026-11-14",
+      "page_title": "Listen to Lofty Fake Anagram - Album by Gary Burton Quartet | Spotify",
+      "tags": [
+        "music",
+        "podcast"
+      ],
+      "markdown_path": "culture/listen-to-lofty-fake-anagram-album-by-gary-burton-quartet-1481.md"
+    },
+    {
+      "id": 1480,
+      "url": "https://open.spotify.com/album/5GAhJGGLPm8sUyqM82JlD0?si=BNyxmXy1TV6EQ57GaEY-5g",
+      "title": null,
+      "description": "Kenny Burrell - Blues: The Common Ground",
+      "summary": "Kenny Burrell's 1968 album *Blues: The Common Ground* is an 11-track, 38-minute collection that blends blues standards like \"Every Day I Have the Blues\" and \"See See Rider\" with original compositions such as \"The Preacher\" and \"Soulful Brothers.\" The page is a Spotify listing that shows the tracklist along with other Kenny Burrell albums, including *Midnight Blue* and *Kenny Burrell & John Coltrane*. The key takeaway is that this is a guitar-driven blues record from a jazz-leaning artist, offering a laid-back, soulful listen.",
+      "domain": "open.spotify.com",
+      "source_date": "2026-11-14",
+      "page_title": "Listen to Blues - The Common Ground - Album by Kenny Burrell | Spotify",
+      "tags": [
+        "music"
+      ],
+      "markdown_path": "culture/listen-to-blues-the-common-ground-album-by-kenny-burrell-1480.md"
+    },
+    {
+      "id": 1479,
+      "url": "https://open.spotify.com/track/6lFZPEWyd7zNEjTx6XN9Jj?si=ca86f02e1fcd47de",
+      "title": null,
+      "description": "Wes Montgomery - Down Here on the Ground - Georgia on My Mind",
+      "summary": "This Spotify page features \"Georgia On My Mind,\" a 2:46 track by jazz guitarist Wes Montgomery from his 1996 compilation *Wes Montgomery: Greatest Hits*. The page also lists related Montgomery tracks and albums, such as *Down Here On The Ground* (1968) and *The Incredible Jazz Guitar of Wes Montgomery* (1960), which the user's note points to. Lyrics are not shown, and listening requires signing in to Spotify.",
+      "domain": "open.spotify.com",
+      "source_date": "2026-11-14",
+      "page_title": "Georgia On My Mind - song and lyrics by Wes Montgomery | Spotify",
+      "tags": [
+        "music"
+      ],
+      "markdown_path": "culture/georgia-on-my-mind-song-and-lyrics-by-wes-montgomery-spotify-1479.md"
+    },
+    {
+      "id": 1478,
+      "url": "https://open.spotify.com/track/68hepmj2VLeshbN7UuzyBN?si=8b775bc82b6948bd",
+      "title": null,
+      "description": "Wes Montgomery - [*Live at the Half Note*]() - *If you could see me now*",
+      "summary": "This Spotify page lists \"If You Could See Me Now,\" an 8-minute-23-second live jazz track by guitarist Wes Montgomery and the Wynton Kelly Trio. It comes from *Smokin' at the Half Note*, recorded in 1965 and released by Verve. The page also suggests related Montgomery and Kelly recordings, but full playback requires signing in.",
+      "domain": "open.spotify.com",
+      "source_date": "2026-11-14",
+      "page_title": "If You Could See Me Now - song and lyrics by Wes Montgomery, Wynton Kelly Trio | Spotify",
+      "tags": [
+        "music"
+      ],
+      "markdown_path": "culture/if-you-could-see-me-now-song-and-lyrics-by-wes-montgomery-1478.md"
+    },
+    {
+      "id": 1484,
+      "url": "https://open.m-vave.com/fm1-workbench",
+      "title": null,
+      "description": "FM1 workbench",
+      "summary": "The FM1 workbench page is a quick-start guide for the FM1 hardware and its web editor, which has 8 tracks, 6 sound engines, and 16 built-in projects. It walks users through auditioning presets, changing sounds and sequencing steps, balancing the mix with mute and solo, and saving projects to the device or browser. The key takeaway is that most common actions use single keys on the device, with deeper editing available through long-press menus and the web interface.",
+      "domain": "open.m-vave.com",
+      "source_date": "2026-11-13",
+      "page_title": "FM1 工作台",
+      "tags": [
+        "music",
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "culture/fm1-1484.md"
+    },
+    {
+      "id": 1486,
+      "url": "https://graphics.cs.utah.edu/teapot/",
+      "title": null,
+      "description": "The Utah teapot",
+      "summary": "The Utah Teapot is a famous computer graphics test model, first created by Martin Newell in 1975 using Bézier patches and later modified by Jim Blinn, Frank Crow, Hank Driskill, Russ Fish, and Cem Yuksel. It became a standard benchmark for graphics algorithms, appears in SIGGRAPH papers, and is included in many rendering and modeling programs. This official page lets users visualize, customize, and download its historical versions, which are freely available for any use with a request for attribution.",
+      "domain": "graphics.cs.utah.edu",
+      "source_date": "2026-11-12",
+      "page_title": "Utah Teapot",
+      "tags": [
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/utah-teapot-1486.md"
+    },
+    {
+      "id": 1485,
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "title": null,
+      "description": "Socratic tutor agent skill",
+      "summary": "This GitHub page hosts a \"socratic-tutor\" agent skill that turns an AI assistant into a personal tutor for taking a user from their current level to mastery of a topic. Instead of lecturing, it teaches mainly through probing questions, starting with a short diagnostic, tracking progress across subskills on a 0-5 scale with ASCII skill maps, and using strict evaluation, spaced review, and a final assessment before completion. It is meant for explicit requests to be taught, quizzed, or drilled, not for one-off \"what is X\" questions, and it includes commands for showing progress, adjusting difficulty, saving and resuming sessions.",
+      "domain": "github.com",
+      "source_date": "2026-11-12",
+      "page_title": "agent_skills/socratic-tutor/SKILL.md at master · janestreet/agent_skills · GitHub",
+      "tags": [
+        "github-repo",
+        "ai",
+        "llm",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/agent-skills-socratic-tutor-skill-md-at-master-janestreet-1485.md"
+    },
+    {
+      "id": 1489,
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "title": null,
+      "description": "Lock your GitHub actions",
+      "summary": "GitHub Actions now supports workflow lockfiles, which let you use readable version tags like vX.Y.Z while still pinning each action to an immutable commit SHA, protecting against supply-chain attacks that repoint mutable tags to malicious code. The author walks through installing the gh-actions-lock extension, generating an actions.lock file, committing it alongside the workflows, and adding a CI job to verify the lockfile stays in sync. They also recommend running zizmor, a security linter for GitHub Actions that supports lockfiles from v1.32.0 onward.",
+      "domain": "hugovk.dev",
+      "source_date": "2026-11-11",
+      "page_title": "Lock your GitHub Actions · Hugo van Kemenade",
+      "tags": [
+        "devops",
+        "security",
+        "tutorial",
+        "github-repo"
+      ],
+      "markdown_path": "technical-topic/lock-your-github-actions-hugo-van-kemenade-1489.md"
+    },
+    {
+      "id": 1488,
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "title": null,
+      "description": "93% of Paint Splatters are Valid Perl Programs",
+      "summary": "93% of Paint Splatters are Valid Perl Programs | Colin McMillen - 93% of Paint Splatters are Valid Perl Programs",
+      "domain": "www.mcmillen.dev",
+      "source_date": "2026-11-11",
+      "page_title": "93% of Paint Splatters are Valid Perl Programs | Colin McMillen",
+      "tags": [
+        "academic-paper"
+      ],
+      "markdown_path": "technical-topic/93-of-paint-splatters-are-valid-perl-programs-colin-mcmillen-1488.md"
+    },
+    {
+      "id": 1487,
+      "url": "https://github.com/aws/aws-emulator",
+      "title": null,
+      "description": "AWS emulator",
+      "summary": "AWS Emulator is a local, headless program that emulates AWS API endpoints, letting developers test software on their own machine, in CI, or in-process (for Rust tests) without an AWS account or extra service fees. You point the AWS CLI or SDKs at the emulator by setting environment variables, and it is intended only for building and testing, not for production or security testing. The repository also covers installation options, telemetry (on by default, but can be disabled), and known fidelity gaps, and it does not accept pull requests.",
+      "domain": "github.com",
+      "source_date": "2026-11-11",
+      "page_title": "GitHub - aws/aws-emulator: AWS Emulator is a local emulator of the AWS APIs. · GitHub",
+      "tags": [
+        "emulator",
+        "github-repo",
+        "devops",
+        "rust"
+      ],
+      "markdown_path": "technical-topic/github-aws-aws-emulator-aws-emulator-is-a-local-emulator-of-1487.md"
+    },
+    {
+      "id": 1490,
+      "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+      "title": null,
+      "description": "Six Math Essentials by Terence Tao",
+      "summary": "Terence Tao's *Six Math Essentials* is a slim 128-page book, published by Quanta Books and Farrar, Straus and Giroux, that introduces six foundational mathematical concepts: numbers, algebra, geometry, probability, analysis, and dynamics. Each concept is presented as a tool for quantitative thinking and for making sense of a complex world, from ancient mathematics to current frontiers. The book's key takeaway is that these six ideas are central to how we model and navigate both the known and the uncertain.",
+      "domain": "teorth.github.io",
+      "source_date": "2026-11-10",
+      "page_title": "Six Math Essentials",
+      "tags": [
+        "mathematics",
+        "nonfiction-book"
+      ],
+      "markdown_path": "science/six-math-essentials-1490.md"
+    },
+    {
+      "id": 1497,
+      "url": "https://e-means.github.io/",
+      "title": null,
+      "description": "e-means: outperforming k-means in one-tenth the epochs",
+      "summary": "e-means is a new optimization method for the k-means clustering problem that uses mini-batch updates with exponential moving averages, automatically tuned via scaling laws, rather than the full-batch Lloyd's algorithm. It reaches a lower test loss than Lloyd's algorithm in roughly 1.2 to 3 epochs (versus about 25), delivering 10–45× wall-clock speedups over Flash-KMeans on GPU and 8–15× over Faiss on CPU. Unlike typical speed-versus-quality tradeoffs in k-means, it improves both speed and final clustering loss.",
+      "domain": "e-means.github.io",
+      "source_date": "2026-11-09",
+      "page_title": "e-means: 10x faster k-means at equal loss - Blog",
+      "tags": [
+        "ai",
+        "statistics",
+        "mathematics"
+      ],
+      "markdown_path": "technical-topic/e-means-10x-faster-k-means-at-equal-loss-blog-1497.md"
+    },
+    {
+      "id": 1496,
+      "url": "https://postalpro.usps.com/zcb",
+      "title": null,
+      "description": "The USPS now provides zip code polygon boundaries",
+      "summary": "USPS ZIP Code Boundaries is a national map of ZIP Code boundaries built from USPS delivery address and location data, updated quarterly in internal, enterprise, and publication versions. The data is useful to industries such as mapping, marketing, insurance, real estate, logistics, and transportation for tasks like correcting existing ZIP Code data, organizing demographic information, and optimizing delivery routing. The page also offers fact sheets, technical guides, sample data files, and license and order forms for accessing the product.",
+      "domain": "postalpro.usps.com",
+      "source_date": "2026-11-09",
+      "page_title": "USPS® ZIP Code Boundaries | PostalPro",
+      "tags": [
+        "database"
+      ],
+      "markdown_path": "technical-topic/usps-zip-code-boundaries-postalpro-1496.md"
+    },
+    {
+      "id": 1495,
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "title": null,
+      "description": "Writing as a thinking tool",
+      "summary": "Murat Buffalo argues that writing is a powerful thinking tool, not just a way to record ideas: drawing on Manuel Blum's point that writing gives a finite automaton the power of a Turing machine, he claims it lets people externalize and process thoughts they could not hold alone. He also contends that writing matters even more in the age of LLMs, since a model cannot do your creative thinking for you, and he offers practical rules for writing to think, such as producing messy drafts first, editing ruthlessly, keeping prose plain, and writing for yourself.",
+      "domain": "muratbuffalo.blogspot.com",
+      "source_date": "2026-11-09",
+      "page_title": "Writing as a thinking tool",
+      "tags": [
+        "llm",
+        "tutorial"
+      ],
+      "markdown_path": "technical-topic/writing-as-a-thinking-tool-1495.md"
+    },
+    {
+      "id": 1494,
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "title": null,
+      "description": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders",
+      "summary": "Goldman Sachs has restricted tools like Anthropic's Claude Code and Microsoft's GitHub Copilot to its engineers, cutting off traders and bankers who used them to track client flows and build market models. The change, made through an October guidance update, follows a review of productivity and risk concerns, particularly around unreviewed code running on trading desks and information barrier rules. The article argues the restriction was justified but poorly handled, since it withdrew tools that non-engineers had been relying on without offering a replacement.",
+      "domain": "www.thestateofai.com",
+      "source_date": "2026-11-09",
+      "page_title": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders | State of AI",
+      "tags": [
+        "news",
+        "ai",
+        "llm",
+        "security"
+      ],
+      "markdown_path": "culture/goldman-sachs-is-pulling-claude-code-from-its-bankers-and-1494.md"
+    },
+    {
+      "id": 1493,
+      "url": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+      "title": null,
+      "description": "The Qlobe - a rotating quine",
+      "summary": "The Qlobe is a self-reproducing Ruby program (a quine) by Yusuke Endoh that displays an ASCII art globe. Each copy is rotated, so running it turns the globe 45 degrees and it completes a full rotation after eight runs. Endoh wrote it for RubyConf as a \"global\" quine rather than one specialized for Japanese.",
+      "domain": "mamememo.blogspot.com",
+      "source_date": "2026-11-09",
+      "page_title": "mamememo: The Qlobe",
+      "tags": [
+        "ruby"
+      ],
+      "markdown_path": "programming-language/mamememo-the-qlobe-1493.md"
+    },
+    {
+      "id": 1492,
+      "url": "https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer",
+      "title": null,
+      "description": "Quasi-logarithmic kitchen timer",
+      "summary": "The author built a custom kitchen timer that uses a repurposed vintage analog panel meter as its display, a knurled knob for quick time adjustment, and a maple enclosure, in place of the cluttered and hard-to-use digital timers on their appliances. Its dial uses a compromise quasi-logarithmic scale split into four linear sections, so short intervals are precise and longer ones are still easy to read. The project is driven by an 8-bit AVR microcontroller with a wake-up-tap UI and a 15-second repeating alarm.",
+      "domain": "blog.coredump.cx",
+      "source_date": "2026-11-09",
+      "page_title": "Quasi-logarithmic kitchen timer - lcamtuf’s thing",
+      "tags": [
+        "c"
+      ],
+      "markdown_path": "programming-language/quasi-logarithmic-kitchen-timer-lcamtuf-s-thing-1492.md"
+    },
+    {
+      "id": 1491,
+      "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+      "title": null,
+      "description": "Fun things to do with your VM/370 CE machine",
+      "summary": "This web page is a guide to using VM/370 Community Edition, an improved, freely usable version of IBM's 1970s mainframe operating system, which can be run via Docker or on a real or nested mainframe. It walks readers through connecting with a 3270 terminal emulator, logging on to CMS, customizing the PROFILE EXEC file, and writing and running a simple BASIC program. The key takeaway is that it offers an accessible, hands-on way to explore classic mainframe computing while cautioning against exposing such systems to the internet.",
+      "domain": "rbanffy.github.io",
+      "source_date": "2026-11-09",
+      "page_title": "Fun things to do with your VM/370 CE machine | Fun with big computers",
+      "tags": [
+        "tutorial",
+        "emulator",
+        "security"
+      ],
+      "markdown_path": "technical-topic/fun-things-to-do-with-your-vm-370-ce-machine-fun-with-big-1491.md"
+    },
+    {
+      "id": 1498,
+      "url": "https://ketchup3d.github.io/app/",
+      "title": null,
+      "description": "KetchUp - A free, open source SketchUp clone",
+      "summary": "BenchUp is a free, open-source 3D design app, positioned as an alternative to SketchUp and aimed at woodworking and furniture design. You can sketch lines, rectangles, circles, and freehand outlines, then use Push/Pull to turn flat faces into 3D forms. From there, you can move, scale, offset, and paint your models.",
+      "domain": "ketchup3d.github.io",
+      "source_date": "2026-11-08",
+      "page_title": "BenchUp — Free 3D Woodworking & Furniture Design App",
+      "tags": [
+        "web-dev",
+        "github-repo",
+        "javascript"
+      ],
+      "markdown_path": "technical-topic/benchup-free-3d-woodworking-furniture-design-app-1498.md"
+    },
     {
       "id": 1469,
       "url": "https://cooking.nytimes.com/recipes/1024437-chicken-enchiladas?smid=nytcore-ios-share",
@@ -23221,27 +23569,27 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 426
+      "count": 432
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 367
+      "count": 370
     },
     {
       "name": "github-repo",
       "category": "technical_topic",
-      "count": 298
+      "count": 302
     },
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 284
+      "count": 285
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 270
+      "count": 273
     },
     {
       "name": "cli-tool",
@@ -23256,17 +23604,17 @@
     {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 229
+      "count": 232
     },
     {
       "name": "music",
       "category": "culture",
-      "count": 145
+      "count": 151
     },
     {
       "name": "news",
       "category": "culture",
-      "count": 144
+      "count": 146
     },
     {
       "name": "python",
@@ -23276,7 +23624,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 140
+      "count": 142
     },
     {
       "name": "compilers",
@@ -23286,7 +23634,7 @@
     {
       "name": "nonfiction-book",
       "category": "culture",
-      "count": 125
+      "count": 126
     },
     {
       "name": "social-media",
@@ -23296,12 +23644,12 @@
     {
       "name": "security",
       "category": "technical_topic",
-      "count": 71
+      "count": 74
     },
     {
       "name": "database",
       "category": "technical_topic",
-      "count": 68
+      "count": 69
     },
     {
       "name": "distributed-systems",
@@ -23314,24 +23662,24 @@
       "count": 44
     },
     {
+      "name": "politics",
+      "category": "culture",
+      "count": 43
+    },
+    {
       "name": "physics",
       "category": "science",
       "count": 43
     },
     {
-      "name": "politics",
-      "category": "culture",
-      "count": 41
-    },
-    {
       "name": "c",
       "category": "programming_language",
-      "count": 40
+      "count": 41
     },
     {
       "name": "rust",
       "category": "programming_language",
-      "count": 38
+      "count": 39
     },
     {
       "name": "lisp",
@@ -23339,14 +23687,14 @@
       "count": 38
     },
     {
-      "name": "javascript",
-      "category": "programming_language",
-      "count": 27
-    },
-    {
       "name": "mathematics",
       "category": "science",
-      "count": 27
+      "count": 30
+    },
+    {
+      "name": "javascript",
+      "category": "programming_language",
+      "count": 28
     },
     {
       "name": "scheme",
@@ -23356,7 +23704,7 @@
     {
       "name": "emulator",
       "category": "technical_topic",
-      "count": 20
+      "count": 22
     },
     {
       "name": "common-lisp",
@@ -23396,7 +23744,7 @@
     {
       "name": "haskell",
       "category": "programming_language",
-      "count": 13
+      "count": 14
     },
     {
       "name": "astronomy",
@@ -23411,7 +23759,7 @@
     {
       "name": "podcast",
       "category": "culture",
-      "count": 10
+      "count": 11
     },
     {
       "name": "fiction-book",
@@ -23436,12 +23784,12 @@
     {
       "name": "statistics",
       "category": "science",
-      "count": 7
+      "count": 8
     },
     {
       "name": "ruby",
       "category": "programming_language",
-      "count": 5
+      "count": 6
     },
     {
       "name": "elixir",
@@ -23487,7 +23835,7 @@
   "all_domains": [
     {
       "domain": "github.com",
-      "count": 169
+      "count": 171
     },
     {
       "domain": "www.threads.net",
@@ -23499,7 +23847,7 @@
     },
     {
       "domain": "www.nytimes.com",
-      "count": 33
+      "count": 34
     },
     {
       "domain": "simonwillison.net",
@@ -23515,7 +23863,7 @@
     },
     {
       "domain": "open.spotify.com",
-      "count": 13
+      "count": 18
     },
     {
       "domain": "www.quantamagazine.org",
@@ -23682,6 +24030,10 @@
       "count": 2
     },
     {
+      "domain": "blog.coredump.cx",
+      "count": 2
+    },
+    {
       "domain": "blog.racket-lang.org",
       "count": 2
     },
@@ -23791,6 +24143,10 @@
     },
     {
       "domain": "tailscale.com",
+      "count": 2
+    },
+    {
+      "domain": "teorth.github.io",
       "count": 2
     },
     {
@@ -24151,10 +24507,6 @@
     },
     {
       "domain": "blog.computationalcomplexity.org",
-      "count": 1
-    },
-    {
-      "domain": "blog.coredump.cx",
       "count": 1
     },
     {
@@ -24594,6 +24946,10 @@
       "count": 1
     },
     {
+      "domain": "discourse.haskell.org",
+      "count": 1
+    },
+    {
       "domain": "discuss.python.org",
       "count": 1
     },
@@ -24643,6 +24999,10 @@
     },
     {
       "domain": "dwyer.co.za",
+      "count": 1
+    },
+    {
+      "domain": "e-means.github.io",
       "count": 1
     },
     {
@@ -24894,6 +25254,10 @@
       "count": 1
     },
     {
+      "domain": "graphics.cs.utah.edu",
+      "count": 1
+    },
+    {
       "domain": "groups.csail.mit.edu",
       "count": 1
     },
@@ -24963,6 +25327,10 @@
     },
     {
       "domain": "htmx.org",
+      "count": 1
+    },
+    {
+      "domain": "hugovk.dev",
       "count": 1
     },
     {
@@ -25126,6 +25494,10 @@
       "count": 1
     },
     {
+      "domain": "ketchup3d.github.io",
+      "count": 1
+    },
+    {
       "domain": "kevincox.ca",
       "count": 1
     },
@@ -25190,6 +25562,10 @@
       "count": 1
     },
     {
+      "domain": "lexifina.com",
+      "count": 1
+    },
+    {
       "domain": "library.oapen.org",
       "count": 1
     },
@@ -25247,6 +25623,10 @@
     },
     {
       "domain": "makerfairerome.eu",
+      "count": 1
+    },
+    {
+      "domain": "mamememo.blogspot.com",
       "count": 1
     },
     {
@@ -25418,6 +25798,10 @@
       "count": 1
     },
     {
+      "domain": "muratbuffalo.blogspot.com",
+      "count": 1
+    },
+    {
       "domain": "music.xy.dev",
       "count": 1
     },
@@ -25539,6 +25923,10 @@
     },
     {
       "domain": "open-map-maker.vercel.app",
+      "count": 1
+    },
+    {
+      "domain": "open.m-vave.com",
       "count": 1
     },
     {
@@ -25726,6 +26114,10 @@
       "count": 1
     },
     {
+      "domain": "postalpro.usps.com",
+      "count": 1
+    },
+    {
       "domain": "posthog.com",
       "count": 1
     },
@@ -25795,6 +26187,10 @@
     },
     {
       "domain": "ranpara.net",
+      "count": 1
+    },
+    {
+      "domain": "rbanffy.github.io",
       "count": 1
     },
     {
@@ -26063,10 +26459,6 @@
     },
     {
       "domain": "techcrunch.com",
-      "count": 1
-    },
-    {
-      "domain": "teorth.github.io",
       "count": 1
     },
     {
@@ -26682,6 +27074,10 @@
       "count": 1
     },
     {
+      "domain": "www.mcmillen.dev",
+      "count": 1
+    },
+    {
       "domain": "www.mihaileric.com",
       "count": 1
     },
@@ -26875,6 +27271,10 @@
     },
     {
       "domain": "www.theparisreview.org",
+      "count": 1
+    },
+    {
+      "domain": "www.thestateofai.com",
       "count": 1
     },
     {
