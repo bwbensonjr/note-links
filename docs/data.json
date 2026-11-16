@@ -1,6 +1,68 @@
 {
-  "exported_at": "2026-11-15T09:10:38.263573",
+  "exported_at": "2026-11-16T11:44:27.103791",
   "links": [
+    {
+      "id": 1499,
+      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+      "title": null,
+      "description": "How to verify Lean proofs",
+      "summary": "A Lean-verified proof is meaningful evidence, but for AI-generated code it should be checked before being trusted. The author outlines tests to run: confirm that the Lean statement matches the paper's claim, compile the code in a sandbox, and confirm that the proof doesn't hide tricks such as redefined operations or extra axioms. The post notes that many papers in OpenAI's recent theorem dump have not yet been subjected to these checks.",
+      "domain": "xenaproject.wordpress.com",
+      "source_date": "2026-11-16",
+      "page_title": "“…and the proof is checked in Lean” | Xena",
+      "tags": [
+        "mathematics",
+        "ai",
+        "academic-paper"
+      ],
+      "markdown_path": "science/and-the-proof-is-checked-in-lean-xena-1499.md"
+    },
+    {
+      "id": 1502,
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "title": null,
+      "description": "I hooked Claude Code up to my 1993 Jeep and got it to pass CA emissions",
+      "summary": "A YouTube video titled \"Claude reverse engineered my 32-year-old Jeep. Then it started controlling it\" describes connecting Claude Code to a 1993 Jeep, reverse engineering its systems, and using it to control the vehicle. According to the user's note, the setup was used to get the Jeep to pass California emissions testing. The scraped page contains only YouTube's footer text, so this summary relies on the title and note rather than the video's content.",
+      "domain": "www.youtube.com",
+      "source_date": "2026-11-15",
+      "page_title": "Claude reverse engineered my 32-year-old Jeep. Then it started controlling it. - YouTube",
+      "tags": [
+        "video",
+        "llm",
+        "ai"
+      ],
+      "markdown_path": "culture/claude-reverse-engineered-my-32-year-old-jeep-then-it-1502.md"
+    },
+    {
+      "id": 1501,
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "title": null,
+      "description": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "summary": "Bruce Röttgers explains how to self-host map tiles cheaply using PMTiles, a single-file tile format that works via HTTP Range requests and can be served from a CDN like Bunny.net. He walks through downloading a Protomaps build, uploading it to a storage zone with rclone, and configuring the pull zone with referrer restrictions and download limits. He argues this can cost roughly 100 times less than commercial APIs like Mapbox for non-commercial projects that suddenly go viral.",
+      "domain": "bruceroettgers.eu",
+      "source_date": "2026-11-15",
+      "page_title": "Protomaps: Self-hosting map tiles has gotten cheap and easy — Bruce Röttgers",
+      "tags": [
+        "devops",
+        "tutorial",
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/protomaps-self-hosting-map-tiles-has-gotten-cheap-and-easy-1501.md"
+    },
+    {
+      "id": 1500,
+      "url": "https://ductus.sorenblank.com/",
+      "title": null,
+      "description": "Handwriting as a font",
+      "summary": "Ductus is a web tool that turns your own handwriting into a usable font. You write each letter of the alphabet by hand, starting with lowercase, and the site tracks your progress (currently 1 of 26) as you go. Once all the letters are captured, you can set text in your personal handwriting.",
+      "domain": "ductus.sorenblank.com",
+      "source_date": "2026-11-15",
+      "page_title": "Ductus · Your handwriting, as a font",
+      "tags": [
+        "web-dev"
+      ],
+      "markdown_path": "technical-topic/ductus-your-handwriting-as-a-font-1500.md"
+    },
     {
       "id": 1477,
       "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
@@ -23569,12 +23631,12 @@
     {
       "name": "tutorial",
       "category": "technical_topic",
-      "count": 432
+      "count": 433
     },
     {
       "name": "ai",
       "category": "technical_topic",
-      "count": 370
+      "count": 372
     },
     {
       "name": "github-repo",
@@ -23584,12 +23646,12 @@
     {
       "name": "academic-paper",
       "category": "technical_topic",
-      "count": 285
+      "count": 286
     },
     {
       "name": "llm",
       "category": "technical_topic",
-      "count": 273
+      "count": 274
     },
     {
       "name": "cli-tool",
@@ -23597,14 +23659,14 @@
       "count": 235
     },
     {
-      "name": "video",
-      "category": "culture",
-      "count": 233
-    },
-    {
       "name": "web-dev",
       "category": "technical_topic",
-      "count": 232
+      "count": 234
+    },
+    {
+      "name": "video",
+      "category": "culture",
+      "count": 234
     },
     {
       "name": "music",
@@ -23624,7 +23686,7 @@
     {
       "name": "devops",
       "category": "technical_topic",
-      "count": 142
+      "count": 143
     },
     {
       "name": "compilers",
@@ -23689,7 +23751,7 @@
     {
       "name": "mathematics",
       "category": "science",
-      "count": 30
+      "count": 31
     },
     {
       "name": "javascript",
@@ -23843,7 +23905,7 @@
     },
     {
       "domain": "www.youtube.com",
-      "count": 35
+      "count": 36
     },
     {
       "domain": "www.nytimes.com",
@@ -24219,6 +24281,10 @@
     },
     {
       "domain": "www.wired.com",
+      "count": 2
+    },
+    {
+      "domain": "xenaproject.wordpress.com",
       "count": 2
     },
     {
@@ -24622,6 +24688,10 @@
       "count": 1
     },
     {
+      "domain": "bruceroettgers.eu",
+      "count": 1
+    },
+    {
       "domain": "bryananthonio.com",
       "count": 1
     },
@@ -24995,6 +25065,10 @@
     },
     {
       "domain": "dubroy.com",
+      "count": 1
+    },
+    {
+      "domain": "ductus.sorenblank.com",
       "count": 1
     },
     {
@@ -27351,10 +27425,6 @@
     },
     {
       "domain": "www3.nhk.or.jp",
-      "count": 1
-    },
-    {
-      "domain": "xenaproject.wordpress.com",
       "count": 1
     },
     {
